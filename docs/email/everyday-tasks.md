@@ -474,7 +474,7 @@ Organization Address and Contact Info**. For a complete list of action
 and organizational tokens, see:
 [http://wiki.civicrm.org/confluence/display/CRMDOC/Tokens](http://wiki.civicrm.org/confluence/display/CRMDOC41/CiviMail+Action+and+Organizational+Tokens).
 
-NOTE: You are required to include a token for either opt-out OR
+Note: You are required to include a token for either opt-out OR
 unsubscribe, as well as the organizational (domain) address token in
 every CiviMail mailing. These can be placed directly in the body of your
 mailing body, or you can put them in the mailing header or footer. If

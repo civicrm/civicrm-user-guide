@@ -323,7 +323,7 @@ House" or "Volunteering Opportunities").
     box on the navigation menu. The contact name is always included.
 -   **Contact Reference Options** - Selected fields will be displayed in
     autocomplete dropdown search results for 'Contact Reference' custom
-    fields. Contact Name is always included. NOTE: You must assign
+    fields. Contact Name is always included. Note: You must assign
     'access contact reference fields' permission to the anonymous role
     if you want to use custom contact reference fields in profiles on
     public pages. For most situations, you should use the 'Limit List to
@@ -524,4 +524,3 @@ You should now have reviewed all the basic configuration tasks. The
 remaining tasks on the checklist involve an understanding of the ways in
 which you can record and use contact data and are best left until you
 have read more in this book. 
-

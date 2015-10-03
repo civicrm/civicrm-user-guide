@@ -313,7 +313,7 @@ was changed.
 
 ![Contact_ChangeLog](../_edit/static/CiviCRM_update-CiviCore-Contact_ChangeLog-en.jpg "Contact_ChangeLog")
 
-NOTE: Administrators can use the Contact Logging Report to get detailed
+Note: Administrators can use the Contact Logging Report to get detailed
 information on changes to contact records (who, what and when).
 
 Adding contacts

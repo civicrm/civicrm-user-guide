@@ -104,7 +104,7 @@ to the case.
     **Change Case Type**. There is no need to manually add these activity
     types.)
     
-    NOTE - the Activity Types listing needs only those activities that a
+    Note - the Activity Types listing needs only those activities that a
     user **might** **choose** to add to the case. Activities that you
     include in a Timeline or Sequence do not need to be in this list. 
     
