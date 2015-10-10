@@ -1,7 +1,7 @@
 Set-up
 ======
 
-This chapter will help you to set up CiviCampaign so that you can track
+This chapter helps you to set up CiviCampaign so that you can track
 related activities such as contributions, surveys, mailings that are
 part of your particular campaign or project. 
 
