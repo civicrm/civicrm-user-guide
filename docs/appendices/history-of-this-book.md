@@ -6,6 +6,8 @@ lot of the content was written during two book sprints held in 2009 and
 2010 in Tahoe, USA. Many contributions have also been made by
 individuals in the times between and following these sprints.
 
+## Sixth edtion
+ 
 Fifth edition
 -------------
 
