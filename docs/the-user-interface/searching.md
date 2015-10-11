@@ -275,7 +275,7 @@ Contacts in a Group/Tag", that enables you to find contacts who are in
 one group but not in another, which you can find by going to **Search >
 Custom Searches** in the navigation menu.
 
-![](/img/Include:Exclude.png)
+![](/img/IncludeExclude.png)
 
 By combining Include and Exclude options, you can find contacts who are
 in one group but remove just the group members who fit another
