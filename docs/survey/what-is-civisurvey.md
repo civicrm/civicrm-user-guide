@@ -1,4 +1,4 @@
-What is Survey?
+What is CiviSurvey?
 ===============
 
 CiviCampaign has a feature that enables offline surveys by providing a
