@@ -131,14 +131,14 @@ pages:
     - 'Everyday tasks': 'campaign/everyday-tasks.md'
     - 'Reports and analysis': 'campaign/reports-and-analysis.md'
 - Survey:
-    - 'What is Survey?': 'survey/what-is-survey.md'
+    - 'What is CiviSurvey?': 'survey/what-is-civisurvey.md'
     - 'What You Need To Know': 'survey/what-you-need-to-know.md'
     - 'Set-up': 'survey/set-up.md'
     - 'Everyday Tasks': 'survey/everyday-tasks.md'
     - 'Reports and analysis': 'survey/reports-and-analysis.md'
     - 'What is GOTV (Voter Tracking)?': 'survey/what-is-gotv-voter-tracking.md'
 - Petition:
-    - 'What is a Petition?': 'petition/what-is-a-petition.md'
+    - 'What is CiviPetition?': 'petition/what-is-civipetition.md'
     - 'What You Need To Know': 'petition/what-you-need-to-know.md'
     - 'Set-up': 'petition/set-up.md'
     - 'Everyday Tasks': 'petition/everyday-tasks.md'
