@@ -122,8 +122,6 @@ are:
     checked will show up in the autocomplete results list that appears
     when you use the Quick Search bar at the top left of all screens. 
 
-The above Yes/No options are all defaulted to Yes when you first install
-CiviCRM, with the exception of Include Nickname, which defaults to No.
 If your database is large and your searches are slow, consider disabling
 some of these options to increase your speed.
 
