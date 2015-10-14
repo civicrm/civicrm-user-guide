@@ -2,7 +2,7 @@ Reports and analysis
 ====================
 
 You can use CiviReport or CiviCRM's search features for reporting on and
-analysing contributions. 
+analysing contributions.
 
 Contribution reports
 --------------------
@@ -18,7 +18,7 @@ report** is automatically called when clicking on any rows from the
 summary report. It can also be called on its own to provide a detailed
 report for a specific subset of contributions. These two reports can be
 useful for analyses such as what percentage of our income is coming from
-different fundraising campaigns, or from events vs. memberships, etc. 
+different fundraising campaigns, or from events vs. memberships, etc.
 
 The **repeat contribution report**compares the total amount of
 contributions that contacts have made in two different time periods. As
@@ -26,7 +26,7 @@ well as the totals, it shows the percentage increase/decrease. This
 report is useful for tracking contacts who have stepped up their giving,
 or who giving less than before. **SYBUNT** **report** AND **LYBUNT**
 **report** are two strangely named but useful reports that allow you to
-find donors that gave in 'some years / last year but not this year'. 
+find donors that gave in 'some years / last year but not this year'.
 
 Two reports, the **contribution by household report**and **contribution
 by organisation** **report**allow you to aggregate
@@ -66,7 +66,7 @@ invoice ID, payment instrument and check number.
 
 These reports has been configured to display particular information but
 you can create a new report from the relevant report template to suit
-your particular needs. See *Reporting Set-up* for details. 
+your particular needs. See *Reporting Set-up* for details.
 
 Searching based on contribution data
 ------------------------------------
@@ -89,7 +89,7 @@ You can also choose **contribution** from the **Display Results As**
 column to show contributions rather than contacts.
 
 Searching based on criteria gives you access to simple totals and also
-the option to export as CSV for further analysis. 
+the option to export as CSV for further analysis.
 
 More analysis
 -------------
@@ -97,5 +97,3 @@ More analysis
 If you can't do what you want with a built in report or search, consider
 commissioning a new report or custom search. Read the CiviReport section
 for more information.
-
-

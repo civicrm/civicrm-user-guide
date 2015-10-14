@@ -95,3 +95,81 @@ contributions to be credited to the wrong contact. To mitigate the
 chance of this happening, you can adjust CiviCRM's default duplicate
 matching rules. For instructions on how to do this, *see the chapter
 Merging and Deduping in the Basic Concepts section of this book*.
+
+###Thank-you and Receipting
+
+Once you have created your contribution page, you can customise the
+Thank-you and Receipt emails that are sent to contributors.
+
+1.  Navigate to **Administer > CiviContribute > Manage Contribution
+    Pages**.
+2.  Use the **Configure** link at the right-hand side of a contribution
+    page in the list to access and edit the page.
+3.  Click on **Thank-you and Receipting** and enter the information that
+    you wish to appear in the thank-you email. Donors usually expect a
+    receipt as soon as their transaction is complete, so it is
+    recommended to enable the automatic Email Receipt.
+4.  Click **Save and Done**.
+
+Publicizing your contribution page
+----------------------------------
+
+Now that you've created your contribution page, it's time to bring
+people to the page so they can contribute. You will probably want to
+display a link to the page prominently on your website through a donate
+button or menu item. Here are some additional tips for promoting a
+contribution page in different CiviCRM configurations:
+
+### **Menu item in Joomla!**
+
+The most direct way to expose your contribution page or membership
+signup/renewal page on the front of your web site is by creating a menu
+item.
+
+1.  Navigate to a menu and create a new CiviCRM item.
+2.  From the list of menu options, choose Contributions.
+3.  In the basic parameters section, select the contribution page you
+    would like exposed from the dropdown menu.
+4.  Save the menu item and view the website to confirm the page's
+    functionality.
+
+### **Menu item in Drupal**
+
+From the contribution page listing, select Live Page to view the
+finished page. You can then copy the URL and include it in a content
+page or assign it to a menu item.
+
+### **Page or Post in WordPress**
+
+You can easily embed your contribution page in a post or page on your
+WordPress front-end site.
+
+1.  Login to the administration dashboard of your WordPress site.
+2.  Click on **Pages** or **Posts > Add New**
+3.  Click on the CiviCRM icon next to Upload / Insert
+4.  Select Contribution Page as your Frontend Element
+5.  Select the desired contribution page
+6.  Save the page or post, and your contribution page will automatically
+    be embedded within your site's theme on that page.
+
+### "Pretty" URLs
+
+CiviContribute contribution pages have "ugly" URLs - in other words,
+they are difficult to remember. An example is *:*
+
+*www.myorganization.org/civicrm/contribute/transact?reset=1&id=1*
+
+On the other hand, "pretty" URLs are much easier to remember and use in
+your organization's outreach, for example:
+
+*www.myorganization.org/donate*
+
+A pretty URL is simply a URL redirect (autmoatically taking people from
+one page of your web site to another). Drupal provides a helpful module
+called Path Redirect
+([http://drupal.org/project/path_redirect](http://drupal.org/project/path_redirect))
+that lets you can create URL redirects from the user interface without
+complicated web server configuration. Joomla! users also have a
+work-around if Search Engine Friendly URLs are enabled in Global
+Settings. You can then create a menu link to the contribution page and
+define the "pretty" URL using the alias field.

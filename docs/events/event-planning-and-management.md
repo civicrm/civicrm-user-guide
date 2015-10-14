@@ -6,7 +6,7 @@ your events. There are lots of things to consider when planning an event
 which will affect the way you set up your event, so it is worth thinking
 about the information in this chapter before you start.
 
-Planning your event 
+Planning your event
 ---------------------
 
 If you are new to CiviEvent, it is a good idea to think about the
@@ -16,7 +16,7 @@ how you set up and configure your events. Here are some important
 questions to consider.
 
 -   What different types of events does your organization hold? And what
-type of event is this? 
+type of event is this?
 
 -   What different roles will participants have at the event?
 
@@ -57,7 +57,7 @@ during events and from event participants. If you run recurring events
 that are very similar, think about using event templates or the event
 copy features to make the set-up processes easier.
 
-Promoting your events 
+Promoting your events
 -----------------------
 
 Getting the word out and building excitement about your event can take
@@ -103,5 +103,4 @@ online. You may want to send a different email to those who registered
 but did not attend. You might also want to use this opportunity to
 promote a new event, suggest that attendees join your organisation as a
 member, or solicit donations for a specific campaign. You can learn more
-about how to do this in *Scheduled Reminders* in the *Email* section. 
-
+about how to do this in *Scheduled Reminders* in the *Email* section.
