@@ -170,6 +170,8 @@ Using rules and merging duplicate contacts
     and activities of both contacts after the merge.
 7.  Click **Merge...** to complete the merge, or **Mark this pair as not
     a duplicate** if you believe the two contacts are not the same.
+8.  When marked as 'not a duplicate', those contacts will be excluded from 
+    all dedupe reults listings.
 
 Merging contacts from search results
 ------------------------------------
