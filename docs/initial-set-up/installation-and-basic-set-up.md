@@ -32,7 +32,7 @@ Wordpress or Joomla!.
 You can find full instructions on installing CiviCRM here:[
 http://wiki.civicrm.org/confluence/display/CRMDOC/Installation+and+Upgrades](http://wiki.civicrm.org/confluence/display/CRMDOC/Installation+and+Upgrades%20)[](http://wiki.civicrm.org/confluence/display/CRMDOC/Installation+and+Upgrades%20)
 
-Internet vs. local installs 
+Internet vs. local installs
 -----------------------------
 
 Most organisations access CiviCRM over the internet. However, some
@@ -40,7 +40,7 @@ organizations who only want internal staff to have access to CiviCRM and
 are security conscious, choose to install CiviCRM on an internal network
 and have it only accessible internally. The downside to an install that
 is not publicly available is that your contacts cannot 'self serve' to
-update their data. 
+update their data.
 
 Upgrades
 --------
@@ -106,7 +106,7 @@ multi-language versions of text. Examples include custom field labels,
 an online contribution page, campaign information, and event
 descriptions.
 
-For more info, have a look here: 
+For more info, have a look here:
 [http://wiki.civicrm.org/confluence/pages/viewpage.action?pageId=88408149](http://wiki.civicrm.org/confluence/pages/viewpage.action?pageId=88408149)
 
 ### Organization Address and Contact Info
@@ -139,7 +139,7 @@ If you want to simplify the administration menu and advanced search page
 then a better approach may be to use permissions (see the Permissions
 and access control chapter).
 
-### Display Preferences 
+### Display Preferences
 
 This screen allows you to modify the screen and form elements for the
 following tasks:
@@ -164,11 +164,7 @@ following tasks:
     should be included in the dashboard here. EXAMPLE: If you don't want
     constituents to view their own contribution history, deselect that
     option.
--   **WYSIWYG Editor** - The editor provided to users to enter text in
-    fields that allow HTML formatting (such as the introductory section
-    for your online contribution pages). You can choose either CKEditor
-    or TinyMCE. It's a good idea to try out both and see which is more
-    comfortable for you and your users.
+-   **WYSIWYG Editor** - Select **CKEditor** to provided users with an easy way to enter text into fields that allow HTML formatting (such as the introductory section for your online contribution pages). You can configure CKEditor (see http://ckeditor.com/) to add or remove functionality as desired. Select **Textarea** if you don't want to provide a WYSIWYG editor.
 -   **Enable Popup Forms** - this is on by default. Uncheck to  revert to opening the form by refreshing the page.
 -   **Individual Display Name** - Display name format for individual
     contact display names.
@@ -196,26 +192,26 @@ Settings screen and make changes as needed.
     ```
     {contact.addressee}
     {contact.street_address}
-    {contact.supplemental_address_1} 
-    {contact.supplemental_address_2} 
+    {contact.supplemental_address_1}
+    {contact.supplemental_address_2}
     {contact.city}{, }{contact.state_province}{ }{contact.postal_code}
-    {contact.country} 
+    {contact.country}
  ```  
-  
+
     You must include the *{contact.addressee}* token here in order to
     include the name of the addressee in your labels. Users will be able
     to select from a variety of label types corresponding to the label
     manufacturer code when they generate the labels from a list of
     contacts. It's a good idea to test your format with the type of
-    label and printer you plan on using to verify spacing. 
+    label and printer you plan on using to verify spacing.
 -   **Address Display** - Controls the layout of contact and event
     location addresses displayed on CiviCRM screens. The default format
     is:
 ```
     {contact.address_name}
     {contact.street_address}
-    {contact.supplemental_address_1} 
-    {contact.supplemental_address_2} 
+    {contact.supplemental_address_1}
+    {contact.supplemental_address_2}
     {contact.city}{, }{contact.state_province}{ }{contact.postal_code}
     {contact.country}
 ```
@@ -338,7 +334,7 @@ House" or "Volunteering Opportunities").
 
 ### Miscellaneous (Undelete, PDFs, Limts, Logging, reCAPTCHA, etc.)
 
-### 
+###
 
 Use the Miscellaneous Settings screen to configure and control the
 following behaviors:
@@ -399,21 +395,21 @@ following behaviors:
     that contact's permission to edit other related contacts. This can
     be used, for example, to let the teacher of a class edited the
     records for students in that class when they are both linked to the
-    class (set up as an organisation sub-type) via relationships. 
+    class (set up as an organisation sub-type) via relationships.
 -   **reCAPTCHA** - reCAPTCHA is a free service that helps prevent
     automated abuse of your site by requiring users to read a random
     pair of words and type them into the form. To use reCAPTCHA on
     public-facing CiviCRM forms, sign up at
     [recaptcha.net](http://recaptcha.net/), enter the provided public
     and private reCAPTCHA keys here, then enable reCAPTCHA under the
-    Advanced Settings section in a Profile where you want it used. 
-     
+    Advanced Settings section in a Profile where you want it used.
+
     If you want to use reCAPTCHA protection for online contribution,
     membership signup or event registration forms, you'll need to
     configure a Profile with reCAPTCHA enabled, and then include it in
     those forms.
 
-### Contact Types 
+### Contact Types
 
 You can modify the names of the built in Contact Types (Individual,
 Household, Organizations), and you can create and modify "contact
@@ -443,7 +439,7 @@ address you've configured in the previous section.
 
 If CiviCRM is unable to send the test email, you will see a message on
 your screen with the specific error and some suggestions for
-trouble-shooting the problem. 
+trouble-shooting the problem.
 
 ### Disabling outbound email
 
@@ -460,14 +456,14 @@ recorded as archived mailings instead of being sent out.
 
 See **Email System Configuration** for more details.
 
-### From Email Addresses 
+### From Email Addresses
 
 CiviCRM will use the default From address defined here when sending
 automated emails. If you've already entered an email address in the
 Domain Information screen, that address will be listed here (as
 illustrated on the leftmost field of the following screenshot).
 
-![](/img/From%20email.PNG) 
+![](/img/From%20email.PNG)
 
 When users send an email using CiviCRM, their primary email address is
 used as the From address by default. However, they can also select one
@@ -492,7 +488,7 @@ selecting a processor.
 
 The actual steps involved in configuring and testing your payment
 processor connection are different for each processor. For more
-information, visit: 
+information, visit:
 [http://wiki.civicrm.org/confluence/display/CRMDOC/Payment+Processors](http://wiki.civicrm.org/confluence/display/CRMDOC/Payment+Processors)
 
 ### Permissions for anonymous users
@@ -502,7 +498,7 @@ This link is only present on Drupal sites. On Joomla! and WordPress
 after navigating to **Administer > Users and Permissions >
 Permissions** > **Drupal (or Joomla! or WordPress) Access Control**.
 See the *Permissions and Access Control* chapter in this section for
-information on setting permissions. 
+information on setting permissions.
 
 ### System Workflow Templates
 
@@ -523,4 +519,4 @@ workflow.
 You should now have reviewed all the basic configuration tasks. The
 remaining tasks on the checklist involve an understanding of the ways in
 which you can record and use contact data and are best left until you
-have read more in this book. 
+have read more in this book.
