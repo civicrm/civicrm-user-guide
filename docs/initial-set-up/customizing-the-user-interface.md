@@ -8,7 +8,7 @@ needs and make it easier for your users.
 How to customize your data itself—what you collect and track—is covered
 in *Organising Your Data* and in the *What you need to know*and *Set-up*
 chapters in the sections on the different CiviCRM components (e.g.,
-learn about customizing event types in the *Events* section). 
+learn about customizing event types in the *Events* section).
 
 Changing dropdown options
 -------------------------
@@ -18,7 +18,7 @@ entry/editing forms in CiviCRM can be modified (you can add, rename,
 disable or remove options) from **Administer > Customize Data and
 Screens > Dropdown Options**. These include:
 
--   Gender 
+-   Gender
 -   Individual prefixes and suffixes (e.g., Ms., Mr. and Jr., Sr.)
 -   Phone types (e.g. Phone, Mobile, Pager)
 -   Mobile phone providers (e.g. Sprint, Verizon and Cingular)
@@ -29,7 +29,7 @@ Screens > Dropdown Options**. These include:
     Billing location is assigned to Billing Addresses entered when
     constituents contribute or pay for event and membership fees online.
     Location type names may not contain spaces (e.g., Summer Home is not
-    permitted; use SummerHome). 
+    permitted; use SummerHome).
 
 The choices in Preferred Communication Methods (e.g., Phone, Email,
 Postal Mail, SMS) in the contact edit/entry form can also be modified;
@@ -38,7 +38,7 @@ Methods**.
 
 Modifying dropdown options that define data—such as Activity Type,
 Relationship, etc.—is outside the scope of this chapter; see *Organising
-Your Data* and the sections on the different CiviCRM components. 
+Your Data* and the sections on the different CiviCRM components.
 
 Changing display preferences
 ----------------------------
@@ -49,7 +49,7 @@ show up when your users log into CiviCRM. This can make training and
 everyday use much easier.
 
 To do this, go to **Administer > Customize Data and Screens > Display
-Preferences**. 
+Preferences**.
 
 You can change which tabs are available when you are viewing contact
 records by checking and un-checking the appropriate boxes next to
@@ -114,13 +114,16 @@ are:
     Yes, a bar will appear at the top of your search results allowing
     you to choose a letter of the alphabet. Clicking A, for example,
     will take you to a page displaying only contacts that begin with A.
-    
+
 -   **Include Order By Clause** (choose Yes or No): If you choose No,
     your search results will not be ordered.
+-   **Smart group cache timeout**: This determines how often the smart group cache is refreshed. For most sites this value should not be set to zero, since that means no caching at all and will slow down your site.  Even on sites where contact data changes frequently, the suggested minimum value is 5 minutes.
 -   **Autocomplete Contact Search**: This is a series of checkboxes for
     basic contact fields (name, email, phone, etc). The fields that are
     checked will show up in the autocomplete results list that appears
-    when you use the Quick Search bar at the top left of all screens. 
+    when you use the Quick Search bar at the top left of all screens.
+-   **Contact Reference Options**: This is a series of checkboxes for basic contact fields (name, email, phone, etc). The fields that are checked will show up in the autocomplete dropdown search results for 'Contact Reference' custom fields.
+-   **Autocomplete Results**: This determines the maximum number of results that will be displayed when typing in an autocomplete field.
 
 The above Yes/No options are all defaulted to Yes when you first install
 CiviCRM, with the exception of Include Nickname, which defaults to No.
@@ -131,11 +134,11 @@ There is one more place to customize search search settings:
 **Administer > Customize Data and Screens > Display Preferences** has
 a block of **Contact Search** settings:
 
-![](/img/Contact%20Search.png) 
+![](/img/Contact%20Search.png)
 
 These check boxes modify the **Search > Find Contacts** and **Search >
 Advanced Search** screens. Uncheck the boxes to remove the corresponding
-types of fields from your search screens. 
+types of fields from your search screens.
 
 Customizing date preferences
 ----------------------------
@@ -165,7 +168,7 @@ might want to do are:
 
 -   Streamline the navigation by removing menu items you don't use
 -   Add items to support specific workflows (e.g. data entry Profiles)
--   Add links to non-CiviCRM web pages or apps 
+-   Add links to non-CiviCRM web pages or apps
 -   Rename menu items to use terms for familiar to your users
 -   Move menu items to better support the flow of your work
 
@@ -184,16 +187,16 @@ structure.
 
 To add an item:
 
-1.  Click on the **Add Menu Item** button. 
+1.  Click on the **Add Menu Item** button.
 2.  Enter the text you want to appear in the menu in the **Title**
-    field. 
-3.  Enter the link to your item in the **Url** field. 
+    field.
+3.  Enter the link to your item in the **Url** field.
 4.  Select the location of your new item from the **Parent** dropdown
     menu. You can place the item anywhere in the navigation, at any
     level. If you want your new item to be in the top level of the
-    navigation, do not select anything from this dropdown. 
+    navigation, do not select anything from this dropdown.
 5.  Check the **Separator** box if you want to add a line below your new
-    item to separate it form the item below. 
+    item to separate it form the item below.
 
 Making custom data entry forms
 ------------------------------
@@ -209,9 +212,9 @@ only the fields they need. This can speed up data entry considerably.
 3.  Check the Standalone Form or Directory box in the **Used For**
     field.
 4.  Use the **Pre-form Help** and **Post-form Help** fields to add any
-    text you'd like to display to hose doing data entry. 
+    text you'd like to display to hose doing data entry.
 5.  Click **Save**; this takes you to the Add Fields screen so you can
-    choose which fields to put in your Profile. 
+    choose which fields to put in your Profile.
 6.  From the **Field Name** dropdown menu, select the contact record
     type where your desired field is found. This will be Contact,
     Individual, Organization, Household, or any custom contact subtypes
@@ -221,23 +224,23 @@ only the fields they need. This can speed up data entry considerably.
     contact record type (such as Phone or Email, which applies to both
     Individuals and Organizations) will be found on the Contacts menu.
 7.  Once you have chosen a contact type, another dropdown menu will
-    appear listing the available fields. Choose your desired fields. 
+    appear listing the available fields. Choose your desired fields.
 8.  If the text that appears automatically in the **Field Label** field
-    is not what you would like to appear on the form, edit it. 
+    is not what you would like to appear on the form, edit it.
 9.  If every record entered through this form must have data in this
-    field, check the **Required?** box. 
+    field, check the **Required?** box.
 10. Use the **Field Pre Help** and **Field Post Help** fields to add any
-    text you'd like to display to those doing data entry. 
+    text you'd like to display to those doing data entry.
 11. You can use the **Order** field to change the order in which fields
     are displayed on the form. Lower numbers are displayed ahead of
-    higher numbers. 
+    higher numbers.
 12. Click on **Save and New** to add more fields, and **Save** when are
-    finished. 
+    finished.
 13. You'll be taken to a screen listing all your fields and their
     settings. Click **Preview (all fields)** to make sure your form
     looks the way you want it to. Click **Use (create mode)** to go to
     the page containing your form. Copy the link and use it to create a
-    navigation menu item (see the previous section for instructions). 
+    navigation menu item (see the previous section for instructions).
 
 Customizing search views
 ------------------------
@@ -245,7 +248,7 @@ Customizing search views
 To do this:
 
 1.  Create or open a profile and mark it as used for Search Views (known
-    as Search Results in 4.1 and previous): 
+    as Search Results in 4.1 and previous):
 2.  When adding fields to this profile, you will need to set Visibility
     for the fields to Public Pages and check the Results Column box.
 
@@ -253,9 +256,9 @@ When conducting your advanced search, use the **Search Views** dropdown
 menu in the top right of the page to select your Profile (see image
 below).
 
-![](/img/Search%20Setting.png) 
+![](/img/Search%20Setting.png)
 
-Using Word Replacement to change terminology 
+Using Word Replacement to change terminology
 ----------------------------------------------
 
 CiviCRM has a Word Replacement setting that lets you replace existing
@@ -268,24 +271,18 @@ instance of CiviCRM.
 To use Word Replacement:
 
 1.  Go to **Administer > Customize Data and Screens > Word
-    Replacements**. 
+    Replacements**.
 2.  Enter the original text in the Original column on the left, and the
-    replacement text in the Replacement column on the right. 
+    replacement text in the Replacement column on the right.
 3.  Check the Exact Match box on the right to replace only instances of
     the word or phrase that match exactly. For example, if Exact Match
     is not checked checked, replacing "Contribution" with "Donation"
     would also replace "Contributions" with "Donations"; if it is
-    checked, this would not happen. 
+    checked, this would not happen.
 4.  Check the Enabled box to the left to replacement of the word or
-    phrase. 
+    phrase.
 5.  You can add additional rows using the **Add row** button.
-6.  Click **Save** when you are finished entering replacements. 
+6.  Click **Save** when you are finished entering replacements.
 
 When using this function, be sure to anticipate alternate forms of words
 and different ways your chosen word or phrase may appear in CiviCRM.
-
-
-
-
-
-
