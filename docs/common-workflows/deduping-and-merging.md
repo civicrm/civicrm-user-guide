@@ -80,7 +80,7 @@ individuals in your data:
     at the usage "supervised").
 6.  Select **All Contacts** or a particular group.
 7.  Click **Continue**.
-8.  If duplicates are found, merge or delete the duplicate contacts.
+8.  If duplicates are found, merge or mark them as 'not a duplicate'.
 
 Different rules are configured for each contact type (individuals,
 organizations, and households.) A default supervised rule and a default
@@ -148,6 +148,8 @@ Using rules and merging duplicate contacts
     assigned will be scanned and compared. If the match between two
     contacts meets or exceeds the rule's threshold score, the contacts
     will be displayed on the following screen of possible duplicates.
+4.  You will be presented with a list of possible duplicates with a few 
+    show/hide tickboxes; Street Address, Post Code, Conflicts and Treshold.
 4.  Clicking **Merge** for any pair of contacts brings up a table
     showing details for each contact. CiviCRM designates one record as
     the duplicate record and displays its information in the left
