@@ -35,7 +35,7 @@ multiple people.
 In the screenshot below, you can see that we have credited Magan
 Cooper's contribution of $1,500.00 to three different people.
 
-![](/img/soft-credit-donation-1.png)
+![](../img/soft-credit-donation-1.png)
 
 CiviCRM can also handle more complicated scenarios. For instance, Joe is
 an active member of a community foundation that regularly contributes to
@@ -51,14 +51,14 @@ case:
 
 This scenario is illustrated in the screenshot below.
 
-![](/img/soft-credit-donation-2.png)
+![](../img/soft-credit-donation-2.png)
 
 As well as recording soft credits, we can also report on them. The
 contribution detail report has optional columns which show soft credit
 details. When checked, these will show four extra columns in CiviReport, which
 can be used to view soft credit information.
 
-![](/img/z_sprint14_contributions_soft_credit.PNG)
+![](../img/z_sprint14_contributions_soft_credit.PNG)
 
 
 
@@ -72,7 +72,7 @@ must select the**Honoree Section Enabled** checkbox.
 This will reveal additional fields that will allow you to specify the
 Honor Types and Profile to be included in this section.
 
-![](/img/z-sprint14_honoree_section.PNG)
+![](../img/z-sprint14_honoree_section.PNG)
 
 Once configured your end users will be able to enter honoree info for
 online contributions. CiviCRM will check to see if the honoree exists
@@ -81,7 +81,7 @@ your site, if a duplicate is not found a new contact record will be
 created. A soft credit will be added to the contact record of the
 honoree.
 
-![](/img/soft-credit-honoree-info.png)
+![](../img/soft-credit-honoree-info.png)
 
 Soft credits and personal campaign pages
 ----------------------------------------

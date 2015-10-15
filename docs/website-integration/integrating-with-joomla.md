@@ -14,13 +14,13 @@ CiviCRM content can be displayed on your website in a couple of
 different ways. The primary way is to create a specific Menu Item that
 pulls in CiviCRM data. Within your Joomla! menu navigate to **Menu -> YourMenu -> Add New Menu Item**.
 
-![](/img/z_sprint14_Joomla!_Menu%20Item%20Type.png)
+![](../img/z_sprint14_Joomla!_Menu%20Item%20Type.png)
 
 Once you are inside of the Edit Menu item screen you will then have the
 option to select the menu item type. There will be a subsection called
 civicrm with the below options.
 
-![](/img/z_sprint14_joomla!_Civi_Options.png)
+![](../img/z_sprint14_joomla!_Civi_Options.png)
 
 After choosing one of the below you will then need to go to **Basic
 Options**and select the corresponding CiviCRM page you wish to display.
@@ -98,7 +98,7 @@ and you have a **Profile View Form** specified to have the access level
 of Public, CiviCRM will be completely unaware that John Smith is on your
 site and thus not have the ability to display John Smith's personal
 information back to him. In this scenario CiviCRM would present the
-following error:![](/img/z_sprint14_wordpress_error.png)Every Joomla!
+following error:![](../img/z_sprint14_wordpress_error.png)Every Joomla!
 user that is created has a corresponding contact within CiviCRM. So when
 someone logs in with their Joomla! credentials, CiviCRM can guarantee
 which contact's information to display. The following CiviCRM Menu Item

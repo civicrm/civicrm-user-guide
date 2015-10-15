@@ -20,7 +20,7 @@ Contribution Receipts** from the actions drop-down menu.
 You will be given the option to  email the receipts or make PDF receipts
 to post out to contributors.
 
-![](/img/Print%20contribution%20receipt%20options.PNG)
+![](../img/Print%20contribution%20receipt%20options.PNG)
 
 By default the emailing or creating PDF receipts will update the receipt
 date for each contribution, but you can keep the existing receipt dates
@@ -47,7 +47,7 @@ contributions (rather than contacts). The steps involved are:
     combined receipts.
 3.  Choose the action **Thank-you Letters for Contributions.** The
     following will be displayed:
-    ![](/img/Thank-you%20letters%20with%20text.PNG)
+    ![](../img/Thank-you%20letters%20with%20text.PNG)
 4.  Choose to **Update thank-you dates for these contributions** or
     **Update receipt dates for these contributions** as required. The
     current date will be entered into the appropriate field.**
@@ -97,11 +97,11 @@ $100.00, $150.00, $325.00 received on 1 January 2015, 5 March 2015,
 If you choose **Table Cell** as the **Separator** then each contribution
 instance will be placed in its own table column. For example:
 
-![](/img/Thank-you%20letters%20as%20table%20template.PNG)
+![](../img/Thank-you%20letters%20as%20table%20template.PNG)
 
 will result in:
 
-![](/img/Thank-you%20letters%20as%20table_1.PNG)
+![](../img/Thank-you%20letters%20as%20table_1.PNG)
 
 This format works well if only a few contributions have been received
 during the year, but the table will be wider than the page for monthly,
@@ -151,4 +151,4 @@ For example, if the HTML source for your letter is:
 ```
 then your letters will look like:
 
-![](/img/Thank-you%20letters%20as%20with%20smarty%20enabled_2.PNG)
+![](../img/Thank-you%20letters%20as%20with%20smarty%20enabled_2.PNG)

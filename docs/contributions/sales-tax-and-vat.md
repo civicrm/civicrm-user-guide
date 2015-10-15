@@ -5,7 +5,7 @@ If your organization charges Sales Tax or VAT you should enable
 this feature.
 
 To enable Sales Tax/VAT go to **Administer > CiviContribute > CiviContribute Component Settings **and check the "Enable Tax and
-Invoicing" box. 
+Invoicing" box.
 
 In this screen you can set certain settings for Sales Tax/VAT as well:
 
@@ -19,9 +19,9 @@ tax/VAT
     -   Shows as inclusive price- $120 (includes $20 tax)
     -   Shows as exclusive price - $100 + $20 tax  
 
-![](/img/enable_tax_fields.png)
+![](../img/enable_tax_fields.png)
 
-Adding a Financial Account for Sales Tax/VAT 
+Adding a Financial Account for Sales Tax/VAT
 ---------------------------------------------
 
 Once Sales Tax/VAT is enabled you need to create one or more Financial
@@ -35,27 +35,24 @@ Books**, the **Account Type Code** should be set to **SALESTAX**.
 Accounting Code should be based on the organization's specific
 accounting codes.
 
-![](/img/salestaxaccount4.jpg)
+![](../img/salestaxaccount4.jpg)
 
 After you create the Financial Account, you can assign it to the
 specific Financial Type by going to **Adminster > CiviContribute >
-Financial Types**.  Find the Financial Type this sales tax applies to, and click on **Accounts**. Click on **Assign Account**. 
+Financial Types**.  Find the Financial Type this sales tax applies to, and click on **Accounts**. Click on **Assign Account**.
 
-![](/img/assignaccount2.jpg)
+![](../img/assignaccount2.jpg)
 
-For the **Financial Account Relationship** choose **Sales Tax Account is** and in the ** Financial Account** field select your sales tax account. Click **Save.** 
+For the **Financial Account Relationship** choose **Sales Tax Account is** and in the ** Financial Account** field select your sales tax account. Click **Save.**
 
 ![](../_edit/static/addfinancialaccount2.jpg)
 
 Once the sales tax Financial Account has been added, you will see it
 listed with the other Financial Accounts for that specific Financial
-Type. 
+Type.
 
-![](/img/salestaxadded2.jpg)
+![](../img/salestaxadded2.jpg)
 
 For more advanced configuration with accounting software packages like
 QuickBooks, you should involve your organization's bookkeeper or
-accountant in setting up your Financial Types and Financial Accounts. 
-
-
-
+accountant in setting up your Financial Types and Financial Accounts.

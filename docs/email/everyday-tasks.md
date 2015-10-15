@@ -73,18 +73,18 @@ Inserting an image in an email
 
 Click the **image button** in the WYSIWYG editor. 
 
-![](/img/Screen%20Shot%202015-04-25%20at%203.06.40%20PM.png) 
+![](../img/Screen%20Shot%202015-04-25%20at%203.06.40%20PM.png) 
 
 The Image Properties window will appear. Click **Browse Server** to look
 for image files on your server. 
 
-![](/img/civimail_window%20to%20browse%20server%202.jpg) 
+![](../img/civimail_window%20to%20browse%20server%202.jpg) 
 In the left sidebar, you will see a directory of files. If the image you
 need is already uploaded to your server, navigate to it in the directory
 and select it. If not, Click **Upload** to choose a file from your
 computer. 
 
-![](/img/civimail_file%20directory%203.jpg) 
+![](../img/civimail_file%20directory%203.jpg) 
  
 Your computer's file-browsing window will open. Find the image file you
 want, 
@@ -105,7 +105,7 @@ images to make email accessible to all user communities.
 
 Click **OK** to insert the image. 
 
-![](/img/civimail_Insert%20image%206.jpg) 
+![](../img/civimail_Insert%20image%206.jpg) 
 
 Sending a mass mailing through CiviMail
 ---------------------------------------
@@ -175,7 +175,7 @@ If you're using search, perform your search (for example, using the
 **Search > Advanced Search**) and then choose **Schedule/Send a Mass
 Mailing** from the**- actions -** drop down.
 
-![](/img/advanced%20search%20schedule%20mass%20mailing.png)
+![](../img/advanced%20search%20schedule%20mass%20mailing.png)
 
 The process for sending the mailing then proceeds via the following
 screens. You can move between these screens by using the
@@ -223,7 +223,7 @@ changing the original template or saving it as a new template.
 
 3. **Remove duplicate emails**: To edit your mailing dedupe options, click
 the small wrench to the right of the Recipients field.
-![](/img/dedupe%20config%20_1.png)
+![](../img/dedupe%20config%20_1.png)
 
     CiviCRM will always dedupe your mailing based on unique contact records.
     For example, if a contact is in three of the groups you are including in
@@ -373,7 +373,7 @@ information on all of the tracked actions, including the number of
 opens, link click-throughs or the percentage of bounces (see "Managing
 bounces" below).
 
-![](/img/CiviCRM_mailing_basicstatistics_1.png)
+![](../img/CiviCRM_mailing_basicstatistics_1.png)
 
 To expand on this information, click the name of one of the statistics
 to display a list of the contacts to whom it applies, and various other

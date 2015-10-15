@@ -75,7 +75,7 @@ Limitations
     default notification for the PCP owner when a donation is received
     is:
 
-![](/img/PCP%20owner%20notificationV2.PNG)
+![](../img/PCP%20owner%20notificationV2.PNG)
 
 **Set-up**
 

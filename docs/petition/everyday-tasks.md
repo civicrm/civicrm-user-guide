@@ -9,7 +9,7 @@ Manage Your Petitions
 
 To view, manage and edit your petitions, click **Campaigns > Dashboard > Petitions**.
 
-![](/img/petition_dashboard.png)
+![](../img/petition_dashboard.png)
 
 Send out a petition for signing
 -------------------------------
@@ -29,13 +29,13 @@ Collect Responses Online
 Once you have publicised the URL for your petition, people will be able
 to complete the form, answer the questions and submit their response.
 
-![](/img/petition_signing.png)
+![](../img/petition_signing.png)
 
 After completing the form and clicking **Sign the Petition**, they will
 see the following message prompting them to check their email and verify
 their email address:
 
-![](/img/petition_thankyou.png) 
+![](../img/petition_thankyou.png) 
 
 Collect Signatures
 ------------------
@@ -48,7 +48,7 @@ To view who has signed the petition:
     or select contacts and perform activities such as sending an email
     to the contacts, or a batch update via profile.
 
-![](/img/petition_signatures_email.png)
+![](../img/petition_signatures_email.png)
 
 Review results with Activity Report
 ------------------------------------
@@ -66,10 +66,10 @@ Report.
     the survey report information to a CSV file to do more detailed
     reporting of the results. 
 
-![](/img/activity%20report%201.jpg) 
+![](../img/activity%20report%201.jpg) 
 
 
-![](/img/activity%20report%202.jpg) 
+![](../img/activity%20report%202.jpg) 
 
 
 

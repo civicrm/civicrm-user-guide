@@ -58,7 +58,7 @@ specific capacity get directly to the chapter relevant to them.
 The following photo shows the people who worked on this second edition
 of the book.
 
-![civi_team](/img/CiviCRM_update-CiviCore-civi_team-en.jpg "civi_team")
+![civi_team](../img/CiviCRM_update-CiviCore-civi_team-en.jpg "civi_team")
 
 In the back row, starting from the left, you are looking at Dave
 Greenberg (San Francisco, USA), Kyle Jaster (NY, USA), Xavier Dutoit
@@ -87,7 +87,7 @@ difficult, challenge.
 
 The following photo shows the people who wrote this book. 
  
-![team](/img/Blog-CiviCRM-team-en.png "team")
+![team](../img/Blog-CiviCRM-team-en.png "team")
 
 In the back row you are looking at Michael McAndrew (London, UK), Tony
 Guzman (Salt Lake City, USA), Brian Shaughnessy (Albany, NY, USA), Dave
@@ -120,7 +120,7 @@ We love you, Jill, and wish we could take you home with us. We are also
 grateful to Dave Greenberg, Bob Concannon and Mari Tilos for their
 hospitality, and to Scout (aka "CiviDog") just for being there.
 
-![scout](/img/CiviCRM-scout-en.jpg "scout")
+![scout](../img/CiviCRM-scout-en.jpg "scout")
 
 We had help from around the world during the preparation process, and
 over the course of the Sprint. Andy Oram helped us both in the planning
@@ -130,14 +130,14 @@ Sprint. They include Robert Santiago, Xavier Dutoit, Joe Murray,
 Sarmeesha Reddy, Jay Maechtlen, Dream Gomez, Leila Johnson, Duncan
 Hutty, and Kurund Jalmi.
 
-![pteam](/img/Blog-CiviCRM-pteam-en.png "pteam")
+![pteam](../img/Blog-CiviCRM-pteam-en.png "pteam")
 
 Our office for the week was Dave and Bob's house.
 
-![civi1](/img/Blog-CiviCRM-civi1-en.png "civi1")
+![civi1](../img/Blog-CiviCRM-civi1-en.png "civi1")
 
 We mitigated the hardship of late-night work with some tasty beverages.
 
-![log](/img/Blog-CiviCRM-log-en.png "log")
+![log](../img/Blog-CiviCRM-log-en.png "log")
 
 And occasionally they let us out for a bit....

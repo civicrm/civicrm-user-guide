@@ -23,17 +23,17 @@ When you open a report it will appear on screen as a table. Some reports
 can also be viewed as a bar or pie chart. When this is the case, a
 dropdown menu will allow you to select the format you want.
 
-![report_graph](/img/CiviCRM_update-CiviReport-report_graph-en.png "report_graph")
+![report_graph](../img/CiviCRM_update-CiviReport-report_graph-en.png "report_graph")
 
 The appropriate report should then be displayed. 
 
-![past_12_months_income](/img/CiviCRM_update-CiviReport-past_12_months_income-en.png "past_12_months_income")
+![past_12_months_income](../img/CiviCRM_update-CiviReport-past_12_months_income-en.png "past_12_months_income")
 
 
 As well as viewing reports on screen you can create a PDF version of
 either tables or graphs, suitable for printing or emailing.
 
-![report_pdf](/img/CiviCRM_update-CiviReport-report_pdf-en.png "report_pdf")
+![report_pdf](../img/CiviCRM_update-CiviReport-report_pdf-en.png "report_pdf")
 
 If you want to perform further calculations on your report data, you can
 output the data as comma separated variable (CSV) for import into a
@@ -50,7 +50,7 @@ Reports can be configured to appear on your dashboard (the first page
 you see when you log in to CiviCRM). You can configure this yourself,
 although not all reports may be available to put on your dashboard.
 
-![dashboard](/img/CiviCRM_update-CiviReport-resized_600x269_dashboard-en.png "dashboard")
+![dashboard](../img/CiviCRM_update-CiviReport-resized_600x269_dashboard-en.png "dashboard")
 
 To display specific reports on your dashboard:
 
@@ -58,7 +58,7 @@ To display specific reports on your dashboard:
 2.  Select a report from the list of available reports.
 3.  Drag the report onto your dashboard.
 
-![dashboard_config](/img/CiviCRM_update-CiviReport-resized_600x249_dashboard_config-en.png "dashboard_config")
+![dashboard_config](../img/CiviCRM_update-CiviReport-resized_600x249_dashboard_config-en.png "dashboard_config")
 
 Adding report results to a group
 --------------------------------
@@ -68,4 +68,4 @@ This functionality isn't available in all reports but where it is, you
 can choose the group you want to add the contacts to from the dropdown
 menu as shown below.
 
-![report_group](/img/CiviCRM_update-CiviReport-report_group-en.png "report_group")
+![report_group](../img/CiviCRM_update-CiviReport-report_group-en.png "report_group")

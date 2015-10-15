@@ -35,7 +35,7 @@ Here's how you can export contact information:
     as shown in the following figure.
 4.  Click **Go**. This takes you to the export wizard. 
      
-    ![ExportFromSearch](/img/CiviCRM_update-CiviCore-ExportFromSearch-en.png "ExportFromSearch")
+    ![ExportFromSearch](../img/CiviCRM_update-CiviCore-ExportFromSearch-en.png "ExportFromSearch")
     
 5.  **Export primary (default) or selected fields**. Choose between
     exporting the primary fields or selecting your own set of fields for
@@ -53,7 +53,7 @@ Here's how you can export contact information:
     selection of fields, click **Save this field mapping** at the bottom
     of the form and enter a descriptive name for this type of export. 
      
-    ![ExportSelectFlds](/img/CiviCRM_update-CiviCore-ExportSelectFlds-en.png "ExportSelectFlds")
+    ![ExportSelectFlds](../img/CiviCRM_update-CiviCore-ExportSelectFlds-en.png "ExportSelectFlds")
     
     ****
 8.  **Click Export to create your CSV file**. By default, a comma is
@@ -63,5 +63,5 @@ Here's how you can export contact information:
     Global Settings > Localization** and modifying the Import/Export
     Field Separator. 
      
-    ![s2](/img/CiviCRM-Export-resized_600x225_s2-en.jpg "s2") 
+    ![s2](../img/CiviCRM-Export-resized_600x225_s2-en.jpg "s2") 
 

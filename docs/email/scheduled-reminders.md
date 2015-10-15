@@ -259,7 +259,7 @@ It is important to remember that groups or manual recipients selected
 will only receive the scheduled reminder if they meet the all other
 criteria for that reminder.
 
-![](/img/scheduled_reminders_activities.PNG)
+![](../img/scheduled_reminders_activities.PNG)
 
 For Event, Contact and Membership scheduled reminders you can limit
 recipients to members of a group, to a particular participant role
@@ -270,7 +270,7 @@ recipient(s)** or **Participant Role** (Event reminders only) from the
 adjacent option list. You could use this feature to, say, only send
 birthday greetings to your members who are less than 12 years old. 
 
-![](/img/scheduled_reminders_other%20three.PNG)
+![](../img/scheduled_reminders_other%20three.PNG)
 
 As with activity reminders, it is important to remember that groups,
 manual recipients or roles selected with the **Limit to** option will
@@ -308,5 +308,5 @@ scheduled reminder you should:
 2.  Create a smart group from the search results.
 3.  Select this smart group as the **Recipients** of the scheduled reminder.
 
-![](/img/do-not-email-search-builder.jpg)
+![](../img/do-not-email-search-builder.jpg)
 

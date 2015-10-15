@@ -79,7 +79,7 @@ in.***![](http://booki.flossmanuals.net/civicrm/http://en.flossmanuals.net/floss
 
 ****
 
-![](/img/4.5SearchPanes_1.png)
+![](../img/4.5SearchPanes_1.png)
 
 ### The Date Range Filter
 
@@ -108,7 +108,7 @@ For example you may want to use a relative date range search to find:
 
 These are located at the bottom of the Basic Criteria frame. 
 
-![](/img/advanced%20search.PNG) 
+![](../img/advanced%20search.PNG) 
 ****
 
 #### Modifying search columns (Search Views)
@@ -198,7 +198,7 @@ include contacts where.** The following example will search for females
 born after Jan 1 2000 OR members of the Administrators or Advisory Board
 groups:
 
-![](/img/Search%20Builder.png) 
+![](../img/Search%20Builder.png) 
 
 Your search results will contain each contact's name, plus a column for
 each search criteria you've defined. If you export search results, the
@@ -275,7 +275,7 @@ Contacts in a Group/Tag", that enables you to find contacts who are in
 one group but not in another, which you can find by going to **Search >
 Custom Searches** in the navigation menu.
 
-![](/img/IncludeExclude.png)
+![](../img/IncludeExclude.png)
 
 By combining Include and Exclude options, you can find contacts who are
 in one group but remove just the group members who fit another
@@ -393,7 +393,7 @@ all records or specific records, then carry out an action with the
 selected records. Different actions are covered in more detail in the
 chapter on Everyday Tasks.
 
-![](/img/Search%20Action.PNG) 
+![](../img/Search%20Action.PNG) 
 
 Some of the most commonly used actions are Add Contacts to Group, Export
 Contacts, Map Contacts, and creating and printing Mailing Labels. (To

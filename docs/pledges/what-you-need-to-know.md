@@ -97,7 +97,7 @@ options are available for each record at the end of the rows. If the
 status of a pledge is 'in progress', there is also an option to cancel
 the pledge.
 
-![](/img/pledge_menu.png)
+![](../img/pledge_menu.png)
 
 Dashboard
 ---------
@@ -107,4 +107,4 @@ recorded over the current month and past year on the pledges dashboard.
 This can be reached through the Contributions menu: **Contributions >
 Pledges > Dashboard**.
 
-![](/img/pledge%20table.png)
+![](../img/pledge%20table.png)

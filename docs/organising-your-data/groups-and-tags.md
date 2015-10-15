@@ -250,7 +250,7 @@ within the group. You can search contacts within a group by name, email
 address, contact type, group status (added, removed, or pending) and
 tags.
 
-![Groups_searchwithin](/img/CiviCRM_update-CiviCore-Groups_searchwithin-en.jpg "Groups_searchwithin")
+![Groups_searchwithin](../img/CiviCRM_update-CiviCore-Groups_searchwithin-en.jpg "Groups_searchwithin")
 
 Groups and ACL
 --------------
@@ -279,7 +279,7 @@ New tags can be created by clicking the Add Tag button on the Manage
 Tags (Categories) screen or by going to Contacts > New Tag in the
 navigation menu.
 
-![admin_tags](/img/CiviCRM_update-CiviCore-resized_600x158_admin_tags-en.png "admin_tags")
+![admin_tags](../img/CiviCRM_update-CiviCore-resized_600x158_admin_tags-en.png "admin_tags")
 
 Each tag should have a clear and unique name and an explanatory
 description to help users understand the tag's purpose. Tags can be
@@ -324,7 +324,7 @@ Tag sets are created by going to: **Contacts > Manage Tags
 button. Give the tag set a name, a description, and indicate whether the
 tag set will apply to contacts, activities, or cases.
 
-![](/img/Tag%20Set%20-%20Create.png) 
+![](../img/Tag%20Set%20-%20Create.png) 
 
 Clicking the Reserved checkbox makes a tag set more permanent - this
 will prevent a tag set from being deleted by someone without
@@ -340,7 +340,7 @@ contacts. For example, if you create a tag set called "Issues Folks Care
 About" an associate it with Contacts, you will see the tag set next time
 you go to the Tags tab of a contact's record.
 
-![](/img/Tag%20Set%20-%20Creating%20tags%20on%20the%20fly.png) 
+![](../img/Tag%20Set%20-%20Creating%20tags%20on%20the%20fly.png) 
 
 
 This is an autocomplete field: as you begin to type, CiviCRM looks for

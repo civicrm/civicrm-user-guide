@@ -41,7 +41,7 @@ To start learning about membership types:
 1.  Go to **Administer > CiviMember > Membership Types**
 2.  Select **Add Membership Type** 
 
-![](/img/z-sprint154%20-%20new_membership_type.png) 
+![](../img/z-sprint154%20-%20new_membership_type.png) 
 -   **Name**:
 The name is displayed throughout the system, on both public and
 backend pages so spend some time thinking about a name that is
@@ -102,7 +102,7 @@ financial types you may want to look at using *membership price sets*.
     transaction indicates the monetary value associated with that
     membership.
 
-![](/img/membership_contribution.png)
+![](../img/membership_contribution.png)
 
 
     CiviCRM respects this distinction by storing the membership record under
@@ -182,7 +182,7 @@ receive the benefits of membership.
     useful, in the example above, to limit the number of employees that can
     become a member by virtue of their employment to 10 maximum. 
 
- ![](/img/Membership_relationship_type.png) 
+ ![](../img/Membership_relationship_type.png) 
 
     With inherited memberships, we distinguish between the primary member
     and the members that inherit their membership due to their relationship with the primary member.
@@ -250,7 +250,7 @@ described above.
 At **Administer > CiviMember > Membership Status Rules** you will find a
 summary of the existing status rules.
 
-![](/img/z-sprint14-membership%20status.png)
+![](../img/z-sprint14-membership%20status.png)
 
 To decide on which status should be applied, CiviCRM looks to see if the
 membership has a status override. If it does, it applies that status. If
@@ -263,7 +263,7 @@ status that matches.
 
 When you edit or add a new membership status the following form appears.
 
-![](/img/membership_status_rules.png) 
+![](../img/membership_status_rules.png) 
 
 You can add new statuses and edit existing statuses (except for Pending
 and Deceased) using this form. To create a new status, you need to

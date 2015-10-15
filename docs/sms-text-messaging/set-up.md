@@ -53,7 +53,7 @@ You now have all of the information needed to configure SMS in CiviCRM.
 To continue, return to CiviCRM and go to: **Administer** > **System
 Settings**> **SMS Providers**. Click "Add New Provider". 
 
-![](/img/CiviCRM_SMS_adding-a-provider.png) 
+![](../img/CiviCRM_SMS_adding-a-provider.png) 
 
 Complete the following settings:
 

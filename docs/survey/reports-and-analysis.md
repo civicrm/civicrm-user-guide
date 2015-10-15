@@ -17,7 +17,7 @@ Review Survey Results in a Report
 4.  On the**Filters** tab, by Survey select the name of your survey, and
     in **Respondent Status** select **Interviewed**.
 
-    ![](/img/survey%20set%20filters.jpg)
+    ![](../img/survey%20set%20filters.jpg)
 
 5.  There will be another drop-down area that will be named after your
     custom data set of questions. You can select responses to questions
@@ -28,14 +28,14 @@ Review Survey Results in a Report
     the results. You can also export the report information to a CSV
     file if you want more detailed reporting.
 
-![](/img/survey%20report%20detail.jpg)
+![](../img/survey%20report%20detail.jpg)
 
 If you would like to see a formatted report with the cover sheet of
 questions and responses and the street names in ascending order (as you
 indicated in the survey responses area criteria) then click **Print
 Preview**.
 
-![](/img/survey%20report%20cover.jpg)
+![](../img/survey%20report%20cover.jpg)
 
-![](/img/survey%20report%20p2.jpg) 
+![](../img/survey%20report%20p2.jpg) 
 

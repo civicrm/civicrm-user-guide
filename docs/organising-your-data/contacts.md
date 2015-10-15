@@ -323,7 +323,7 @@ The simplest way to add a single contact to CiviCRM is to use the
 navigation menu at the top of any non-public page. To create a new
 Individual, go to: Contacts > New Individual:
 
-![Contact_createIndividual](/img/CiviCRM_update-CiviCore-Contact_createIndividual-en.jpg "Contact_createIndividual")
+![Contact_createIndividual](../img/CiviCRM_update-CiviCore-Contact_createIndividual-en.jpg "Contact_createIndividual")
 
 Note that the Contacts menu item allows you to create every kind of
 contact and contact sub-type.
@@ -397,7 +397,7 @@ If you need to edit a lot information for one particular contact, an
 alternative is to open the entire contact for editing by clicking on the
 edit button above the tabs.
 
-![](/img/contact%20Screen%20-inline%20edit.png) 
+![](../img/contact%20Screen%20-inline%20edit.png) 
 
 Note that on the rare occasions that two separate admin users edit a
 contact at the same time (specifically that they both open the edit

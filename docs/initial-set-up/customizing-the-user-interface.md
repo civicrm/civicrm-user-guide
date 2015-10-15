@@ -55,7 +55,7 @@ You can change which tabs are available when you are viewing contact
 records by checking and un-checking the appropriate boxes next to
 **Viewing Contacts**.
 
-![](/img/Viewing%20Contacts.png)
+![](../img/Viewing%20Contacts.png)
 
 For example, if your organization is not using Cases or Grants, you
 could uncheck those boxes and those tabs would no longer show up in the
@@ -69,7 +69,7 @@ You can change which blocks of information appear when you are editing a
 contact by checking and unchecking the appropriate boxes next
 to **Editing Contacts**:
 
-**![](/img/Editing%20Contacts.png)**
+**![](../img/Editing%20Contacts.png)**
 
 For example, if your organization doesn't collect information
 Demographics or Communication Preferences, you could uncheck those boxes
@@ -88,7 +88,7 @@ screens > display preferences**. Note that CiviCRM will be slower with
 this feature disabled as every form will require a complete page load in
 the browser.
 
-![](/img/Contact%20Dashboard.png)
+![](../img/Contact%20Dashboard.png)
 
 Customizing search preferences
 ------------------------------
@@ -132,7 +132,7 @@ There is one more place to customize search search settings:
 **Administer > Customize Data and Screens > Display Preferences** has
 a block of **Contact Search** settings:
 
-![](/img/Contact%20Search.png)
+![](../img/Contact%20Search.png)
 
 These check boxes modify the **Search > Find Contacts** and **Search >
 Advanced Search** screens. Uncheck the boxes to remove the corresponding
@@ -254,7 +254,7 @@ When conducting your advanced search, use the **Search Views** dropdown
 menu in the top right of the page to select your Profile (see image
 below).
 
-![](/img/Search%20Setting.png)
+![](../img/Search%20Setting.png)
 
 Using Word Replacement to change terminology
 ----------------------------------------------

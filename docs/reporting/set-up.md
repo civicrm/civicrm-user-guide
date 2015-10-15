@@ -26,7 +26,7 @@ templates are grouped by component, and each has a brief description of
 its intended scenario. If there are already report instances for a given
 template, you'll see a link to view **Existing Reports**.
 
-![](/img/CiviReport_existing_report.PNG) 
+![](../img/CiviReport_existing_report.PNG) 
 
 Clicking on the report template name will bring up a screen where the
 report can be configured.
@@ -63,7 +63,7 @@ record in your report. In most reports, at least one display column is
 detail report **Contact Name** and **Membership Type** are required
 fileds 
 
-### ![](/img/CiviReport_required%20fields.PNG)**Grouping**
+### ![](../img/CiviReport_required%20fields.PNG)**Grouping**
 
 This is not available in all reports, but it is useful when creating a
 report which summarises data, rather than displaying each individual
@@ -71,9 +71,9 @@ row, and for reports that compare different types of data.
 
 For example you can choose to compare donations per year.
 
-![](/img/Contribution%20Summary%20report%20grouping.PNG) 
+![](../img/Contribution%20Summary%20report%20grouping.PNG) 
 
-![](/img/Contribution%20Summary%20report%20grouping%20view.PNG) 
+![](../img/Contribution%20Summary%20report%20grouping%20view.PNG) 
 
 You can specify more than one grouping criteria. When you do this,
 results will be nested based on both groupings. Not all combinations of
@@ -90,7 +90,7 @@ make an invalid selection.
 This is not available in all reports, but can be useful in "detail"
 reports as shown below.
 
-![](/img/membership%20detail%20report%20sorting%20criteria.PNG) ![](/img/membership%20detail%20report%20sorting%20view.PNG)
+![](../img/membership%20detail%20report%20sorting%20criteria.PNG) ![](../img/membership%20detail%20report%20sorting%20view.PNG)
 
 ![](http://booki.flossmanuals.net/civicrm/http://en.flossmanuals.net/floss/pub/CiviCRM/CiviReport/)
 
@@ -112,7 +112,7 @@ two ways:
     2010"
 -   by using a relative date range, e.g. "Previous Year".
 
-![](/img/Report%20-%20Filter.png) 
+![](../img/Report%20-%20Filter.png) 
 
 Relative date ranges are very useful for reports that you want to run on
 an ongoing basis for example:
@@ -130,7 +130,7 @@ The report below shows the total amount of contributions received in the
 past 12 months, as well as each month's
 total.
 
-![past_12_months_income](/img/CiviCRM_update-CiviReport-past_12_months_income-en.png "past_12_months_income")
+![past_12_months_income](../img/CiviCRM_update-CiviReport-past_12_months_income-en.png "past_12_months_income")
 
 Once you have selected your report criteria, click **Preview Report**.
 (You will see that the tabs that define the report settings are now
@@ -157,7 +157,7 @@ be run again. To do this:
     file (instead of
     print.css)
 
-![](/img/Report%20-%20Title%20and%20Format.png)
+![](../img/Report%20-%20Title%20and%20Format.png)
 2.  The **Email Delivery**tab contains the fields that will let you have
     report emailed to yourself or someone else on a regular basis. Fill
     in the Subject, To and CC fields in the Email Delivery Settings. You
@@ -170,7 +170,7 @@ be run again. To do this:
     appear in the menu. All reports will be included in **Report > Report listing**.     Check **Include Report in Navigation Menu?** and
     specify the parent menu to include the report in another menu. For
     example, you might want to add an Event report to the Event menu. 
-    ![](/img/Report%20-%20Access.png)
+    ![](../img/Report%20-%20Access.png)
 
     On the **Access** tab, you can also set up permissions to view or edit
     reports on a report-by-report basis. This allows you to simplify the

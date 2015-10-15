@@ -80,7 +80,7 @@ red. After you have visited a page, the links will display in green
 (although you may still need to revisit the page to complete or update
 the settings).
 
-![](/img/Configuration_Checklist_4_4.png)
+![](../img/Configuration_Checklist_4_4.png)
 
 ### Localization
 
@@ -435,7 +435,7 @@ screenshot). An email will be sent to the email address associated with
 your user login account. The From email address will be the default From
 address you've configured in the previous section.
 
-![Picture_11](/img/CiviCRM-Configuring-Picture_11-en.png "Save and Send Test Email")
+![Picture_11](../img/CiviCRM-Configuring-Picture_11-en.png "Save and Send Test Email")
 
 If CiviCRM is unable to send the test email, you will see a message on
 your screen with the specific error and some suggestions for
@@ -463,7 +463,7 @@ automated emails. If you've already entered an email address in the
 Domain Information screen, that address will be listed here (as
 illustrated on the leftmost field of the following screenshot).
 
-![](/img/From%20email.PNG)
+![](../img/From%20email.PNG)
 
 When users send an email using CiviCRM, their primary email address is
 used as the From address by default. However, they can also select one

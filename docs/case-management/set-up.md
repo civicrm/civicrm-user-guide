@@ -204,7 +204,7 @@ You can choose to use the "end date" of a case (i.e the final defined
 activity) as your reference and use negative offset values to schedule
 activities as the example below shows. 
 
-![](/img/timeline_advanced.PNG)
+![](../img/timeline_advanced.PNG)
 
 You can rename additional timelines or a sequence using the fields
 available in the 'Advanced' section below the main Activities section of
