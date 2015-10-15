@@ -1,4 +1,4 @@
-What is a Petition?
+What is CiviPetition?
 ===================
 
 CiviCampaign includes a function that lets you create a petition to
