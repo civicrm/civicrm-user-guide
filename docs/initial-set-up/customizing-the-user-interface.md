@@ -153,9 +153,7 @@ For instance, the default range for Activity Dates are 20 years prior to
 the current year all the way through to 10 years beyond the current
 year. If you would like to track activities that have occurred, say, 25
 years ago then you would need to update this range to enable your end
-users to log these activities. Otherwise you will see an error such as:
-
-![](../img/z_sprint14_Date_error.png)
+users to log these activities.
 
 Customizing the navigation menu
 -------------------------------
