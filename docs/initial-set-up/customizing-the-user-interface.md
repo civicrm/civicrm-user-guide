@@ -125,8 +125,6 @@ are:
 -   **Contact Reference Options**: This is a series of checkboxes for basic contact fields (name, email, phone, etc). The fields that are checked will show up in the autocomplete dropdown search results for 'Contact Reference' custom fields.
 -   **Autocomplete Results**: This determines the maximum number of results that will be displayed when typing in an autocomplete field.
 
-The above Yes/No options are all defaulted to Yes when you first install
-CiviCRM, with the exception of Include Nickname, which defaults to No.
 If your database is large and your searches are slow, consider disabling
 some of these options to increase your speed.
 
