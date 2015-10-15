@@ -176,7 +176,7 @@ configure a **Default Online Membership Renewal Page** as follows:
 A "renew" link pointing to that page will then be displayed on the
 Contact Dashboard for any memberships which were manually entered.
 
-![](../_edit/static/z_sprint14_renewalpage.png)
+![](../img/z_sprint14_renewalpage.png)
 
 Manually renewing a membership for a single contact
 ---------------------------------------------------

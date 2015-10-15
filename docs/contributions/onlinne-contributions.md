@@ -68,7 +68,7 @@ regardless of whether you include any other fields in your profile(s).
     When you edit or create a new profile you will use the profile drag
     and drop interface pictured here.
 
-    ![](../_edit/static/Contribution-page---edit-profile2.gif)
+    ![](../img/Contribution-page---edit-profile2.gif)
 
     WARNING: If you modify an existing profile whilst configuring your
     Contribution page, the changes you make will apply everywhere that

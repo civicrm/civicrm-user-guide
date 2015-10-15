@@ -37,7 +37,7 @@ CiviCase Reports
 
 There are four report templates specifically for cases as shown below:
 
-![](../_edit/static/4.5_Case_report_templates.PNG) 
+![](../img/4.5_Case_report_templates.PNG) 
 
 In addition as cases are made up of activities, the Activity report
 template is particularly useful for providing a dashlet for each user

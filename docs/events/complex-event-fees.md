@@ -20,7 +20,7 @@ Here's an example of how a price set looks to a person who is
 registering for a Conference that includes optional pre-conference
 training sessions, meals and lodging:
 
-![PriceSetRegistration](../_edit/static/CiviCRM_update-CiviEvent-PriceSetRegistration-en.png "PriceSetRegistration")
+![PriceSetRegistration](../img/CiviCRM_update-CiviEvent-PriceSetRegistration-en.png "PriceSetRegistration")
 
 **Creating a New Price Set**
 
@@ -41,7 +41,7 @@ To create a new price set:
 
 Begin by entering a name for the event item in the Field Label**.**
 
-![](../_edit/static/Event%20Price%20set%20v3.PNG)
+![](../img/Event%20Price%20set%20v3.PNG)
 
 The Input Field Type has a structure similar to custom data fields, with
 some unique qualities and usage relevant to fee structures.
@@ -94,7 +94,7 @@ Once you finish configuring your price set, you add it to your event on
 the Fees tab. Select the name of your price set in the Price Set
 field as shown in the following screenshot.
 
-![PriceSetEvent](../_edit/static/CiviCRM_update-CiviEvent-PriceSetEvent-en.png "PriceSetEvent")
+![PriceSetEvent](../img/CiviCRM_update-CiviEvent-PriceSetEvent-en.png "PriceSetEvent")
 
 As with custom data fields, it is to your advantage to give thought to
 the structure of your registration fees and build the price set before
@@ -130,7 +130,7 @@ page, duplicating the original fee table shown in the screenshot below.
 You can now edit the labels and fees to correspond to the discounts
 offered for each of the original fee options. 
 
-![](http://booki.flossmanuals.net/civicrm/http://en.flossmanuals.net/floss/pub/CiviCRM/CiviEvent/)![CDiscount](../_edit/static/CiviCRM-CiviEvent-CDiscount-en.gif "CDiscount")
+![](http://booki.flossmanuals.net/civicrm/http://en.flossmanuals.net/floss/pub/CiviCRM/CiviEvent/)![CDiscount](../img/CiviCRM-CiviEvent-CDiscount-en.gif "CDiscount")
 
 You can create multiple date-based discount sets for an event. This may
 be useful if you have a series of early bird dates that progressively

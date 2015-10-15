@@ -470,7 +470,7 @@ that the multi-value custom data appears slightly differently in the
 profile to facilitate adding, editing and deleting multiple instances of
 these records. 
 
-![](../_edit/static/multi-value-profile.png)
+![](../img/multi-value-profile.png)
 
 ### Making directories with Profiles 
 

@@ -219,7 +219,7 @@ for this email. Selecting a template populates the HTML Format and
 Plain-Text Format fields with the message content from the template. You
 can then edit that content. You can also update the template, either
 changing the original template or saving it as a new template.
-![](../_edit/static/CiviMail%20Mailing%20Naming%20.png)
+![](../img/CiviMail%20Mailing%20Naming%20.png)
 
 3. **Remove duplicate emails**: To edit your mailing dedupe options, click
 the small wrench to the right of the Recipients field.
@@ -233,7 +233,7 @@ the small wrench to the right of the Recipients field.
     address. Checking this box will ensure only one email is sent to each
     address automatically. However, you can change the Location Type and the
     Selection Method on the Edit Options screen.
-![](../_edit/static/Deduping%20Mailings.png)
+![](../img/Deduping%20Mailings.png)
 1. **Recipients:** This is where you can choose who will receive the
 mailing (if mailing to Groups) or further refine your mailing (if
 mailing to search results). You can choose Groups to include and
@@ -391,7 +391,7 @@ to look for all contacts who opened the email, ready for you to add
 extra criteria. For more information on advanced searches, see
 "Searching".
 
-![](../_edit/static/CiviCRM_mailing_advancedsearch.png)
+![](../img/CiviCRM_mailing_advancedsearch.png)
 
 Managing mass mailings
 ----------------------

@@ -34,7 +34,7 @@ advanced reporting, see the *CiviReport* section.
 Quick search 
 --------------
 
-![](../_edit/static/QuickSearch.png)
+![](../img/QuickSearch.png)
 
 The easiest way to find a specific contact is to use the Quick search
 box that appears in the navigation menu at the top left of the screen.
@@ -415,7 +415,7 @@ left column, as shown below. You can adjust the fields shown in this
 profile (**Administer** > **Customize Data and Screens** >
 **Profiles**). 
 
-![Search_summaryOverlay](../_edit/static/CiviCRM_update-CiviCore-Search_summaryOverlay-en.jpg "Search_summaryOverlay")
+![Search_summaryOverlay](../img/CiviCRM_update-CiviCore-Search_summaryOverlay-en.jpg "Search_summaryOverlay")
 
 The wildcard (%)
 ----------------

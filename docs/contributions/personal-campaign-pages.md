@@ -127,7 +127,7 @@ After PCP creation has been enabled, there are two ways to create a PCP:
 
 **The invitation button:** 
 
-![](../_edit/static/pcp-contribute-thank-you.png)
+![](../img/pcp-contribute-thank-you.png)
 
 **The invitation link:**
 

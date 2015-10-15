@@ -44,7 +44,7 @@ The options available are as follows:
 
 
 
-![](../_edit/static/new_pledge2.png)
+![](../img/new_pledge2.png)
 
 Payment reminders
 -----------------

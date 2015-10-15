@@ -27,7 +27,7 @@ sign-in and follow the steps below (when logging in you must select
 1. 
 In the Central Home dashboard, click "Create a new Connection" under
 "Connection Status" 
- ![](../_edit/static/CiviCRM_SMS_clickatell-create-connection.png)
+ ![](../img/CiviCRM_SMS_clickatell-create-connection.png)
 
 1. 
 Select "HTTP/S" as the connection type

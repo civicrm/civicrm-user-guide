@@ -225,7 +225,7 @@ Managing Groups
 To view and manage all groups, go to: Navigation Menu > Contacts >
 Manage Groups.
 
-![](../_edit/static/ManageGroups.png)
+![](../img/ManageGroups.png)
 
 You can use the Find Groups form at the top of the Manage Groups screen
 to search for groups by name, type, visibility and whether the group is

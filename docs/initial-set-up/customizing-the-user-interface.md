@@ -155,7 +155,7 @@ year. If you would like to track activities that have occurred, say, 25
 years ago then you would need to update this range to enable your end
 users to log these activities. Otherwise you will see an error such as:
 
-![](../_edit/static/z_sprint14_Date_error.png)
+![](../img/z_sprint14_Date_error.png)
 
 Customizing the navigation menu
 -------------------------------

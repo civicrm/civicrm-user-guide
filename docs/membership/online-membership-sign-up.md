@@ -33,7 +33,7 @@ grouped together into tabs. Once you have given your contribution page a
 name, these tabs are displayed at the top of the page as you work
 through the rest of the set up process. 
 
-![](../_edit/static/membership-tabs.png)
+![](../img/membership-tabs.png)
 
 In this chapter, we concentrate on the tabs and options of contribution
 pages that are most useful for memberships. A couple of tabs that are

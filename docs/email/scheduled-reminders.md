@@ -53,7 +53,7 @@ When you click on **Add Reminder** under **Administer > Communications > Schedul
 **Entity** chosen but all scheduled reminders are fairly similar. The
 general process is:
 
-![](../_edit/static/scheduled_reminders_contactsV2.PNG)
+![](../img/scheduled_reminders_contactsV2.PNG)
 
 1.  Give your reminder a name that will help you or others identify it.
     

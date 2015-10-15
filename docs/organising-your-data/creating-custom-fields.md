@@ -446,7 +446,7 @@ any time by navigating to **Administer > Customize Data and Screens > Custom Dat
 Fields' for the relevant field set.
 
 
-![](../_edit/static/Move_custom_fields.PNG) 
+![](../img/Move_custom_fields.PNG) 
 As well as the expected options of edit field settings, edit multiple
 choice options (if applicable), preview, disable or delete, you also
 have the option to **Move** a custom field to another data set. You can

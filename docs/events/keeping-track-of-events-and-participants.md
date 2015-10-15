@@ -18,7 +18,7 @@ scheduled and recent Events. Click the **Event name** to view the event
 as it will be displayed to site visitors. Click the **Participants
 count** to see a list of participants. 
 
-![EventSummary](../_edit/static/CiviCRM-EverydayTasks-EventSummary-en.png "EventSummary") 
+![EventSummary](../img/CiviCRM-EverydayTasks-EventSummary-en.png "EventSummary") 
 
 To run your own customized searches, click** Find more event
 participants** at the end of the page. Here you can search by
@@ -149,7 +149,7 @@ participant's event registration as follows:
     is via **Events > Find Participants**) 
 2.  Select **View** or **Edit** (towards the right of the event record)
 
-    **![](../_edit/static/z_sprint14_PartiallyPaidRegistration.png)**
+    **![](../img/z_sprint14_PartiallyPaidRegistration.png)**
 
 3.  Click on **Change Selections.**
 
@@ -160,7 +160,7 @@ participant's event registration as follows:
     
 
 
-**![](../_edit/static/z_sprint14_ChangeRegistrationSelections.png)**
+**![](../img/z_sprint14_ChangeRegistrationSelections.png)**
 
 Additional payments (credit card or offline methods) or a refund
 (offline methods only) will need to be entered via the **record payment** link associated with the event registration record as
@@ -176,7 +176,7 @@ You can create custom name badges for your event.
 Navigate to **Administer>CiviEvent>Event Badge Layout>New Badge
 Layout** and you will see the following set-up screen.
 
-![](../_edit/static/Event%20Badges%20UIv2.png) 
+![](../img/Event%20Badges%20UIv2.png) 
 
 Points to consider are:
 

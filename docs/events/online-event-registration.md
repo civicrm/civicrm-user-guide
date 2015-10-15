@@ -9,7 +9,7 @@ offering online registration for events.
 
 The standard flow for registering for an event is as follows:
 
-![event_registrationflow_1](../_edit/static/CiviCRM-CiviEvent-event_registrationflow_1-en.gif "event_registrationflow_1")
+![event_registrationflow_1](../img/CiviCRM-CiviEvent-event_registrationflow_1-en.gif "event_registrationflow_1")
 
 Setting up online registration
 ------------------------------
@@ -18,7 +18,7 @@ To offer online registration, check **Allow Online Registration** in the
 Online Registration step of event creation and use the options on this
 form to configure this feature.
 
-![](../_edit/static/event_online_rego_part_1.PNG)
+![](../img/event_online_rego_part_1.PNG)
 
 Define the text to be used as the **link** from the event information
 page to the registration form, and set the starting and ending dates for
@@ -63,7 +63,7 @@ scheduled reminders)
 The next step is to define the text and the fields for collecting
 information that will be displayed on your online registration page.
 
-![](../_edit/static/event_online_rego_part_2.PNG)
+![](../img/event_online_rego_part_2.PNG)
 
 The introductory text comes at the top of the page and the footer text
 at the bottom. In between will come some, or all, of: profile, fee
@@ -103,7 +103,7 @@ include in the profile if you have not already done so. Custom fields
 can be created for all events or all participants, or only specific
 Event Types or Participant Roles (see the chapter *Custom data on
 events* in this section for more details on where you should store what
-custom data).![](../_edit/static/Drag_and_drop* _profile_for_event.PNG)
+custom data).![](../img/Drag_and_drop* _profile_for_event.PNG)
 
 Registration confirmation
 --------------------------
@@ -123,7 +123,7 @@ more staff emails (separating multiple email addresses with commas) to
 the **CC Confirmation To** field if you want real-time updates on who is
 registering for your event. 
 
-![OnlineRegEmail](../_edit/static/CiviCRM_update-CiviEvent-OnlineRegEmail-en.png "OnlineRegEmail")
+![OnlineRegEmail](../img/CiviCRM_update-CiviEvent-OnlineRegEmail-en.png "OnlineRegEmail")
 
 Please note that the contents of the **Text** field will be included in
 both TEXT and HTML versions of receipt emails so we do not recommend
@@ -170,7 +170,7 @@ statuses**. You can then check the **Offer Waitlist** checkbox on
 the **Info and settings** tab, and set the message you want displayed on
 the event information page when the event is full.
 
-![EventInfo2](../_edit/static/CiviCRM_update-CiviEvent-EventInfo2-en.png "EventInfo2")
+![EventInfo2](../img/CiviCRM_update-CiviEvent-EventInfo2-en.png "EventInfo2")
 
 Note that in order for the status processing to happen, you need to have
 the **Update Participant Statuses** scheduled job
@@ -255,7 +255,7 @@ you get familiar with that chapter at some point. This section just
 covers contact matching and duplicate management in the context of
 CiviEvent.
 
-![](../_edit/static/event-duplicate-matching.png)
+![](../img/event-duplicate-matching.png)
 
 By default, CiviEvent uses the Unsupervised rule to do matching. When
 you configure an event for online registration, you can override the

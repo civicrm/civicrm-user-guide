@@ -211,11 +211,11 @@ include the **unit price** of the item on offer in the **field label**
 as shown in the following example or in the **field help**. This means
 that **Display Amount?** should not be ticked.
 
-![](../_edit/static/4.5_membership_price_sets_raffle_dates_fields_used.PNG)
+![](../img/4.5_membership_price_sets_raffle_dates_fields_used.PNG)
 
 This will display as:
 
-![](../_edit/static/membership_price_set_raffle_preview_1.PNG)
+![](../img/membership_price_set_raffle_preview_1.PNG)
 
 This price field will only be visible between the **Active On** and
 **Expire On**dates and lets us make sure that the raffle tickets can
@@ -228,7 +228,7 @@ field label although the currency symbol is. The **Display Amount?** is
 not ticked. This is the best configuration to allow "any amount"
 donations. 
 
-![](../_edit/static/4.5_membership_price_sets_donation.PNG)
+![](../img/4.5_membership_price_sets_donation.PNG)
 
 For review, here again is how all of these fields look on the final
 screen:

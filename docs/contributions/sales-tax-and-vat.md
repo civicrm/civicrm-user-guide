@@ -45,7 +45,7 @@ Financial Types**.  Find the Financial Type this sales tax applies to, and click
 
 For the **Financial Account Relationship** choose **Sales Tax Account is** and in the ** Financial Account** field select your sales tax account. Click **Save.**
 
-![](../_edit/static/addfinancialaccount2.jpg)
+![](../img/addfinancialaccount2.jpg)
 
 Once the sales tax Financial Account has been added, you will see it
 listed with the other Financial Accounts for that specific Financial

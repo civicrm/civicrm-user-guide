@@ -111,7 +111,7 @@ EFT, etc.)**
 
 Once you enter information about the batch, you can begin entering
 payments on each
-line.![](../_edit/static/CiviCRM-Contributions-everydaytasks-batchentrycontrib.jpg)
+line.![](../img/CiviCRM-Contributions-everydaytasks-batchentrycontrib.jpg)
 
 There are eight fields that appear for all batches.
 

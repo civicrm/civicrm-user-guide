@@ -70,7 +70,7 @@ when a new case is opened.
     **Administer > Customize Data and Screens > Relationship Types**.
     There you will also be able to review and edit other details of the
     roles/relationships if you need to. 
-![](../_edit/static/CiviCase_Roles.png) 
+![](../img/CiviCase_Roles.png) 
 
 4. Include **Activities**
 When working on a case, the user has access to a drop-down menu in the
@@ -108,7 +108,7 @@ to the case.
     user **might** **choose** to add to the case. Activities that you
     include in a Timeline or Sequence do not need to be in this list. 
     
-    ![](../_edit/static/CiviCRM%204.5%20CiviCase%20Activities.png)
+    ![](../img/CiviCRM%204.5%20CiviCase%20Activities.png)
     
     Select the activity types that you wish to be included in the case type
     from the "Add activity type" drop-down shown below the listing of
@@ -180,7 +180,7 @@ within the case type.
     from the (Add) menu. Currently you can only add one sequence to any
     given case type.
 
-![](../_edit/static/CiviCRM%204.5%20CiviCase%20Standard%20Timeline.png)
+![](../img/CiviCRM%204.5%20CiviCase%20Standard%20Timeline.png)
 To add activities to a timeline, select the tab for the timeline you want
 to work with:
 
@@ -323,7 +323,7 @@ The following is a list of the CiviCase-related permissions:
      This permissioning model is useful for users who are external to your
      organisation and who should not be allowed to see contact details.
 
--   ![FindDeletedCases](../_edit/static/CiviCRM_update-CasePlanning-FindDeletedCases-en.png "FindDeletedCases")Access
+-   ![FindDeletedCases](../img/CiviCRM_update-CasePlanning-FindDeletedCases-en.png "FindDeletedCases")Access
     all cases and activities: allows a user to create new cases, as well
     as view and add activities to any case (regardless of who initially
     created the case).
@@ -333,7 +333,7 @@ The following is a list of the CiviCase-related permissions:
 
     Users with this permission can also find and undelete these cases and activities by checking the Deleted Cases option in Find Cases and the Deleted Activities option in the Case Activities Search Filter.
 
-![FindDeletedActivities](../_edit/static/CiviCRM_update-CasePlanning-FindDeletedActivities-en.png "FindDeletedActivities")
+![FindDeletedActivities](../img/CiviCRM_update-CasePlanning-FindDeletedActivities-en.png "FindDeletedActivities")
 
 -   Administer CiviCase: gives access to Administer > CiviCase options
     including:

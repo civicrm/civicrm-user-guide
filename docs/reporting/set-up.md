@@ -165,7 +165,7 @@ be run again. To do this:
     multiple email addresses should be separated by commas. See the
     information below about *Email settings* to ensure your reports are
     sent. 
-![](../_edit/static/Report%20-%20Email.png)
+![](../img/Report%20-%20Email.png)
 3.  On the **Access** tab, you can set if and where the report will
     appear in the menu. All reports will be included in **Report > Report listing**.     Check **Include Report in Navigation Menu?** and
     specify the parent menu to include the report in another menu. For
