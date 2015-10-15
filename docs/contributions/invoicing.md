@@ -13,7 +13,7 @@ In this screen you can set certain settings for invoices as well:
 -   customized notes or standard terms you want to appear on your
     invoice
 
-![](../img/civicontribute_comp_settings.png) 
+![](../img/civicontribute_comp_settings.png)
 
 Creating an Invoice
 --------------------
@@ -22,16 +22,16 @@ Once Invoicing has been enabled, you can easily email or print invoices
 for Complete or Pending Contributions from a contact's **Contribution**
 Tab.
 
-1.  Go to Contact's Contribution tab 
+1.  Go to Contact's Contribution tab
 2.  View the record you want to create an invoice for
 
-![](../img/contribution_summary.png) 
+![](../img/contribution_summary.png)
 
 1.  Once you are viewing the record you have the option to Print Invoice
     or Email Invoice. Printing an Invoice will download a pdf and
     Emailing an Invoice will provide an additional Options screen.
 
-![](../img/contributiion_view_Screen.png) 
+![](../img/contributiion_view_Screen.png)
 
 1.  Once you have chosen the Email Invoice option you have options
     before sending:
@@ -40,13 +40,13 @@ Tab.
 
 -   Type an additional message
 
-![](../img/email_invoice.png) 
+![](../img/email_invoice.png)
 
 Here is an example of a printed invoice. Invoices can be customized.
 
 ![](../img/invoice.png)
 
-Invoice Customization 
+Invoice Customization
 -----------------------
 
 The out of the box template code populates the Company Name, Address,
@@ -61,12 +61,11 @@ in **Administer > CiviCRM > Message Templates > System Workflow Messages > Contr
 To change the image on the invoice you will need to modify the code on
 line 10, replacing the image source (img src).
 
+```html
 <td><img src = "{$resourceBase}/i/civi99.png" height = "34px" width
 = "99px"></td>
-
+```
 For more advanced configuration with accounting software packages like
 QuickBooks, you should involve your organization's bookkeeper or
 accountant in setting up your Financial Types and Financial Accounts.
-See Accounting Integration and the Wiki Page for more information. 
- 
-
+See Accounting Integration and the Wiki Page for more information.

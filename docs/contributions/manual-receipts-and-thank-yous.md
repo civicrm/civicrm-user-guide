@@ -15,6 +15,7 @@ You can send receipts to multiple contacts at the same time through the
 contributions search. Simply run a search, as above, and after selecting
 the contacts you wish to send a receipt to, choose **Print or Email
 Contribution Receipts** from the actions drop-down menu.
+
 ![](../img/CiviCRM_contributions_sendreceipts.png)
 
 You will be given the option to  email the receipts or make PDF receipts
@@ -121,7 +122,7 @@ included in the letter using the token {$contribution_aggregate}.
 
 For example, if the HTML source for your letter is:
 
-```
+```html
 <p>Dear {contact.first_name}</p>
 <p>Thank you for donating ${$contribution_aggregate} to help the arts during the 2014 financial year</p>
 <p>Your donation is tax deductible and the details are given below.</p>
