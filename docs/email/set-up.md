@@ -63,7 +63,7 @@ You cannot create smart groups based on Membership, Contributions or
 Pledge searches, or based on results of an Advanced Search if the
 "Display results as" option is set to anything but Contacts.
 
-Allow people to sign up for your mailing lists online
+Allow people to sign up for your mailing lists online 
 -------------------------------------------------------
 
 CiviCRM makes it possible for people to sign themselves up for your
@@ -73,20 +73,20 @@ To allow this, you must designate the group as a mailing list. If you
 didn't do this when you created the Group, go to **Contacts** >
 **Manage Groups**. Click **Settings** on the group that holds your
 mailing list recipients and check the Mailing List next to Group Type.
-You must also change the Visibility to Public Pages.
+You must also change the Visibility to Public Pages. 
 
 For this to work for users who don't have a log-in to your CiviCRM, you
 must ensure that anonymous users in Drupal have the following permission
 checked: "Access CiviMail subscribe/unsubscribe pages."
 
-### Using the subscribe link
+### Using the subscribe link 
 
 One way to allow users to subscribe to an email list online is by
 directing them to www.*yourdomain.org*/civicrm/mailing/subscribe. You
 and anyone who accesses this link can subscribe to the available mailing
 list groups.
 
-### Using a profile
+### Using a profile 
 
 Alternatively, you can collect more information when people sign up to
 your mailing lists with the use of a profile that is then displayed on a
@@ -107,16 +107,6 @@ so that an email can be sent to the person to confirm that they wanted
 to sign up for the mailing list. Until they confirm, they will have a
 status of "Pending" in the mailing list group.
 
-You must also add a field for the mailing lists groups that you want
-them to be able to sign up for. Click **Add Field**. For Field Name,
-select Contacts. When the possible selections load in the second field,
-select Group(s). In Field Label, you can leave "Group(s)" or you may
-want to change it to something more intuitive to your website visitors
-such as "Newsletter Sign-up." Visibility for this field must also be set
-to Public Pages. When the profile displays publicly, this field will
-show check boxes for all Mailing List Groups that have their Visibility
-set to Public Pages.
-
 There are two ways to display the profile publicly:
 
 1.  Share a link directly. Return to the listing of profiles (at
@@ -133,6 +123,8 @@ There are two ways to display the profile publicly:
     contents of the box into a page on your website. Website visitors
     will be able to sign up to your mailing lists on this page.
 
+Alternatively, for Wordpress you can display the form publicly by using a shortcode. On any Wordpress Page, click the **CiviCRM** button above the editor. For **Page Type** select **Profile**. On the next drop-down that appears, select the name of the profile that you have created. Select **Edit** on the radio button option just below the drop-downs, so that you give users access to edit data in your database (i.e. to add their email address and name to your database). Click **Insert Form** and the shortcode will be added to the editor.
+
 ### Using a Webform (Drupal)
 
 Many Drupal site administrators prefer to use a webform instead of a
@@ -142,7 +134,25 @@ For more information see:
 
 [http://wiki.civicrm.org/confluence/display/CRMDOC/Webform+CiviCRM+Integration](http://wiki.civicrm.org/confluence/display/CRMDOC/Webform+CiviCRM+Integration)
 
+### Adding people to your mailing list group by using a profile
+
+To get a user automatically added to your mail list group(s) when they fill out your Newsletter Sign-up form (CiviCRM profile), you have two options:
+
+Option A: On the profile, you can add a field for the mailing lists groups that you want
+users to be able to sign up for. Go to the profile's fields and click **Add Field**. For Field Name,
+select Contacts. When the possible selections load in the second field,
+select Group(s). In Field Label, you can leave "Group(s)" or you may
+want to change it to something more intuitive to your website visitors
+such as "Newsletter Sign-up." Visibility for this field must be set
+to Public Pages. When the profile displays publicly, this field will
+show check boxes for all Mailing List Groups that have their Visibility
+set to Public Pages. This way users can add themselves to all of your Mailing List Groups that they want to by putting a tick on the appropriate checkboxes.
+
+Option B: Go to the profile settings. In the Advanced Settings section, select your desired Mailing List Group for **Add new contacts to a Group?**. Now when users fill out your form, they will be automatically added to this group. 
+
 ### Mailing list confirmation workflow
+
+For this to work, first make sure that you have put a tick on the desired **Enable Double Opt-in** options in **Administer > Administration Console > CiviMail Component Settings**.
 
 After people subscribe to mailing list groups—via the subscribe link or
 a profile—CiviCRM will automatically send them an email asking them to
@@ -152,9 +162,18 @@ group subscription set to Pending. When they confirm, CiviCRM will
 automatically change their group subscription status to Added and they
 will be sent a welcome message. (Note: When users subscribe to multiple
 groups at once, a confirmation email is sent for each group
-separately.)
+separately.) 
 
-Automated Messages and mailing list management
+Scheduled jobs and cron jobs
+----------------------------
+
+After people have signed up on your mailing list(s), you will want to be able to send them mass mailings. You will also want to automatically handle any bounced email messages. These topics are dealt with in detail in the **Everyday tasks** and **Maintaining Healthy Email Lists** parts of this book, respectively. Here in this section we are going to look at some backend and server options that enable the sending of mass mailings and the bounce handling to happen.
+
+Go to **Administer > System Settings > Scheduled Jobs** and you will see all scheduled jobs that CiviCRM uses to do certain tasks on a regular basis. One such task is the actual sending of mass mailings, which is handled by the **Send Scheduled Mailings** scheduled job. Another task is the processing of bounced emails, for which the **Fetch Bounces** scheduled job is responsible. You will need to enable these two scheduled jobs (and any others that you want to be run on a regular basis). Without these two, CiviMail will not be sending any mailings and will not be processing the bounces.
+
+Now, CiviCRM's scheduled jobs cannot self-trigger themselves. Something on your server has to trigger them. The most common option for this is to set up a cron job on your server. This cron job can trigger one or more (or all) of the scheduled jobs. For more detailed explanations and examples of how to do this, see the [Managing Scheduled Jobs](http://wiki.civicrm.org/confluence/display/CRMDOC/Managing+Scheduled+Jobs) wiki page.
+
+Automated Messages and mailing list management 
 ------------------------------------------------
 
 CiviCRM sends emails automatically when your participants take certain
@@ -167,7 +186,7 @@ actions:
     resubscribe to a list they have previously unsubscribed from, they
     get a confirmation email that does not require any action.
 -   When they reply to a message you have sent through CiviMail, you can
-    set up an autoresponse to their reply.
+    set up an autoresponse to their reply. 
 
 In CiviCRM, these are called Automated Messages, and you can edit them
 and add new ones at **Mailings > Headers, Footers, and Automated
@@ -186,7 +205,7 @@ using the Send Email activity.
 
 The easiest way to create a new message template is to check the Save as
 New Template box on the message creation screen. This is available both
-when using the Send Email activity and when sending a mass mailing.
+when using the Send Email activity and when sending a mass mailing. 
 
 You can also create message templates from scratch or edit existing
 templates by going to **Mailings > Message Templates** OR **Administer > Communications > Message Templates**.
@@ -198,7 +217,7 @@ templates by going to **Mailings > Message Templates** OR **Administer > Communi
     There are online resources, not specific to CiviCRM, that offer
     instructions on creating an HTML email templates. One suggestion is
     to find and copy an email template from a website that offers
-    samples.
+    samples. 
 4.  In the WYSIWYG editor toolbar, there is an icon called "Source" (the
     appearance and labelling of this icon changes depending on whether
     you are using Drupal, Joomla, or WordPress). When you click on it,
@@ -206,7 +225,7 @@ templates by going to **Mailings > Message Templates** OR **Administer > Communi
     used. If you want to paste in HTML from a template you found
     externally, or if you want to write HTML directly into your template
     or modify the HTML that you've created with the WYSIWYG editor, you
-    need to switch to this view.
+    need to switch to this view. 
 
 Message templates are available even when CiviMail is disabled.
 
@@ -215,7 +234,7 @@ Message templates are available even when CiviMail is disabled.
 HTML code allowed in emails is more restricted than HTML used for web
 pages. For instance, it needs to use tables for layout, inline CSS, and
 must not include background images. Here are some tips for creating a
-template that will look good in all mail clients:
+template that will look good in all mail clients: 
 
 -   **Table border**: The HTML <table> element includes an optional
     border attribute. Since the default value is 0, it doesn't appear
@@ -226,26 +245,30 @@ template that will look good in all mail clients:
     usually have multiple tables and nested tables (tables inside
     tables). Make changes one at a time and switch to the HTML view to
     see the results. A table usually has more than one parameter, so
-    make sure to place spaces between parameters.
+    make sure to place spaces between parameters. 
 -   **Table cellpadding and cellspacing**: these table parameters are
     very useful when trying to improve the readability of your email.
     Play with these settings in different tables and see what works for
-    you.
+    you. 
 -   **Width**: Do not send an email that is wider than 600 pixels, to
     ensure maximum compatibility across email clients. Make sure your
     outermost table does not exceed 600 pixels. Do the same for any
     other tables inside your main table. Also make sure that the total
     width of each image does not exceed 600 pixels. Images have a width
     parameter, but they can also have a horizontal padding parameter
-    that, if set, can increase the width of the image.
+    that, if set, can increase the width of the image. 
 -   **Images**: these need to be online and accessible in order for you
     to use them. First edit your image so that its width and height is
     appropriate for your email template. Next, save it so that its file
     size is as small as possible. If you do not have image editing
     software, or do not know how to use it, there are free online
     resources that can help you resize your image.
--   **HTML editor**: CiviCRM comes with the WYSIWYG editor CKEditor and with Textarea, a plain text editor. You can change the functionalilty available in CKEditor by going to **Administer** > **Customize Data and Screens** > **Display
-    Preferences** > and selecting **Configure CKEditor**.
+-   **HTML editor**: CiviCRM comes with two WYSIWYG editors (CKEditor
+    and TinyMCE) and Textarea, a plain text editor. If you have another
+    editor configured as part of your Drupal, Joomla, or WordPress
+    installation, you can choose to use that instead. go to:
+    **Administer** > **Customize Data and Screens** > **Display
+    Preferences** > and select a different WYSIWYG Editor.
 
 To see examples of message templates, see
 [http://wiki.civicrm.org/confluence/display/CRMDOC/Sample+CiviMail+Messages](http://wiki.civicrm.org/confluence/display/CRMDOC/Sample+CiviMail+Messages)
@@ -277,17 +300,17 @@ To create a plain text version of a message from HTML:
     view; you don't want all the code, just the text. When you copy from
     the WYSIWYG view, the plain text field will automatically strip out
     the formatting and any other elements that do not work in plain
-    text.
+    text. 
 2.  Copy the URLs of all links to the appropriate places in the Plain
     Text Format field.
 3.  If the HTML version contained tables, modify the layout of your text
-    manually to ensure the text version is readable.
+    manually to ensure the text version is readable. 
 
 Creating headers and footers
 ----------------------------
 
 Headers and footers can be used only in mass mailings using CiviMail.
-They are not available unless CiviMail is enabled.
+They are not available unless CiviMail is enabled. 
 
 The header is the area at the top of the email; it should include
 elements that you want to be displayed before the main content body,
@@ -303,7 +326,7 @@ headers and footers for different purposes; for example, you might want
 to create a set of headers with different images and titles that can be
 used for different campaigns or programs. It is recommended to style
 them similarly, to present a coherent visual identity across all your
-messages.
+messages. 
 
 After headers and footers are configured, staff who prepare a new
 mailing will be able to select them from available headers and footers.
@@ -315,7 +338,7 @@ Like the Message Templates, headers and footers have both a text and an
 HTML version. Unlike Message Templates, however, the header and footer
 creation pages do not offer a WYGIWYG editor. You will need to write
 header and footer HTML directly or use another HTML editor to produce
-the HTML code.
+the HTML code. 
 
 Testing templates
 -----------------
@@ -345,10 +368,11 @@ addresses in the From, To, and Cc fields. If any of these email
 addresses are not already in the system, a new contact record will be
 created. (Technically, this can work for inbound emails as well;
 however, it does depend on the person sending the mail to you including
-the auto-filing address in the To, Cc, or Bcc field.)
+the auto-filing address in the To, Cc, or Bcc field.) 
 
 For this, your administrator should have configured IMAP or other mail
 accounts and set them up in CiviMail (see **Email System
 Configuration**, especially **Adding an incoming email account for
 handling bounces or auto filing to CiviMail**, in **Initial Set-Up** for
-more details).
+more details). 
+
