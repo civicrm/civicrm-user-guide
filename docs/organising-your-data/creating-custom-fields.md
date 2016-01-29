@@ -78,7 +78,7 @@ will be used for, select the display characteristics, and enter help
 text. The form appears in the following image, and we'll describe each
 field.
 
-![](/img/Custom%20Field%20Set.png)
+![](../img/Custom%20Field%20Set.png)
 
 ### Set Name
 
@@ -182,11 +182,11 @@ windows. Under **more** there is the option to "copy a record". For
 consecutive records that have the same value in many fields this lets
 you edit just one or two fields and save the copy as a new record. 
 
-![](/img/z-Sprint2014%20copy%20multli%20record.png)
+![](../img/z-Sprint2014%20copy%20multli%20record.png)
 
 **Tab** displays data in a similar format to the inline style.
 
-![](/img/z-Sprint14%20multi%20record%20old%20style%20table.png) 
+![](../img/z-Sprint14%20multi%20record%20old%20style%20table.png) 
 
 ### Is this Custom Field Set active?
 
@@ -240,7 +240,7 @@ well as the whole set of custom fields, as you are defining them. This
 is particularly useful for checking the layout of radio button and
 check-box fields with a large number of choices.
 
-![customdatafield.png](/img/CiviCRM-DataBasic-customdatafield-en.png "newcustomfield")
+![customdatafield.png](../img/CiviCRM-DataBasic-customdatafield-en.png "newcustomfield")
 
 ### Field label
 
@@ -260,7 +260,7 @@ store. The menu on the left (shown open in the following figure)
 indicates the format of data you wish to store, whereas the menu on the
 right indicates the way you want to interact with the user.
 
-![datainputfieldtype.png](/img/CiviCRM-DataBasic-datainputfieldtype-en.png "datainputtype")
+![datainputfieldtype.png](../img/CiviCRM-DataBasic-datainputfieldtype-en.png "datainputtype")
 
 The types of fields are:
 
@@ -330,11 +330,11 @@ will not be displayed in the table. You might want to do this for less
 important fields if you have a large dataset that is too wide for your
 screen. 
 
-![](/img/z_sprint14_MultirowCustom3.png) 
+![](../img/z_sprint14_MultirowCustom3.png) 
 Fields hidden in the table view will still be available when adding a
 new record or viewing, editing or copying a particular row.
 
-![](/img/z_sprint14_MultirowCustom2.png) 
+![](../img/z_sprint14_MultirowCustom2.png) 
 
 ### Database Field Length
 
@@ -433,7 +433,7 @@ Edit Custom Fields** > **Edit Multiple Choice Options**. You may go to
 this screen at a later date to modify the label, order and active status
 of any multiple choice option, or add more choices.
 
-![CustomMultipleOptions](/img/CiviCRM-Configuring-CustomMultipleOptions-en.PNG "CustomMultipleOptions")
+![CustomMultipleOptions](../img/CiviCRM-Configuring-CustomMultipleOptions-en.PNG "CustomMultipleOptions")
 
 If desired, you can also mark one of the choices as the default option.
 
@@ -446,7 +446,7 @@ any time by navigating to **Administer > Customize Data and Screens > Custom Dat
 Fields' for the relevant field set.
 
 
-![](../_edit/static/Move_custom_fields.PNG) 
+![](../img/Move_custom_fields.PNG) 
 As well as the expected options of edit field settings, edit multiple
 choice options (if applicable), preview, disable or delete, you also
 have the option to **Move** a custom field to another data set. You can

@@ -15,7 +15,7 @@ Campaign Dashboard (refer to the following chapters on *Surveys* and
 To view the Campaign Dashboard, go to **Campaigns > Dashboard >
 Campaigns.**
 
-![](/img/campaign_everyday_dashboard.png) 
+![](../img/campaign_everyday_dashboard.png) 
 
 From the Campaign Dashboard, you can then Edit, Disable and Delete
 existing campaigns, and create new campaigns. 
@@ -26,7 +26,7 @@ Create a New Campaign
 To create a Campaign:
 
 1.   Go to **Campaign > New Campaign**
-![](/img/campaign_everyday_newcampaign.png)
+![](../img/campaign_everyday_newcampaign.png)
 
 2.  Enter information about your campaign:
     -   **Title** (required): enter a unique name that describes your

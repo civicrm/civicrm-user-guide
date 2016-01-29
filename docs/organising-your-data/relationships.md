@@ -16,7 +16,7 @@ organisation to the individual.
 Creating relationships between contacts
 ---------------------------------------
 
-![](/img/4.5%20Add%20Relationship.png)
+![](../img/4.5%20Add%20Relationship.png)
 
 1.  Navigate to one of the records that you want to relate.
 2.  Click on **Add Relationship** from the **Actions** button on the

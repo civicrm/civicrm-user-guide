@@ -51,7 +51,7 @@ To release a hold:
 1.  Go to **Advanced Search**
 2.  In the **Basic Search Criteria** check the box to search for
     **Emails On Hold** 
-![](/img/Mailing%20Basic%20Search.png)
+![](../img/Mailing%20Basic%20Search.png)
 3.  Once you have the list of contacts with held email addresses, select
     them and choose the action **Unhold Emails** from the dropdown list
     and click **Go.**

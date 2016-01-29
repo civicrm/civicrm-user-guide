@@ -22,7 +22,7 @@ will take you to a screen where you can edit the options available.
 Note, depending on your permissions, you may not be able to edit these
 options and therefore will not see the pencil. 
 
-![](../_edit/static/4.5_new_event.PNG)
+![](../img/4.5_new_event.PNG)
 
 **From template** allows you to create an event from a template (see
 *Event templates* chapter in this section) rather than creating one from
@@ -107,7 +107,7 @@ events by clicking **Use existing location** and selecting it from the
 dropdown list. Note that if you choose an existing location and edit it,
 it will update that location for all events that use it.
 
-![](../_edit/static/event%20location%20with%20warning.PNG) 
+![](../img/event%20location%20with%20warning.PNG) 
 
 You can also list phone numbers and email addresses on the event
 information page if you want to give registrants a way to contact event
@@ -141,7 +141,7 @@ method? If so, you can enable the **Pay Later option** and define a
 label and payment instructions. If you keep this unchecked, registrants
 will be required to pay by credit card.
 
-![EventFeesPayLater](../_edit/static/CiviCRM_update-CiviEvent-EventFeesPayLater-en.png "EventFeesPayLater")
+![EventFeesPayLater](../img/CiviCRM_update-CiviEvent-EventFeesPayLater-en.png "EventFeesPayLater")
 
 **Regular Fees** provide a set of price levels from which the registrant
 must select a single level (e.g. an individual registration for $50 or
@@ -149,7 +149,7 @@ a family registration for $100). Each fee amount has a label assigned
 and you can set a default fee. This approach works well for many events
 and is easy to set up. Here's a simple example:
 
-![EventRegFees](../_edit/static/CiviCRM_update-CiviEvent-EventRegFees-en.png "EventRegFees")
+![EventRegFees](../img/CiviCRM_update-CiviEvent-EventRegFees-en.png "EventRegFees")
 
 If your event requires a more complex pricing structure, with more
 options or additional add-ons, you may wish to use **price sets** or
@@ -184,14 +184,14 @@ To set up a scheduled reminder for a specific event, click on the
 scheduled reminders tab, which will show you already existing scheduled
 reminders for this event (if any) and click on **Add Reminder**. 
 
-![](../_edit/static/scheduled-reminder-events.png)Fill in the details on
+![](../img/scheduled-reminder-events.png)Fill in the details on
 this form to send, for example, an email to all registered speakers 3
 days before the event start date.  Note that you can limit recipients by
 status (registered, attended, etc.) and also by role (speaker, attendee,
 volunteer, etc.).  You can either use a template or compose your own
 message in the HTML format box. 
 
-![](../_edit/static/scheduled-reminder-events-compose.png)
+![](../img/scheduled-reminder-events-compose.png)
 
 As well as setting up reminders on an event by event basis, you can also
 set them up for specific event types. and add them to specific event
@@ -211,7 +211,7 @@ final step in the event creation is a page where you can enable
 included on that page and in the email sent from the tool (see the
 following screenshot).
 
-![EventTellFriend](../_edit/static/CiviCRM_update-CiviEvent-EventTellFriend-en.png "EventTellFriend")
+![EventTellFriend](../img/CiviCRM_update-CiviEvent-EventTellFriend-en.png "EventTellFriend")
 
 A "Tell a friend" activity record will be added to a participant's
 Activities tab each time she sends mail to her friends. This allows you
@@ -237,7 +237,7 @@ tab to see the list of messages you can modify. Click **Edit** next to
 "Events - Registration Confirmation and Receipt" rows to edit the
 content and layout.
 
-![WorkflowMsgTpls](../_edit/static/CiviCRM_update-CiviEvent-WorkflowMsgTpls-en.png "WorkflowMsgTpls")
+![WorkflowMsgTpls](../img/CiviCRM_update-CiviEvent-WorkflowMsgTpls-en.png "WorkflowMsgTpls")
 
 
 The templates for these messages include both the text shown and

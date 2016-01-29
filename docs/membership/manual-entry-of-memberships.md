@@ -61,7 +61,7 @@ have the option to record other types of payments like checks and cash.
     select the **Submit Credit Card Membership** option and process the
     payment immediately.
 
-![](/img/manual-add-membership.png) 
+![](../img/manual-add-membership.png) 
 
 Many of the fields on "New Membership" form will be auto-completed if
 left blank. Fields include:
@@ -170,12 +170,12 @@ cancel the auto-renewal.
 -   Navigate to **Memberships** **> New Membership**, then select the
     contact or create a new contact. 
 
-![](/img/memberships%20add%20membership%20new%20contact.JPG)
+![](../img/memberships%20add%20membership%20new%20contact.JPG)
 
 -   Fill out the New Member form with the appropriate membership and
     payment information as in *Via an existing contact record* above.
 
-![](/img/memberships%20add%20membership%20via%20menu.JPG) 
+![](../img/memberships%20add%20membership%20via%20menu.JPG) 
 
 Gift Memberships
 ----------------
@@ -189,7 +189,7 @@ on the gift recipient's record. The receipt will be sent to the gifter.
 You will need to send a separate email or letter to tell the gift
 recipient about their membership. 
 
-![](/img/gift%20membership.PNG)
+![](../img/gift%20membership.PNG)
 
 Entering batches of membership payments
 ---------------------------------------

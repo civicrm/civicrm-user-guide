@@ -1,10 +1,12 @@
 # CiviCRM user guide
+
 Note: This repository contains _source files_ for the CiviCRM user and administrator guide. It is intended for use by people that want to contribute to the guide.
 
-If you just want to read the guide, ** [click here to read the published CiviCRM user guide.](http://book.civicrm.org/user) **
+If you just want to read the guide, ** [click here to read the published CiviCRM user guide.](http://gitbook.civicrm.org/) **
 
 ## Contributing to this manual
-To edit this manual
+
+To edit this manual:
 
 1. [Sign up for a github account](https://github.com/join) (if you don't already have one) and [login](https://github.com/login).
 2. Visit the [CiviCRM user guide repository](https://github.com/civicrm/civicrm-user-guide]) and find the page you want to edit, e.g. [Is CiviCRM for You?](https://github.com/civicrm/civicrm-user-guide/tree/master/getting-prepared/is-civicrm-for-you).

@@ -19,7 +19,7 @@ By creating a Profile, you are able to pick and choose only those fields
 that are relevant for a specific purpose. The diagram below provides a
 visual explanation of how existing fields become part of a Profile.
 
-![Profiles](/img/CiviCRM-Icons-db1-en.png "Profiles")
+![Profiles](../img/CiviCRM-Icons-db1-en.png "Profiles")
 
 This section will outline how to use Profiles for both collecting and
 sharing data, and share several ways of using profiles that can save
@@ -53,7 +53,7 @@ Some examples:
 For example, this profile is being used to collect address information
 on a donation page.
 
-![](/img/baykeeper-profile.png) 
+![](../img/baykeeper-profile.png) 
 
 ### Displaying information on public pages
 
@@ -447,17 +447,17 @@ In WordPress, there is an additional third way. When creating or editing
 a post, click on the CiviCRM button to insert a CiviCRM shortcode into
 the post.
 
-![](/img/2013-09-04_15-29-47_1.png)
+![](../img/2013-09-04_15-29-47_1.png)
 
 On the popup form, select Profile as the desired frontend element.
 
-![](/img/2013-09-04_15-15-35.png)
+![](../img/2013-09-04_15-15-35.png)
 
 Use the second select widget to specify the profile you would like to
 use. Finally, select the purpose of the form — create, edit or view —
 and click Insert Form.
 
-![](/img/2013-09-04_15-16-45.png)
+![](../img/2013-09-04_15-16-45.png)
 
 ### Multi-value fields in profiles
 
@@ -470,7 +470,7 @@ that the multi-value custom data appears slightly differently in the
 profile to facilitate adding, editing and deleting multiple instances of
 these records. 
 
-![](../_edit/static/multi-value-profile.png)
+![](../img/multi-value-profile.png)
 
 ### Making directories with Profiles 
 
@@ -498,7 +498,7 @@ To put a directory onto your website:
      page). This link will only be included for contacts who have a
      user account on your website. 
       
-    ![profile_adv_settings](/img/CiviCRM-CapturingExposing-buildprofile-profile_adv_settings-en.jpg "profile_adv_settings")
+    ![profile_adv_settings](../img/CiviCRM-CapturingExposing-buildprofile-profile_adv_settings-en.jpg "profile_adv_settings")
 
 Now it's time to include the fields that will make up the directory. For
 profiles used as directories you have total control over which fields:
@@ -510,7 +510,7 @@ profiles used as directories you have total control over which fields:
 The important options you must configure in the fields for directory
 purposes are shown below:
 
-![directory_fields](/img/CiviCRM-CapturingExposing-buildprofile-directory_fields-en.jpg "directory_fields")
+![directory_fields](../img/CiviCRM-CapturingExposing-buildprofile-directory_fields-en.jpg "directory_fields")
 
 -   Visibility for all fields in your directory must be set to **Public
     Pages**or**Public Pages and Listings**. The difference between these
@@ -539,18 +539,18 @@ purposes are shown below:
 The image below shows the search mode for our membership directory.
 
 ![Member Directory Search
-Form](/img/CiviCRM-CapturingExposing-buildprofile-MemberDirSearchForm-en.png "MemberDirSearchForm")
+Form](../img/CiviCRM-CapturingExposing-buildprofile-MemberDirSearchForm-en.png "MemberDirSearchForm")
 
 Once you hit search you get this result set. Profile fields that have
 Results Column checked are shown in the listing.
 
-![MemberDirResults](/img/CiviCRM-CapturingExposing-buildprofile-MemberDirResults-en.png "MemberDirResults")
+![MemberDirResults](../img/CiviCRM-CapturingExposing-buildprofile-MemberDirResults-en.png "MemberDirResults")
 
 Clicking the view link gives you more details about the constituent,
 showing all profile fields.
 
 ![Profile Member
-View](/img/CiviCRM-CapturingExposing-buildprofile-MemberView-en.png "MemberView")
+View](../img/CiviCRM-CapturingExposing-buildprofile-MemberView-en.png "MemberView")
 
 As we've seen, building a directory for your website can provide a
 valuable tool for your constituents.
@@ -597,7 +597,7 @@ click **Continue**.
 
 You will go to the Batch Update screen. You will see a grid with the
 fields in your profile. **![Batch Update via
-Profile](/img/CiviCRM-CapturingExposing-buildprofile-resized_600x128_BatchUpdateProfile-en.png "BatchUpdateProfile")**
+Profile](../img/CiviCRM-CapturingExposing-buildprofile-resized_600x128_BatchUpdateProfile-en.png "BatchUpdateProfile")**
 
 Update field values for each contact as needed.
 
@@ -630,7 +630,7 @@ To include a profile form during the user registration process:
 
 1.  Create a profile that is used for User Registration: 
      
-    ![addprofile_usedfor_reg](/img/CiviCRM-CapturingExposing-buildprofile-addprofile_usedfor_reg-en.jpg "addprofile_usedfor_reg")
+    ![addprofile_usedfor_reg](../img/CiviCRM-CapturingExposing-buildprofile-addprofile_usedfor_reg-en.jpg "addprofile_usedfor_reg")
 2.  Add the fields you want people to fill out as they register, using
     the same process described above. Make sure the field visibility is
     set to Public User Pages.
@@ -661,7 +661,7 @@ registration option" under **Customize Data and Screens > Profiles**  click **Se
 profile fields.
 
 ![Profile user registration
-options](/img/CiviCRM-CapturingExposing-buildprofile-CMS_user_reg-en.png "CMS_user_reg")
+options](../img/CiviCRM-CapturingExposing-buildprofile-CMS_user_reg-en.png "CMS_user_reg")
 
 You must include a Primary Email Address field in the profile for this
 feature to function properly. This feature also works when the profile

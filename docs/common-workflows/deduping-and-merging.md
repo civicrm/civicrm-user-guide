@@ -63,7 +63,7 @@ Firstly view the dedupe rules. Go to **Contacts > Find and Merge
 Duplicate Contacts** in the navigation menu. This displays the following
 screen:
 
-![](/img/find-merge-duplicate-contacts.png)
+![](../img/find-merge-duplicate-contacts.png)
 
 From the screen, here's an example of a process to dedupe all
 individuals in your data:
@@ -210,7 +210,7 @@ page will not refresh automatically, just in case your database is very
 large, and searching for duplicates would cause a significant delay. You
 may then continue to assess and merge the remaining duplicates manually.
 
-![](/img/CiviCRM_dedupe_batchmerge.PNG)
+![](../img/CiviCRM_dedupe_batchmerge.PNG)
 
 **WARNING:** before you begin to consider using batch dedupe, please
 take note of the following:

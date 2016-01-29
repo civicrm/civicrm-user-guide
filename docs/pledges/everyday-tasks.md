@@ -17,7 +17,7 @@ the pledge. To do this:
 5.  You can also edit the scheduled payment to alter either when the
     payment is due or the amount of the payment.
 
-![](/img/Pledge%20including%20editing.PNG)
+![](../img/Pledge%20including%20editing.PNG)
 
 ###Batch entry of pledges
 
@@ -40,7 +40,7 @@ Create a new batch to hold the multiple payments you want to record:
 From the menu, click on **Contributions > Batch Data Entry** then
 select **New Data Entry Batch**.
 
-![](/img/new%20pledge%20batch_1.PNG) 
+![](../img/new%20pledge%20batch_1.PNG) 
 
 
 Enter the following information:
@@ -59,12 +59,12 @@ You can edit or delete Batch information by going back to the **Bulk
 Data Entry** screen then clicking on **Edit** or **Delete** next to the
 batch you want.
 
-![](/img/pledge%20batch%20edit.PNG) 
+![](../img/pledge%20batch%20edit.PNG) 
 
 
 **2. Enter Pledge Payments (check, cash, EFT, etc.)**
 
-![](/img/Pledge%20payments%20batch%20entry%20cropped.PNG)
+![](../img/Pledge%20payments%20batch%20entry%20cropped.PNG)
 
 When you save information about the new batch, the batch data entry screen shown
 above will appear and you can begin entering payments on each line as
@@ -136,7 +136,7 @@ the count or total don't match. In this case, you either:
 -   You can continue entering or editing the payments for the batch,
     then **Validate & Process the Batch** again. 
 
-![](../_edit/static/CiviCRM-Contributions-everydaytasks-ignoremismatchbatch.jpg)
+![](../img/CiviCRM-Contributions-everydaytasks-ignoremismatchbatch.jpg)
 
 
 
@@ -146,7 +146,7 @@ Sadly, some pledges will not come to fruition. To cancel a pledge, find
 it through a contact or the 'find pledges' search tool, use the 'more'
 link to the right side of the pledge and click 'Cancel'.
 
-![](/img/pledge-cancel.png)
+![](../img/pledge-cancel.png)
 
 
 

@@ -10,14 +10,14 @@ The navigation menu
 The navigation menu is a small bar at the top of every "back office"
 page of CiviCRM.
 
-![](/img/4.5%20Menubar.png)... 
+![](../img/4.5%20Menubar.png)... 
 
 It provides access to nearly every function of CiviCRM and is broadly
 organised into headings by individual CiviComponents (such as
 Contributions, Events and Mailings), with a few exceptions for Search
 and Administer, both of which cover all of the enabled CiviComponents.
 
-![NavMenu_SearchPulldown](/img/CiviCRM_update-CiviCore-NavMenu_SearchPulldown-en.jpg "NavMenu_SearchPulldown")
+![NavMenu_SearchPulldown](../img/CiviCRM_update-CiviCore-NavMenu_SearchPulldown-en.jpg "NavMenu_SearchPulldown")
 
 You can modify the navigation menu by going to: **Administer** >
 **Customize** > **Navigation Menu** and then adding or rearranging menu
@@ -52,14 +52,14 @@ include:
     of Members of each type total amounts of payments made and the
     number of contributions made, among other things.
 
-![Dashboard_homescreen](/img/CiviCRM_update-CiviCore-Dashboard_homescreen-en.jpg "Dashboard_homescreen")
+![Dashboard_homescreen](../img/CiviCRM_update-CiviCore-Dashboard_homescreen-en.jpg "Dashboard_homescreen")
 
 
 You can add these dashlets to your CiviCRM dashboard by clicking the
 **Configure Your Dashboard** button. You will see a list of dashlets that
 can be dragged into the right or left column of your dashboard.
 
-![Dasboard_editscreen](/img/CiviCRM_update-CiviCore-Dasboard_editscreen-en.jpg "Dasboard_editscreen")
+![Dasboard_editscreen](../img/CiviCRM_update-CiviCore-Dasboard_editscreen-en.jpg "Dasboard_editscreen")
 
 Click **Done** to save the dashlets to your dashboard. From now on, you will
 see updates to the status of your dashlets every time you log in (if

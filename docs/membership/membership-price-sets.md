@@ -13,7 +13,7 @@ your contacts can:
 Here's an example of how a membership price set that offers all these
 options could look: 
 
-![](/img/4.5_membership_price_sets_complete_price_set.PNG) 
+![](../img/4.5_membership_price_sets_complete_price_set.PNG) 
  
 
 The Donwell Swim Club **price set** consists of five **price fields**:
@@ -22,7 +22,7 @@ tickets and donation.
  
 It offers two membership types:
 
-![](/img/4.5_membership_price_sets_types_1.PNG) 
+![](../img/4.5_membership_price_sets_types_1.PNG) 
  
 
 These membership types must be defined before you create the price set.
@@ -49,7 +49,7 @@ you have configured it in the way that fits your situation best.
 Creating a New Price Set
 ------------------------
 
-![](/img/4.5_membership_price_sets_new_new_price_set_1.PNG) 
+![](../img/4.5_membership_price_sets_new_new_price_set_1.PNG) 
 
 
 1.  Navigate to**Memberships > New Price Set** or**Administer****>
@@ -68,7 +68,7 @@ Creating a New Price Set
 You will be taken to a form to create the first **price field** for your
 **price set.**
 
-![](/img/4.5_membership_price_sets_new_new_price_field_1.PNG) 
+![](../img/4.5_membership_price_sets_new_new_price_field_1.PNG) 
 
 ### Creating a New Price Field
 
@@ -126,7 +126,7 @@ The configuration for the National Membership price field illustrates
 how you can allow contacts to sign up for multiple membership terms at
 the same time and shows the **Radio** input field type. 
 
-![](/img/4.5_membership_price_sets_multi-term_1.PNG) 
+![](../img/4.5_membership_price_sets_multi-term_1.PNG) 
 
 In the **Membership Type** field you select the option you want from
 a dropdown list of all the membership types you have configured. When
@@ -158,7 +158,7 @@ In addition to the National Association Fees, contacts are required to
 sign up for a membership with the swim club. The **Select** input field
 type has been chosen for this field. 
 
-![](/img/4.5_membership_price_sets_second_organisation_1.PNG) 
+![](../img/4.5_membership_price_sets_second_organisation_1.PNG) 
 
 
 Again, when you select a specific membership type from the drop down
@@ -187,7 +187,7 @@ subscriptions or other non-membership options.
 offers a selection of club branded swimming gear. The **checkbox** field
 type lets people choose more than one item from the options offered.
 
-![](/img/Membership%20Pricesets%20non-member%20field_1.PNG) 
+![](../img/Membership%20Pricesets%20non-member%20field_1.PNG) 
 
 As these are products rather than memberships the **Membership Type**
 and **Number of Terms** fields are left empty. You set the **Label**,
@@ -211,11 +211,11 @@ include the **unit price** of the item on offer in the **field label**
 as shown in the following example or in the **field help**. This means
 that **Display Amount?** should not be ticked.
 
-![](../_edit/static/4.5_membership_price_sets_raffle_dates_fields_used.PNG)
+![](../img/4.5_membership_price_sets_raffle_dates_fields_used.PNG)
 
 This will display as:
 
-![](../_edit/static/membership_price_set_raffle_preview_1.PNG)
+![](../img/membership_price_set_raffle_preview_1.PNG)
 
 This price field will only be visible between the **Active On** and
 **Expire On**dates and lets us make sure that the raffle tickets can
@@ -228,9 +228,9 @@ field label although the currency symbol is. The **Display Amount?** is
 not ticked. This is the best configuration to allow "any amount"
 donations. 
 
-![](../_edit/static/4.5_membership_price_sets_donation.PNG)
+![](../img/4.5_membership_price_sets_donation.PNG)
 
 For review, here again is how all of these fields look on the final
 screen:
 
-![](/img/Membership%20priceset%20final.PNG) 
+![](../img/Membership%20priceset%20final.PNG) 

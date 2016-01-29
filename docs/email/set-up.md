@@ -107,16 +107,6 @@ so that an email can be sent to the person to confirm that they wanted
 to sign up for the mailing list. Until they confirm, they will have a
 status of "Pending" in the mailing list group.
 
-You must also add a field for the mailing lists groups that you want
-them to be able to sign up for. Click **Add Field**. For Field Name,
-select Contacts. When the possible selections load in the second field,
-select Group(s). In Field Label, you can leave "Group(s)" or you may
-want to change it to something more intuitive to your website visitors
-such as "Newsletter Sign-up." Visibility for this field must also be set
-to Public Pages. When the profile displays publicly, this field will
-show check boxes for all Mailing List Groups that have their Visibility
-set to Public Pages. 
-
 There are two ways to display the profile publicly:
 
 1.  Share a link directly. Return to the listing of profiles (at
@@ -133,6 +123,8 @@ There are two ways to display the profile publicly:
     contents of the box into a page on your website. Website visitors
     will be able to sign up to your mailing lists on this page.
 
+Alternatively, for Wordpress you can display the form publicly by using a shortcode. On any Wordpress Page, click the **CiviCRM** button above the editor. For **Page Type** select **Profile**. On the next drop-down that appears, select the name of the profile that you have created. Select **Edit** on the radio button option just below the drop-downs, so that you give users access to edit data in your database (i.e. to add their email address and name to your database). Click **Insert Form** and the shortcode will be added to the editor.
+
 ### Using a Webform (Drupal)
 
 Many Drupal site administrators prefer to use a webform instead of a
@@ -142,7 +134,25 @@ For more information see:
 
 [http://wiki.civicrm.org/confluence/display/CRMDOC/Webform+CiviCRM+Integration](http://wiki.civicrm.org/confluence/display/CRMDOC/Webform+CiviCRM+Integration)
 
+### Adding people to your mailing list group by using a profile
+
+To get a user automatically added to your mail list group(s) when they fill out your Newsletter Sign-up form (CiviCRM profile), you have two options:
+
+Option A: On the profile, you can add a field for the mailing lists groups that you want
+users to be able to sign up for. Go to the profile's fields and click **Add Field**. For Field Name,
+select Contacts. When the possible selections load in the second field,
+select Group(s). In Field Label, you can leave "Group(s)" or you may
+want to change it to something more intuitive to your website visitors
+such as "Newsletter Sign-up." Visibility for this field must be set
+to Public Pages. When the profile displays publicly, this field will
+show check boxes for all Mailing List Groups that have their Visibility
+set to Public Pages. This way users can add themselves to all of your Mailing List Groups that they want to by putting a tick on the appropriate checkboxes.
+
+Option B: Go to the profile settings. In the Advanced Settings section, select your desired Mailing List Group for **Add new contacts to a Group?**. Now when users fill out your form, they will be automatically added to this group. 
+
 ### Mailing list confirmation workflow
+
+For this to work, first make sure that you have put a tick on the desired **Enable Double Opt-in** options in **Administer > Administration Console > CiviMail Component Settings**.
 
 After people subscribe to mailing list groups—via the subscribe link or
 a profile—CiviCRM will automatically send them an email asking them to
@@ -153,6 +163,15 @@ automatically change their group subscription status to Added and they
 will be sent a welcome message. (Note: When users subscribe to multiple
 groups at once, a confirmation email is sent for each group
 separately.) 
+
+Scheduled jobs and cron jobs
+----------------------------
+
+After people have signed up on your mailing list(s), you will want to be able to send them mass mailings. You will also want to automatically handle any bounced email messages. These topics are dealt with in detail in the **Everyday tasks** and **Maintaining Healthy Email Lists** parts of this book, respectively. Here in this section we are going to look at some backend and server options that enable the sending of mass mailings and the bounce handling to happen.
+
+Go to **Administer > System Settings > Scheduled Jobs** and you will see all scheduled jobs that CiviCRM uses to do certain tasks on a regular basis. One such task is the actual sending of mass mailings, which is handled by the **Send Scheduled Mailings** scheduled job. Another task is the processing of bounced emails, for which the **Fetch Bounces** scheduled job is responsible. You will need to enable these two scheduled jobs (and any others that you want to be run on a regular basis). Without these two, CiviMail will not be sending any mailings and will not be processing the bounces.
+
+Now, CiviCRM's scheduled jobs cannot self-trigger themselves. Something on your server has to trigger them. The most common option for this is to set up a cron job on your server. This cron job can trigger one or more (or all) of the scheduled jobs. For more detailed explanations and examples of how to do this, see the [Managing Scheduled Jobs](http://wiki.civicrm.org/confluence/display/CRMDOC/Managing+Scheduled+Jobs) wiki page.
 
 Automated Messages and mailing list management 
 ------------------------------------------------

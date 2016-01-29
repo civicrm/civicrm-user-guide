@@ -16,7 +16,7 @@ of the items when you set up your mailing.
 
 ### Delivery summary
 
-![report_email](/img/report_email-en.gif "report_email")
+![report_email](../img/report_email-en.gif "report_email")
 
 The delivery summary shows some high-level statistics about the mailing.
 Clicking on the links in the Delivery Summary will show a list of the
@@ -82,7 +82,7 @@ Select Recipients screen of the re-used mailing setup.
 In the Mailings area of **Search>Advanced search** you can search by
 bounce type.
 
-![](/img/advanced_search_mailing_bounce_type.png) 
+![](../img/advanced_search_mailing_bounce_type.png) 
 
 Click-through summary
 ---------------------
@@ -92,7 +92,7 @@ There are two statistics, **Clicks** (i.e., the number of times that a
 link has been clicked) and **Unique clicks** (i.e., the number of people
 that have clicked on links).
 
-![](/img/Screen%20shot%202011-08-27%20at%2016.28.28.png)
+![](../img/Screen%20shot%202011-08-27%20at%2016.28.28.png)
 
 Mailing reports with CiviReport
 -------------------------------

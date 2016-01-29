@@ -25,7 +25,7 @@ There are three different type of tests you can perform, these are:
 -   Different **From** lines
 -   Testing entirely different emails 
 
-![](/img/A:B%20Testing.png)
+![](../img/AB%20Testing.png)
 
 At the Target screen you can define your recipients and the distribution
 percentage. You can modify the percentage of test mailing by dragging
@@ -33,7 +33,7 @@ the blue percentage bar, which in turn controls the percentage of final
 mailings that will be sent to the remaining participants. The total of
 the test mailings and the final mailing will sum up to 100%. 
 
-![](/img/A:B%20Testing%20Targeting.png)
+![](../img/AB%20Testing%20Targeting.png)
 
 The Compose screen will change dependent on the type of A/B Test you are
 performing. For example, if you chose to conduct a test on "different
@@ -42,19 +42,19 @@ From lines," the compose screen will contain two **From** fields.
 When you test using the **From** field, you will have the option to
 enter From (A) and From(B) 
 
-![](/img/A:B%20Testing%20Compose%20Screen1.png)
+![](../img/AB%20Testing%20Compose%20Screen1.png)
 
 
 When you test using the **Subject** field, you will have the option to
 enter Subject(A) and Subject(B)
 
-![](/img/A:B%20Testing%20by%20Subject1.png)
+![](../img/AB%20Testing%20by%20Subject1.png)
 
 
 When you test using entirely different emails, you will add a **From** and
 **Subject** for each mailing:
 
-![](/img/A:B%20Testing%20by%20email1.png)
+![](../img/AB%20Testing%20by%20email1.png)
 
 Choose an email template that you have previously composed. Once you
 have selected your email template and specified the From and Subject
@@ -69,9 +69,8 @@ selecting **Results**. On the A/B Test Results screen you can
 monitor your test results and select which mailings should be submitted
 as the Final mailing. 
 
-![](/img/A:B%20Testing%20Results%20Page_1.png)
+![](../img/AB%20Testing%20Results%20Page_1.png)
 
 
 
-![](/img/A:B%20Testing%20Metrics.png)
-
+![](../img/AB%20Testing%20Metrics.png)

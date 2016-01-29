@@ -24,7 +24,7 @@ select **Redact (hide) Client and Service Provider Data** then contact
 numbers rather than names will be include in the report as shown
 here.
 
-![](/img/QA%20Audit%20Screen.PNG) 
+![](../img/QA%20Audit%20Screen.PNG) 
 The onscreen report displays
 information for one activity at a time. Click on the description in the
 table on the left to display the information for that activity.
@@ -37,7 +37,7 @@ CiviCase Reports
 
 There are four report templates specifically for cases as shown below:
 
-![](../_edit/static/4.5_Case_report_templates.PNG) 
+![](../img/4.5_Case_report_templates.PNG) 
 
 In addition as cases are made up of activities, the Activity report
 template is particularly useful for providing a dashlet for each user
@@ -66,13 +66,13 @@ Status as well as by client name or email. This is a useful quick search
 to identify a few cases that may need specific input if the case
 dashboard is quite large and cluttered in your instance.
 
-![](/img/Case_Find_case_update.PNG) 
+![](../img/Case_Find_case_update.PNG) 
 
 The Advanced search provides these options combined with all the other
 normal search criteria so you can find case types filtered by location
 or custom fields applied to the contact
 
-![](/img/Case_advanced_search_update.PNG) 
+![](../img/Case_advanced_search_update.PNG) 
 
 Also useful can be the Activity Search which is located under **Search > Custom Searches > Activity Search**.  Unlike Advanced
 search, this is just based on activities and not contacts.

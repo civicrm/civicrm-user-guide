@@ -56,7 +56,7 @@ batches or create a new batch.
 Batches can be created through the batch data entry tool or by grouping
 existing transactions.
 
-Create a New Batch Through Batch Data Entry 
+Create a New Batch Through Batch Data Entry
 ---------------------------------------------
 
 Select **Contributions > Batch Data Entry** or **Memberships > Batch
@@ -64,18 +64,18 @@ Data Entry**. Give the Batch a name, choose either contribution or
 membership as the type and enter the number of transactions that
 will appear in the batch and the total amount of all the contributions.
 You can later return to edit these parameters as long as the batch
-remains open. 
+remains open.
 
 On the next screen you can begin entering your contribution data, if
 membership was chosen as the type during batch set-up you will be able
 to add membership information as well. If the contact is new, you can
-add them during the batch. 
+add them during the batch.
 
 After entering your batch through the batch data entry tool, then
 validate and close, it will appear in the accounting batch listing with
 a status of Closed.
 
-Create a New Batch from Existing Transactions 
+Create a New Batch from Existing Transactions
 -----------------------------------------------
 
 Select "New Accounting Batch." This opens the batch creation screen.
@@ -104,7 +104,7 @@ CiviCRM will verify the totals entered match this number (you will have
 the opportunity to override the warning if they do not match).
 
 You can later return to edit these parameters as long as the batch
-remains open. 
+remains open.
 
 Assign Transactions to a Batch
 ------------------------------
@@ -114,8 +114,8 @@ From the Accounting Batches screen, select an open batch. Click
 
 At the top of the screen is displayed the parameters of the batch:
 
--   created by 
--   status (open, closed, or exported) 
+-   created by
+-   status (open, closed, or exported)
 -   the description entered when the batch was created
 
 -   the specified payment instrument (if one was selected when the batch
@@ -150,7 +150,7 @@ to select "Assign to Batch." The transactions will be added to the
 assigned transaction list, and will be removed from the search results
 list.
 
-### View and Remove Assigned Transactions 
+### View and Remove Assigned Transactions
 
 Once you have assigned transactions to the batch, they will appear in
 the assigned transactions list in the middle of the page. If you need to
@@ -163,7 +163,7 @@ page, reflecting the new number and total amount of assigned
 transactions.
 
 If you want to return and edit the batch later, simply return to the
-Accounting Batch main page. The batch status will remain "Open." 
+Accounting Batch main page. The batch status will remain "Open."
 
 Close and Export a Completed Batch
 ----------------------------------
@@ -178,20 +178,20 @@ amount, a "Mismatch" error message will appear. You may close the error
 message and return to the batch to correct the mismatch, or you may
 click "OK" to override the error; the entered transaction number and
 total amount will update to match the assigned transaction number and
-total amount, and the batch will be closed. 
+total amount, and the batch will be closed.
 
 If you close the batch without exporting it, the batch status will
 change to Closed. You may re-open the batch later, before exporting it,
-or you may export the transactions later. 
+or you may export the transactions later.
 
 If you close and export the batch, you may choose your export format.
 CSV will produce a spreadsheet of comma-separated values. IIF will
 produce a file in Intuit Interchange Format, which is used by Intuit
 products such as Quickbooks to import transactions. Once the
 transactions are exported, the batch status changes to Exported. An
-exported batch cannot be re-opened. 
+exported batch cannot be re-opened.
 
-Searching and Acting on Batches 
+Searching and Acting on Batches
 ---------------------------------
 
 From the Accounting Batch main page, you may filter the list of
@@ -201,7 +201,7 @@ transactions; and the entered total amount.
 
 If a batch has the status Open, select "Transactions" to assign or
 remove transactions, or select "Edit" to edit the batch parameters.
-Under "more" you can choose to close, export, or delete the batch. 
+Under "more" you can choose to close, export, or delete the batch.
 
 If a batch has the status Closed, select "Transactions" to view the
 assigned transactions, or select "Export" to export the assigned
@@ -211,7 +211,7 @@ re-open or delete the batch.
 If a batch has the status Exported, select "Transactions" to view the
 transactions assigned to the batch; select "Download" to export the CSV
 or IIF file of assigned transactions; or select "Delete" to delete the
-batch. Once a batch is exported it cannot be re-opened. 
+batch. Once a batch is exported it cannot be re-opened.
 
 From the search results page, you may also take action on more than one
 batch. Select all the batches to be updated, and choose an option from
@@ -222,7 +222,4 @@ Finding Transactions by Batch
 
 From the Advanced Search Contribution pane, or from Find Contributions,
 you can search by Batch Name. Select a batch and the results will return
-all transactions stored in the batch. 
-
-
-
+all transactions stored in the batch.
