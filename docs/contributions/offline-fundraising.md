@@ -1,34 +1,4 @@
-
-
-### Personalised Email
-
-Emailing your current membership is the other critical way to publicize
-the campaign. The CiviMail component of CiviCRM allows you to send
-targeted emails to any group of contacts in your database. Within a
-CiviMail message you can include links to the contribution form and use
-CiviMail's tracking capability to see how many people click on that
-link.
-
-One time-tested way to increase contributions is to send each targeted
-constituent a personalized email with a link to the contribution form
-that has all of their contact information already filled in. This saves
-them the hassle of filling it out and raises the chances that they
-donate. Using CiviMail, you can use this feature by creating a special
-link in the body of your CiviMail message that includes a *checksum
-token*. A checksum is a unique and pseudo-random number assigned to each
-recipient of the mailing that points back to their contact information,
-securely stored in your database.
-
-When people click on the special link, CiviCRM looks them up in the
-database and pre-fills fields on the contribution form (core fields or
-fields exposed via a profile) with any information in their contact
-record. To read more on how to do this and what the link path must be,
-visit:
-[http://wiki.civicrm.org/confluence/display/CRMDOC/Tokens](http://wiki.civicrm.org/confluence/display/CRMDOC/Tokens)
-
-
-Offline fundraising
----------------------
+# Offline fundraising
 
 Your organisation may collect donations at events, solicit donations via
 postal mailings and other offline methods. Any money raised through

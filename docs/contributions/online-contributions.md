@@ -40,7 +40,7 @@ To create a new contribution page:
 
 
 
-###Include Profiles
+### Include Profiles
 
 If you want to collect information from contributors beyond what is
 required to make a contribution only, such as volunteer age and skills,
@@ -96,7 +96,7 @@ chance of this happening, you can adjust CiviCRM's default duplicate
 matching rules. For instructions on how to do this, *see the chapter
 Merging and Deduping in the Basic Concepts section of this book*.
 
-###Thank-you and Receipting
+### Thank-you and Receipting
 
 Once you have created your contribution page, you can customise the
 Thank-you and Receipt emails that are sent to contributors.
@@ -173,3 +173,29 @@ complicated web server configuration. Joomla! users also have a
 work-around if Search Engine Friendly URLs are enabled in Global
 Settings. You can then create a menu link to the contribution page and
 define the "pretty" URL using the alias field.
+
+### Personalised Email
+
+Emailing your current membership is the other critical way to publicize
+the campaign. The CiviMail component of CiviCRM allows you to send
+targeted emails to any group of contacts in your database. Within a
+CiviMail message you can include links to the contribution form and use
+CiviMail's tracking capability to see how many people click on that
+link.
+
+One time-tested way to increase contributions is to send each targeted
+constituent a personalized email with a link to the contribution form
+that has all of their contact information already filled in. This saves
+them the hassle of filling it out and raises the chances that they
+donate. Using CiviMail, you can use this feature by creating a special
+link in the body of your CiviMail message that includes a *checksum
+token*. A checksum is a unique and pseudo-random number assigned to each
+recipient of the mailing that points back to their contact information,
+securely stored in your database.
+
+When people click on the special link, CiviCRM looks them up in the
+database and pre-fills fields on the contribution form (core fields or
+fields exposed via a profile) with any information in their contact
+record. To read more on how to do this and what the link path must be,
+visit:
+[http://wiki.civicrm.org/confluence/display/CRMDOC/Tokens](http://wiki.civicrm.org/confluence/display/CRMDOC/Tokens)
