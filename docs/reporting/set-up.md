@@ -14,11 +14,9 @@ the Developer Guide for information about creating new templates.
 Report templates
 ----------------
 
-******
-
 Report templates are general reports that can be further customised to
 create specific report instances. These report instances can then be
-made available to users. 
+made available to users.
 
 The **Create new report from templates** page lists all available report
 templates and is found in the **Administer > CiviReport** menu. The
@@ -26,17 +24,17 @@ templates are grouped by component, and each has a brief description of
 its intended scenario. If there are already report instances for a given
 template, you'll see a link to view **Existing Reports**.
 
-![](../img/CiviReport_existing_report.PNG) 
+![](../img/CiviReport_existing_report.PNG)
 
 Clicking on the report template name will bring up a screen where the
 report can be configured.
 
-There are two steps to configuring a report: 
+There are two steps to configuring a report:
 
 1.  Select your **report criteria**: decide what information will be
     displayed in the report.
 2.  Define the **report settings**: choose a title, set permissions and
-    add it to a menu. 
+    add it to a menu. You will not see the report settings tabs until you have previewed the report.
 
 Select report criteria
 ----------------------
@@ -48,12 +46,12 @@ with the most common being:
 
 -   **Columns** (all reports)
 -   **Grouping** (summary reports)
--   **Sorting** (detail reports) 
+-   **Sorting** (detail reports)
 -   **Filters**(all reports)
 
 The options available for these criteria change from report to report.
 General principles for the different types of report criteria are
-outlined below. 
+outlined below.
 
 ### Columns
 
@@ -61,7 +59,7 @@ These check boxes allow you to select the data to be displayed for each
 record in your report. In most reports, at least one display column is
 *required* and cannot be unselected. For example in the membership
 detail report **Contact Name** and **Membership Type** are required
-fileds 
+fileds
 
 ### ![](../img/CiviReport_required%20fields.PNG)**Grouping**
 
@@ -71,9 +69,9 @@ row, and for reports that compare different types of data.
 
 For example you can choose to compare donations per year.
 
-![](../img/Contribution%20Summary%20report%20grouping.PNG) 
+![](../img/Contribution%20Summary%20report%20grouping.PNG)
 
-![](../img/Contribution%20Summary%20report%20grouping%20view.PNG) 
+![](../img/Contribution%20Summary%20report%20grouping%20view.PNG)
 
 You can specify more than one grouping criteria. When you do this,
 results will be nested based on both groupings. Not all combinations of
@@ -92,7 +90,6 @@ reports as shown below.
 
 ![](../img/membership%20detail%20report%20sorting%20criteria.PNG) ![](../img/membership%20detail%20report%20sorting%20view.PNG)
 
-![](http://booki.flossmanuals.net/civicrm/http://en.flossmanuals.net/floss/pub/CiviCRM/CiviReport/)
 
 ### Filters
 
@@ -101,7 +98,7 @@ in the report. For example, running the Membership Detail report without
 choosing any filters will show you all membership records. You could
 then filter the report to show all members of a specific membership type
 who joined last year. Most filter are self-explanatory; the date range
-filter is explained below. 
+filter is explained below.
 
 **The Date Range Filter**
 
@@ -112,7 +109,7 @@ two ways:
     2010"
 -   by using a relative date range, e.g. "Previous Year".
 
-![](../img/Report%20-%20Filter.png) 
+![](../img/Report-Filter.png)
 
 Relative date ranges are very useful for reports that you want to run on
 an ongoing basis for example:
@@ -136,14 +133,15 @@ Once you have selected your report criteria, click **Preview Report**.
 (You will see that the tabs that define the report settings are now
 visible.) If the information displayed isn't exactly what you wanted,
 you can select the appropriate tab to modify your criteria. You may need
-to make several modifications before you achieve the report you want. 
+to make several modifications before you achieve the report you want.
 
-Define Report settings 
+Define Report settings
 ------------------------
 
 Once you are happy with the report criteria you have entered into the
 template, you need to save this criteria as a new report so that it can
-be run again. To do this:
+be run again. (You will need to preview the report to make the settings tabs visible.)
+
 
 1.  On the **Title and Format** tab give your report a title and
     description that will help other people understand its usage, for
@@ -151,26 +149,27 @@ be run again. To do this:
     header and footer is included with each report and is displayed at
     the beginning and end of any PDF or downloaded versions of the
     report. These are written in HTML. If you want to display the
-    actual report title replace "CiviCRM Report"in the <title> tag.
-    You can include a logo be adding an <img>tag. You can also modify
+    actual report title replace "CiviCRM Report" between < title> and < /title>.
+    You can include a logo be adding an < img> tag. You can also modify
     the look and feel of the printed report by including a custom CSS
-    file (instead of
-    print.css)
-
-![](../img/Report%20-%20Title%20and%20Format.png)
-2.  The **Email Delivery**tab contains the fields that will let you have
+    file (instead ofnprint.css)
+![](../img/Report-Title-and-Format.png)
+2.  The **Email Delivery** tab contains the fields that will let you have
     report emailed to yourself or someone else on a regular basis. Fill
     in the Subject, To and CC fields in the Email Delivery Settings. You
     can enter one or more email addresses in the To and CC fields;
-    multiple email addresses should be separated by commas. See the
-    information below about *Email settings* to ensure your reports are
-    sent. 
-![](../img/Report%20-%20Email.png)
-3.  On the **Access** tab, you can set if and where the report will
-    appear in the menu. All reports will be included in **Report > Report listing**.     Check **Include Report in Navigation Menu?** and
-    specify the parent menu to include the report in another menu. For
-    example, you might want to add an Event report to the Event menu. 
-    ![](../img/Report%20-%20Access.png)
+    multiple email addresses should be separated by commas.
+  ![](../img/Report-email-settings.png)
+    As well as entering the email delivery settings described above,
+    the **Mail Reports (mail_report)** scheduled job must be enabled to
+    send report emails. Alternatively a cron job can be scheduled to run
+    this specific task apart from other scheduled jobs. The specific report
+    instance and, optionally, format are specified as part of the scheduled
+    job configuration. Refer to the *Scheduled Jobs* chapter for more
+    information.
+
+3.  All reports are included in **Report > Report listing**. On the **Access** tab, you can set if and where the report will appear elsewhere in the navigation menu. When you check **Include Report in Navigation Menu?** the Parent Menu field appears letting you select the parent menu for this second link to the report. The link to the report can either be to "View Results" or to "Show Criteria".  "View Results" will open the report to the results page and would be the appropriate choice for, say, a report that uses a relative date filter such as "Number of new contributors last calendar month".  "Show Criteria" will allow you to alter the report criteria before it is run.
+    ![](../img/Report-Access.png)
 
     On the **Access** tab, you can also set up permissions to view or edit
     reports on a report-by-report basis. This allows you to simplify the
@@ -178,31 +177,28 @@ be run again. To do this:
     accessible only to certain users. For example, you might select
     "access CiviContribute" for contribution reports so that only the
     people that can see contribution data can access the report.
-    
+
     Alternatively you can limit access to a report to (a) particular ACL
     role(s). Refer to the *Permissions and Access Control* in the *Initial
     Set Up* chapter.
-    
+
     A **Reserved Report** can only be altered by someone with the
     **Administer Reserved Reports** permission.
-    
+
     Checking the box **Available for Dashboard?** lets users with
-    appropriate permissions to add this report to their dashboard (this is
+    appropriate permissions add this report to their dashboard (this is
     done by clicking the **Configure Your Dashboard** button on the
     individual's dashboard).
 
-Click **Create Report**. The report will now appear in **Reports > All
-Reports** as well as in any navigation menu you defined on the Access tab.
+Once the report criteria and settings are correct click **Create Report**. The report will now appear in **Reports > All Reports** as well as in any navigation menu you defined on the Access tab.
 
-### Email settings
+### Editing or copying an existing report
 
-As well as entering the email delivery settings described above,
-the **Mail Reports (mail_report)** scheduled job must be enabled to
-send report emails. Alternatively a cron job can be scheduled to run
-this specific task apart from other scheduled jobs. The specific report
-instance and, optionally, format are specified as part of the scheduled
-job configuration. Refer to the *Scheduled Jobs* chapter for more
-information.
+Sometimes you need to permanently alter the criteria for an existing report. Open the report, make the required changes and then click **Update Report** to save them.
+![](../img/Report-edit-or-save-copy.png)
+
+At other times you may want two or more reports displaying the same columns of information but using different filters.  For example you may want an Event Income Summary report showing the income for all events for the events manager, but may only want the fundraising manager to have access to a report showing income from Fundraiser events. Once you have created the initial report you can open it, change the filtering criteria and click on **Save a Copy...**.  You will be prompted to enter a new title and description for the new report.
+
 
 CiviReport Permissions
 ----------------------
@@ -211,11 +207,10 @@ There are four permission specifically associated with reports:
 
 -   **CiviReport: access CiviReport** - user can view the CiviReport
     menu, but can only view reports set with the access CiviReport
-    permission 
+    permission
 -   **CiviReport: access Report Criteria** - user can change report
     search criteria
 -   **CiviReport: administer reserved reports** - user can edit all
     reserved reports
 -   **CiviReport: administer reports** - user can manage report
     templates
-

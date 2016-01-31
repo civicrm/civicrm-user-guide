@@ -199,6 +199,8 @@ original mailing in the EXCLUDE Recipients of These Mailing(s) area.
 This will then send the message only to those members of the group who
 did not receive the original mailing.
 
+![Screen Shot of Email Compose Screen](../img/email-compose-mailing)
+
 1. 
 **Name Your Mailing:** Enter a name for this mailing. Select a name
 that will allow you and others in your organization to clearly identify
@@ -221,6 +223,22 @@ can then edit that content. You can also update the template, either
 changing the original template or saving it as a new template.
 ![](../img/CiviMail%20Mailing%20Naming%20.png)
 
+<<<<<<< HEAD
+3. **Remove duplicate emails**: To edit your mailing dedupe options, click
+the small wrench to the right of the Recipients field.
+![Screen shot of duplicate email screen](../img/email-dedupe%20config%20_1)
+
+    CiviCRM will always dedupe your mailing based on unique contact records.
+    For example, if a contact is in three of the groups you are including in
+    your mailing, they will only be sent one copy of the email. However, if
+    the same email is used by multiple contacts, that email address will
+    receive multiple copies of the email—one for each contact using that
+    address. Checking this box will ensure only one email is sent to each
+    address automatically. However, you can change the Location Type and the
+    Selection Method on the Edit Options screen.
+![](../img/Deduping%20Mailings.png)
+1. **Recipients:** This is where you can choose who will receive the
+=======
 3.
 **From**: Select the sender email address for this mailing from the dropdown list.
 Users with Administer CiviCRM permssion can add additional email addresses by going to 
@@ -242,6 +260,8 @@ receive the original mailing.
     
 You can see the estimated final number of recipients to right of the "Recipients" field and highlighted in yellow.
 
+![Include and exclude mailing lists screen](../email-include-excclude-groups.png)
+
 **Unsubscribe Group:** At the Define Mailing screen you can also specify
 the group that contains all your contacts that have unsubscribed.
     
@@ -252,6 +272,8 @@ CiviCRM will always dedupe your mailing based on unique contact records. For exa
 
 ** Location Type:** You can change the Location Type and the Selection Method on the Edit Options screen. 
 You can filter on the Location Type and only send the mailing to email addresses with the specified location type or exclude the email addresses with the specified location type.
+
+![Location type selection screen shot](../email-edit-options.png)
 
 5.  **Composing your Email:**This section will allow you to compose content
 for your mailing. As you write your content, remember that every email
@@ -283,6 +305,8 @@ permalink** token in your message in the next step. This token generates
 a URL on which the message can be viewed; in order to display it
 properly in HTML messages, you'll need to add the proper link tags using
 the Source icon in the editor.
+
+![Screen shot of email responses tab](../email-responses.png)
 
 9. **Responses:**
 **Track Replies:** Checking this option will send replies from the
