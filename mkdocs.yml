@@ -55,11 +55,11 @@ pages:
     - 'Automating tasks': 'common-workflows/automating-tasks.md'
 - Contributions:
     - 'What is CiviContribute?': 'contributions/what-is-civicontribute.md'
+    - 'What You Need To Know': 'contributions/what-you-need-to-know.md'
     - 'Online Contributions': 'contributions/online-contributions.md'
     - 'Premiums': 'contributions/premiums.md'
     - 'Manual entry of contributions': 'contributions/manual-entry-of-contributions.md'
-    - 'What You Need To Know': 'contributions/what-you-need-to-know.md'
-    - 'Set-up': 'contributions/set-up.md'
+    - 'Offline Contributions': 'contributions/offline-contributions.md'
     - 'Finding and viewing contributions': 'contributions/finding-and-viewing-contributions.md'
     - 'Manual receipts and thank-you letters': 'contributions/manual-receipts-and-thank-yous.md'
     - 'Soft credits': 'contributions/soft-credits.md'
