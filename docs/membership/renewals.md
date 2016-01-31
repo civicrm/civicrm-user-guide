@@ -217,8 +217,8 @@ To use the **Batch Update Members Via Profile** feature:
 3.  From the Batch Profile Update for Membership screen, in **Select
     Profile**, select the profile you want to use from the dropdown box
     and click **Continue >>**. You can read more about setting up a
-    membership profile for batch update in the *Set-Up* chapter of the
-    *Memberships* section. 
+    membership profile for batch update in the *Profiles* chapter of the
+    *Organising your data* section. 
 4.  From the Batch Update for Members screen, you can update the
     information that is displayed based on the profile you selected.
     You can use the "auto-copy" icon at the top of a column to copy and
