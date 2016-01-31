@@ -31,7 +31,7 @@ There are two ways of configuring scheduled jobs:
 These methods are discussed below.
 
 
-##What is cron?
+## What is cron?
 
 Cron (think "**cron**ology" or "**cron**ograph") is a time-based
 automatic scheduler that triggers certain programs to run on your web
@@ -47,7 +47,7 @@ URL](http://wiki.civicrm.org/confluence/display/CRMDOC/Running+Command-line+Scri
 page.
 
 
-##Configuring Scheduled Jobs via the user interface
+## Configuring Scheduled Jobs via the user interface
 
 The user interface for scheduled tasks is designed to make it easy for
 people to set up scheduled jobs, and avoid having to create or edit a
@@ -59,27 +59,26 @@ administration skills.
 
 The Scheduled Jobs page (**Administer**> **System Settings** >
 **Scheduled Jobs**) is designed to make it easy to set up scheduled jobs
-and to monitor when they were last run. It shows a list of all scheduled
-jobs and you can edit each one and set its frequency (hourly, daily or
-every time the scheduled job is run - typically this is set as every
-5-10 minutes) and also any relevant parameters.
+and to monitor when they were last run. It shows a list of all available scheduled
+jobs. You can edit each one and set its frequency (hourly, daily, weekly, monthly, quarterly, yearly or every time cron is run which is typically every 5-10 minutes), any relevant parameters, and the earliest date/time for the first/next execution of the job.
 
-You can find an up to date list of all scheduled jobs and the parameters
-that can be sent to them on [Managing Scheduled
+You can find an up-to-date list of all scheduled jobs and the parameters
+that can be sent to them on the [Managing Scheduled
 Jobs](http://wiki.civicrm.org/confluence/display/CRMDOC/Managing+Scheduled+Jobs)
 wiki page.
 
 Some jobs perform special data update tasks and are not designed to be
 run automatically or repeatedly. These are: "Update Greetings and
 Addressees" and "Set Renewal Reminder Dates". Details about when to run
-them are provided on the Managing Scheduled Jobs wiki page. 
+them are provided on the [Managing Scheduled
+Jobs](http://wiki.civicrm.org/confluence/display/CRMDOC/Managing+Scheduled+Jobs)
+wiki page.
 
 
 
-##Manual execution of scheduled jobs
+## Manual execution of scheduled jobs
 
-The scheduled jobs page can also be used to run scheduled jobs on a one
-off basis. This is useful for some of the scheduled jobs that are
+The scheduled jobs page can also be used to run scheduled jobs on a one-off basis. This is useful for some of the scheduled jobs that are
 designed to be run on a less regular basis, including the geo-coding job
 and the greetings and addressees job. Execute a job manually by
 clicking the **More > Execute Now** link for the given job
@@ -87,7 +86,7 @@ at **Administer > System Settings > Scheduled Jobs**.
 
 
 
-##Scheduling specific jobs via individual cron tasks
+## Scheduling specific jobs via individual cron tasks
 
 System administrators more commonly talk about scheduled jobs as cron
 jobs. If you run a lot of scheduled jobs on large data sets you may wish

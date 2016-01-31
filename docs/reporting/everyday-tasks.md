@@ -4,16 +4,18 @@ Everyday Tasks
 This chapter assumes that CiviReport is already configured and you are a
 user wanting to access reports that have been configured for you. If you
 want to learn more about how to set up and configure reports, read the
-section on setting up CiviReport. 
+section on setting up CiviReport.
 
 Viewing reports
 ---------------
 
 To view a report:
 
-1.  Go to **Reports**. 
-2.  Select the relevant report type. 
-3.  Click on the name of the report you wish to view.
+1.  Go to **Reports**.
+2.  Select the relevant report type.
+3.  Identify the report you wish to view. Click on **View Results** to view the report results using the preset criteria. Click on the report name to go to the criteria settings.
+
+![report_selection](../img/Report-selection-screen.png "report_selection")
 
 Reports can also be configured to be directly accessible from navigation
 menus. For example, an event report can be configured to appear in the
@@ -25,7 +27,7 @@ dropdown menu will allow you to select the format you want.
 
 ![report_graph](../img/CiviCRM_update-CiviReport-report_graph-en.png "report_graph")
 
-The appropriate report should then be displayed. 
+The appropriate report should then be displayed.
 
 ![past_12_months_income](../img/CiviCRM_update-CiviReport-past_12_months_income-en.png "past_12_months_income")
 
@@ -37,7 +39,7 @@ either tables or graphs, suitable for printing or emailing.
 
 If you want to perform further calculations on your report data, you can
 output the data as comma separated variable (CSV) for import into a
-spreadsheet by clicking **Export to CSV**. 
+spreadsheet by clicking **Export to CSV**.
 
 If you have the appropriate permissions, you will be able to adjust the
 report criteria and settings when you view the report. Read the section
