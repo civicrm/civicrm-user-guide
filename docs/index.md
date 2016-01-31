@@ -1,3 +1,3 @@
 
-CiviCRM user and administrator guide
+CiviCRM User and Administrator Guide
 ====================================

@@ -14,7 +14,7 @@ Finally, you can add any number of contribution report instances to your persona
 # Finding contributions
 To View the Find Contributions screen, go to Contributions > Find Contributions
 
-![](./../img/Finding-Contribution.png)
+![Contribution Find Screenshot](./../img/contributions-find-search.png)
 
 You can search based on a number of criteria, such as date range, amount, contribution status etc. Contributions must match all specified criteria in order to be returned, so the more criteria you enter, the narrower the search will be. For example, searching for the Financial Type "donation" and the date range "January 1st to May 31st" will return contributions that meet both criteria. Relative date ranges such as "Last Month" or "Last Year" are often quite useful.
 
@@ -22,7 +22,7 @@ The search criteria shown above are also available from Advanced Search, which m
 
 The results screen from a search displays the the total amount for the results returned for that search, the number of contributions, and the average amount per contribution in addition to the subset of records resulting from the search:
 
-![](../img/Batch%20Update%20Contribution%20Via%20Profile.png)
+![Screen shot batch update from search](../img/contributions-find-editcriteria.png)
 
 You can select an action to perform from the - actions - menu once you select all or a subset of records. The "actions" menu allows you to:
 - **Batch Update Contributions Via Profile**: this is useful if you

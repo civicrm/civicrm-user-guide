@@ -121,5 +121,5 @@ Have participants write their contact information on sign-in sheets when
 they arrive, or if you have an internet connection at the event venue
 you may be able to enter participants directly into the database.
 
-To find out more about how to record participant information for an
+Find out more about how to record participant information for an
 event, see the *Events* section.
