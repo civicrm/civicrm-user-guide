@@ -232,16 +232,18 @@ mailing to search results). You can choose Groups to include and
 exclude, by selecting them from the "Recipients" dropdown. 
 Please make sure your Group has a the type "Mailing List".
 
-    You can also refine your recipient list by including and excluding
-    recipients of previous mailings. For instance, you may want to resend an
-    email only to contacts that have been added to a Group since the last
-    time you sent them email, to avoid sending the same email twice to some
-    people. Choose the original mailing in the " Exclude Past Recipients From". 
-    This will then send the message only to those members of the group who did not 
-    receive the original mailing. 
+You can also refine your recipient list by including and excluding
+recipients of previous mailings. For instance, you may want to resend an
+email only to contacts that have been added to a Group since the last
+time you sent them email, to avoid sending the same email twice to some
+people. Choose the original mailing in the " Exclude Past Recipients From". 
+This will then send the message only to those members of the group who did not 
+receive the original mailing. 
     
-    You can see the estimated final number of recipients to right of the
-    "Recipients" field and highlighted in yellow.
+You can see the estimated final number of recipients to right of the "Recipients" field and highlighted in yellow.
+
+**Unsubscribe Group:** At the Define Mailing screen you can also specify
+the group that contains all your contacts that have unsubscribed.
     
 ** Remove Duplicate Emails:** To edit your mailing dedupe options, click the small wrench 
 to the right of the Recipients field.
@@ -250,12 +252,8 @@ CiviCRM will always dedupe your mailing based on unique contact records. For exa
 
 ** Location Type:** You can change the Location Type and the Selection Method on the Edit Options screen. 
 You can filter on the Location Type and only send the mailing to email addresses with the specified location type or exclude the email addresses with the specified location type.
-    
 
-5.  **Unsubscribe Group:** At the Define Mailing screen you can also specify
-the group that contains all your contacts that have unsubscribed. 
-
-6.  **Composing your Email:**This section will allow you to compose content
+5.  **Composing your Email:**This section will allow you to compose content
 for your mailing. As you write your content, remember that every email
 will be sent individually. CiviCRM offers the ability to personalize
 each email using tokens. See "*Using tokens in emails*" later in this
@@ -263,15 +261,15 @@ chapter.If you just wish to send a text version of your email, ignore
 the HTML section and click on the Plain Text section. Enter your message
 in the box.
 
-7.  **Attachments:** You can attach documents and files to the email by going
+6.  **Attachments:** You can attach documents and files to the email by going
 to Attachments tab and selecting the file(s) you would like to upload.
 
-8. **Header and Footer:** On this tab you can select the header and footer
+7. **Header and Footer:** On this tab you can select the header and footer
 you would like to use for the mailing. You can define additional Headers
 and Footers via **Mailings > Headers, Footers, and Automated
 Messages** (See *Set-Up* for details).
 
-9. **Publication:** There is only one field in this section:
+8. **Publication:** There is only one field in this section:
 **Mailing Visibility.** Its dropdown menu offers two options, "User and
 User Admin Only" and "Public Pages." Choosing Public Pages makes this
 content viewable as a web page by everyone who has the permission of
@@ -286,7 +284,7 @@ a URL on which the message can be viewed; in order to display it
 properly in HTML messages, you'll need to add the proper link tags using
 the Source icon in the editor.
 
-10. **Responses:**
+9. **Responses:**
 **Track Replies:** Checking this option will send replies from the
 mailing's recipients to a CiviMail specific address instead of the sender's address 
 so they can be stored within CiviCRM. 
@@ -306,7 +304,7 @@ In the same screen, you can also select the different automatic messages.
 - ** Unsubscribe Message:** This message will be sebt to the recipient who has unsubscribed from one of the mailing lists
 You can edit these messages by going in **Mailings >> Headers, Footers, and Automated Messages**.
 
-9.  **Tracking**
+10.  **Tracking**
     -  **Track Click-Throughs**: This option will keep track of how many
     users and which users clicked on all the links in your message. This
     is accomplished by redirecting all links through your server. This
