@@ -199,6 +199,8 @@ original mailing in the EXCLUDE Recipients of These Mailing(s) area.
 This will then send the message only to those members of the group who
 did not receive the original mailing.
 
+![Screen Shot of Email Compose Screen](../img/email-compose-mailing)
+
 1. 
 **Name Your Mailing:** Enter a name for this mailing. Select a name
 that will allow you and others in your organization to clearly identify
@@ -223,7 +225,7 @@ changing the original template or saving it as a new template.
 
 3. **Remove duplicate emails**: To edit your mailing dedupe options, click
 the small wrench to the right of the Recipients field.
-![](../img/dedupe%20config%20_1.png)
+![Screen shot of duplicate email screen](../img/email-dedupe%20config%20_1)
 
     CiviCRM will always dedupe your mailing based on unique contact records.
     For example, if a contact is in three of the groups you are including in
