@@ -292,19 +292,24 @@ and Footers via **Mailings > Headers, Footers, and Automated
 Messages** (See *Set-Up* for details).
 
 8. **Publication:** There is only one field in this section:
-**Mailing Visibility.** Its dropdown menu offers two options, "User and
+**Mailing Visibility:** Its dropdown menu offers two options, "User and
 User Admin Only" and "Public Pages." Choosing Public Pages makes this
 content viewable as a web page by everyone who has the permission of
 "View public CiviMail content."
 "User and User Admin Only" means that only users that received the mailing 
 or administrators can view the content of this email as a web page; 
 the recipients will have to log in to be able to view the message.
-    
-To link to the web version in your email, insert the **Mailing
-permalink** token in your message in the next step. This token generates
-a URL on which the message can be viewed; in order to display it
-properly in HTML messages, you'll need to add the proper link tags using
-the Source icon in the editor.
+
+**Make the mailing content available for the public:**
+It is possible to view CiviMail mailings as a web page. For each sent mailing there is a permalink to view the mailing.The permalink to the sent mailing should be of the form ...
+
+civicrm/mailing/view/?id=2&reset=1
+
+... where you replace the "2" with the number of your mailing. When composing the message, use the "Mailing permalink" token {mailing.viewUrl} to generate this URL for you.
+
+In order to make this link accessible to the public, you must grant "view public CiviMail content" permission to anonymous users or the user role you desire.
+
+In addition, in the mailing creation process, there is a new token {mailing.viewUrl} which you can add in the header to generate the URL to view the content of this mailing. This is accessible from the dropdown of mail tokens as the value "Mailing permalink".
 
 ![Screen shot of email responses tab](../email-responses.png)
 
