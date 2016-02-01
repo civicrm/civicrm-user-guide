@@ -244,7 +244,7 @@ receive the original mailing.
     
 You can see the estimated final number of recipients to right of the "Recipients" field and highlighted in yellow.
 
-![Include and exclude mailing lists screen](./../email-include-excclude-groups.png)
+![Include and exclude mailing lists screen](../email-include-excclude-groups.png)
 
 **Unsubscribe Group:** At the Define Mailing screen you can also specify
 the group that contains all your contacts that have unsubscribed.
