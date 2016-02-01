@@ -199,7 +199,7 @@ original mailing in the EXCLUDE Recipients of These Mailing(s) area.
 This will then send the message only to those members of the group who
 did not receive the original mailing.
 
-![Screen Shot of Email Compose Screen](../img/email-compose-mailing)
+![Screen Shot of Email Compose Screen](./../img/email-compose-mailing)
 
 1. 
 **Name Your Mailing:** Enter a name for this mailing. Select a name
