@@ -223,22 +223,6 @@ can then edit that content. You can also update the template, either
 changing the original template or saving it as a new template.
 ![](../img/CiviMail%20Mailing%20Naming%20.png)
 
-<<<<<<< HEAD
-3. **Remove duplicate emails**: To edit your mailing dedupe options, click
-the small wrench to the right of the Recipients field.
-![Screen shot of duplicate email screen](../img/email-dedupe%20config%20_1)
-
-    CiviCRM will always dedupe your mailing based on unique contact records.
-    For example, if a contact is in three of the groups you are including in
-    your mailing, they will only be sent one copy of the email. However, if
-    the same email is used by multiple contacts, that email address will
-    receive multiple copies of the email—one for each contact using that
-    address. Checking this box will ensure only one email is sent to each
-    address automatically. However, you can change the Location Type and the
-    Selection Method on the Edit Options screen.
-![](../img/Deduping%20Mailings.png)
-1. **Recipients:** This is where you can choose who will receive the
-=======
 3.
 **From**: Select the sender email address for this mailing from the dropdown list.
 Users with Administer CiviCRM permssion can add additional email addresses by going to 
@@ -265,12 +249,12 @@ You can see the estimated final number of recipients to right of the "Recipients
 **Unsubscribe Group:** At the Define Mailing screen you can also specify
 the group that contains all your contacts that have unsubscribed.
     
-** Remove Duplicate Emails:** To edit your mailing dedupe options, click the small wrench 
+**Remove Duplicate Emails:** To edit your mailing dedupe options, click the small wrench 
 to the right of the Recipients field.
 
 CiviCRM will always dedupe your mailing based on unique contact records. For example, if a contact is in three of the groups you are including in your mailing, they will only be sent one copy of the email. However, if the same email is used by multiple contacts, that email address will receive multiple copies of the email—one for each contact using that address. Checking this box will ensure only one email is sent to each address automatically.
 
-** Location Type:** You can change the Location Type and the Selection Method on the Edit Options screen. 
+**Location Type:** You can change the Location Type and the Selection Method on the Edit Options screen. 
 You can filter on the Location Type and only send the mailing to email addresses with the specified location type or exclude the email addresses with the specified location type.
 
 ![Location type selection screen shot](../email-edit-options.png)
