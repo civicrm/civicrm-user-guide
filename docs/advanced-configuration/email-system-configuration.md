@@ -238,6 +238,7 @@ for auto filing, you need to set up CiviMail so it knows how to read it:
 **Administer > CiviMail > Mail accounts** as the default email
 address.
 
+![Screen shot of the email box selection screen](../img/administer-civimail-mailaccount.png)
 ![Screen Shot of adding an email box](../img/administer-civimail-mailaccount-edit.png)
 
 -   Specify the mail **server, username, and password** you used when
