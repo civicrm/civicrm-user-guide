@@ -252,6 +252,8 @@ the group that contains all your contacts that have unsubscribed.
 **Remove Duplicate Emails:** To edit your mailing dedupe options, click the small wrench 
 to the right of the Recipients field.
 
+![Screen Shot of Removing Duplicate Emails](../img/email-dedupe config _1.png)
+
 CiviCRM will always dedupe your mailing based on unique contact records. For example, if a contact is in three of the groups you are including in your mailing, they will only be sent one copy of the email. However, if the same email is used by multiple contacts, that email address will receive multiple copies of the email—one for each contact using that address. Checking this box will ensure only one email is sent to each address automatically.
 
 **Location Type:** You can change the Location Type and the Selection Method on the Edit Options screen. 
