@@ -257,7 +257,7 @@ CiviCRM will always dedupe your mailing based on unique contact records. For exa
 **Location Type:** You can change the Location Type and the Selection Method on the Edit Options screen. 
 You can filter on the Location Type and only send the mailing to email addresses with the specified location type or exclude the email addresses with the specified location type.
 
-![Location type selection screen shot](../email-edit-options.png)
+![Location type selection screen shot](../img/email-edit-options.png)
 
 5.  **Composing your Email:**This section will allow you to compose content
 for your mailing. As you write your content, remember that every email
