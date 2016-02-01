@@ -233,11 +233,12 @@ to search your data, as in a membership directory).
 
 Any *new* contacts that fill out this Profile will be added to the
 Group. You can use this, for example, to add anyone who fills out your
-volunteer sign-up form to a Volunteers Group. Note that contacts will
-not receive any confirmation that they have been added to this group or
-be asked to validate their email address. Also note that if you want to
-offer more than one group, you might be better off using the groups
-profile field.
+volunteer sign-up form to a Volunteers Group. 
+Note that by default contacts will not receive any confirmation that they have been added to this group or
+be asked to validate their email address. 
+To have contacts who complete the profile form receive an email, go to **Administer >> CiviMail >> CiviMail Component Settings** and check the checkbox **"Enable Double Opt-in for Profiles which use the "Add to Group" setting"**. They must respond (opt-in) before they are added to the group.
+
+Also note that if you want to offer more than one group, you might be better off using the groups profile field.
 
 #### **Notify when profile form is submitted**
 
