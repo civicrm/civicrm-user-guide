@@ -244,7 +244,7 @@ receive the original mailing.
     
 You can see the estimated final number of recipients to right of the "Recipients" field and highlighted in yellow.
 
-![Include and exclude mailing lists screen](../email-include-excclude-groups.png)
+![Include and exclude mailing lists screen](../img/email-include-excclude-groups.png)
 
 **Unsubscribe Group:** At the Define Mailing screen you can also specify
 the group that contains all your contacts that have unsubscribed.
@@ -295,7 +295,7 @@ In order to make this link accessible to the public, you must grant "view public
 
 In addition, in the mailing creation process, there is a new token {mailing.viewUrl} which you can add in the header to generate the URL to view the content of this mailing. This is accessible from the dropdown of mail tokens as the value "Mailing permalink".
 
-![Screen shot of email responses tab](../email-responses.png)
+![Screen shot of email responses tab](../img/email-responses.png)
 
 9. **Responses:**
 **Track Replies:** Checking this option will send replies from the
