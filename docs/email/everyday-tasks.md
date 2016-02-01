@@ -1,4 +1,4 @@
-Everyday tasks
+Everyday Tasks
 ==============
 
 This chapter contains step-by-step instructions for performing important
@@ -199,7 +199,7 @@ original mailing in the EXCLUDE Recipients of These Mailing(s) area.
 This will then send the message only to those members of the group who
 did not receive the original mailing.
 
-![Screen Shot of Email Compose Screen](../img/email-compose-mailing)
+![Screen Shot of Email Compose Screen](./../img/email-compose-mailing.png)
 
 1. 
 **Name Your Mailing:** Enter a name for this mailing. Select a name
@@ -244,7 +244,7 @@ receive the original mailing.
     
 You can see the estimated final number of recipients to right of the "Recipients" field and highlighted in yellow.
 
-![Include and exclude mailing lists screen](../email-include-excclude-groups.png)
+![Include and exclude mailing lists screen](../img/email-include-excclude-groups.png)
 
 **Unsubscribe Group:** At the Define Mailing screen you can also specify
 the group that contains all your contacts that have unsubscribed.
@@ -252,12 +252,14 @@ the group that contains all your contacts that have unsubscribed.
 **Remove Duplicate Emails:** To edit your mailing dedupe options, click the small wrench 
 to the right of the Recipients field.
 
+![Screen Shot of Removing Duplicate Emails](../img/email-dedupe config _1.png)
+
 CiviCRM will always dedupe your mailing based on unique contact records. For example, if a contact is in three of the groups you are including in your mailing, they will only be sent one copy of the email. However, if the same email is used by multiple contacts, that email address will receive multiple copies of the email—one for each contact using that address. Checking this box will ensure only one email is sent to each address automatically.
 
 **Location Type:** You can change the Location Type and the Selection Method on the Edit Options screen. 
 You can filter on the Location Type and only send the mailing to email addresses with the specified location type or exclude the email addresses with the specified location type.
 
-![Location type selection screen shot](../email-edit-options.png)
+![Location type selection screen shot](../img/email-edit-options.png)
 
 5.  **Composing your Email:**This section will allow you to compose content
 for your mailing. As you write your content, remember that every email
@@ -295,7 +297,7 @@ In order to make this link accessible to the public, you must grant "view public
 
 In addition, in the mailing creation process, there is a new token {mailing.viewUrl} which you can add in the header to generate the URL to view the content of this mailing. This is accessible from the dropdown of mail tokens as the value "Mailing permalink".
 
-![Screen shot of email responses tab](../email-responses.png)
+![Screen shot of email responses tab](../img/email-responses.png)
 
 9. **Responses:**
 **Track Replies:** Checking this option will send replies from the
