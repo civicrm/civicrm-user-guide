@@ -34,7 +34,7 @@ advanced reporting, see the *CiviReport* section.
 Quick search
 --------------
 
-![](../img/quicksearch.png)
+![Quicksearch](../img/quicksearch.png)
 
 The easiest way to find a specific contact is to use the Quick search
 box that appears in the navigation menu at the top left of the screen. You may choose to search by one of several criteria. Once you click in the box you can start typing immediately to use the default Name/Email search or you can click again to expose several other criteria in a dropdown selection list. Contacts that match the phrase you enter will appear in a dropdown list below the box. For example, if you are searching with Name/Email and you have left
@@ -76,7 +76,45 @@ database from 16 to 18 years old, click on the Demographics accordion.
 When it opens, you can specify the birth date range you are interested
 in.
 
-![](../img/4.5SearchPanes_1.png)
+#### Display Settings For Results
+
+Advanced Search returns your results as Contact records by default.
+However, you may want to get another record type instead. For example,
+you may want to search on the Membership renewal activity to find
+everyone who renewed their membership last week then display the results
+as Memberships so that you can export name, address and Membership
+expiration date to create and then post out membership cards to those
+contacts. Simply select the record type you want from the **Display Results As** dropdown.
+
+#### Views for Display Contacts
+
+Advanced search allows you to change the columns displayed in your
+search results. The default columns are Name, Street Address, City,
+State, Postal Code, Country, Email and Phone. If you want to display a
+different set of columns (perhaps to include a custom field or remove a
+column you don't need), create a Profile with the Search Views option
+selected. Make sure that the fields in this Profile are set to "Expose
+Publicly and for Listings" visibility, and are marked as Results Columns.
+(For more information about creating Profiles, which are described in
+detail in the Profiles chapter in the Configuration section.)
+
+For example you may want to include columns for Gender and Date of Birth, while eliminating Country.
+Create a profile that includes birth date, gender and address fields.
+
+
+Read more about creating profiles in the Profiles section of the chapter
+on *Organising Your Data*.
+
+Combining this feature with the "Batch Update via Profile" action
+provides a powerful method of viewing and updating a specific set of
+fields across a batch of contact records.
+
+### Search settings
+The Search Operator determines whether your criteria are combined with AND statements, or combined with OR statements. For example, you may want to find all individuals who are in the Volunteers group AND who have a Volunteer Training activity recorded for them. In this case use the AND operator. If you need to find everyone who is in the Volunteers group OR has a Volunteer Training activity recorded, use the OR operator.
+
+The Search in Trash allows you to search contacts that have been deleted but not deleted permanently. When a contact is deleted, the contact and all related data are moved to trash. Only users with the relevant permission will be able to search in trash and will be able to restore the contact from trash.
+
+
 
 ### The Date Range Filter
 
@@ -101,42 +139,13 @@ For example you may want to use a relative date range search to find:
     range - "This Year")
 -   Contacts who are a certain age
 
-### Search settings
-
-These are located at the bottom of the Basic Criteria frame.
 
 ![](../img/advanced%20search.PNG)
 ****
 
-#### Modifying search columns (Search Views)
 
-Advanced search allows you to change the columns displayed in your
-search results. The default columns are Name, Street Address, City,
-State, Postal Code, Country, Email and Phone. If you want to display a
-different set of columns (perhaps to include a custom field or remove a
-column you don't need), create a Profile with the Search Results option
-selected. Make sure that the fields in this Profile are set to "Public
-User Pages and Listings" visibility, and are marked as Results Columns.
-(For more information about creating Profiles, which are described in
-detail in the Profiles chapter in the Configuration section.)
 
-Read more about creating profiles in the Profiles section of the chapter
-on *Organising Your Data*.
 
-Combining this feature with the "Batch Update via Profile" action
-provides a powerful method of viewing and updating a specific set of
-fields across a batch of contact records.
-
-#### Display Results As
-
-Advanced Search returns your results as Contact records by default.
-However, you may want to get another record type instead. For example,
-you may want to search on the Membership renewal activity to find
-everyone who renewed their membership last week then display the results
-as Memberships so that you can export name, address and Membership
-expiry date to create and then post out membership cards to those
-contacts. In Advanced Search, simply select the record type you want
-from the **Display Results As** dropdown.
 
 #### **Combining search criteria**
 
