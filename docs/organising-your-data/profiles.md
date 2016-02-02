@@ -159,7 +159,7 @@ Here are some guidelines on which fields can be added to a Profile:
 -   If you try to combine fields with an unsupported combination of
     record types, you'll get an error when you try to save the field.
 
-Creating and managing Profiles
+Creating and managing profiles
 ------------------------------
 
 Creating a Profile is a multi-step process. First, you create the
@@ -238,6 +238,8 @@ Note that by default contacts will not receive any confirmation that they have b
 be asked to validate their email address. 
 To have contacts who complete the profile form receive an email, go to **Administer >> CiviMail >> CiviMail Component Settings** and check the checkbox **"Enable Double Opt-in for Profiles which use the "Add to Group" setting"**. They must respond (opt-in) before they are added to the group.
 
+![Screen shot of dobule opt-in setting](../img/organizing-data-double-opt-in.png)
+
 Also note that if you want to offer more than one group, you might be better off using the groups profile field.
 
 #### **Notify when profile form is submitted**
@@ -259,7 +261,7 @@ you may want to create a web page that thanks people for submitting
 their information. If this field is left blank, people will be directed
 to a page which displays the information they've just entered.
 
-#### **Cancel Redirect URL**
+#### **cancel redirect URL**
 
 Performs exactly the same way as Redirect URL, except that it
 applies when people cancel their form submission.
