@@ -46,7 +46,7 @@ Configuring outbound email service
 
 Outbound email settings are configured at: **Administer > System
 Settings > Outbound Email (SMTP/Sendmail)**. The choices here are:
-
+![Screen shot of mail choices](../img/Administer-System Settings-Outbound Email.png)
 -   **mail()**: This is the default option and if it works for you, you
     should use it. 
 -   **SMTP**: If you have a dedicated external mail server, specify its
