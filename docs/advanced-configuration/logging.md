@@ -1,6 +1,8 @@
 Logging
 =======
 
+![Screen shot of logging](../img/logging.png)
+
 CiviCRM keeps an eye on the various changes that you make to contacts,
 memberships and so on. Each contact has a change log tab which is
 populated each time a contact is added or edited. The change log shows
@@ -26,7 +28,7 @@ When you turn on detailed logging, the screen will look something like
 the below. Clicking on update on the left hand side will show details
 of the change. 
 
-![](../img/change-log.png)
+![Change log image](../img/change-log.png)
 
 This logging extends to almost all data that exists in CiviCRM,
 including your contact, membership, event, etc. data, and also all of
@@ -75,7 +77,7 @@ to revert any changes that you make to you data. For a lot of contact
 fields we make this easy by creating a revert button at the bottom of
 the screen that shows details of the change.
 
-![](../img/change-log-revert.png)
+![Screen shot of change log revert](../img/change-log-revert.png)
 
 This screen isn't available for all contact changes, however, data is
 still being recorded behind the scenes. If you do need to revert data

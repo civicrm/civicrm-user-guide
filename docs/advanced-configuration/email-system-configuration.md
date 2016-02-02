@@ -1,4 +1,4 @@
-Email System Configuration
+bounEmail System Configuration
 ==========================
 
 This chapter covers system configuration necessary so that CiviCRM can
@@ -158,6 +158,10 @@ recipient's server, flag your contacts accordingly. To accomplish this
 you will need to set up an email mailbox to receive bounced email
 messages and a schedule the **Bounces Fetcher** job that will
 periodically read this mailbox and update your contacts in civicrm.
+
+Administer -> System Settings -> Scheduled Jobs 
+
+![Screen shot of bounce fetcher scheduled job](../administer-scheduledjobs.png)
 
 The bounce email address is an "invisible" email address visible only in
 the email message's envelope (hidden fields that precede the headers and
