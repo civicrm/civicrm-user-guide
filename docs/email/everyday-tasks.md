@@ -228,7 +228,8 @@ changing the original template or saving it as a new template.
 Users with Administer CiviCRM permssion can add additional email addresses by going to 
 Administer >> CiviMail >> From Email addresses. 
 
-4. **Recipients:** This is where you can choose who will receive the
+4. 
+**Recipients:** This is where you can choose who will receive the
 mailing (if mailing to Groups) or further refine your mailing (if
 mailing to search results). You can choose Groups to include and
 exclude, by selecting them from the "Recipients" dropdown. 
@@ -261,7 +262,8 @@ You can filter on the Location Type and only send the mailing to email addresses
 
 ![Location type selection screen shot](../img/email-edit-options.png)
 
-5.  **Composing your Email:**This section will allow you to compose content
+5.  
+**Composing your Email:**This section will allow you to compose content
 for your mailing. As you write your content, remember that every email
 will be sent individually. CiviCRM offers the ability to personalize
 each email using tokens. See "*Using tokens in emails*" later in this
@@ -269,15 +271,18 @@ chapter.If you just wish to send a text version of your email, ignore
 the HTML section and click on the Plain Text section. Enter your message
 in the box.
 
-6.  **Attachments:** You can attach documents and files to the email by going
+6.
+**Attachments:** You can attach documents and files to the email by going
 to Attachments tab and selecting the file(s) you would like to upload.
 
-7. **Header and Footer:** On this tab you can select the header and footer
+7.
+**Header and Footer:** On this tab you can select the header and footer
 you would like to use for the mailing. You can define additional Headers
 and Footers via **Mailings > Headers, Footers, and Automated
 Messages** (See *Set-Up* for details).
 
-8. **Publication:** There is only one field in this section:
+8. 
+**Publication:** There is only one field in this section:
 **Mailing Visibility:** Its dropdown menu offers two options, "User and
 User Admin Only" and "Public Pages." Choosing Public Pages makes this
 content viewable as a web page by everyone who has the permission of
@@ -299,7 +304,8 @@ In addition, in the mailing creation process, there is a new token {mailing.view
 
 ![Screen shot of email responses tab](../img/email-responses.png)
 
-9. **Responses:**
+9.
+**Responses:**
 **Track Replies:** Checking this option will send replies from the
 mailing's recipients to a CiviMail specific address instead of the sender's address 
 so they can be stored within CiviCRM. 
@@ -319,7 +325,8 @@ In the same screen, you can also select the different automatic messages.
 - ** Unsubscribe Message:** This message will be sebt to the recipient who has unsubscribed from one of the mailing lists
 You can edit these messages by going in **Mailings >> Headers, Footers, and Automated Messages**.
 
-10.  **Tracking**
+10.
+**Tracking**
     -  **Track Click-Throughs**: This option will keep track of how many
     users and which users clicked on all the links in your message. This
     is accomplished by redirecting all links through your server. This
@@ -348,7 +355,8 @@ You can edit these messages by going in **Mailings >> Headers, Footers, and Auto
 
 **Testing Your Mailing:** You can test your message in one of two ways:
 
-1.  **Test Mailing:**You can specify an individual email address or a
+1.
+**Test Mailing:**You can specify an individual email address or a
     test group for your test mailing. The test mailing will fill in all
     the Tokens and include any attachments you are planning to send. 
      
@@ -360,15 +368,15 @@ You can edit these messages by going in **Mailings >> Headers, Footers, and Auto
     preferable to have more than one person receive your test email and
     give you feedback.
     
-2.  **Preview Mailing:**The preview will show you all the HTML
+2.
+**Preview Mailing:**The preview will show you all the HTML
     formatting and converted tokens with your data. It will not include
     the attachment. There is no guarantee that all email clients will
     display the email exactly as it is shown in this preview, but it is
     useful to ensure things like font consistency, basic layout and
     color. 
 
-**Schedule or Send** 
-
+**Schedule or Send**
 This section will allow you to either send the email immediately or
 schedule a date and time for it to be sent. By default, CiviMail checks
 every 15 minutes whether an email is ready to be sent, so there can be a
