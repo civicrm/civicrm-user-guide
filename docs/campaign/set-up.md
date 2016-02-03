@@ -2,8 +2,8 @@ Set-up
 ======
 
 This chapter will help you to set up CiviCampaign so that you can track
-related activities such as contributions, surveys, mailings that are
-part of your particular campaign or project. 
+related activities such as contributions, surveys, and mailings that are
+part of a particular campaign or project. 
 
 Enable CiviCampaign 
 ---------------------
@@ -12,19 +12,19 @@ First, you need to enable the CiviCampaign component.
 
 1.  Go to **Administer > System Settings > Enable CiviCRM
     Components**.
-2.  Select **CiviCampaign**a nd click **Enable** then **Save** 
+2.  Select **CiviCampaign** and click **Enable** then **Save** 
 
-Once CiviCampaign is enabled, it will show up as a new menu item
-**Campaigns** along the top of your CiviCRM screen.
+Once CiviCampaign is enabled, it will show up as the new menu item
+**Campaigns** located along the top of your CiviCRM screen.
 
-Add a New Campaign Type
+Add a new campaign type
 -----------------------
 
 CiviCampaign provides three default campaign types:
 
 -   Direct Mail
 -   Referral Program
--   Constituent Engagement.
+-   Constituent Engagement
 
 You can add any campaign type that is appropriate for your work (and
 disable those that aren't).
@@ -45,13 +45,13 @@ To add a new campaign type:
 The next time you add a new campaign, this campaign type will be
 available to assign to your new campaign.
 
-Campaign Status
+Campaign status
 ---------------
 
 Assigning a status to your campaign makes it possible to update campaign
 activities in the database and track how the campaign is proceeding.
 
-1.  Go to**Administer > CiviCampaign > Campaign Status**. 
+1.  Go to **Administer > CiviCampaign > Campaign Status**. 
     The default statuses are Planned, In Progress, Completed, and
     Cancelled.
 2.  Click **Add Campaign Status**, give it a name and, optionally, a
@@ -63,8 +63,8 @@ activities in the database and track how the campaign is proceeding.
 
 ![](../img/campaign_configuration_statuses.png)
 
-Engagement Index 
-------------------------------------------------------------------
+Engagement index 
+----------------
 
 CiviCampaign allows you to track an individual's level of
 interest/engagement in a particular activity. The Engagement Index can
@@ -76,7 +76,7 @@ section.
 
 To configure the Engagement Index:
 
-1.  Go to **Administer -> CiviCampaign -> Engagement Index**.
+1.  Go to **Administer > CiviCampaign > Engagement Index**.
 2.  Configure the engagement index as a number, e.g. 1 is a high level
     of engagement, and 5 is low level of engagement.
 
