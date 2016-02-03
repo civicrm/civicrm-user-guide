@@ -1,4 +1,4 @@
-bounEmail System Configuration
+Email system configuration
 ==========================
 
 This chapter covers system configuration necessary so that CiviCRM can
