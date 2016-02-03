@@ -140,12 +140,7 @@ For example you may want to use a relative date range search to find:
 -   Contacts who are a certain age
 
 
-![](../img/advanced%20search.PNG)
-****
-
 Relative dates filters based on the time interval "week" assume that Sunday is the first day of the week.   This is not true in all countries, for example Europe and many countries in Asia/Pacific region consider Monday to be the first day of the week. To set which day is the first day of the week, you need to go to **Administer >> Localization >> Date Format**.
-
-
 
 
 #### **Combining search criteria**
@@ -156,8 +151,7 @@ return major donors from Mexico. The search will not return major
 donors who are *not* from Mexico, nor those from Mexico who are *not*
 major donors.
 
-You can change the default search operator from AND to OR in the Basic
-Criteria section of Advanced Search.
+You can change the default search operator from AND to OR in the Search Settings.
 
 Within criteria groups that allow you to check boxes for more than one
 value, these options are also combined by "ANDing". For example, if you
@@ -166,8 +160,9 @@ Email *AND* SMS.
 
 With fields that allow you to select more than one value from a dropdown list,
 the values are always combined with "OR". For example, you could find contacts
-that live in Mexico OR the United States by selecting both countries in
-the country field.
+that live in Alaska or in Arizona.
+
+
 
 Search Builder
 --------------
@@ -205,7 +200,7 @@ include contacts where.** The following example will search for females
 born after Jan 1 2000 OR members of the Administrators or Advisory Board
 groups:
 
-![](../img/Search%20Builder.png)
+![Search Builder](../img/Search%20Builder.png)
 
 Your search results will contain each contact's name, plus a column for
 each search criteria you've defined. If you export search results, the
@@ -282,7 +277,7 @@ Contacts in a Group/Tag", that enables you to find contacts who are in
 one group but not in another, which you can find by going to **Search >
 Custom Searches** in the navigation menu.
 
-![](../img/IncludeExclude.png)
+![Include/Exclude Search](../img/IncludeExclude.png)
 
 By combining Include and Exclude options, you can find contacts who are
 in one group but remove just the group members who fit another
@@ -400,7 +395,7 @@ all records or specific records, then carry out an action with the
 selected records. Different actions are covered in more detail in the
 chapter on Everyday Tasks.
 
-![](../img/Search%20Action.PNG)
+![Action Dropdown](../img/Search%20Action.PNG)
 
 Some of the most commonly used actions are Add Contacts to Group, Export
 Contacts, Map Contacts, and creating and printing Mailing Labels. (To
@@ -422,7 +417,7 @@ left column, as shown below. You can adjust the fields shown in this
 profile (**Administer** > **Customize Data and Screens** >
 **Profiles**).
 
-![Search_summaryOverlay](../img/CiviCRM_update-CiviCore-Search_summaryOverlay-en.jpg "Search_summaryOverlay")
+
 
 The wildcard (%)
 ----------------
