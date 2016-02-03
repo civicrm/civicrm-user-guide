@@ -159,7 +159,7 @@ you will need to set up an email mailbox to receive bounced email
 messages and a schedule the **Bounces Fetcher** job that will
 periodically read this mailbox and update your contacts in civicrm.
 
-Administer -> System Settings -> Scheduled Jobs 
+Administer > System Settings > Scheduled Jobs 
 
 ![Screen shot of bounce fetcher scheduled job](../administer-scheduledjobs.png)
 
