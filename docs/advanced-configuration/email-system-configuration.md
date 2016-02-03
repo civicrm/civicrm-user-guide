@@ -1,4 +1,4 @@
-bounEmail System Configuration
+Email system configuration
 ==========================
 
 This chapter covers system configuration necessary so that CiviCRM can
@@ -121,7 +121,7 @@ They are several websites that help you testing whether you are in a
 DNSBL. A web search for "blacklisting email" will turn some up. Test
 regularly to find whether you are on a blacklist.
 
-Configuring Sender Policy Framework (SPF)
+Configuring sender policy framework (SPF)
 -----------------------------------------
 
 By default, the Internet allows any mail server to send any email
