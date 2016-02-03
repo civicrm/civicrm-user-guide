@@ -172,16 +172,16 @@ need to set up on a mail server for example.org is *return@example.org*.
 For each email sent via CiviMail's mass mailing feature, a new unique
 "invisible" sender address is created using the [variable envelope
 return path or
-VERP](http://en.wikipedia.org/wiki/Variable_envelope_return_path). When
+[VERP](http://en.wikipedia.org/wiki/Variable_envelope_return_path). When
 CiviCRM receives a bounce, it looks at the invisible sender address to
 decide which email bounced. 
 
-CiviCRM then looks a the bounce pattern and type to decide what action
+CiviCRM then looks at the bounce pattern and type to decide what action
 to take. Bounce types fall into two basic categories: permanent failures
 (hard bounce) and transient failure (soft bounce). A single
-permanent failure triggers CiviCRM to set the contact's email as on
-hold. For transient failures, CiviCRM waits for several bounces before
-setting the contact's email on hold.
+permanent failure triggers CiviCRM to set the contact's email as On
+Hold. For transient failures, CiviCRM waits for several bounces before
+setting the contact's email On Hold.
 
 The specific [threshold for each bounce
 type](http://wiki.civicrm.org/confluence/display/CRMDOC43/Bounce+Handling)
@@ -192,9 +192,9 @@ are linked to a given type and threshold.
 ### **Email-to-Activity processing**
 
 CiviCRM can automatically retrieve email from a specified inbox and file
-it as an email activity against contacts of type Individual corresponding to sender and recipients of the email. New individual contacts are created for email adresses not already assigned to individuals in the database. 
+it as an email activity against contacts of type Individual corresponding to sender and recipients of the email. New individual contacts are created for email addresses not already assigned to individuals in the database. 
 
-**NOTE**: This features only works for the Individual contact type. If the incoming email comes from an email address already record aginast an organization, a new individual contact with that same email address with be created and the activity will be recorded against that new individual contact, not against the organization.
+**NOTE**: This features only works for the Individual contact type. If the incoming email comes from an email address already recorded against an organization, a new individual contact with that same email address will be created and the activity will be recorded against that new individual contact, not against the organization.
 
 There are two ways to do this (either or both ways can be setup at same
 time):
@@ -204,16 +204,16 @@ time):
     address in the Bcc field for your outbound emails; they will get
     auto filed in CiviCRM as described above. No one who receives the
     email will see this special address if the Bcc field is used. 
--   **IMAP Folder:** Set up a folder in your IMAP Inbox where you can
+-   **IMAP folder:** Set up a folder in your IMAP Inbox where you can
     drag emails that you want filed in CiviCRM. This works with both
-    inbound and outbound emails. (this requires that your email be set
+    inbound and outbound emails (this requires that your email be set
     up using IMAP.)
 
 ### Special email address for incoming email
 
 There are several ways of configuring your incoming mailbox:
 
--   **Sub-addressing:**Your mail service might allow you to append a
+-   **Sub-addressing:** Your mail service might allow you to append a
     +*tag* or -*tag* qualifier to your e-mail address (e.g.
     *return+test@example.org*). Several mail servers, including Gmail,
     Yahoo! and Postfix provide this sub-addressing by default.
@@ -221,7 +221,7 @@ There are several ways of configuring your incoming mailbox:
     Try to send yourself an email, adding a +*tag* or -*tag*. If you
     received the mail you sent with a tag, it means that you can
     directly use the mailbox you created (*return@example.org* in our
-    example) as the VERP.
+    example) as the [VERP](http://en.wikipedia.org/wiki/Variable_envelope_return_path).
 
 -   **"Catch-all" account:** If sub-addressing doesn't work on your mail
     server, you need to define the mail account you created
@@ -248,16 +248,16 @@ address.
 
 -   Specify the mail **server, username, and password** you used when
     creating the account.
--   The **local part**is optional and only relevant if you were able to
+-   The **local part** is optional and only relevant if you were able to
     set up an account using sub-addressing. It should be the account you
     created with '+' or '-' appended , e.g., "return+" or "return-".
--   The **email domain**is the domain of your email address
+-   The **email domain** is the domain of your email address
     (example.org).
 -   You can leave the **return path** empty.
--   If your mail server supports it, specify IMAP **protocol**and check
+-   If your mail server supports it, specify IMAP **protocol** and check
     **SLL**, otherwise use POP. 
 -   You can specify an IMAP folder in the **source** field using the
-    syntax INBOX.CiviMail. **Note:**Some exchange servers may not be
+    syntax INBOX.CiviMail. **Note:** Some exchange servers may not be
     configured in a compatible way. In that case, you can configure a
     script like fetchmail and use Maildir. 
 -   In the **Used for?** field you can choose whether you want to use
@@ -297,8 +297,8 @@ queued to be sent to their recipients. To schedule the regular
 processing of this queue and any bounces that are returned go
 to **Administer > System Settings > Scheduled Jobs** and find
 the **Fetch Bounces** and **Send Scheduled Mailings** jobs. Edit each in
-turn, setting their scheduled **Frequency** to "Hourly", "Daily" or
-"Every time cron is run". The defaults should be fine for small
+turn, setting their scheduled **Frequency** to "Hourly," "Daily" or
+"Every time cron is run." The defaults should be fine for small
 installations. Then select **more > Enable** for each.
 
 In this example using the jobs' default frequency and [cron configured
@@ -384,7 +384,6 @@ PARAMSBOUNCE= -j -sdefault -umailprocess -pseol-lzprm42amv-psyc -e Job
 */5 * * * * cd $CIVI_ROOT; $PHP bin/cli.php $PARAMS 
 */15 * * * * cd $CIVI_ROOT; $PHP bin/cli.php $PARAMSBOUNCE
 ```
-
 
 The user that run the scripts (*www-data* in this example) needs to be
 able to write into the temporary folder. Your configuration might
