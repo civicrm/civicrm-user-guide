@@ -118,12 +118,12 @@ The Search in Trash allows you to search contacts that have been deleted but not
 
 ### The Date Range Filter
 
-Most component searches include a date range filter. The above image
-shows examples of both:
+Most component searches include a date range filter. The images below
+show examples of both:
 
 -   by using an absolute date range, e.g. "1st Jan 2010" to "31 July
     2010"
--   by using a relative date range, e.g. "Previous Year"
+-   by using a relative date range, e.g. "Previous week"
 
 Relative date ranges are especially useful for searches that you would
 like to then save as Smart Groups (automatically populated groups that
@@ -143,6 +143,7 @@ For example you may want to use a relative date range search to find:
 ![](../img/advanced%20search.PNG)
 ****
 
+Relative dates filters based on the time interval "week" assume that Sunday is the first day of the week.   This is not true in all countries, for example Europe and many countries in Asia/Pacific region consider Monday to be the first day of the week. To set which day is the first day of the week, you need to go to **Administer >> Localization >> Date Format**.
 
 
 
