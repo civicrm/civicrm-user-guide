@@ -32,35 +32,35 @@ To create a Campaign:
     -   **Title** (required): enter a unique name that describes your
     campaign. It's helpful to establish a naming convention for new
    campaigns so they alphabetize in drop-down lists automatically and
-   are easy to sort through when associating and activity with the
+   are easy to sort through when associating an activity with the
    campaign.
     -   **Campaign Type** (required): select the type of campaign, e.g.
     Constituent Engagement. To add more options to the Campaign Type
     drop-down list, see the previous chapter on setting up
     CiviCampaign.
     -   **Description**: enter text that describes your campaign.
-    -   **Include group(s):** if appropriate, select the group that
+    -   **Include group(s)**: if appropriate, select the group that
     contains the individuals you are targeting for this campaign. To
     find out more about creating groups, see the chapter on Tags and
     Groups.
     -   **Start Date & Time** (required): enter the start date and time of
     the campaign
-    -   **End Date & Time:** enter the end date and time of the campaign.
+    -   **End Date & Time**: enter the end date and time of the campaign.
     If these fields are empty, then the campaign will be considered
     ongoing.
-    -   **Campaign Status:** select the status of the campaign, e.g. In
+    -   **Campaign Status**: select the status of the campaign, e.g. In
     Progress, Planned, etc. To add more options to the Campaign
     Status drop-down list, see the previous chapter on setting up
    CiviCampaign.
-    -   **Campaign Goals:** enter text the describes the goals and/or
+    -   **Campaign Goals**: enter text the describes the goals and/or
     objectives of your campaign. You may also want to describe the
     activities you plan on conducting to meet those goals.
-    -   **Revenue Goals:**if applicable, enter a number that indicates the
+    -   **Revenue Goals**: if applicable, enter a number that indicates the
     amount you plan to raise during your campaign.
     -   **External ID**: if you want to track the campaign ID of the
     campaign when it existed in another database, you can enter the ID
     number of your legacy campaign.
-    -   **Is Active?:** check the box if the campaign is an active
+    -   **Is Active?**: check the box if the campaign is an active
     campaign. If the campaign is inactive, then uncheck the box.
 
 Click **Save**, to save the campaign.
@@ -84,8 +84,8 @@ participation, and also be used to call for donations.
 2.  Select the appropriate campaign from the drop-down list when setting
     up the mailing. 
 
-**A Campaign Event**
---------------------
+A campaign event
+----------------
 
 Events created using CiviEvent can be associated with a campaign. To
 find out more about configuring and using CiviEvent, see the *Events*
@@ -100,7 +100,7 @@ section of this book.
 5.  Search for individuals who have indicated they want to register for
     the event.
 
-Record Campaign Contributions
+Record campaign contributions
 -----------------------------
 
 As contributions come in, either online or offline, they can be
@@ -110,7 +110,7 @@ the drop-down menu when recording the contribution.
 To find out more about configuring and using CiviContribute, see the
 *Contributions* section.
 
-Record Event Participation
+Record event participation
 --------------------------
 
 During and after an event, organizers can record who participated by
