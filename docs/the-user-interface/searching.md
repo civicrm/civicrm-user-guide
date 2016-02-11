@@ -56,6 +56,7 @@ Note: If you search by **phone** then you will need to enter the digits of the p
 
 Advanced search
 ---------------
+![Screen shot of advanced search](../img/user-interface-advanced-search-main-screen.png)
 
 Advanced search allows you to search across all the information you have
 about your contacts. For example, you could find "all contacts in
@@ -78,6 +79,8 @@ in.
 
 #### Display Settings For Results
 
+![Screen shot of Display Results As](../img/user-interface-display-results-as.png)
+
 Advanced Search returns your results as Contact records by default.
 However, you may want to get another record type instead. For example,
 you may want to search on the Membership renewal activity to find
@@ -87,6 +90,8 @@ expiration date to create and then post out membership cards to those
 contacts. Simply select the record type you want from the **Display Results As** dropdown.
 
 #### Views for Display Contacts
+
+![Screen shot of Display Contacts](../img/user-interface-new-contact-view-profile.png)
 
 Advanced search allows you to change the columns displayed in your
 search results. The default columns are Name, Street Address, City,
@@ -101,6 +106,11 @@ detail in the Profiles chapter in the Configuration section.)
 For example you may want to include columns for Gender and Date of Birth, while eliminating Country.
 Create a profile that includes birth date, gender and address fields.
 
+![Screen shot of Search View setting in a profile](../img/user-interface-profile-search-view-setting.png)
+
+![Screen shot of Visibility setting in a profile](../img/user-interface-profile-search-view-setting-2.png)
+
+![Screen shot of a profile](../img/user-interface-new-contact-view-profile.png)
 
 Read more about creating profiles in the Profiles section of the chapter
 on *Organising Your Data*.
@@ -114,9 +124,11 @@ The Search Operator determines whether your criteria are combined with AND state
 
 The Search in Trash allows you to search contacts that have been deleted but not deleted permanently. When a contact is deleted, the contact and all related data are moved to trash. Only users with the relevant permission will be able to search in trash and will be able to restore the contact from trash.
 
-
+![Screen shot of Search in Trash](../img/user-interface-search-in-trash.png)
 
 ### The Date Range Filter
+
+![Screen shot of Date Range Filter](../img/user-interface-date-filter.png)
 
 Most component searches include a date range filter. The images below
 show examples of both:
@@ -131,6 +143,8 @@ are configured to include contacts that share a certain set of
 characteristics or activities). For more information see the *Groups and
 tags* chapter.
 
+![Screen shot of Relative Date Range Filter](../img/user-interface-date-filter-relative.png)
+
 For example you may want to use a relative date range search to find:
 
 -   Contacts who have contributed in the last 7 days (Relative date
@@ -141,6 +155,8 @@ For example you may want to use a relative date range search to find:
 
 
 Relative dates filters based on the time interval "week" assume that Sunday is the first day of the week.   This is not true in all countries, for example Europe and many countries in Asia/Pacific region consider Monday to be the first day of the week. To set which day is the first day of the week, you need to go to **Administer >> Localization >> Date Format**.
+
+![Screen shot of how to change the first day of the week](../img/user-interface-searching-week-begins.png)
 
 
 #### **Combining search criteria**
@@ -162,7 +178,7 @@ With fields that allow you to select more than one value from a dropdown list,
 the values are always combined with "OR". For example, you could find contacts
 that live in Alaska or in Arizona.
 
-
+![Screen shot of combining search criteria](../img/user-interface-searching-states.png)
 
 Search Builder
 --------------
@@ -395,7 +411,7 @@ all records or specific records, then carry out an action with the
 selected records. Different actions are covered in more detail in the
 chapter on Everyday Tasks.
 
-![Action Dropdown](../img/Search%20Action.PNG)
+![Screen shot of Action Dropdown](../img/user-interface-searching-actions-dropdown.png)
 
 Some of the most commonly used actions are Add Contacts to Group, Export
 Contacts, Map Contacts, and creating and printing Mailing Labels. (To
@@ -417,7 +433,7 @@ left column, as shown below. You can adjust the fields shown in this
 profile (**Administer** > **Customize Data and Screens** >
 **Profiles**).
 
-
+![Screen shot of Contact Summary pop-up](../img/user-interface-searching-summary-overlay.png)
 
 The wildcard (%)
 ----------------
