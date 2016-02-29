@@ -30,10 +30,10 @@ pages:
     - 'Security': 'initial-set-up/security.md'
     - 'CiviCRM System Status': 'initial-set-up/civicrm-system-status.md'
 - Advanced configuration:
-    - 'Email System Configuration': 'advanced-configuration/email-system-configuration.md'
+    - 'Email system configuration': 'advanced-configuration/email-system-configuration.md'
     - 'Logging': 'advanced-configuration/logging.md'
 - The user interface:
-    - 'Menu, Dashboard and Dashlets': 'the-user-interface/menu-dashboard-and-dashlets.md'
+    - 'Menu, dashboard and dashlets': 'the-user-interface/menu-dashboard-and-dashlets.md'
     - 'Keyboard shortcuts': 'the-user-interface/keyboard-shortcuts.md'
     - 'Searching': 'the-user-interface/searching.md'
     - 'Undelete': 'the-user-interface/undelete.md'
@@ -57,7 +57,8 @@ pages:
 - Contributions:
     - 'What is CiviContribute?': 'contributions/what-is-civicontribute.md'
     - 'What You Need To Know': 'contributions/what-you-need-to-know.md'
-    - 'Online Contributions': 'contributions/online-contributions.md'
+    - 'Initial set-up': 'contributions/initial-set-up'
+    - 'Online contributions': 'contributions/online-contributions.md'
     - 'Premiums': 'contributions/premiums.md'
     - 'Manual entry of contributions': 'contributions/manual-entry-of-contributions.md'
     - 'Offline Contributions': 'contributions/offline-contributions.md'
