@@ -6,47 +6,6 @@ financial transactions to a batch, or to use batches created from batch
 data entry, then export the batch to be imported into accounting
 software.
 
-Financial Types Set-Up
-----------------------
-
-Financial Types need to be set-up before you begin using CiviCRM for
-financial transactions. (In old versions of CiviCRM, financial types
-were known as contribution types. Each financial type will have
-financial accounts associated with it.
-
-From **Administer > CiviContribute > Financial Types,** you can set up
-the different financial accounts that are associated with each type. As
-you create a Financial Type of a specific name, CiviCRM creates a
-similarly named Revenue Financial Account and assigns it and the default
-accounts for Accounts Receivable and a few other account types to the
-new financial type. The aim behind these actions is to simplify the
-common use case, but provide flexible for more sophisticated
-setups. The setup of Financial Types determines how CiviCRM
-transactions relate to them. It needs to be done properly in order to
-ensure your export from CiviCRM will correctly transfer financial
-transactions into your accounting database.
-
-Financial Accounts Set-Up
--------------------------
-
-Accounting software such as Quickbooks requires specific fields to be
-included in the import file in order to process external data correctly.
-From **Administer > CiviContribute > Financial Accounts**, you can set
-up specifics of your financial accounts.
-
-It's important that the account codes and names in your organization's
-Chart of Accounts be used to set up the financial accounts in CiviCRM. A
-variety of accounts are created by default, and it is often easier to
-edit these accounts than to delete them all and start from scratch. The
-initial financial accounts in a new CiviCRM install include a variety of
-revenue accounts, and other ones that your bookkeeper will recognize,
-such as accounts receivable. We recommend you configure financial types
-and financial accounts in coordination with your bookkeeper or
-accountant.
-
-Many accounting software options require the accounting code to match
-exactly, so be careful to avoid extra spaces.
-
 Accounting Batches
 ------------------
 
