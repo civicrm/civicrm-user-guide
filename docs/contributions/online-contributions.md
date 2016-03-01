@@ -3,6 +3,7 @@ Creating Contribution Pages
 This chapter describes setting up a simple contribution page where visitors to your website can make contributions to your organisation.
 
 Create a new contribution page by navigating to **Contributions > New Contribution Page** or **Contributions > New Contribution Page** then click on **Add Contribution Page**.
+
 -  Give the page a title.
 -  Select the Financial Type. CiviCRM comes with four standard financial types, but you can create more to meet your [organisation's accounting needs](../../accounting-integration).
 -  Link this contribution page to a [campaign](../../campaign). (optional)
@@ -19,6 +20,7 @@ Create a new contribution page by navigating to **Contributions > New Contributi
     this page at any time by visiting the **Title** (and Settings) tab.
 
 You will now be on the (Contribution) **Amounts** tab.
+
 -  The **Execute real-time monetary transactions** box is checked by default. You would uncheck this box if you are using this contribution page for free membership signup or to solicit in-kind (non-monetary) donations, or when you want **all** users to submit their payment offline.
 -  Select the **Currency**.
 -  Select one or more **Payment Processors** for this page (which
