@@ -57,7 +57,7 @@ pages:
 - Contributions:
     - 'What is CiviContribute?': 'contributions/what-is-civicontribute.md'
     - 'What You Need To Know': 'contributions/what-you-need-to-know.md'
-    - 'Initial set-up': 'contributions/initial-set-up'
+    - 'Initial set-up': 'contributions/initial-set-up.md'
     - 'Online contributions': 'contributions/online-contributions.md'
     - 'Premiums': 'contributions/premiums.md'
     - 'Manual entry of contributions': 'contributions/manual-entry-of-contributions.md'
