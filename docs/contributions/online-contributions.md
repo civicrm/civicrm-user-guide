@@ -1,44 +1,48 @@
 Creating Contribution Pages
 -----------------------------
+This chapter describes setting up a simple contribution page where visitors to your website can make contributions to your organisation.
 
-To create a new contribution page:
+Create a new contribution page by navigating to **Contributions > New Contribution Page** or **Contributions > New Contribution Page** then click on **Add Contribution Page**.
+  *  Give the page a title.
+  *  Select the Financial Type. CiviCRM comes with four standard financial types, but you can create more to meet your [organisation's accounting needs](../../accounting-integration).
+  * Link this contribution page to a [campaign](../../campaign). (optional)
+  *
+  * Compose your introductory message. (optional)
+  * Compose your footer message. (optional)
+  * Set a goal amount. (optional)
+  * This contribution page has to be manually enabled or disabled, but you can set a **start date** and **end date** that will apply for the Contribution Widget and [Personal Campaign Pages](../../personal-campaign-pages). (optional)
+  * Choose whether or not to accept [Honoree soft crediting.](../../soft-credits.md)
+  * Choose to use a confirmation page where users can check all details are correct or to
+  process the payment as soon as the contribution form is submitted.
+  * Choose whether or not to display social media links on online pages and in the automatically emailed receipt (if being sent).
+  * Decide whether or not to make the Contribution Page active now.
+  * Click **Continue**. (This is when you new contributions page is first saved.)  You will be able to go back and modify all aspects of
+    this page at any time by visiting the **Title** (and Settings) tab.
 
-1.  Navigate to **Contributions > Manage Contribution Pages**and
-    click on **Add Contribution Page**.
-2.  Give the page title, select the Financial Type (donation, campaign
-    contribution, etc.), goal amount, introductory message, whether to
-    accept Honoree soft crediting, and any other relevant information
-    such as dates. You will be able to go back and modify all aspects of
-    this page at any time after completing the setup wizard. Click
-    **Continue**.
-3.  The **Execute real-time monetary transactions** box is checked by
-    default, to enable monetary donations. You would only uncheck this
-    box if you are using this contribution page to solicit in-kind
-    (non-monetary) donations.
-4.  Select the **Currency**
-5.  Select one or more **Payment Processors** for this page (which
+You will now be on the (Contribution) **Amounts** tab.
+  * The **Execute real-time monetary transactions** box is checked by default. You would uncheck this box if you are using this contribution page for free membership signup or to solicit in-kind (non-monetary) donations, or when you want **all** users to submit their payment offline.
+  * Select the **Currency**.
+  * Select one or more **Payment Processors** for this page (which
     you have previously configured). Some organizations find it
     advantageous to give their constituents a choice of processors. You
     can do this by setting up multiple processors, and checking the
     corresponding boxes on this form.
-6.  Check the **Pay Later** box if you want to give users the option to
-    submit payment offline (e.g. mail in a check, call in a credit card,
-    etc.).
-7.  Check the **Contribution Amounts Section Enabled** box to allow
+  * Check the **Pay Later** box if you want to give users the option to
+    submit payment offline (e.g. mail in a cheque, call in a credit card, deposit directly into your bank account etc.).
+  * Check the **Contribution Amounts Section Enabled** box to allow
     various specific amounts to be presented. Leave this unchecked if,
     for example, you are using the page for membership sign-ups that
     have fixed amounts, which will show only the fixed membership
     amounts and not allow custom amounts to be entered.
-8.  Select a pre-defined **Price Set**(for more complex payment
-    options), OR enter up to 10 fixed contribution amounts in the table.
-9.  Check the **Pledges** box to give users the opportunity to pledge
-    future payments. To learn more about configuring pledges, refer to
-    the Pledges chapter.
-10. Check **Allow other amounts** to give users the option to pay any
-    amount they choose.
-11. Click **Save and Done**.
-
-
+  * Select a pre-defined **Price Set** (for more complex payment
+    options), OR enter up to 10 fixed contribution amounts in the table at the bottom of the page.)
+  * You can check **Recurring contributions** if you payment processor and its integration with CiviCRM support recurring billing and you want to allow this feature. (There are restrictions on recurring payments when [membership fees](../membership/defining-memberships) are being paid.) If you check **Recurring contributions** further settings become visible. 
+  * Check the **Pledges** box to give users the opportunity to [pledge
+    future payments](../pledges).
+  * Decide on the label for the Contribution amount area on your page.
+  * Check **Allow other amounts** to give users the option to pay any
+    amount they choose. You can set a minimum and a maximum amount for "Other Amount" contributions if you want to.
+  * Click **Save and Done**.
 
 ### Include Profiles
 

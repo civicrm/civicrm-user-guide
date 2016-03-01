@@ -57,11 +57,11 @@ pages:
 - Contributions:
     - 'What is CiviContribute?': 'contributions/what-is-civicontribute.md'
     - 'What You Need To Know': 'contributions/what-you-need-to-know.md'
-    - 'Initial set-up': 'contributions/initial-set-up'
+    - 'Initial set-up': 'contributions/initial-set-up.md'
     - 'Online contributions': 'contributions/online-contributions.md'
     - 'Premiums': 'contributions/premiums.md'
     - 'Manual entry of contributions': 'contributions/manual-entry-of-contributions.md'
-    - 'Offline Contributions': 'contributions/offline-contributions.md'
+    - 'Offline fundraising': 'contributions/offline-fundraising.md'
     - 'Finding and viewing contributions': 'contributions/finding-and-viewing-contributions.md'
     - 'Manual receipts and thank-you letters': 'contributions/manual-receipts-and-thank-yous.md'
     - 'Soft credits': 'contributions/soft-credits.md'

@@ -1,14 +1,6 @@
 Payment processors
 ==================
 
-CiviCRM provides you with the ability to take payments online on your
-website. You can take payments for a variety of reasons including
-fundraising campaigns, membership dues and event attendance.
-
-To start taking payments online you need to configure a payment
-processor which will connect your website to the credit card and banking
-infrastructure that actually processes the payment.
-
 CiviCRM connects to a variety of different payment processors.
 Out-of-the-box, it comes with support for approximately 15 payment
 processors. Many other community contributed processors are available to
@@ -59,7 +51,7 @@ complete the payment.
 As well as providing a more seamless experience for end users, onsite
 payment processors allow site admins to process card payments
 (contributions, membership fees, event payments, etc.) from CiviCRM
-admin pages. 
+admin pages.
 
 The disadvantage of processing payments directly on your site is that
 you will need to have an SSL certificate to ensure the security of the
@@ -90,13 +82,13 @@ merchant account and to the payment processor, though these may be
 bundled together. Some, like World Pay & Paypal, do not require separate
 merchant accounts.
 
-### Support for recurring contributions 
+### Support for recurring contributions
 
 Support for recurring contributions and auto-renewing memberships is an
 important feature for many organizations. However not all of the payment
 processors available for CiviCRM support this feature, and a few like
 Moneris have "incomplete" support. Check the wiki for the latest
-information. 
+information.
 
 ### Cost
 
@@ -161,7 +153,7 @@ been configured for your site,
     events and online contribution pages. If the processor allows you to
     collect credit card information on your website, your staff will
     also be able to use it to submit credit card contributions and
-    payment for memberships and events. 
+    payment for memberships and events.
 7.  Finally fill in the details of your test and live accounts so that
     you can use it in both test and live environments. You will need to
     do some further set up on the actual payment gateway but that is
@@ -182,7 +174,7 @@ in test mode, the following card details should work:
 -   Card type: Visa
 -   Card number 4111 1111 1111 1111
 -   CVV: any three digits
--   Expiry: any date in the future 
+-   Expiry: any date in the future
 
 Writing a new payment processor
 --------------------------------
