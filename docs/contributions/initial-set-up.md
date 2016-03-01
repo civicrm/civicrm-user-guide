@@ -35,23 +35,32 @@ edit these accounts than to delete them all and start from scratch. The
 initial financial accounts in a new CiviCRM install include a variety of
 revenue accounts, and other ones that your bookkeeper will recognize,
 such as accounts receivable. We recommend you configure financial types
-and financial accounts in coordination with your bookkeeper or
+and financial accounts in consultation with your bookkeeper or
 accountant.
 
 Many accounting software options require the accounting code to match
 exactly, so be careful to avoid extra spaces.
 
+## **Payment processors**
+
+CiviCRM provides you with the ability to take payments online on your
+website. You can take payments for a variety of reasons including
+fundraising campaigns, membership dues and event attendance.
+
+To start taking payments online you need to [configure a payment processor](../contributions/payment-procesors.md) which will connect your website to the credit card and banking
+infrastructure that actually processes the payment.
+
 ## **Payment Methods**
 
 Navigate to **Administer > CiviContribute > Payment Methods** to
 edit existing options that can be used for contributions or to add a new
-option through Add Payment Methods. The common options - credit
+option through **Add Payment Methods**. The common options - credit
 card, cash, check, debit card, and EFT - are installed by default.
 
 ## **Accepted Credit Cards**
 
 Navigate to **Administer > CiviContribute > Accepted Credit Cards** to
 edit existing acceptable credit cards or define a new option through
-**Add Accept Credit Card**.
+**Add Accepted Credit Card**.
 
-Note: If billing information is collected on the payment processor's website then you will need to configure credit card/payment methods on that site.
+Note: If billing information is collected on the payment processor's website then you will need to configure accepted credit cards/payment methods on that site.
