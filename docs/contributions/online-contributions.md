@@ -6,7 +6,7 @@ Create a new contribution page by navigating to **Contributions > New Contributi
 
 -  Give the page a title.
 -  Select the Financial Type. CiviCRM comes with four standard financial types, but you can create more to meet your [organisation's accounting needs](../../accounting-integration).
--  Link this contribution page to a [campaign](../../campaign). (optional)
+-  Link this contribution page to a [campaign](../campaign/what-is-civicampaign). (optional)
 -  Compose your introductory message. (optional)
 -  Compose your footer message. (optional)
 -  Set a goal amount. (optional)
