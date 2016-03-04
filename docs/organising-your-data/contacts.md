@@ -174,7 +174,7 @@ and a contact may have many relationships to other contacts in the
 database. In the example below you can see a list of Current
 Relationships as well as a list of Inactive relationships.
 
-![Contact-RelatoinshipTab_1](../img/CiviCRM_update-CiviCore-Contact-RelatoinshipTab_1-en.png "Contact-RelatoinshipTab_1")
+![Contact-RelatoinshipTab_1](../img/CiviCRM_update-CiviCore-Contact-RelatoinshipTab_1-en.png)
 
 You can read more about when it makes sense to use relationships in the
 *relationships* chapter of the*organising your data* section. 
@@ -190,7 +190,7 @@ Email, Meeting, Phone call) will bring up a screen where you can enter
 those details. This tab will also show any custom activities that you've
 defined.
 
-![Contact_ActivityTab](../img/CiviCRM_update-CiviCore-Contact_ActivityTab-en.jpg "Contact_ActivityTab")
+![Contact_ActivityTab](../img/CiviCRM_update-CiviCore-Contact_ActivityTab-en.jpg)
 
 To find out more about activities please refer to the Activities section
 in this chapter.
@@ -214,7 +214,7 @@ Both of these buttons lead to forms that allow you to select the
 Financial Type in addition to the normal contribution information
 collected from public contribution pages.
 
-![Contact_COntribTab](../img/CiviCRM_update-CiviCore-Contact_COntribTab-en.jpg "Contact_COntribTab")
+![Contact_COntribTab](../img/CiviCRM_update-CiviCore-Contact_COntribTab-en.jpg )
 
 Read more about Contributions, in the Contributions chapter of this
 book.
@@ -226,7 +226,7 @@ able to add memberships and submit credit card payments for memberships
 that require a fee. You can also renew or delete memberships from the
 "more" link on each membership in the contact's existing memberships.
 
-![Contact_MembershipTabs](../img/CiviCRM_update-CiviCore-Contact_MembershipTabs-en.jpg "Contact_MembershipTabs")
+![Contact_MembershipTabs](../img/CiviCRM_update-CiviCore-Contact_MembershipTabs-en.jpg)
 
 Read more about Memberships, in the Membership chapter of this book.
 
@@ -244,7 +244,7 @@ You can also modify the event information as it relates to the contact
 by clicking the Edit link. For example, you can change the contact's
 event status from "registered" to "attended."
 
-![Contact_Eventstab](../img/CiviCRM_update-CiviCore-Contact_Eventstab-en.jpg "Contact_Eventstab")
+![Contact_Eventstab](../img/CiviCRM_update-CiviCore-Contact_Eventstab-en.jpg)
 
 Read more about Events, in the Events chapter of this book.
 
@@ -264,7 +264,7 @@ to "Public Listings" users can join via **Profile** forms. You may want
 to familiarise yourself with the discussion on using Profiles for
 mailing list sign-ups covered in a later section.
 
-![Contact_GroupsTab](../img/CiviCRM_update-CiviCore-Contact_GroupsTab-en.jpg "Contact_GroupsTab")
+![Contact_GroupsTab](../img/CiviCRM_update-CiviCore-Contact_GroupsTab-en.jpg)
 
 For more on this topic, please refer to the Tags and Groups section of
 the book. 
@@ -285,7 +285,7 @@ You can specify "Author Only" privacy for a note. This means that only
 the person who wrote the note, or someone with "view all notes"
 permission (via your CMS) can view or edit it.
 
-![Contact_NotesTab](../img/CiviCRM_update-CiviCore-Contact_NotesTab-en.jpg "Contact_NotesTab")
+![Contact_NotesTab](../img/CiviCRM_update-CiviCore-Contact_NotesTab-en.jpg)
 
 ### Tags tab
 
