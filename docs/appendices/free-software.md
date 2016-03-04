@@ -5,7 +5,7 @@ CiviCRM is **Free Software** - this means it is developed by a community
 and licensed in a generous way so you can use it for free for whatever
 you want.
 
-Free Software (sometimes also referred to as**Free and Open Source
+Free Software (sometimes also referred to as **Free and Open Source
 Software**, **FLOSS**, **FOSS**, **Software Libre**, or **Open
 Source**) is software that anyone can download, share, and --
 significantly -- change in any way they want. Practically speaking, you
