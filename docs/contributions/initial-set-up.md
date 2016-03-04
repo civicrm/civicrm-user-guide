@@ -47,7 +47,7 @@ CiviCRM provides you with the ability to take payments online on your
 website. You can take payments for a variety of reasons including
 fundraising campaigns, membership dues and event attendance.
 
-To start taking payments online you need to [configure a payment processor](../contributions/payment-procesors.md) which will connect your website to the credit card and banking
+To start taking payments online you need to [configure a payment processor](../contributions/payment-procesors) which will connect your website to the credit card and banking
 infrastructure that actually processes the payment.
 
 ## **Payment Methods**
