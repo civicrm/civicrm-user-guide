@@ -11,7 +11,7 @@ Create a new contribution page by navigating to **Contributions > New Contributi
 -  Compose your footer message. (optional)
 -  Set a goal amount. (optional)
 -  This contribution page has to be manually enabled or disabled, but you can set a **start date** and **end date** that will apply for the Contribution Widget and [Personal Campaign Pages](../../personal-campaign-pages). (optional)
--  Choose whether or not to accept [Honoree soft crediting.](../../soft-credits.md)
+-  Choose whether or not to accept [Honoree soft crediting.](../../soft-credits)
 -  Choose to use a confirmation page where users can check all details are correct or to
   process the payment as soon as the contribution form is submitted.
 -  Choose whether or not to display social media links on online pages and in the automatically emailed receipt (if being sent).
