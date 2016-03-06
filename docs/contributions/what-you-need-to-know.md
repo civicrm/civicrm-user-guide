@@ -55,7 +55,7 @@ To aid integration with your accounting software, you can assign an
 accounting code to each financial account. This code is included when you
 export contributions for import into your accounting package.
 
-[Setting up financial accounts and financial types](../contributions/accounting-integration.md) is best done in consultation with your organization's bookkeeper or accountant.
+Setting up financial accounts and financial types is best done in consultation with your organization's bookkeeper or accountant.
 
 Be careful when editing core Financial Types or adding new types,
 because CiviCRM has useful built-in functionality that depends on the

@@ -41,7 +41,7 @@ thank-you email and receipt is automatically sent to every donor when a
 payment is successfully processed. All donations are tagged for the
 workshops, so that Arts in Action staff can run reports showing total
 workshop donations and look at individual contact records to see who has
-donated. 
+donated.
 
 Participants register and pay for the workshops via an online form.
 There is a flat fee for registration, with additional fees for optional
@@ -58,7 +58,7 @@ commitment to pay, and this information is included in the registrants
 report that is printed out and used on the day to check participant
 attendance and payment. A computer at the registration desk at the
 workshop is used to manually input cash and cheque payments to the
-participant's contribution record. 
+participant's contribution record.
 
 Because Arts in Action has assessed that the most effective publicity
 for the workshop is by word of mouth and participants bringing friends,
@@ -66,7 +66,7 @@ they also enable participants to forward the registration link to
 friends via the "tell-a-friend" mechanism. After completing the
 registration form, participants can easily forward it via email or
 social networking platforms to their friends and colleagues who may also
-be interested in attending. 
+be interested in attending.
 
 After every workshop, the Arts in Action accountant generates a report
 that shows the total income from each of the three sources for the
