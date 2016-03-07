@@ -32,11 +32,10 @@ be used to set up advanced access rights (on Drupal). Well-defined
 groups are one of the most important tools available when segmenting
 your CiviCRM contact database.
 
-There are two kinds of Groups – **Regular Groups** and **Smart Groups**.
+There are two kinds of Groups – (Regular) **Groups** and **Smart Groups**.
 
--   **Regular Groups** allows you to manually place contacts into a
-    group. For example, you can manually assign your organisation's
-    board members to a Board of Directors regular group. You can then
+-   Regular groups are just called **Groups**.  You manually place contacts into and remove contacts from a (regular) group. For example, you can manually assign your organisation's
+    board members to a Board of Directors group. You can then
     easily send board-related emails to each person who is a member of
     the Board of Directors group without having to search through
     CiviCRM and select each member individually for the mailing.
@@ -149,13 +148,13 @@ cases, whereas groups can only consist of contacts.
 
 The following outlines the pros and cons of groups vs. tags
 
-####Benefits of tags
+#### Benefits of tags
 -   Easy to setup and use
 -   Easy to search by tags (can use either Basic or Advanced Search)
 -   Easy to combine with other properties (like residence
     state/province) to create Smart Groups
 
-####Limitations of tags
+#### Limitations of tags
 
 -   You can not create Tags for use with specific types of contacts
     (i.e. you can't create tags that are ONLY for use with Individual
@@ -169,7 +168,7 @@ The following outlines the pros and cons of groups vs. tags
     Profile create and edit forms (you get ALL Tags ALL THE TIME on edit
     forms)
 
-####Benefits of Groups
+#### Benefits of Groups
 
 -   Groups are the most flexible way of segmenting your contacts for a
     wide variety of purposes.
@@ -184,7 +183,7 @@ The following outlines the pros and cons of groups vs. tags
 -   You can create Smart Groups that combine members of Group A + Group
     B
 
-####Limitations of Groups
+#### Limitations of Groups
 
 -   All existing Groups are listed under Manage Groups and in the search
     forms. This may cause group "overload" if your organization winds up
@@ -313,18 +312,18 @@ regular tags, but they differ from regular tags in a few key ways:
 
 -   they act as a "bucket" to allow you to group tags (i.e. an Issues
     People Care About tag set might contain the tags "affordable
-    housing", "racial justice", or "water quality") 
+    housing", "racial justice", or "water quality")
 -   they allow tags to be created on the fly without you having to
     access the Manage Tags page
 -   adding them creates an additional search field in the Basic Criteria
-    section of the Advanced Search 
+    section of the Advanced Search
 
 Tag sets are created by going to: **Contacts > Manage Tags
 (Categories)**in the navigation menu and clicking the Add Tag Set
 button. Give the tag set a name, a description, and indicate whether the
 tag set will apply to contacts, activities, or cases.
 
-![](../img/Tag%20Set%20-%20Create.png) 
+![](../img/Tag%20Set%20-%20Create.png)
 
 Clicking the Reserved checkbox makes a tag set more permanent - this
 will prevent a tag set from being deleted by someone without
@@ -340,7 +339,7 @@ contacts. For example, if you create a tag set called "Issues Folks Care
 About" an associate it with Contacts, you will see the tag set next time
 you go to the Tags tab of a contact's record.
 
-![](../img/Tag%20Set%20-%20Creating%20tags%20on%20the%20fly.png) 
+![](../img/Tag%20Set%20-%20Creating%20tags%20on%20the%20fly.png)
 
 
 This is an autocomplete field: as you begin to type, CiviCRM looks for
@@ -355,11 +354,11 @@ Tags created within a tag set will automatically appear in the normal
 edited from there. However, tags created within a tag set will only be
 available within that particular tag set.
 
-### A Note About Searching on Tags and Tag Sets 
+### A Note About Searching on Tags and Tag Sets
 
 For each tag set you create, a new field will appear in the Basic
 Criteria section of Advanced Search. You can only search on tags that
-already exist in this tag set. 
+already exist in this tag set.
 
 Searching in the All Tags field will allow you to find records with tags
 (regular or tagset tag) which contain a complete or partial word or
@@ -367,6 +366,4 @@ phrase. EXAMPLE: If you have several tags that contain the word 'Donor',
 you can find contacts tagged with any of them by entering 'Donor' in
 this field.
 
-Read extensively on using Advanced Search in the Searching section. 
-
-
+Read extensively on using Advanced Search in the Searching section.

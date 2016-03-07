@@ -19,7 +19,7 @@ When might I use a smart group?
 Smart groups come in handy in many different situations. Here are a
 couple of examples.
 
-### Smart groups and profiles: a membership directory 
+### Smart groups and profiles: a membership directory
 
 A smart group could be used in conjunction with a profile to display a
 directory of members on your website. To do this, you would create a
@@ -31,7 +31,7 @@ example, when they fill in your membership form and pay online - they
 will automatically be added to the smart group and therefore be
 published in your members directory.
 
-### Smart groups as mailing lists: an events newsletter 
+### Smart groups as mailing lists: an events newsletter
 
 Lets assume that anyone who has registered for or attended an event will
 want to receive our events newsletter. We can create a smart group with
@@ -42,7 +42,7 @@ newsletter. As people register to attend an event - or are marked as
 having attended an event - they will be added automatically to the smart
 group and hence subscribed to the newsletter. Smart groups respect
 people's subscription preferences. If people unsubscribe from the
-newsletter, they will be removed from the smart group. 
+newsletter, they will be removed from the smart group.
 
 Creating smart groups
 ---------------------
@@ -65,9 +65,8 @@ contributions in your CiviCRM installation).
     **financial type** drop-down menu.
 4.  Click **Search** at the bottom of the page.
 5.  Select all records
-6.  From the **Actions** drop-down menu select **New Smart Group**, then
-    click Go.
-7.  Give the smart group a name and click **Save Smart Group**.
+6.  From the **Actions** drop-down menu select **Group - create smart group**.
+7.  Give the smart group a name and description and optionally designate it as a mailing list and give if a parent group. Click **Save Smart Group**.
 
 Your smart group will now appear in all the usual places where you see
 groups.
@@ -105,7 +104,7 @@ that you used to define the smart group. You can then update the
 criteria and once you're happy with the results, select all records and
 choose **Update Smart Group** from the Actions list.
 
-![](../img/Groups&tags_actions%20Update.png) 
+![](../img/Groups&tags_actions%20Update.png)
 
 Your smart group is now based on the new criteria.
 
@@ -120,7 +119,7 @@ This speed things up because CiviCRM doesn't need to run the search each
 time you want to use the smart group. If you query is simple and
 involves a small number of contacts, the speed up may not be
 significant. If it is complex and involves a lot of contacts, it may be
-very significant and even necessary. 
+very significant and even necessary.
 
 The down side of caching is that you need to wait up to 5 minutes for
 the query to be updated. Depending on how you use smart groups this may
@@ -131,5 +130,3 @@ is 5 minutes. You can adjust the smart group query cache 'timeout', i.e.
 the amount of time the cache is considered a valid reflection of the
 smart group in **Administer > Customize Data and Screens > Search
 Preferences**.
-
-
