@@ -1,4 +1,5 @@
 # Viewing the CiviContribute dashboard
+
 The CiviContribute main page or dashboard summarises the contributions made, including lists of contributions received in the current month to date, year to date, and cumulatively since inception (i.e. all contribution records in your CiviCRM installation). This allows you to easily browse contributions that have been recorded automatically or added manually. The dashboard also provides buttons to manage and add contribution pages.
 
 Different layouts are available for viewing summaries. The following screenshot shows the most recent contribution to a campaign using the Table Layout tab:
@@ -25,25 +26,16 @@ The results screen from a search displays the the total amount for the results r
 ![Screen shot batch update from search](../img/contributions-find-editcriteria.png)
 
 You can select an action to perform from the - actions - menu once you select all or a subset of records. The "actions" menu allows you to:
-- **Batch Update Contributions Via Profile**: this is useful if you
+- **Update multiple contributions**: This is useful if you want to update a large number of contributions' thank-you date at once, for example. You need to [create the profile](../organising-your-data/profiles) you want to use *before* you perform the search and batch update.
 
-  want to update a large number of contributions' thank-you date at
+- **Delete contributions**: This removes contributions entirely from the system, as if they had never been entered in the first place. Editing contributions and updating their status to canceled provides a better audit trail, but there may be situations where you do want to delete, such as a contribution entered on the wrong contact's record.
+- **Export contributions**: NOTE: This is an export of contibutions.  If you choose to export multiple contributions from the same contact you will end up with one row for each contribution in your export file. If you want to do searches that return one result per contact, use the contact advanced search.
 
-  once, for example. You need to create the profile you want to
 
-  use_before_ you perform the search and batch update (see the the
+- **Receipts - Print or Email Contribution **: This allows you to create a PDF file of all the receipts in the search, or email the receipts to the associated donors. See "Sending thank you letters" below for more information.
 
-  chapter Profiles in the Configuration section for more information
+- **Email - send now**: Send an email to all or selected contacts found in the search.
 
-  about creating profiles).
+- **Thank-you letters - print or email**: Create a custom PDF letter for each of the contributions selected, with the option to update the receipt or thank you date for each.
 
-- **Delete Contributions**: this removes contributions entirely from the system, as if they had never been entered in the first place. Editing contributions and updating their status to canceled provides a better audit trail, but there may be situations where you do want to delete, such as a contribution entered on the wrong contact's record.
-- **Export Contributions**: because this search is contribution-centric, it does not recognise if contributions come from the same contact. Therefore, if one contact has multiple contributions that fit the search criteria, that contact will appear as multiple rows when you export your spreadsheet. If you want to do searches that return one result per contact, use the contact advanced search.
-
-- **Print or Email Contribution Receipts**: this allows you to create a PDF file of all the receipts in the search, or email the receipts to the associated donors. See "Sending thank you letters" below for more information.
-
-- **Send Email to Contacts**: send an email to all or selected contacts found in the search.
-
-- **Send Thank-you Letters for Contributions**: create a custom PDF letter for each of the contributions selected, with the option to update the receipt or thank you date for each.
-
-- **Update Pending Contribution Status**: update the contribution status of all or selected contacts who have contributed online. This action only works with online contributions, and the same contribution status will be applied to all the contributions selected for updating.
+- **Update pending contribution status**: This allows you to record payments details and to update the contribution status for all or selected online "pay later" contributions. This action only works for contributions with the status of Pending (Pay Later) and the same contribution status will be applied to all the contributions selected for updating.

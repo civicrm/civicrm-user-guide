@@ -1,3 +1,4 @@
+
 Exporting Your Contacts
 =======================
 
@@ -26,17 +27,16 @@ Here's how you can export contact information:
 1.  Search for contacts. Carry out a search based on your desired
     criteria using one of the available search tools, e.g. Quick search,
     Find Contacts, Advanced search, Search Builder, or a custom search
-    (you can find out more about performing searches in the Searching
-    chapter earlier in this section).
+    (You can find out more about performing searches in [Searching](../the-user-interface/searching).
 2.  Select contacts you wish to export. Select all records, or choose
     individual records for export using the check-boxes to the left of
     each record.
 3.  From the **- actions -** dropdown menu, choose **Export Contacts**
     as shown in the following figure.
-4.  Click **Go**. This takes you to the export wizard. 
-     
+4.  Click **Go**. This takes you to the export wizard.
+
     ![ExportFromSearch](../img/CiviCRM_update-CiviCore-ExportFromSearch-en.png "ExportFromSearch")
-    
+
 5.  **Export primary (default) or selected fields**. Choose between
     exporting the primary fields or selecting your own set of fields for
     export. The primary fields include all core contact fields with
@@ -51,17 +51,16 @@ Here's how you can export contact information:
     CiviCRM allows you to save this export mapping, which enables you to
     reuse the export field mapping at a later time. To save your
     selection of fields, click **Save this field mapping** at the bottom
-    of the form and enter a descriptive name for this type of export. 
-     
+    of the form and enter a descriptive name for this type of export.
+
     ![ExportSelectFlds](../img/CiviCRM_update-CiviCore-ExportSelectFlds-en.png "ExportSelectFlds")
-    
+
     ****
 8.  **Click Export to create your CSV file**. By default, a comma is
     used as the field separator for import and export functions. In some
     locales, other characters are used (e.g. a semi-colon). You can
     change the separator value by going to **Administer > Configure >
     Global Settings > Localization** and modifying the Import/Export
-    Field Separator. 
-     
-    ![s2](../img/CiviCRM-Export-resized_600x225_s2-en.jpg "s2") 
+    Field Separator.
 
+    ![s2](../img/CiviCRM-Export-resized_600x225_s2-en.jpg "s2")
