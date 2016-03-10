@@ -38,7 +38,7 @@ Here's how you can export contact information:
     ![ExportFromSearch](../img/CiviCRM_update-CiviCore-ExportFromSearch-en.png "ExportFromSearch")
 
 4.  **Export all or selected fields**.
- -  Choose between
+-  Choose between
     exporting the primary fields or selecting your own set of fields for
     export.  
     ![ContactExportOptions](../img/contact-export-options.png)
@@ -47,19 +47,19 @@ Here's how you can export contact information:
 
   -  If the export is to be used for mailing labels you can choose to export one record per household or one per address. If you choose to export one per address then you can specify the format for Addressee and for the postal greeting.
 
-  -  You can choose to exclude contacts with "do not mail" privacy, no street address, or who are deceased.
+-  You can choose to exclude contacts with "do not mail" privacy, no street address, or who are deceased.
 
-  -  You can add contacts from a(n additional) group to the export.
+-  You can add contacts from a(n additional) group to the export.
 
 5.  When you click **Continue**, if you elected to export the primary fields the export happens immediately, so skip to step 7. If you want to select your own fields or are using an saved field mapping click **Continue** and then go to step 6.
 
 6.  **Select Fields to Export**
 ![ContactExportFieldSelection](../img/contact-export-field-selection.png)  
 
- -  If you have chosen to use a saved export mapping, the fields in that mapping will be displayed.  You can use the mapping as is or modify it.  If you modify it you can update the existing field mapping or save the changes as a new field mapping.
+-  If you have chosen to use a saved export mapping, the fields in that mapping will be displayed.  You can use the mapping as is or modify it.  If you modify it you can update the existing field mapping or save the changes as a new field mapping.
 
- -  If this is new mapping choose the fields you want, then decide if you want to **Save this field mapping** to use again later.
- -  When the export fields and other options are correct, click on **Export**.
+-  If this is new mapping choose the fields you want, then decide if you want to **Save this field mapping** to use again later.
+-  When the export fields and other options are correct, click on **Export**.
 
 7.  The file is exported in .CSV format. By default a comma is
     used as the field separator for import and export functions. If required, you can
