@@ -57,7 +57,7 @@ Here's how you can export contact information:
 
 6.  **Select Fields to Export**
 
-   ![ContactExportFieldSelection](../img/contact-export-field-selection.PNG "ContactExportFieldSelection")
+    ![ContactExportFieldSelection](../img/contact-export-field-selection.PNG "ContactExportFieldSelection")  
 
     -  If you have chosen to use a saved export mapping, the fields in that mapping will be displayed.  You can use the mapping as is or modify it.  If you modify it you can update the existing field mapping or save the changes as a new field mapping.
 
