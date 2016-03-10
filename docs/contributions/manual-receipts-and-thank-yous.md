@@ -26,7 +26,7 @@ to post out to contributors.
 By default the emailing or creating PDF receipts will update the receipt
 date for each contribution, but you can keep the existing receipt dates
 if you need to. You can also choose to disregard the **Do not email/Do
-not mai**l settings so that all selected contributors are sent a receipt
+not mail** settings so that all selected contributors are sent a receipt
 
 To find out how you can change the format of receipts, see the chapter
 *Contributions > Set-Up.*

@@ -28,39 +28,39 @@ Here's how you can export contact information:
     criteria using one of the available search tools, e.g. Quick search,
     Find Contacts, Advanced search, Search Builder, or a custom search
     (You can find out more about performing searches in [Searching](../the-user-interface/searching).
+
 2.  Select contacts you wish to export. Select all records, or choose
     individual records for export using the check-boxes to the left of
     each record.
 3.  From the **- actions -** dropdown menu, choose **Export Contacts**
-    as shown in the following figure.
-4.  Click **Go**. This takes you to the export wizard.
+    as shown in the following figure. This takes you to the export wizard.
 
     ![ExportFromSearch](../img/CiviCRM_update-CiviCore-ExportFromSearch-en.png "ExportFromSearch")
 
-5.  **Export primary (default) or selected fields**. Choose between
+4.  **Export all or selected fields**.
+ -  Choose between
     exporting the primary fields or selecting your own set of fields for
-    export. The primary fields include all core contact fields with
-    email, phone, and address data.
-6.  If this is satisfactory, click **Continue** and skip step 7 of this
-    list. If you want to add or remove fields to be exported, choose
-    **Select fields for export** and continue with step 7. The default
-    export uses primary location data, so if you wish to export
-    non-primary addresses you need to select fields for export and
-    explicitly specify the address type
-7.  **Select Fields to Export Choose the fields you want to export.**
-    CiviCRM allows you to save this export mapping, which enables you to
-    reuse the export field mapping at a later time. To save your
-    selection of fields, click **Save this field mapping** at the bottom
-    of the form and enter a descriptive name for this type of export.
+    export.  
+    ![ContactExportOptions](../img/contact-export-options.png)
 
-    ![ExportSelectFlds](../img/CiviCRM_update-CiviCore-ExportSelectFlds-en.png "ExportSelectFlds")
+     There are 80 fields in a primary fields export (core contact fields with primary email, phone, and address data). Often it is best to specifically select which fields to export as this lets you include non-primary email, phone and address data, custom contact fields and data from related contacts. You can also choose to use a previously saved export mapping (if you have any).
 
-    ****
-8.  **Click Export to create your CSV file**. By default, a comma is
-    used as the field separator for import and export functions. In some
-    locales, other characters are used (e.g. a semi-colon). You can
-    change the separator value by going to **Administer > Configure >
-    Global Settings > Localization** and modifying the Import/Export
-    Field Separator.
+  -  If the export is to be used for mailing labels you can choose to export one record per household or one per address. If you choose to export one per address then you can specify the format for Addressee and for the postal greeting.
 
-    ![s2](../img/CiviCRM-Export-resized_600x225_s2-en.jpg "s2")
+  -  You can choose to exclude contacts with "do not mail" privacy, no street address, or who are deceased.
+
+  -  You can add contacts from a(n additional) group to the export.
+
+5.  When you click **Continue**, if you elected to export the primary fields the export happens immediately, so skip to step 7. If you want to select your own fields or are using an saved field mapping click **Continue** and then go to step 6.
+
+6.  **Select Fields to Export**
+![ContactExportFieldSelection](../img/contact-export-field-selection.png)  
+
+ -  If you have chosen to use a saved export mapping, the fields in that mapping will be displayed.  You can use the mapping as is or modify it.  If you modify it you can update the existing field mapping or save the changes as a new field mapping.
+
+ -  If this is new mapping choose the fields you want, then decide if you want to **Save this field mapping** to use again later.
+ -  When the export fields and other options are correct, click on **Export**.
+
+7.  The file is exported in .CSV format. By default a comma is
+    used as the field separator for import and export functions. If required, you can
+    change the separator value by going to **Administer > Localization > Languages, Currency, Locations** and selecting the appropriate **Import/Export Field Separator**.
