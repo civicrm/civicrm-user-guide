@@ -39,31 +39,31 @@ Here's how you can export contact information:
 
 4.  **Export all or selected fields**.
 
--  Choose between
+  -  Choose between
     exporting the primary fields or selecting your own set of fields for
     export. 
 
-    ![ContactExportOptions](../img/contact-export-options.png)
+    ![ContactExportOptions](../img/contact-export-options.png "ContactExportOptions")
 
-     There are 80 fields in a primary fields export (core contact fields with primary email, phone, and address data). Often it is best to specifically select which fields to export as this lets you include non-primary email, phone and address data, custom contact fields and data from related contacts. You can also choose to use a previously saved export mapping (if you have any).
+    There are 80 fields in a primary fields export (core contact fields with primary email, phone, and address data). Often it is best to specifically select which fields to export as this lets you include non-primary email, phone and address data, custom contact fields and data from related contacts. You can also choose to use a previously saved export mapping (if you have any).
 
--  If the export is to be used for mailing labels you can choose to export one record per household or one per address. If you choose to export one per address then you can specify the format for Addressee and for the postal greeting.
+  -  If the export is to be used for mailing labels you can choose to export one record per household or one per address. If you choose to export one per address then you can specify the format for Addressee and for the postal greeting.
 
--  You can choose to exclude contacts with "do not mail" privacy, no street address, or who are deceased.
+  -  You can choose to exclude contacts with "do not mail" privacy, no street address, or who are deceased.
 
--  You can add contacts from a(n additional) group to the export.
+  -  You can add contacts from a(n additional) group to the export.
 
 5.  When you click **Continue**, if you elected to export the primary fields the export happens immediately, so skip to step 7. If you want to select your own fields or are using an saved field mapping click **Continue** and then go to step 6.
 
 6.  **Select Fields to Export**
 
-  ![ContactExportFieldSelection](../img/contact-export-field-selection.png)  
+   ![ContactExportFieldSelection](../img/contact-export-field-selection.png "ContactExportFieldSelection")  
 
--  If you have chosen to use a saved export mapping, the fields in that mapping will be displayed.  You can use the mapping as is or modify it.  If you modify it you can update the existing field mapping or save the changes as a new field mapping.
+  -  If you have chosen to use a saved export mapping, the fields in that mapping will be displayed.  You can use the mapping as is or modify it.  If you modify it you can update the existing field mapping or save the changes as a new field mapping.
 
--  If this is new mapping choose the fields you want, then decide if you want to **Save this field mapping** to use again later.
+  -  If this is new mapping choose the fields you want, then decide if you want to **Save this field mapping** to use again later.
 
--  When the export fields and other options are correct, click on **Export**.
+  -  When the export fields and other options are correct, click on **Export**.
 
 7.  The file is exported in .CSV format. By default a comma is
     used as the field separator for import and export functions. If required, you can
