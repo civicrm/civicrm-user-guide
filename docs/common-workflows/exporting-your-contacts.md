@@ -43,7 +43,7 @@ Here's how you can export contact information:
     exporting the primary fields or selecting your own set of fields for
     export. 
 
-    ![ContactExportOptions](../img/contact-export-options.png "ContactExportOptions")
+    ![ContactExportOptions](../img/contact-export-options.PNG "ContactExportOptions")
 
     There are 80 fields in a primary fields export (core contact fields with primary email, phone, and address data). Often it is best to specifically select which fields to export as this lets you include non-primary email, phone and address data, custom contact fields and data from related contacts. You can also choose to use a previously saved export mapping (if you have any).  
 
@@ -57,7 +57,7 @@ Here's how you can export contact information:
 
 6.  **Select Fields to Export**
 
-   ![ContactExportFieldSelection](../img/contact-export-field-selection.png "ContactExportFieldSelection")  
+   ![ContactExportFieldSelection](../img/contact-export-field-selection.PNG "ContactExportFieldSelection")
 
     -  If you have chosen to use a saved export mapping, the fields in that mapping will be displayed.  You can use the mapping as is or modify it.  If you modify it you can update the existing field mapping or save the changes as a new field mapping.
 
