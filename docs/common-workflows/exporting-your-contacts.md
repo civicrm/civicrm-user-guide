@@ -37,7 +37,7 @@ Here's how you can export contact information:
 
     ![ExportFromSearch](../img/CiviCRM_update-CiviCore-ExportFromSearch-en.png "ExportFromSearch")
 
-4.  **Export all or selected fields**.
+4.  **Export all or selected fields**.  
 
   -  Choose between
     exporting the primary fields or selecting your own set of fields for
@@ -45,7 +45,7 @@ Here's how you can export contact information:
 
     ![ContactExportOptions](../img/contact-export-options.png "ContactExportOptions")
 
-    There are 80 fields in a primary fields export (core contact fields with primary email, phone, and address data). Often it is best to specifically select which fields to export as this lets you include non-primary email, phone and address data, custom contact fields and data from related contacts. You can also choose to use a previously saved export mapping (if you have any).
+    There are 80 fields in a primary fields export (core contact fields with primary email, phone, and address data). Often it is best to specifically select which fields to export as this lets you include non-primary email, phone and address data, custom contact fields and data from related contacts. You can also choose to use a previously saved export mapping (if you have any).  
 
   -  If the export is to be used for mailing labels you can choose to export one record per household or one per address. If you choose to export one per address then you can specify the format for Addressee and for the postal greeting.
 
