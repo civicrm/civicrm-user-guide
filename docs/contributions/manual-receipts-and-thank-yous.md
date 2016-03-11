@@ -13,10 +13,9 @@ click **Save**).
 
 You can send receipts to multiple contacts at the same time through the
 contributions search. Simply run a search, as above, and after selecting
-the contacts you wish to send a receipt to, choose **Print or Email
-Contribution Receipts** from the actions drop-down menu.
+the contacts you wish to send a receipt to, choose **Receipts - print or email** from the actions drop-down menu.
 
-![](../img/CiviCRM_contributions_sendreceipts.png)
+![ContributionReceiptsManual](../img/civicontribute-receipts-manual.PNG)
 
 You will be given the option to  email the receipts or make PDF receipts
 to post out to contributors.
@@ -46,18 +45,18 @@ contributions (rather than contacts). The steps involved are:
     Results As** set to **Contributions** for your search.
 2.  Select the contributions for which you want thank-you letters or
     combined receipts.
-3.  Choose the action **Thank-you Letters for Contributions.** The
+3.  Choose the action **Thank-you letters - print or email**. The
     following will be displayed:
-    ![](../img/Thank-you%20letters%20with%20text.PNG)
+    ![ContributionThankyouLettersNogrouping](../img/civicontribute-thank-you-letters-no-grouping.PNG)
 4.  Choose to **Update thank-you dates for these contributions** or
     **Update receipt dates for these contributions** as required. The
     current date will be entered into the appropriate field.**
     **
 5.  There are three self-explanatory **Print and Email Options**:
     -   Generate PDFs for printing (only)
-    -   Send emails where possible, generate printable PDFs for contacts
+    -   Send emails where possible. Generate printable PDFs for contacts
         who cannot receive emails
-    -   Send emails where possible, generate printable PDFs for all
+    -   Send emails where possible. Generate printable PDFs for all
         contacts.
 
 6.  Some people may have made more than one contribution. If you want
@@ -68,14 +67,10 @@ contributions (rather than contacts). The steps involved are:
     five "group by" " options.
 7.  **Separator (grouped contributions)** only applies if you have
     chosen something other than **- no grouping -** for the
-    contributions. These options will be discussed below in *Formatting
-    for grouped contribution thank-you letters*.
+    contributions. These options will be discussed below in *Grouped contribution thank-you letters*.
 8.  Make sure to check the **Page Format** settings.
 9.  You can use an existing template, create a new letter for one-off
-    use, or create a new letter and save it as a new template. See
-    *Tokens and mail merge* and *Postal mail communications* in the
-    *Common Workflows* section for more information on creating
-    letter templates.
+    use, or create a new letter and save it as a new template. [Tokens and mail merge](.../common-workflows/tokens-and-mail-merge) and [Postal mail communications](.../common-workflows/postal-mail-communications) provide more information on creating letter templates.
 10. When you click on **Make Thank-you Letters** the letters will be
     generated and a "Print PDF letter" activity will be created for each
     letter with the **Activity Subject** you have specified.
