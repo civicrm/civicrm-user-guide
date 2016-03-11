@@ -118,7 +118,7 @@ Adding contacts to households
 6.  After you've successfully chosen a household and clicked the **Add to
     Household** button, you should see a message stating that the number
     of participants that you selected have been added to the household.
-7.  Click **Done** to return to your search results. 
+7.  Click **Done** to return to your search results.
 
 Creating new relationship types
 -------------------------------
@@ -127,46 +127,46 @@ CiviCRM comes with a set of common relationship types that can be
     used to indicate relationships between contacts. If you need to
     track different types of relationships between your contacts, you
     can create your own custom relationship types.
-1.  In the navigation menu, go to: Administer > Customize Data and
-    Screens > Relationship Types.
-3.  Review the list of existing relationship types to ensure that you
+
+1.  In the navigation menu, go to: **Administer > Customize Data and
+    Screens > Relationship Types**.
+2.  Review the list of existing relationship types to ensure that you
     are not creating a duplicate.
-4.  If the relationship type you need does not already exist, click the
-    New Relationship Type button.
-5.  Enter descriptive labels for the relationship type you are creating
-    in the "Relationship Label-A to B" and "Relationship Label-B to A"
-    fields. The "Relationship Label-A to B" field describes the
-    relationship between Contact A and Contact B; the "Relationship
-    Label-B to A" field describes the relationship between Contact B and
-    Contact A. You will designate which contact types are used for
-    Contact A and Contact B respectively in step 5.
-6.  Some relationships can be described by the same label in both
+3.  If the relationship type you need does not already exist, click the
+    **New Relationship Type** button.
+4.  Enter descriptive labels for the relationship type you are creating
+    in the **Relationship Label-A to B** and **Relationship Label-B to A**
+    fields. The **Relationship Label-A to B** field describes the
+    relationship between Contact A and Contact B; the **Relationship
+    Label-B to A** field describes the relationship between Contact B and
+    Contact A.  
+      -  Some relationships can be described by the same label in both
     directions; in these cases you can enter the Relationship Label once
-    in the "Relationship Label-A to B" field. For example, when
+    in the **Relationship Label-A to B** field. For example, when
     describing the relationship between two domestic partners named
     Sylvia and Audre, you can say that Sylvia is the "Partner of" Audre
     and Audre is the "Partner of" Sylvia. Therefore you would enter the
-    "Partner of" label only in "Relationship Label-A to B" field,
-    leaving the "Relationship Label-B to A" field blank.
-7.  In other situations one Relationship Label cannot be applied in both
+    "Partner of" label only in **Relationship Label-A to B** field,
+    leaving the **Relationship Label-B to A** field blank.
+      -  In other situations one Relationship Label cannot be applied in both
     directions; in these cases you need to enter different Relationship
     Labels in each of the Relationship Label fields. For example, you
     can say that Kiyoshi is the "Grandparent of" Yuki but you cannot say
     that Yuki is the "Grandparent of" Kiyoshi. Therefore you would enter
-    the "Grandparent of" label in the "Relationship Label-A to B" field
-    and either "Grandchild of" or "Grandparent is" in the "Relationship
-    Label-B to A" field.
-8.  Use the Contact Type A and Contact Type B fields to designate which
-    kind of contacts are being linked by your relationship. Remember to
+    the "Grandparent of" label in the **Relationship Label-A to B** field
+    and either "Grandchild of" or "Grandparent is" in the **Relationship
+    Label-B to A** field.
+7.  Use the **Contact Type A** and **Contact Type B** fields to designate which
+    contact types are being linked by your relationship. Remember to
     check that the contact types you select for Contact A and Contact B
     make sense when corresponded to your Relationship Labels.
-9.  Optionally enter a description for this relationship type. This is
+8.  Optionally enter **Description** for this relationship type. This is
     especially useful if the intended purpose of this relationship type
     may not be obvious to other users.
-10. Leave the Enabled box checked unless you intend to create this
+9.  Leave the **Enabled** box checked unless you intend to create this
     relationship type but not allow users to utilise it until a future
     date.
-11. Click Save. You will see a message telling you that the relationship
+10. Click **Save**. You will see a message telling you that the relationship
     type has been saved and you will see your new Relationship Type in
     the list below.
 
@@ -182,17 +182,17 @@ still be able to see existing data on relationships of this type, and
 you can easily enable the relationship type again should you find you
 need it later.
 
-1.  In the navigation menu, go to: Administer > Option Lists >
-    Relationship Types.
-2.  Click the "more" link in the row of the relationship type that you'd
+1.  In the navigation menu, go to: **Administer > Option Lists >
+    Relationship Types**.
+2.  Click the **More** link in the row of the relationship type that you'd
     like to disable or delete.
-3.  Select either Disable or Delete from the pop-up menu.
+3.  Select either **Disable** or **Delete** from the pop-up menu.
 4.  If you select Disable, a pop-up confirmation bubble will appear. If
     you select Delete, you will be directed to an additional screen that
     provides a more serious warning and requests confirmation. Review
     the information provided in either confirmation message and if you
-    are sure you'd like to complete this action, click the OK or Delete
-    button.
+    are sure you'd like to complete this action, click the **Delete**
+    button otherwise **Cancel**.
 5.  If you have chosen to disable the relationship type it will appear
     in red in the Relationship Types list and relationships of this type
     will still be visible when viewing contacts. If you have chosen to
@@ -201,4 +201,4 @@ need it later.
     case users will no longer be able to create new relationships of
     this type.
 6.  To enable a previously disabled relationship type, follow steps 1
-    and 2 above and select Enable from the "more" pop-up menu.
+    and 2 above and select **Enable** from the **more** pop-up menu.
