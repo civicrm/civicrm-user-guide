@@ -13,7 +13,7 @@ You can add any core and custom fields to a profile, including
 multi-value custom fields. There are also a couple of other special
 fields you can add to profiles, namely, Groups, which will include all
 set of checkboxes - one for each of your public groups, and tags, which
-includes all public tags. 
+includes all public tags.
 
 By creating a Profile, you are able to pick and choose only those fields
 that are relevant for a specific purpose. The diagram below provides a
@@ -30,7 +30,7 @@ Different uses for Profiles
 
 This section briefly discusses many different ways that Profiles can be
 used. You can find step-by-step instructions for creating and using
-Profiles later in this chapter. 
+Profiles later in this chapter.
 
 ### Collecting information on public pages
 
@@ -39,7 +39,7 @@ Profiles can be displayed on standalone pages, or embedded into
 contribution, membership sign-up, and/or event registration pages. You
 can add more than one Profile to a page. You can also choose required
 fields and add text in the Profile that will help users fill out the
-form. 
+form.
 
 Some examples:
 
@@ -53,7 +53,7 @@ Some examples:
 For example, this profile is being used to collect address information
 on a donation page.
 
-![](../img/baykeeper-profile.png) 
+![](../img/baykeeper-profile.png)
 
 ### Displaying information on public pages
 
@@ -85,7 +85,7 @@ Profile forms may also be used as simplified data entry forms. If you
 have volunteers or interns who perform manual data entry for your
 organisation, you can make their task easier by creating a profile form
 that shows only the fields they need to input. This greatly simplifies
-data entry and reduces the chance of data being entered incorrectly. 
+data entry and reduces the chance of data being entered incorrectly.
 
 You can also use a Profile to display selected fields in the results of
 an advanced search. For instance, you could create a Profile that
@@ -94,19 +94,17 @@ interests; when used to display search results, it would provide an
 on-screen call list for your volunteer coordinator.
 
 Details on using Profiles this way are available in the *Customizing the
-User Interface* chapter in *Initial Set-up*. 
+User Interface* chapter in *Initial Set-up*.
 
-### Updating information in batches
+### Updating multiple records at the same time
 
 There is often a need to update a large number of records all at once.
 For example, after an event, you may have an attendance list, and you
 want to mark everyone who registered as Attended or No-show accordingly.
 Or, you may want to update the Thank-You Sent field for a week's worth
-of donations all at once. 
+of donations all at once.
 
-CiviCRM has a function called **Batch Update via Profile**, which is
-available from the **-actions-**dropdown menu for most kinds of search
-results (Search, Advanced Search, Find Contributions, Find Memberships,
+An action that allows you to update multiple records at the same time is available from the  **Actions** dropdown menu for most kinds of search results. (Search, Advanced Search, Find Contributions, Find Memberships,
 Find Participants, and Find Activities) and from the event participant
 lists generated from the Manage Events screen.
 
@@ -115,7 +113,7 @@ results containing the fields in your profile and allows you to change
 the contents of the fields on a single screen and save them all at once.
 Details on using profiles this way are included later in this chapter.
 
-### Managing email lists 
+### Managing email lists
 
 Another use of Profiles is to present a form where people can sign up to
 receive emails from your organisation. Groups that you use to track
@@ -124,7 +122,7 @@ your website submit the form, they are automatically added to the email
 lists they have checked.
 
 Details about using Profiles to manage email lists are found in the
-*Set-up* chapter of the *Email* section of this book. 
+*Set-up* chapter of the *Email* section of this book.
 
 Planning your Profiles
 ----------------------
@@ -140,7 +138,7 @@ profile. Because of this complexity, it's important to understand the
 consequences of certain settings and carefully plan what you will use
 your profile for, and what you need in it, before you create it. You may
 also need to use some trial and error before you hit on the right
-solution for your purpose. 
+solution for your purpose.
 
 Here are some guidelines on which fields can be added to a Profile:
 
@@ -152,10 +150,10 @@ Here are some guidelines on which fields can be added to a Profile:
 -   To add fields (like Street Address or Email) that apply to more than
     one Contact type, choose fields from Contacts rather than the
     specific type. The Organization field menu, for example, contains
-    only those fields that do not also apply to other Contact types. 
+    only those fields that do not also apply to other Contact types.
 -   Except in Search Results Profiles, you can combine Contact fields
     with fields from one—and only one—of the other record types:
-    Activity, Participants, Contributions, and Membership. 
+    Activity, Participants, Contributions, and Membership.
 -   If you try to combine fields with an unsupported combination of
     record types, you'll get an error when you try to save the field.
 
@@ -189,7 +187,7 @@ not apply to your intended use.
     Profiles are presented when more than one Profile is included in a
     page. Lower numbers are displayed ahead of higher numbers. The field
     is filled in automatically when a Profile in created; change the
-    number if you wish. 
+    number if you wish.
 5.  **Pre-form Help** and **Post-form Help**: These fields allow you to
     write text that appears either before or after your Profile to guide
     people in filling out forms.
@@ -198,7 +196,7 @@ not apply to your intended use.
     for insertion into forms and use by the Batch Update function. When
     creating Profiles, you obviously want to leave it checked; later on,
     if you want to take a Profile out of use in your organization, you
-    can edit the Profile and un-check the box. 
+    can edit the Profile and un-check the box.
 
 ### Advanced settings
 
@@ -233,9 +231,9 @@ to search your data, as in a membership directory).
 
 Any *new* contacts that fill out this Profile will be added to the
 Group. You can use this, for example, to add anyone who fills out your
-volunteer sign-up form to a Volunteers Group. 
+volunteer sign-up form to a Volunteers Group.
 Note that by default contacts will not receive any confirmation that they have been added to this group or
-be asked to validate their email address. 
+be asked to validate their email address.
 To have contacts who complete the profile form receive an email, go to **Administer >> CiviMail >> CiviMail Component Settings** and check the checkbox **"Enable Double Opt-in for Profiles which use the "Add to Group" setting"**. They must respond (opt-in) before they are added to the group.
 
 ![Screen shot of dobule opt-in setting](../img/organizing-data-double-opt-in.png)
@@ -291,7 +289,7 @@ user account as part of becoming a member or registering for an event.
 
 Like Drupal, Wordpress allows CiviCRM Profiles to create accounts as
 described above. Within WordPress **Settings > General** "Membership [
-] Anyone can register" must be clicked. 
+] Anyone can register" must be clicked.
 
 #### **What to do upon duplicate match**
 
@@ -365,7 +363,7 @@ Adding fields and choosing field settings in Profiles
 
 This section walks you through all the field settings and explains how
 they affect how your Profiles work. As with the overall Profile
-settings, not all of them are necessary to consider for each use. 
+settings, not all of them are necessary to consider for each use.
 
 1.  Click **Add Field**.
 2.  **Field Name**: Choose the record type where your desired field
@@ -382,7 +380,7 @@ settings, not all of them are necessary to consider for each use.
     Profile is used. This is most useful when you want to make sure that
     certain information (e.g., First Name, Last Name, Email) is always
     included in a form submission. (This is not relevant to Search Views
-    usages [known as Search Results in 4.1 and previous].) 
+    usages [known as Search Results in 4.1 and previous].)
 5.  **View Only?**: Check this box to allow users to view but not edit
     this field. If your Profile is used to expose search results, fields
     marked View Only will not be included. This setting is not relevant
@@ -395,13 +393,13 @@ settings, not all of them are necessary to consider for each use.
     can't view any data from the database. To use fields for Search
     Views, you must set Visibility to Public Pages or Public Pages and
     Listings. Choosing either of the Public Page options pops up two
-    additional settings: 
+    additional settings:
     -   **Searchable?**: This applies only to searchable directory uses.
         Check the box if you want to include the field in the search
-        form. 
+        form.
     -   **Results Column?**: This applies only to Search Views (known as
         Search Results in 4.1 and previous). Check it or the field will
-        not appear in your Search View. 
+        not appear in your Search View.
 
 7.  **Field Pre Help** and **Field Post Help**: These fields allow you
     to write text that appears in the user interface to guide people in
@@ -414,7 +412,7 @@ settings, not all of them are necessary to consider for each use.
 9.  **Active?**: Leave this box checks to ensure that the field appears
     when the Profile is used.
 10. Click **Save and New** to add more fields to the Profile, or
-    **Save** if you have no more fields to add. 
+    **Save** if you have no more fields to add.
 
 ### Managing Profiles
 
@@ -422,13 +420,13 @@ All your profiles are available for viewing and editing at **Administer > Custom
 field settings (at the **Fields** link) and change Profile settings (at
 **Settings**). You can also look at how your Profiles will appear, get
 links and embed code for your Profiles, and copy Profiles to use as a
-basis for building other Profiles (at **more**). 
+basis for building other Profiles (at **more**).
 
 Using Profiles
 --------------
 
 This section contains specific instructions for the different profile
-uses discussed above. 
+uses discussed above.
 
 ### Standalone forms with Profiles
 
@@ -471,17 +469,17 @@ custom fields via profiles. In the screen shot below, we have created a
 profile that is used to collect name and work experience data. Notice
 that the multi-value custom data appears slightly differently in the
 profile to facilitate adding, editing and deleting multiple instances of
-these records. 
+these records.
 
 ![](../img/multi-value-profile.png)
 
-### Making directories with Profiles 
+### Making directories with Profiles
 
-To put a directory onto your website: 
+To put a directory onto your website:
 
 1.  Create your Profile as described above. Be sure to consider these
     Advanced Settings, as they are especially helpful when using
-    profiles for directories. 
+    profiles for directories.
 
  -   **Enable mapping**: a really cool feature available in CiviCRM is
      giving visitors the ability to map contacts in your directory
@@ -499,8 +497,8 @@ To put a directory onto your website:
      if you want to include a link in the directory listings to view a
      contacts' Drupal user account information (e.g. their My Account
      page). This link will only be included for contacts who have a
-     user account on your website. 
-      
+     user account on your website.
+
     ![profile_adv_settings](../img/CiviCRM-CapturingExposing-buildprofile-profile_adv_settings-en.jpg "profile_adv_settings")
 
 Now it's time to include the fields that will make up the directory. For
@@ -578,7 +576,7 @@ You have several options to link to your directory:
     options are described here:
     [http://wiki.civicrm.org/confluence/display/CRMDOC/Linking+Profiles](http://wiki.civicrm.org/confluence/display/CRMDOC/Linking+Profiles)
 
-### Batch update via Profiles 
+### Batch update via Profiles
 
 The final way that profiles can be used is to perform batch updates of
 data. For example, you have a custom field called "volunteer interests"
@@ -591,7 +589,7 @@ From the search results, go to the dropdown menu **-more actions-** .
 
 Select **Batch Update via Profile** from the list.
 
-You will go to the Batch Profile Update screen. 
+You will go to the Batch Profile Update screen.
 
 ![](http://wiki.civicrm.org/confluence/download/attachments/47710656/BatchUpdate.jpg?version=1&modificationDate=1181391872000)
 
@@ -611,14 +609,14 @@ copied into all the records displayed.
 
 Click **Update Contacts** to save all your changes or **Cancel** to
 cancel the changes.
- 
+
 **Batch update limitations**
 
 -   You cannot perform batch updates for different types of contacts
     (individuals and organisations, for example) at the same time.
 -   If you wish to update participant fields, you must do the update
     from a Find Participants search (and only include participant fields
-    in your profile). 
+    in your profile).
 -   You may perform a batch update for no more than 100 records at a
     time.
 
@@ -631,8 +629,8 @@ encourage (or force) them to sign up for a user account.
 
 To include a profile form during the user registration process:
 
-1.  Create a profile that is used for User Registration: 
-     
+1.  Create a profile that is used for User Registration:
+
     ![addprofile_usedfor_reg](../img/CiviCRM-CapturingExposing-buildprofile-addprofile_usedfor_reg-en.jpg "addprofile_usedfor_reg")
 2.  Add the fields you want people to fill out as they register, using
     the same process described above. Make sure the field visibility is
@@ -732,4 +730,3 @@ could use the API to flexibly display data on your website. See the
 *Developer Documentation wiki*
 [(http://wiki.civicrm.org/confluence/display/CRMDOC/Develop](http://wiki.civicrm.org/confluence/display/CRMDOC/Develop))
 for an introduction to using the API.
-

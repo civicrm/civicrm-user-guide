@@ -70,56 +70,55 @@ Adding contacts to organisations
 
 1.  Select the desired contacts from your search results as described
     above.
-2.  Select Add Contacts to Organization from the dropdown " - more
-    actions - " menu, then click Go.
-3.  On the Add Contacts to Organization screen, select the Relationship
-    Type from the dropdown menu.
-4.  Enter part of the desired organisation name in the Find Target
-    Organization field, then click Search.
-5.  Organisations that match your search will appear in the "Mark Target
-    Contact(s) for this Relationship" section below the Search and
+2.  Select **Add relationship - to organization from the dropdown** from the Actions menu.
+3.  On the **Add Contacts to Organization** screen, select the **Relationship
+    Type** from the dropdown menu.
+4.  Enter part of the desired organisation name in the **Find Target
+    Organization field**, then click **Search**.
+5.  Organisations that match your search will appear in the **Mark Target
+    Contact(s) for this Relationship** section below the Search and
     Cancel buttons. If the organisation you're looking for appears in
     this list, click the radio button next to that organisation and then
-    click the Add to Organization button below. If the organisation
+    click the **Add to Organization button** below. If the organisation
     you're looking for does not appear in this list, try entering
-    something different into the Find Target Organization field and
-    clicking Search again. If you are still unable to find your desired
-    organisation it may not exist; click Cancel, add a new organisation,
+    something different into the **Find Target Organization** field and
+    clicking **Search** again. If you are still unable to find your desired
+    organisation it may not exist; click **Cancel**, add a new organisation,
     and try again.
-6.  After you've successfully chosen an organisation and clicked the Add
-    to Organization button, you should see a message stating that the
+6.  After you've successfully chosen an organisation and clicked the **Add
+    to Organization** button, you should see a message stating that the
     number of participants that you selected have been added to the
     organisation.
-7.  Click Done to return to your search results.
+7.  Click **Done** to return to your search results.
 
 Adding contacts to households
 -----------------------------
 
 1.  Select the desired contacts from your search results as described
     above.
-2.  Select Add Contacts to Household from the dropdown " - more actions - " menu, then click Go.
-3.  Select the Relationship Type from the dropdown menu. Note that while
-    CiviCRM will not stop you from adding multiple contacts as Head of
-    Household for a single household, this may cause problems later on
-    in any situation where you are expecting Head of Household to refer
-    to only one individual per household. Therefore, the "Household
-    Member of" option may be the better choice in most situations.
+2.  Select **Add relationship - to household** from the dropdown **Actions** menu.
+3.  Select the **Relationship Type** from the dropdown menu. Note that while
+    CiviCRM will not stop you from adding multiple contacts as **Head of
+    Household** for a single household, this may cause problems later on
+    in any situation where you are expecting **Head of Household** to refer
+    to only one individual per household. Therefore, the **Household
+    Member of** option may be the better choice in most situations.
 4.  Enter part of the name of the household to which you are adding
     contacts (such as a last name shared by household members) in the
-    Find Target Household field, then click Search.
-5.  Households that match your search will appear in the "Mark Target
-    Contact(s) for this Relationship" section below the Search and
+    **Find Target Household** field, then click **Search**.
+5.  Households that match your search will appear in the **Mark Target
+    Contact(s) for this Relationship** section below the Search and
     Cancel buttons. If the household you're looking for appears in this
     list, click the radio button next to that household and then click
-    the Add to Household button below. If the household you're looking
+    the **Add to Household** button below. If the household you're looking
     for does not appear in this list, try entering something different
-    into the Find Target Household field and clicking Search again. If
+    into the **Find Target Household** field and clicking **Search** again. If
     you are still unable to find your desired household it may not
-    exist; click the Cancel button, add a new household, and try again.
-6.  After you've successfully chosen a household and clicked the Add to
-    Household button, you should see a message stating that the number
+    exist; click the **Cancel** button, add a new household, and try again.
+6.  After you've successfully chosen a household and clicked the **Add to
+    Household** button, you should see a message stating that the number
     of participants that you selected have been added to the household.
-7.  Click Done to return to your search results. 
+7.  Click **Done** to return to your search results. 
 
 Creating new relationship types
 -------------------------------
@@ -203,4 +202,3 @@ need it later.
     this type.
 6.  To enable a previously disabled relationship type, follow steps 1
     and 2 above and select Enable from the "more" pop-up menu.
-

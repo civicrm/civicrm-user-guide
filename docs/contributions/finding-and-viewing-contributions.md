@@ -21,7 +21,7 @@ You can search based on a number of criteria, such as date range, amount, contri
 
 The search criteria shown above are also available from Advanced Search, which means you can get results as a list of contacts OR contributions. Advanced Search allows you to save a query as a smart group - and you can also filter your results with additional contact criteria including donor addresses and demographics ("Show me all contacts who have contributed more than $100 last year AND who live in California").
 
-The results screen from a search displays the the total amount for the results returned for that search, the number of contributions, and the average amount per contribution in addition to the subset of records resulting from the search:
+The results screen from a search displays the total amount for the results returned for that search, the number of contributions, and the average amount per contribution in addition to the subset of records resulting from the search:
 
 ![Screen shot batch update from search](../img/contributions-find-editcriteria.png)
 
