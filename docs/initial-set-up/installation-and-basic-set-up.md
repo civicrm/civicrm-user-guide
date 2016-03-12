@@ -189,15 +189,14 @@ Settings screen and make changes as needed.
 -   **Mailing Labels** - Controls formatting of mailing labels here. The
     default format is:
 
-    ```
-    {contact.addressee}
+    *{contact.addressee}
     {contact.street_address}
     {contact.supplemental_address_1}
     {contact.supplemental_address_2}
     {contact.city}{, }{contact.state_province}{ }{contact.postal_code}
-    {contact.country}
- ```  
-
+    {contact.country}*
+ 
+    
     You must include the *{contact.addressee}* token here in order to
     include the name of the addressee in your labels. Users will be able
     to select from a variety of label types corresponding to the label
@@ -207,14 +206,14 @@ Settings screen and make changes as needed.
 -   **Address Display** - Controls the layout of contact and event
     location addresses displayed on CiviCRM screens. The default format
     is:
-```
-    {contact.address_name}
+
+    *{contact.address_name}
     {contact.street_address}
     {contact.supplemental_address_1}
     {contact.supplemental_address_2}
     {contact.city}{, }{contact.state_province}{ }{contact.postal_code}
-    {contact.country}
-```
+    {contact.country}*
+    
     This format also applies to event locations, despite the use of the
     *contact* record type in the layout. The *{contact.address_name}*
     token is particularly useful for events where you need to include a
@@ -234,9 +233,9 @@ Settings screen and make changes as needed.
         the Street Address Parsing function. When address parsing is turned on you can edit and or view
         the parsed address by clicking on Edit Address Elements when you are editing a address.
 
-        ![address-parsing](Address parsing.PNG)
+        ![address-parsing](Address parsing.PNG)  
 
-        You can learn more about USPS' Postal Addressing Standards at          [http://pe.usps.com/text/pub28/welcome.htm](http://pe.usps.com/text/pub28/welcome.htm).
+   You can learn more about USPS' Postal Addressing Standards at          [http://pe.usps.com/text/pub28/welcome.htm](http://pe.usps.com/text/pub28/welcome.htm).
 -   **Address Standardization** - CiviCRM includes an optional feature
     for interfacing to the United States Postal Services (USPS) Address
     Standardization web service. You must register to use the USPS
