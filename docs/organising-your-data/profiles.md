@@ -1,5 +1,4 @@
-Profiles
-========
+# Profiles
 
 A Profile is a collection of fields from your database. Profiles are a
 powerful tool that have many different uses across all components of
@@ -25,8 +24,7 @@ This section will outline how to use Profiles for both collecting and
 sharing data, and share several ways of using profiles that can save
 time for anyone managing data in your organization.
 
-Different uses for Profiles
----------------------------
+## Different uses for Profiles
 
 This section briefly discusses many different ways that Profiles can be
 used. You can find step-by-step instructions for creating and using
@@ -104,11 +102,11 @@ want to mark everyone who registered as Attended or No-show accordingly.
 Or, you may want to update the Thank-You Sent field for a week's worth
 of donations all at once.
 
-An action that allows you to update multiple records at the same time is available from the  **Actions** dropdown menu for most kinds of search results. (Search, Advanced Search, Find Contributions, Find Memberships,
+Actions that allow you to update multiple records at the same time is available from the  **Actions** dropdown menu for most kinds of search results. (Search, Advanced Search, Find Contributions, Find Memberships,
 Find Participants, and Find Activities) and from the event participant
 lists generated from the Manage Events screen.
 
-The **Batch Update via Profile** function pulls up a view of your search
+The **Update multiple ...** function pulls up a view of your search
 results containing the fields in your profile and allows you to change
 the contents of the fields on a single screen and save them all at once.
 Details on using profiles this way are included later in this chapter.
@@ -124,8 +122,7 @@ lists they have checked.
 Details about using Profiles to manage email lists are found in the
 *Set-up* chapter of the *Email* section of this book.
 
-Planning your Profiles
-----------------------
+## Planning your Profiles
 
 Because Profiles can be used for so many different purposes, there are a
 lot of choices to make and settings to configure when setting them up.
@@ -157,8 +154,7 @@ Here are some guidelines on which fields can be added to a Profile:
 -   If you try to combine fields with an unsupported combination of
     record types, you'll get an error when you try to save the field.
 
-Creating and managing profiles
-------------------------------
+## Creating and managing profiles
 
 Creating a Profile is a multi-step process. First, you create the
 Profile and choose its settings. There are basic settings and Advanced
@@ -259,7 +255,7 @@ you may want to create a web page that thanks people for submitting
 their information. If this field is left blank, people will be directed
 to a page which displays the information they've just entered.
 
-#### **cancel redirect URL**
+#### **Cancel redirect URL**
 
 Performs exactly the same way as Redirect URL, except that it
 applies when people cancel their form submission.
@@ -358,8 +354,7 @@ Once you've saved the profile settings, it's time to add fields to the
 profile. If you plan to reference custom fields in a profile form, make
 sure that those fields have already been created.
 
-Adding fields and choosing field settings in Profiles
------------------------------------------------------
+## Adding fields and choosing field settings in Profiles
 
 This section walks you through all the field settings and explains how
 they affect how your Profiles work. As with the overall Profile
@@ -414,7 +409,7 @@ settings, not all of them are necessary to consider for each use.
 10. Click **Save and New** to add more fields to the Profile, or
     **Save** if you have no more fields to add.
 
-### Managing Profiles
+## Managing Profiles
 
 All your profiles are available for viewing and editing at **Administer > Customize Data and Screens > Profiles**. You can add fields and edit
 field settings (at the **Fields** link) and change Profile settings (at
@@ -422,8 +417,7 @@ field settings (at the **Fields** link) and change Profile settings (at
 links and embed code for your Profiles, and copy Profiles to use as a
 basis for building other Profiles (at **more**).
 
-Using Profiles
---------------
+## Using Profiles
 
 This section contains specific instructions for the different profile
 uses discussed above.
@@ -487,7 +481,7 @@ To put a directory onto your website:
      record's address dynamically. To use this feature, you must have
     already enabled mapping under **Administer > System Settings >
      Mapping and Geocoding**.
- -   **Include profile edit links:**check this box if you want to
+ -   **Include profile edit links:** check this box if you want to
      include a link in the directory listings to allow people to edit
      data in the profile's fields. Only users with permission to edit
      the contact will see this link. More often than not you will not
@@ -514,7 +508,7 @@ purposes are shown below:
 ![directory_fields](../img/CiviCRM-CapturingExposing-buildprofile-directory_fields-en.jpg "directory_fields")
 
 -   Visibility for all fields in your directory must be set to **Public
-    Pages**or**Public Pages and Listings**. The difference between these
+    Pages** or **Public Pages and Listings**. The difference between these
     two options is that those configured as Public Pages and Listings
     will have the field in detail view hot-linked, enabling the user to
     generate a follow-up search for other records which also have that
@@ -528,7 +522,7 @@ purposes are shown below:
     almost every field is set to searchable. The more fields you set to
     searchable, the more power you provide to your visitors to find the
     information they need.
--   The **Results Column** check-box determines if the the field is
+-   The **Results Column** check-box determines if the field is
     displayed as a column in the list of results. For example, your
     directory may have a field for website, and if you set the website
     field to appear in the results column, it will appear in the results
@@ -556,7 +550,7 @@ View](../img/CiviCRM-CapturingExposing-buildprofile-MemberView-en.png "MemberVie
 As we've seen, building a directory for your website can provide a
 valuable tool for your constituents.
 
-### **Linking to Your Directory**
+### **Linking to your directory**
 
 You have several options to link to your directory:
 
@@ -571,54 +565,49 @@ You have several options to link to your directory:
     After creating a new menu item, select CiviCRM and choose the
     profile search option. In the parameters pane, choose the specific
     profile to use.
--   **Wordpress:**this feature is not yet implemented.
+-   **Wordpress:** this feature is not yet implemented.
 -   You can also prepopulate any search criteria in the URL. These
     options are described here:
     [http://wiki.civicrm.org/confluence/display/CRMDOC/Linking+Profiles](http://wiki.civicrm.org/confluence/display/CRMDOC/Linking+Profiles)
 
-### Batch update via Profiles
+### Updating multiple records at the same time
 
-The final way that profiles can be used is to perform batch updates of
-data. For example, you have a custom field called "volunteer interests"
-and you want to update the volunteers group with a certain interest. You
-can easily update the entire group using a profile. You can edit up to
-100 Contacts at one time using the **Batch Update via Profile**
-function.
+You can **Update multiple memberships** from the results of a **Find memberships** search or from the advanced search results when **Display results as** is set to **Memberships**. You will need a profile that contains only membership fields.
 
-From the search results, go to the dropdown menu **-more actions-** .
+Similarly you need contact, contribution, activity or participant search results and profiles containing only contact, only contribution, only activity or only participant fields to update multiple contacts, multiple contributions, muliple activities or multiple participants respectively.
 
-Select **Batch Update via Profile** from the list.
+You can update up to 100 records at one time using the **Update multiple ...**
+functions.
 
-You will go to the Batch Profile Update screen.
+    **Example:**
 
-![](http://wiki.civicrm.org/confluence/download/attachments/47710656/BatchUpdate.jpg?version=1&modificationDate=1181391872000)
+    You have a custom contact field called "Diving Skill Level" and you have just run a Intermediate Diving course.  You want to set the "Diving Skill level" to "Intermediate" for all people who attended the course.
 
-From the drop-down list, choose the the Profile you want to use and
-click **Continue**.
+    Go to the Advanced Search screen and set the appropriate filters in the Event accordion. Leave **Display Results As** set to **Contacts** as you want to update a contact custom field. CLick on **Search**.
 
-You will go to the Batch Update screen. You will see a grid with the
-fields in your profile. **![Batch Update via
-Profile](../img/CiviCRM-CapturingExposing-buildprofile-resized_600x128_BatchUpdateProfile-en.png "BatchUpdateProfile")**
+    You will go to the "Update multiple contacts" screen.
 
-Update field values for each contact as needed.
+  ![Update Multiple Records](../img/update-multiple-records.PNG)
 
-To set a field to the same value for all rows, enter that value for the
-first contact and then click the Copy icon (the image of two documents
-that is next to each column title). The value will automatically be
-copied into all the records displayed.
+    From the drop-down list, choose the Profile you want to use and click **Continue**.
 
-Click **Update Contacts** to save all your changes or **Cancel** to
-cancel the changes.
+    The next screen will contain a grid. Each row shows the contact's name and the fields in your profile. You should update the field values for each contact as needed.
+
+![Update Multiple Records Profile View](../img/update-multiple-records-profile.PNG)
+
+
+    To set a field to the same value for all rows, enter that value for the first contact and then click the Copy icon (the image of two documents that is next to each column title). The value will automatically be copied into all the records displayed.
+
+    Click **Update Contacts** to save all your changes or **Cancel** to cancel the changes.
 
 **Batch update limitations**
 
 -   You cannot perform batch updates for different types of contacts
-    (individuals and organisations, for example) at the same time.
+    (say, individuals and organisations) at the same time.
 -   If you wish to update participant fields, you must do the update
     from a Find Participants search (and only include participant fields
     in your profile).
--   You may perform a batch update for no more than 100 records at a
-    time.
+-   You can perform a batch update for up to 100 records at a time. If you find that updating a batch of 100 records is taking a long time, it may be quicker to update 4 batches of 25 records rather than one batch of 100 records.
 
 ### View/edit user account /new user registration with Profiles
 
