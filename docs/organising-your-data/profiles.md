@@ -579,27 +579,29 @@ Similarly you need contact, contribution, activity or participant search results
 You can update up to 100 records at one time using the **Update multiple ...**
 functions.
 
-    **Example:**
+____
+**Example:**
 
-    You have a custom contact field called "Diving Skill Level" and you have just run a Intermediate Diving course.  You want to set the "Diving Skill level" to "Intermediate" for all people who attended the course.
+You have a custom contact field called "Diving Skill Level" and you have just run a Intermediate Diving course.  You want to set the "Diving Skill level" to "Intermediate" for all people who attended the course.
 
-    Go to the Advanced Search screen and set the appropriate filters in the Event accordion. Leave **Display Results As** set to **Contacts** as you want to update a contact custom field. CLick on **Search**.
+Go to the Advanced Search screen and set the appropriate filters in the Event accordion. Leave **Display Results As** set to **Contacts** as you want to update a contact custom field. CLick on **Search**.
 
-    You will go to the "Update multiple contacts" screen.
+You will go to the "Update multiple contacts" screen.
 
   ![Update Multiple Records](../img/update-multiple-records.PNG)
 
-    From the drop-down list, choose the Profile you want to use and click **Continue**.
+From the drop-down list, choose the Profile you want to use and click **Continue**.
 
-    The next screen will contain a grid. Each row shows the contact's name and the fields in your profile. You should update the field values for each contact as needed.
+The next screen will contain a grid. Each row shows the contact's name and the fields in your profile. You should update the field values for each contact as needed.
 
 ![Update Multiple Records Profile View](../img/update-multiple-records-profile.PNG)
 
 
-    To set a field to the same value for all rows, enter that value for the first contact and then click the Copy icon (the image of two documents that is next to each column title). The value will automatically be copied into all the records displayed.
+To set a field to the same value for all rows, enter that value for the first contact and then click the Copy icon (the image of two documents that is next to each column title). The value will automatically be copied into all the records displayed.
 
-    Click **Update Contacts** to save all your changes or **Cancel** to cancel the changes.
-
+Click **Update Contacts** to save all your changes or **Cancel** to cancel the changes.
+ ____
+ 
 **Batch update limitations**
 
 -   You cannot perform batch updates for different types of contacts
