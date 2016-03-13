@@ -55,7 +55,7 @@ You can change which tabs are available when you are viewing contact
 records by checking and un-checking the appropriate boxes next to
 **Viewing Contacts**.
 
-![image](../img/Viewing%20Contacts.png)
+![Display Preferences Viewing Contacts](../img/Viewing%20Contacts.png)
 
 For example, if your organization is not using Cases or Grants, you
 could uncheck those boxes and those tabs would no longer show up in the
@@ -69,7 +69,7 @@ You can change which blocks of information appear when you are editing a
 contact by checking and unchecking the appropriate boxes next
 to **Editing Contacts**:
 
-**![image](../img/Editing%20Contacts.png)**
+![Display Preferences Editing Contacts](../img/Editing%20Contacts.png)
 
 For example, if your organization doesn't collect information
 Demographics or Communication Preferences, you could uncheck those boxes
@@ -88,7 +88,7 @@ screens > display preferences**. Note that CiviCRM will be slower with
 this feature disabled as every form will require a complete page load in
 the browser.
 
-![image](../img/Contact%20Dashboard.png)
+![Display Preferences Disabling Popup Forms](../img/Contact%20Dashboard.png)
 
 Customizing search preferences
 ------------------------------
@@ -132,7 +132,7 @@ There is one more place to customize search search settings:
 **Administer > Customize Data and Screens > Display Preferences** has
 a block of **Contact Search** settings:
 
-![image](../img/Contact%20Search.png)
+![Display Preferences Contact Search](../img/Contact%20Search.png)
 
 These check boxes modify the **Search > Find Contacts** and **Search >
 Advanced Search** screens. Uncheck the boxes to remove the corresponding
@@ -174,24 +174,19 @@ all of your menu items, with the items represented by folder icons.
 Expand folders by clicking the small triangles to the left of their
 names.
 
-To delete an item, right-click it and select **Delete**.
-
-To rename an item, right-click it and select **Rename**.
-
-To move an item, drag and drop it to the desired location in the tree
-structure.
-
-To add an item:
-
-1.  Click on the **Add Menu Item** button.
-2.  Enter the text you want to appear in the menu in the **Title**
+-  To delete an item, right-click it and select **Delete**.
+-  To rename an item, right-click it and select **Rename**.
+-  To move an item, drag and drop it to the desired location in the tree structure.
+-  To add an item:
+ 1.  Click on the **Add Menu Item** button.
+ 2.  Enter the text you want to appear in the menu in the **Title**
     field.
-3.  Enter the link to your item in the **Url** field.
-4.  Select the location of your new item from the **Parent** dropdown
+ 3.  Enter the link to your item in the **Url** field.
+ 4.  Select the location of your new item from the **Parent** dropdown
     menu. You can place the item anywhere in the navigation, at any
     level. If you want your new item to be in the top level of the
     navigation, do not select anything from this dropdown.
-5.  Check the **Separator** box if you want to add a line below your new
+ 5.  Check the **Separator** box if you want to add a line below your new
     item to separate it form the item below.
 
 Making custom data entry forms
@@ -252,7 +247,7 @@ When conducting your advanced search, use the **Search Views** dropdown
 menu in the top right of the page to select your Profile (see image
 below).
 
-![image](../img/Search%20Setting.png)
+![Customize Search Views](../img/configure-customize-search-views.png)
 
 Using Word Replacement to change terminology
 ----------------------------------------------

@@ -109,6 +109,12 @@ descriptions.
 For more info, have a look here:
 [http://wiki.civicrm.org/confluence/pages/viewpage.action?pageId=88408149](http://wiki.civicrm.org/confluence/pages/viewpage.action?pageId=88408149)
 
+Under Localization you will also find the **Advanced Date Input Settings**.
+By default, CiviCRM provides ranges for input on specific date fields. For instance,
+ the default range for Activity Dates are 20 years prior to the current year all the way through to 10 years beyond the current year. If you would like to track activities that have occurred, say, 25 years ago then you would need to update this range to enable your end users to log these activities. To update these settings to the appropriate range go to **Administer > Localization > Date Formats > Advanced Date Input Settings**. If you were to leave these settings as the default you will see an error such as this:
+
+![Advanced Date Input Settings](configure-localization-advanced-date-input-settings.png)
+
 ### Organization Address and Contact Info
 
 Use this screen to enter identifying information for the organization or
@@ -195,8 +201,8 @@ Settings screen and make changes as needed.
     {contact.supplemental_address_2}
     {contact.city}{, }{contact.state_province}{ }{contact.postal_code}
     {contact.country}*
- 
-    
+
+
     You must include the *{contact.addressee}* token here in order to
     include the name of the addressee in your labels. Users will be able
     to select from a variety of label types corresponding to the label
@@ -213,7 +219,7 @@ Settings screen and make changes as needed.
     {contact.supplemental_address_2}
     {contact.city}{, }{contact.state_province}{ }{contact.postal_code}
     {contact.country}*
-    
+
     This format also applies to event locations, despite the use of the
     *contact* record type in the layout. The *{contact.address_name}*
     token is particularly useful for events where you need to include a
@@ -233,7 +239,7 @@ Settings screen and make changes as needed.
         the Street Address Parsing function. When address parsing is turned on you can edit and or view
         the parsed address by clicking on Edit Address Elements when you are editing a address.
 
-        ![address-parsing](Address parsing.PNG)  
+      ![address-parsing](basic-set-up-address parsing.png)  
 
    You can learn more about USPS' Postal Addressing Standards at          [http://pe.usps.com/text/pub28/welcome.htm](http://pe.usps.com/text/pub28/welcome.htm).
 -   **Address Standardization** - CiviCRM includes an optional feature
@@ -267,8 +273,8 @@ can improve performance for large datasets.
 
 A wildcard character is a special character that can be used to
 substitute for any other character or characters in searches. CiviCRM
-allows you to use the percent (%) character to substitute for zero or
-more characters, and the underscore (_) character to substitute for any
+allows you to use the percent character "%" to substitute for zero or
+more characters, and the underscore character "_" to substitute for any
 single character. Wildcards are useful for broadening your search
 results.
 
@@ -328,20 +334,18 @@ House" or "Volunteering Opportunities").
 -   **Autocomplete Results**- This specifies the maximum number of
     contacts to show at a time when typing in an autocomplete field. The
     default is 10.
--   **InnoDB Full Text Search -**If you are using MySQL 5.6+ you can
+-   **InnoDB Full Text Search -** If you are using MySQL 5.6+ you can
     enable InnoDB full-text search optimizations.
 
 ### Miscellaneous (Undelete, PDFs, Limts, Logging, reCAPTCHA, etc.)
 
-###
-
 Use the Miscellaneous Settings screen to configure and control the
 following behaviors:
 
--   **Dashboard Cache Timeout -**The number of minutes to cache dashlet
+-   **Dashboard Cache Timeout -** The number of minutes to cache dashlet
     content on the dashboard.
 
--   **Checksum Lifespan -**The number of days before a personalized
+-   **Checksum Lifespan -** The number of days before a personalized
     (hashed) link will expire.
 
 -   **Contact Trash and Undelete** - If enabled, deleted contacts will
@@ -359,7 +363,7 @@ following behaviors:
     Listing > Contact Logging Report (Summary)**.
 -   **Attach PDF copy to receipts** - If enabled, CiviCRM sends PDF
     receipt as an attachment during event signup or online contribution.
--   **Path to wkhtmltopdf executable -**wkhtmltopdf is an alternative
+-   **Path to wkhtmltopdf executable -** wkhtmltopdf is an alternative
     utility for generating PDF's which may provide better performance
     especially if you are generating a large number of PDF letters or
     receipts. Your system administrator will need to download and
@@ -389,7 +393,7 @@ following behaviors:
     images, etc.) which can attached to emails or activities. Note that
     your PHP configuration files, *php.ini*, should support at least as
     big a file size as the value specified here.
--   **Allow second-degree relationship permissions -**If enabled,
+-   **Allow second-degree relationship permissions -** If enabled,
     contacts with the permission to edit a related contact will inherit
     that contact's permission to edit other related contacts. This can
     be used, for example, to let the teacher of a class edited the
