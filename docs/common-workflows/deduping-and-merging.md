@@ -137,9 +137,9 @@ Using rules and merging duplicate contacts manually
     contacts meets or exceeds the rule's threshold score, the contacts
     will be displayed on the following screen of possible duplicates.
     You will be presented with a list of possible duplicates with a few
-    show/hide tickboxes; Street Address, Post Code, Conflicts and Threshold.
+    show/hide tickboxes; Street Address, Post Code, Conflicts and Threshold.  
     
-![List of Possible Duplicates](../img/duplicates-list-of-possibles.png)
+ ![List of Possible Duplicates](../img/duplicates-list-of-possibles.png)  
 
 4.  Clicking **Merge** for any pair of contacts brings up a table
     showing details for each contact. CiviCRM designates one record as
