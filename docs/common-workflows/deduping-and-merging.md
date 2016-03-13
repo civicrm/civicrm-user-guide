@@ -125,19 +125,20 @@ Using rules and merging duplicate contacts manually
     selected rule.
 
 3.  You can then select to search all contacts for duplicates or to
-    limit the search to a particular group.   
+    limit the search to a particular group. If you choose to limit the
+    search to a specific group, CiviCRM looks for duplicates where at
+    least one of the contacts in any identified duplicate pair is in
+    your selected group.  
 
     ![duplicates-select-group](../img/duplicates-select-group.png)  
 
-    If you choose to limit the
-    search to a specific group, CiviCRM looks for duplicates where at
-    least one of the contacts in any identified duplicate pair is in
-    your selected group. Contacts of the type to which the rule is
+    Contacts of the type to which the rule is
     assigned will be scanned and compared. If the match between two
     contacts meets or exceeds the rule's threshold score, the contacts
     will be displayed on the following screen of possible duplicates.
-4.  You will be presented with a list of possible duplicates with a few
+    You will be presented with a list of possible duplicates with a few
     show/hide tickboxes; Street Address, Post Code, Conflicts and Threshold.
+    
 ![List of Possible Duplicates](../img/duplicates-list-of-possibles.png)
 
 4.  Clicking **Merge** for any pair of contacts brings up a table
@@ -178,7 +179,8 @@ This can be done from the possible duplicates screen where you can display up to
 
    ![List of Possible Duplicates Batch Merge](../img/duplicate-list-of-possibles-detail.png)
 
-You can **Batch Merge All Duplicates** or **Batch Merge Selected Duplicates**
+You can **Batch Merge All Duplicates** (This will merge **all** duplicates found, 
+not just those displayed on your screen) or **Batch Merge Selected Duplicates**
 ie those you have selected by ticking the box on the left of the row.  These
  batch merging options are displayed beneath the list of duplicates discovered.
 In the same area you will find **Flip Selected Duplicates**. When duplicates
@@ -186,7 +188,7 @@ In the same area you will find **Flip Selected Duplicates**. When duplicates
  you may want to switch the order of the records before merging.
 
 The batch merging feature will merge all contacts under the given rule 
-together, provided
+together or all selected contacts, provided
 there are no data conflicts. For instance, two individuals named
 "Michael Blake" may have been matched based on identical first and last
 name, with neither having an email address on record. If the data held
