@@ -49,12 +49,12 @@ CiviCRM.
 To add a shortcode either create a new post or new page and you will now
 see a CiviCRM button next to Add Media.
 
-![](../img/z_sprint14_shortcode%20insert.png) 
+![image](../img/z_sprint14_shortcode%20insert.png) 
 
 After you click on CiviCRM you will be displayed with the following
 options:
 
-![](../img/z_sprint14_Wordpress_shortcode.png) 
+![image](../img/z_sprint14_Wordpress_shortcode.png) 
 
 Dependent up the shortcode that you select you will have different sub
 options to cater the information to the end user.

@@ -39,7 +39,7 @@ To create or edit survey types:
 
 1.  Go to **Administer > CiviCampaign > Survey Types**. 
 
-    ![](../img/survey_config_types.png)
+    ![image](../img/survey_config_types.png)
 
 2.  Click on **Add Survey Type** and complete the form.
 

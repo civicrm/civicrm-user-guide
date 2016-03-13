@@ -10,7 +10,7 @@ Surveys**. Here you will find a summary of your surveys.
 Use the links at the right to manage existing surveys, or click **Add
 Survey** to create a new survey. 
 
-![](../img/survey_everyday_dashboard.png)
+![image](../img/survey_everyday_dashboard.png)
 
 **Reserving Respondents**
 
@@ -43,7 +43,7 @@ To reserve a group of respondents:
     **Street Address Parsing**.)
 5.  Click **Search.**
 
-*![](../img/survey_reserve_findrespondents_search.png)*
+*![image](../img/survey_reserve_findrespondents_search.png)*
 
 On the Find Respondents to Reserve search results screen, select the
 contacts to be reserved for interviewing:
@@ -54,13 +54,13 @@ contacts to be reserved for interviewing:
     the number of contacts found in the reserve respondents search).
 2.  Click **Go** to reserve the respondents.
 
-*![](../img/survey_reserve_findrespondents_results.png)*
+*![image](../img/survey_reserve_findrespondents_results.png)*
 
  
 
 On the Reserve Respondents screen, click **Reserve**. 
 
-*![](../img/survey_reserverespondents.png)* 
+*![image](../img/survey_reserverespondents.png)* 
 
 Interview Respondents
 ---------------------
@@ -96,7 +96,7 @@ Interview Respondents
  -   Click **Reserve More Respondents** to find more contacts to be
      interviewed.
 
-![](../img/record%20survey%20responses.jpg) 
+![image](../img/record%20survey%20responses.jpg) 
 
 ### **Reviewing Results of the Survey**
 
@@ -132,7 +132,7 @@ haven't done so already.
     and that the report is sorted by street name and odd and even street
     numbers. See the chapter *Survey > SetUp* for more information. 
 
-![](../img/walklist%20cover%20sheet.jpg)![](../img/walklist%20p2.jpg)
+![image](../img/walklist%20cover%20sheet.jpg)![image](../img/walklist%20p2.jpg)
 
 
 ### **Conduct your door-knock canvass**

@@ -70,7 +70,7 @@ when a new case is opened.
     **Administer > Customize Data and Screens > Relationship Types**.
     There you will also be able to review and edit other details of the
     roles/relationships if you need to. 
-![](../img/CiviCase_Roles.png) 
+![image](../img/CiviCase_Roles.png) 
 
 4. Include **Activities**
 When working on a case, the user has access to a drop-down menu in the
@@ -108,7 +108,7 @@ to the case.
     user **might** **choose** to add to the case. Activities that you
     include in a Timeline or Sequence do not need to be in this list. 
     
-    ![](../img/CiviCRM%204.5%20CiviCase%20Activities.png)
+    ![image](../img/CiviCRM%204.5%20CiviCase%20Activities.png)
     
     Select the activity types that you wish to be included in the case type
     from the "Add activity type" drop-down shown below the listing of
@@ -180,7 +180,7 @@ within the case type.
     from the (Add) menu. Currently you can only add one sequence to any
     given case type.
 
-![](../img/CiviCRM%204.5%20CiviCase%20Standard%20Timeline.png)
+![image](../img/CiviCRM%204.5%20CiviCase%20Standard%20Timeline.png)
 To add activities to a timeline, select the tab for the timeline you want
 to work with:
 
@@ -204,7 +204,7 @@ You can choose to use the "end date" of a case (i.e the final defined
 activity) as your reference and use negative offset values to schedule
 activities as the example below shows. 
 
-![](../img/timeline_advanced.PNG)
+![image](../img/timeline_advanced.PNG)
 
 You can rename additional timelines or a sequence using the fields
 available in the 'Advanced' section below the main Activities section of

@@ -53,7 +53,7 @@ When you click on **Add Reminder** under **Administer > Communications > Schedul
 **Entity** chosen but all scheduled reminders are fairly similar. The
 general process is:
 
-![](../img/scheduled_reminders_contactsV2.png)
+![image](../img/scheduled_reminders_contactsV2.png)
 
 1.  Give your reminder a name that will help you or others identify it.
 
@@ -268,7 +268,7 @@ It is important to remember that groups or manual recipients selected
 will only receive the scheduled reminder if they meet the all other
 criteria for that reminder.
 
-![](../img/scheduled_reminders_activities.PNG)
+![image](../img/scheduled_reminders_activities.PNG)
 
 For Event, Contact and Membership scheduled reminders you can limit
 recipients to members of a group, to a particular participant role
@@ -279,7 +279,7 @@ recipient(s)** or **Participant Role** (Event reminders only) from the
 adjacent option list. You could use this feature to, say, only send
 birthday greetings to your members who are less than 12 years old.
 
-![](../img/scheduled_reminders_other%20three.PNG)
+![image](../img/scheduled_reminders_other%20three.PNG)
 
 As with activity reminders, it is important to remember that groups,
 manual recipients or roles selected with the **Limit to** option will
@@ -317,4 +317,4 @@ scheduled reminder you should:
 2.  Create a smart group from the search results.
 3.  Select this smart group as the **Recipients** of the scheduled reminder.
 
-![](../img/do-not-email-search-builder.jpg)
+![image](../img/do-not-email-search-builder.jpg)

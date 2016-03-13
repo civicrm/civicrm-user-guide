@@ -28,7 +28,7 @@ The Events tab on a contact record, shown in the following screenshot,
 displays a summary list of the contact's past event attendance and
 provides a link for registering the contact for a new event.
 
-**  ![](../img/EventsTab.PNG)**
+**  ![image](../img/EventsTab.PNG)**
 
 There are two options for registering the contact:
 
@@ -44,9 +44,9 @@ There are two options for registering the contact:
 The interface for both options is very similar, with the exception of
 those fields that record payment details.
 
-**![](../img/EventRegistration1.PNG)  **
+**![image](../img/EventRegistration1.PNG)  **
 
-**![](http://booki.flossmanuals.net/civicrm/http://en.flossmanuals.net/floss/pub/CiviCRM/EverydayTasks/)![](../img/EventRegistration2.PNG)**
+**![image](http://booki.flossmanuals.net/civicrm/http://en.flossmanuals.net/floss/pub/CiviCRM/EverydayTasks/)![image](../img/EventRegistration2.PNG)**
 
 As you work through this form, certain sections of the page change to
 reflect choices you have made. For example, when you choose the event
@@ -88,7 +88,7 @@ not select the Record Payment check box, only a registration record will
 be created.
 
 
-**![](../img/EventContributionTab.png)**
+**![image](../img/EventContributionTab.png)**
 
 ### **Registering a participant paying only a deposit (partial payment)**
 
@@ -101,7 +101,7 @@ paid at this time in the Total Amount field in the Payment Information
 region. This sets both the **Event status** and the status for the
 linked contribution to **Partially paid.**
 
-![](../img/z-sprint14-initial-partial-payment.png) 
+![image](../img/z-sprint14-initial-partial-payment.png) 
 
 The expectation is that additional payment(s) will be made until the
 full event fee has been paid, so a **Partially paid** registration is
@@ -118,7 +118,7 @@ To make an additional payment on this registration:
 5.  For a payment using a credit card select **submit credit card
     payment,** otherwise complete the payment details as required.
 
-![](../img/z_sprint14_RecordEventPayment.png)
+![image](../img/z_sprint14_RecordEventPayment.png)
 
 You can make more than one additional payment. When the event fee has
 been paid in full the Event status will automatically change to
@@ -136,7 +136,7 @@ displayed amount will always be the full event fee. You can see how much
 is owing by choosing to **view** the event registration. Selecting **›› view payments** (under the **Total Paid** amount) will display a
 summary of each payment.
 
-![](../img/z-sprint15ipartial-payment%20view.png)
+![image](../img/z-sprint15ipartial-payment%20view.png)
 
 ##Mass Registrations
 
@@ -250,5 +250,5 @@ import. You do not need all of those fields to be included.
     **Save** this field mapping box.
 6.  **Preview** and **Save**.
 
-![](../img/CiviCRM-Event-Import-Participants_1.jpg)
+![image](../img/CiviCRM-Event-Import-Participants_1.jpg)
 

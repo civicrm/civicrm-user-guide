@@ -158,7 +158,7 @@ participant's event registration as follows:
     is via **Events > Find Participants**)
 2.  Select **View** or **Edit** (towards the right of the event record)
 
-    **![](../img/z_sprint14_PartiallyPaidRegistration.png)**
+    **![image](../img/z_sprint14_PartiallyPaidRegistration.png)**
 
 3.  Click on **Change Selections.**
 
@@ -169,7 +169,7 @@ participant's event registration as follows:
 
 
 
-**![](../img/z_sprint14_ChangeRegistrationSelections.png)**
+**![image](../img/z_sprint14_ChangeRegistrationSelections.png)**
 
 Additional payments (credit card or offline methods) or a refund
 (offline methods only) will need to be entered via the **record payment** link associated with the event registration record as
@@ -185,7 +185,7 @@ You can create custom name badges for your event.
 Navigate to **Administer>CiviEvent>Event Badge Layout>New Badge
 Layout** and you will see the following set-up screen.
 
-![](../img/Event%20Badges%20UIv2.png)
+![image](../img/Event%20Badges%20UIv2.png)
 
 Points to consider are:
 

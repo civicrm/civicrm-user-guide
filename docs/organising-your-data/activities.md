@@ -73,7 +73,7 @@ Creating new Activity Types
 Go to the Activity Type Options page **Administer > Customize Data and
 Screens > Activity Types** and click Add Activity Type. 
 
-![](../img/activity.png)
+![image](../img/activity.png)
 
 Assign your new activity type to the "Contact" component if you want it
 to be available from the Actions button when viewing a contact record.
@@ -89,7 +89,7 @@ you wish, you can further specify which type of activity. This means
 that these custom data fields will be available when recording
 activities. 
 
-![](../img/activity%20cf.png)
+![image](../img/activity%20cf.png)
 
 Activity Status Options
 -----------------------
@@ -125,14 +125,14 @@ under **Repeat Activity.** The options you can set are:
 -   **Ends**: After a specific number of occurrences or on a specific date
 -   **Exclude Dates**: Multiple dates can be selected
 
-![](../img/recurringactivityscreen.png)
+![image](../img/recurringactivityscreen.png)
 
 After saving the Activity, a confirmation screen will appear displaying
 all the dates for which an Activity will be created. A new Activity will
 be created for each repetition, and these can be individually edited and
 deleted. 
 
-![](../img/repeatscreen.png)
+![image](../img/repeatscreen.png)
 
 When you edit one repetition of an Activity, you will be given the
 option to apply the change to that Activity only, that Activity and all
@@ -140,6 +140,6 @@ future Activities in the series, or every Activity in the series.
 Changes to the date or time are NOT applied to other repeating
 Activities.
 
-![](../img/reoccurringscreenedits.png)
+![image](../img/reoccurringscreenedits.png)
 
 

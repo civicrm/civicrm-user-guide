@@ -78,7 +78,7 @@ will be used for, select the display characteristics, and enter help
 text. The form appears in the following image, and we'll describe each
 field.
 
-![](../img/Custom%20Field%20Set.png)
+![image](../img/Custom%20Field%20Set.png)
 
 ### Set Name
 
@@ -182,11 +182,11 @@ windows. Under **more** there is the option to "copy a record". For
 consecutive records that have the same value in many fields this lets
 you edit just one or two fields and save the copy as a new record. 
 
-![](../img/z-Sprint2014%20copy%20multli%20record.png)
+![image](../img/z-Sprint2014%20copy%20multli%20record.png)
 
 **Tab** displays data in a similar format to the inline style.
 
-![](../img/z-Sprint14%20multi%20record%20old%20style%20table.png) 
+![image](../img/z-Sprint14%20multi%20record%20old%20style%20table.png) 
 
 ### Is this Custom Field Set active?
 
@@ -330,11 +330,11 @@ will not be displayed in the table. You might want to do this for less
 important fields if you have a large dataset that is too wide for your
 screen. 
 
-![](../img/z_sprint14_MultirowCustom3.png) 
+![image](../img/z_sprint14_MultirowCustom3.png) 
 Fields hidden in the table view will still be available when adding a
 new record or viewing, editing or copying a particular row.
 
-![](../img/z_sprint14_MultirowCustom2.png) 
+![image](../img/z_sprint14_MultirowCustom2.png) 
 
 ### Database Field Length
 
@@ -446,7 +446,7 @@ any time by navigating to **Administer > Customize Data and Screens > Custom Dat
 Fields' for the relevant field set.
 
 
-![](../img/Move_custom_fields.PNG) 
+![image](../img/Move_custom_fields.PNG) 
 As well as the expected options of edit field settings, edit multiple
 choice options (if applicable), preview, disable or delete, you also
 have the option to **Move** a custom field to another data set. You can

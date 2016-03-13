@@ -22,7 +22,7 @@ will take you to a screen where you can edit the options available.
 Note, depending on your permissions, you may not be able to edit these
 options and therefore will not see the pencil. 
 
-![](../img/4.5_new_event.PNG)
+![image](../img/4.5_new_event.PNG)
 
 **From template** allows you to create an event from a template (see
 *Event templates* chapter in this section) rather than creating one from
@@ -107,7 +107,7 @@ events by clicking **Use existing location** and selecting it from the
 dropdown list. Note that if you choose an existing location and edit it,
 it will update that location for all events that use it.
 
-![](../img/event%20location%20with%20warning.PNG) 
+![image](../img/event%20location%20with%20warning.PNG) 
 
 You can also list phone numbers and email addresses on the event
 information page if you want to give registrants a way to contact event
@@ -184,14 +184,14 @@ To set up a scheduled reminder for a specific event, click on the
 scheduled reminders tab, which will show you already existing scheduled
 reminders for this event (if any) and click on **Add Reminder**. 
 
-![](../img/scheduled-reminder-events.png)Fill in the details on
+![image](../img/scheduled-reminder-events.png)Fill in the details on
 this form to send, for example, an email to all registered speakers 3
 days before the event start date.  Note that you can limit recipients by
 status (registered, attended, etc.) and also by role (speaker, attendee,
 volunteer, etc.).  You can either use a template or compose your own
 message in the HTML format box. 
 
-![](../img/scheduled-reminder-events-compose.png)
+![image](../img/scheduled-reminder-events-compose.png)
 
 As well as setting up reminders on an event by event basis, you can also
 set them up for specific event types. and add them to specific event
@@ -202,7 +202,7 @@ reminders**.
 Tell-A-Friend
 -------------
 
-![](http://booki.flossmanuals.net/civicrm/http://en.flossmanuals.net/floss/pub/CiviCRM/CiviEvent/)CiviEvent
+![image](http://booki.flossmanuals.net/civicrm/http://en.flossmanuals.net/floss/pub/CiviCRM/CiviEvent/)CiviEvent
 makes it easy to leverage the social networking power of your committed
 constituents by empowering them to quickly and easily share details
 about your organization and event with their friends and colleagues. The

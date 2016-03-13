@@ -61,7 +61,7 @@ the **Actions** button which is a handy shortcut to carrying out actions
 with this contact. For example, you could add a note to this contact, or
 record a new contribution, meeting or other activity.
 
-![](../img/ActionRibbon.PNG)
+![image](../img/ActionRibbon.PNG)
 
 ### Summary tab
 
@@ -73,7 +73,7 @@ Some fields on this tab are just for individuals, for example, first
 name, last name, nick name, etc. Other fields are just for
 organisations, for example organisation name.
 
-![](../img/ContactSummary.PNG)
+![image](../img/ContactSummary.PNG)
 
 #### Individual fields
 
@@ -397,7 +397,7 @@ If you need to edit a lot information for one particular contact, an
 alternative is to open the entire contact for editing by clicking on the
 edit button above the tabs.
 
-![](../img/contact%20Screen%20-inline%20edit.png) 
+![image](../img/contact%20Screen%20-inline%20edit.png) 
 
 Note that on the rare occasions that two separate admin users edit a
 contact at the same time (specifically that they both open the edit

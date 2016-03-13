@@ -34,7 +34,7 @@ To add a new campaign type:
 1.  Go to **Administer > CiviCampaign > Campaign Types**. 
 2.  This will display a list of existing campaign types: 
      
-    ![](../img/campaign_configuration_typeoptions_1.png)
+    ![image](../img/campaign_configuration_typeoptions_1.png)
 3.  Click on **Add Campaign Type**, and give the new type a label and a
     description (optional).
 4.  Optionally, change the default weight: this affects the order in
@@ -61,7 +61,7 @@ activities in the database and track how the campaign is proceeding.
 4.  Click **Save** and the new status will then be available to assign
     to campaigns.
 
-![](../img/campaign_configuration_statuses.png)
+![image](../img/campaign_configuration_statuses.png)
 
 Engagement index 
 ----------------
@@ -83,4 +83,4 @@ To configure the Engagement Index:
 This information can supplement your outreach employees' or organizers'
 assessment of member engagement/interest in your organization.
 
-![](../img/campaign_configuration_engageoptions.png)
+![image](../img/campaign_configuration_engageoptions.png)

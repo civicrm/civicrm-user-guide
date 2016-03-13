@@ -118,4 +118,4 @@ Coordinator is both the creator and manager of these cases. In addition,
 a Health Services Coordinator and a Benefits Specialist role are created
 when the case is opened.
 
-![](../img/Simple%20housing%20case.PNG)
+![image](../img/Simple%20housing%20case.PNG)

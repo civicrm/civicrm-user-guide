@@ -90,12 +90,12 @@ Click **Manage Groups**. To edit the search criteria of a particular
 smart group, click **Settings** next to that group.
 
 
-![](../img/Groups&tags_updatecriteria_1.png)
+![image](../img/Groups&tags_updatecriteria_1.png)
 
 On the group settings screen, click **Edit Smart Group Criteria** at
 bottom left.
 
- ![](../img/Groups&tags_edit%20Smart%20Group%20criteria.png)
+ ![image](../img/Groups&tags_edit%20Smart%20Group%20criteria.png)
 
 This will bring up the a screen similar to the one that you originally
 used to create the smart group with the search results displayed.
@@ -104,7 +104,7 @@ that you used to define the smart group. You can then update the
 criteria and once you're happy with the results, select all records and
 choose **Update Smart Group** from the Actions list.
 
-![](../img/Groups&tags_actions%20Update.png)
+![image](../img/Groups&tags_actions%20Update.png)
 
 Your smart group is now based on the new criteria.
 

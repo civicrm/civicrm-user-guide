@@ -25,7 +25,7 @@ contribution page has been created (see the chapter 'Setup'), while
 editing the page's settings go to the 'Amounts' tab and tick the option
 '**Pledges**'. Several options will appear, as below.
 
-![](../img/pledge-setup.png)
+![image](../img/pledge-setup.png)
 
 -   **Supported pledge frequencies**: choose whether the donor can
     pledge a daily, weekly, monthly or annual donation.
@@ -49,7 +49,7 @@ form. To check and monitor the current pledges, several reports and a
 dashboard are available. To access the dashboard, go to:
 **Contributions** > **Pledges** > **Dashboard.**
 
-![](../img/selectpledge_contributeform_1.png)
+![image](../img/selectpledge_contributeform_1.png)
 
 
 

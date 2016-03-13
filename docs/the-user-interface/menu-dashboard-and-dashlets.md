@@ -10,7 +10,7 @@ The navigation menu
 The navigation menu is a small bar at the top of every "back office"
 page of CiviCRM.
 
-![](../img/4.5%20Menubar.png)... 
+![image](../img/4.5%20Menubar.png)... 
 
 It provides access to nearly every function of CiviCRM and is broadly
 organised into headings by individual CiviComponents (such as

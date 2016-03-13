@@ -13,7 +13,7 @@ In this screen you can set certain settings for invoices as well:
 -   customized notes or standard terms you want to appear on your
     invoice
 
-![](../img/civicontribute_comp_settings.png)
+![image](../img/civicontribute_comp_settings.png)
 
 Creating an Invoice
 --------------------
@@ -25,13 +25,13 @@ Tab.
 1.  Go to Contact's Contribution tab
 2.  View the record you want to create an invoice for
 
-![](../img/contribution_summary.png)
+![image](../img/contribution_summary.png)
 
 1.  Once you are viewing the record you have the option to Print Invoice
     or Email Invoice. Printing an Invoice will download a pdf and
     Emailing an Invoice will provide an additional Options screen.
 
-![](../img/contributiion_view_Screen.png)
+![image](../img/contributiion_view_Screen.png)
 
 1.  Once you have chosen the Email Invoice option you have options
     before sending:
@@ -40,11 +40,11 @@ Tab.
 
 -   Type an additional message
 
-![](../img/email_invoice.png)
+![image](../img/email_invoice.png)
 
 Here is an example of a printed invoice. Invoices can be customized.
 
-![](../img/invoice.png)
+![image](../img/invoice.png)
 
 Invoice Customization
 -----------------------

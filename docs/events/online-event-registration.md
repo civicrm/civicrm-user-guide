@@ -18,7 +18,7 @@ To offer online registration, check **Allow Online Registration** in the
 Online Registration step of event creation and use the options on this
 form to configure this feature.
 
-![](../img/event_online_rego_part_1.PNG)
+![image](../img/event_online_rego_part_1.PNG)
 
 Define the text to be used as the **link** from the event information
 page to the registration form, and set the starting and ending dates for
@@ -63,7 +63,7 @@ scheduled reminders)
 The next step is to define the text and the fields for collecting
 information that will be displayed on your online registration page.
 
-![](../img/event_online_rego_part_2.PNG)
+![image](../img/event_online_rego_part_2.PNG)
 
 The introductory text comes at the top of the page and the footer text
 at the bottom. In between will come some, or all, of: profile, fee
@@ -103,7 +103,7 @@ include in the profile if you have not already done so. Custom fields
 can be created for all events or all participants, or only specific
 Event Types or Participant Roles (see the chapter *Custom data on
 events* in this section for more details on where you should store what
-custom data).![](../img/Drag_and_drop* _profile_for_event.PNG)
+custom data).![image](../img/Drag_and_drop* _profile_for_event.PNG)
 
 Registration confirmation
 --------------------------
@@ -255,7 +255,7 @@ you get familiar with that chapter at some point. This section just
 covers contact matching and duplicate management in the context of
 CiviEvent.
 
-![](../img/event-duplicate-matching.png)
+![image](../img/event-duplicate-matching.png)
 
 By default, CiviEvent uses the Unsupervised rule to do matching. When
 you configure an event for online registration, you can override the

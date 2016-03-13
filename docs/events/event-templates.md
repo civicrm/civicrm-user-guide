@@ -25,10 +25,10 @@ Click **Events > Event Templates**.
 -   Common characteristics might include location, event fees, online
     registration settings, tell-a-friend settings, etc.
 
-![](../img/event_template_setup.png)
+![image](../img/event_template_setup.png)
 
 Once you've created an event template, you can select that template (as
 shown in the following screenshot) when you start to create a new event.
 Your event will be pre-filled with the saved configuration properties.
 
-![](../img/event_template_new.png)
+![image](../img/event_template_new.png)

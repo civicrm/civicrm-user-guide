@@ -21,7 +21,7 @@ Viewing Membership Reports
 Out-of-the-box, CiviCRM comes with several membership reports designed
 to tell you something specific about your membership:
 
-![](../img/membership%20report%20list_1.PNG) 
+![image](../img/membership%20report%20list_1.PNG) 
 
 
 The **Membership Summary** report shows information about members
@@ -30,31 +30,31 @@ year. For example, you can look at the number of members that have
 joined each month over a date range, membership types, or any other
 custom data that you collect about them. 
 
-![](../img/membership%20summary%20report.PNG)
+![image](../img/membership%20summary%20report.PNG)
 
 If you click on a highlighted field you will then see the corresponding
 **Membership Detail** report for that row. So clicking on **May 2015**
 for membership type **General** shows:
 
-![](../img/membership%20detail%20from%20summary%20report.PNG)
+![image](../img/membership%20detail%20from%20summary%20report.PNG)
 
 The **Membership Detail** report shows information for each
 membership record based on your selected criteria. 
 
-![](../img/membership%20detail%20report.PNG) 
+![image](../img/membership%20detail%20report.PNG) 
  
 
 The **Lapsed Memberships** report provides a list of memberships that
 lapsed or will lapse before the date you specify.
 
-![](../img/membership%20lapsed%20report.PNG) 
+![image](../img/membership%20lapsed%20report.PNG) 
 
 
 The **Contribution and Membership Details** report will display
 information details of a contributions and those contributions connected
 to a membership records based on your report criteria.
 
-![](../img/membership%20contribution%20report.PNG) 
+![image](../img/membership%20contribution%20report.PNG) 
 
 Creating New Membership Reports
 -------------------------------
@@ -68,7 +68,7 @@ offer , you can do so by using the membership templates.
 -   On the Create New Report Template screen, click on one of the
     membership report templates, and begin entering your criteria
 
-![](../img/memberships%20create%20new%20membership%20report_1.JPG)
+![image](../img/memberships%20create%20new%20membership%20report_1.JPG)
 
 -   Once you've entered your criteria, click the **Preview Report**
     button to check your results
@@ -101,7 +101,7 @@ To export membership records:
 -   You can select **Export PRIMARY fields** or **Select fields for
     import ** and click the **CONTINUE** button
 
-![](../img/memberships%20export%20memberships%20screen.JPG)
+![image](../img/memberships%20export%20memberships%20screen.JPG)
 
 -   If you selected **Export PRIMARY fields**, a file called
     CiviCRM_Member_Search.csv will be created containing the
@@ -114,4 +114,4 @@ To export membership records:
     membership records based on your search criteria and the fields you
     selected to export.
 
-![](../img/memberships%20select%20fields%20to%20export.JPG)
+![image](../img/memberships%20select%20fields%20to%20export.JPG)
