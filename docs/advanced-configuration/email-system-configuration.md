@@ -87,6 +87,7 @@ Mon, 26 Apr 2010 00:38:17 -0700 (PDT) Received-SPF: pass
 google.com: best guess record for domain of
 [youremail@example.org](mailto:youremail@example.org) designates
 12.45.120.30 as permitted sender) client-ip=12.45.120.30
+
 ```
 
 In particular:
@@ -339,10 +340,11 @@ in:
 ```
 PHP 5.2.3-1ubuntu6.5 (cli) (built: Feb 11 2009 19:55:53) Copyright (c)
 1997-2007
- The PHP Group Zend Engine v2.2.0, Copyright (c) 1998-2007
- Zend Technologies with eAccelerator v0.9.5.3, Copyright (c) 2004-2006
- eAccelerator, by eAccelerator
- ```
+The PHP Group Zend Engine v2.2.0, Copyright (c) 1998-2007
+Zend Technologies with eAccelerator v0.9.5.3, Copyright (c) 2004-2006
+eAccelerator, by eAccelerator
+
+```
  
 This means you have php-cli installed and you should use it, because it
 has several advantages:
@@ -363,14 +365,19 @@ requirements:
 CIVI_ROOT=/var/www/civicrm
 
 \# Comment: I believe these two lines are unnecessary.
+
 \# USER=www-data
+
 \# MAILTO="you@example.org"
 
 \# Location of the PHP Command Line Interface binary.
+
 \# nice -19 forces to run at a lower priority than the web server
+
 PHP=nice -n19 /usr/bin/php
 
 \# line to be modified according to the informations below
+
 \# like this: PARAMS= -j -s<default or domain> -u<user>
 -p<password> -e Job -a process_mailing
 
@@ -380,9 +387,13 @@ PARAMSBOUNCE= -j -sdefault -umailprocess -pseol-lzprm42amv-psyc -e Job
 -a fetch_bounces
 
 \# cronjob send
+
 \# m h dom mon dow command
+
 */5 * * * * cd $CIVI_ROOT; $PHP bin/cli.php $PARAMS
+
 */15 * * * * cd $CIVI_ROOT; $PHP bin/cli.php $PARAMSBOUNCE
+
 ```
 
 The user that run the scripts (*www-data* in this example) needs to be
