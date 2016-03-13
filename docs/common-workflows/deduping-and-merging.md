@@ -150,7 +150,7 @@ Using rules and merging duplicate contacts
     contacts meets or exceeds the rule's threshold score, the contacts
     will be displayed on the following screen of possible duplicates.
 4.  You will be presented with a list of possible duplicates with a few
-    show/hide tickboxes; Street Address, Post Code, Conflicts and Treshold.
+    show/hide tickboxes; Street Address, Post Code, Conflicts and Threshold.
 ![List of Possible Duplicates](../img/duplicates-list-of-possibles.png)
 
 4.  Clicking **Merge** for any pair of contacts brings up a table
@@ -168,17 +168,17 @@ Using rules and merging duplicate contacts
     -  Green indicates the information is the same
  for each contact. These can be hidden by clicking on **Show/hide rows with the same data on each contact record**.
     -  Red indicates the information is different for the two contacts. For each field, you can choose whether to keep the original data
-    shown on the right (don't check the check-box in the middle column),
-    or use the value from the duplicate contact instead (check the box).
+    shown on the right (don't tick the check-box in the middle column),
+    or use the value from the duplicate contact instead (tick the box).
     For the email addresses or phone numbers, you can decide to keep
-    both the value of the duplicate and of the original (check both the
+    both the value of the duplicate and of the original (tick both the
     checkbox in the middle column and the "add new" on the right column)
     to copy the duplicate data.
-    -  Yellow indicates a row where civicrm believes the data should be merged. Note that associated tags, groups and
-    activity data (including event attendance, contributions, etc.) will
-    appear in addition to data already recorded in the original record,
-    not in place of it. It is safer in general to keep the tags, groups
-    and activities of both contacts after the merge.
+    -  Yellow indicates a row where the default option is a tick in the  
+    check-box which means the data from the duplicate will be **added** to the data already 
+    in the original record. This applies to tags, groups and activity data 
+    (including event attendance, contributions, etc.).  If you untick 
+    the check-box the data belonging to the duplicate will be lost.
 7.  Click **Merge...** to complete the merge, or **Mark this pair as not
     a duplicate** if you believe the two contacts are not the same.
 8.  When marked as 'not a duplicate', those contacts will be excluded from
