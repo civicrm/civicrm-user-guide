@@ -51,7 +51,7 @@ Some examples:
 For example, this profile is being used to collect address information
 on a donation page.
 
-![](../img/baykeeper-profile.png)
+![image](../img/baykeeper-profile.png)
 
 ### Displaying information on public pages
 
@@ -442,17 +442,17 @@ In WordPress, there is an additional third way. When creating or editing
 a post, click on the CiviCRM button to insert a CiviCRM shortcode into
 the post.
 
-![](../img/2013-09-04_15-29-47_1.png)
+![image](../img/2013-09-04_15-29-47_1.png)
 
 On the popup form, select Profile as the desired frontend element.
 
-![](../img/2013-09-04_15-15-35.png)
+![image](../img/2013-09-04_15-15-35.png)
 
 Use the second select widget to specify the profile you would like to
 use. Finally, select the purpose of the form — create, edit or view —
 and click Insert Form.
 
-![](../img/2013-09-04_15-16-45.png)
+![image](../img/2013-09-04_15-16-45.png)
 
 ### Multi-value fields in profiles
 
@@ -465,7 +465,7 @@ that the multi-value custom data appears slightly differently in the
 profile to facilitate adding, editing and deleting multiple instances of
 these records.
 
-![](../img/multi-value-profile.png)
+![image](../img/multi-value-profile.png)
 
 ### Making directories with Profiles
 

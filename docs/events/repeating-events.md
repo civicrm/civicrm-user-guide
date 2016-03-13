@@ -7,11 +7,11 @@ end date and include dates to exclude from the repetition.
 To access the **Repeat Events** screen go to **Manage Events**, then
 under the **Configure** select **Repeat** from the dropdown.
 
-![](../img/Repeating%20Events.png)
+![image](../img/Repeating%20Events.png)
 
 **Repeat Event Page**
 
-![](../img/Repeting%20Event%20Page.png)
+![image](../img/Repeting%20Event%20Page.png)
 
 Once you are in the **Repeat Event Screen** you must specify the
 Repeating intervals (in hours, days, weeks, months, or years), and Event
@@ -28,5 +28,5 @@ Once you have filled out all the appropriate fields click
 **Save,**to save your selection**.**You will have a popup window that
 will prompt you to **Continue** with your selection. 
 
-![](../img/Repeated%20Event.png)
+![image](../img/Repeated%20Event.png)
 

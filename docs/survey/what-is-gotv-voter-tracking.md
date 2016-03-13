@@ -37,5 +37,5 @@ On the GOTV (Voter Tracking) screen:
 -   You can float your cursor over the "individual contact" icon next to
     a person's name to find out more information about that individual
 
-![](../img/GOTV%20tracking.jpg) 
+![image](../img/GOTV%20tracking.jpg) 
 

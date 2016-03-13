@@ -92,4 +92,4 @@ petition.
 1. 
 Click **Save** to save the petition information.
 
-![](../img/petition_new.png)
+![image](../img/petition_new.png)

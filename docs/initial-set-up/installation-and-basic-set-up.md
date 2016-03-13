@@ -81,7 +81,7 @@ red. After you have visited a page, the links will display in green
 (although you may still need to revisit the page to complete or update
 the settings).
 
-![](../img/Configuration_Checklist_4_4.png)
+![image](../img/Configuration_Checklist_4_4.png)
 
 ### Localization
 
@@ -465,7 +465,7 @@ automated emails. If you've already entered an email address in the
 Domain Information screen, that address will be listed here (as
 illustrated on the leftmost field of the following screenshot).
 
-![](../img/From%20email.PNG)
+![image](../img/From%20email.PNG)
 
 When users send an email using CiviCRM, their primary email address is
 used as the From address by default. However, they can also select one

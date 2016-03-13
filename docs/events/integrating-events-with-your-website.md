@@ -30,7 +30,7 @@ steps:
 In WordPress you can also use the CiviCRM icon 'shortcode' to insert the
 event registration form into the Page or Post
 
-![](../img/Wordpress-Shortcodes-small.png)
+![image](../img/Wordpress-Shortcodes-small.png)
 
 In Drupal, the **views** module gives many options for displaying lists
 of content, including the ability to create an automatically updating

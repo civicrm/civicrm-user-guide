@@ -73,18 +73,18 @@ Inserting an image in an email
 
 Click the **image button** in the WYSIWYG editor.
 
-![](../img/Screen%20Shot%202015-04-25%20at%203.06.40%20PM.png)
+![image](../img/Screen%20Shot%202015-04-25%20at%203.06.40%20PM.png)
 
 The Image Properties window will appear. Click **Browse Server** to look
 for image files on your server.
 
-![](../img/civimail_window%20to%20browse%20server%202.jpg)
+![image](../img/civimail_window%20to%20browse%20server%202.jpg)
 In the left sidebar, you will see a directory of files. If the image you
 need is already uploaded to your server, navigate to it in the directory
 and select it. If not, Click **Upload** to choose a file from your
 computer.
 
-![](../img/civimail_file%20directory%203.jpg)
+![image](../img/civimail_file%20directory%203.jpg)
 
 Your computer's file-browsing window will open. Find the image file you
 want,
@@ -105,7 +105,7 @@ images to make email accessible to all user communities.
 
 Click **OK** to insert the image.
 
-![](../img/civimail_Insert%20image%206.jpg)
+![image](../img/civimail_Insert%20image%206.jpg)
 
 Sending a mass mailing through CiviMail
 ---------------------------------------
@@ -218,7 +218,7 @@ for this email. Selecting a template populates the HTML Format and
 Plain-Text Format fields with the message content from the template. You
 can then edit that content. You can also update the template, either
 changing the original template or saving it as a new template.
-![](../img/CiviMail%20Mailing%20Naming%20.png)
+![image](../img/CiviMail%20Mailing%20Naming%20.png)
 
 3.
 **From**: Select the sender email address for this mailing from the dropdown list.
@@ -395,7 +395,7 @@ information on all of the tracked actions, including the number of
 opens, link click-throughs or the percentage of bounces (see "Managing
 bounces" below).
 
-![](../img/CiviCRM_mailing_basicstatistics_1.png)
+![image](../img/CiviCRM_mailing_basicstatistics_1.png)
 
 To expand on this information, click the name of one of the statistics
 to display a list of the contacts to whom it applies, and various other
@@ -413,7 +413,7 @@ to look for all contacts who opened the email, ready for you to add
 extra criteria. For more information on advanced searches, see
 "Searching".
 
-![](../img/CiviCRM_mailing_advancedsearch.png)
+![image](../img/CiviCRM_mailing_advancedsearch.png)
 
 Managing mass mailings
 ----------------------
