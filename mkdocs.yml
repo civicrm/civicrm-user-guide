@@ -31,7 +31,7 @@ pages:
     - 'CiviCRM System Status': 'initial-set-up/civicrm-system-status.md'
 - Advanced configuration:
     - 'Email system configuration': 'advanced-configuration/email-system-configuration.md'
-    - 'Logging': 'advanced-configuration/logging.md'
+    - 'Logging': 'advanced-configuration/change-logging.md'
 - The user interface:
     - 'Menu, dashboard and dashlets': 'the-user-interface/menu-dashboard-and-dashlets.md'
     - 'Keyboard shortcuts': 'the-user-interface/keyboard-shortcuts.md'
