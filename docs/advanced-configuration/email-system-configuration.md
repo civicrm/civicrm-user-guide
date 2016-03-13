@@ -362,11 +362,11 @@ requirements:
 # This must be set to the directory where civicrm is installed.
 CIVI_ROOT=/var/www/civicrm
 
- # Comment: I believe these two lines are unnecessary.
+# Comment: I believe these two lines are unnecessary.
 # USER=www-data
 # MAILTO="you@example.org"
 
- # Location of the PHP Command Line Interface binary.
+# Location of the PHP Command Line Interface binary.
 # nice -19 forces to run at a lower priority than the web server
 PHP=nice -n19 /usr/bin/php
 
