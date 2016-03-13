@@ -12,7 +12,7 @@ Examples of scheduled jobs include:
 -   the event waiting list job, which invites people on the waiting list
     to register for events when spaces become available
 -   the CiviMail send and process script which handle the sending and
-    processing of emails (to
+    processing of emails
 -   the CiviReport scripts which handle the emailing of reports on a
     regular basis.
 
