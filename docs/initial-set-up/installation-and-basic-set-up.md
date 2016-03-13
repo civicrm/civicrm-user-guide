@@ -113,7 +113,7 @@ Under Localization you will also find the **Advanced Date Input Settings**.
 By default, CiviCRM provides ranges for input on specific date fields. For instance,
  the default range for Activity Dates are 20 years prior to the current year all the way through to 10 years beyond the current year. If you would like to track activities that have occurred, say, 25 years ago then you would need to update this range to enable your end users to log these activities. To update these settings to the appropriate range go to **Administer > Localization > Date Formats > Advanced Date Input Settings**. If you were to leave these settings as the default you will see an error such as this:
 
-![Advanced Date Input Settings](configure-localization-advanced-date-input-settings.png)
+![Advanced Date Input Settings](../img/configure-localization-advanced-date-input-settings.png)
 
 ### Organization Address and Contact Info
 
@@ -239,7 +239,7 @@ Settings screen and make changes as needed.
         the Street Address Parsing function. When address parsing is turned on you can edit and or view
         the parsed address by clicking on Edit Address Elements when you are editing a address.
 
-      ![address-parsing](basic-set-up-address parsing.png)  
+    ![Configuration Address Parsing](../img/basic-set-up-address-parsing.png)  
 
    You can learn more about USPS' Postal Addressing Standards at          [http://pe.usps.com/text/pub28/welcome.htm](http://pe.usps.com/text/pub28/welcome.htm).
 -   **Address Standardization** - CiviCRM includes an optional feature
