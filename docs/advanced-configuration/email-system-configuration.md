@@ -343,7 +343,7 @@ PHP 5.2.3-1ubuntu6.5 (cli) (built: Feb 11 2009 19:55:53) Copyright (c)
  Zend Technologies with eAccelerator v0.9.5.3, Copyright (c) 2004-2006
  eAccelerator, by eAccelerator
  ```
-
+ 
 This means you have php-cli installed and you should use it, because it
 has several advantages:
 
@@ -359,19 +359,19 @@ The following is complete cron configuration to handle CiviCRM's mail
 requirements:
 
 ```
-# This must be set to the directory where civicrm is installed.
+\# This must be set to the directory where civicrm is installed.
 CIVI_ROOT=/var/www/civicrm
 
-# Comment: I believe these two lines are unnecessary.
-# USER=www-data
-# MAILTO="you@example.org"
+\# Comment: I believe these two lines are unnecessary.
+\# USER=www-data
+\# MAILTO="you@example.org"
 
-# Location of the PHP Command Line Interface binary.
-# nice -19 forces to run at a lower priority than the web server
+\# Location of the PHP Command Line Interface binary.
+\# nice -19 forces to run at a lower priority than the web server
 PHP=nice -n19 /usr/bin/php
 
-# line to be modified according to the informations below
-# like this: PARAMS= -j -s<default or domain> -u<user>
+\# line to be modified according to the informations below
+\# like this: PARAMS= -j -s<default or domain> -u<user>
 -p<password> -e Job -a process_mailing
 
 PARAMS= -j -sdefault -umailprocess -pseol-lzprm42amv-psyc -e Job -a
@@ -379,8 +379,8 @@ process_mailing
 PARAMSBOUNCE= -j -sdefault -umailprocess -pseol-lzprm42amv-psyc -e Job
 -a fetch_bounces
 
- # cronjob send
-# m h dom mon dow command
+\# cronjob send
+\# m h dom mon dow command
 */5 * * * * cd $CIVI_ROOT; $PHP bin/cli.php $PARAMS
 */15 * * * * cd $CIVI_ROOT; $PHP bin/cli.php $PARAMSBOUNCE
 ```
