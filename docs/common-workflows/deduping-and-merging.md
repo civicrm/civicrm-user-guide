@@ -63,7 +63,7 @@ Firstly view the dedupe rules. Go to **Contacts > Find and Merge
 Duplicate Contacts** in the navigation menu. This displays the following
 screen:
 
-![image](../img/find-merge-duplicate-contacts.png)
+![Duplicate Choose Find Rule](../img/duplicates-choose-find-rule.png)
 
 From the screen, here's an example of a process to dedupe all
 individuals in your data:
@@ -72,6 +72,7 @@ individuals in your data:
     click the **Use Rule** link (contact type "Individual" at the usage
     "unsupervised").
 2.  Select **All Contacts** or a particular group.
+![duplicates-select-group](../img/duplicates-select-group.png)
 3.  Click **Continue**.
 4.  If duplicates are found, merge or delete the duplicate contacts.
 5.  Now look for duplicates using a "supervised" or "general" rule to
@@ -148,8 +149,10 @@ Using rules and merging duplicate contacts
     assigned will be scanned and compared. If the match between two
     contacts meets or exceeds the rule's threshold score, the contacts
     will be displayed on the following screen of possible duplicates.
-4.  You will be presented with a list of possible duplicates with a few 
+4.  You will be presented with a list of possible duplicates with a few
     show/hide tickboxes; Street Address, Post Code, Conflicts and Treshold.
+![List of Possible Duplicates](../img/duplicates-list-of-possibles.png)
+
 4.  Clicking **Merge** for any pair of contacts brings up a table
     showing details for each contact. CiviCRM designates one record as
     the duplicate record and displays its information in the left
@@ -158,21 +161,27 @@ Using rules and merging duplicate contacts
     merged.
 5.  If you want to move the information in the opposite direction, you
     can swap the duplicate and original contacts by choosing **Flip
-    between original and duplicate contacts** at the top of the page.
-6.  For each field, you can choose whether to keep the original data
+    between original and duplicate contacts** at the top of the page.  
+![Duplicate Merge Screen](../img/duplicate-merge-screen.png)  
+
+6.  The rows on the merge screen are colour-coded.
+    -  Green indicates the information is the same
+ for each contact. These can be hidden by clicking on **Show/hide rows with the same data on each contact record**.
+    -  Red indicates the information is different for the two contacts. For each field, you can choose whether to keep the original data
     shown on the right (don't check the check-box in the middle column),
     or use the value from the duplicate contact instead (check the box).
     For the email addresses or phone numbers, you can decide to keep
     both the value of the duplicate and of the original (check both the
     checkbox in the middle column and the "add new" on the right column)
-    to copy the duplicate data. Note that associated tags, groups and
+    to copy the duplicate data.
+    -  Yellow indicates a row where civicrm believes the data should be merged. Note that associated tags, groups and
     activity data (including event attendance, contributions, etc.) will
     appear in addition to data already recorded in the original record,
     not in place of it. It is safer in general to keep the tags, groups
     and activities of both contacts after the merge.
 7.  Click **Merge...** to complete the merge, or **Mark this pair as not
     a duplicate** if you believe the two contacts are not the same.
-8.  When marked as 'not a duplicate', those contacts will be excluded from 
+8.  When marked as 'not a duplicate', those contacts will be excluded from
     all dedupe reults listings.
 
 Merging contacts from search results
@@ -185,7 +194,7 @@ way to clean up your database during your everyday workflow with minimal
 disruption.
 
 1.  Select the duplicate contacts from your search results by clicking
-    the check box at the left side of each record. 
+    the check box at the left side of each record.
 2.  Select **Merge Contacts** from the **- more actions -** menu.
 3.  Click **Go**.
 4.  Follow the normal steps for merging duplicate contacts.
@@ -231,4 +240,3 @@ take note of the following:
 3.  Duplicate records, once merged, will be deleted and are not
     recoverable. We strongly recommend backing up your data before
     running a batch merge.
-
