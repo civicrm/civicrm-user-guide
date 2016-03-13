@@ -138,8 +138,8 @@ Using rules and merging duplicate contacts manually
     will be displayed on the following screen of possible duplicates.
     You will be presented with a list of possible duplicates with a few
     show/hide tickboxes; Street Address, Post Code, Conflicts and Threshold.  
-    
- ![List of Possible Duplicates](../img/duplicates-list-of-possibles.png)  
+
+  ![List of Possible Duplicates](../img/duplicates-list-of-possibles.png)  
 
 4.  Clicking **Merge** for any pair of contacts brings up a table
     showing details for each contact. CiviCRM designates one record as
@@ -179,7 +179,7 @@ This can be done from the possible duplicates screen where you can display up to
 
    ![List of Possible Duplicates Batch Merge](../img/duplicate-list-of-possibles-detail.png)
 
-You can **Batch Merge All Duplicates** (This will merge **all** duplicates found, 
+You can **Batch Merge All Duplicates** (This will merge **all** duplicates found,
 not just those displayed on your screen) or **Batch Merge Selected Duplicates**
 ie those you have selected by ticking the box on the left of the row.  These
  batch merging options are displayed beneath the list of duplicates discovered.
@@ -187,7 +187,7 @@ In the same area you will find **Flip Selected Duplicates**. When duplicates
  are merged Contact 1 is kept and contact 2 is merged then deleted, so sometimes
  you may want to switch the order of the records before merging.
 
-The batch merging feature will merge all contacts under the given rule 
+The batch merging feature will merge all contacts under the given rule
 together or all selected contacts, provided
 there are no data conflicts. For instance, two individuals named
 "Michael Blake" may have been matched based on identical first and last
