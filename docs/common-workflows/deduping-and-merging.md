@@ -65,24 +65,6 @@ screen:
 
 ![Duplicate Choose Find Rule](../img/duplicates-choose-find-rule.png)
 
-From the screen, here's an example of a process to dedupe all
-individuals in your data:
-
-1.  Start by looking for dupes using the "Individual unsupervised" rule:
-    click the **Use Rule** link (contact type "Individual" at the usage
-    "unsupervised").
-2.  Select **All Contacts** or a particular group.
-![duplicates-select-group](../img/duplicates-select-group.png)
-3.  Click **Continue**.
-4.  If duplicates are found, merge or delete the duplicate contacts.
-5.  Now look for duplicates using a "supervised" or "general" rule to
-    find those that were missed with the stricter rule: click the **Use
-    Rule** link for "Individual supervised" (contact type "Individual"
-    at the usage "supervised").
-6.  Select **All Contacts** or a particular group.
-7.  Click **Continue**.
-8.  If duplicates are found, merge or mark them as 'not a duplicate'.
-
 Different rules are configured for each contact type (individuals,
 organizations, and households.) A default supervised rule and a default
 unsupervised rule is set for each contact type. The default rules are
@@ -135,14 +117,19 @@ rule. After each field is checked, if the total weight is equal to or
 greater than the numerical threshold set for the rule, the contacts
 being compared are flagged as suspected duplicates.
 
-Using rules and merging duplicate contacts
+Using rules and merging duplicate contacts manually
 ------------------------------------------
 
 1.  Go to **Contacts > Find and Merge Duplicate Contacts**.
 2.  Click the **Use Rule** link to scan for duplicate contacts using the
     selected rule.
+
 3.  You can then select to search all contacts for duplicates or to
-    limit the search to a particular group. If you choose to limit the
+    limit the search to a particular group.   
+
+    ![duplicates-select-group](../img/duplicates-select-group.png)  
+
+    If you choose to limit the
     search to a specific group, CiviCRM looks for duplicates where at
     least one of the contacts in any identified duplicate pair is in
     your selected group. Contacts of the type to which the rule is
@@ -175,37 +162,32 @@ Using rules and merging duplicate contacts
     checkbox in the middle column and the "add new" on the right column)
     to copy the duplicate data.
     -  Yellow indicates a row where the default option is a tick in the  
-    check-box which means the data from the duplicate will be **added** to the data already 
-    in the original record. This applies to tags, groups and activity data 
-    (including event attendance, contributions, etc.).  If you untick 
+    check-box which means the data from the duplicate will be **added** to the data already
+    in the original record. This applies to tags, groups and activity data
+    (including event attendance, contributions, etc.).  If you untick
     the check-box the data belonging to the duplicate will be lost.
 7.  Click **Merge...** to complete the merge, or **Mark this pair as not
     a duplicate** if you believe the two contacts are not the same.
 8.  When marked as 'not a duplicate', those contacts will be excluded from
-    all dedupe reults listings.
-
-Merging contacts from search results
-------------------------------------
-
-If you notice duplicate contacts within a set of search results you can
-quickly merge them directly from the search results instead of using the
-separate **Find and Merge Duplicate Contacts** process. This is a great
-way to clean up your database during your everyday workflow with minimal
-disruption.
-
-1.  Select the duplicate contacts from your search results by clicking
-    the check box at the left side of each record.
-2.  Select **Merge Contacts** from the **- more actions -** menu.
-3.  Click **Go**.
-4.  Follow the normal steps for merging duplicate contacts.
+    all dedupe results listings.
 
 Merging multiple contacts simultaneously
 ----------------------------------------
+Sometime it is appropriate to merge multiple pairs of duplicates at the same time.
+This can be done from the possible duplicates screen where you can display up to 100 rows.
 
-Once a dedupe rule has been used, the option to "Batch Merge Duplicates"
-will be available beneath the list of duplicates discovered. This
-feature will merge all contacts under the given rule together, provided
-their are no data conflicts. For instance, two individuals named
+   ![List of Possible Duplicates Batch Merge](../img/duplicate-list-of-possibles-detail.png)
+
+You can **Batch Merge All Duplicates** or **Batch Merge Selected Duplicates**
+ie those you have selected by ticking the box on the left of the row.  These
+ batch merging options are displayed beneath the list of duplicates discovered.
+In the same area you will find **Flip Selected Duplicates**. When duplicates
+ are merged Contact 1 is kept and contact 2 is merged then deleted, so sometimes
+ you may want to switch the order of the records before merging.
+
+The batch merging feature will merge all contacts under the given rule 
+together, provided
+there are no data conflicts. For instance, two individuals named
 "Michael Blake" may have been matched based on identical first and last
 name, with neither having an email address on record. If the data held
 on both contacts is either exactly the same, or one contact contains
@@ -240,3 +222,35 @@ take note of the following:
 3.  Duplicate records, once merged, will be deleted and are not
     recoverable. We strongly recommend backing up your data before
     running a batch merge.
+
+## A multi-stage deduping process
+
+Often just using one deduping rule will mean some duplicate remain in your system.
+One process way to apply multiple systematically is given below. If you individual unsupervised rule is strict enough then you may be able to batch de-dupe during the first stage then dedupe manually for the second stage.
+1.  Start by looking for dupes using the "Individual unsupervised" rule:
+    click the **Use Rule** link (contact type "Individual" at the usage
+    "unsupervised").
+2.  Select **All Contacts** or a particular group.
+3.  Click **Continue**.
+4.  If duplicates are found, merge or delete the duplicate contacts.
+5.  Now look for duplicates using a "supervised" or "general" rule to
+    find those that were missed with the stricter rule: click the **Use
+    Rule** link for "Individual supervised" (contact type "Individual"
+    at the usage "supervised").
+6.  Select **All Contacts** or a particular group.
+7.  Click **Continue**.
+8.  If duplicates are found, merge or mark them as 'not a duplicate'.
+
+
+##  Merging contacts from search results
+
+If you notice duplicate contacts within a set of search results you can
+quickly merge them directly from the search results instead of using the
+separate **Find and Merge Duplicate Contacts** process. This is a great
+way to clean up your database during your everyday workflow with minimal
+disruption.
+
+1.  Select the duplicate contacts from your search results by clicking
+    the check box at the left side of each record.
+2.  Select **Merge Contacts** from the ** Actions** menu.
+3.  Follow the normal steps for merging duplicate contacts.
