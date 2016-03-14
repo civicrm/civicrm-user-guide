@@ -126,6 +126,7 @@ Scheduled reminders can be based on any combination of core and
     custom activity types.
 
 Options include:
+
 -   sending to contacts with the specified activity types and any combination of
     activity statuses. (e.g., scheduled and/or completed and/or
     cancelled)
@@ -155,9 +156,11 @@ You can set up emails to be sent out to your contributors based on the page
 they donated through or the contribution/financial type of their donation.
 
 Options include:
+
 -  sending to contacts who contributed through the selected contribution
-page(s) with any combination of contribution statuses.
--  sending to contacts who made a contribution of the selected financial type(s) with any combination of contribution statuses.
+   page(s) with any combination of contribution statuses.
+-  sending to contacts who made a contribution of the selected financial 
+-  type(s) with any combination of contribution statuses.
 
 
 Using scheduled reminders for memberships
