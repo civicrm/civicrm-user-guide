@@ -160,7 +160,7 @@ Options include:
 -  sending to contacts who contributed through the selected contribution
    page(s) with any combination of contribution statuses.
 -  sending to contacts who made a contribution of the selected financial 
--  type(s) with any combination of contribution statuses.
+   type(s) with any combination of contribution statuses.
 
 
 Using scheduled reminders for memberships
