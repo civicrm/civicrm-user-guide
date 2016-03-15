@@ -28,9 +28,9 @@ configuration pages.
 In addition to the standard tokens (see *Tokens and mail merge* in
 *Common workflows* for a full explanation of tokens) that are available
 in CiviMail, messages sent via scheduled reminders can also contain
-tokens representing information about events, activities and memberships
- that the scheduled reminder pertains to. This allows you to use one
-  scheduled reminder template for various events, membership, contribution
+tokens representing information about events, activities, contributions
+and memberships that the scheduled reminder pertains to. This allows you to use
+one scheduled reminder template for various events, membership, contribution
 or activity types.
 
 In event messages, tokens such as event location will be replaced with
@@ -50,7 +50,8 @@ Scheduled reminders can be created from the administration page at
 **Administer > Communications > Schedule Reminders** or during the
 creation of an event.
 
-When you click on **Add Reminder** under **Administer > Communications > Schedule Reminders.** The exact options that are visible depend on the
+When you click on **Add Reminder** under **Administer > Communications >
+Schedule Reminders.** The exact options that are visible depend on the
 **Entity** chosen but all scheduled reminders are fairly similar. The
 general process is:
 
@@ -95,7 +96,7 @@ Scheduled Reminders scheduled job is enabled and runs at least once a
 day. Refer to the [Scheduled Jobs](../initial-set-up/scheduled-jobs)
 section for configuration details.  
 
-Using scheduled reminders for Contacts
+Using scheduled reminders for contacts
 --------------------------------------
 
 These can be based on:
@@ -123,13 +124,13 @@ Using scheduled reminders for activities
 ----------------------------------------
 
 Scheduled reminders can be based on any combination of core and
-    custom activity types.
+custom activity types.
 
 Options include:
 
--   sending to contacts with the specified activity types and any combination of
-    activity statuses. (e.g., scheduled and/or completed and/or
-    cancelled)
+-  sending to contacts with the specified activity types and any
+   combination of activity statuses. (e.g., scheduled and/or completed
+   and/or cancelled)
 -   sending only to the Activity Assignees (those in the Assigned To
     field) or only to the Activity Targets (those in the With Contact
     field) or only to Activity Sources (the logged-in user who added the
@@ -159,7 +160,7 @@ Options include:
 
 -  sending to contacts who contributed through the selected contribution
    page(s) with any combination of contribution statuses.
--  sending to contacts who made a contribution of the selected financial 
+-  sending to contacts who made a contribution of the selected financial
    type(s) with any combination of contribution statuses.
 
 
@@ -215,7 +216,7 @@ pending because payment has not been received:
     important as if we don't set this, all members (even those that have
     already paid) will receive the message.
 
-Using scheduled reminders for Events
+Using scheduled reminders for events
 ------------------------------------
 
 Event reminders can be set up via the Scheduled Reminders administration

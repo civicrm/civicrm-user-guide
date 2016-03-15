@@ -1,26 +1,21 @@
 What is CiviContribute?
 =======================
 
-CiviContribute supports fundraising and related money management. It has
-two main uses:
+CiviContribute is the component that lets you record and report on financial
+and in-kind contributions to you organization.  It allows you to:
 
--   to facilitate fundraising campaigns and collection of donations, and
--   to support activities by other CiviCRM components that have
-    financial elements, such as collecting and recording payments in the
-    Events and Member components.
+-  accept donations and other financial or in-kind contributions
+-  process membership signups and renewals
+-  accept and manage events fees.
+-  run specific fundraising campaigns
+-  let your supporters fundraise for you through personalised campaign pages
+-  quickly enter contribution and membership payments using "batches"
+-  export batches of financial transactions to import to your accounting software
+-  report and evaluate fundraising results and trends
 
-CiviContribute offers a number of tools for raising money through your
-web site. For example, you can create contribution pages with
-fundraising targets, and configure a thermometer-style widget for each
-contribution page which can be embedded on other web sites and blogs.
-Personal campaign pages (e.g. sponsor my 10K run for... *the name of
-your organisation*) and the "tell-a-friend" functionality engage your
-supporters in raising money for your organization and give them credit
-for any money that they raise from other people on your behalf.
-
-Several other CiviCRM components require CiviContribute to be enabled
-for collection and tracking of associated payments or fees. To use
-CiviContribute you will need to configure a payment processor.
+Throughout CiviCRM, the term *contribution* refers to any financial
+transaction or payment taking place in the system such as a donation,
+event fee payment or membership fee payment and includes in-kind contributions.
 
 Scenario: Contributing to Leadership
 ------------------------------------
