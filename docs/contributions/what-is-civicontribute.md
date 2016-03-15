@@ -2,7 +2,7 @@ What is CiviContribute?
 =======================
 
 CiviContribute is the component that lets you record and report on financial
-and in-kind contributions to you organization.  It allows you to:
+and in-kind contributions to your organization.  It allows you to:
 
 -  accept donations and other financial or in-kind contributions
 -  process membership signups and renewals
