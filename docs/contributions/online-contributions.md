@@ -19,7 +19,7 @@ organisation's accounting needs.
 -  This contribution page has to be manually enabled or disabled, but you can
    set a **start date** and **end date** that will apply for a Contribution
    Widget and [Personal Campaign Pages](../contributions/personal-campaign-pages). (optional)
--  Choose whether or not to accept [Honoree soft crediting.](..contributions/soft-credits)
+-  Choose whether or not to accept [Honoree soft crediting.](../contributions/soft-credits)
 -  Choose to use a confirmation page where users can check all details are
    correct or to process the payment as soon as the contribution form is submitted.
 -  Choose whether or not to display social media links on online pages and in
@@ -51,7 +51,7 @@ You will now be on the (Contribution) **Amounts** tab.
     options), OR enter up to 10 fixed contribution amounts in the table at the bottom of the page.)
 -  You can check **Recurring contributions** if you payment processor and its integration with CiviCRM support recurring billing and you want to allow this feature. (There are restrictions on recurring payments when [membership fees](../membership/defining-memberships) are being paid.) If you check **Recurring contributions** further settings become visible.
 -  Check the **Pledges** box to give users the opportunity to [pledge
-    future payments](../pledges).
+    future payments](../pledges/what-is-civipledge).
 -  Decide on the label for the Contribution amount area on your page.
 -  Check **Allow other amounts** to give users the option to pay any
     amount they choose. You can set a minimum and a maximum amount for "Other Amount" contributions if you want to.
