@@ -6,24 +6,20 @@ This chapter describes the steps needed to set up a petition.
 The CiviCampaign component must be enabled before you can use Petition.
 See the section *Campaign* for information about this.
 
-Set Drupal permissions
+Set CMS permissions
 ----------------------
 
-For Drupal sites, you will need to set the appropriate Drupal
-permissions so that specific roles can sign the petition, particularly
-anonymous users if you're planning to make the petition public.
+You will need to set the appropriate CMS permissions so that specific roles can
+sign the petition. In particular, anonymous users should be granted permission
+if you're planning to make the petition public.
 
-1.  Go to Drupal Adminstration page and go to the Permissions page (if
-    you don't see the Drupal Administration menu, then you do not have
-    appropriate permissions to do this).
-2.  Under **Civicrm**module area check the permission boxes: **Sign
-    CiviCRM Petition, Profile Create,**and**Access all Custom Data,**
-    for the roles you require. For example, if this is to be a public
-    petition, you must check these boxes for anonymous users and
-    authenticated users.
-
-To learn more about setting Drupal permissions, go to the Drupal
-documentation at [http://drupal.org.](http://drupal.org.)
+1.  Go your Drupal, Joomla!, or WordPress Access Control page, which is linked
+    from **Administer > Users and Permissions > Permissions (Access Control)**.
+2.  Grant the following permissions--**Sign CiviCRM Petition**, **Profile
+    Create**, and **Access all Custom Data**--for the roles you require. For
+    example, if this is to be a public petition, you must grant these
+    permissions for anonymous users and authenticated users ("Guest" in Joomla!
+    or "Subscriber" in WordPress).
 
 Create two Custom Profiles
 --------------------------
@@ -50,7 +46,7 @@ for each individual who signs the petition.
 3.  Under **Administer > Customize Data and Screens > Profiles** add a
     profile for the petition responses. Select **Activity** from the Field
     Name drop down menu, then select from the custom fields you created.
-    
+
 
 For both profiles, you may want to select the following settings in the
 **Advanced Setting** area:
@@ -74,7 +70,7 @@ Once you have created the two profiles, you are ready to create a
 petition.
 
 1.  Go to **Campaigns > New Petition**, then enter the following
-    information about your petition: 
+    information about your petition:
 
  -   **Petition Title** (required): enter the name of your petition.
  -   **Introduction**: enter text describing what your petition is
@@ -89,7 +85,7 @@ petition.
  -   **Is Active?:** check this box to make your petition active.
  -   **Is Default?**: check this box to make your petition default.
 
-1. 
+1.
 Click **Save** to save the petition information.
 
 ![image](../img/petition_new.png)
