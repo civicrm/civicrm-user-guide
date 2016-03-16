@@ -13,7 +13,7 @@ When an individual responds to a petition, an activity record of the
 type Petition is created that contains the individual's responses to the
 petition questions.
 
-Petitions are essentially online surveys. 
+Petitions are essentially online surveys.
 
 ### Petitions and campaigns
 
@@ -30,30 +30,32 @@ activities in the campaign.
 
 ### Profiles and custom fields
 
-Using petitions in CiviCRM requires setting up two profiles. One profile
-is to capture basic contact information, including email address.
-Capturing email addresses via petitions is necessary to validate and
-accurately verify the submission and count signatures, especially since
-you won't want to count multiple submissions from a single person. The
-other profile contains custom activity fields that hold the responses to
-the petition questions.
+When a site visitor signs a petition, a contact is saved and an activity is
+created.  Profiles are used to display the fields for each.
 
-You will want prepare your questions and the standard responses, if any,
-you want to gather before creating your custom field sets and custom
-profiles.
+The **contact profile** collects information about the signer of the petition,
+including their email address. Capturing email addresses via petitions is
+necessary to validate and accurately verify the submission and count signatures,
+especially since you won't want to count multiple submissions from a single
+person. This profile is required, and it must include an email address field.
+
+The **activity profile** may be used to collect information specific to the
+petition signature.
+
+First, you will want prepare the custom fields to store any questions you would
+like to ask on the petitions.  Then, create the profiles, and finally, select
+the profiles when you create the petition.
 
 To learn more about how to create custom field sets, see the chapter on
 *Creating Custom Fields* in the section *Organising Your Data*. To learn how to
 create a custom profile, see *Profiles* in the section *Organising your
 Data*.
 
-### Drupal Permissions
+### CMS Permissions
 
-If you are using Drupal, you need to set permissions to allow specific
-roles to Sign CiviCRM Petitions. Refer to the next chapter called Set-up
-in this section, to find out what permissions you'll need to allow. To
-learn more about setting Drupal permissions, go to the Drupal
-documentation at [http://drupal.org](http://drupal.org).
+You need to set permissions to allow specific roles to Sign CiviCRM Petitions.
+Refer to the next chapter called Set-up in this section, to find out what
+permissions you'll need to allow.
 
 Key Questions
 -------------
@@ -70,4 +72,3 @@ questions before creating your petition:
 -   What do you plan to do with the results from the petition?
 -   What follow-up activities are you planning to continue communicating
     and building a relationship with petition signers?
-
