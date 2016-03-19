@@ -1,7 +1,7 @@
 About this book
 ===============
 
-This book is a guide for users and administrators of CiviCRM, covering
+This book is a guide for users and administrators of CiviCRM, that covers
 everything that normal users and administrators of CiviCRM need to know
 to work with CiviCRM on a day to day basis. Our aim is to cover all
 functionality that is available via CiviCRM's user interface.
