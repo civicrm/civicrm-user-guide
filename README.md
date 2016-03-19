@@ -2,7 +2,7 @@
 
 Note: This repository contains _source files_ for the CiviCRM user and administrator guide. It is intended for use by people that want to contribute to the guide.
 
-If you just want to read the guide, ** [click here to read the published CiviCRM user guide.](http://gitbook.civicrm.org/) **
+If you just want to read the guide, **[click here to read the published CiviCRM user guide.](http://gitbook.civicrm.org/)**
 
 ## Contributing to this manual
 
