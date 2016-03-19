@@ -8,7 +8,7 @@ If you just want to read the guide, **[click here to read the published CiviCRM 
 
 To edit this manual:
 
-1. [Sign up for a github account](https://github.com/join) (if you don't already have one) and [login](https://github.com/login).
+1. [Sign up for a github account](https://github.com/join) and [login](https://github.com/login).
 2. Visit the [CiviCRM user guide repository](https://github.com/civicrm/civicrm-user-guide]) and find the page you want to edit, e.g. [Is CiviCRM for You?](https://github.com/civicrm/civicrm-user-guide/tree/master/getting-prepared/is-civicrm-for-you).
 3. Click on the edit button to create a fork of the manual and make your changes
 4. Submit your changes for review and include a message to let us know what you changed.
