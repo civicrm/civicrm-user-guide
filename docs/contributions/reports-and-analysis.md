@@ -64,15 +64,12 @@ The **bookkeeping transactions report** provides transaction details for
 all payments, including financial type and accounts, transaction number,
 invoice ID, payment instrument and check number.
 
-These reports has been configured to display particular information. Many
-organisations have needed extra reports so you should
-you can create a new report from the relevant report template to suit
-your particular needs. See *Reporting Set-up* for details.
-
-
 More analysis
 -------------
 
-If you can't do what you want with a built in report or search, consider
-commissioning a new report or custom search. Read the CiviReport section
-for more information.
+These standard reports has been configured to display particular information
+and they may not provide what you need. You can
+[download and install extensions](https://civicrm.org/extensions) to access
+additional reports. If you still can't extract the information you need,
+consider commissioning a new report or custom search and contributing it back
+to the community. 

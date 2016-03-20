@@ -22,14 +22,14 @@ to post out to contributors.
 
 ![image](../img/Print%20contribution%20receipt%20options.PNG)
 
-By default the emailing or creating PDF receipts will update the receipt
+By default emailing or creating PDF receipts will update the receipt
 date for each contribution, but you can keep the existing receipt dates
 if you need to. You can also choose to disregard the **Do not email/Do
 not mail** settings so that all selected contributors are sent a receipt.
 
-The standard off-line contribution receipt can by customized but it requires
-a knowledge of Smarty. You may find it easier to set up "send later" receipts
-using the  thank-you letters workflow.
+The standard off-line contribution receipt displays limited information. It can
+be customized but that requires a knowledge of Smarty. You may find it easier
+to set up "send later" receipts using the thank-you letters workflow.
 
 ## Thank-you letters
 
