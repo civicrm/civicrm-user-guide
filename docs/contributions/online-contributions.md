@@ -10,7 +10,7 @@ visitors to your website can make contributions to your organisation.
 4. Select the appropriate financial type.
 5. Click on **Continue**.
 6. On the next page leave everything as is except for ticking the **Allow Other Amounts** checkbox and setting minimum and/or maximum amounts if you want to.
-7. Follow the steps for your CMS to [publicise it on your website](#cms).  
+7. Follow the steps for your CMS to [publicise it on your website](#publicizing-your-contribution-page).  
 
 
 
@@ -133,7 +133,7 @@ Thank-you and Receipt emails that are sent to contributors.
     recommended to enable the automatic Email Receipt.
 4.  Click **Save and Done**.
 
-## <a name="CMS"></a> Publicizing your contribution page
+## Publicizing your contribution page
 
 Now that you've created your contribution page, it's time to bring
 people to the page so they can contribute. You will probably want to
