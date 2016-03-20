@@ -1,4 +1,4 @@
-### **Premiums**
+# Premiums
 
 Configure premiums, such as T-shirts or subscriptions, that you want to
 offer on your contribution pages:
