@@ -15,10 +15,13 @@ Campaign Dashboard (refer to the following chapters on *Surveys* and
 To view the Campaign Dashboard, go to **Campaigns > Dashboard >
 Campaigns.**
 
-![image](../img/campaign_everyday_dashboard.png) 
+![Campaign Dashboard](../img/campaign_everyday_dashboard.png)
 
 From the Campaign Dashboard, you can then Edit, Disable and Delete
-existing campaigns, and create new campaigns. 
+existing campaigns, and create new campaigns.
+If you have a large number of campaigns you can open the campaign search accordion to set filters to dislplay only the campaigns you want to see. at that time.  
+
+![Campaign Search Criteria](../img/civicampaign-dashboard-search-criteria.png)
 
 Create a New Campaign
 ---------------------
@@ -71,7 +74,7 @@ Targeting constituents: create a group
 You may want to target a specific group of individuals for all campaign
 activities. This is done by creating a group to target these
 individuals. See the chapter Tags and Groups for more information about
-how to create a group. 
+how to create a group.
 
 Send a mass mailing
 -------------------
@@ -82,7 +85,7 @@ participation, and also be used to call for donations.
 1.  Create the email using CiviMail. See the *Email* section of this book
     to learn more about configuring and using CiviMail.
 2.  Select the appropriate campaign from the drop-down list when setting
-    up the mailing. 
+    up the mailing.
 
 A campaign event
 ----------------
