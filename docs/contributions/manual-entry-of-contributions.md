@@ -55,7 +55,7 @@ To manually enter a contribution for a contact in your database:
 If you find that you are entering more than a few contributions at the
 same time, consider using the **Batch Data Entry** method.
 
-## Batch Entry of Contribution, Membership or Pledge Payments
+## Batch entry of contribution, membership or pledge payments
 
 The **Batch Data Entry** feature allows you to enter off-line contribution,
 membership or pledge payments you have received using a batch entry grid input

@@ -1,90 +1,65 @@
 Accounting Integration
 ======================
 
-The accounting integration feature provides the capability to assign
-financial transactions to a batch, or to use batches created from batch
-data entry, then export the batch to be imported into accounting
-software.
+The accounting integration feature lets you create an new accounting batch then
+assign existing transactions to it, or re-use aa existing batch created during
+batch data entry as an accounting batch.  The accounting batch is exported and
+then can be imported into accounting software.
 
-Accounting Batches
-------------------
-
-From the Accounting Batches main page, you may search for existing
-batches or create a new batch.
-
-Batches can be created through the batch data entry tool or by grouping
-existing transactions.
-
-Create a New Batch Through Batch Data Entry
+Use a batch created through Batch Data Entry
 ---------------------------------------------
 
-Select **Contributions > Batch Data Entry** or **Memberships > Batch
-Data Entry**. Give the Batch a name, choose either contribution or
-membership as the type and enter the number of transactions that
-will appear in the batch and the total amount of all the contributions.
-You can later return to edit these parameters as long as the batch
-remains open.
+Batch entry of transactions is covered in [Manual Entry of Contributions](../contributions/manual-entry-of-contributions/#batch-entry-of-contribution,-membership-or-pledge payments)
 
-On the next screen you can begin entering your contribution data, if
-membership was chosen as the type during batch set-up you will be able
-to add membership information as well. If the contact is new, you can
-add them during the batch.
-
-After entering your batch through the batch data entry tool, then
-validate and close, it will appear in the accounting batch listing with
-a status of Closed.
+This procedure is covered in [Manual Entry of Contributions](../contributions/manual-entry-of-contributions#batch-entry-of-contribution,-membership-or-pledge payments)
+After you validate and close the batch, it will appear in the accounting batch
+listing with a status of Closed.
 
 Create a New Batch from Existing Transactions
 -----------------------------------------------
 
-Select "New Accounting Batch." This opens the batch creation screen.
-Before you assign transactions to a batch, you will first define the
-parameters.
+### Create the batch
 
-Enter the batch name (required). CiviCRM will create a default batch
-name ("Batch N" + open date), which you can edit. You may optionally
-enter a description of the batch.
+Go to **Contributions > Accounting Batches** and select **New Batch.**
+This opens the batch creation screen where you define the batch parameters
 
-You may also set several Optional Constraint parameters:
+![New Accounting Batch](../img/civicontribute-accounting-integration-new-batch.png)
 
-If you want this batch to contain only transactions paid by a specific
+-  Enter the batch name (required). CiviCRM will create a default batch
+name ("Batch N" + open date), which you can edit.
+-  You may optionally enter a description of the batch.
+-  If you want this batch to contain only transactions paid by a specific
 Payment Instrument, select it from the drop down: Credit Card, Debit
 Card, Check, Cash, or EFT, or any custom Payment Instruments you may
 have set up.
-
-If you know in advance the number of transactions that will be in the
+-  If you know in advance the number of transactions that will be in the
 batch, enter it in Number of Transactions. When you close the batch,
-CiviCRM will verify that you have entered the correct number (you will
-have the opportunity to override the warning if they do not match).
-
-If you know in advance the total amount of the transactions that will be
+CiviCRM will verify that you have entered the correct number. (You will
+have the opportunity to override the warning if they do not match.)
+-  If you know in advance the total amount of the transactions that will be
 in the batch, enter it in Total Amount. When you close your batch,
-CiviCRM will verify the totals entered match this number (you will have
-the opportunity to override the warning if they do not match).
+CiviCRM will verify the totals entered match this number. (You will have
+the opportunity to override the warning if they do not match.)
+- **Save**
 
 You can later return to edit these parameters as long as the batch
 remains open.
 
-Assign Transactions to a Batch
-------------------------------
+### Assign Transactions to a Batch
 
-From the Accounting Batches screen, select an open batch. Click
-"Transactions." This opens the transaction assignment screen.
+After creating a new accounting batch or opening an one you will be on the transaction assignment screen.
 
-At the top of the screen is displayed the parameters of the batch:
+![Transaction Assignment Screen](../img/civicontribute-accounting-batches-transactions.png)
+
+At the top of the screen the defined parameters of the batch are displayed:
 
 -   created by
 -   status (open, closed, or exported)
 -   the description entered when the batch was created
-
--   the specified payment instrument (if one was selected when the batch
-    was created)
--   the number of entered transactions (if a number of transactions was
-    specified when the batch was created)
--   the number of assigned transactions (which will update as you assign
-    transactions to the batch)
--   the entered total amount of the transactions (if a total amount was
-    specified when the batch was created)
+-   the specified payment instrument
+-   the number of entered transactions
+-   the number of assigned transactions
+-   the entered total amount of the transactions
 -   the assigned total amount (which will update as you assign
     transactions to the batch)
 -   the date the batch was opened.
@@ -94,17 +69,14 @@ empty until you assign transactions to the batch. There is also an
 action dropdown selection that will not be available until transactions
 are assigned to the batch.
 
-### Find and Assign Transactions
+Next comes the **Edit Search Criteria** accordion. Click to open the search pane.
+If a Payment Instrument was selected when the batch was created, this option
+will be selected by default. Specify the criteria for the contributions
+you want to add to the batch.
 
-At the bottom of the page is search pane to find transactions to assign
-to the batch. Click "Edit Search Criteria" to open a search pane. If a
-Payment Instrument was selected when the batch was created, this option
-will be selected by default. Search for the contributions you want to
-add to the batch.
-
-From the search results list, you may assign a single transaction to the
-batch by clicking "Assign" at the end of the result row. Or you may
-select multiple transactions and use the action menu above the results
+At the bottom of the page is the search results list. You may assign a single
+transaction to the batch by clicking "Assign" at the end of the result row. Or
+you may select multiple transactions and use the action menu above the results
 to select "Assign to Batch." The transactions will be added to the
 assigned transaction list, and will be removed from the search results
 list.
@@ -124,8 +96,7 @@ transactions.
 If you want to return and edit the batch later, simply return to the
 Accounting Batch main page. The batch status will remain "Open."
 
-Close and Export a Completed Batch
-----------------------------------
+## Close and Export a Completed Batch
 
 Once you have completed assigning the transactions, you may close the
 batch, or close and export it.
@@ -150,10 +121,10 @@ products such as Quickbooks to import transactions. Once the
 transactions are exported, the batch status changes to Exported. An
 exported batch cannot be re-opened.
 
-Searching and Acting on Batches
----------------------------------
+## Searching and Acting on Batches
 
-From the Accounting Batch main page, you may filter the list of
+Go to **Contributions > Accounting Batches** and select **Open Batches** to go
+to the Accounting Batch main page. Here you may filter the list of
 displayed batches by status (Open, Closed, or Exported); batch name; the
 user who created it; the Payment Instrument; the entered number of
 transactions; and the entered total amount.

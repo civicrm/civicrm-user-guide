@@ -127,9 +127,9 @@ You will then need to assign an active Payment Processor to each Online
 Contribution Page and each paid Event. If no Payment Processors have
 been configured for your site,
 
-1.  Go to **Administer > System Settings > Payment Processors**and
-    click on **New Payment Processor**
-2. Choose Payment Processor Type from the dropdown list.
+1.  Go to **Administer > System Settings > Payment Process** and
+    click on **New Payment Processor** .
+2. Choose the Payment Processor Type from the dropdown list.
 3.  Assign a descriptive name to this processor configuration and an
     optional description. The name will show up when you want to select
     a payment processor for a Contribution Page or Event. A description
@@ -146,19 +146,21 @@ been configured for your site,
     configuration of contribution pages and events. For a partial
     explanation of how this works, see Double Entry Accounting in
     Wikipedia.
-5.  Fill in the appropriate details for your payment processor.Note
-    that this set-up screen varies according to the payment processor
-    selected.
-6.  Make the processor active so that it is available for use with paid
+5.  Make the processor active so that it is available for use with paid
     events and online contribution pages. If the processor allows you to
     collect credit card information on your website, your staff will
     also be able to use it to submit credit card contributions and
     payment for memberships and events.
-7.  Finally fill in the details of your test and live accounts so that
-    you can use it in both test and live environments. You will need to
-    do some further set up on the actual payment gateway but that is
-    beyond the scope of this book and should be documented by your
-    gateway.
+6.  If you have multiple payment processors, the one you set as the default
+    will be selected when you create a contribution or event page or process a
+    credit card payment in the admin area, although you will be able to
+    override that selection manually.
+7.  Fill in the appropriate live payment and test payment details for your 
+    payment processor. Note that the fields in these sections vary according to
+    the payment processor type selected.
+
+You will need to do some further set up on the actual payment gateway but that is
+beyond the scope of this book and should be documented by your gateway.
 
 Once done, the processor will be available in your paid events and
 contribution pages.
