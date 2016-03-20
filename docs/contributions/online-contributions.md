@@ -159,7 +159,7 @@ display a link to the page prominently on your website through a donate
 button or menu item. Here are some additional tips for promoting a
 contribution page in different CiviCRM configurations:
 
-### **Menu item in Joomla!**
+### Menu item in Joomla!
 
 The most direct way to expose your contribution page or membership
 signup/renewal page on the front of your web site is by creating a menu
@@ -172,13 +172,13 @@ item.
 4.  Save the menu item and view the website to confirm the page's
     functionality.
 
-### **Menu item in Drupal**
+### Menu item in Drupal
 
 From the contribution page listing, select Live Page to view the
 finished page. You can then copy the URL and include it in a content
 page or assign it to a menu item.
 
-### **Page or Post in WordPress**
+### Page or Post in WordPress
 
 You can easily embed your contribution page in a post or page on your
 WordPress front-end site.

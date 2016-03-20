@@ -86,8 +86,7 @@ honoree.
 Soft credits and personal campaign pages
 ----------------------------------------
 
-The concept of soft credits is closely related to personal campaign page
-(which are covered in more detail elsewhere). When someone donates by a
+The concept of soft credits is closely related to [personal campaign page]
+(../contributions/personal-campaign-pages). When someone donates by a
 personal campaign page, their donation is soft credited to the owner of
-the personal campaign page. 
-
+the personal campaign page.

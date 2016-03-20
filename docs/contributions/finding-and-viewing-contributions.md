@@ -23,7 +23,7 @@ year-to-date contributions by Financial Type or month, a list of the top 10
 donors, etc. Refer to the _Reports_ section for details on adding reports
 ("dashlets") to your personal dashboard
 
-# Finding contributio
+# Finding contributions
 
 Searching based on contribution data
 ------------------------------------
@@ -89,7 +89,6 @@ contribution entered on the wrong contact's record.
 choose to export multiple contributions from the same contact you will end up
 with one row for each contribution in your export file. If you want to do
 searches that return one result per contact, use the contact advanced search.
-
 
 - **Receipts - Print or Email Contribution:** This allows you to create a PDF
 file of all the receipts in the search, or email the receipts to the associated
