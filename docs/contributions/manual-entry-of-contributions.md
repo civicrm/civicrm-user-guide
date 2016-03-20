@@ -1,19 +1,19 @@
 # Manual entry of contributions
 
-Adding contributions manually
------------------------------
-
 When your organisation receives a contribution from a contact, you can
 add it to their record. This will be done automatically if the payment
 is made through CiviCRM (for example, a membership or event fee made
-with an online registration) but offline payments will need to be
-manually recorded to ensure that reports generated from CiviCRM are
+with an online registration) but offline payments (cash, cheques etc) will need
+to be manually recorded to ensure that reports generated from CiviCRM are
 accurate.
 
+
+## Adding contributions manually one by one
+
 If the donor does not already exist in the database, you need to first
-create a new contact record for them;*see the chapter on Contacts in the
-Basic Concepts section of this book for information on how to do this.*
-Once the record is created, you can then enter the contribution.
+create a new contact record for them; see [Contacts](../organising-your-data/contacts)
+for information on how to do this. Once the record is created, you can then
+enter the contribution.
 
 To manually enter a contribution for a contact in your database:
 
@@ -53,8 +53,7 @@ To manually enter a contribution for a contact in your database:
     contributions.
 
 If you find that you are entering more than a few contributions at the
-same time, consider using the **Bulk Data Entry** method described later
-in this chapter.
+same time, consider using the **Batch Data Entry** method.
 
 Batch Entry of Contribution, Membership or Pledge Payments
 ----------------------------------------------------------
@@ -78,9 +77,9 @@ Here’s a simple workflow for bulk data entry:
 
 **1. Create a new batch for data entry**
 
-Create a new batch to hold the multiple payments you want to record:
+  Create a new batch to hold the multiple payments you want to record:
 
-From the menu, click on **Contributions > Batch Data Entry**or
+  From the menu, click on **Contributions > Batch Data Entry**or
 **Membership > Batch Data Entry****.**
 
 ![image](../img/New%20Data%20Entry.png)
@@ -113,22 +112,19 @@ Once you enter information about the batch, you can begin entering
 payments on each
 line.![image](../img/CiviCRM-Contributions-everydaytasks-batchentrycontrib.jpg)
 
-There are eight fields that appear for all batches.
+There are eight fields that appear for all batches:
 
-The **Contact** column is included for all batch types. In that column
-you can:
-
--   start entering the name of an existing contact and CiviCRM will
+-  **Contact**. In this column you can:
+    -   start entering the name of an existing contact and CiviCRM will
     return a list of potential contact names for you to select, OR
--   create a new contact by clicking the drop-down box for “-create new
+    -   create a new contact by clicking the drop-down box for “-create new
     contact-“ and selecting the type of contact you want to create: **New
     Individual**, **New Organization**, or **New Household** and enter the
     information about the contact here.
     Note: If contact information such as phone number or email address
 are included in the grid profile, those values will be populated for
 an existing contact and can be updated as needed.
--   **Type:**This is the Financial Type and is called that in membership
-batches to distinguish it from Membership Type**.**
+-   **Financial Type**
 -   **Amount**
 -   **(Payment) Status**
 -   **Received – Date and Time**
@@ -152,7 +148,7 @@ standard profile are:
 -   **Type**: For a new membership you will select the organisation and
     type of membership. For the renewal you can change the membership
     type.
--   **Member Since:**When you open the batch entry form, this is
+-   **Member Since:** When you open the batch entry form, this is
     populated with the current date If you choose to renew a membership
     it will change to display the start date for that membership. It can
     be edited as needed.
@@ -169,7 +165,7 @@ standard profile are:
 When batch entering pledge payments you can assign the payment to any of
 the pending pledges for that contact. If you have the appropriate
 permissions, you can also alter the amount or schedule for the pledge
-payment. (Click on **adjust payment amount**next to the **Amount**
+payment. (Click on **adjust payment amount** next to the **Amount**
 field.)The extra fields in the standard profile are:
 
 -   **Source**: enter text that describes the source of the payment
@@ -195,7 +191,7 @@ To find and add/edit more transactions into the batch later:
 
 Then continue entering more transactions in the batch
 
-Once you are finished entering payments into a batch, click**Validate &
+Once you are finished entering payments into a batch, click **Validate &
 Process the Batch**. The status of the batch will be set to
 “**Closed**” and will available for searches and reporting later.
 
@@ -262,7 +258,7 @@ processed batches in a several ways:
         **Fields** next to called **New Individual, New Household**, or
         **New Organization**.
     -   You can then add, edit or rearrange the fields as you want to see
-        them in the batch entry input grid.*To find out more about how to
+        them in the batch entry input grid. *To find out more about how to
         use profiles, see the chapter called “Profiles” in the “User
         Interface” section*.
 
@@ -283,13 +279,14 @@ processed batches in a several ways:
     reserved profiles called **Contribution Batch Entry** or **Membership
     Batch Entry**:
 
-    -   Go to the menu and click **Administer > Customize Data and Screens > Profiles**, then click on **Reserved Profiles** tab. Click on
+    -   Go to the menu and click **Administer > Customize Data and Screens >
+    Profiles**, then click on **Reserved Profiles** tab. Click on
         **Fields** next to **Contribution Batch Entry** profile or the
         **Membership Batch Entry** profile.
     -   You can then add, edit , or rearrange the fields in this profile,
         e.g. you may have other custom contribution fields you would like to
         display and collect information, and display in the batch entry
-        input grid. *To find out more about how to use profiles, see the
+        input grid.  *To find out more about how to use profiles, see the
         chapter called “Profiles” in the “User Interface” section*.
 
     ![image](../img/CiviCRM-Contributions-SetUp-contribution-batch-entry-profile.jpg)
@@ -306,8 +303,7 @@ processed batches in a several ways:
     profile, which is used when you record information about a contact’s
     membership payment.
 
-    Importing contributions
-    -----------------------
+    ## Importing contributions
 
     If you have not imported data before, please refer to the chapter
     'importing data' first.
@@ -315,10 +311,8 @@ processed batches in a several ways:
     When preparing your data import it is helpful to know what fields are
     required for Import. You'll want to be sure that these fields are
     included in your CSV import file. Below is a list of the required
-    fields. Please note that the fields marked **(Match to
-    Contact)**indicated that only one of those options must be included for
-    import. You do not need all of those fields to be included.
-
+    fields. Please note that you only need one of the fields marked **(Match to
+    Contact)**
     -   **Contact ID (Match to Contact)**
     -   **Email (Match to Contact)**
     -   **External Identifier (Match to Contact)**

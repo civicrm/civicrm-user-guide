@@ -1,21 +1,39 @@
 Creating Contribution Pages
 -----------------------------
-This chapter describes setting up online contribution pages where
+This section describes setting up online contribution pages where
 visitors to your website can make contributions to your organisation.
+CiviContribute is very flexible and includes many optional fields and features
+such as recurring contributions, pledges and personal campaign pages. These can
+make setting up contribution pages seem like a daunting task.  It can be
+quite simple though as shown by the first two procedures.  
 
-## A very simple contribution page
-1.  Make sure you have a [payment processor configured](../contributions/payment-processors).
+## The simplest contribution page (Receipt sent only from payment processor.)
+1. Make sure you have a [payment processor configured](../contributions/payment-processors).
 2. Go to to **Contributions > New Contribution Page**.
-3. Enter the title for your website page.
-4. Select the appropriate financial type.
+3. Enter the **title** for your website page.
+4. Select the appropriate **financial type**.
 5. Click on **Continue**.
-6. On the next page leave everything as is except for ticking the **Allow Other Amounts** checkbox and setting minimum and/or maximum amounts if you want to.
-7. Follow the steps for your CMS to [publicise it on your website](#publicizing-your-contribution-page).  
+6. On the next page leave everything as is except for ticking the **Allow Other
+Amounts** checkbox and setting **minimum** and/or **maximum** amounts if you want to.
+7. Click on **Save and Done**.
+8. Follow the steps for your CMS to [display this page on your website](#publicizing-your-contribution-page).  
 
+## A very simple contribution page including receipt from your organisation
+1. Make sure you have a [payment processor configured](../contributions/payment-processors).
+2. Go to to **Contributions > New Contribution Page**.
+3. Enter the **title** for your website page.
+4. Select the appropriate **financial type**.
+5. Click on **Continue**.
+6. On the next page leave everything as is except for ticking the **Allow Other Amounts** checkbox and setting **minimum** and/or **maximum** amounts if you want to.
+7. Click on **Save**.
+8. Select the **Receipt** tab.
+9. Enter the **title** for your Thank-you page.
+10. Tick **Email Receipt to Contributor**.
+11. Enter the FROM email address in **Receipt From Email**.
+12. Click on **Save and Done**.
+7. Follow the steps for your CMS to [display this page on your website](#publicizing-your-contribution-page).
 
-
-Create a new contribution page by navigating to **Contributions > New Contribution Page**
-or **Contributions > Manage Contribution Pages** then click on **Add Contribution Page**.
+## Setting up a contribution page - full details.
 
 ![New Contribution Page](../img/civicontribute-new-contribution-page.png)
 
@@ -65,8 +83,8 @@ You will now be on the (Contribution) **Amounts** tab.
 
 ### Include Profiles
 
-If you want to collect information from contributors beyond what is
-required to make a contribution only, such as volunteer age and skills,
+If you want to collect information from contributors beyond the essential fields
+required to make a contribution, such as age, interests and skills,
 you can include existing CiviCRM Profiles at the beginning or end of a
 contribution page. You can also create new profiles.
 
