@@ -10,7 +10,6 @@ theme: readthedocs
 pages:
 - Home: 'index.md'
 - Introduction:
-    - 'About this book': 'introduction/about-this-book.md'
     - 'What is CiviCRM?': 'introduction/what-is-civicrm.md'
     - 'Real World Examples': 'introduction/real-world-examples.md'
     - 'Components': 'introduction/components.md'
