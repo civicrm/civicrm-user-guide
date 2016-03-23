@@ -887,22 +887,6 @@ Stable Version
 A version of **software** that has been tested and is considered to be
 ready for general use.
 
-String
-------
-
-A string is a sequence of characters for example "Hello, World", the
-**URL** "[http://www.flossmanuals.net/](http://www.flossmanuals.net/)"
-or the text message "No such file or directory". Different character
-sets allow different strings. Unicode strings can include any
-combination of languages, such as "Japan (日本) and Korea (대한민국)".
-
-Subdomain
----------
-
-A **domain** that is a part of larger larger domain. For example:
-en.flossmanuals.net and fa.flossmanuals.net are subdomains of the domain
-flossmanuals.net. 
-
 Token
 -----
 
