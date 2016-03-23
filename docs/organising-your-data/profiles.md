@@ -590,8 +590,6 @@ Select **Batch Update via Profile** from the list.
 
 You will go to the Batch Profile Update screen. 
 
-![](http://wiki.civicrm.org/confluence/download/attachments/47710656/BatchUpdate.jpg?version=1&modificationDate=1181391872000)
-
 From the drop-down list, choose the the Profile you want to use and
 click **Continue**.
 
@@ -729,4 +727,3 @@ could use the API to flexibly display data on your website. See the
 *Developer Documentation wiki*
 [(http://wiki.civicrm.org/confluence/display/CRMDOC/Develop](http://wiki.civicrm.org/confluence/display/CRMDOC/Develop))
 for an introduction to using the API.
-
