@@ -202,7 +202,7 @@ reminders**.
 Tell-A-Friend
 -------------
 
-![](http://booki.flossmanuals.net/civicrm/http://en.flossmanuals.net/floss/pub/CiviCRM/CiviEvent/)CiviEvent
+CiviEvent
 makes it easy to leverage the social networking power of your committed
 constituents by empowering them to quickly and easily share details
 about your organization and event with their friends and colleagues. The
@@ -246,4 +246,3 @@ the program logic. Be sure to test the workflow and review the emails
 sent after making any changes. If you find that your changes have caused
 problems, errors or missing information, you can always revert to the
 system default for that workflow.  
-
