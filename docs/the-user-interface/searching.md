@@ -15,7 +15,7 @@ users should also look at reports, custom searches and Search Builder.
 There are three main reasons to search:
 
 -   To find a specific contact: the Quick search box can find contacts
-    by name, email address or a variety of other characteristics. 
+    by name, email address or a variety of other characteristics.
 -   To perform an action on a contact or contacts that meet certain
     criteria: a common workflow in CiviCRM, called a search-action, is
     to find contacts that meet certain criteria and then perform an
@@ -31,32 +31,32 @@ limitations. For example, you can't group results by particular
 criteria, summarize, or easily produce graphs of the results. For more
 advanced reporting, see the *CiviReport* section.
 
-Quick search 
+Quick search
 --------------
 
-![](../img/QuickSearch.png)
+![Quicksearch](../img/quicksearch.png)
 
 The easiest way to find a specific contact is to use the Quick search
-box that appears in the navigation menu at the top left of the screen.
-You may choose to search by one of several criteria. Contacts that match
-the phrase you enter will appear in a dropdown list below the box. For
-example, if you are searching with Name/Email and you have left
-automatic wildcard enabled then going to **Administer > Customize Data and Screens > 
+box that appears in the navigation menu at the top left of the screen. You may choose to search by one of several criteria. Once you click in the box you can start typing immediately to use the default Name/Email search or you can click again to expose several other criteria in a dropdown selection list. Contacts that match the phrase you enter will appear in a dropdown list below the box. For example, if you are searching with Name/Email and you have left
+automatic wildcard enabled then going to **Administer > Customize Data and Screens >
 Search Preferences** entering "peter" will find:
 
--   people who's first or last name is **Peter** 
+-   people who's first or last name is **Peter**
 -   people who have Peter appearing as part of their name, e.g. Mary
     **Peter**son
 -   people who have Peter as part of their email address, e.g.
-    **peter**@gmail.com  
--   organisations with Peter in their name, e.g. **Peter**sfield
-    Community Centre. 
+    blue**peter**@gmail.com  
+-   organisations with Peter in their name, e.g. Al**peter**
+    Community Centre.
 
 You don't need to type the full name of the person - just the first few
 letters.
 
+Note: If you search by **phone** then you will need to enter the digits of the phone number without any formatting. The **phone** search is done against a field that consists only of digits with all non-numeric characters stripped out.
+
 Advanced search
 ---------------
+![Screen shot of advanced search](../img/user-interface-advanced-search-main-screen.png)
 
 Advanced search allows you to search across all the information you have
 about your contacts. For example, you could find "all contacts in
@@ -64,7 +64,7 @@ Venezuela" or "all advisory group members". If you specify two or more
 categories of information, the search displays every contact that
 matches all the categories. For instance, you can combine the two
 criteria just mentioned to find "all advisory group members in
-Venezuela". 
+Venezuela".
 
 The Advanced search screen is accessible from the navigation menu
 **Search > Advanced Search**. On this screen, search criteria are
@@ -75,18 +75,67 @@ shown as a blue bar (known as an "accordion" because it expands when you
 click on it). For example, if you want to search for all people in your
 database from 16 to 18 years old, click on the Demographics accordion.
 When it opens, you can specify the birth date range you are interested
-in.*
+in.
 
-![](../img/4.5SearchPanes_1.png)
+#### Display Settings For Results
+
+![Screen shot of Display Results As](../img/user-interface-display-results-as.png)
+
+Advanced Search returns your results as Contact records by default.
+However, you may want to get another record type instead. For example,
+you may want to search on the Membership renewal activity to find
+everyone who renewed their membership last week then display the results
+as Memberships so that you can export name, address and Membership
+expiration date to create and then post out membership cards to those
+contacts. Simply select the record type you want from the **Display Results As** dropdown.
+
+#### Views for Display Contacts
+
+![Screen shot of Display Contacts](../img/user-interface-new-contact-view-profile.png)
+
+Advanced search allows you to change the columns displayed in your
+search results. The default columns are Name, Street Address, City,
+State, Postal Code, Country, Email and Phone. If you want to display a
+different set of columns (perhaps to include a custom field or remove a
+column you don't need), create a Profile with the Search Views option
+selected. Make sure that the fields in this Profile are set to "Expose
+Publicly and for Listings" visibility, and are marked as Results Columns.
+(For more information about creating Profiles, which are described in
+detail in the Profiles chapter in the Configuration section.)
+
+For example you may want to include columns for Gender and Date of Birth, while eliminating Country.
+Create a profile that includes birth date, gender and address fields.
+
+![Screen shot of Search View setting in a profile](../img/user-interface-profile-search-view-setting.png)
+
+![Screen shot of Visibility setting in a profile](../img/user-interface-profile-search-view-setting-2.png)
+
+![Screen shot of a profile](../img/user-interface-new-contact-view-profile.png)
+
+Read more about creating profiles in the Profiles section of the chapter
+on *Organising Your Data*.
+
+Combining this feature with the "Batch Update via Profile" action
+provides a powerful method of viewing and updating a specific set of
+fields across a batch of contact records.
+
+### Search settings
+The Search Operator determines whether your criteria are combined with AND statements, or combined with OR statements. For example, you may want to find all individuals who are in the Volunteers group AND who have a Volunteer Training activity recorded for them. In this case use the AND operator. If you need to find everyone who is in the Volunteers group OR has a Volunteer Training activity recorded, use the OR operator.
+
+The Search in Trash allows you to search contacts that have been deleted but not deleted permanently. When a contact is deleted, the contact and all related data are moved to trash. Only users with the relevant permission will be able to search in trash and will be able to restore the contact from trash.
+
+![Screen shot of Search in Trash](../img/user-interface-search-in-trash.png)
 
 ### The Date Range Filter
 
-Most component searches include a date range filter. The above image
-shows examples of both: 
+![Screen shot of Date Range Filter](../img/user-interface-date-filter.png)
+
+Most component searches include a date range filter. The images below
+show examples of both:
 
 -   by using an absolute date range, e.g. "1st Jan 2010" to "31 July
     2010"
--   by using a relative date range, e.g. "Previous Year"
+-   by using a relative date range, e.g. "Previous week"
 
 Relative date ranges are especially useful for searches that you would
 like to then save as Smart Groups (automatically populated groups that
@@ -94,50 +143,21 @@ are configured to include contacts that share a certain set of
 characteristics or activities). For more information see the *Groups and
 tags* chapter.
 
-For example you may want to use a relative date range search to find: 
+![Screen shot of Relative Date Range Filter](../img/user-interface-date-filter-relative.png)
+
+For example you may want to use a relative date range search to find:
 
 -   Contacts who have contributed in the last 7 days (Relative date
     range - "From 1 Week ago")
 -   This (financial) years registered Event Participants (Relative date
-    range - "This Year") 
+    range - "This Year")
 -   Contacts who are a certain age
 
-### Search settings
 
-These are located at the bottom of the Basic Criteria frame. 
+Relative dates filters based on the time interval "week" assume that Sunday is the first day of the week.   This is not true in all countries, for example Europe and many countries in Asia/Pacific region consider Monday to be the first day of the week. To set which day is the first day of the week, you need to go to **Administer >> Localization >> Date Format**.
 
-![](../img/advanced%20search.PNG) 
-****
+![Screen shot of how to change the first day of the week](../img/user-interface-searching-week-begins.png)
 
-#### Modifying search columns (Search Views)
-
-Advanced search allows you to change the columns displayed in your
-search results. The default columns are Name, Street Address, City,
-State, Postal Code, Country, Email and Phone. If you want to display a
-different set of columns (perhaps to include a custom field or remove a
-column you don't need), create a Profile with the Search Results option
-selected. Make sure that the fields in this Profile are set to "Public
-User Pages and Listings" visibility, and are marked as Results Columns.
-(For more information about creating Profiles, which are described in
-detail in the Profiles chapter in the Configuration section.)
-
-Read more about creating profiles in the Profiles section of the chapter
-on *Organising Your Data*. 
-
-Combining this feature with the "Batch Update via Profile" action
-provides a powerful method of viewing and updating a specific set of
-fields across a batch of contact records. 
-
-#### Display Results As 
-
-Advanced Search returns your results as Contact records by default.
-However, you may want to get another record type instead. For example,
-you may want to search on the Membership renewal activity to find
-everyone who renewed their membership last week then display the results
-as Memberships so that you can export name, address and Membership
-expiry date to create and then post out membership cards to those
-contacts. In Advanced Search, simply select the record type you want
-from the **Display Results As** dropdown.****
 
 #### **Combining search criteria**
 
@@ -147,18 +167,18 @@ return major donors from Mexico. The search will not return major
 donors who are *not* from Mexico, nor those from Mexico who are *not*
 major donors.
 
-You can change the default search operator from AND to OR in the Basic
-Criteria section of Advanced Search.
+You can change the default search operator from AND to OR in the Search Settings.
 
 Within criteria groups that allow you to check boxes for more than one
 value, these options are also combined by "ANDing". For example, if you
 can search for contacts whose Preferred Communication Method is both
-Email *AND* SMS. 
+Email *AND* SMS.
 
 With fields that allow you to select more than one value from a dropdown list,
 the values are always combined with "OR". For example, you could find contacts
-that live in Mexico OR the United States by selecting both countries in
-the country field.
+that live in Alaska or in Arizona.
+
+![Screen shot of combining search criteria](../img/user-interface-searching-states.png)
 
 Search Builder
 --------------
@@ -171,7 +191,7 @@ specific needs.
 Search Builder allows you to choose from a range of operators:
 
 
-  
+
 | Operator  | Purpose | Example |
 | -- | -- | -- |
 | = | Equals. Matches on the exact value you specify | **"First Name" = "Bob"** will find contacts who's first name is exactly "Bob" |
@@ -183,8 +203,8 @@ Search Builder allows you to choose from a range of operators:
 | Regex | Same as the = operator, but supports all regular expression operators. See http://en.wikipedia.org/wiki/Regular_expressions | **"Middle Name" Regex "[a-c]"** will find contacts whose middle initial is A, B or C  |
 | Is Empty, Not Empty| Empty means the field exists and is equal to the number zero or contains nothing.  | **"City" Is Empty** will find all contacts who do have an address but the city was left blank  |
 | Is Null, Not Null | Null means the field does not exist or contains nothing.  | **"City" Is Null** will find all contacts who do not have an address at all  |
-  
-  
+
+
 
 Search Builder also allows you to combine criteria with multiple AND and
 OR groups. To AND criteria (which means to find results matching all
@@ -196,7 +216,7 @@ include contacts where.** The following example will search for females
 born after Jan 1 2000 OR members of the Administrators or Advisory Board
 groups:
 
-![](../img/Search%20Builder.png) 
+![Search Builder](../img/Search%20Builder.png)
 
 Your search results will contain each contact's name, plus a column for
 each search criteria you've defined. If you export search results, the
@@ -213,7 +233,7 @@ information on Smart Groups, see the *Groups and Tags* chapter.
 Full-text Search
 ----------------
 
-You can use this to search for text values all fields of the database. 
+You can use this to search for text values all fields of the database.
 This is particularly useful, for example, if you can remember specific
 words that you have used but can't remember where you have put them. For
 example, lets say that you recorded an activity with a contact and added
@@ -237,7 +257,7 @@ sections for more details.
 Note that you can also use the Advanced search in conjunction with
 **Display Results As** to search for component objects based on criteria
 available in advanced search. For example, you could find all event
-attendances from contacts that are also members. 
+attendances from contacts that are also members.
 
 Custom searches
 ---------------
@@ -273,7 +293,7 @@ Contacts in a Group/Tag", that enables you to find contacts who are in
 one group but not in another, which you can find by going to **Search >
 Custom Searches** in the navigation menu.
 
-![](../img/IncludeExclude.png)
+![Include/Exclude Search](../img/IncludeExclude.png)
 
 By combining Include and Exclude options, you can find contacts who are
 in one group but remove just the group members who fit another
@@ -291,7 +311,7 @@ your localization settings. Add additional countries by going to
 **Administer** > **Configure** > **Global Settings** >
 **Localization**. Add to the column of "Available States and Provinces",
 but note this change will also affect profile forms which include
-country or state/province fields. 
+country or state/province fields.
 
 ### **Contribution Aggregate**
 
@@ -316,19 +336,19 @@ geographical area.
 5.  Click **Search**.
 
 **TIP:** You can also incorporate Proximity Searching in a profile which
-you've configured for use as a search form. 
+you've configured for use as a search form.
 
 ### **Event Aggregate**
 
 Search on event-related payments for a given event or event type in a
 given date range. You may also limit results to show credit card
 payments only or payees only. See also event reports for more useful
-event search options. 
+event search options.
 
 ### **Activity Search**
 
 Find activities using any or all of the activity-related criteria. This
-is also possible in Advanced Search by using Display results as. 
+is also possible in Advanced Search by using Display results as.
 
 ### **Price Set Details for Event Participants**
 
@@ -358,7 +378,7 @@ geographical area.
 Search for contacts that have been added within a particular time
 period. Including a group displays just those added within the specified
 time frame who are also in that group. Excluding a group removes those
-group members from the results. 
+group members from the results.
 
 ### **Custom Group Multiple Values Listing**
 
@@ -377,7 +397,7 @@ exclude minimum or maximum amounts.
 
 It is possible to write your own custom searches, but you'll need to be
 comfortable with MySQL and PHP. See the Developer wiki at
-[http://wiki.civicrm.org/confluence/display/CRMDOC/Develop](http://wiki.civicrm.org/confluence/display/CRMDOC/Develop)
+[http://wiki.civicrm.org/confluence/display/CRMDOC/Develop](http://wiki.civicrm.org/confluence/display/CRMDOC/Develop)[](http://en.flossmanuals.net/civicrm-developer-guide/)
 for more information about how to do this. If you create a custom search
 that you think could be useful for others, consider contributing it back
 to the community.
@@ -391,13 +411,13 @@ all records or specific records, then carry out an action with the
 selected records. Different actions are covered in more detail in the
 chapter on Everyday Tasks.
 
-![](../img/Search%20Action.PNG) 
+![Screen shot of Action Dropdown](../img/user-interface-searching-actions-dropdown.png)
 
 Some of the most commonly used actions are Add Contacts to Group, Export
 Contacts, Map Contacts, and creating and printing Mailing Labels. (To
 use Map Contacts, you will need to configure Mapping and Geocoding. You
 can read more about this in the *Installation* chapter of the
-*Configuration* section of this manual). 
+*Configuration* section of this manual).
 
 For example, to send email to a selected number of contacts, mark the
 contacts you are interested in and then select **Send Email to Contacts** in
@@ -411,9 +431,9 @@ listed in your search results by hovering over the contact icon in the
 left column, as shown below. You can adjust the fields shown in this
 "pop-up view" by modifying the fields included in the "Summary Overlay"
 profile (**Administer** > **Customize Data and Screens** >
-**Profiles**). 
+**Profiles**).
 
-![Search_summaryOverlay](../img/CiviCRM_update-CiviCore-Search_summaryOverlay-en.jpg "Search_summaryOverlay")
+![Screen shot of Contact Summary pop-up](../img/user-interface-searching-summary-overlay.png)
 
 The wildcard (%)
 ----------------
@@ -433,7 +453,7 @@ used before, after, or even within words. For example, searching on
 'Mich%el' will exclude "Michał" and "Micheal" but still find "Michelle"
 and "Michael".  
 
-Case sensitivity 
+Case sensitivity
 ------------------
 
 Note that when you search for character strings, the search is not
