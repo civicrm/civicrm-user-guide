@@ -162,7 +162,7 @@ periodically read this mailbox and update your contacts in civicrm.
 
 Administer > System Settings > Scheduled Jobs
 
-![Screen shot of bounce fetcher scheduled job](../administer-scheduledjobs.png)
+![Screen shot of bounce fetcher scheduled job](../img/administer-scheduledjobs.png)
 
 The bounce email address is an "invisible" email address visible only in
 the email message's envelope (hidden fields that precede the headers and
