@@ -28,7 +28,7 @@ template.
     Template dropdown menu. Selecting a template populates the text
     content and HTML content fields with the message content from the
     particular template you have chosen. You can then edit that
-    content.
+    content
 5.  Enter your content or add content to your template. If you just wish
     to send a Plain Text version of your email, ignore the HTML Format
     section and click on the Plain Text Format section. Enter your
@@ -196,7 +196,7 @@ original mailing in the EXCLUDE Recipients of These Mailing(s) area.
 This will then send the message only to those members of the group who
 did not receive the original mailing.
 
-![CiviMmail Compose Screen](./../img/email-compose-mailing.png)
+![CiviMmail Compose Screen](../img/email-compose-mailing.png)
 
 1.
 **Name Your Mailing:** Enter a name for this mailing. Select a name

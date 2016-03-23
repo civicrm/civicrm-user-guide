@@ -4,18 +4,18 @@ The CiviContribute main page or dashboard summarises the contributions made, inc
 
 Different layouts are available for viewing summaries. The following screenshot shows the most recent contribution to a campaign using the Table Layout tab:
 
-![ContactSummary1a](./../img/CiviCRM-CiviContribute-EveryDayTasks-ContactSummary1a-en.png)
+![ContactSummary1a](../img/CiviCRM-CiviContribute-EveryDayTasks-ContactSummary1a-en.png)
 
 You can also view bar or pie charts to compare contribution totals across months of a given year and across years by clicking on the Chart Layout tab.
 
-![ContactSummary1b](./../img/CiviCRM-CiviContribute-EveryDayTasks-ContactSummary1b-en.png "ContactSummary1b")
+![ContactSummary1b](../img/CiviCRM-CiviContribute-EveryDayTasks-ContactSummary1b-en.png "ContactSummary1b")
 
 Finally, you can add any number of contribution report instances to your personal CiviCRM Dashboard. These might include a bar chart summary of year-to-date contributions by Financial Type or month, a list of the top 10 donors, etc. Refer to the _Reports_ section for details on adding reports ("dashlets") to your personal dashboard
 
 # Finding contributions
 To View the Find Contributions screen, go to Contributions > Find Contributions
 
-![Contribution Find Screenshot](./../img/contributions-find-search.png)
+![Contribution Find Screenshot](../img/contributions-find-search.png)
 
 You can search based on a number of criteria, such as date range, amount, contribution status etc. Contributions must match all specified criteria in order to be returned, so the more criteria you enter, the narrower the search will be. For example, searching for the Financial Type "donation" and the date range "January 1st to May 31st" will return contributions that meet both criteria. Relative date ranges such as "Last Month" or "Last Year" are often quite useful.
 
