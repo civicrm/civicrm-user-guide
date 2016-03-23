@@ -68,7 +68,8 @@ surveying during the door-knock canvass:
     sheet with the response codes and that the report is sorted by
     street name and odd and even street numbers.
 
-![image](../img/walklist%20cover%20sheet.jpg)[](javascript:void(0))![image](../img/walklist%20p2.jpg)
+![image](../img/walklist%20cover%20sheet.jpg)
+![image](../img/walklist%20p2.jpg)
 
 
 ### **Conduct your door-knock canvass**
@@ -253,4 +254,3 @@ contact list with voter information, you can:
     into CiviCRM.
 4.  Use the **Voter Info** custom field set to capture your voter
     information related to the contact.
-

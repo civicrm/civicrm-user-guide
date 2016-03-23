@@ -19,7 +19,7 @@ point.
 ## Suffering Relieved!
 
 
-[![afsc_1](../img/CiviCRM-Icons-afsc_1-en.gif "afsc_1")](http://www.afsc.org/)
+![afsc_1](../img/CiviCRM-Icons-afsc_1-en.gif "afsc_1")
 
 The American Friends Service Committee (AFSC) is a large, Quaker-based,
 peace and social justice organization with over 400 employees.
@@ -113,7 +113,7 @@ turn, is of great benefit to AFSC.
 A CRM Education
 ---------------
 
-[![Schoolhouse_Supplies_medium72dpi](../img/CiviCRM-Icons-Schoolhouse_Supplies_medium72dpi-en.jpg "Schoolhouse_Supplies_medium72dpi")](http://www.schoolhousesupplies.org)
+![Schoolhouse_Supplies_medium72dpi](../img/CiviCRM-Icons-Schoolhouse_Supplies_medium72dpi-en.jpg "Schoolhouse_Supplies_medium72dpi")]
 
 Schoolhouse Supplies (SHS) is a Portland, Oregon, USA-based non-profit
 organisation which gathers and distributes school supplies to students
@@ -153,7 +153,7 @@ have been impossible or prohibitively expensive.
 Growing Satisfaction
 --------------------
 
-[![nysnla](../img/CiviCRM-Icons-nysnla-en.png "nysnla")](http://www.nysnla.com)
+![nysnla](../img/CiviCRM-Icons-nysnla-en.png "nysnla")]
 
 The New York State Nursery Landscape Association (NYSNLA) is a
 member-based association providing resources and advocacy support for
@@ -291,7 +291,7 @@ may soon be possible.
 Quest for Success
 -----------------
 
-[![quest_bridge_logo](../img/CiviCRM-Icons-quest_bridge_logo-en.gif "quest_bridge_logo")](http://www.questbridge.org/)
+![quest_bridge_logo](../img/CiviCRM-Icons-quest_bridge_logo-en.gif "quest_bridge_logo")
 
 QuestBridge is dedicated to helping bright, motivated low-income high
 school students get accepted to and able to pay for college. QuestBridge
