@@ -169,7 +169,7 @@ Setting up a CSV file for importing
 
 Example of spreadsheet .csv format
 
-![student_sample](../img/CiviCRM-student_sample-en.png "student_sample")![](../../../en.flossmanuals.net/floss/pub/CiviCRM/index.html)
+![student_sample](../img/CiviCRM-student_sample-en.png "student_sample")
 
 When thinking about setting up your spreadsheet, think about the data
 that you are collecting and plan out your column headings. Keep in mind
@@ -495,5 +495,3 @@ will have to either:
     data, then after the import use advanced searches to isolate
     contacts with particular values and mass tag them. Once you're done,
     you can remove the custom fields.
-
-

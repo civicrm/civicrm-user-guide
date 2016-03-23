@@ -75,9 +75,7 @@ shown as a blue bar (known as an "accordion" because it expands when you
 click on it). For example, if you want to search for all people in your
 database from 16 to 18 years old, click on the Demographics accordion.
 When it opens, you can specify the birth date range you are interested
-in.***![](http://booki.flossmanuals.net/civicrm/http://en.flossmanuals.net/floss/pub/CiviCRM/searches/)***
-
-****
+in.*
 
 ![](../img/4.5SearchPanes_1.png)
 
@@ -379,7 +377,7 @@ exclude minimum or maximum amounts.
 
 It is possible to write your own custom searches, but you'll need to be
 comfortable with MySQL and PHP. See the Developer wiki at
-[http://wiki.civicrm.org/confluence/display/CRMDOC/Develop](http://wiki.civicrm.org/confluence/display/CRMDOC/Develop)[](http://en.flossmanuals.net/civicrm-developer-guide/)
+[http://wiki.civicrm.org/confluence/display/CRMDOC/Develop](http://wiki.civicrm.org/confluence/display/CRMDOC/Develop)
 for more information about how to do this. If you create a custom search
 that you think could be useful for others, consider contributing it back
 to the community.

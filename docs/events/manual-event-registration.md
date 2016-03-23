@@ -44,9 +44,9 @@ There are two options for registering the contact:
 The interface for both options is very similar, with the exception of
 those fields that record payment details.
 
-**![](../img/EventRegistration1.PNG)  **
+![](../img/EventRegistration1.PNG)
 
-**![](http://booki.flossmanuals.net/civicrm/http://en.flossmanuals.net/floss/pub/CiviCRM/EverydayTasks/)![](../img/EventRegistration2.PNG)**
+![](../img/EventRegistration2.PNG)
 
 As you work through this form, certain sections of the page change to
 reflect choices you have made. For example, when you choose the event
@@ -251,4 +251,3 @@ import. You do not need all of those fields to be included.
 6.  **Preview** and **Save**.
 
 ![](../img/CiviCRM-Event-Import-Participants_1.jpg)
-

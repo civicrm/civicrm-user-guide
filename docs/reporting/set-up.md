@@ -92,7 +92,6 @@ reports as shown below.
 
 ![](../img/membership%20detail%20report%20sorting%20criteria.PNG) ![](../img/membership%20detail%20report%20sorting%20view.PNG)
 
-![](http://booki.flossmanuals.net/civicrm/http://en.flossmanuals.net/floss/pub/CiviCRM/CiviReport/)
 
 ### Filters
 
@@ -218,4 +217,3 @@ There are four permission specifically associated with reports:
     reserved reports
 -   **CiviReport: administer reports** - user can manage report
     templates
-
