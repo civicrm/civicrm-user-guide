@@ -6,9 +6,10 @@ offline activities needs to be manually entered into CiviCRM in order to
 ensure that final reporting is accurate.
 
 There are three steps within CiviCRM for offline fundraising: creating
-your lists, creating your mailings, and manually entering contributions.
+your lists, creating your mailings, and
+[manually entering contributions](../contributions/manual-entry-of-contributions).
 
-### Creating your lists
+## Creating your lists
 
 This process is fairly straightforward if you are familiar with
 CiviCRM's search capabilities.
@@ -18,21 +19,19 @@ your offline postal mail appeal (it could be your entire database).
 
 If you want to track the success of a mailing or who receives certain
 appeals, save the search results as a group. Use the check box to select
-all and choose the appropriate option from the **"- actions -"**
-dropdown menu (e.g. New Smart Group or Add Contacts to Group). Later,
+all and choose the appropriate option from the **Action**
+dropdown menu i.e. Group - add contacts or Group - create smart group). Later,
 you can mark everyone in that group as recipients of that appeal using
-the **Record Activity for Contacts** option under the **"- actions-"**
-dropdown menu.
+the **Add Activity** option under the **Actions** dropdown menu.
 
 If you want to create letters for postal mailings you can do this using
-CiviCRM's internal Print PDF letter feature, or you export the list as a
+CiviCRM's internal **PDF letters - print** feature, or you export the list as a
 CSV file and use mail merge to a word processor.
 
 To export a list:
 
 1. Select all records or a subset using the checkboxes, and from
-    the **"- actions -"** dropdown menu choose **Export Contacts** and
-    click **Go**.
+    the **Actions** dropdown menu choose **Export Contacts**.
 1. Choose whether to **Export PRIMARY fields** or **Select fields for
     export**. If you elect to export primary fields, the CSV file will
     be immediately generated when you click **Continue**. If you opt to
@@ -45,7 +44,7 @@ To export a list:
 1. Click **Done** when you have finished to return to the contact list.
 
 
-### Creating postal mailings
+## Creating postal mailings
 
 Once your spreadsheet is created, you can do a mail merge using any word
 processing software (such as OpenOffice, the free software word
@@ -55,8 +54,8 @@ CiviCRM can also create mailing labels for you. Perform the same search
 you used in the previous section to create your list of recipients,
 then:
 
-1.  From the **"- actions -"** dropdown menu, select **Mailing
-    Labels**.
+1.  From the **Actions** dropdown menu, select **Mailing
+    labels - print**.
 2.  Select the mailing label number, determine whether you want to
     exclude people with "do not mail" checked in their privacy options
     (checked by default and recommended), and whether you want to merge
@@ -68,10 +67,5 @@ then:
 3.  Click **Make Mailing Labels** and a printable PDF document will be
     created.
 
-Note that many non-profit organizations in the United States have to
-sort recipients of a mailing based on zip code for bulk mailing
-purposes. If this is true for your organization, it is recommended you
-do *not* create your mailing labels within CiviCRM, but instead create
-them using word processor merge functions where you have control over
-the sort order. You can reuse the same spreadsheet for the mail merge
-you exported in the previous section.
+Note that CiviCRM prints labels in the order shown on the research results page
+in a column-by-column pattern.

@@ -1,10 +1,39 @@
 Creating Contribution Pages
 -----------------------------
-This chapter describes setting up a simple contribution page where visitors to
-your website can make contributions to your organisation.
+This section describes setting up online contribution pages where
+visitors to your website can make contributions to your organisation.
+CiviContribute is very flexible and includes many optional fields and features
+such as recurring contributions, pledges and personal campaign pages. These can
+make setting up contribution pages seem like a daunting task.  It can be
+quite simple though as shown by the first two procedures.  
 
-Create a new contribution page by navigating to **Contributions > New Contribution Page**
-or **Contributions > New Contribution Page** then click on **Add Contribution Page**.
+## The simplest contribution page (Receipt sent only from payment processor.)
+1. Make sure you have a [payment processor configured](../contributions/payment-processors).
+2. Go to to **Contributions > New Contribution Page**.
+3. Enter the **title** for your website page.
+4. Select the appropriate **financial type**.
+5. Click on **Continue**.
+6. On the next page leave everything as is except for ticking the **Allow Other
+Amounts** checkbox and setting **minimum** and/or **maximum** amounts if you want to.
+7. Click on **Save and Done**.
+8. Follow the steps for your CMS to [display this page on your website](#publicizing-your-contribution-page).  
+
+## A very simple contribution page including receipt from your organisation
+1. Make sure you have a [payment processor configured](../contributions/payment-processors).
+2. Go to to **Contributions > New Contribution Page**.
+3. Enter the **title** for your website page.
+4. Select the appropriate **financial type**.
+5. Click on **Continue**.
+6. On the next page leave everything as is except for ticking the **Allow Other Amounts** checkbox and setting **minimum** and/or **maximum** amounts if you want to.
+7. Click on **Save**.
+8. Select the **Receipt** tab.
+9. Enter the **title** for your Thank-you page.
+10. Tick **Email Receipt to Contributor**.
+11. Enter the FROM email address in **Receipt From Email**.
+12. Click on **Save and Done**.
+7. Follow the steps for your CMS to [display this page on your website](#publicizing-your-contribution-page).
+
+## Setting up a contribution page - full details.
 
 ![New Contribution Page](../img/civicontribute-new-contribution-page.png)
 
@@ -35,18 +64,13 @@ You will now be on the (Contribution) **Amounts** tab.
 
 -  The **Execute real-time monetary transactions** box is checked by default. You would uncheck this box if you are using this contribution page for free membership signup or to solicit in-kind (non-monetary) donations, or when you want **all** users to submit their payment offline.
 -  Select the **Currency**.
--  Select one or more **Payment Processors** for this page (which
-    you have previously configured). Some organizations find it
+-  Select one or more previously configured **[Payment Processors](../contributions/payment-processors)** for this page. Some organizations find it
     is a good idea to give their constituents a choice of processors. You
     can do this by setting up multiple processors, and checking the
     corresponding boxes on this form.
 -  Check the **Pay Later** box if you want to give users the option to
-    submit payment offline (e.g. mail in a cheque, call in a credit card, deposit directly into your bank account etc.). If you allow pay later contribution syou will to decide on a label for the checkbox to your users and the intructions for submitting these delayed payments.
--  Check the **Contribution Amounts Section Enabled** box to allow
-    various specific amounts to be presented. Leave this unchecked if,
-    for example, you are using the page for membership sign-ups that
-    have fixed amounts, which will show only the fixed membership
-    amounts and not allow custom amounts to be entered.
+    submit payment offline (e.g. mail in a cheque, call in a credit card, deposit directly into your bank account etc.). If you allow pay later contributions you will need to decide on a checkbox label to display to your users and the instructions for submitting these delayed payments.
+-  If you uncheck the **Contribution Amounts Section Enabled** the remaining fields on this page will vanish. You will only be able accept fixed-amount membership fees, or, if you configure a membership price set, fixed-amount memberships fees and other contributions as specified in the price set which will all be charged in a single transaction.
 -  Select a pre-defined **Price Set** (for more complex payment
     options), OR enter up to 10 fixed contribution amounts in the table at the bottom of the page.)
 -  You can check **Recurring contributions** if you payment processor and its integration with CiviCRM support recurring billing and you want to allow this feature. (There are restrictions on recurring payments when [membership fees](../membership/defining-memberships) are being paid.) If you check **Recurring contributions** further settings become visible.
@@ -59,8 +83,8 @@ You will now be on the (Contribution) **Amounts** tab.
 
 ### Include Profiles
 
-If you want to collect information from contributors beyond what is
-required to make a contribution only, such as volunteer age and skills,
+If you want to collect information from contributors beyond the essential fields
+required to make a contribution, such as age, interests and skills,
 you can include existing CiviCRM Profiles at the beginning or end of a
 contribution page. You can also create new profiles.
 
@@ -127,8 +151,7 @@ Thank-you and Receipt emails that are sent to contributors.
     recommended to enable the automatic Email Receipt.
 4.  Click **Save and Done**.
 
-Publicizing your contribution page
-----------------------------------
+## Publicizing your contribution page
 
 Now that you've created your contribution page, it's time to bring
 people to the page so they can contribute. You will probably want to
@@ -136,7 +159,7 @@ display a link to the page prominently on your website through a donate
 button or menu item. Here are some additional tips for promoting a
 contribution page in different CiviCRM configurations:
 
-### **Menu item in Joomla!**
+### Menu item in Joomla!
 
 The most direct way to expose your contribution page or membership
 signup/renewal page on the front of your web site is by creating a menu
@@ -149,13 +172,13 @@ item.
 4.  Save the menu item and view the website to confirm the page's
     functionality.
 
-### **Menu item in Drupal**
+### Menu item in Drupal
 
 From the contribution page listing, select Live Page to view the
 finished page. You can then copy the URL and include it in a content
 page or assign it to a menu item.
 
-### **Page or Post in WordPress**
+### Page or Post in WordPress
 
 You can easily embed your contribution page in a post or page on your
 WordPress front-end site.

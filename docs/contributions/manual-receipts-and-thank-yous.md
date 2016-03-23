@@ -1,36 +1,37 @@
-	Sending receipts and thank you letters
---------------------------------------
+# Sending receipts and thank you letters
 
-### Receipts
+## Receipts
 
 Donors making contributions through an online form will automatically
 receive an email receipt for their payment, provided the option to send
 them was selected during the configuration of the contribution page. If
 you wish to manually send or re-send a receipt at a later date, you can
-do so by either editing the contribution record against a contact and
-ticking the option **Send Receipt?** (an email will be sent after you
-click **Save**).
+do so by editing the contribution record against a contact and
+ticking the option **Send Receipt?**. The off-line contribution receipt will be
+sent when you click **Save**.
 
-You can send receipts to multiple contacts at the same time through the
-contributions search. Simply run a search, as above, and after selecting
-the contacts you wish to send a receipt to, choose **Receipts - print or email** from the actions drop-down menu.
+You can send off-line contribution receipts to multiple contacts at the same
+time through the [Find Contributions](../contributions/finding-and-viewing-contributions)
+search. After selecting the contacts you wish to send a receipt to, choose
+**Receipts - print or email** from the actions drop-down menu.
 
 ![ContributionReceiptsManual](../img/civicontribute-receipts-manual.PNG)
 
-You will be given the option to  email the receipts or make PDF receipts
+You will be given the option to email the receipts or make PDF receipts
 to post out to contributors.
 
 ![image](../img/Print%20contribution%20receipt%20options.PNG)
 
-By default the emailing or creating PDF receipts will update the receipt
+By default emailing or creating PDF receipts will update the receipt
 date for each contribution, but you can keep the existing receipt dates
 if you need to. You can also choose to disregard the **Do not email/Do
-not mail** settings so that all selected contributors are sent a receipt
+not mail** settings so that all selected contributors are sent a receipt.
 
-To find out how you can change the format of receipts, see the chapter
-*Contributions > Set-Up.*
+The standard off-line contribution receipt displays limited information. It can
+be customized but that requires a knowledge of Smarty. You may find it easier
+to set up "send later" receipts using the thank-you letters workflow.
 
-### Thank-you letters
+## Thank-you letters
 
 Some organisations may wish to send thank-you letters to people who
 donated to a particular campaign, advising them of the total amount
