@@ -397,7 +397,7 @@ exclude minimum or maximum amounts.
 
 It is possible to write your own custom searches, but you'll need to be
 comfortable with MySQL and PHP. See the Developer wiki at
-[http://wiki.civicrm.org/confluence/display/CRMDOC/Develop](http://wiki.civicrm.org/confluence/display/CRMDOC/Develop)[](http://en.flossmanuals.net/civicrm-developer-guide/)
+[http://wiki.civicrm.org/confluence/display/CRMDOC/Develop](http://wiki.civicrm.org/confluence/display/CRMDOC/Develop)
 for more information about how to do this. If you create a custom search
 that you think could be useful for others, consider contributing it back
 to the community.
