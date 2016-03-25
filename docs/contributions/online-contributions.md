@@ -33,7 +33,13 @@ Amounts** checkbox and setting **minimum** and/or **maximum** amounts if you wan
 12. Click on **Save and Done**.
 7. Follow the steps for your CMS to [display this page on your website](#publicizing-your-contribution-page).
 
+
+   &&&& Add links in here to profiles tab &&&
 ## Setting up a contribution page - full details.
+
+Navigate to **Contribution > New Contribution Page**.
+(**Contribution > Manage Contribution Pages > Add Contribution Page** takes
+  you to the same screen.)  
 
 ![New Contribution Page](../img/civicontribute-new-contribution-page.png)
 
@@ -47,30 +53,37 @@ organisation's accounting needs.
 -  Set a goal amount. (optional)
 -  This contribution page has to be manually enabled or disabled, but you can
    set a **start date** and **end date** that will apply for a Contribution
-   Widget and [Personal Campaign Pages](../contributions/personal-campaign-pages). (optional)
+   Widget and
+   [Personal Campaign Pages](../contributions/personal-campaign-pages). (optional)
 -  Choose whether or not to accept [Honoree soft crediting.](../contributions/soft-credits)
 -  Choose to use a confirmation page where users can check all details are
    correct or to process the payment as soon as the contribution form is submitted.
 -  Choose whether or not to display social media links on online pages and in
 the automatically emailed receipt (if being sent).
 -  Decide whether or not to make the Contribution Page active now.
--  Click **Continue**. (This is when you new contributions page is first
+-  Click **Continue**. (This is when you new contribution page is first
   saved.) You will be able to go back and modify all aspects of this page at
   any time by visiting the **Title** (and Settings) tab.
 
-You will now be on the (Contribution) **Amounts** tab.
+You will now be on the (Contribution) **Amounts** tab.  All the other
+feature tabs for contribution pages will now be visible at the top
+of the page.  We will deal with them one by ne
 
+### Amounts tab
 ![Contributions Amounts Page](../img/civicontribute-online-contribution-amounts.png)
 
--  The **Execute real-time monetary transactions** box is checked by default. You would uncheck this box if you are using this contribution page for free membership signup or to solicit in-kind (non-monetary) donations, or when you want **all** users to submit their payment offline.
+-  The **Execute real-time monetary transactions** box is checked by default.
+You would uncheck this box if you are using this contribution page for free
+membership signup or to solicit in-kind (non-monetary) donations, or when you
+want **all** users to submit their payments offline.
 -  Select the **Currency**.
--  Select one or more previously configured **[Payment Processors](../contributions/payment-processors)** for this page. Some organizations find it
-    is a good idea to give their constituents a choice of processors. You
-    can do this by setting up multiple processors, and checking the
+-  Select one or more previously configured [Payment Processors](../contributions/payment-processors)
+for this page. Some organizations find it is a good idea to offer a choice of
+processors. You can do this by setting up multiple processors, and checking the
     corresponding boxes on this form.
 -  Check the **Pay Later** box if you want to give users the option to
     submit payment offline (e.g. mail in a cheque, call in a credit card, deposit directly into your bank account etc.). If you allow pay later contributions you will need to decide on a checkbox label to display to your users and the instructions for submitting these delayed payments.
--  If you uncheck the **Contribution Amounts Section Enabled** the remaining fields on this page will vanish. You will only be able accept fixed-amount membership fees, or, if you configure a membership price set, fixed-amount memberships fees and other contributions as specified in the price set which will all be charged in a single transaction.
+-  If you uncheck the **Contribution Amounts Section Enabled** the remaining fields on this page will vanish. You will only be able accept fixed-amount membership fees, or, if you configure a membership price set, fixed-amount memberships fees and other contributions as specified in the price set all charged in a **single** transaction.
 -  Select a pre-defined **Price Set** (for more complex payment
     options), OR enter up to 10 fixed contribution amounts in the table at the bottom of the page.)
 -  You can check **Recurring contributions** if you payment processor and its integration with CiviCRM support recurring billing and you want to allow this feature. (There are restrictions on recurring payments when [membership fees](../membership/defining-memberships) are being paid.) If you check **Recurring contributions** further settings become visible.
@@ -81,7 +94,11 @@ You will now be on the (Contribution) **Amounts** tab.
     amount they choose. You can set a minimum and a maximum amount for "Other Amount" contributions if you want to.
 -  Click **Save and Done**.
 
-### Include Profiles
+### Memberships tab
+
+This is covered in detail in  [Memberships](../memberships/online-membership-sign-up).
+
+### Profile tab
 
 If you want to collect information from contributors beyond the essential fields
 required to make a contribution, such as age, interests and skills,
@@ -109,7 +126,7 @@ regardless of whether you include any other fields in your profile(s).
     When you edit or create a new profile you will use the profile drag
     and drop interface pictured here.
 
-    ![image](../img/Contribution-page---edit-profile2.gif)
+    ![image](../img/Contribution-page-edit-profile2.gif)
 
     WARNING: If you modify an existing profile whilst configuring your
     Contribution page, the changes you make will apply everywhere that
@@ -136,7 +153,7 @@ chance of this happening, you can adjust CiviCRM's default duplicate
 matching rules. For instructions on how to do this, read
 [Deduping and Merging](../common-workflows/deduping-and-merging).
 
-### Thank-you and Receipting
+### Receipt TabThank-you and Receipting
 
 Once you have created your contribution page, you can customise the
 Thank-you and Receipt emails that are sent to contributors.
