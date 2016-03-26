@@ -87,18 +87,18 @@ Mon, 26 Apr 2010 00:38:17 -0700 (PDT) Received-SPF: pass
 google.com: best guess record for domain of
 [youremail@example.org](mailto:youremail@example.org) designates 
  12.45.120.30 as permitted sender) client-ip=12.45.120.30
- ```
+```
 
 In particular:
 
-* "Received: from" header should correspond to your mail server and be
+*  "Received: from" header should correspond to your mail server and be
 properly configured. It might contain information about your hosting
 provider instead of your domain name. This is not a problem as long as
 the mail server is properly configured. If you have a dedicated IP
 address for your server, you should try to configure a reverse DNS that
 represents your organization instead of the default name.
 
-* "Received-SPF" header should list "pass" or "neutral". Sender
+*  "Received-SPF" header should list "pass" or "neutral". Sender
 Policy Framework is described later in more detail. 
 
 Sending mass mailing is resource intensive. We don't recommend sending
@@ -143,7 +143,7 @@ to the SPF record.
 You can read more about SPF at
 [http://www.openspf.org](http://www.openspf.org).
 
-##Configuring inbound email processing
+## Configuring inbound email processing
 
 This section explains configuration for bounce processing and auto
 filing incoming emails. Configuring **Scheduled Jobs** to do the actual
@@ -209,7 +209,7 @@ time):
 
 There are several ways of configuring your incoming mailbox:
 
--   **Sub-addressing:**Your mail service might allow you to append a
+-    **Sub-addressing:** Your mail service might allow you to append a
     +*tag* or -*tag* qualifier to your e-mail address (e.g.
     *return+test@example.org*). Several mail servers, including Gmail,
     Yahoo! and Postfix provide this sub-addressing by default.
@@ -219,13 +219,13 @@ There are several ways of configuring your incoming mailbox:
     directly use the mailbox you created (*return@example.org* in our
     example) as the VERP.
 
--   **"Catch-all" account:** If sub-addressing doesn't work on your mail
+-    **"Catch-all" account:**  If sub-addressing doesn't work on your mail
     server, you need to define the mail account you created
     (*return@example.org*) as the "catch-all" account. Every mail sent
     to an address that isn't a real mail account will end up there,
     including all the bounced email messages.
 
--   **External address**: If neither of the preceding methods works,
+-    **External address** : If neither of the preceding methods works,
     consider creating a new account on a service such as Gmail and use
     it to receive the bounced emails. You will have to set filters in
     this account so it doesn't discard as spam all the bounced email it
@@ -273,7 +273,7 @@ Once you have verified that CiviCRM can properly handle the bounce, you
 can set it up to automatically process the replies and bounces on a
 regular basis.
 
-##Scheduling inbound and outbound mail processing
+## Scheduling inbound and outbound mail processing
 
 As discussed in the earlier chapter, mail processing and other jobs may
 be automated through the Scheduled Jobs administrative page, cron or a
@@ -334,7 +334,7 @@ PHP 5.2.3-1ubuntu6.5 (cli) (built: Feb 11 2009 19:55:53) Copyright (c)
  The PHP Group Zend Engine v2.2.0, Copyright (c) 1998-2007 
  Zend Technologies with eAccelerator v0.9.5.3, Copyright (c) 2004-2006 
  eAccelerator, by eAccelerator
- ```
+```
 
 This means you have php-cli installed and you should use it, because it
 has several advantages:

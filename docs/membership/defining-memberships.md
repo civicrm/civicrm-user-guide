@@ -44,6 +44,7 @@ To start learning about membership types:
 2.  Select **Add Membership Type** 
 
 ![](../img/z-sprint154%20-%20new_membership_type.png) 
+
 -   **Name**:
 The name is displayed throughout the system, on both public and
 backend pages so spend some time thinking about a name that is
@@ -107,9 +108,9 @@ financial types you may want to look at using *membership price sets*.
 ![](../img/membership_contribution.png)
 
 
-    CiviCRM respects this distinction by storing the membership record under
-    the membership tab, storing the financial record under the Contributions
-    tab, and then creating a link between the two records.
+CiviCRM respects this distinction by storing the membership record under
+the membership tab, storing the financial record under the Contributions
+tab, and then creating a link between the two records.
 
 -   **Auto-renew**: CiviCRM offers an auto-renew functionality that will automatically
 submit a repeat transaction to the payment processor when the current
@@ -186,8 +187,8 @@ receive the benefits of membership.
 
  ![](../img/Membership_relationship_type.png) 
 
-    With inherited memberships, we distinguish between the primary member
-    and the members that inherit their membership due to their relationship with the primary member.
+ With inherited memberships, we distinguish between the primary member
+ and the members that inherit their membership due to their relationship with the primary member.
 
 
 -   **Visibility**: Choosing **Public** means that this membership type will be able to be selected for inclusion on online membership sign up forms. If certain
