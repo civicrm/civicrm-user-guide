@@ -4,7 +4,7 @@ Sales tax and VAT
 If your organization charges Sales Tax or VAT you should enable
 this feature.
 
-To enable Sales Tax/VAT go to **Administer > CiviContribute > CiviContribute Component Settings **and check the "Enable Tax and
+To enable Sales Tax/VAT go to **Administer > CiviContribute > CiviContribute Component Settings** and check the "Enable Tax and
 Invoicing" box.
 
 In this screen you can set certain settings for Sales Tax/VAT as well:
@@ -45,7 +45,7 @@ Financial Types**.  Find the Financial Type this sales tax applies to, and click
 
 For the **Financial Account Relationship** choose **Sales Tax Account is** and in the ** Financial Account** field select your sales tax account. Click **Save.**
 
-![](../img/addfinancialaccount2.jpg)
+![](../img/civicontribute-sales-tax-add-account.png)  
 
 Once the sales tax Financial Account has been added, you will see it
 listed with the other Financial Accounts for that specific Financial
