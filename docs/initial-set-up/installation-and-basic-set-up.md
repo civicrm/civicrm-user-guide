@@ -200,16 +200,16 @@ Settings screen and make changes as needed.
     {contact.supplemental_address_1}
     {contact.supplemental_address_2}
     {contact.city}{, }{contact.state_province}{ }{contact.postal_code}
-    {contact.country}
+    {contact.country}  
 ```  
 
-    You must include the *{contact.addressee}* token here in order to
-    include the name of the addressee in your labels. Users will be able
-    to select from a variety of label types corresponding to the label
-    manufacturer code when they generate the labels from a list of
-    contacts. It's a good idea to test your format with the type of
-    label and printer you plan on using to verify spacing.
-    
+  You must include the *{contact.addressee}* token here in order to
+  include the name of the addressee in your labels. Users will be able
+  to select from a variety of label types corresponding to the label
+  manufacturer code when they generate the labels from a list of
+  contacts. It's a good idea to test your format with the type of
+  label and printer you plan on using to verify spacing.
+
 -   **Address Display** - Controls the layout of contact and event
     location addresses displayed on CiviCRM screens. The default format
     is:
@@ -241,10 +241,10 @@ Settings screen and make changes as needed.
         the Street Address Parsing function. When address parsing is turned on you can edit and or view
         the parsed address by clicking on Edit Address Elements when you are editing a address.
 
-        ![address-parsing](../Address_parsing.PNG)
+        ![address-parsing](../img/basic-set-up-address-parsing.png)
 
         You can learn more about USPS' Postal Addressing Standards at          [http://pe.usps.com/text/pub28/welcome.htm](http://pe.usps.com/text/pub28/welcome.htm).
-        
+
 -   **Address Standardization** - CiviCRM includes an optional feature
     for interfacing to the United States Postal Services (USPS) Address
     Standardization web service. You must register to use the USPS
