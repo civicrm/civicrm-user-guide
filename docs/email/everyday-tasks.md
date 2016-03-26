@@ -205,9 +205,9 @@ the purpose of this mailing. It is recommended that you start each name
 with a date (e.g., "2015/04/25 - Monthly Newsletter"). This will make it
 easier to include or exclude recipients of this mailing in future
 mailings. This name is for internal use only and will not be shown to
-recipients. You will be asked to enter the Subject of the email later.
+recipients. You will be asked to enter the Subject of the email later.  
 
-    **Note**: The message editing text area displays all text as Arial.
+  **Note**: The message editing text area displays all text as Arial.
     However, the actual default is Times New Roman. You should change all
     text to your target font at the very end because future text edits often
     revert to Times New Roman.
@@ -217,8 +217,8 @@ recipients. You will be asked to enter the Subject of the email later.
 for this email. Selecting a template populates the HTML Format and
 Plain-Text Format fields with the message content from the template. You
 can then edit that content. You can also update the template, either
-changing the original template or saving it as a new template.
-![image](../img/CiviMail%20Mailing%20Naming%20.png)
+changing the original template or saving it as a new template.  
+NOTE: You cannot create a new template from this screen. If you think you will want to use a similar format in other mailings, consider [creating a template first](../email/set-up).
 
 3.
 **From**: Select the sender email address for this mailing from the dropdown list.
