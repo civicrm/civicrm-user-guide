@@ -116,7 +116,7 @@ To manage and administer existing CiviEvent price sets:
 -   navigating to **CiviEvent > Manage Price Sets** and
     choose **Administer**
 
-Discounts 
+Discounts
 -----------
 
 CiviEvent also lets you offer early bird discounts (discounts determined
@@ -128,9 +128,9 @@ Create the discount set and add it to the fee table. To help you create
 a discount set, a new fee table will appear toward the bottom of your
 page, duplicating the original fee table shown in the screenshot below.
 You can now edit the labels and fees to correspond to the discounts
-offered for each of the original fee options. 
+offered for each of the original fee options.
 
-![image](http://booki.flossmanuals.net/civicrm/http://en.flossmanuals.net/floss/pub/CiviCRM/CiviEvent/)![CDiscount](../img/CiviCRM-CiviEvent-CDiscount-en.gif "CDiscount")
+![CDiscount](../img/CiviCRM-CiviEvent-CDiscount-en.gif)
 
 You can create multiple date-based discount sets for an event. This may
 be useful if you have a series of early bird dates that progressively

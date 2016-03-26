@@ -11,7 +11,7 @@ Before reading this chapter, you may wish to read the chapter *Defining
 memberships* which gives useful background to many concepts (like
 membership types, membership statuses, and so on).
 
-About membership sign up pages 
+About membership sign up pages
 --------------------------------
 
 Membership sign up pages are created in the same way as online
@@ -31,7 +31,7 @@ instructions on how to do this).
 Contribution pages are very powerful and have a lot of options that are
 grouped together into tabs. Once you have given your contribution page a
 name, these tabs are displayed at the top of the page as you work
-through the rest of the set up process. 
+through the rest of the set up process.
 
 ![image](../img/membership-tabs.png)
 
@@ -42,9 +42,10 @@ of the membership configuration, and the Profiles tab, which allows you
 to collect information about the people or organisations that are
 filling out your membership form.
 
-We recommend you also review the chapters on creating online
-contribution pages which will give you a better understanding of all the
-tools you have at your disposal when creating membership pages. 
+We recommend you also review the chapters on creating [online
+contribution pages](../contributions/online-contributions) which will give you
+a better understanding of all the
+tools you have at your disposal when creating membership pages.
 
 ###The Title tab
 
@@ -55,20 +56,20 @@ will be recorded for memberships that are made through this page.
 
 This tab also has space for you to include an introductory message to be
 displayed on your membership page. You can include images and other
-simple HTML in this introductory text. 
+simple HTML in this introductory text.
 
-###Organisational memberships 
+###Organisational memberships
 
 The title tab contains a check box to allow people to become members *on
 behalf of* an organisation, which is the recommended way to offer
 organisational memberships. When enabled, you are prompted to select a
 profile (see the profiles chapter for more information) that will be
 used to collect organisational information. Organisational sign up can
-either be optional or required. 
+either be optional or required.
 
-![image](../img/Title%20settings%201%20.jpg) 
+![image](../img/Title%20settings%201%20.jpg)
 
-###The Amounts tab
+### The Amounts tab
 
 The amounts tab allows you to set various financial options, including
 the payment processor that is used on the page. Note that you can select
@@ -77,9 +78,9 @@ up a choice. For more information on setting up payment processors, and
 things to consider when choosing a payment processor see the chapter
 *Payment processors*.
 
-![image](../img/contribution%20amounts.jpg) 
+![image](../img/contribution%20amounts.jpg)
 
-Note that the amounts tab *is not*the place where membership fees are
+Note that the amounts tab *is not* the place where membership fees are
 configured - they are configured on the Memberships tab. If you want to
 use this page for collecting membership amounts and *do not* want to
 solicit extra contributions, leave the **Contribution Amounts section
@@ -87,13 +88,13 @@ enabled** checkbox unticked. If you *do* want to solicit contributions
 on top of membership fees, then tick the box and either add some
 suggested contribution options or configure a contribution price set.
 
-###Free memberships 
+### Free memberships
 
 If you are offering **free memberships**, you should leave the 'Execute
 real-time monetary transactions' box unticked and choose a membership
-type with a zero value minimum fee. 
+type with a zero value minimum fee.
 
-###The Memberships tab
+### The Memberships tab
 
 Since we are using this contribution page for membership sign up and
 renewal, we need to check the **Membership Section Enabled** to use this
@@ -106,12 +107,12 @@ sign up page, CiviCRM automatically replaces the membership sign up page
 with a membership renewal page which contains the text from the renewals
 box.
 
-![image](../img/membership%20signup%201.jpg) 
+![image](../img/membership%20signup%201.jpg)
 
 After the text boxes, are a few options that you can use to configure
-the membership types available on the membership form. 
+the membership types available on the membership form.
 
-![image](../img/MembershipTabOnlineCintribConfiguration.PNG) 
+![image](../img/MembershipTabOnlineCintribConfiguration.PNG)
 
 Looking at the simple use cases first, you select which membership types
 should be available on the page, which should be the default, and which
@@ -138,9 +139,9 @@ If you cannot accomplish what you need using the Membership Types table
 (for example if you want to offer sign up to two memberships at the same
 time, or offer sign ups with multiple membership terms), then you should
 use a membership price set (which is covered in its own chapter
-*Membership price sets*). 
+*Membership price sets*).
 
-Some of the things you can do with price sets include: 
+Some of the things you can do with price sets include:
 
 -   allow users to sign up for multiple classes of membership (e.g.
     "national" and "local" memberships) at the same time
@@ -161,11 +162,11 @@ customise the receipt email template you can do so using the **Mailings > Messag
 
 You may also want to CC or BCC every membership receipt to a staff
 member so they are alerted immediately every time someone becomes a
-member. 
+member.
 
-![image](../img/membership%20page%20receipt%201.jpg) 
+![image](../img/membership%20page%20receipt%201.jpg)
 
-![image](../img/membership%20page%20receipt%202.jpg) 
+![image](../img/membership%20page%20receipt%202.jpg)
 
 ###The Tell-A-Friend tab
 
@@ -177,9 +178,9 @@ that are told about the membership sign up will also be added to CiviCRM
 if they do not already exist and their source field will show that they
 were added via tell-a-friend.
 
-![image](../img/tell%20a%20friend.jpg) 
+![image](../img/tell%20a%20friend.jpg)
 
-###Collecting information as part of membership sign up (the Profiles tab) 
+###Collecting information as part of membership sign up (the Profiles tab)
 
 You can use profiles to collect information about your members as they
 fill in the sign up form. By default, contribution pages will include
@@ -191,15 +192,15 @@ interests, etc. If the person signing up to become a member is logged
 in, their profile fields will be populated with data from CiviCRM where
 available. Don't add a membership profile. Collection of that
 information occurs automatically during the online membership sign up
-process. 
+process.
 
-![image](../img/membership-profiles.png) 
+![image](../img/membership-profiles.png)
 
 The profiles tab allows you to select an already existing profile to
 include on your membership page, and if you have permission, to edit an
 existing profile or create a new profile to be included on this page.
 **WARNING:** If you edit an existing profile here, it will be changed in
-all places where that profile is used. 
+all places where that profile is used.
 
 ###Premiums tab
 
@@ -214,7 +215,7 @@ The Premiums tab of the contribution page wizard controls the
 introductory text, contact information, and other premium-related
 details.
 
-![image](../img/membership-profiles.png) 
+![image](../img/membership-profiles.png)
 
 Testing membership sign up pages
 --------------------------------
@@ -228,14 +229,14 @@ membership data you send through the form in test mode will be added to
 CiviCRM as test data and not be included in any membership stats or when
 searching for members, etc. If you want to find and delete test
 memberships, you can do so by clicking the 'is test' check box in **Find
-Memberships**. 
+Memberships**.
 
 Try and put yourself in the eyes of someone who wants to become a member
 of your organisation and go through the process a number of times, with
 different combinations of fields each time. Make sure that the data all
 appears as you would expect in CiviCRM. Once you've tested the process
 and have made any necessary changes, get other members of staff or
-friends from outside your organisation to test the process. 
+friends from outside your organisation to test the process.
 
 When using the Test-drive Registration option, you see the same
 registration pages as a regular user, but the online payment isn't
@@ -250,7 +251,7 @@ not entering data in the way you intended then you will need to make
 some changes. From time to time, you may want to solicit direct
 feedback from people who have recently become members to see how easy it
 was for them to become a member and ask their opinions on ways in which
-you could improve your form. 
+you could improve your form.
 
 Adding membership sign up pages to your website
 -----------------------------------------------
@@ -284,9 +285,9 @@ Page. **Copy the URL and insert it into an HTML link or menu.
 *Or* use a plugin such as Page Links To create a URL 'slug'.
 
 *Or* click the Wordpress shortcode icon to insert a form into any page
-or post. 
+or post.
 
-![image](../img/Wordpress-Shortcodes-small.png) 
+![image](../img/Wordpress-Shortcodes-small.png)
 
 ### In Joomla!
 
@@ -312,6 +313,4 @@ be able to join or renew online:
     custom data.
 -   Make online contributions: This permission must be granted unless
     your memberships are free and you have no interest in accepting
-    donations when people sign up or renew. 
-
-
+    donations when people sign up or renew.

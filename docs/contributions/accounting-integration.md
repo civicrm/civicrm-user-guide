@@ -1,18 +1,18 @@
 Accounting Integration
 ======================
 
-The accounting integration feature lets you create an new accounting batch then
-assign existing transactions to it, or re-use aa existing batch created during
-batch data entry as an accounting batch.  The accounting batch is exported and
-then can be imported into accounting software.
+The accounting integration feature allows you to export all the double-entry
+financial transactions for a batch of contributions so that you can import
+them into your accounting software. You can create a new accounting batch then
+assign existing contributions to it, or re-use a batch created during
+batch data entry as an accounting batch.
 
 Use a batch created through Batch Data Entry
 ---------------------------------------------
 
-Batch entry of transactions is covered in [Manual Entry of Contributions](../contributions/manual-entry-of-contributions/#batch-entry-of-contribution,-membership-or-pledge payments)
+Batch entry of transactions is covered in [Manual Entry of Contributions](../contributions/manual-entry-of-contributions)
 
-This procedure is covered in [Manual Entry of Contributions](../contributions/manual-entry-of-contributions#batch-entry-of-contribution,-membership-or-pledge payments)
-After you validate and close the batch, it will appear in the accounting batch
+After you validate and close a batch, it will appear in the accounting batch
 listing with a status of Closed.
 
 Create a New Batch from Existing Transactions
