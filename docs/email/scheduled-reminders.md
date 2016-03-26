@@ -15,7 +15,6 @@ scheduled reminders:
 -   activities
 -   memberships
 -   events
--   contributions
 
 You can create scheduled reminders for all these components at
 **Administer > Communications > Schedule Reminders**.
@@ -28,9 +27,9 @@ configuration pages.
 In addition to the standard tokens (see *Tokens and mail merge* in
 *Common workflows* for a full explanation of tokens) that are available
 in CiviMail, messages sent via scheduled reminders can also contain
-tokens representing information about events, activities, contributions and
-memberships that the scheduled reminder pertains to.  This allows you to
-use one scheduled reminder template for various events, membership, contribution or activity types.
+tokens representing information about events, activities and memberships that
+the scheduled reminder pertains to.  This allows you to use one scheduled
+reminder template for various events, membership or activity types.
 
 In event messages, tokens such as event location will be replaced with
 the specific location of the event. In membership messages, you have
@@ -49,7 +48,8 @@ Scheduled reminders can be created from the administration page at
 **Administer > Communications > Schedule Reminders** or during the
 creation of an event.
 
-When you click on **Add Reminder** under **Administer > Communications > Schedule Reminders.** The exact options that are visible depend on the
+When you click on **Add Reminder** under **Administer > Communications > Schedule Reminders.**
+The exact options that are visible depend on the
 **Entity** chosen but all scheduled reminders are fairly similar. The
 general process is:
 
@@ -147,15 +147,6 @@ Here are some ways you might want to use reminders for Activities:
 -   Send notifications to the person who scheduled an activity that it
     has been completed.
 -   Send thank-you notes to people who met with you.
-
-((((((((((((()))))))))))))
-
-Using scheduled reminders for contributions
------------------------------------------
-
-You can set up emails to be sent out to your contributors based on the page they donated through or the contribution/financial type of their donation.  For example, you could
-
-(((((((((())))))))))
 
 Using scheduled reminders for memberships
 -----------------------------------------
