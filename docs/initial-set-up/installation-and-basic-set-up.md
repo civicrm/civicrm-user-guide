@@ -200,10 +200,9 @@ Settings screen and make changes as needed.
     {contact.supplemental_address_1}
     {contact.supplemental_address_2}
     {contact.city}{, }{contact.state_province}{ }{contact.postal_code}
-    {contact.country}*
+    {contact.country}*  
 
-
-    You must include the *{contact.addressee}* token here in order to
+  You must include the *{contact.addressee}* token here in order to
     include the name of the addressee in your labels. Users will be able
     to select from a variety of label types corresponding to the label
     manufacturer code when they generate the labels from a list of
