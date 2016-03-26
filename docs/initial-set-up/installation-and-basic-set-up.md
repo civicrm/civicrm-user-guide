@@ -194,14 +194,14 @@ Settings screen and make changes as needed.
 -   **Mailing Labels** - Controls formatting of mailing labels here. The
     default format is:
 
-    ```
+```
     {contact.addressee}
     {contact.street_address}
     {contact.supplemental_address_1}
     {contact.supplemental_address_2}
     {contact.city}{, }{contact.state_province}{ }{contact.postal_code}
     {contact.country}
- ```  
+```  
 
     You must include the *{contact.addressee}* token here in order to
     include the name of the addressee in your labels. Users will be able
@@ -209,6 +209,7 @@ Settings screen and make changes as needed.
     manufacturer code when they generate the labels from a list of
     contacts. It's a good idea to test your format with the type of
     label and printer you plan on using to verify spacing.
+    
 -   **Address Display** - Controls the layout of contact and event
     location addresses displayed on CiviCRM screens. The default format
     is:
@@ -220,6 +221,7 @@ Settings screen and make changes as needed.
     {contact.city}{, }{contact.state_province}{ }{contact.postal_code}
     {contact.country}
 ```
+
     This format also applies to event locations, despite the use of the
     *contact* record type in the layout. The *{contact.address_name}*
     token is particularly useful for events where you need to include a
@@ -242,6 +244,7 @@ Settings screen and make changes as needed.
         ![address-parsing](../Address_parsing.PNG)
 
         You can learn more about USPS' Postal Addressing Standards at          [http://pe.usps.com/text/pub28/welcome.htm](http://pe.usps.com/text/pub28/welcome.htm).
+        
 -   **Address Standardization** - CiviCRM includes an optional feature
     for interfacing to the United States Postal Services (USPS) Address
     Standardization web service. You must register to use the USPS
