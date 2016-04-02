@@ -1,11 +1,9 @@
-Everyday tasks
-==============
+# Everyday tasks
 
 This chapter contains step-by-step instructions for performing important
 everyday tasks with email.
 
-Send an email to one person (with CC and BCC)
------------------------------------------------
+## Send an email to one person (with CC and BCC)
 
 You can use CiviCRM to send an email to individuals. Using CiviCRM for
 this purpose is useful if you want other people at your organisation to
@@ -38,8 +36,7 @@ template.
 To see the activity that was just recorded of the email sent, click the
 Activities tab of the contact.
 
-Sending a quick email to less than 50 contacts
-----------------------------------------------
+## Sending a quick email to less than 50 contacts
 
 In the results from a search, CiviCRM makes "Send Email to Contacts"
 available from the actions dropdown menu. This allows you to send an
@@ -68,8 +65,7 @@ recipients don't see who else received the email, you might want to
 mention whom you are sending it to in the text of your mail (for
 instance: "TO: Members of the board, staff")
 
-Inserting an image in an email
-------------------------------
+## Inserting an image in an email
 
 Click the **image button** in the WYSIWYG editor.
 
@@ -107,8 +103,7 @@ Click **OK** to insert the image.
 
 ![](../img/civimail_Insert%20image%206.jpg)
 
-Sending a mass mailing through CiviMail
----------------------------------------
+## Sending a mass mailing through CiviMail
 
 Using the Mailings functionality offered by CiviMail provides many
 benefits over the Send Email activity, allowing you to track respondents
@@ -119,19 +114,13 @@ your mailings.
 
 There are two ways to select the recipients for your mailing—sending to
 existing Groups and sending to search results—and although the workflow
-to create the mailings is mostly the same, there are two important
-differences.
+to create the mailings is mostly the same, there is one important
+difference.
 
-The first and most important is that when you're setting up Mailings to
-send to Groups, you can save your work at any point and continue it
-later. Mailings to search results cannot be saved for later editing;
-when you start to prepare your mailing to search results, make sure you
-have time to finish it.
-
-The other difference is that for mailings to search results, you are
+For mailings to search results, you are
 required to choose a Group from the Unsubscription Group dropdown menu.
 Here's why: Every mass mailing needs a way to track unsubscribe
-requests. Mailings sent to Groups have this capacity built-in—the next
+requests. Mailings sent to Groups have this capacity built-in. The next
 time a mass email is sent to that Group, anyone who has unsubscribed
 will not be included. However, mailings sent to search results do not
 have this built-in way to track who has unsubscribed, so you need to
@@ -143,7 +132,6 @@ that contact will not be sent the mailing. If a contact unsubscribes via
 the unsubscription link in this mailing, they will be unsubscribed from
 this Group and therefore not receive any more emails sent to this group.
 This is true whether they were originally a member of the Group or not.
-
 
 The Unsubscription Group you designate collects unsubscribe information
 only; it does not supply any contacts to the mailing. In other words,
@@ -169,38 +157,32 @@ people who have unsubscribed are excluded from those future mailings.
 ### The Mailing set-up screens
 
 If you are sending mail to an existing Group, go to **Mailings > New
-Mailing**.
+Mailing**. You will see the following screen.
 
-If you're using search, perform your search (for example, using the
-**Search > Advanced Search**) and then choose **Schedule/Send a Mass
-Mailing** from the**- actions -** drop down.
+![Bulk email based on existing groups](../img/email-compose-mailing.png)
 
-![](../img/advanced%20search%20schedule%20mass%20mailing.png)
+If you are basing your mailing on search results, perform your search
+(for example, using the **Search > Advanced Search**) and then choose
+**Schedule/Send a Mass Mailing** from the **Actions** drop down. You will
+see the following screen.
 
-The process for sending the mailing then proceeds via the following
-screens. You can move between these screens by using the
-**Next/Previous** buttons. For mailings sent to Groups, you can also save
-your mailing at any stage by clicking on the **Save & Continue
-Later** button.
+![Bulk email based on search results](../img/email-compose-search-based-mailing.png)
 
-###
+
+These are two screens are very similar however, as described in
+[Choosing recipients: Groups versus search results](#Choosing recipients: Groups versus search results),
+for the search-based mailing you must choose an Unsubscribe Group and
+it includes the "Search Results" group in the Recipients list. (Also, in both
+cases the HTML pane will be open. It was closed to fit the bottom buttons into these images.)
+
+Remember you can save your mailing at any stage by clicking on the
+**Save Draft** button.
 
 **Step 1: Define Mailing**
 
-Fill out the following fields:
+On the **Mailing** tab you will find the following fields:
 
-You can also refine your recipient list by including and excluding
-recipients of previous mailings.
-
-For instance, you may want to resend an email only to contacts that have
-been added to a Group since the last time you sent them email, to avoid
-sending the same email twice to some people. In that case, choose the
-original mailing in the EXCLUDE Recipients of These Mailing(s) area.
-This will then send the message only to those members of the group who
-did not receive the original mailing.
-
-1.
-**Name Your Mailing:** Enter a name for this mailing. Select a name
+1. **Mailing Name:** Enter a name for this mailing. Select a name
 that will allow you and others in your organization to clearly identify
 the purpose of this mailing. It is recommended that you start each name
 with a date (e.g., "2015/04/25 - Monthly Newsletter"). This will make it
@@ -208,89 +190,130 @@ easier to include or exclude recipients of this mailing in future
 mailings. This name is for internal use only and will not be shown to
 recipients. You will be asked to enter the Subject of the email later.
 
-  **Note**: The message editing text area displays all text as Arial.
-    However, the actual default is Times New Roman. You should change all
-    text to your target font at the very end because future text edits often
-    revert to Times New Roman.
+2. **Campaign**: You can associate this email with a particular campaign.
 
-2.
-**Template**: If you have made any templates, you can choose one to use
-for this email. Selecting a template populates the HTML Format and
-Plain-Text Format fields with the message content from the template. You
-can then edit that content. You can also update the template, either
-changing the original template or saving it as a new template.
+3. **Template**: Here you can select an existing message template to
+populate the HTML Format and Plain-Text Format fields with the message content from the template. You can edit the content to suit this particular mailing but you cannot update the template, or create a new template via this form. (CiviCRM ships with three sample newsletter templates which users with the Administer CiviCRM permssion can customise with your own organisation's details at **Administer > CiviMail > Message Templates**.  That is also where new message templates can be created.)
 
-![](../img/CiviMail%20Mailing%20Naming%20.png)
+4. **From**: This will be populated with the default sender email address.
+You can select an alternative for this mailing from the dropdown list.
+Users with Administer CiviCRM permssion can add additional email addresses
+by going to **Administer > CiviMail > From Email addresses**.
 
-3.
-**From**: Select the sender email address for this mailing from the dropdown list.
-Users with Administer CiviCRM permssion can add additional email addresses by going to
-Administer >> CiviMail >> From Email addresses.
+5. **Recipients:** This is where you can choose who will receive the
+mailing (if mailing to Groups) or further refine or add to your mail
+recipients (if mailing to search results). You can choose Groups to
+include (shown in green) and exclude (shown in red and struck through),
+by selecting them from the "Recipients" dropdown.
+Only groups of the type "Mailing List" will be available in the dropdown.  
 
-4. **Recipients:** This is where you can choose who will receive the
-mailing (if mailing to Groups) or further refine your mailing (if
-mailing to search results). You can choose Groups to include and
-exclude, by selecting them from the "Recipients" dropdown.
-Please make sure your Group has a the type "Mailing List".
+ ![Civimail Recipients include and exclude](../img/civimail-recipients-example.png)
 
-You can also refine your recipient list by including and excluding
+   You can also refine your recipient list by including and excluding
 recipients of previous mailings. For instance, you may want to resend an
 email only to contacts that have been added to a Group since the last
 time you sent them email, to avoid sending the same email twice to some
-people. Choose the original mailing in the " Exclude Past Recipients From".
+people. Choose the original mailing in the "Exclude Past Recipients From".
 This will then send the message only to those members of the group who did not
 receive the original mailing.
 
-You can see the estimated final number of recipients to right of the "Recipients" field and highlighted in yellow.
+  The estimated final number of recipients to displayed to the right of the
+  "Recipients" field and highlighted in yellow.
 
-**Unsubscribe Group:** At the Define Mailing screen you can also specify
-the group that contains all your contacts that have unsubscribed.
+6. **Edit Options**  Settings to further refine the recipients list are accessed
+by clicking on the small wrench to the right of the Recipients field and to
+the left of the estimate of recipient numbers.
 
-** Remove Duplicate Emails:** To edit your mailing dedupe options, click the small wrench
-to the right of the Recipients field.
+ ![Civimail Recipients Edit Options](../img/civimail-recipients-edit-options.png)
 
-CiviCRM will always dedupe your mailing based on unique contact records. For example, if a contact is in three of the groups you are including in your mailing, they will only be sent one copy of the email. However, if the same email is used by multiple contacts, that email address will receive multiple copies of the email—one for each contact using that address. Checking this box will ensure only one email is sent to each address automatically.
+ **Dedupe by email:** CiviCRM will always dedupe your mailing based on
+ unique contact records. For example, if a contact is in three of the
+ groups you are including in your mailing, they will only be sent one copy
+ of the email. However, if the same email address is used by multiple
+ contacts, how many emails are sent is determined by this box. If it
+ is unticked then multiple copies of the email will be sent - one for
+ each contact using that address. If it is ticked then only one
+ email is sent to each address. You set the default for this box at
+ **Administer > CiviMail > CiviMail Component Settings** by ticking
+ or unticking "CiviMail dedupes e-mail addresses by default" but you can
+ override the default for any email if needed.
 
-** Location Type:** You can change the Location Type and the Selection Method on the Edit Options screen.
-You can filter on the Location Type and only send the mailing to email addresses with the specified location type or exclude the email addresses with the specified location type.
+ **Location Type:** By default emails created through CiviMail are sent to
+ the address location(s) set as being for "Bulk Mailings" or, if no location type
+ has that setting, to the address location set as "Is Primary". You can change
+ the Location Type and the Selection
+ Method on the Edit Options screen.
+You can filter on the Location Type and only send the mailing to email addresses with the specified location type or exclude the email addresses with the specified location type.  
 
-5.  **Composing your Email:** This section will allow you to compose content
-for your mailing. As you write your content, remember that every email
-will be sent individually. CiviCRM offers the ability to personalize
-each email using tokens. See "*Using tokens in emails*" later in this
-chapter.If you just wish to send a text version of your email, ignore
-the HTML section and click on the Plain Text section. Enter your message
-in the box.
+7. **Unsubscribe Group (for search-based mailings only):** This should be
+chosen carefully. It may help to read through the example of a search-based
+mailing in [Choosing recipients: Groups versus search results](#Choosing recipients: Groups versus search results).
 
-6.  **Attachments:** You can attach documents and files to the email by going
-to Attachments tab and selecting the file(s) you would like to upload.
+8. **Subject** is the subject in your sent emails. You can include tokens
+in the subject. The **Subject** (not the Mailing Name) is used when creating an
+activity or mailing record for each contact.
 
-7. **Header and Footer:** On this tab you can select the header and footer
-you would like to use for the mailing. You can define additional Headers
+9.  **HTML (expanding section):** This is where you can compose content
+for your mailing. Remember that CiviCRM lets you personalize each email using
+tokens. See "*Using tokens in emails*" later in this chapter. If you only
+want to send a plain text email ignore the HTML section. Click on
+**Plain Text** to open that accordion and enter your message in the box.
+
+10. The **Preview** panel is a footer to the **Define Mailing** screen. It
+is displayed whichever tab is selected. Within this panel are the options to:
+  -  Preview the HTML or Plain Text version of the email. The HTML preview will show you all the formatting and converted tokens with your data. It will not include any attachments. There is no guarantee that all email clients will
+      display the email exactly as it is shown in this preview, but it is
+      useful to ensure things like font consistency, basic layout and
+      color.
+
+  -  Send a test email to a single email address (Note: If the email address
+    does not already exist in CiviCRM a new contact record will be created.)
+  -  Send a test email to a an existing group in CiviCRM.
+
+      The test mailing will fill in all the Tokens and include any attachments you are planning to send.
+
+     It is a good idea to test your email by sending it to yourself and
+  viewing it in your email client to make sure it looks as you expect.
+  If you are sending a mail with a complex layout, send it to your
+  test group and verify it from various mail clients (see *Testing
+  templates* in the *Set-up* section for more tips on this). It is
+  preferable to have more than one person receive your test email and
+  give you feedback.
+
+The **Mailing** tab may be the only tab you need to visit when you are creating
+your mailing. It contains all the compulsory fields that need to be defined for
+each new mailing. The remaining tabs are:
+
+-  The **Attachments** tab where you upload files to send as attachments with
+your email.
+
+-  The **Header and Footer** tab.  Each new mailing you create will include the
+  default Header and default Footer as defined at
+  **Mailings > Headers, Footers, and Automated Messages**. If you don't want
+  to use these defaults, this tab is where you select the header and/or
+  footer you do want to use for this mailing. You define additional Headers
 and Footers via **Mailings > Headers, Footers, and Automated
 Messages** (See *Set-Up* for details).
 
-8. **Publication:** There is only one field in this section:
+-  The **Publication** tab. There is only one field in this section:
 **Mailing Visibility.** Its dropdown menu offers two options, "User and
 User Admin Only" and "Public Pages." Choosing Public Pages makes this
 content viewable as a web page by everyone who has the permission of
 "View public CiviMail content."
 "User and User Admin Only" means that only users that received the mailing
 or administrators can view the content of this email as a web page;
-the recipients will have to log in to be able to view the message.
+the recipients will have to log in to be able to view the message.  
 
-To link to the web version in your email, insert the **Mailing
-permalink** token in your message in the next step. This token generates
+ To link to the web version in your email, you need to have inserted the
+ **Mailing permalink** token in your email message. This token generates
 a URL on which the message can be viewed; in order to display it
 properly in HTML messages, you'll need to add the proper link tags using
 the Source icon in the editor.
 
-9. **Responses:**
-**Track Replies:** Checking this option will send replies from the
-mailing's recipients to a CiviMail specific address instead of the sender's address
-so they can be stored within CiviCRM.
-
-Checking this box will open the two options described next.
+-  The **Responses** tab contains:
+  -  **Track Replies** checkbox. Checking this option will send replies from the
+mailing's recipients to a CiviMail specific address instead of the sender's
+address so they can be stored within CiviCRM. Checking this box will open the two options described next.
     -   **Forward Replies:** This option is only visible if "Track Replies"
     is checked. You will need to check this option if you want the From
     address to also receive the replies sent by recipients.
@@ -299,16 +322,17 @@ Checking this box will open the two options described next.
     need to set up an autoresponder ahead of time in **Mailings >>
     Headers, Footers, and Automated Messages**.
 
-In the same screen, you can also select the different automatic messages.
-- **Opt-Out Message:** This message will be sent to the recipient who has
+  - **Opt-Out Message:** This message will be sent to the recipient who has
 opted-out from all the mailing lists
-- **Resubscribe Message:** This message will be sent to the recipient who
+  - **Resubscribe Message:** This message will be sent to the recipient who
 has resubscribed to one of the mailing lists
-- **Unsubscribe Message:** This message will be sebt to the recipient who
-has unsubscribed from one of the mailing lists
-You can edit these messages by going in **Mailings >> Headers, Footers, and Automated Messages**.
 
-10.  **Tracking**
+  - **Unsubscribe Message:** This message will be sent to the recipient who
+has unsubscribed from one of the mailing lists.
+
+    You can edit these three messages at **Mailings >> Headers, Footers, and Automated Messages**.
+
+-  The **Tracking** tab contains:
     -  **Track Click-Throughs**: This option will keep track of how many
     users and which users clicked on all the links in your message. This
     is accomplished by redirecting all links through your server. This
@@ -317,8 +341,10 @@ You can edit these messages by going in **Mailings >> Headers, Footers, and Auto
 
     **Note for HTML mail:** Some phishing filters may mark links that are
     displayed differently in HTML code and in the text as unsafe. It is
-    therefore best not to use something like <a href="http://google.com">http://Google.com</a> but rather <a
-    href="http://google.com">click here to go to Google</a>.
+    therefore best not to use something like ```
+    <a href="http://google.com">http://Google.com</a>```
+     but rather use    ```
+     <a href="http://google.com">click here to go to Google</a>```
 
     **Note for Plain Text email:** If you use short, user-friendly URLs
     in your email, they will all be overwritten with long links
@@ -332,41 +358,37 @@ You can edit these messages by going in **Mailings >> Headers, Footers, and Auto
     content"), their email will not be marked as opened even if they do
     open it. Blocking remote content is a very common practice.
 
+Once you have defined all aspects of your mailing click on **Next >**
+(lower left) to advance to:
 
 **Step 2: Review and Schedule**
 
-**Testing Your Mailing:** You can test your message in one of two ways:
+![CiviMail Review and Schedule screen](../img/civimail-review-and-scheduling.png)
 
-1.  **Test Mailing:** You can specify an individual email address or a
-    test group for your test mailing. The test mailing will fill in all
-    the Tokens and include any attachments you are planning to send.
+1. The **Review** panel is a summary of all the details of your email.
 
-    It is a good idea to test your email by sending it to yourself and
-    viewing it in your email client to make sure it looks as you expect.
-    If you are sending a mail with a complex layout, send it to your
-    test group and verify it from various mail clients (see *Testing
-    templates* in the *Set-up* section for more tips on this). It is
-    preferable to have more than one person receive your test email and
-    give you feedback.
+ The blue words are actually buttons. Clicking on **~XX recipients** will show
+the contact names and email addresses the email will be sent to. Clicking
+on **HTML** or **Plain Text** will show the email to be sent including
+any header and/or footer. Clicking on any of the envelopes will display the
+named message. Ticks and crosses with strike-throughs show what
+you have and have not chosen to do in terms of tracking and dealing with
+responses to the email.  In short, **Review** is a brilliant little panel
+that lets you confirm that you have made all the correct choices despite the
+multitude of interruptions you experienced whilst defining your mailing.
 
-2.  **Preview Mailing:** The preview will show you all the HTML
-    formatting and converted tokens with your data. It will not include
-    the attachment. There is no guarantee that all email clients will
-    display the email exactly as it is shown in this preview, but it is
-    useful to ensure things like font consistency, basic layout and
-    color.
+2.  **Schedule**
 
-**Schedule or Send**
+ You can either choose to send the email immediately or schedule a date and
+ time for it to be sent. Finally click on **Submit Mailing**. By default,
+ CiviMail checks every 15 minutes for any emails that are ready to be sent,
+ so the start of the mailing could be delayed by up to 15 minutes.
 
-This section will allow you to either send the email immediately or
-schedule a date and time for it to be sent. By default, CiviMail checks
-every 15 minutes whether an email is ready to be sent, so there can be a
-delay of up to 15 minutes after you request the email to be sent.
+ Mailings sent to large numbers of recipients are sent in batches of
+about 400 to reduce the likelihood of the emails being caught in spam filters.
+Therefore, the actual sending of your mass mailing can take several hours
+depending on your server configuration.
 
-Mailings sent to large numbers of recipients are sent in batches of
-about 400 to avoid the emails being caught in spam filters. Therefore,
-the actual sending of your mass mailing can take several hours depending
-on your server configuration.
 
 Tracking sent mass mailings
 ---------------------------
