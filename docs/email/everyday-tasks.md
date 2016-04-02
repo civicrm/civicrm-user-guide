@@ -169,11 +169,11 @@ see the following screen.
 ![Bulk email based on search results](../img/email-compose-search-based-mailing.png)
 
 
-These are two screens are very similar however, as described in
+These are two screens are very similar, however, as described in
 [Choosing recipients: Groups versus search results](#Choosing recipients: Groups versus search results),
 for the search-based mailing you must choose an Unsubscribe Group and
-it includes the "Search Results" group in the Recipients list. (Also, in both
-cases the HTML pane will be open. It was closed to fit the bottom buttons into these images.)
+the "Search Results" group is included in (and cannot be removed from) the Recipients list. (Also, the HTML 
+pane is open by default. It was closed to fit the bottom buttons into these images.)
 
 Remember you can save your mailing at any stage by clicking on the
 **Save Draft** button.
@@ -206,10 +206,8 @@ recipients (if mailing to search results). You can choose Groups to
 include (shown in green) and exclude (shown in red and struck through),
 by selecting them from the "Recipients" dropdown.
 Only groups of the type "Mailing List" will be available in the dropdown.  
-
- ![Civimail Recipients include and exclude](../img/civimail-recipients-example.png)
-
-   You can also refine your recipient list by including and excluding
+ ![Civimail Recipients include and exclude](../img/civimail-recipients-example.png)  
+ You can also refine your recipient list by including and excluding
 recipients of previous mailings. For instance, you may want to resend an
 email only to contacts that have been added to a Group since the last
 time you sent them email, to avoid sending the same email twice to some
