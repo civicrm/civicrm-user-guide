@@ -325,34 +325,34 @@ Mass mailings can be found in one of three areas accessible via the
 **Mailings** menu:
 
 **Draft and Unscheduled Mailings**: As soon as you name your message
-    in Step 1 and click Next, it is placed in this area. If you click
-    **Save & Continue Later** or simply abandon a message after some
-    steps, you can continue working on it by clicking on the
-    **Continue** link next to the message listed here.
-    (**Note:** Mailings started based on search results will not have the
-    Continue link listed.)
+ in Step 1 and click Next, it is placed in this area. If you click
+ **Save & Continue Later** or simply abandon a message after some
+ steps, you can continue working on it by clicking on the
+ **Continue** link next to the message listed here.
+ (**Note:** Mailings started based on search results will not have the
+ Continue link listed.)
 
-    You can also **Delete** draft messages here.
+ You can also **Delete** draft messages here.
 
 **Scheduled and Sent Mailings:** When you send or schedule a mailing,
-    it will be placed in this area and remain there until it is archived
-    or deleted.
+ it will be placed in this area and remain there until it is archived
+ or deleted.
 
-    You can track the success of delivery by clicking on the **Report**
-    link next to the message.
+ You can track the success of delivery by clicking on the **Report**
+ link next to the message.
 
-    You can also start another mailing based on a previous mailing by
-    clicking on the **Re-Use** link. (Note, the Re-Use link is not
-    available for mailings based on search results.)
+ You can also start another mailing based on a previous mailing by
+ clicking on the **Re-Use** link. (Note, the Re-Use link is not
+ available for mailings based on search results.)
 
-    The **Archive** and **Delete** links are available under the
-    **more** link. For mailings that are scheduled but not yet sent, a
-    **Cancel** link is available instead of **Archive**.
+ The **Archive** and **Delete** links are available under the
+ **more** link. For mailings that are scheduled but not yet sent, a
+ **Cancel** link is available instead of **Archive**.
 
 **Archived Mailings:** This area lists all messages that were
-    archived from the Scheduled and Sent mailings area. Mailings listed
-    here are not available to be included or excluded from the recipient
-    list.
+ archived from the Scheduled and Sent mailings area. Mailings listed
+ here are not available to be included or excluded from the recipient
+ list.
 
-    It provides exactly same functionality as Scheduled and Sent
-    Mailings, including the possibility to view Reports and Re-Use.
+ It provides exactly the same functionality as Scheduled and Sent
+ Mailings, including the possibility to view Reports and Re-Use.
