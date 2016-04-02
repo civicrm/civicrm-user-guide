@@ -12,7 +12,7 @@ have been configured.
 
 Some parts of the configuration are core CiviCRM functionality (basic
 sending and receiving of emails) whereas others (mass mailings) require
-that the CiviMAIL component be enabled. 
+that the CiviMAIL component be enabled.
 
 You will need to be able to change the configuration of your DNS, create
 email accounts, configure a cron job, read the headers of email
@@ -39,7 +39,7 @@ view the source of the mails you receive.
 
 Once your system is properly configured we are going to use cron to
 trigger CiviCRM's **Scheduled Jobs** to ensure your scheduled mailings
-are sent. 
+are sent.
 
 Configuring outbound email service
 ----------------------------------
@@ -48,27 +48,29 @@ Outbound email settings are configured at: **Administer > System
 Settings > Outbound Email (SMTP/Sendmail)**. The choices here are:
 
 -   **mail()**: This is the default option and if it works for you, you
-    should use it. 
+    should use it.
 -   **SMTP**: If you have a dedicated external mail server, specify its
     details here. Bounce messages generated with SMTP are slightly more
     complete than the ones from mail(), but there is no practical
-    benefit to using SMTP if you can use mail(). 
+    benefit to using SMTP if you can use mail().
 -   **Sendmail**: This option is kept for compatibility with older CiviCRM
-    versions. 
+    versions.
 -   **Disable Outbound Email**: Works as expected.
--   **Redirect to Database**: All emails will be recorded as archived mailings instead of being sent out. They can be found in the civicrm\_mailing_spool table in the CiviCRM database.
+-   **Redirect to Database**: All emails will be recorded as archived mailings
+instead of being sent out. They can be found in the civicrm\_mailing_spool
+table in the CiviCRM database.
 
 After making a choice, send a test email to your account on Gmail and
 verify that you receive it.
 
 If you receive the following error message, you'll need to configure a
 default FROM email address (covered in the chapter on CiviMail
-configuration). 
+configuration).
 
 ```
-Sorry. A non-recoverable error has occurred. 
+Sorry. A non-recoverable error has occurred.
 The site administrator needs to enter a valid 'FROM Email Address' in
-Administer -> Configure -> Domain Information. 
+Administer -> Configure -> Domain Information.
 The email address used may need to be a valid mail account with your
 email service provider.
 ```
@@ -81,11 +83,11 @@ The email should contain headers that resemble the following.
 
 ```
 Received: from yourmailserver.example.org (xxx.example.org
-[12.45.120.30]) 
-by mx.google.com with ESMTP id e31si4519230wej.3.2010.04.26.00.38.16; 
-Mon, 26 Apr 2010 00:38:17 -0700 (PDT) Received-SPF: pass 
+[12.45.120.30])
+by mx.google.com with ESMTP id e31si4519230wej.3.2010.04.26.00.38.16;
+Mon, 26 Apr 2010 00:38:17 -0700 (PDT) Received-SPF: pass
 google.com: best guess record for domain of
-[youremail@example.org](mailto:youremail@example.org) designates 
+[youremail@example.org](mailto:youremail@example.org) designates
  12.45.120.30 as permitted sender) client-ip=12.45.120.30
 ```
 
@@ -99,7 +101,7 @@ address for your server, you should try to configure a reverse DNS that
 represents your organization instead of the default name.
 
 *  "Received-SPF" header should list "pass" or "neutral". Sender
-Policy Framework is described later in more detail. 
+Policy Framework is described later in more detail.
 
 Sending mass mailing is resource intensive. We don't recommend sending
 email messages from budget hosting providers. The time you will spend
@@ -147,9 +149,9 @@ You can read more about SPF at
 
 This section explains configuration for bounce processing and auto
 filing incoming emails. Configuring **Scheduled Jobs** to do the actual
-bounce processing is discussed later in this chapter. 
+bounce processing is discussed later in this chapter.
 
-### Bounce processing 
+### Bounce processing
 
 CiviCRM can automatically receive the [bounced email
 notification](http://en.wikipedia.org/wiki/Bounce_message) and, based on
@@ -170,7 +172,7 @@ For each email sent via CiviMail's mass mailing feature, a new unique
 return path or
 VERP](http://en.wikipedia.org/wiki/Variable_envelope_return_path). When
 CiviCRM receives a bounce, it looks at the invisible sender address to
-decide which email bounced. 
+decide which email bounced.
 
 CiviCRM then looks a the bounce pattern and type to decide what action
 to take. Bounce types fall into two basic categories: permanent failures
@@ -183,14 +185,20 @@ The specific [threshold for each bounce
 type](http://wiki.civicrm.org/confluence/display/CRMDOC43/Bounce+Handling)
 can be found in the civcirm_mailing_bounce_pattern and
 civicrm_mailing_bounce_type. Multiple different bounce reply patterns
-are linked to a given type and threshold. 
+are linked to a given type and threshold.
 
 ### **Email-to-Activity processing**
 
 CiviCRM can automatically retrieve email from a specified inbox and file
-it as an email activity against contacts of type Individual corresponding to sender and recipients of the email. New individual contacts are created for email adresses not already assigned to individuals in the database. 
+it as an email activity against contacts of type Individual corresponding to
+sender and recipients of the email. New individual contacts are created for
+email adresses not already assigned to individuals in the database.
 
-**NOTE**: This features only works for the Individual contact type. If the incoming email comes from an email address already record aginast an organization, a new individual contact with that same email address with be created and the activity will be recorded against that new individual contact, not against the organization.
+**NOTE**: This features only works for the Individual contact type. If the
+incoming email comes from an email address already record against an
+organization, a new individual contact with that same email address will be
+created and the activity will be recorded against that new individual contact,
+not against the organization.
 
 There are two ways to do this (either or both ways can be setup at same
 time):
@@ -198,8 +206,8 @@ time):
 -   **Special email address:** Set up a special email address for your
     organization, e.g. civiemails@example.com. Users can then add this
     address in the Bcc field for your outbound emails; they will get
-    auto filed in CiviCRM as described above. No one who receives the
-    email will see this special address if the Bcc field is used. 
+    auto-filed in CiviCRM as described above. No one who receives the
+    email will see this special address if the Bcc field is used.
 -   **IMAP Folder:** Set up a folder in your IMAP Inbox where you can
     drag emails that you want filed in CiviCRM. This works with both
     inbound and outbound emails. (this requires that your email be set
@@ -229,7 +237,7 @@ There are several ways of configuring your incoming mailbox:
     consider creating a new account on a service such as Gmail and use
     it to receive the bounced emails. You will have to set filters in
     this account so it doesn't discard as spam all the bounced email it
-    will receive. 
+    will receive.
 
 ### Adding an incoming email account for processing bounces and/or email-to-activities
 
@@ -240,34 +248,34 @@ address.
 
 -   Specify the mail **server, username, and password** you used when
     creating the account.
--   The **local part**is optional and only relevant if you were able to
+-   The **local part** is optional and only relevant if you were able to
     set up an account using sub-addressing. It should be the account you
     created with '+' or '-' appended , e.g., "return+" or "return-".
--   The **email domain**is the domain of your email address
+-   The **email domain** is the domain of your email address
     (example.org).
 -   You can leave the **return path** empty.
 -   If your mail server supports it, specify IMAP **protocol**and check
-    **SLL**, otherwise use POP. 
+    **SLL**, otherwise use POP.
 -   You can specify an IMAP folder in the **source** field using the
-    syntax INBOX.CiviMail. **Note:**Some exchange servers may not be
+    syntax INBOX.CiviMail. **Note:** Some exchange servers may not be
     configured in a compatible way. In that case, you can configure a
-    script like fetchmail and use Maildir. 
+    script like fetchmail and use Maildir.
 -   In the **Used for?** field you can choose whether you want to use
     the email account for **Bounce Processing** or **Email-to-Activity
     Processing** (or Auto filing). You can have multiple accounts
     specified for auto filing but only one for bounce processing. This
-    will be marked as default. 
+    will be marked as default.
 
 Once the **Bounce Processing** mailbox is configured, you will need to
 configure CiviMail to empty it, read all these bounced messages and
 identify the related bounced contacts. This is performed by the
-Scheduled Jobs feature of CiviCRM . 
+Scheduled Jobs feature of CiviCRM .
 
 We recommend testing the bounce process by running the process manually
 before setting up CiviCRM to process the bounced email messages
 automatically. This can be done in **Administer > System Settings >
 Scheduled Jobs**. Locate **Fetch Bounces** and select **more > Execute
-Now**. Check the Job Log for any error messages. 
+Now**. Check the Job Log for any error messages.
 
 Once you have verified that CiviCRM can properly handle the bounce, you
 can set it up to automatically process the replies and bounces on a
@@ -330,9 +338,9 @@ in:
 
 ```
 PHP 5.2.3-1ubuntu6.5 (cli) (built: Feb 11 2009 19:55:53) Copyright (c)
-1997-2007 
- The PHP Group Zend Engine v2.2.0, Copyright (c) 1998-2007 
- Zend Technologies with eAccelerator v0.9.5.3, Copyright (c) 2004-2006 
+1997-2007
+ The PHP Group Zend Engine v2.2.0, Copyright (c) 1998-2007
+ Zend Technologies with eAccelerator v0.9.5.3, Copyright (c) 2004-2006
  eAccelerator, by eAccelerator
 ```
 
@@ -348,32 +356,32 @@ has several advantages:
 -   You won't have any timeout problems.
 
 The following is complete cron configuration to handle CiviCRM's mail
-requirements: 
+requirements:
 
 ```
-# This must be set to the directory where civicrm is installed. 
-CIVI_ROOT=/var/www/civicrm 
- 
- # Comment: I believe these two lines are unnecessary. 
-# USER=www-data 
-# MAILTO="you@example.org" 
- 
- # Location of the PHP Command Line Interface binary. 
-# nice -19 forces to run at a lower priority than the web server 
-PHP=nice -n19 /usr/bin/php 
- 
-# line to be modified according to the informations below 
+# This must be set to the directory where civicrm is installed.
+CIVI_ROOT=/var/www/civicrm
+
+ # Comment: I believe these two lines are unnecessary.
+# USER=www-data
+# MAILTO="you@example.org"
+
+ # Location of the PHP Command Line Interface binary.
+# nice -19 forces to run at a lower priority than the web server
+PHP=nice -n19 /usr/bin/php
+
+# line to be modified according to the informations below
 # like this: PARAMS= -j -s<default or domain> -u<user>
--p<password> -e Job -a process_mailing 
- 
+-p<password> -e Job -a process_mailing
+
 PARAMS= -j -sdefault -umailprocess -pseol-lzprm42amv-psyc -e Job -a
-process_mailing 
+process_mailing
 PARAMSBOUNCE= -j -sdefault -umailprocess -pseol-lzprm42amv-psyc -e Job
--a fetch_bounces 
- 
- # cronjob send 
-# m h dom mon dow command 
-*/5 * * * * cd $CIVI_ROOT; $PHP bin/cli.php $PARAMS 
+-a fetch_bounces
+
+ # cronjob send
+# m h dom mon dow command
+*/5 * * * * cd $CIVI_ROOT; $PHP bin/cli.php $PARAMS
 */15 * * * * cd $CIVI_ROOT; $PHP bin/cli.php $PARAMSBOUNCE
 ```
 
@@ -392,5 +400,5 @@ processed.
 1.  The site you used, which is **-sdefault** on Drupal. If you run
     multiple CiviCRM sites on a single server, you need to specify your
     site's domain, such as **-sexample.org**.
-2.  The user login account (**-umailprocess**). 
+2.  The user login account (**-umailprocess**).
 3.  The password you defined (**-pseol-lzprm42amv-psyc**).
