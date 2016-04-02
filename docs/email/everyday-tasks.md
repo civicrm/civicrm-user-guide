@@ -213,7 +213,7 @@ email only to contacts that have been added to a Group since the last
 time you sent them email, to avoid sending the same email twice to some
 people. Choose the original mailing in the "Exclude Past Recipients From".
 This will then send the message only to those members of the group who did not
-receive the original mailing.
+receive the original mailing.  
 
   The estimated final number of recipients to displayed to the right of the
   "Recipients" field and highlighted in yellow.
