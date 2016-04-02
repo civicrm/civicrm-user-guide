@@ -180,9 +180,10 @@ Remember you can save your mailing at any stage by clicking on the
 
 **Step 1: Define Mailing**
 
-On the **Mailing** tab you will find the following;
+**Mailing** tab Here you will find:
 
-1. **Mailing Name:** Enter a name for this mailing. Select a name
+###### **Mailing Name:**
+Enter a name for this mailing. Select a name
 that will allow you and others in your organization to clearly identify
 the purpose of this mailing. It is recommended that you start each name
 with a date (e.g., "2015/04/25 - Monthly Newsletter"). This will make it
@@ -190,17 +191,18 @@ easier to include or exclude recipients of this mailing in future
 mailings. This name is for internal use only and will not be shown to
 recipients. You will be asked to enter the Subject of the email later.
 
-2. **Campaign**: You can associate this email with a particular campaign.
+###### **Campaign**:
+You can associate this email with a particular campaign.
 
-3. **Template**: Here you can select an existing message template to
+**Template**: Here you can select an existing message template to
 populate the HTML Format and Plain-Text Format fields with the message content from the template. You can edit the content to suit this particular mailing but you cannot update the template, or create a new template via this form. (CiviCRM ships with three sample newsletter templates which users with the Administer CiviCRM permssion can customise with your own organisation's details at **Administer > CiviMail > Message Templates**.  That is also where new message templates can be created.)
 
-4. **From**: This will be populated with the default sender email address.
+**From**: This will be populated with the default sender email address.
 You can select an alternative for this mailing from the dropdown list.
 Users with Administer CiviCRM permssion can add additional email addresses
 by going to **Administer > CiviMail > From Email addresses**.
 
-5. **Recipients:** This is where you can choose who will receive the
+**Recipients:** This is where you can choose who will receive the
 mailing (if mailing to Groups) or further refine or add to your mail
 recipients (if mailing to search results). You can choose Groups to
 include (shown in green) and exclude (shown in red and struck through),
@@ -218,7 +220,7 @@ did not receive the original mailing.
   The estimated final number of recipients to displayed to the right of the
 "Recipients" field and highlighted in yellow.  
 
-6. **The "wrench"**: The is located to the right of the Recipients
+**The "wrench":** The is located to the right of the Recipients
 field and to the left of the estimate of recipient numbers.  Click on it
 to access **Edit Options**.  
 ![Civimail Recipients Edit Options](../img/civimail-recipients-edit-options.png)  
@@ -242,21 +244,21 @@ You can filter on the Location Type and only send the mailing to email
 addresses with the specified location type or exclude the email
 addresses with the specified location type.  
 
-7. **Unsubscribe Group (for search-based mailings only):** This should be
+**Unsubscribe Group (for search-based mailings only):** This should be
 chosen carefully. It may help to read through the example of a search-based
 mailing in [Choosing recipients: Groups versus search results](#Choosing recipients: Groups versus search results).
 
-8. **Subject** is the subject in your sent emails. You can include tokens
+**Subject** is the subject in your sent emails. You can include tokens
 in the subject. The **Subject** (not the Mailing Name) is used when creating an
 activity or mailing record for each contact.
 
-9.  **HTML (expanding section):** This is where you can compose content
+**HTML (expanding section):** This is where you can compose content
 for your mailing. Remember that CiviCRM lets you personalize each email using
 tokens. See "*Using tokens in emails*" later in this chapter. If you only
 want to send a plain text email ignore the HTML section. Click on
 **Plain Text** to open that accordion and enter your message in the box.
 
-10. The **Preview** panel is a footer to the **Define Mailing** screen. It
+**Preview:** This panel is a footer to the **Define Mailing** screen. It
 is displayed whichever tab is selected. Within this panel are the options to:
   -  Preview the HTML or Plain Text version of the email. The HTML preview will show you all the formatting and converted tokens with your data. It will not include any attachments. There is no guarantee that all email clients will
       display the email exactly as it is shown in this preview, but it is
