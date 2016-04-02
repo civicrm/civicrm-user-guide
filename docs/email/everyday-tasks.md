@@ -172,7 +172,7 @@ see the following screen.
 These are two screens are very similar, however, as described in
 [Choosing recipients: Groups versus search results](#Choosing recipients: Groups versus search results),
 for the search-based mailing you must choose an Unsubscribe Group and
-the "Search Results" group is included in (and cannot be removed from) the Recipients list. (Also, the HTML 
+the "Search Results" group is included in (and cannot be removed from) the Recipients list. (Also, the HTML
 pane is open by default. It was closed to fit the bottom buttons into these images.)
 
 Remember you can save your mailing at any stage by clicking on the
@@ -180,7 +180,7 @@ Remember you can save your mailing at any stage by clicking on the
 
 **Step 1: Define Mailing**
 
-On the **Mailing** tab you will find the following fields:
+On the **Mailing** tab you will find the following;
 
 1. **Mailing Name:** Enter a name for this mailing. Select a name
 that will allow you and others in your organization to clearly identify
@@ -212,19 +212,17 @@ recipients of previous mailings. For instance, you may want to resend an
 email only to contacts that have been added to a Group since the last
 time you sent them email, to avoid sending the same email twice to some
 people. Choose the original mailing in the "Exclude Past Recipients From".
-This will then send the message only to those members of the group who did not
-receive the original mailing.  
+This will then send the message only to those members of the group who
+did not receive the original mailing.  
 
   The estimated final number of recipients to displayed to the right of the
-  "Recipients" field and highlighted in yellow.
+"Recipients" field and highlighted in yellow.  
 
-6. **Edit Options**  Settings to further refine the recipients list are accessed
-by clicking on the small wrench to the right of the Recipients field and to
-the left of the estimate of recipient numbers.
-
- ![Civimail Recipients Edit Options](../img/civimail-recipients-edit-options.png)
-
- **Dedupe by email:** CiviCRM will always dedupe your mailing based on
+6. **The "wrench"**: The is located to the right of the Recipients
+field and to the left of the estimate of recipient numbers.  Click on it
+to access **Edit Options**.  
+![Civimail Recipients Edit Options](../img/civimail-recipients-edit-options.png)  
+  -   **Dedupe by email:** CiviCRM will always dedupe your mailing based on
  unique contact records. For example, if a contact is in three of the
  groups you are including in your mailing, they will only be sent one copy
  of the email. However, if the same email address is used by multiple
@@ -234,14 +232,15 @@ the left of the estimate of recipient numbers.
  email is sent to each address. You set the default for this box at
  **Administer > CiviMail > CiviMail Component Settings** by ticking
  or unticking "CiviMail dedupes e-mail addresses by default" but you can
- override the default for any email if needed.
-
- **Location Type:** By default emails created through CiviMail are sent to
+ override the default for any email if needed.  
+  -   **Location Type:** By default emails created through CiviMail are sent to
  the address location(s) set as being for "Bulk Mailings" or, if no location type
  has that setting, to the address location set as "Is Primary". You can change
  the Location Type and the Selection
  Method on the Edit Options screen.
-You can filter on the Location Type and only send the mailing to email addresses with the specified location type or exclude the email addresses with the specified location type.  
+You can filter on the Location Type and only send the mailing to email
+addresses with the specified location type or exclude the email
+addresses with the specified location type.  
 
 7. **Unsubscribe Group (for search-based mailings only):** This should be
 chosen carefully. It may help to read through the example of a search-based
@@ -282,10 +281,10 @@ The **Mailing** tab may be the only tab you need to visit when you are creating
 your mailing. It contains all the compulsory fields that need to be defined for
 each new mailing. The remaining tabs are:
 
--  The **Attachments** tab where you upload files to send as attachments with
-your email.
+**Attachments** tab: This is where you upload files to send as
+attachments with your email.
 
--  The **Header and Footer** tab.  Each new mailing you create will include the
+**Header and Footer** tab.  Each new mailing you create will include the
   default Header and default Footer as defined at
   **Mailings > Headers, Footers, and Automated Messages**. If you don't want
   to use these defaults, this tab is where you select the header and/or
@@ -293,23 +292,23 @@ your email.
 and Footers via **Mailings > Headers, Footers, and Automated
 Messages** (See *Set-Up* for details).
 
--  The **Publication** tab. There is only one field in this section:
-**Mailing Visibility.** Its dropdown menu offers two options, "User and
-User Admin Only" and "Public Pages." Choosing Public Pages makes this
+**Publication** tab. This contains the **Mailing Visibility** field
+which has two options, "User and User Admin Only" and "Public Pages."
+Choosing **Public Pages** makes this
 content viewable as a web page by everyone who has the permission of
 "View public CiviMail content."
-"User and User Admin Only" means that only users that received the mailing
+**"User and User Admin Only"** means that only users that received the mailing
 or administrators can view the content of this email as a web page;
 the recipients will have to log in to be able to view the message.  
 
- To link to the web version in your email, you need to have inserted the
+ To link to the web version of your email, you need to have inserted the
  **Mailing permalink** token in your email message. This token generates
 a URL on which the message can be viewed; in order to display it
 properly in HTML messages, you'll need to add the proper link tags using
 the Source icon in the editor.
 
--  The **Responses** tab contains:
-  -  **Track Replies** checkbox. Checking this option will send replies from the
+**Responses** tab contains:
+-  **Track Replies** checkbox. Checking this option will send replies from the
 mailing's recipients to a CiviMail specific address instead of the sender's
 address so they can be stored within CiviCRM. Checking this box will open the two options described next.
     -   **Forward Replies:** This option is only visible if "Track Replies"
@@ -320,22 +319,21 @@ address so they can be stored within CiviCRM. Checking this box will open the tw
     need to set up an autoresponder ahead of time in **Mailings >>
     Headers, Footers, and Automated Messages**.
 
-  - **Opt-Out Message:** This message will be sent to the recipient who has
+- **Opt-Out Message:** This message will be sent to a recipient who has
 opted-out from all the mailing lists
-  - **Resubscribe Message:** This message will be sent to the recipient who
+- **Resubscribe Message:** This message will be sent to a recipient who
 has resubscribed to one of the mailing lists
-
-  - **Unsubscribe Message:** This message will be sent to the recipient who
+- **Unsubscribe Message:** This message will be sent to a recipient who
 has unsubscribed from one of the mailing lists.
 
     You can edit these three messages at **Mailings >> Headers, Footers, and Automated Messages**.
 
--  The **Tracking** tab contains:
-    -  **Track Click-Throughs**: This option will keep track of how many
+**Tracking** tab contains:
+-  **Track Click-Throughs**: This option will keep track of how many
     users and which users clicked on all the links in your message. This
     is accomplished by redirecting all links through your server. This
     means that all links will be overwritten with custom links
-    containing your domain name.
+    containing your domain name.  
 
     **Note for HTML mail:** Some phishing filters may mark links that are
     displayed differently in HTML code and in the text as unsafe. It is
@@ -343,13 +341,14 @@ has unsubscribed from one of the mailing lists.
     <a href="http://google.com">http://Google.com</a>```
      but rather use    ```
      <a href="http://google.com">click here to go to Google</a>```
+     instead.        
 
     **Note for Plain Text email:** If you use short, user-friendly URLs
     in your email, they will all be overwritten with long links
     containing the name of your site and a long code looking like this
     http://yoursite.com/sites/all/modules/civicrm/extern/url.php?u=529&qid=29011.
 
-    -   **Track Opens:** This option allows you to track how many people
+-   **Track Opens:** This option allows you to track how many people
     opened the email you received. However, there are limitations to the
     effectiveness of this method. If the recipient does not show images
     in their email client (often referred to as "blocking remote
@@ -373,14 +372,13 @@ named message. Ticks and crosses with strike-throughs show what
 you have and have not chosen to do in terms of tracking and dealing with
 responses to the email.  In short, **Review** is a brilliant little panel
 that lets you confirm that you have made all the correct choices despite the
-multitude of interruptions you experienced whilst defining your mailing.
-
+multitude of interruptions you experienced whilst defining your mailing.  
 2.  **Schedule**
 
  You can either choose to send the email immediately or schedule a date and
  time for it to be sent. Finally click on **Submit Mailing**. By default,
  CiviMail checks every 15 minutes for any emails that are ready to be sent,
- so the start of the mailing could be delayed by up to 15 minutes.
+ so the start of the mailing could be delayed by up to 15 minutes.  
 
  Mailings sent to large numbers of recipients are sent in batches of
 about 400 to reduce the likelihood of the emails being caught in spam filters.
