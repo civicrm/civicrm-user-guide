@@ -113,7 +113,7 @@ turn, is of great benefit to AFSC.
 A CRM Education
 ---------------
 
-![Schoolhouse_Supplies_medium72dpi](../img/CiviCRM-Icons-Schoolhouse_Supplies_medium72dpi-en.jpg "Schoolhouse_Supplies_medium72dpi")]
+![Schoolhouse_Supplies_medium72dpi](../img/CiviCRM-Icons-Schoolhouse_Supplies_medium72dpi-en.jpg)]
 
 Schoolhouse Supplies (SHS) is a Portland, Oregon, USA-based non-profit
 organisation which gathers and distributes school supplies to students
@@ -147,13 +147,13 @@ constituent database and business activities are easily coordinated.
 More importantly, SHS is now in the process of taking manual business
 processes (such as volunteer coordination) and moving them to CiviCRM.
 New campaigns are now being planned and executed which would previously
-have been impossible or prohibitively expensive. 
+have been impossible or prohibitively expensive.
 
 
 Growing Satisfaction
 --------------------
 
-![nysnla](../img/CiviCRM-Icons-nysnla-en.png "nysnla")]
+![nysnla](../img/CiviCRM-Icons-nysnla-en.png "nysnla")
 
 The New York State Nursery Landscape Association (NYSNLA) is a
 member-based association providing resources and advocacy support for
@@ -203,7 +203,7 @@ contact records. Because of the importance of the CNLP programme, they
 wanted to be able to look at all employees for a certain
 nursery/landscape company and quickly know if any of them are CNLPs or
 Lifetime CNLPs. They also needed to easily find out which employees are
-authorised to manage the company's records. 
+authorised to manage the company's records.
 
 ### The Results
 
@@ -218,7 +218,7 @@ directly connected with their contact data, ensures website visitors are
 always looking at current information. The Association is also able to
 provide members direct access to their own contact details so they can
 update and maintain their list of services provided and other
-information. 
+information.
 
 
 Campaigning for Efficiency
@@ -328,7 +328,7 @@ training on CiviCRM up-front.
 Changing with the Times
 -----------------------
 
-![SFS](../img/CiviCRM-Icons-SFS-en.gif "SFS") 
+![SFS](../img/CiviCRM-Icons-SFS-en.gif "SFS")
 ------------------------------------------------
 
 The San Francisco School (SFS), is a Preschool through 8th grade
@@ -338,7 +338,7 @@ important. Whether it's updating a home phone number, email address or
 allergy, it is essential in meeting the needs of the students. The head
 of school was a strong supporter of the project from the beginning which
 led the staff and parents to be able to make a strong commitment to help
-the project move forward. 
+the project move forward.
 
 ### What They Did
 
@@ -352,7 +352,7 @@ They used CiviCRM to create a Parent Portal to:
     sports) and view their child's after school fees
 
 To ease the transition of the school community, each of the above
-features were shown gradually rather than all at the same time. 
+features were shown gradually rather than all at the same time.
 
 ### The Results
 

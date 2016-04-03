@@ -20,7 +20,7 @@ your offline postal mail appeal (it could be your entire database).
 If you want to track the success of a mailing or who receives certain
 appeals, save the search results as a group. Use the check box to select
 all and choose the appropriate option from the **Action**
-dropdown menu i.e. Group - add contacts or Group - create smart group). Later,
+dropdown menu i.e. **Group - add contacts** or **Group - create smart group**). Later,
 you can mark everyone in that group as recipients of that appeal using
 the **Add Activity** option under the **Actions** dropdown menu.
 
