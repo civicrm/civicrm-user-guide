@@ -9,8 +9,8 @@ creating and sending a mass mailing.
 ## Choosing recipients: Groups versus search results
 
 There are two ways to select the recipients for your mass mailing: sending to
-existing Groups or sending to search results. The most steps to create a
-mailing are independent of how you recipients are chosen, however there is one
+existing Groups or sending to search results. Most steps to create a
+mailing are independent of how your recipients are chosen, however there is one
 important difference.
 
 For mailings to search results, you are
