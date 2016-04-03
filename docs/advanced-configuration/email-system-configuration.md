@@ -56,7 +56,9 @@ Settings > Outbound Email (SMTP/Sendmail)**. The choices here are:
 -   **Sendmail**: This option is kept for compatibility with older CiviCRM
     versions.
 -   **Disable Outbound Email**: Works as expected.
--   **Redirect to Database**: All emails will be recorded as archived mailings instead of being sent out. They can be found in the civicrm\_mailing_spool table in the CiviCRM database.
+-   **Redirect to Database**: All emails will be recorded as archived mailings
+instead of being sent out. They can be found in the civicrm\_mailing_spool
+table in the CiviCRM database.
 
 After making a choice, send a test email to your account on Gmail and
 verify that you receive it.
@@ -110,7 +112,7 @@ they limit the number of email messages you can send and whether they
 run PHP in safe mode.
 
 Some of your recipients' mail servers use DNS based blacklisting
-services (DNSBL) which keep a blacklist of IP addresses likley to send
+services (DNSBL) which keep a blacklist of IP addresses likely to send
 spam. Mail from these servers will be flagged as spam and not reach its
 intended destination. If your server is blacklisted (for instance,
 because enough of your recipients flagged your email as spam, or because
@@ -158,7 +160,7 @@ the [type of bounce](http://tools.ietf.org/html/rfc3463) reported by the
 recipient's server, flag your contacts accordingly. To accomplish this
 you will need to set up an email mailbox to receive bounced email
 messages and a schedule the **Bounces Fetcher** job that will
-periodically read this mailbox and update your contacts in civicrm.
+periodically read this mailbox and update your contacts in CiviCRM.
 
 Administer > System Settings > Scheduled Jobs
 
@@ -193,9 +195,15 @@ are linked to a given type and threshold.
 ### **Email-to-Activity processing**
 
 CiviCRM can automatically retrieve email from a specified inbox and file
-it as an email activity against contacts of type Individual corresponding to sender and recipients of the email. New individual contacts are created for email addresses not already assigned to individuals in the database.
+it as an email activity against contacts of type Individual corresponding to
+sender and recipients of the email. New individual contacts are created for
+email addresses not already assigned to individuals in the database.
 
-**NOTE**: This features only works for the Individual contact type. If the incoming email comes from an email address already recorded against an organization, a new individual contact with that same email address will be created and the activity will be recorded against that new individual contact, not against the organization.
+**NOTE**: This features only works for the Individual contact type. If the
+incoming email comes from an email address already recorded against an
+organization, a new individual contact with that same email address will be
+created and the activity will be recorded against that new individual contact,
+not against the organization.
 
 There are two ways to do this (either or both ways can be setup at same
 time):
@@ -345,7 +353,7 @@ Zend Technologies with eAccelerator v0.9.5.3, Copyright (c) 2004-2006
 eAccelerator, by eAccelerator
 
 ```
- 
+
 This means you have php-cli installed and you should use it, because it
 has several advantages:
 

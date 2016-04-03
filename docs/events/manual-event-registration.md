@@ -28,18 +28,18 @@ The Events tab on a contact record, shown in the following screenshot,
 displays a summary list of the contact's past event attendance and
 provides a link for registering the contact for a new event.
 
-**  ![image](../img/EventsTab.PNG)**
+![image](../img/EventsTab.PNG)
 
 There are two options for registering the contact:
 
 -   **Add Event Registration**: for people who pay later, such as by
-    sending a check or paying when they arrive at the event. 
+    sending a check or paying when they arrive at the event.
 -   **Submit Credit Card Event Registration**: for people paying
     immediately with a credit card. This option is available only if
     you've configured a payment processor that allows direct payments
     through your web site. If you are taking a registration over the
     phone you can ask them for their credit card information and enter
-    it manually. 
+    it manually.
 
 The interface for both options is very similar, with the exception of
 those fields that record payment details.
@@ -88,7 +88,7 @@ not select the Record Payment check box, only a registration record will
 be created.
 
 
-**![image](../img/EventContributionTab.png)**
+![image](../img/EventContributionTab.png)
 
 ### **Registering a participant paying only a deposit (partial payment)**
 
@@ -101,7 +101,7 @@ paid at this time in the Total Amount field in the Payment Information
 region. This sets both the **Event status** and the status for the
 linked contribution to **Partially paid.**
 
-![image](../img/z-sprint14-initial-partial-payment.png) 
+![image](../img/z-sprint14-initial-partial-payment.png)
 
 The expectation is that additional payment(s) will be made until the
 full event fee has been paid, so a **Partially paid** registration is
@@ -114,7 +114,7 @@ To make an additional payment on this registration:
 2.  Click on the **Events** tab on that record.
 3.  Click on **more** on the far right of the partially paid event
     record.
-4.  Select **Record Payment.** 
+4.  Select **Record Payment.**
 5.  For a payment using a credit card select **submit credit card
     payment,** otherwise complete the payment details as required.
 
@@ -138,7 +138,7 @@ summary of each payment.
 
 ![image](../img/z-sprint15ipartial-payment%20view.png)
 
-##Mass Registrations
+## Mass Registrations
 
 CiviEvent offers the time-saving feature of registering multiple
 contacts for an event at one time (or as a "batch"). Returning to the
@@ -154,23 +154,23 @@ change the person's status from "pending" to "registered".
 
 1.  Search for the set of contacts you are interested in (Arts in Action
     would navigate to **Search > Find Participants** to search for all
-    participants at the previous workshop). 
+    participants at the previous workshop).
 2.  On the search results page, either choose **select all** or put a
     check mark next to each contact you are interested in. A sample
     search results page appears in the following screen-shot.  
-    
+
 ![MassRegistration](../img/CiviCRM-CiviEvent-MassRegistration-en.png "MassRegistration")
-    
-  
+
+
 3.  From the actions list just above the search results, choose **Add
     Contacts to Event** then click **Go.**
 4.  Choose the event you would like to register participants for. Note
     that you cannot currently register participants en masse for past
-    events. 
+    events.
 5.  Complete the registration form, choosing the appropriate action
     choices for this set of people, such as setting the Participant
     Status to pending. Choices made here will be applied to all contacts
-    in this set. 
+    in this set.
 6.  Click **Save**.
 
 ### **Limitations of mass registrations**
@@ -182,7 +182,7 @@ choices for that set of contacts. For example, you might mark one set of
 contacts you plan to call and invite with a Participant Status of
 "pending", then add another set of contacts to the event, such as event
 leaders you know will attend, with a Participant Status of
-"registered". 
+"registered".
 
 You cannot do mass registration of participants for events in the past.
 
@@ -193,14 +193,13 @@ mass registration is best for free events or for contacts who are not
 required to pay a fee at this point. You can always add payment details
 for individual contacts later on.  
 
-Importing Registrations 
----------------------------
+## Importing Registrations
 
 Importing registration information is a quick way to add a bunch of
 registrations to the event. The data to be imported must be available in
 a comma-separated values (CSV) file. If the majority of the contacts are
 already in CiviCRM, it may be faster to do a mass registration action as
-mentioned earlier in this chapter. 
+mentioned earlier in this chapter.
 
 The import tool for participants is similar to that of contacts, but
 there are some pre-requisites which must be met before running the
@@ -220,16 +219,15 @@ contact:
     contact de-dupe rules, e.g. through including the first name, last
     name and email address of the individual against each contact in the
     file. If a contact matches these three fields, the event
-    participation will be assigned to it. 
+    participation will be assigned to it.
 
 ### Preparing your data
 
 When preparing your data import it is helpful to know what fields are
 required for Import. You'll want to be sure that these fields are
 included in your CSV import file. Below is a list of the required
-fields. Please note that the fields marked **(Match to
-Contact)**indicated that only one of those options must be included for
-import. You do not need all of those fields to be included.
+fields. Please note that you only need one of the fields marked **(Match to
+Contact)**, you do not need all of them.
 
 -   **Contact ID (Match to Contact)**
 -   **Email (Match to Contact)**
@@ -239,7 +237,7 @@ import. You do not need all of those fields to be included.
 
 
 
-###Steps for importing registrations
+### Steps for importing registrations
 
 1.  From the navigation menu, go to **Events > Import Participants**.
 2.  Browse to the data file on your local computer.

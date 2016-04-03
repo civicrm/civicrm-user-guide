@@ -19,7 +19,9 @@ Campaigns.**
 
 From the Campaign Dashboard, you can then Edit, Disable and Delete
 existing campaigns, and create new campaigns.
-If you have a large number of campaigns you can open the campaign search accordion to set filters to dislplay only the campaigns you want to see. at that time.  
+If you have a large number of campaigns you can open the campaign search
+accordion to set filters to display only the campaigns you want to see a
+t that time.  
 
 ![Campaign Search Criteria](../img/civicampaign-dashboard-search-criteria.png)
 

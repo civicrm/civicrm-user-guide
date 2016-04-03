@@ -6,10 +6,10 @@ previously used database platforms, spreadsheets created on the fly for
 specific events or other purposes, and email address books. Because
 manually entering large amounts of data can be tedious, CiviCRM provides
 a way do import data en masse if the source can export it into some
-common format such as a Comma Separated Version (CSV) file. 
- 
+common format such as a Comma Separated Version (CSV) file.
+
 Imports can also be used to update existing data. This will be covered
-in the final section of this chapter. 
+in the final section of this chapter.
 
 Considerations before importing
 -------------------------------
@@ -26,7 +26,7 @@ present some concepts here that you should know before you start your
 first import. You can import both core and custom data for contacts, as
 well as data for event attendance, activities, memberships and
 contributions. This chapter will focus on the import process for
-contacts. The processes for other data are similar. 
+contacts. The processes for other data are similar.
 
 There are two ways to import data:
 
@@ -169,7 +169,7 @@ Setting up a CSV file for importing
 
 Example of spreadsheet .csv format
 
-![student_sample](../img/CiviCRM-student_sample-en.png "student_sample")
+![student_sample](../img/CiviCRM-student_sample-en.png)
 
 When thinking about setting up your spreadsheet, think about the data
 that you are collecting and plan out your column headings. Keep in mind
@@ -385,7 +385,7 @@ assigned by the database or application you are importing records from).
 
 Remember, CSV files must be less than 2MB in size. If the file size
 exceeds this, create multiple CSV files and distribute the data between
-them. 
+them.
 
 Import Contributions
 --------------------
@@ -399,7 +399,7 @@ the following fields:
     Unsupervised Duplicate Matching rule (to match to an existing
     contact)
 -   Financial Type
--   Total Amount 
+-   Total Amount
 
 If you want to **update existing contributions,** your CSV file must
 include at least the following fields:
@@ -407,14 +407,14 @@ include at least the following fields:
 -   Transaction ID or Invoice ID or Payment ID (to match to an existing
     contribution)
 -   Financial Type
--   Total Amount 
+-   Total Amount
 
 You can use also use **update existing contributions** to import new or
 change existing data in other core or custom contribution fields. When
 doing this you will still need to include an ID to match to an existing
 contribution and the Financial Type and Total Amount fields in you CSV
 file, even if the values you import for those fields are no different
-from the values already in your database. 
+from the values already in your database.
 
 Import Memberships
 ------------------
@@ -460,15 +460,15 @@ at least the following fields:
 -   Contact Id or External Identifier or all the fields used in your
     Unsupervised Duplicate Matching rule (to match to an existing
     contact)
--   Event ID 
--   Participant Status 
+-   Event ID
+-   Participant Status
 
 If you want to **update existing registrations,** you should set **On
 duplicate entries** to **Update**. Your CSV file must include at least
 the following fields:
 
 -   Participant ID (to match to an existing registration)
--   Event ID or Event Title 
+-   Event ID or Event Title
 -   Participant Status
 
 You can use also use **update existing registrations** to import new or

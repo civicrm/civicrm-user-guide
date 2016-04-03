@@ -24,7 +24,9 @@ Amounts** checkbox and setting **minimum** and/or **maximum** amounts if you wan
 3. Enter the **title** for your website page.
 4. Select the appropriate **financial type**.
 5. Click on **Continue**.
-6. On the next page leave everything as is except for ticking the **Allow Other Amounts** checkbox and setting **minimum** and/or **maximum** amounts if you want to.
+6. On the next page leave everything as is except for ticking the
+**Allow Other Amounts** checkbox and setting **minimum** and/or
+**maximum** amounts if you want to.
 7. Click on **Save**.
 8. Select the **Receipt** tab.
 9. Enter the **title** for your Thank-you page.
@@ -33,8 +35,8 @@ Amounts** checkbox and setting **minimum** and/or **maximum** amounts if you wan
 12. Click on **Save and Done**.
 7. Follow the steps for your CMS to [display this page on your website](#publicizing-your-contribution-page).
 
+One other thing you might want to do with these simple pages is to collect more information about your contributors.  This is done via the [Profile tab](#profile-tab)
 
-   &&&& Add links in here to profiles tab &&&
 ## Setting up a contribution page - full details.
 
 Navigate to **Contribution > New Contribution Page**.
