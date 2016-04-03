@@ -3,7 +3,7 @@ Personal Campaign Pages
 
 CiviCRM's features include allowing your constituents to create their
 own fundraising pages - and then ask others to fund their cause. These
-pages are called Personal Campaign Pages or "PCPs". 
+pages are called Personal Campaign Pages or "PCPs".
 
 A personal campaign page allows your constituents to personalize the
 fundraiser, event, organization, etc., by offering their personal
@@ -23,7 +23,7 @@ via the contribution page configuration:
 
 -   Requiring approval before a newly-created fundraising page becomes
     active
--   Turning on or off 'tell a friend' so fundraisers can email others 
+-   Turning on or off 'tell a friend' so fundraisers can email others
 -   Setting an email address to notify admin when a new page is created
 -   Allowing PCP owners to always, sometimes or never receive
     notification when a donation is made via their page
@@ -32,14 +32,14 @@ via the contribution page configuration:
 
 Once PCP pages are active, administrators can:
 
--   Disable or deny Personal Contribution Pages 
+-   Disable or deny Personal Contribution Pages
 -   Edit PCP content
 -   View the amount of money collected by each PCP
 -   Run reports (using CiviReport) showing a summary of PCP fundraising
 -   Enter 'offline' contributions (i.e. checks) and credit the money to
-    a PCP 
+    a PCP
 
-Fundraiser Features 
+Fundraiser Features
 ---------------------
 
 Those creating their PCPs enjoy the following ways to personalize their
@@ -48,7 +48,7 @@ page:
 -   A title of their choice
 -   Descriptive text
 -   Selecting a monetary goal amount they hope to raise
--   A single image they can upload that will appear on their page 
+-   A single image they can upload that will appear on their page
 -   Choosing whether or not an 'honor roll' of supporter names will be
     shown on their page
 -   Option to display a 'thermometer' showing progress towards their
@@ -97,13 +97,13 @@ configured, including:
     addresses with commas).
 -   **Supporter Profile**: select a profile of fields to be collected
     from the user creating the PCP.
--   **Owner Email Notification:**an email can be automatically sent to
+-   **Owner Email Notification:** an email can be automatically sent to
     the PCP owner whenever a donation is made through their page.
     You can select whether emails will always or never be sent
     automatically for all PCP pages created under that particular event
     or contribution page. Alternatively, you can allow the PCP owner to
     choose during the page set up process whether or not they would like
-    to receive notification of donations made through their page. 
+    to receive notification of donations made through their page.
 -   **Allow 'tell a friend' functionality**: the PCP owner may send
     emails to their contacts, encouraging them to visit their page and
     contribute.
@@ -123,9 +123,9 @@ After PCP creation has been enabled, there are two ways to create a PCP:
     the prerequisite of donating or registering themselves, you can give
     your constituents a direct link. This link could be emailed to
     the constituent, embedded in a page or added as a menu item. Note
-    that 
+    that
 
-**The invitation button:** 
+**The invitation button:**
 
 ![image](../img/pcp-contribute-thank-you.png)
 
@@ -143,7 +143,7 @@ To use this link, replace the following:
 -   \*EVENT_OR_CONTRIBUTE\*: If the invitation is for a Personal Campaign
     Page in support of a contribution page, use *component=contribute*.
     If the invitation is in support of an event, use *component=event*.
-    
+
 
 Managing Personal Campaign Pages
 ---------------------------------

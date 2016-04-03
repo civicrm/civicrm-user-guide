@@ -69,6 +69,7 @@ pages:
     - 'Invoicing': 'contributions/invoicing.md'
     - 'Sales tax and VAT': 'contributions/sales-tax-and-vat.md'
     - 'Premiums': 'contributions/premiums.md'
+    - 'Widgets': 'contributions/widgets.md'
 - Pledges:
     - 'What is CiviPledge?': 'pledges/what-is-civipledge.md'
     - 'What you need to know': 'pledges/what-you-need-to-know.md'
