@@ -155,12 +155,12 @@ been configured for your site,
     will be selected when you create a contribution or event page or process a
     credit card payment in the admin area, although you will be able to
     override that selection manually.
-7.  Fill in the appropriate live payment and test payment details for your 
+7.  Fill in the appropriate live payment and test payment details for your
     payment processor. Note that the fields in these sections vary according to
     the payment processor type selected.
 
-You will need to do some further set up on the actual payment gateway but that is
-beyond the scope of this book and should be documented by your gateway.
+You will need to do some further set up on the actual payment gateway but that
+is beyond the scope of this book and should be documented by your gateway.
 
 Once done, the processor will be available in your paid events and
 contribution pages.
