@@ -73,6 +73,7 @@ also edit the total amount and count of items in the definition of the
 batch if needed.
 
 Here’s a simple workflow for bulk data entry:
+
 1. Create a new batch for data entry.
 2. Enter Contribution, Membership or Pledge Payments (check, cash, EFT, etc.).
 3. Validate and Process the Batch Totals or Save the Batch.
@@ -103,7 +104,7 @@ Enter the following information:
 -   **Total amount**: total amount of all the payment items in the batch
     (required field)
 
-You can later edit or delete Batch information, by going back to the
+You can edit or delete Batch information later on by going back to the
 **Bulk Data Entry** screen, then clicking on **Edit** or **Delete** next to
 the batch you want.
 
@@ -327,4 +328,4 @@ contact:
     be assigned to it.
 
 Remember, CSV files must be less than 2MB in size. If the file size
-exceeds this, create multiple CSV files and distribute the data between  them.
+exceeds this, create multiple CSV files and distribute the data between them.
