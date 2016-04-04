@@ -71,14 +71,19 @@ contributions (rather than contacts). The steps involved are:
     contributions. These options will be discussed below in *Grouped contribution thank-you letters*.
 8.  Make sure to check the **Page Format** settings.
 9.  You can use an existing template, create a new letter for one-off
-    use, or create a new letter and save it as a new template. [Tokens and mail merge](.../common-workflows/tokens-and-mail-merge) and [Postal mail communications](.../common-workflows/postal-mail-communications) provide more information on creating letter templates.
+    use, or create a new letter and save it as a new template.
+    [Tokens and mail merge](.../common-workflows/tokens-and-mail-merge) and
+    [Postal mail communications](.../common-workflows/postal-mail-communications)
+    provide more information on creating letter templates.
 10. When you click on **Make Thank-you Letters** the letters will be
     generated and a "Print PDF letter" activity will be created for each
     letter with the **Activity Subject** you have specified.
 
 ### Grouped contribution thank-you letters
 
-You can send end-of-fiscal-year giving statements/tax receipts to your contacts if you choose an option other than **-no grouping-** for the field **Group contributions by**.
+You can send end-of-fiscal-year giving statements/tax receipts to your contacts
+ if you choose an option other than **-no grouping-** for the field
+ **Group contributions by**.
 
 In a standard CiviCRM installation, the letters that can be produced
 when you group contributions are fairly rudimentary.

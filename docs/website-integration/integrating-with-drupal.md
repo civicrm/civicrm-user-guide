@@ -1,20 +1,27 @@
-Integrating with Drupal
-=======================
+# Integrating with Drupal
 
 Of all the three CMS that integrate with CiviCRM, Drupal has received
 the most attention, and offers the most options when it comes to
 integration. This is in part due to the fact that the Drupal community
 is largely a developer community.
 
+When thinking about website integration with Drupal, it is important to
+understand the concept of **Drupal modules**. It might help you to
+think of a module as an application which provides a certain bit of
+functionality. For example the *calendar* module allows you to display
+calendars on your website. The Drupal distribution of CiviCRM comes with a
+number of Drupal modules which give you the ability to integrate CiviCRM with
+Drupal in various different ways.
+
+
+## Drupal Roles and permissions
+
 When you create a new Drupal site **User** and CiviCRM is installed a
 corresponding CiviCRM **Contact** is also created. Both users and
 contacts have a separate identification or index number.
 
-Drupal Roles and permissions
-----------------------------
-
 *See also the permissions and access control chapter in initial set up
-for a general discussion of access control.* 
+for a general discussion of access control.*
 
 Your Drupal website allows you to create a series of **Roles.** Your
 website administrator give roles to site users and grant each role
@@ -41,8 +48,8 @@ For more information on Drupal Permission settings, please read the
 documentation on Drupal Permissions at Drupal.org:
 
 -   User: Access and management settings
-   [http://drupal.org/documentation/modules/user](http://drupal.org/documentation/modules/user) 
-    
+   [http://drupal.org/documentation/modules/user](http://drupal.org/documentation/modules/user)
+
 -   Assigning permissions and users to
     roles [http://drupal.org/node/22278](http://drupal.org/node/22278)
 
@@ -80,7 +87,7 @@ based on Drupal **Roles** are:
 -   Taxonomy Access
     Control [http://drupal.org/project/taxonomy_access](http://drupal.org/project/taxonomy_access)
 
-Drupal Views 
+Drupal Views
 --------------
 
 [Views](http://drupal.org/project/views) is a powerful Drupal module
@@ -88,24 +95,24 @@ that allows you to display website content e.g. a list of latest news
 for the home page. CiviCRM integrates with Drupal Views and allows
 CiviCRM data to be shown on your website. For instance, if you wanted to
 create a page called 'Partner Organizations' and display it publicly you
-could: 
+could:
 
-1. Select criteria for what Contact data will be displayed such as: 
- * Organization contacts only 
- * That are tagged 'Partner' in CiviCRM 
- * That have a membership of status 'New' or 'Current' 
-2. Choose which data will be shown such as: 
-  * Organization name 
-  * State/Province 
-  * Website 
-  * Phone number 
-3. Choose to show the data in either table or paragraph format 
+1. Select criteria for what Contact data will be displayed such as:
+ * Organization contacts only
+ * That are tagged 'Partner' in CiviCRM
+ * That have a membership of status 'New' or 'Current'
+2. Choose which data will be shown such as:
+  * Organization name
+  * State/Province
+  * Website
+  * Phone number
+3. Choose to show the data in either table or paragraph format
 4. Allow the public to filter the results themselves by State/Province
 
 This is just a simple example, the possibilities of Drupal Views and
-CiviCRM are far reaching. 
+CiviCRM are far reaching.
 
-### Configuration 
+### Configuration
 
 If you have your Drupal and CiviCRM in separate databases adding CiviCRM
 support to Views takes a small bit of configuration. Views must be told
@@ -129,9 +136,9 @@ Generally speaking if your view is focused on Contacts (which most are)
 you will select Show: CiviCRM Contacts. If you wish to display details
 about other CiviCRM data such as events, relationships, contributions or
 activities there are additional options that might provide more data
-fields for those types. 
+fields for those types.
 
-![image](../img/Views-CiviCRM-Partner-1.png) 
+![image](../img/Views-CiviCRM-Partner-1.png)
 
 After the View is created, edit the fields, filters, display and other
 configurations to show the data exactly how you'd prefer. Views does
@@ -152,28 +159,13 @@ examples to get started with.
 -   Honor roll listing of recent donors
 -   Staff, board of directors or committee lists
 -   A list of current members
--   ...and more! 
-
-Drupal modules {#drupal-organic-groups}
---------------
-
-When thinking about website integration with Drupal, it is important to
-understand the concept of **Drupal modules**. It might help you to
-think of a module as an application which provides a certain bit of
-functionality. For example the *calendar* module allows you to display
-calendars on your website.
-
-The Drupal distribution of CiviCRM comes with a number of Drupal modules
-which give you the ability to integrate CiviCRM with Drupal in various
-different ways. This chapter outlines CiviCRM's Webform integration
-module and then looks at the Drupal integration modules that come with
-CiviCRM.
+-   ...and more!
 
 Webform CiviCRM Integration
 ---------------------------
 
 Just as Views can *output* data in virtually any way imaginable, this
-module allows you to have data *input* exactly the way you want.The
+module allows you to have data *input* exactly the way you want. The
 webform CiviCRM integration is extensive and offers many different
 options for things that can happen as part of the form submission.
 
@@ -192,7 +184,7 @@ functionality.
 For more information see:
 [http://wiki.civicrm.org/confluence/display/CRMDOC/Webform+CiviCRM+Integration](http://wiki.civicrm.org/confluence/display/CRMDOC/Webform+CiviCRM+Integration)
 
-CiviCRM Organic Groups Sync {#drupal-organic-groups}
+CiviCRM Organic Groups Sync
 ---------------------------
 
 The Organic Groups CiviCRM module
@@ -389,7 +381,7 @@ role in addition to the "Active Member" role.*
 
 #### Enabling CiviMember Roles Sync Module
 
-1. 
+1.
 To enable the CiviMember Roles Sync Module navigate to your list of
 installed Drupal modules.
 
@@ -397,39 +389,39 @@ installed Drupal modules.
     -   Drupal 7: Go to **Modules** from the Administration Menu at the
     top of your screen.
 
-1. 
+1.
 Find the Module **CiviMember Roles Sync** and check the box to the left
 of the module's name.
 
-1. 
+1.
 Click on **Save Configuration**.
 
 #### Syncing CiviCRM Membership Types to Drupal Roles
 
-1. 
+1.
 Navigate to the CiviMember Role Sync configuration screen.
 
     -   Drupal 6: Go to *Administer > Site Configuration > CiviMember
     Roles Sync*
     -   Drupal 7: Go to *Configuration > CiviMember Roles Sync*
 
-1. 
+1.
 Click on **Add Association Rule.**
 
-1. 
+1.
 Under **Select a CiviMember Membership Type** select the Membership Type
 that you want a user to have in order to be granted a specific Drupal
 Role.
 
-1. 
+1.
 Under **Select a Drupal Role** select the Drupal Role that should be
-granted. 
+granted.
 *Example: RBA wants any user with a Current Bakery Membership Type to be
 granted the "Active Member" role, so the RBA staff creates a new
 Association Rule and selects Bakery under Select a CiviMember Membership
 Type and selects "Active Member" under Select a Drupal Role.*
 
-1. 
+1.
 Under **Current Status** select the Membership Status that a user
 should have to be granted your selected Drupal Role.
 *Example: RBA wants to grant any user who has a Membership Status of
@@ -437,30 +429,31 @@ either New, Current, or Grace access to the member-only website content,
 so the RBA staff checks the boxes next to those three Membership
 Statuses.*
 
-1. 
+1.
 Under **Expired Status** select the Membership Status that will revoke
-the Drupal Role from the user. *Example: RBA wants to make sure that any user who's membership expires
-or cancels their membership has their access to the member-only website
+the Drupal Role from the user. *Example: RBA wants to make sure that any user
+whose membership expires
+or who cancels their membership has their access to the member-only website
 content revoked, so the RBA staff checks the boxes next to Expired and
 Canceled.*
 
-1. 
+1.
 Click on **Add Association Rule** when you are finished configuring your
 new association rule.
 
-1. 
+1.
 The page will reload, and you should see the message "Your Association
 Rule has been added."
 
-1. 
+1.
 Repeat steps 1-8 to add all necessary association rules for your
 organization. Once you have finished adding all of your association
 rules, move on to step 10.
 
-1. 
+1.
 Click on the tab **Manually Synchronize**
 
-1. 
+1.
 Click on **Synchronize CiviMember Membership Types to Drupal Roles
 Now**. This will put your new CiviMember Role Sync Association Role
 immediately into effect.
@@ -469,7 +462,7 @@ immediately into effect.
 
 You can always edit or delete existing association rules.
 
-1. 
+1.
 To edit or delete an existing Association Rule, Navigate to the
 CiviMember Role Sync configuration screen.
 
@@ -477,15 +470,15 @@ CiviMember Role Sync configuration screen.
     Roles Sync*
     -   Drupal 7: Go to *Configuration > CiviMember Roles Sync*
 
-1. 
+1.
 You should now see a list of all existing CiviMember Role Sync
-Association Rules. If not, click on **List Association Rule(s)** tab. 
- 
-    *   Edit an Existing Association Rule 
+Association Rules. If not, click on **List Association Rule(s)** tab.
+
+    *   Edit an Existing Association Rule
         *   Find the Association Rule you want to make changes to and click
 on **edit** for that Association rule.
         *   Make the changes to your Association Rule and when yo are finished click
-on **Edit association rule**. 
+on **Edit association rule**.
 
     *   Delete an Association Rule
 
@@ -522,8 +515,8 @@ should occur by navigating to the CiviMember Role Sync Configure screen.
     the back office.
 -   Disable Automatic Synchronization: This method relies on an
     organization staff member to manually trigger synchronization. To
-    manually trigger synchronization, go to* *CiviMember Roles Sync
-    settings, click on the Manually Synchronize tab, and click
+    manually trigger synchronization, go to **CiviMember Roles Sync
+    settings**, click on the Manually Synchronize tab, and click
     on Synchronize CiviMember Membership Types to Drupal Roles Now.
 
 Be sure to click **Save Configuration** after making any changes.

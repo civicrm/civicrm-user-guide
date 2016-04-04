@@ -9,7 +9,7 @@ Enable the CiviCase component
 -----------------------------
 
 The CiviCase component is included in CiviCRM downloads, but it is NOT
-enabled by default. To enable the component: 
+enabled by default. To enable the component:
 
 1.  Go to **Administer > System Settings > Enable Components**.
 2.  Select **CiviCase** in the left-hand box and click Enable (this
@@ -25,7 +25,7 @@ You can create one or more new case types.
 
 To add a case type:
 
-1. Go to **Administer > CiviCase > Case Types**. 
+1. Go to **Administer > CiviCase > Case Types**.
 2. Click **New Case Type**. Enter a "Title" and an optional
 "Description" of the case type.
 
@@ -35,14 +35,14 @@ To add a case type:
     advanced user may unlock and change the name. Once the case type is
     created, the name should not be changed.)
 
-3. Include **Case Roles**. 
+3. Include **Case Roles**.
 This section lists the types of people who are involved in the case in
 some way. Roles listed here will be automatically included in each case
 when a new case is opened.
 
     Select the roles that you wish to be included in the case type from the
     "Add role" drop-down shown below the listing of roles.
-    
+
     If you need to create a new custom role for your case type, click the
     drop-down, and type the name of the new role into the field. As well as
     displaying any matches from the existing list of roles, you will also
@@ -50,10 +50,10 @@ when a new case is opened.
     this to define the new role. The new role will be created when you save
     your new case type. Using this method you can quickly create as many new
     roles as you need for your case type.
-    
+
     As each role is selected or created, it appears in the listing of Roles,
     where you can further set "Assign to Creator" and "Is Manager" options:
-    
+
     -   Any role marked with "Assign to Creator" is then automatically
         assigned to the person who creates the case.
     -   You may also mark one of the roles as the manager. The case
@@ -62,15 +62,15 @@ when a new case is opened.
 
     Specific people may be assigned to case-roles -- after a case has been
     opened.
-    
+
     New roles/relationship types created through the Case Type interface are
     individual-to-individual relationships. If you want roles that are
     individual-to-organisation relationships then, once you have finished
     creating your case type, you can change the relationship definition at
     **Administer > Customize Data and Screens > Relationship Types**.
     There you will also be able to review and edit other details of the
-    roles/relationships if you need to. 
-![image](../img/CiviCase_Roles.png) 
+    roles/relationships if you need to.
+![image](../img/CiviCase_Roles.png)
 
 4. Include **Activities**
 When working on a case, the user has access to a drop-down menu in the
@@ -84,7 +84,7 @@ to the case.
 
     When defining the Case Type you can choose which Activity Types are made
     available within this drop-down menu.
-    
+
     If you are including most or all of your custom Activity Types in the
     **Standard Timeline**, or another timeline or sequence within your Case
     Type, you may not want to include these custom Activity Types in your
@@ -93,7 +93,7 @@ to the case.
     want to give your users more flexibility, and give them access to some
     or all of the custom Activity Types in the menu, allowing them to have
     much more control over the pattern and flow of activities in the case.
-    
+
     The first step is to create a list of all of the Activity Types that you
     would like to have readily available from within the case. This is the
     listing under the 'Activity Types' tab. You should focus on selecting
@@ -103,17 +103,17 @@ to the case.
     activity types -- such as **Open Case,** **Change Case Status**, and
     **Change Case Type**. There is no need to manually add these activity
     types.)
-    
+
     Note - the Activity Types listing needs only those activities that a
     user **might** **choose** to add to the case. Activities that you
-    include in a Timeline or Sequence do not need to be in this list. 
-    
+    include in a Timeline or Sequence do not need to be in this list.
+
     ![image](../img/CiviCRM%204.5%20CiviCase%20Activities.png)
-    
+
     Select the activity types that you wish to be included in the case type
     from the "Add activity type" drop-down shown below the listing of
     activity types.
-    
+
     If you need to create a new custom activity type for your case type,
     click the drop-down, and key the name of the new activity type into the
     search field. As well as displaying any matches from the existing list
@@ -122,12 +122,12 @@ to the case.
     The new activity type will be created when you save your new case type.
     Using this method you can quickly create as many new activity types as
     you need.
-    
+
     As each activity type is selected or created, it appears in the listing
     of Activity Types. You can optionally specify the maximum number of
     times a given activity type can be used in a case using the '**Max
     Instances**' element.
-    
+
     Once you have created your case type you can review and amend the
     details for any new activity types you may have created by editing them
     at **Administer > Customize Data and Screens > Activity Types**. New
@@ -147,7 +147,7 @@ within the case type.
     These are simply groups of activity types which define a series of
     interactions, giving you the ability to pre-define one or more
     standardised workflows for any given case type.
-    
+
     In a **Timeline** you control the scheduling of each activity in
     your timeline relative to the date the case is opened, or relative to
     another activity in the case, using the 'Reference' and 'Offset' fields.
@@ -155,19 +155,19 @@ within the case type.
     are created when the timeline is added to the case and are visible in
     the case summary. You can create multiple timelines for use in any given
     case type.
-    
+
     The **Standard Timeline** is the default timeline for each new case type
     that you create, and provides the essential elements that will make your
     case types work correctly, so each case type must have a standard
     timeline. The activities in the standard time line are added
-    automatically when the case is opened. 
+    automatically when the case is opened.
 
     The Standard Timeline starts with one predefined activity, Open Case,
     whereas additional timelines are empty to start with. As you control
     when an additional timeline is added to the case you will choose the
     first activity, which may also be a key reference activity for this
     timeline.
-    
+
     A **Sequence** defines the order in which a set of defined activities
     should occur, but unlike the timeline it includes no information about
     time intervals between activities. A sequence also differs from a
@@ -202,7 +202,7 @@ to work with:
 
 You can choose to use the "end date" of a case (i.e the final defined
 activity) as your reference and use negative offset values to schedule
-activities as the example below shows. 
+activities as the example below shows.
 
 ![image](../img/timeline_advanced.PNG)
 
@@ -248,7 +248,7 @@ Please review the section on configuring custom data fields prior to
 beginning these steps.
 
 1.  Go to **Administer > Customize Data and Screens > Custom Fields**.
-2.  Click **Add a Set of Custom Fields**. 
+2.  Click **Add a Set of Custom Fields**.
 3.  Under **Used For**, select **Activities** or **Cases**.
 4.  Select one or more specific activity type(s) or case type(s) for
     which this set of fields will be used.
@@ -274,12 +274,12 @@ both the sent email and the reply to become part of the case story.
 You can choose to send outbound emails directly from the Manage Case
 screen, but you can also set up CiviCRM to integrate with your usual
 email client so you can send and receive emails as usual and also have
-them filed in CiviCRM. 
+them filed in CiviCRM.
 
 In the CiviMail chapter the Email Processor was described as a way to
 get inbound and outbound emails into CiviCRM as non-case activities.
 When you enable CiviCase, a new action will be available that allows you
-to file any non-case activity onto a case. 
+to file any non-case activity onto a case.
 
 Additionally, when email activities are sent from the Manage Case
 screen, if the Email Processor has been set up then replies will
@@ -323,10 +323,13 @@ The following is a list of the CiviCase-related permissions:
      This permissioning model is useful for users who are external to your
      organisation and who should not be allowed to see contact details.
 
--   ![FindDeletedCases](../img/CiviCRM_update-CasePlanning-FindDeletedCases-en.png "FindDeletedCases")Access
+-  Access
     all cases and activities: allows a user to create new cases, as well
     as view and add activities to any case (regardless of who initially
     created the case).
+
+    ![FindDeletedCases](../img/CiviCRM_update-CasePlanning-FindDeletedCases-en.png "FindDeletedCases")
+
 -   Delete in CiviCase: allows a user to mark cases or case activities
     as deleted. Cases and activities are never physically deleted from
     your database, but only hidden when you mark them as deleted.
@@ -341,4 +344,4 @@ The following is a list of the CiviCase-related permissions:
 -   create and edit case types and case statuses
 -   set rules for redacting case data. These rules are used to disguise
     data which could be used to identify the case client in case reports
-    which are shared with external reviewers. 
+    which are shared with external reviewers.
