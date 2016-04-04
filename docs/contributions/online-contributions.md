@@ -69,7 +69,7 @@ the automatically emailed receipt (if being sent).
 
 You will now be on the (Contribution) **Amounts** tab.  All the other
 feature tabs for contribution pages will now be visible at the top
-of the page.  We will deal with them one by ne
+of the page.  We will deal with them one by one.
 
 ### Amounts tab
 ![Contributions Amounts Page](../img/civicontribute-online-contribution-amounts.png)
