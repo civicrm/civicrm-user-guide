@@ -55,7 +55,7 @@ Schedule Reminders.** The exact options that are visible depend on the
 **Entity** chosen but all scheduled reminders are fairly similar. The
 general process is:
 
-![image](../img/scheduled_reminders_contactsV2.png)
+![scheduled reminders set up](../img/civimail-scheduled-reminders-setup.png)
 
 1.  Give your reminder a name that will help you or others identify it.
 
