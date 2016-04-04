@@ -4,8 +4,9 @@ Sales tax and VAT
 If your organization charges Sales Tax or VAT you should enable
 this feature.
 
-To enable Sales Tax/VAT go to **Administer > CiviContribute > CiviContribute Component Settings **and check the "Enable Tax and
-Invoicing" box.
+To enable Sales Tax/VAT go to
+**Administer > CiviContribute > CiviContribute Component Settings**
+and check the "Enable Tax and Invoicing" box.
 
 In this screen you can set certain settings for Sales Tax/VAT as well:
 
@@ -30,7 +31,8 @@ Account**. Scroll down to the bottom of the page, and click on **Add
 Financial Account**.
 
 To create the sales tax Account, make sure **Financial Account Type** is
-set to **Liability**. Select **Enabled** and **Is Tax** and specify the **Tax Rate**. Note if you use **Quick
+set to **Liability**. Select **Enabled** and **Is Tax** and specify the
+**Tax Rate**. Note if you use **Quick
 Books**, the **Account Type Code** should be set to **SALESTAX**.
 Accounting Code should be based on the organization's specific
 accounting codes.
@@ -39,13 +41,16 @@ accounting codes.
 
 After you create the Financial Account, you can assign it to the
 specific Financial Type by going to **Adminster > CiviContribute >
-Financial Types**.  Find the Financial Type this sales tax applies to, and click on **Accounts**. Click on **Assign Account**.
+Financial Types**.  Find the Financial Type this sales tax applies to, and
+click on **Accounts**. Click on **Assign Account**.
 
 ![image](../img/assignaccount2.jpg)
 
-For the **Financial Account Relationship** choose **Sales Tax Account is** and in the ** Financial Account** field select your sales tax account. Click **Save.**
+For the **Financial Account Relationship** choose **Sales Tax Account is**
+and in the ** Financial Account** field select your sales tax account.
+Click **Save.**
 
-![image](../img/addfinancialaccount2.jpg)
+![image](../img/civicontribute-sales-tax-add-account.png)
 
 Once the sales tax Financial Account has been added, you will see it
 listed with the other Financial Accounts for that specific Financial

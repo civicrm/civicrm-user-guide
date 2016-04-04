@@ -92,7 +92,13 @@ recipients. You will be asked to enter the Subject of the email later.
 **Campaign**: You can associate this email with a particular campaign.
 
 **Template**: Here you can select an existing message template to
-populate the HTML Format and Plain-Text Format fields with the message content from the template. You can edit the content to suit this particular mailing but you cannot update the template, or create a new template via this form. (CiviCRM ships with three sample newsletter templates which users with the Administer CiviCRM permssion can customise with your own organisation's details at **Administer > CiviMail > Message Templates**.  That is also where new message templates can be created.)
+populate the HTML Format and Plain-Text Format fields with the message
+content from the template. You can edit the content to suit this particular
+mailing but you cannot update the template, or create a new template via this
+form. (CiviCRM ships with three sample newsletter templates which users with
+  the Administer CiviCRM permssion can customise with your own organisation's
+  details at **Administer > CiviMail > Message Templates**.  That is also where
+  new message templates can be created.)
 
 **From**: This will be populated with the default sender email address.
 You can select an alternative for this mailing from the dropdown list.
@@ -120,7 +126,9 @@ did not receive the original mailing.
 **The "wrench"**: The is located to the right of the Recipients
 field and to the left of the estimate of recipient numbers.  Click on it
 to access **Edit Options**.
+
 ![Civimail Recipients Edit Options](../img/civimail-recipients-edit-options.png)
+
   -   **Dedupe by email:** CiviCRM will always dedupe your mailing based on
  unique contact records. For example, if a contact is in three of the
  groups you are including in your mailing, they will only be sent one copy
@@ -132,6 +140,7 @@ to access **Edit Options**.
  **Administer > CiviMail > CiviMail Component Settings** by ticking
  or unticking "CiviMail dedupes e-mail addresses by default" but you can
  override the default for any email if needed.
+
   -   **Location Type:** By default emails created through CiviMail are sent to
  the address location(s) set as being for "Bulk Mailings" or, if no location type
  has that setting, to the address location set as "Is Primary". You can change
@@ -211,7 +220,8 @@ the Source icon in the editor.
 ### Responses tab
 -  **Track Replies** checkbox. Checking this option will send replies from the
 mailing's recipients to a CiviMail specific address instead of the sender's
-address so they can be stored within CiviCRM. Checking this box will open the two options described next.
+address so they can be stored within CiviCRM. Checking this box will open the
+two options described next.
     -   **Forward Replies:** This option is only visible if "Track Replies"
     is checked. You will need to check this option if you want the From
     address to also receive the replies sent by recipients.
