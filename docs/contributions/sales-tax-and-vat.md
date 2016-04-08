@@ -5,8 +5,8 @@ If your organization charges Sales Tax or VAT you should enable
 this feature.
 
 To enable Sales Tax/VAT go to
-**Administer > CiviContribute > CiviContribute Component Settings**
-and check the "Enable Tax and Invoicing" box.
+**Administer > CiviContribute > CiviContribute Component Settings** and check
+the "Enable Tax and Invoicing" box.
 
 In this screen you can set certain settings for Sales Tax/VAT as well:
 
@@ -32,17 +32,16 @@ Financial Account**.
 
 To create the sales tax Account, make sure **Financial Account Type** is
 set to **Liability**. Select **Enabled** and **Is Tax** and specify the
-**Tax Rate**. Note if you use **Quick
-Books**, the **Account Type Code** should be set to **SALESTAX**.
-Accounting Code should be based on the organization's specific
-accounting codes.
+**Tax Rate**. Note if you use **Quick Books**, the **Account Type Code**
+should be set to **SALESTAX**. **Accounting Code** should be based on the
+organization's specific accounting codes.
 
 ![image](../img/salestaxaccount4.jpg)
 
 After you create the Financial Account, you can assign it to the
 specific Financial Type by going to **Adminster > CiviContribute >
-Financial Types**.  Find the Financial Type this sales tax applies to, and
-click on **Accounts**. Click on **Assign Account**.
+Financial Types**.  Find the Financial Type this sales tax applies to,
+and click on **Accounts**. Click on **Assign Account**.
 
 ![image](../img/assignaccount2.jpg)
 

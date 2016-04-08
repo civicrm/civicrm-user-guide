@@ -1,4 +1,5 @@
-# Online membership sign up
+Online membership sign up
+=========================
 
 This chapter explains how to allow visitors to your website to sign up
 as members of your organisation. It looks at the steps necessary to
@@ -10,7 +11,8 @@ Before reading this chapter, you may wish to read the chapter *Defining
 memberships* which gives useful background to many concepts (like
 membership types, membership statuses, and so on).
 
-## About membership sign up pages
+About membership sign up pages
+--------------------------------
 
 Membership sign up pages are created in the same way as online
 contribution pages. In essence, you create an online contribution page
@@ -40,11 +42,12 @@ of the membership configuration, and the Profiles tab, which allows you
 to collect information about the people or organisations that are
 filling out your membership form.
 
-We recommend you also review the chapters on creating online
-contribution pages which will give you a better understanding of all the
+We recommend you also review the chapters on creating [online
+contribution pages](../contributions/online-contributions) which will give you
+a better understanding of all the
 tools you have at your disposal when creating membership pages.
 
-### The Title tab
+###The Title tab
 
 The title tab (which is also the first page that you see when you create
 a new membership page) allows you to set the title for the membership
@@ -55,7 +58,7 @@ This tab also has space for you to include an introductory message to be
 displayed on your membership page. You can include images and other
 simple HTML in this introductory text.
 
-**Organisational memberships**
+###Organisational memberships
 
 The title tab contains a check box to allow people to become members *on
 behalf of* an organisation, which is the recommended way to offer
@@ -85,11 +88,11 @@ enabled** checkbox unticked. If you *do* want to solicit contributions
 on top of membership fees, then tick the box and either add some
 suggested contribution options or configure a contribution price set.
 
-**Free memberships**
+### Free memberships
 
-If you are offering **free memberships** and do not want any monetary
-donations, you should leave the 'Execute
-real-time monetary transactions' box unticked.
+If you are offering **free memberships**, you should leave the 'Execute
+real-time monetary transactions' box unticked and choose a membership
+type with a zero value minimum fee.
 
 ### The Memberships tab
 
@@ -146,7 +149,7 @@ Some of the things you can do with price sets include:
 -   offer other options such as a paid subscription in addition to
     membership signup.
 
-### The Receipt tab
+###The Receipt tab
 
 
 After the site visitor completes the membership signup or renewal form,
@@ -165,7 +168,8 @@ member.
 
 ![image](../img/membership%20page%20receipt%202.jpg)
 
-### The Tell-A-Friend tab
+###The Tell-A-Friend tab
+
 
 CiviCRM allows you to add a tell-a-friend feature to the thank-you page.
 The page lets your members share details about your organization with
@@ -176,7 +180,7 @@ were added via tell-a-friend.
 
 ![image](../img/tell%20a%20friend.jpg)
 
-### Collecting information as part of membership sign up (the Profiles tab)
+###Collecting information as part of membership sign up (the Profiles tab)
 
 You can use profiles to collect information about your members as they
 fill in the sign up form. By default, contribution pages will include
@@ -198,7 +202,7 @@ existing profile or create a new profile to be included on this page.
 **WARNING:** If you edit an existing profile here, it will be changed in
 all places where that profile is used.
 
-### Premiums tab
+###Premiums tab
 
 Premiums are thank you gifts and incentives offered to people that
 donate to your organisation. They are most commonly associated with
@@ -213,7 +217,8 @@ details.
 
 ![image](../img/membership-profiles.png)
 
-## Testing membership sign up pages
+Testing membership sign up pages
+--------------------------------
 
 Once you finish configuring and setting up your membership page, you are
 advised to test drive the process to make sure everything is working
@@ -235,7 +240,7 @@ friends from outside your organisation to test the process.
 
 When using the Test-drive Registration option, you see the same
 registration pages as a regular user, but the online payment isn't
-really debited from your card (see *Payment processors* for more
+really debited from your card (see *Payment processors*for more
 information on dummy processors and card details you can use for test
 transactions).
 
@@ -248,7 +253,8 @@ feedback from people who have recently become members to see how easy it
 was for them to become a member and ask their opinions on ways in which
 you could improve your form.
 
-## Adding membership sign up pages to your website
+Adding membership sign up pages to your website
+-----------------------------------------------
 
 Once you've made your contribution page, you need to make it visible on
 your website. The method for this depends on the CMS. Instructions for
@@ -274,7 +280,7 @@ it in a content page or assign it to a menu item.
 
 Go to **Contributions** > **Manage Contribution Pages** > click
 **Links** next to your membership sign-up/renewal page > click **Live
-Page.** Copy the URL and insert it into an HTML link or menu.
+Page. **Copy the URL and insert it into an HTML link or menu.
 
 *Or* use a plugin such as Page Links To create a URL 'slug'.
 
@@ -295,7 +301,8 @@ front of your website in Joomla is by creating a menu item.
 -   Save the menu item and view the website to confirm the page's
     functionality.
 
-## Permissions needed for online membership sign up/renewal.
+Permissions needed for online membership sign up/renewal.
+---------------------------------------------------------
 
 Anonymous and Authenticated roles need the following CMS permissions to
 be able to join or renew online:

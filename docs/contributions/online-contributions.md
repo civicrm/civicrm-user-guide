@@ -24,9 +24,7 @@ Amounts** checkbox and setting **minimum** and/or **maximum** amounts if you wan
 3. Enter the **title** for your website page.
 4. Select the appropriate **financial type**.
 5. Click on **Continue**.
-6. On the next page leave everything as is except for ticking the
-**Allow Other Amounts** checkbox and setting **minimum** and/or
-**maximum** amounts if you want to.
+6. On the next page leave everything as is except for ticking the **Allow Other Amounts** checkbox and setting **minimum** and/or **maximum** amounts if you want to.
 7. Click on **Save**.
 8. Select the **Receipt** tab.
 9. Enter the **title** for your Thank-you page.
@@ -35,8 +33,8 @@ Amounts** checkbox and setting **minimum** and/or **maximum** amounts if you wan
 12. Click on **Save and Done**.
 7. Follow the steps for your CMS to [display this page on your website](#publicizing-your-contribution-page).
 
-One other thing you might want to do with these simple pages is to collect more information about your contributors.  That is done via the [Profile tab](#profile-tab)
 
+   &&&& Add links in here to profiles tab &&&
 ## Setting up a contribution page - full details.
 
 Navigate to **Contribution > New Contribution Page**.
@@ -100,35 +98,6 @@ processors. You can do this by setting up multiple processors, and checking the
 
 This is covered in detail in  [Memberships](../memberships/online-membership-sign-up).
 
-### Receipt Tab
-
-![online contribution thank you and receipt set up](../img/civicontribute-online-thank-you-and-receipt.png)
-
-Here you can:
-
--  Customise the Thank-you page that will be displayed to your
-contributors. Contributors are sure to appreciate a title such as "Thanks
-for your contribution" with a re-statement of how their contribution will be
-used. (If you don't visit this tab the "Thank-you" page will just have the
-same title as the contribution page.)
-
--  Decide whether or not to have a receipt automatically emailed at the time
-of the contribution. If you do decide to send a receipt then the fields
-under "Email Receipt to Contributor" will appear. The receipt message is
-specifically for the contribution page you are creating and will be added to
- the standard **Contributions-Receipt (on-line)** (found at
-**Mailings > Message Templates> System Workflow Messages**).
-
-### Tell-A-Friend tab
-
-CiviCRM allows you to add a tell-a-friend feature to the thank-you page.
-The page lets your members share details about your organisation with
-their friends by emailing them a link and information. Those friends
-will be added as contacts if they aren't already in CiviCRM and their source
-field will show that they were added via tell-a-friend.
-
-![image](../img/tell%20a%20friend.jpg)
-
 ### Profile tab
 
 If you want to collect information from contributors beyond the essential fields
@@ -168,41 +137,12 @@ regardless of whether you include any other fields in your profile(s).
 
 For more information read [Profiles](../organising-your-data/profiles).
 
-### Premiums tab
+Automatic Contribution Recording
+--------------------------------
 
-Premiums are thank you gifts and incentives offered to people that
-donate to your organisation. They are most commonly associated with
-tiered donation levels (e.g. donate $20 to receive a pen, donate $50
-to receive a T-shirt) The Premiums tab controls the introductory text,
-contact information, and other premium-related details.
-
-Before you can include premiums on a contribution page, you must configure them.
-Read the section on [Premiums](../contributions/premiums) for those details.
-
-### Widget tab
-
-A widget provides a real-time display of current contribution results, and a
-direct link to the contribution page. Widget code can be added to any web page.
-Read [Widgets](../contributions/widgets) for details on setting up a widget.
-
-### Personal Campaigns Tab
-
-See [Personal campaign pages](../contributions/personal-campaign-pages) for
-details of this feature.
-
-## Editing your contribution page
-
-You can change most things on your contribution page at anytime as follows:
-
-1.  Navigate to **Administer > CiviContribute > Manage Contribution
-    Pages**.
-2.  Use the **Configure** link at the right-hand side of a contribution
-    page to access any of the set-up tabs and edit their details.
-
-## Automatic Contribution Recording
-
-CiviCRM automatically records donations made through your online contribution
-pages.  If the donors already exist in the database, CiviCRM
+Regardless of how donors get to your contribution page, CiviCRM
+automatically records their donations, freeing your staff from doing
+manual data entry. If the donors already exist in the database, CiviCRM
 adds the contribution to their existing record. If they don't exist,
 CiviCRM creates a new record for them.
 
@@ -213,6 +153,20 @@ chance of this happening, you can adjust CiviCRM's default duplicate
 matching rules. For instructions on how to do this, read
 [Deduping and Merging](../common-workflows/deduping-and-merging).
 
+### Receipt TabThank-you and Receipting
+
+Once you have created your contribution page, you can customise the
+Thank-you and Receipt emails that are sent to contributors.
+
+1.  Navigate to **Administer > CiviContribute > Manage Contribution
+    Pages**.
+2.  Use the **Configure** link at the right-hand side of a contribution
+    page in the list to access and edit the page.
+3.  Click on **Thank-you and Receipting** and enter the information that
+    you wish to appear in the thank-you email. Donors usually expect a
+    receipt as soon as their transaction is complete, so it is
+    recommended to enable the automatic Email Receipt.
+4.  Click **Save and Done**.
 
 ## Publicizing your contribution page
 

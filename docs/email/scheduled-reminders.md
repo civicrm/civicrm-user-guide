@@ -55,7 +55,7 @@ Schedule Reminders.** The exact options that are visible depend on the
 **Entity** chosen but all scheduled reminders are fairly similar. The
 general process is:
 
-![scheduled reminders set up](../img/civimail-scheduled-reminders-setup.png)
+![image](../img/civimail-scheduled-reminders-setup.png)
 
 1.  Give your reminder a name that will help you or others identify it.
 
@@ -80,12 +80,10 @@ general process is:
     see *Limiting or adding to your recipient list* in this chapter.
 8.  Choose to send your reminder as an email, an SMS or either depending
     on the preferred method(s) of communications for the contact.
+    NOTE: The SMS option will only be available if you have
+    [set up an SMS Gateway](.../sms-text-messaging/set-up)
 9.  Compose your message. You can use Message Templates or write the
-    message from scratch. Note that you cannot save your message as a
-    new template or modify an existing template from this screen, so if
-    you are writing a reminder for the first time and you think you will
-    want to re-use it, consider creating it as a Message Template
-    instead.
+    message from scratch.
 10. Click **Save** when you are are done.
 
 Reminders can be edited, disabled, or deleted from **Administer >

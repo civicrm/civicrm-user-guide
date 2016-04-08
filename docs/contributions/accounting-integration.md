@@ -7,15 +7,16 @@ them into your accounting software. You can create a new accounting batch then
 assign existing contributions to it, or re-use a batch created during
 batch data entry as an accounting batch.
 
-## Use a batch created through Batch Data Entry
-
+Use a batch created through Batch Data Entry
+---------------------------------------------
 
 Batch entry of transactions is covered in [Manual Entry of Contributions](../contributions/manual-entry-of-contributions)
 
 After you validate and close a batch, it will appear in the accounting batch
 listing with a status of Closed.
 
-## Create a New Batch from Existing Transactions
+Create a New Batch from Existing Transactions
+-----------------------------------------------
 
 ### Create the batch
 

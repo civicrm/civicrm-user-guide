@@ -45,8 +45,7 @@ To create a **Smart Group**:
     based on the criteria for your group.
 2.  On the search results page, click the radio button that selects all
     the records.
-3.  From the **Actions** drop-down menu, select **Group - create smart group
-    **.
+3.  From the **Actions** drop-down menu, select **Group - create smart group**.
 4.  The next screen provides a review of the criteria chosen for the
     Smart Group. Give the Smart Group a name and (optionally) a
     description, and make the Smart Group a Mailing List.

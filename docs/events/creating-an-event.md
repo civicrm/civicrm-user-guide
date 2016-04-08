@@ -5,12 +5,12 @@ This chapter covers the how create a new event, describing each of the
 set up options available in the event creation screen. If you going to
 allow online registration for the event, you will also want to read the
 *online event registration* chapter. If not, you'll want to read the
-*manual event registration* chapter. 
+*manual event registration* chapter.
 
 To get started, create a new event by choosing **Events > New Event**
 from the menu. (If you can't see the events menu, make sure that you
 have enabled the Events component. You can do this in **Administer >
-Configure > Global Settings > Enable Components**.) 
+Configure > Global Settings > Enable Components**.)
 
 Event Information and Settings
 ------------------------------
@@ -20,7 +20,7 @@ about the event. You can click on any of the blue question marks to
 show help for each of the fields. When you see a pencil, clicking on it
 will take you to a screen where you can edit the options available.
 Note, depending on your permissions, you may not be able to edit these
-options and therefore will not see the pencil. 
+options and therefore will not see the pencil.
 
 ![image](../img/4.5_new_event.PNG)
 
@@ -31,7 +31,7 @@ scratch.
 **Event type** allows you to categorise the event.
 
 If you have **CiviCampaign** enabled, you can select a campaign for this
-to be a part of (see the *Campaign* section for more details). 
+to be a part of (see the *Campaign* section for more details).
 
 **Roles** distinguish different types of event participants, such as
 attendees, speakers and staff. What role should participants be assigned
@@ -94,20 +94,20 @@ configuration on any subsequent page by clicking **Save and Done** and
 return later to review and modify any of the settings.
 
 To return to a saved event, navigate to **Events > Manage Events** and
-click **Configure** to continue working on the event. 
+click **Configure** to continue working on the event.
 
 Event Location
 --------------
 
 The next step is to complete the location and contact details for the
-event. 
+event.
 
 Once you have entered an event location, you can reuse it for subsequent
 events by clicking **Use existing location** and selecting it from the
 dropdown list. Note that if you choose an existing location and edit it,
 it will update that location for all events that use it.
 
-![image](../img/event%20location%20with%20warning.PNG) 
+![image](../img/event%20location%20with%20warning.PNG)
 
 You can also list phone numbers and email addresses on the event
 information page if you want to give registrants a way to contact event
@@ -133,7 +133,7 @@ See *Set-Up* in the *Contributions* section for details.
 If you plan to accept credit card payments through the online
 registration form, you need to configure a **payment processor** prior
 to creating your event. Find more information about this, see *Payment
-Processors* in the *Contributions* section. 
+Processors* in the *Contributions* section.
 
 Do you want to allow registrants to pay later by mailing in a check,
 paying on-site with cash or credit card, or arranging some other payment
@@ -156,7 +156,7 @@ options or additional add-ons, you may wish to use **price sets** or
 **discounts**. For more information about this, see the *Complex event
 fees* chapter in this section.
 
-Online registration 
+Online registration
 --------------------
 
 Allowing people to register online (self-service) through your web site
@@ -165,7 +165,7 @@ constituents and can save staff time and resources. If you do not need
 to offer online registration, do not check **Allow Online
 Registration** and move onto the next step. If you do want to allow
 online registration, please see the *Online event registration* chapter
-in this section. 
+in this section.
 
 Scheduled reminders
 -------------------
@@ -174,22 +174,22 @@ Scheduled reminders can be used to automatically send event registrants
 emails at certain times before or after events, for example
 
 -   a week before: remind them that they should check out the conference
-    schedule 
+    schedule
 -   a day after: ask them to fill in the feedback form
 -   Two days before payment is due for a Pending from Pay Later
     registration: warn them that their registration will be cancelled if
-    they don't provide payment details in the next 48 hours. 
+    they don't provide payment details in the next 48 hours.
 
 To set up a scheduled reminder for a specific event, click on the
 scheduled reminders tab, which will show you already existing scheduled
-reminders for this event (if any) and click on **Add Reminder**. 
+reminders for this event (if any) and click on **Add Reminder**.
 
 ![image](../img/scheduled-reminder-events.png)Fill in the details on
 this form to send, for example, an email to all registered speakers 3
 days before the event start date.  Note that you can limit recipients by
 status (registered, attended, etc.) and also by role (speaker, attendee,
 volunteer, etc.).  You can either use a template or compose your own
-message in the HTML format box. 
+message in the HTML format box.
 
 ![image](../img/scheduled-reminder-events-compose.png)
 
@@ -197,13 +197,12 @@ As well as setting up reminders on an event by event basis, you can also
 set them up for specific event types. and add them to specific event
 templates.  The idea is basically the same as above, but you can access
 this functionality from **Administer > Communications > Scheduled
-reminders**. 
+reminders**.
 
 Tell-A-Friend
 -------------
 
-CiviEvent
-makes it easy to leverage the social networking power of your committed
+CiviEvent makes it easy to leverage the social networking power of your committed
 constituents by empowering them to quickly and easily share details
 about your organization and event with their friends and colleagues. The
 final step in the event creation is a page where you can enable
