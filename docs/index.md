@@ -18,8 +18,7 @@ covered here, we do point to other relevant sources of technical
 document which should be useful for people (like your service provider,
 or technical staff) who understand them.
 
-This book is freely available to read online and download in multiple
-formats. It is collaboratively written by the CiviCRM community (see the
+This book is freely available to read online. It is collaboratively written by the CiviCRM community (see the
 *History of this book* chapter for more details). You can help write this
 book and help with other documentation efforts. See
 https://civicrm.org/participate/documentation for more information. 
