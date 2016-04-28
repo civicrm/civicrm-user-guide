@@ -83,3 +83,28 @@ text like the message below:
 ```
 Thanks for testing Clickatell's gateway coverage. You will be able to change the content of your message after your initial purchase of message credits.
 ```
+
+### After upgrading your ClickAatell account to a paid account
+
+Once you have upgraded your Clickatell account, you will need to change a 
+few parameters to get things working again.
+In CiviCRM,  go to: **Administer** > **System Settings**> 
+**SMS Providers** and click Edit on your "Clickatell" provider. In the API 
+Parameters box, under the api_id line, add a from= and a mo=1 parameter.  The
+from= number is the phone number associated with the api_id in your Clickatell
+account.
+
+Your API parameters should now look like:
+```
+api_id=8473658
+from=15551234567
+mo=1
+```
+
+Back in your ClickATell Developer's Central page, click on the America's 2 Way SMS
+tab, then click Manage next to the phone number you are working with.  For the
+Primary Callback:  Reply Path, choose "HTTP Get" from the dropdown.  In the target
+address, enter the same address as used before:
+Drupal: http://www.example.com/civicrm/sms/callback?provider=org.civicrm.sms.clickatell
+Wordpress: https://www.example.org/?page=CiviCRM&q=civicrm%2Fsms%2Fcallback&provider=org.civicrm.sms.clickatell
+
