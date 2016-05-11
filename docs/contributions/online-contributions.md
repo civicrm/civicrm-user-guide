@@ -135,6 +135,13 @@ regardless of whether you include any other fields in your profile(s).
     and edit the copy as required.
 3.  Click **Save** or **Save and Done** or **Save and Next**.
 
+Note: If you include a profile with a Home Address at the top of the
+page, CiviCRM automatically generates a checkbox on the front end form
+which allows the user to indicate that their Billing Address and Home 
+Address are the same. (If the Home Address profile is included at the
+bottom of the page, this checkbox will not be generated).
+![image](../img/Profiles-HomeAddress.jpg)
+
 For more information read [Profiles](../organising-your-data/profiles).
 
 Automatic Contribution Recording
