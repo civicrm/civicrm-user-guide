@@ -1,4 +1,4 @@
-Some everyday tasks
+Everyday tasks
 ==============
 
 This chapter contains step-by-step instructions for performing some important
