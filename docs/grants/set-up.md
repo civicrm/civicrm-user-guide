@@ -16,6 +16,7 @@ At the moment, you cannot add custom data to grant *types* but you can
 add it to grants (see below).
 
 Grant statuses
+--------------
 
 The option list for **Grant status** can be found on the **Administer >
 System Settings > Option Groups** screen. Select Options on the right
