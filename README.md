@@ -2,7 +2,7 @@
 
 Note: This repository contains _source files_ for the CiviCRM user and administrator guide. It is intended for use by people that want to contribute to the guide.
 
-If you just want to read the guide, **[click here to read the published CiviCRM user guide.](http://gitbook.civicrm.org/)**
+If you just want to read the guide, **[click here to read the published CiviCRM user guide.](http://docs.civicrm.org/user/en/stable)**
 
 ## Contributing to this manual
 
@@ -15,4 +15,12 @@ To edit this manual:
 
 Your edits will be published as soon as they are reviewed by someone on our documentation team.
 
-More information on contributing to CiviCRM documentation is available here: [https://civicrm.org/improve-documentation](https://civicrm.org/improve-documentation).
+## Versioning (which version should I edit?)
+
+If you're improving current documentation, please edits the master branch (available at http://docs.civicrm.org/user/en/latest).
+
+Master is periodically merged into 4.7 and made available at http://docs.civicrm.org/user/en/stable.
+
+If you want to make an update in the 4.6 documentation, please edit the 4.6 branch.
+
+More information on contributing to CiviCRM documentation is available at [https://github.com/civicrm/civicrm-docs/#contributing-to-documentation](https://github.com/civicrm/civicrm-docs/#contributing-to-documentation).
