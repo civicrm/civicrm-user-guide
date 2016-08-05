@@ -12,7 +12,7 @@ about themselves on your site without realising they're already in your
 list of contacts (maybe with their names spelled differently or with a
 different email address).
 
-Some examples of scenario's where duplicate contacts can enter your
+Some examples of scenarios where duplicate contacts can enter your
 database:
 
 -   When an administrator or user creates a new contact through the
