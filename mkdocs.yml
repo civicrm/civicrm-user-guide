@@ -1,4 +1,4 @@
-site_name: "Guide de l'utilisateur CiviCRM en français"
+site_name: "Guide d'utilisation de CiviCRM en français"
 site_url: http://rtfd.civicrm.org
 repo_url: https://github.com/civicrm-french/civicrm-user-guide
 site_description: 'Un guide pour les utilisateurs et administrateurs de CiviCRM.'
@@ -9,33 +9,33 @@ theme: readthedocs
 pages:
 - Home: 'index.md'
 - Introduction:
-    - 'What is CiviCRM?': 'introduction/what-is-civicrm.md'
-    - 'Real World Examples': 'introduction/real-world-examples.md'
-    - 'Components': 'introduction/components.md'
+    - "Qu'est-ce que CiviCRM ?": 'introduction/what-is-civicrm.md'
+    - "Des exemples concrets": 'introduction/real-world-examples.md'
+    - "Composantes": 'introduction/components.md'
     - 'Extensions': 'introduction/extensions.md'
-    - 'Who is CiviCRM?': 'introduction/who-is-civicrm.md'
-- Getting prepared:
-    - 'Is CiviCRM for You?': 'getting-prepared/is-civicrm-for-you.md'
-    - 'Identifying Your Needs': 'getting-prepared/identifying-your-needs.md'
-    - 'Test it out': 'getting-prepared/test-it-out.md'
-    - 'Hosting': 'getting-prepared/hosting.md'
-    - 'Transitioning to CiviCRM': 'getting-prepared/transitioning-to-civicrm.md'
-- Initial set up:
+    - "Qui est la communauté CiviCRM ?": 'introduction/who-is-civicrm.md'
+- Préparation:
+    - "CiviCRM convient-il à votre organisation ?": 'getting-prepared/is-civicrm-for-you.md'
+    - 'Identifier vos besoins': 'getting-prepared/identifying-your-needs.md'
+    - "L'essayer": 'getting-prepared/test-it-out.md'
+    - 'Hébergement': 'getting-prepared/hosting.md'
+    - 'Faire la transition': 'getting-prepared/transitioning-to-civicrm.md'
+- Configuration initiale:
     - 'Installation and basic set-up': 'initial-set-up/installation-and-basic-set-up.md'
     - 'Scheduled jobs': 'initial-set-up/scheduled-jobs.md'
     - 'Customizing the user interface': 'initial-set-up/customizing-the-user-interface.md'
     - 'Permissions and access control': 'initial-set-up/permissions-and-access-control.md'
     - 'Security': 'initial-set-up/security.md'
     - 'CiviCRM System Status': 'initial-set-up/civicrm-system-status.md'
-- Advanced configuration:
+- Configuration avancée:
     - 'Email system configuration': 'advanced-configuration/email-system-configuration.md'
     - 'Logging': 'advanced-configuration/change-logging.md'
-- The user interface:
+- L'interface utilisateur:
     - 'Menu, dashboard and dashlets': 'the-user-interface/menu-dashboard-and-dashlets.md'
     - 'Keyboard shortcuts': 'the-user-interface/keyboard-shortcuts.md'
     - 'Searching': 'the-user-interface/searching.md'
     - 'Undelete': 'the-user-interface/undelete.md'
-- Organising your data:
+- Organiser vos données:
     - 'Overview': 'organising-your-data/overview.md'
     - 'Mapping your data': 'organising-your-data/mapping-your-data.md'
     - 'Contacts': 'organising-your-data/contacts.md'
