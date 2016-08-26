@@ -7,7 +7,7 @@ site_author: 'La communauté de CiviCRM'
 theme: readthedocs
 
 pages:
-- Home: 'index.md'
+- Accueil: 'index.md'
 - Introduction:
     - "Qu'est-ce que CiviCRM ?": 'introduction/what-is-civicrm.md'
     - "Des exemples concrets": 'introduction/real-world-examples.md'
