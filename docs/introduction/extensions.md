@@ -1,27 +1,15 @@
 Extensions
 ==========
 
-Extensions provide additional functionality to core CiviCRM. Extensions
-are the recommended way to create new features and change the way that
-CiviCRM works, especially when these changes are not needed or desired
-by the entire CiviCRM community.
+Les extensions fournissent des fonctions supplémentaires au « coeur » de CiviCRM. C'est la méthode recommandée pour créer de nouvelles fonctionnalités et pour modifier la façon que CiviCRM fonctionne, surtout lorsque ces changements ne sont pas nécessaires ou souhaités par l'ensemble de la communauté CiviCRM.
 
-Many people write extensions for their *specific use cases* and install
-them it on their CiviCRM installation. Many people write *generic
-extensions* that are useful for multiple organizations. Extensions that
-are useful to multiple organisations can be published in the CiviCRM
-extensions directory. 
+Plusieurs personnes développement des extensions pour leurs besoins spécifiques, puis les installent dans leur instance de CiviCRM. D'autres écrivent des extensions génériques qui peuvent être utiles pour d'autres organisations également. Ces extensions qui peuvent être utiles à d'autres organisations sont publiées dans le répertoire des extensions CiviCRM.
 
-The extensions directory
+Le répertoire des extensions CiviCRM
 ------------------------
 
-The extensions directory is available at
-[https://civicrm.org/extensions](https://civicrm.org/extensions). It
-lists extensions that have been written by members of the CiviCRM
-community and made freely available for download by other
-organizations. Extensions are by default listed in order of popularity
-(which is calculated by the number of sites that report using the
-module).
+Le répertoire des extensions est disponible à l'adresse 
+[https://civicrm.org/extensions](https://civicrm.org/extensions). On y retrouve une liste d'extensions développées par la communauté et qui ont été rendues librement et gratuitement disponible à l'ensemble de la communauté. Par défaut, les extensions sont affichées dans l'ordre croissant de popularité (calculé selon le nombre d'instances de CiviCRM qui utilisent l'extension et qui rapportent leurs statistiques).
 
 ![image](../img/z-extensions-website_1.png) 
 
@@ -36,7 +24,7 @@ called **Drupal Modules** and Wordpress specific extensions are called
 Extensions that have been approved for automated distribution can be
 easily installed directly from your CiviCRM installation. 
 
-Installing extensions
+Installer des extensions
 ---------------------
 
 When configured correctly, extensions can be installed directly into
@@ -52,7 +40,7 @@ If you do not see a list of extensions here, it may be that your system
 is not properly configured to manage extensions. You should consult your
 system administrator if this is the case. 
 
-Writing extensions 
+Développer des extensions
 --------------------
 
 Anyone is free to write an extension to enhance their CiviCRM
