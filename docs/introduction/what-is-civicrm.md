@@ -20,17 +20,8 @@ CiviCRM est un système modulaire. Dans sa configuration la plus simple, vous po
 -   envoyer des courriels
 -   faire le suivi de vos interactions avec vos contacts
 
-Components and extensions will let you do more things such as sign up
-members for your organization, take registrations for your events,
-receive donations or distribute grants. See the *Components* and
-*Extensions* chapters for more information. 
+Les composantes et les extensions de CiviCRM vous permettent d'en faire encore plus. Vous pouvez gérer les adhésions de vos membres, gérer les inscriptions à vos événements, recevoir de dons en ligne ou distribuer des subventions. Voir les chapitres *Composantes* et *Extensions* pour plus d'information.
 
 CiviCRM travaille en collaboration avec une autre sorte de logiciel courant : un système de gestion du contenu, ou SGC. Un SGC est un outil qui permet de créer et de gérer des sites web; de nos jours, la plupart des sites sont gérés à partir d'un SGC.
 
-CiviCRM integrates with **Drupal, Joomla** and **WordPress**. Integration
-with a CMS opens up a lot of useful possibilities.  Visitors to your
-website can carry out many activities on their own, such as renewing
-their membership, signing up for events, requesting email updates, and
-donating money and you can share parts of your CRM data, for example
-event information, with visitors to your website. You can read more
-about integrating with a CMS in the *Website Integration* section.
+CiviCRM s'intègre avec **Drupal, Joomla** et **WordPress**. L'intégration à un SGC ouvre les portes à de nombreuses possibilités utiles. Les visiteurs de votre site web peuvent effectuer plusieurs opérations par eux-même, telles que le renouvellement de leur adhésion par eux-même, s'inscrire à des événements, s'inscrire à votre infolettre ou faire un don avec paiement en ligne. Vous pouvez aussi partager des données avec votre public, une liste d'événements ou une liste de membres en règle, par exemple, sans avoir à dupliquer l'information entre les deux systèmes. Vous pouvez lire plus sur ce sujet dans la section *Intégration avec votre site web*.
