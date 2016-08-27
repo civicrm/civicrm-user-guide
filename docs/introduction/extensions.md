@@ -3,7 +3,7 @@ Extensions
 
 Les extensions fournissent des fonctions supplémentaires au « coeur » de CiviCRM. C'est la méthode recommandée pour créer de nouvelles fonctionnalités et pour modifier la façon que CiviCRM fonctionne, surtout lorsque ces changements ne sont pas nécessaires ou souhaités par l'ensemble de la communauté CiviCRM.
 
-Plusieurs personnes développement des extensions pour leurs besoins spécifiques, puis les installent dans leur instance de CiviCRM. D'autres écrivent des extensions génériques qui peuvent être utiles pour d'autres organisations également. Ces extensions qui peuvent être utiles à d'autres organisations sont publiées dans le répertoire des extensions CiviCRM.
+Plusieurs personnes développement des extensions pour leurs besoins spécifiques. D'autres écrivent des extensions génériques qui peuvent être utiles pour d'autres organisations également. Ces dernières sont publiées dans le répertoire des extensions CiviCRM.
 
 Le répertoire des extensions CiviCRM
 ------------------------
@@ -13,16 +13,9 @@ Le répertoire des extensions est disponible à l'adresse
 
 ![image](../img/z-extensions-website_1.png) 
 
-Extensions are organized into two broad categories: 'native' extensions
-which work with any CMS, and CMS specific extensions that add
-integration between CiviCRM and the CMS and hence are CMS specific. If
-you are familiar with your CMS, you may know CMS specific extensions by
-another name, for example Drupal specific extensions are typically
-called **Drupal Modules** and Wordpress specific extensions are called
-**Wordpress Plugins**.
+Les extensions sont organisées en deux grandes catégories. Les extensions « natives » fonctionnent avec n'importe quel système de gestion de contenu (SGC). L'autre type sont des extension spécifiques à un type de SGC, généralement pour ajouter des fonctionnalités pour mieux intégrer CiviCRM avec le SGC. Selon votre SGC, ces extensions porteront peut-être le nom de « module » dans le monde de Drupal ou encore « plugin » dans le monde WordPress.
 
-Extensions that have been approved for automated distribution can be
-easily installed directly from your CiviCRM installation. 
+Les extensions qui ont été validées par la communauté peuvent être installées directement par l'interface de gestion des extensions dans CiviCRM.
 
 Installer des extensions
 ---------------------
