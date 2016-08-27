@@ -5,30 +5,24 @@ Les composantes vous donnent des outils complémentaires pour interagir avec vos
 
 Désactiver une composante ne supprimera pas de données de CiviCRM, seulement les cacher. Si vous réactivez la composante, les données redeviendront visibles.
 
-Chaque composante est expliquée en détail plus loin dans ce guide. Voici une brève description.
+Vous trouvez ci-dessous une brève description des composantes de CiviCRM. Chaque composante fait également l'objet d'un chapitre complet pour expliquer toutes ses fonctionnalités en détails. Un point à retenir : toutes les données dans CiviCRM sont, d'une façon ou d'une autre, rattachées à un contact. Ceci permet d'avoir un portait global des interactions et de leur parcours d'engagement avec votre organisation.
 
 Contributions
 --------------
 
-An online fundraising and donor management component which enables you
-to track and manage contributions to your organization. It also allows
-you to quickly and easily create customized web pages to accept one of
-and recurring online donations.  Part of CiviContribute is
-**CiviPledge**, which allows you to record and track pledges, send
-pledge acknowledgements and payment reminders, configure online
-contribution pages to support self-service pledging and pledge payments.
+CiviCRM permet de faire le suivi et gérer les contributions financières à votre organisation. Vous pouvez aussi créer des pages web personnalisées pour accepter les dons en lignes, qu'ils soient des dons uniques ou récurrents (mensuels, annuels, etc).
 
-Envois massifs (publipostages)
+Une autre composante permet également de gérer les **promesses de don**, permettant également de gérer les rappels de paiements par courriel ou envoyer des confirmations de paiement reçu. Ceci est particulièrement utile pour des campagnes de sollicitation téléphonique où le paiement est attendu par la poste.
+
+Envois massifs (publi-postages)
 ---------------
 
-A robust mass-mailing component which allows you to engage your
-constituents with personalized email blasts and newsletters.
+Les envois massifs permettent d'envoyer des courriels à un très grand nombre de destinataires, par exemple l'info-lettre mensuelle de votre organisation. Vous pourrez aussi personnaliser les courriels envoyés selon les destinataires (jetons pour insérer leur nom, personnaliser la formule de politesse), suivre les clics et ouvertures de courriels avec des comptes rendus détaillés, gérer les désabonnement.
 
 Adhésions
---------------
+---------
 
-A flexible membership management component which includes convenient
-online signup and renewal.
+Permet de gérer les adhésions et renouvellements pour fidéliser les adhérents plus efficacement, automatiser le paiement des renouvellements de cotisation, gérer des pages web personnalisées pour les formulaires d'adhésions et segmenter vos adhérents par catégorie ou par statut d'adhésion.
 
 Évènements
 -------------
@@ -37,23 +31,22 @@ Provides integrated online event registration and management for paid
 and free events. It allows you to quickly and easily create customized
 web pages for event registration, and then track participants.
 
+La gestion d'évènements permet à vos adhérents de s'inscrire en ligne à vos évènements (avec ou sans paiement). Vous pouvez également gérer des grilles de prix complexes et les rabais pour inscription hâtive.
+
 Rapports
 --------------
 
-Report templates that can be configured to provide information on the
-data in your CiviCRM installation. 
+CiviCRM offre plusieurs modeles de rapports que vous pouvez adapter. Les rapports peuvent ensuite être ajoutés à votre tableau de bord d'utilisateur ou être envoyés automatiquement par courriel.
 
 Campagnes
 ----------------
 
-Lets you link together events, mailings, activities, and contributions
-under one "umbrella" so that you can track the progress of all your
-efforts towards one programmatic goal or campaign.
+Les campagnes permettent de suivre l'évolution des activités, envois massifs, inscriptions et dons reliés à une même campagne. Ceci permet de mieux mesurer et analyser l'efficacité de vos efforts de sensibilisation et de mobilisation. Cette composante permet également de faire des sondages en ligne.
 
 Dossiers
 ---------
 
-Outil de gestion de dossier permettant de suivre le cheminement d'une séquence d'interactions avec des contacts. Votre équipe de gestion de dossiers peuvent voir un tableau de bord de leurs dossiers en cours et de leurs activités planifiées.
+La gestion de dossier permet de suivre le cheminement d'une séquence d'interactions avec des contacts. Votre équipe de gestion de dossiers peuvent voir un tableau de bord de leurs dossiers en cours et de leurs activités planifiées.
 
 Subventions
 -------------
