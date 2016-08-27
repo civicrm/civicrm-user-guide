@@ -1,32 +1,20 @@
 Identifying Your Needs
 ======================
 
-This chapter covers some basic strategies for identifying your
-organizational needs, and how they could be met by CiviCRM. It doesn't
-go into detail about CiviCRM functionality or how CiviCRM stores data
-(you will find that in other chapters). Instead, we encourage you to
-first take a step back and think about your organisation.
+Ce chapitre survole quelques stratégies de base pour identifier vos besoins organisationnels, et comment CiviCRM pourrait y répondre. Nous éviterons les détails techniques des fonctionnalités de CiviCRM (ces points seront traités dans les chapitres suivants). Nous vous invitons d'abord à prendre un pas en arrière et à réfléchir à votre organisation. 
 
-Building internal support for a new Constituent Relationship Management
-(CRM) solution is a complex task that, when done thoughtfully, can yield
-great rewards.
+Pour mener à terme votre projet, nous vous suggérons de bâtir une équipe de soutien pour mener à terme l'implantation de votre projet. La gestion de relations contacts est une tâche complexe qui affecte de nombreux intervenants.
 
-Some organizations are comfortable appointing a team to do this
-internally while others rely on outside consultants. Following are our
-recommendations for how best to evaluate your organization’s needs and
-build internal support.
+Certaines organisations sont à l'aise d'assigner une équipe interne, tandis que d'autres font appel à des consultants externes. Vous trouverez ci-dessous nos recommandations pour mieux évaluer les besoins et pour construire votre équipe.
 
-Goal
+Objectif
 ----
 
-To start with, take a minute to articulate the goal of adopting a CRM.
-For example:
+Pour débuter, prenez quelques minutes pour articuler l'objectif souhaité en adoptant un logiciel tel que CiviCRM. Par exemple :
 
-*Investing in our organization’s database of 12,000 constituents will
-allow our team to better focus on raising funds and awareness to fulfill
-our mission now and in the future.*
+*Investir dans notre bases de données de 12 000 constituants réduira notre surcharge administrative afin de permettre à notre équipe de mieux se concentrer sur les activités de levée de fonds et sur les projets de sensibilisation.*
 
-Evaluation
+Évaluation
 ----------
 
 Evaluate your organization's specific CRM needs by interviewing key
@@ -76,7 +64,7 @@ and shared across departments. For example:
 -   Carole / Volunteers / 3450 / volunteers / all MLK day volunteers,
     skills / mlk_volunteers_10.xls
 
-Benefits
+Bénéfices
 --------
 
 Enumerate the specific benefits of investing in a holistic CRM solution.
@@ -94,27 +82,21 @@ For example:
 -   **Constituents' self-service creation and management** of their
     contact/contribution/subscription/activity records
 
-Recommendations
+Recommandations
 ---------------
 
-In recommending your CRM solution enumerate and compare its features and
-costs to other market solutions. Share case studies of other
-organizations who use the recommended solution.
+Lorsque vous recommandez CiviCRM, énumérer et comparer ses fonctionnalités et ses coûts par rapport à d'autres solutions sur le marché. Partagez des études de cas de d'autres organisations qui recommandent les solutions que vous avez évalué.
 
-**Implementation costs -** Include a budget for implementation that
-contemplates:
+**Coûts d'implémentation** - Prévoir un budget pour l'implémentation qui prenne en compte :
 
--   discovery and project management
--   data clean up, consolidation and migration
--   system configuration
--   post implementation training and documentation
+-  les étapes de découverte et de gestion de projet
+-  nettoyage des données, consolidation et migration
+-  configuration du système
+-  formation et documentation suite à l'implémentation
 
-**Maintenance costs** - Include a budget for ongoing maintenance that
-contemplates:
+**Coûts de maintenance** - Prévoir un budget pour la maintenance continue qui prenne en compte :
 
--   pro-active server maintenance
--   incremental data backups
--   operating system and software upgrades
--   ongoing training
-
-
+-   maintenance pro-active du serveur
+-   sauvegardes de données
+-   système d'exploitation et mises à jours des logiciels
+-   formation continue
