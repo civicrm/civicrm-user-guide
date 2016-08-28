@@ -1,18 +1,9 @@
-Real World Examples
-===================
+Des exemples concrets
+=====================
 
-CiviCRM is used by all shapes and sizes of organisations that are
-located all over the world. Some have no paid employees, while others
-might have several hundred. Their needs range from very simple to fairly
-complex. In this chapter, we will have a look at real world examples of
-how organizations are using CiviCRM.
+CiviCRM est utilisé par des organisations de toutes les tailles et de toutes les formes. Certaines organisations n'ont pas d'employés, alors que d'autres peuvent en avoir des centaines. Leurs besoins peuvent varier du très simple au très complexe. Dans ce chapitre, nous regarderons quelques exemples réels d'organisations qui utilisent CiviCRM.
 
-Throughout this chapter you will see references to CiviCRM features such
-as CiviEmail, CiviMember, CiviPledge, CiviCRM Profiles and others. These
-are all components of CiviCRM and we have included references to them so
-you can become familiar with the language of CiviCRM; however, it's not
-important to understand the finer detail of these features at this
-point.
+Dans ce chapitre, vous remarquerez des références à des fonctions de CiviCRM telles que l'envoi massif de courriels, la gestion des membres, la gestion de promesses de dons, les profils et autres. Ce sont différentes composantes de CiviCRM et nous avons inclus des références pour que vous deveniez plus familiers avec la terminologie de CiviCRM. Certaines organisations utilisent une seule composante, d'autres en combinent plusieurs.
 
 * * * * *
 
