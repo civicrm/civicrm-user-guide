@@ -1,40 +1,22 @@
-Test it out
-===========
+L'essayer
+=========
 
-Demonstration sites
--------------------
+Sites de démonstration
+----------------------
 
-CiviCRM hosts several demo sites - there is at least one for each of the
-supported **Content Management Systems** (CMS) - Drupal, Joomla, and
-WordPress. The demo sites present a working copy of the latest stable
-version of CiviCRM with sample data. You can use them to play around
-with CiviCRM, but be aware that they are publicly viewable so you
-shouldn't enter personal data.
+La communauté CiviCRM héberge plusieurs sites de démonstration - il y en a un pour chaque système de gestion de contenu (SGC) supporté - Drupal, Joomla et WordPress. Ces sites de démonstration fonctionnent avec la dernière version stable de CiviCRM avec des données fictives. Vous pouvez explorer ces environnements, mais n'oubliez pas que ces sites sont accessibles à tous, donc n'y entrez pas d'informations personnelles.
 
-A list of the available demos can be found at
-[https://civicrm.org/go/demo](https://civicrm.org/go/demo).
+Une liste de sites de démonstration est disponible à l'adresse suivante :  [https://civicrm.org/demo](https://civicrm.org/demo).
 
-The demo sites may be configured strangely, missing functionality or
-appear in different languages, as other people may be experimenting with
-them at the same time as you.
+Les sites de démonstration peuvent être, par moments, étrangement configurés. D'autres personnes pourraient être en train d'explorer des fonctionnalités en même temps que vous.
 
-The demos have some limitations - you can't send emails from them, you
-can't set permissions for Drupal users or do a full exploration of
-online payment options.
+Les sites de démonstration ont quelques limitations: vous ne pourrez pas envoyer de courriels, modifier les permissions des rôles utilisateurs, ni explorer toutes les options des passerelles de paiement.
 
-If you are having trouble working on a demo site, contact the CiviCRM
-core team via the forum or IRC. If you want a more controlled
-environment for exploring CiviCRM, install your own test site.
+Si vous rencontrez des difficultés en travaillant sur un site démo, contactez l'équipe de CiviCRM par la [plateforme de clavardage](https://chat.civicrm.org) ou par courriel. Bien entendu, si vous souhaitez avoir plus de contrôle sur votre environnement de tests, vous pouvez installer CiviCRM sur votre propre environnement de développement.
 
-Test installations
+Installations de tests
 ------------------
 
-You can download and set up a local version of CiviCRM, that is a
-version that is stored on your local computer rather than on a server on
-the Internet. You'll still access it through a browser, but it will only
-be visible on your computer. The advantage of a test installation is
-that you can configure CiviCRM, and experiment with your data.
+Vous pouvez télécharger et configurer une version locale de CiviCRM, c'est à dire une instance de CiviCRM qui fonctionne sur votre propre ordinateur, plutôt que sur un serveur distant. Vous y accéderez quand même par un navigateur web, mais l'instance sera visible que sur votre ordinateur. Une installation test permet d'avoir le plein contrôle sur vos tests et d'expérimenter avec vos propres données.
 
-Up-to-date information for installations (including troubleshooting
-tips) is maintained at
-[http://wiki.civicrm.org/confluence/display/CRMDOC/Installation+and+Upgrades](http://wiki.civicrm.org/confluence/display/CRMDOC/Installation+and+Upgrades).
+Les instructions pour l'installation de CiviCRM (incluant de nombreux conseils en cas de problème) sont accessibles à [http://wiki.civicrm.org/confluence/display/CRMDOC/Installation+and+Upgrades](http://wiki.civicrm.org/confluence/display/CRMDOC/Installation+and+Upgrades) (en anglais).
