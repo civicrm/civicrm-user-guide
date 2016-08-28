@@ -1,37 +1,22 @@
 Contacts
 ========
 
-This chapter introduces contacts: the basic building block of CiviCRM.
-We look at how to find, view, add, edit and delete contacts. We also
-look at ways to extend and customise contacts, and to change the way
-that contacts appear in the user interface. 
+Les contacts sont au coeur de CiviCRM. Toutes les autres interactions gravitent autour d'eux. Ce chapitre explique comment rechercher, consulter, ajouter, modifier et supprimer des contacts. Nous regarderons aussi comment créer de nouveaux types de contacts et comment les personnaliser.
 
-Out of the box, CiviCRM comes with three contact types:
+Il y a trois types de contact dans la configuration par défaut :
 
--   **Individuals** - i.e. people
--   **Organisations** - for example companies or other non-profit
-    organisations 
--   **Households** - typically families that share a physical location
+-   **Individus** - toute personne sur qui vous voulez faire un suivi.
+-   **Organisations** - ceci pourrait être un organisme communautaire, une entreprise, un chapitre de votre organisation ou un comité.
+-   **Ménages** - une famille ou un groupe de personnes résidant à la même adresse physique.
 
-Each contact record comes with a set of **core fields**, including:
+Chaque fiche de contact contient des informations de base à leur sujet, telles que :
 
--   names (first and last name, etc. for individuals and organisation
-    name, etc. for organisations) 
--   greeting and addressee fields for different communication methods 
--   contact methods, e.g. email addresses, phone numbers, website
-    addresses, etc.
--   addresses (i.e. physical locations) 
--   communication preferences: i.e. the methods that they prefer to be
-    contacted by, and those that they do not want to be contacted by.
+- nom, surnom, salutation, titre (formalité)
+- site web, adresses courriel, numéros de téléphone
+- adresses postales
+- mode de communication préféré (incluant ceux qui ne veulent pas être contactés).
 
-You can define new **contact subtypes** based on the out of the box
-contact types.You can add custom fields that extend all contacts. You
-can also add custom fields that extend particular contact types or sub
-types.
-
-Think of contacts as the centre of your CiviCRM universe. All of the
-other building blocks of CiviCRM, like relationships, actvities, groups
-and contributions connect to contacts in some way.
+Vous pouvez également définir des sous-types de contact, tels que « étudiants », « fermes » ou « cuisines collectives ». Chaque type de contact que vous créez est basé sur un des trois aux types de base. Par exemple, les fiches d'étudiants seraient basés sur le modèle des individus, les fermes seraient basées sur les organisations ou peut-être même sur les ménages, selon vos besoins. 
 
 A quick look at contacts
 ------------------------
