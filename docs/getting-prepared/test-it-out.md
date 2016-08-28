@@ -19,4 +19,4 @@ Installations de tests
 
 Vous pouvez télécharger et configurer une version locale de CiviCRM, c'est à dire une instance de CiviCRM qui fonctionne sur votre propre ordinateur, plutôt que sur un serveur distant. Vous y accéderez quand même par un navigateur web, mais l'instance sera visible que sur votre ordinateur. Une installation test permet d'avoir le plein contrôle sur vos tests et d'expérimenter avec vos propres données.
 
-Les instructions pour l'installation de CiviCRM (incluant de nombreux conseils en cas de problème) sont accessibles à [http://wiki.civicrm.org/confluence/display/CRMDOC/Installation+and+Upgrades](http://wiki.civicrm.org/confluence/display/CRMDOC/Installation+and+Upgrades) (en anglais).
+Les instructions pour l'installation de CiviCRM (incluant de nombreux conseils en cas de problème) sont accessibles à [https://wiki.civicrm.org/confluence/display/CRMDOC/Installation+and+Upgrades](http://wiki.civicrm.org/confluence/display/CRMDOC/Installation+and+Upgrades) (en anglais).
