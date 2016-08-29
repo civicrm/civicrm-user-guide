@@ -20,31 +20,15 @@ Les extensions qui ont été validées par la communauté peuvent être install�
 Installer des extensions
 ---------------------
 
-When configured correctly, extensions can be installed directly into
-CiviCRM via the user interface. Go to **Administer > System Settings >
-Manage Extensions**. You should see a list of extensions that are
-compatible with your version of CiviCRM. Note that you may not see all
-the extensions that were listed in the extensions directory as they may
-not be compatible.
+Lorsque CiviCRM est correctement configuré, des extensions peuvent être installées directement à partir de l'interface administrative. Dirigez-vous à **Administrer > Paramètres système > Extensions**. Vous devriez y voir une liste d'extensions qui sont compatibles avec votre version de CiviCRM. À noter que vous pourriez ne pas voir toutes les extensions du répertoire sur CiviCRM.org si elles ne sont pas compatibles.
 
 ![image](../img/z-extensions-ui.png)
 
-If you do not see a list of extensions here, it may be that your system
-is not properly configured to manage extensions. You should consult your
-system administrator if this is the case. 
+Si la liste est vide, il se pourrait que votre système n'est pas correctement configuré pour gérer les extensions. Consultez votre administrateur système si c'est le cas.
 
 Développer des extensions
 --------------------
 
-Anyone is free to write an extension to enhance their CiviCRM
-installation (or commission someone to do so). Writing an extension is
-a task for a developer so a detailed discussion of how to write one is
-outside the scope of this book. If you do write an extension to cater
-for your particular use case, you may wish to consider if other
-organizations would also be able to benefit from your work and hence
-whether you should publish your extension and make it more generic.
-Publishing your extension and attracting users brings many benefits in
-the shape of feedback on how it can be improved, bug reports, and code
-contributions that may enhance your extension. 
+N'importe qui est libre de développer une extension pour améliorer leur installation de CiviCRM (ou d'embaucher une personne pour le faire). Développer une extension est une tâche pour un programmeur, ce qui sort du cadre de ce guide. Si vous décidez de développer une nouvelle extension pour vos besoins, prenez le temps de considérer si d'autres organisations pourraient également bénéficier de votre travail et donc si cela vaudrait la peine de publier votre extension dans le répertoire en ligne. Publier votre extension attirera plus d'utilisateurs et vous permettra d'avoir des commentaires qui pourraient vous aider à améliorer l'extension, son code ou ses fonctionnalités.
 
 
