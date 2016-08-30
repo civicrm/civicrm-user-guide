@@ -3,7 +3,7 @@ Activities
 
 Activities are a key concept in CiviCRM, providing a unified place to
 record and view the history of interactions between your organization
-and you constituents, clients and partners. You can you them use them
+and you constituents, clients and partners. You can use Activities
 to track meetings, phone calls and other activities that you set up.
 Activities are also used by all of CiviCRM's components to record
 things like when contributions are made, when people come to events,
