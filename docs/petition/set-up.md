@@ -50,7 +50,7 @@ for each individual who signs the petition.
 
 Afin de créer une nouvelle pétition, vous devez créer deux profils personnalisés:
 Un pour recueillir les informations du signataire (contact), et l'autre pour recueillir les réponses aux questions de la pétition.
-Les réponses de la pétition sont enregistrés 
+Les réponses de la pétition sont conservés dans un enregistrement d'activité de type "Pétition" pour chaque signataire.
 
 1.  Go to **Administer > Customize Data and Screens > Profiles** and add
     a profile with fields for the contact information you want to
@@ -68,6 +68,9 @@ Les réponses de la pétition sont enregistrés
 3.  Under **Administer > Customize Data and Screens > Profiles** add a
     profile for the petition responses. Select **Activity** from the Field
     Name drop down menu, then select from the custom fields you created.
+
+1. Aller à **Administrer > Personnaliser les données et écrans > Profils** et ajouter un profil et les champs des informations de contact que vous voulez recueillir, telle que Nom, Prénom et Courriel. Tu peux vouloir défnir certain champs comme obligatoire pour receuillir assez d'information pour communiquer plus tard avec les signataires. Note: Pour le profil contact, vous devez receuillir au moins l'adresse de courriel, parce que la fonctionnalité de pétition envoyera un courriel aux signataires pour les incités à vérifier leur adresse de courriel. Seul les addresses de courriel vérifié peuvent être compté.
+2. Aller à **Administrer > ersonnaliser les données et écran > Données personnalisées** et ajouter les champs personnalisés pour recueillir les réponses aux questions de la pétition. 
 
 
 For both profiles, you may want to select the following settings in the
