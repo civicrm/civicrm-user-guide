@@ -1,13 +1,23 @@
 Set-up
-======
+
+Configuration initiale
+======================
 
 This chapter describes the steps needed to set up a petition.
+
+Ce chapitre décrit les étapes nécéssaires pour le mise en place des pétitions.
 
 The CiviCampaign component must be enabled before you can use Petition.
 See the section *Campaign* for information about this.
 
+Le composant CiviCampaign doit être activé avant d'utiliser les pétitions.
+Pour plus de renseignements Voir la section *Campagne*.
+
+
 Set CMS permissions
-----------------------
+
+Définir les autorisations dans le CMS
+-------------------------------------
 
 You will need to set the appropriate CMS permissions so that specific roles can
 sign the petition. In particular, anonymous users should be granted permission
@@ -21,14 +31,26 @@ if you're planning to make the petition public.
     permissions for anonymous users and authenticated users ("Guest" in Joomla!
     or "Subscriber" in WordPress).
 
+Vous devez défnir les autorisations approprié dans le CMS afin que les rôles spécifiques peuvent signer la pétition.
+En particulier, vous devrez accordé des autorisation aux utilisateurs anonymes, if vous planifiez de faire une pétition publique.
+
+1. Aller dans la page pour le contrôle des accès de votre CMS, laquelle est lié à partir de **Administrer > Utilisateurs et permissions > Permissions (contrôle d'accès)**.
+2. Accorder les autorisations suivantes **Sign CiviCRM Petition**, **Profile Create** and **Access all Custom Data** aux rôles requis. Par exemple, si c'est une pétition publique, vous devez accordés ces autorisations aux utilisateurs anonymes et authentifiés.
+
 Create two Custom Profiles
---------------------------
+
+Créer deux profils personnalisés
+--------------------------------
 
 In order to create a new petition, you must create two custom profiles:
 one to capture the contact information of the signer, and the other to
 capture the responses to the petition questions. The responses to the
 petition questions are recorded in the activity record of type Petition
 for each individual who signs the petition.
+
+Afin de créer une nouvelle pétition, vous devez créer deux profils personnalisés:
+Un pour recueillir les informations du signataire (contact), et l'autre pour recueillir les réponses aux questions de la pétition.
+Les réponses de la pétition sont enregistrés 
 
 1.  Go to **Administer > Customize Data and Screens > Profiles** and add
     a profile with fields for the contact information you want to
