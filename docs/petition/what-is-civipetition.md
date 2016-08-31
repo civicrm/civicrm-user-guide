@@ -13,11 +13,11 @@ Scénario: Pétition au conseil municipal
 ---------------------------------------
 
 L'association de locataires de Townsville (ALT) veut démontrer le mécontentement ou la satisfaction de la population sur le travail accompli par le conseil municipal pour fourni des logements publics sécuritaires à la communauté.
-Pour ce faire, une pétition a été créée pour recueillir des réponses aux questions et en même temps pour recueillir des signatures .
+Pour ce faire, une pétition a été créée pour recueillir des réponses aux questions et en même temps pour recueillir des signatures.
 Les résultats ont été présentés au conseil municipal.
 
-Un membre du ALT a utilisé CiviCampaign pour créer la pétition qui a été ensuite envoyée par courriel à tous leurs contacts existants.
-Elle rend disponible la pétition sur le site Web de l'association afin que la communauté puisse y répondre en ligne, et travail avec le directeur des communications sur diverses stratégies de communication pour motiver les personnes à remplir la pétition sur le site Web.
+Un employé de l'ALT a utilisé CiviCampaign pour créer la pétition qui a été ensuite envoyée par courriel à tous leurs contacts existants.
+Elle rend disponible la pétition sur le site Web de l'association afin que la communauté puisse y répondre en ligne, et travail avec le directeur des communications sur diverses stratégies de communication pour inciter les personnes à remplir la pétition sur le site Web.
 
 La pétition permet aussi aux répondants de choisir s'ils veulent recevoir par courriel les dernières mises à jour sur les progrès de la campagne tout au long l'année.
 
