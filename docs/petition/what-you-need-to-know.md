@@ -6,11 +6,6 @@ Il est important de comprendre les concepts suivants avant de créer et utiliser
 Notions essentielles
 --------------------
 
-Petitions are a function within the CiviCampaign component of CiviCRM.
-When an individual responds to a petition, an activity record of the
-type Petition is created that contains the individual's responses to the
-petition questions.
-
 La pétition est une fonction du composant CiviCampaign de CiviCRM.
 Lorsqu'une personne répond à une pétition, un enregistrement d'activité de type "Pétition" est créé. Il contient les réponses de la personne aux questions de la pétition.
 
