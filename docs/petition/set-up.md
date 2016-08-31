@@ -70,7 +70,11 @@ Les réponses de la pétition sont conservés dans un enregistrement d'activité
     Name drop down menu, then select from the custom fields you created.
 
 1. Aller à **Administrer > Personnaliser les données et écrans > Profils** et ajouter un profil et les champs des informations de contact que vous voulez recueillir, telle que Nom, Prénom et Courriel. Tu peux vouloir défnir certain champs comme obligatoire pour receuillir assez d'information pour communiquer plus tard avec les signataires. Note: Pour le profil contact, vous devez receuillir au moins l'adresse de courriel, parce que la fonctionnalité de pétition envoyera un courriel aux signataires pour les incités à vérifier leur adresse de courriel. Seul les addresses de courriel vérifié peuvent être compté.
-2. Aller à **Administrer > ersonnaliser les données et écran > Données personnalisées** et ajouter les champs personnalisés pour recueillir les réponses aux questions de la pétition. 
+2. Aller à **Administrer > Personnaliser les données et écran > Données personnalisées** et ajouter un ensemble de champs personnalisés pour recueillir les réponses aux questions de la pétition. À partir du menu déroulant **Utilisé pour**, selectionnez **Activités**. Comme type d'activité, sélectionnez **Pétition Signature**.
+3.  Under **Administer > Customize Data and Screens > Profiles** add a
+    profile for the petition responses. Select **Activity** from the Field
+    Name drop down menu, then select from the custom fields you created.
+
 
 
 For both profiles, you may want to select the following settings in the
@@ -83,6 +87,11 @@ For both profiles, you may want to select the following settings in the
     button for **Allow Duplicate Contact to be Created** if you don't
     want anonymous users to update an existing contact record's
     information; you will then need to periodically dedupe records.
+
+Pour les deux profils, vous pouvez sélectionner les paramètres suivants dans la section **Advanced Setting**:
+
+- Pour **Option d'enregistrement du compte d'utilisateur Drupal ?**, sélectionez le bouton radio **Pas d'option de création de compte**, si vous ne voulez pas que compte Drupal soit créer pour les signataires.
+- Pour **Que faire en cas de correspondance des doublons**, vous pouvez sélectionner le bouton radio **Permettre la création de contacts en doublons**, si vous ne voulez pas que les utilisateurs anonymes écrase les informations des contacts existants; Vous devrez dédoubler périodiquement les enregistrements.
 
 To learn more about how to create custom field sets, see the chapter
 *Creating Custom Fields* in the *Organising Your Data* section. To learn about how to
