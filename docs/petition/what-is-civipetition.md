@@ -22,4 +22,4 @@ Elle rend disponible la pétition sur le site Web de l'association afin que la c
 La pétition permet aussi aux répondants de choisir s'ils veulent recevoir par courriel les dernières mises à jour sur les progrès de la campagne tout au long l'année.
 
 Après la campagne de pétition, les membres du personnel ont compilé les réponses et les signatures électroniques, ont créé des rapports pour analyser les résultats et puis l'association a communiqué les résultats au conseil municipal.
-Les résultats de la pétition ont également été utilisés pour orienter le message de l'ALT et présenter leur récit pour susciter l'intérêt pour la campagne.
+Les résultats de la pétition ont également été utilisés pour formuler le message de l'ALT et présenter leur récit pour susciter l'intérêt pour la campagne.
