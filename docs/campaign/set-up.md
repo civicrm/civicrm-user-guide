@@ -1,12 +1,14 @@
-Set-up
-======
+Configuration initiale
+======================
 
 This chapter will help you to set up CiviCampaign so that you can track
 related activities such as contributions, surveys, and mailings that are
 part of a particular campaign or project. 
 
-Enable CiviCampaign 
----------------------
+Ce chapitre vous aidera pour la configuration initiale de CiviCampaign afin que vous puissiez suivre les activités concernant les contributions, les sondages, les publipostages qui font partie d'une campagne ou d'un projet particulier.
+
+Activer CiviCampaign 
+--------------------
 
 First, you need to enable the CiviCampaign component.
 
@@ -17,17 +19,31 @@ First, you need to enable the CiviCampaign component.
 Once CiviCampaign is enabled, it will show up as the new menu item
 **Campaigns** located along the top of your CiviCRM screen.
 
+Premièrement, vous devez activer le composant CiviCampaign.
+
+1. Aller **Administrer > Paramètes système > Composants**.
+2. Sélectionner **CiviCampaign** et cliquer **Activer** et puis **Enregistrer**.
+
 Add a new campaign type
------------------------
+Ajouter un nouveau type de campagne
+-----------------------------------
 
 CiviCampaign provides three default campaign types:
 
 -   Direct Mail
 -   Referral Program
 -   Constituent Engagement
+   
+CiviCampaign fournit par défaut trois type de campagne:
+
+- Publipostage
+- Programme de parrainage
+- Constituent Engagement
 
 You can add any campaign type that is appropriate for your work (and
 disable those that aren't).
+
+Vous pouvez ajouter tout type de campagne qui est approprié pour votre travail (et désactiver ceux qui ne sont pas).
 
 To add a new campaign type:
 
@@ -41,6 +57,14 @@ To add a new campaign type:
     which this new event type appears in drop-down menus (smallest
     numbers appear highest).
 5.  Click **Save**.
+  
+
+1. Aller à **Administrer > Campagnes > Type de campagnes**.
+2. Cela permet d'afficher une liste des types de campagnes existantes:
+ 
+    ![image](../img/campaign_configuration_typeoptions_1.png)
+3. Cliquer sur **Ajout un type de campagne", et donner lui une étiquette et une description (facultatif).
+4. 
 
 The next time you add a new campaign, this campaign type will be
 available to assign to your new campaign.
