@@ -63,19 +63,25 @@ To add a new campaign type:
 2. Cela permet d'afficher une liste des types de campagnes existantes:
  
     ![image](../img/campaign_configuration_typeoptions_1.png)
-3. Cliquer sur **Ajout un type de campagne", et donner lui une étiquette et une description (facultatif).
-4. 
+3. Cliquer sur **Ajout un type de campagne**, et donner lui une étiquette et une description (facultatif).
+4. Facultativement, changer  l'ordre par défaut: cela affecte l'ordre dans lequel le nouveau type apparaîtra dans le menu déroulant (plus petits numéros apparaissent plus haut).
+5. Cliquer **Enregister**.
 
 The next time you add a new campaign, this campaign type will be
 available to assign to your new campaign.
 
-Campaign status
----------------
+La prochaine fois que vous ajouter une nouvelle campagne, ce type de campagne sera disponible.
+
+État de la campagne
+-------------------
 
 Assigning a status to your campaign makes it possible to update campaign
 activities in the database and track how the campaign is proceeding.
 
-1.  Go to **Administer > CiviCampaign > Campaign Status**. 
+L'attribution de état à votre campagne permet de mettre à jour les activités de la campagne
+activités dans la base de données et de suivre le déroulement de la campagne.
+
+1.  Go to **Administrer > Campagnes > Statuts des campagnes**. 
     The default statuses are Planned, In Progress, Completed, and
     Cancelled.
 2.  Click **Add Campaign Status**, give it a name and, optionally, a
@@ -86,6 +92,13 @@ activities in the database and track how the campaign is proceeding.
     to campaigns.
 
 ![image](../img/campaign_configuration_statuses.png)
+
+
+1. Aller **Administrer > Campagnes > Statuts des campagnes*.
+    - Les états par défaut sont Planifier, En cours, Compléter, et Annuler.
+2. Cliquer **Ajout un état de campagne**, donner lui un libellé et et une description (facultatif).
+3. Facultativement, changer l'ordre par défaut: cela affecte l'ordre dans lequel le nouvel état apparaîtra dans le menu déroulant (plus petits numéros apparaissent plus haut).
+4. Cliquer **Enregister** et le nouvel état sera disponible.
 
 Engagement index 
 ----------------
