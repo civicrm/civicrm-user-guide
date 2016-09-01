@@ -11,7 +11,7 @@ CiviCampaign vous permet de:
 - collecter les réponses des sondages et pétitions
 - relie les activités telles que les dons de charités, les publipostages et les événements à une campagne précise
 - track who has voted using Get Out The Vote (GOTV)
-- collecter le niveau d'intérêt et l'engagement de chacun des membres dans une activité donnée.
+- collecter le niveau d'intérêt et l'engagement de chacun des membres dans une activité donnée
 
 CiviCampaign est intégré avec les autres composants de CiviCRM de sorte que vous pouvez sélectionner les activités qui font partie intégrante d'une campagne ou d'un objectif.
 
@@ -29,11 +29,11 @@ L'organisateur en chef créé une campagne intitulé "Mobilisation de masse 2011
 
 Utilisant CiviCampaign, les organisateurs:
 
-- crée une campagne pour chapeauter toutes les activités concernées, incluant la durée de la campagne et l'objectif de revenu
+- crée une campagne pour chapeauter toutes les activités concernées, incluant la durée de la campagne et l'objectif de financement
 - crée un groupe constitué de personnes ciblées pour participer aux activités de la campagne
 - appelle leurs membres les plus actifs pour aider à organiser d'autres activités dans leurs quartiers pour participer, et enregistrer les activités d'appel téléphonique dans le dossier de la personne en indiquant la campagne et la réaction du membre
-- fais un envoi massif  pour la lever de fonds de la campagne, les informations sur la contribution des personnes ont été conservées.
-- crée un événement pour retracer qui sera présent à la mobilisation en indiquant la campagne lors de la création de l'événement.
+- fais un envoi massif  pour la lever de fonds de la campagne, les informations sur la contribution des personnes ont été conservées
+- crée un événement pour retracer qui sera présent à la mobilisation en indiquant la campagne lors de la création de l'événement
 
 Périodiquement pendant toute la campagne, le directeur de programme recherche tous les activités liées à la campagne, et les personnes qui ont été liés aux activités de la campagne, pour surveiller l'efficacité de leurs efforts de sensibilisation et de collecte de fonds, et si nécessaire d'ajuster les stratégies.
 
