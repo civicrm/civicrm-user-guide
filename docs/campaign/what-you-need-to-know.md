@@ -74,12 +74,24 @@ campaign:
 -   What kind of reports will be useful for monitoring progress and
     evaluating the campaign at its conclusion?
 
-CiviEngage and CiviCampaign
+Répondez à ces questions dans le contexte de votre organisation ou d'une campagne particulière:
+
+- Quels sont vos groupes cibles, et la manière de les atteindre?
+- Rappelez-vous que le public pour vos activités de campagne peut ne pas être le même que celui que vous essayez d'atteindre avec la présente campagne.
+- Une bonne compréhension de votre groupe cible vous aidera à choisir les stratégies et activités de communication les plus appropriées pour accomplir les objectif(s) de votre campagne.
+- Quelles sont les activités et stratégies, tel que les événements et publipostages seront associés à cette campagne?
+- Comment collectez-vous les données au cours de la campagne (par exemple: sondages, pétitions, inscription aux événements) et qui sera responsable de les entrer dans CiviCRM?
+- Quels types de rapports seront utiles pour faire le suivi des progrès et l'évaluation de la campagne à sa conclusion?
+
+CiviEngage et CiviCampaign
 ---------------------------
 
 CiviEngage is a Drupal only feature that enhances CiviCampaign with more
 functionality for surveys and pre-configures your installation of
 CiviCRM with custom data sets, profiles and enhancements to reports. See
 the section Civic Engagement for more details about CiviEngage.
+
+Le composant CiviEngage disponible seulement pour Drupal améliore CiviCampaign avec plus de fonctionnalité pour les sondages et pré-configure votre installion de CiviCRM avec des ensembles de champs personnalisés, des profiles et des améliorations aux rapports.
+Voir la section **Civic Engagement** pour plus de détail sur CiviEngage.
 
 
