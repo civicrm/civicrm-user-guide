@@ -9,9 +9,9 @@ Notions essentielles
 Votre organisation aura probablement ses propres stratégies et méthodes de campagne. 
 CiviCampaign est un outil que vous pouvez utiliser en conjonction avec vos méthodes existantes, afin de rationaliser et d'automatiser certains processus.
 
-### Objectifs de campagne et Revenus
+### Objectifs de campagne et Collecte de fonds
 
-Définissez et documentez les objectifs concrets de la campagne, et ce que vous espérez pour la lever de fonds (le cas échéant), et conservez-les dans les informations de campagne.
+Définissez et documentez les objectifs concrets de la campagne, et ce que vous espérez pour collecte de fonds (le cas échéant), et conservez-les dans les informations de campagne.
 Cela vous permettra d'utiliser les rapports pour analyser l'efficacité de la campagne à sa conclusion.
 
 ### Planification vos activités de campagne
