@@ -36,7 +36,7 @@ Pour ajouter un nouveau type de campagne:
    - La liste des types de campagnes existantes est affichée.
  
     ![image](../img/campaign_configuration_typeoptions_1.png)
-3. Cliquer sur **Ajouter Campaign Type**;
+3. Cliquez sur **Ajouter Campaign Type**;
    - Donnez un libellé et une description (facultative).
 4. Cliquez **Enregister**.
 
