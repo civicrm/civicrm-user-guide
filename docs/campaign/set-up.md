@@ -20,17 +20,17 @@ CiviCampaign fournit par défaut trois types de campagne:
 
 - Publipostage
 - Programme de parrainage
-- Constituent Engagement
+- Engagement citoyen
 
 Vous pouvez ajouter tout type de campagne qui est approprié pour votre travail (et désactiver ceux qui ne sont pas).
 
 Pour ajouter un nouveau type de campagne:
 
-1. Aller à **Administrer > Campagnes > Type de campagnes**.
+1. Aller à **Administrer > Campagnes > Types de campagne**.
 2. Cela permet d'afficher une liste des types de campagnes existantes:
  
     ![image](../img/campaign_configuration_typeoptions_1.png)
-3. Cliquer sur **Ajout un type de campagne**, et donner lui une étiquette et une description (facultatif).
+3. Cliquer sur **Ajouter type de campagne**, et donner lui une étiquette et une description (facultatif).
 4. Facultativement, changer l'ordre par défaut: cela affecte l'ordre dans lequel le nouveau type apparaîtra dans le menu déroulant (plus petits numéros apparaissent plus haut).
 5. Cliquer **Enregister**.
 
