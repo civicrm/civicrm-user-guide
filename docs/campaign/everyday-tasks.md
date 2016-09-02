@@ -13,14 +13,9 @@ Pour voir le tableau de bord des campagnes, dans le menu, sélectionnez **Campag
 
 ![Campaign Dashboard](../img/campaign_everyday_dashboard.png)
 
-From the Campaign Dashboard, you can then Edit, Disable and Delete
-existing campaigns, and create new campaigns.
-If you have a large number of campaigns you can open the campaign search
-accordion to set filters to display only the campaigns you want to see a
-t that time.  
+À partir du tableau de bord des campagnes, vous pouvez éditer, déactiver et détruire les campagnes existantes, et en créez de nouvelles. 
 
-À partir du tableau de bord des campagnes, vous pouvez éditer, déactiver et détuire les campagnes existantes, et create de nouvelle campagne.
-Si vous avez un grand nombre de campagnes, vous pouvez déplier la recherche de campagne pour afficher seulement les campagnes que vous désirez voir.
+Si vous avez un grand nombre de campagnes, vous pouvez déplier la zone "Rechercher des campagnes" pour afficher seulement les campagnes que vous désirez voir.
 
 ![Campaign Search Criteria](../img/civicampaign-dashboard-search-criteria.png)
 
