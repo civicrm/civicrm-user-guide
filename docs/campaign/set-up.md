@@ -1,14 +1,14 @@
 Configuration initiale
 ======================
 
-Ce chapitre vous aidera pour la configuration initiale de CiviCampaign afin que vous puissiez suivre les activités concernant les contributions, les sondages, les publipostages qui font partie d'une campagne ou d'un projet particulier.
+Ce chapitre vous aidera pour la configuration initiale de CiviCampaign afin que vous puissiez suivre les activités concernant les contributions, les sondages, les envois massifs qui font partie d'une campagne ou d'un projet particulier.
 
 Activer CiviCampaign 
 --------------------
 
 Premièrement, vous devez activer le composant CiviCampaign.
 
-1. Aller **Administrer > Paramètes système > Composants**.
+1. Aller **Administrer > Paramètres système > Composants**.
 2. Sélectionner **CiviCampaign** et cliquer **Activer** et puis **Enregistrer**.
 
 Lorsque CiviCampaign est activer, l'élément de menu Campagne apparaît dans le haut de votre écran CiviCRM.
