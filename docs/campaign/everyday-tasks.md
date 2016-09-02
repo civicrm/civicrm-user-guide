@@ -1,19 +1,26 @@
-Everyday tasks
-==============
+Tâches quotidiennes
+===================
 
 This chapter describes everyday tasks related to managing campaigns with
 CiviCampaign.
 
-Managing Campaigns
-------------------
+Ce chapitre décrit les tâches quotidiennes concernent la gestion des campagnes avec CiviCampaign. 
+
+Gestion des campagnes
+---------------------
 
 The Campaign Dashboard allows you to create, configure, manage and view
 your campaigns. You can also manage surveys and petitions via the
 Campaign Dashboard (refer to the following chapters on *Surveys* and
 *Petitions* for specific information).
 
+Le tableau de bord des campagnes vous permet de créer, configurer, gérer et voir vos campagnes.
+Vous pouvez aussi gérer les sondages et les pétitions via le tableau de bord (Pour plus emple information, référez-vous aux chaptitres sur les *Sondages* et *Pétitions*).
+
 To view the Campaign Dashboard, go to **Campaigns > Dashboard >
 Campaigns.**
+
+Pour voir le tableau de bord des campagnes, aller à **Campagne > Tableau de bord > Campagnes**.
 
 ![Campaign Dashboard](../img/campaign_everyday_dashboard.png)
 
@@ -23,15 +30,38 @@ If you have a large number of campaigns you can open the campaign search
 accordion to set filters to display only the campaigns you want to see a
 t that time.  
 
+À partir du tableau de bord des campagnes, vous pouvez éditer, déactiver et détuire les campagnes existantes, et create de nouvelle campagne.
+Si vous avez un grand nombre de campagnes, vous pouvez déplier la recherche de campagne pour afficher seulement les campagnes que vous désirez voir.
+
 ![Campaign Search Criteria](../img/civicampaign-dashboard-search-criteria.png)
 
 Create a New Campaign
----------------------
+Créer une nouvelle campagne
+---------------------------
 
-To create a Campaign:
+Pour créer une campagne:
+
+1. Aller à ** Campagne > Nouvelle campagne
+
+![image](../img/campaign_everyday_newcampaign.png)
+
+2. Entrez les informations sur la campagne:
+    - **Titre** (requis): Entrez un nom unique qui décrit votre campagne. Il est utile d'établir une convention sur le nom pour les nouvelles campagnes de sort qu'elle soient automatiquement en ordre alphabétique dans la liste déroulante et quelles soient facile à trouver lors de l'association d'une activité à la campagne.
+    - **Type de campagne** (requis): Sélection le type campagne.
+    - **Description**: Entrez un texte qui décrit la campagne.
+    - **Include group(s)**: s'il y a lieu, sélectionner le group de personnes ciblés pour cette campagne.
+    - **Start Date & Time** (requis): Entrer le début et la fin de la campagne.
+    - **Campaign Status**: Sélectonner l'état de la campagne.
+    - **Campaign Goals**: Entrer un texte qui décrit les objectifs de votre campagne. Vous pouvez également décrire les activités que vous prévoyez mener pour atteindre ces objectifs.
+    - **Revenue Goals**: s'il y a lieu, entrer le montant que vous prévoyez lever au cours de votre campagne.
+    - **External ID**: Si tu veux suivre l'identifiant de la campagne lors qu'elle existait dans une autre base de données, vous pouvez entrer l'identifant de l'ancien campagne.
+    - **Is Active?**: Cocher la case is la campagne est active.
+
+Cliquer **Enregister**, pour enregister la campagne.
+
 
 1.   Go to **Campaign > New Campaign**
-![image](../img/campaign_everyday_newcampaign.png)
+
 
 2.  Enter information about your campaign:
     -   **Title** (required): enter a unique name that describes your
