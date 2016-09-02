@@ -54,6 +54,7 @@ Indice de l'engagement
 
 CiviCampaign vous permet de suivre le niveau d'intéré ou d'engagement de chaque personne dans une activité particulière.
 L'indice de l'engagement peut être enregistré pour les activités générales ou les actions, par exemple: Envoie d'un courriel, Rencontre, Appel téléphonique, Entretien, et toute mesure supplémentaire.
+
 Pour en savoir davantage sur le manière d'enregistrer une activité pour un personne, voir Contacts dans la section Organising Your Data.
 
 Pour configurer l'indice d'engagement:
