@@ -11,7 +11,7 @@ Premièrement, vous devez activer le composant CiviCampaign.
 1. Dans le menu, sélectionnez **Administrer > Paramètres système > Composants**.
 2. Sélectionnez **CiviCampaign** et cliquez **Activer** et puis **Enregistrer**.
 
-Lorsque CiviCampaign est activer, l'élément de menu Campagne apparaît dans le haut de votre écran CiviCRM.
+Lorsque CiviCampaign est activer, l'élément de menu *Campagnes* apparaît dans le haut de votre écran CiviCRM.
 
 Note:
 
@@ -33,15 +33,13 @@ Vous pouvez ajouter tout type de campagne qui est approprié pour votre travail 
 
 Pour ajouter un nouveau type de campagne:
 
-1. Aller à **Administrer > Campagnes > Types de campagne**.
-2. Cela permet d'afficher une liste des types de campagnes existantes:
+1. Dans le menu, sélectionnez **Administrer > Campagnes > Types de campagne**.
+   - La liste des types de campagnes existantes est affichée.
  
     ![image](../img/campaign_configuration_typeoptions_1.png)
-3. Cliquer sur **Ajouter type de campagne**, et donner lui une étiquette et une description (facultatif).
-4. Facultativement, changer l'ordre par défaut: cela affecte l'ordre dans lequel le nouveau type apparaîtra dans le menu déroulant (plus petits numéros apparaissent plus haut).
-5. Cliquer **Enregister**.
-
-La prochaine fois que vous ajouter une nouvelle campagne, ce type de campagne sera disponible.
+3. Cliquer sur **Ajouter Campaign Type**
+   - Donnez un libellé et une description (facultative).
+4. Cliquez **Enregister**.
 
 État de la campagne
 -------------------
