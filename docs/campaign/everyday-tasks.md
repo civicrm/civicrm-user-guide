@@ -1,26 +1,15 @@
 Tâches quotidiennes
 ===================
 
-This chapter describes everyday tasks related to managing campaigns with
-CiviCampaign.
-
-Ce chapitre décrit les tâches quotidiennes concernent la gestion des campagnes avec CiviCampaign. 
+Ce chapitre décrit les tâches quotidiennes concernant la gestion des campagnes avec CiviCampaign. 
 
 Gestion des campagnes
 ---------------------
 
-The Campaign Dashboard allows you to create, configure, manage and view
-your campaigns. You can also manage surveys and petitions via the
-Campaign Dashboard (refer to the following chapters on *Surveys* and
-*Petitions* for specific information).
-
 Le tableau de bord des campagnes vous permet de créer, configurer, gérer et voir vos campagnes.
-Vous pouvez aussi gérer les sondages et les pétitions via le tableau de bord (Pour plus emple information, référez-vous aux chaptitres sur les *Sondages* et *Pétitions*).
+Vous pouvez aussi gérer les sondages et les pétitions via le tableau de bord (pour plus amples informations, référez-vous aux chapitres sur les *Sondages* et *Pétitions*).
 
-To view the Campaign Dashboard, go to **Campaigns > Dashboard >
-Campaigns.**
-
-Pour voir le tableau de bord des campagnes, aller à **Campagne > Tableau de bord > Campagnes**.
+Pour voir le tableau de bord des campagnes, dans le menu, sélectionnez **Campagnes > Tableau de bord > Campagnes**.
 
 ![Campaign Dashboard](../img/campaign_everyday_dashboard.png)
 
