@@ -8,10 +8,17 @@ Activer CiviCampaign
 
 Premièrement, vous devez activer le composant CiviCampaign.
 
-1. Aller **Administrer > Paramètres système > Composants**.
-2. Sélectionner **CiviCampaign** et cliquer **Activer** et puis **Enregistrer**.
+1. Dans le menu, sélectionnez **Administrer > Paramètres système > Composants**.
+2. Sélectionnez **CiviCampaign** et cliquez **Activer** et puis **Enregistrer**.
 
 Lorsque CiviCampaign est activer, l'élément de menu Campagne apparaît dans le haut de votre écran CiviCRM.
+
+Note:
+
+> Des droits devront être accordés aux rôles qui utiliseront  les  fonctionnalités de CiviCampaign.
+
+> Dans le menu, sélectionnez **Administrer > Utilisateurs et permissions > Permissions (contrôle d'accès)**.
+
 
 Ajouter un nouveau type de campagne
 -----------------------------------
