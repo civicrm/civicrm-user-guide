@@ -67,8 +67,9 @@ To create the letter:
 2.  Enter your search criteria and click Search (not applicable if using
     a Group).
 3.  Select the contacts who will receive the letter.
-4.  From the Actions dropdown menu, choose "Print PDF Letter for
-    Contacts" and click Go.
+4.  From the Actions dropdown menu, choose "Print/merge document."
+    (In earlier versions of CiviCRM, this Action was called "Print PDF
+    Letter for Contacts.")
 5.  Review the selections under Page Format and make any desired
     adjustments. This is where you set your paper size, margins, and
     page orientation. 
