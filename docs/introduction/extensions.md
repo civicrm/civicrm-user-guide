@@ -41,7 +41,7 @@ Installing extensions
 
 When configured correctly, extensions can be installed directly into
 CiviCRM via the user interface. Go to **Administer > System Settings >
-Manage Extensions**. You should see a list of extensions that are
+Extensions**. You should see a list of extensions that are
 compatible with your version of CiviCRM. Note that you may not see all
 the extensions that were listed in the extensions directory as they may
 not be compatible.
