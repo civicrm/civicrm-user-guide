@@ -186,11 +186,11 @@ their friends, and possibly forward the information. With CiviEvent, you
 can check who has registered and approve only the people invited.
 
 If you'd like to enable the 'Participant approval' feature, you must
-first enable the related participant statuses Awaiting approval and
-pending from approval. This is similar to what you do for waiting lists
+first enable the related participant statuses **Awaiting approval**,
+**Pending from approval** and **Rejected**. This is similar to what you do for waiting lists
 and you can do it in **Administer > CiviEvent > Participant
-statuses**. You can then check the **Require participant
-approval** checkbox on the **Online registration **tab, and set the
+Statuses**. You can then check the **Require participant
+approval?** checkbox on the **Online Registration** tab, and set the
 message you want displayed in the approval message. You can also limit
 the amount of time participants have to complete their registration
 after approval by entering the time in hours in the Pending participant
