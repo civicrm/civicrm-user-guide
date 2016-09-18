@@ -16,41 +16,20 @@ L'adoption d'un logiciel comme CiviCRM aura un impact significatif sur le foncti
 L'équipe de gestion de projet
 ---------------------------
 
-Including a wide range of people that represent the different parts of
-your organisation will help with delivery of your project. A mixture of
-management and day-to-day staff helps the team to keep an eye on the big
-picture as well as ensure that the project is ultimately useful to
-front-line staff.
+Une équipe diverse pouvant représenter les différents département de votre organisation aidera à mener à terme votre projet avec succès. Entourez-vous aussi d'un mélange de membres de votre organisation ayant une expérience dans la gestion de l'organisme, mais aussi de personnes impliquées dans le travail au quotidien. Ceci assurera de ne pas perdre la vue d'ensemble, tout en s'assurant que le projet sera utile aux employés de première ligne.
 
-You'll be exploring new territory with your CiviCRM installation and
-this can sometimes be stressful. It might be helpful to share this
-project's management with others who can give you a different
-perspective and moral support when you need it!
+Vous serez parfois en terrain inconnu et ceci peut à l'occasion être une source de stress. Votre équipe peut vous offrir un soutien moral et une différente perspective lorsque vous en avez besoin.
 
-Managing a CiviCRM project will require a major time investment from
-people within your organisation, even if you employ an external
-consultant. Organisations often underestimate the amount of time that
-will be required from their staff in implementing an IT project - such
-as training, modifying existing processes and providing new or updated
-information to relevant people. It's not something that can be tacked on
-to the end of an already busy schedule and this should be taken into
-consideration.
+La gestion d'un projet basé sur CiviCRM nécessitera un investissement significatif de temps de la part des membres de votre organisation, même si vous faites appel à un consultant externe. Les organisations ont souvent tendance à sous-estimer le temps nécessaire  pour l'implémentation de projets informatiques, c'est à dire le temps nécessaire à la formation, le changement de processus existants et pour fournir la documentation nécessaire aux bonnes personnes. Ce n'est pas quelque chose qui peut se faire à la fin d'un horaire déjà surchargé.
 
-Goals
+Objectifs
 -----
 
-You should have a good idea of the goals for implementing CiviCRM. This
-could be something like: reduce administrative work in managing events
-by 25% or increase donations by 25% with the same staff. The goals
-should be SMART (specific, measurable, attainable, relevant, timely)!
+Vous devriez avoir une bonne idée des objectifs souhaités par l'adoption de CiviCRM. Ceci peut être, par exemple, de réduire de 25% le travail administratif lors de la gestion d'événements ou d'augmenter le volume de dons de 25% avec le même nombre d'employés. Ces objectifs devraient être spécifiques, mesurables, atteignables, pertinents et temporellement définis (indicateurs « SMART »).
 
-These business goals will help you in directing and managing your
-project. For example, if the project group wants some customization that
-requires budget and effort, your business goals will help you decide one
-way or the other. The business goals will help you to focus on why you
-are implementing CiviCRM and what you want to achieve in the long run.
+Ces objectifs d'affaires vous aideront à diriger et gérer votre projet. Par exemple, si l'équipe de gestion de projet désire implémenter certaines personnalisations qui nécessiteront d'allouer un bdget, vos objectifs d'affaires vous aideront à garder le cap sur les raisons pourquoi vous avez choisi d'implémenter CiviCRM et sur ce que vous voulez faire à long terme.
 
-Development
+Développement
 -----------
 
 It often makes sense to break development up into smaller more
