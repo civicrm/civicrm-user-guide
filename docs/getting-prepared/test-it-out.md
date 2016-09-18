@@ -6,7 +6,7 @@ Sites de démonstration
 
 La communauté CiviCRM héberge plusieurs sites de démonstration - il y en a un pour chaque système de gestion de contenu (SGC) supporté - Drupal, Joomla et WordPress. Ces sites de démonstration fonctionnent avec la dernière version stable de CiviCRM avec des données fictives. Vous pouvez explorer ces environnements, mais n'oubliez pas que ces sites sont accessibles à tous, donc n'y entrez pas d'informations personnelles.
 
-Une liste de sites de démonstration est disponible à l'adresse suivante :  [https://civicrm.org/demo](https://civicrm.org/demo).
+Une liste de sites de démonstration est disponible à l'adresse suivante :  [https://civicrm.org/demo](https://civicrm.org/demo). Un site démo en français est également disponible à partir de : [https://www.civicrmfr.org](https://www.civicrmfr.org).
 
 Les sites de démonstration peuvent être, par moments, étrangement configurés. D'autres personnes pourraient être en train d'explorer des fonctionnalités en même temps que vous.
 
