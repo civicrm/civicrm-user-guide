@@ -1,36 +1,19 @@
-Transitioning to CiviCRM
+Faire la transition à CiviCRM
 ========================
 
-This chapter outlines the parts that typically make up a CiviCRM project
-and should be read by people about to embark on such a project. Some of
-this information may be obvious to experienced project managers. A
-comprehensive guide to project management is beyond the scope of one
-chapter but we have outlined things that are typically encountered in a
-CiviCRM project and provided pointers on some things to watch out for.
+Ce chapitre survole les principaux enjeux que l'on peut rencontrer dans un projet CiviCRM typique.
 
-First, some pop philosophy courtesy of Cynthia Tarasco:
+L'adoption d'un logiciel comme CiviCRM aura un impact significatif sur le fonctionnement de votre organisation. Lors du démarrage de votre projet, n'oubliez pas de bien prendre le temps d'explorer les sujets suivants : 
 
-"Life is a series of making decisions. Some decisions are easy because
-they do not require a substantial investment of time or money. Deciding
-which flavor ice cream to buy fits into this category: if you get
-vanilla today you can always get chocolate tomorrow. Other decisions are
-much more difficult because they require substantial investments of
-resources, and you will be living with your choice for the foreseeable
-future. Adopting a new CRM fits into this category, so planning and
-project management are vital."
+-   les personnes qui seront impliquées dnas le projet
+-   les objectifs d'affaires du projet et comment CiviCRM répondra à ces objectifs
+-   de quelle façon vous amorcerez le développement
+-   quel type de soutien en continu vous aurez besoin
+-   les coûts associés à l'hébergement web et à votre infrastructures informatique
+-   la formation et la documentation
+-   la gestion du changement
 
-When you start out on a new CiviCRM project you should spend time
-thinking about:
-
--   the people who will be involved in the project
--   what the business goals of using CiviCRM are
--   how you will approach the initial development
--   what ongoing support you will need
--   the costs associated with hosting and your IT infrastructure
--   training and documentation
--   change management
-
-People and the project team
+L'équipe de gestion de projet
 ---------------------------
 
 Including a wide range of people that represent the different parts of
