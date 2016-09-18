@@ -32,31 +32,15 @@ Ces objectifs d'affaires vous aideront à diriger et gérer votre projet. Par ex
 Développement
 -----------
 
-It often makes sense to break development up into smaller more
-manageable sections, which can be implemented in discrete stages or
-iterations. A common first phase of development is to choose something
-simple to implement in CiviCRM, or specific functionality for a team who
-can then act as CiviCRM evangelists within the organisation.
+Pour faciliter leur suivi, il est souvent recommandé de séparer le développement en plusieurs étapes avec des objectifs concrets. Par exemple, il est généralement suggéré de commencer par une tâche simple à implémenter avec CiviCRM, ou bien une tâche pour une équipe spécifique qui pourra ensuite promouvoir la solution au près des autres équipes de votre organisation.
 
-Implementing in stages allows staff to get used to changes gradually
-without feeling overwhelmed, and gives the developer or implementer the
-ability to be responsive to feedback from users during the development
-process.
+Une implémentation en étapes permet aux employés de s'habituer progressivement aux changements sans se sentir submergés. Cela donne aussi l'occasion aux développeurs d'être plus réactifs aux commentaires et suggestions.
 
-Another reason that people choose to develop iteratively is that it is
-very hard for users to correctly or fully articulate their requirements
-at the start of the project. Giving users hands-on experience of an
-early version of the system helps them understand how it works and what
-is possible. They can then provide valuable feedback and might
-articulate requirements that they haven't thought of previously.
+De plus, les utilisateurs pourraient avoir de la difficulté à articuler leurs exigences dès le début du projet. En leur permettant de se familiariser avec le logiciel au fur et à mesure, ils comprendront mieux son fonctionnement et ses fonctionnalités.
 
-Implementing your CMS (Drupal, WordPress or Joomla!) either before or
-after implementing CiviCRM is another convenient way to split up a
-CiviCRM project. As well as the normal advantages of breaking up the
-development into manageable chunks, this helps staff understand the
-important differences between a CMS and a CRM.
+L'implémentation du SGC (Drupal, WordPress ou Joomla) avant ou après l'implémentation de CiviCRM est une autre façon de séparer le projet en étapes. En plus de faciliter la gestion du projet, cela permet aux utilisateurs de mieux comprendre la différence entre le CRM et le SGC.
 
-### Pilot projects
+### Projets pilotes
 
 Pilots help to reduce risk during a project implementation. For example,
 rather than moving your organisation's entire event management
