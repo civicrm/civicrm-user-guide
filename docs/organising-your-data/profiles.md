@@ -704,8 +704,8 @@ investigate.
     displayed, offering pagination, draft-saving, advanced spam-control,
     and conditional fields. For more information see the Drupal
     Integration chapter
-    or https://drupal.org/project/webform_civicrm](https://drupal.org/project/webform_civicrm).
--   [](https://drupal.org/project/webform_civicrm)You can add fields
+    or [the Webform CiviCRM Integration page](https://drupal.org/project/webform_civicrm).
+-   You can add fields
     directly to Drupal user accounts without using an embedded profile.
     These fields won't be available in CiviCRM but they will be more
     available in Drupal, so depending on why you are collecting this
@@ -718,6 +718,5 @@ investigate.
 With some basic coding skills (which if you are keen and reasonably
 technically minded you might be able to pick up in a day or so) you
 could use the API to flexibly display data on your website. See the
-*Developer Documentation wiki*
-[(http://wiki.civicrm.org/confluence/display/CRMDOC/Develop](http://wiki.civicrm.org/confluence/display/CRMDOC/Develop))
+[*Developer Documentation wiki*](http://wiki.civicrm.org/confluence/display/CRMDOC/Develop)
 for an introduction to using the API.
