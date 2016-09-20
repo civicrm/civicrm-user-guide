@@ -42,38 +42,23 @@ L'implémentation du SGC (Drupal, WordPress ou Joomla) avant ou après l'implém
 
 ### Projets pilotes
 
-Pilots help to reduce risk during a project implementation. For example,
-rather than moving your organisation's entire event management
-infrastructure to CiviCRM, run one pilot event using CiviCRM and
-evaluate it. You can then incorporate the learning back into the
-development process.
+Un projet pilote peut aider à réduire les risques lors de l'implémentation. Par exemple, plutôt que de changer d'un coup toute la gestion d'événements vers CiviCRM, faites l'essai d'organiser un seul événement sur CiviCRM, puis faites une évaluation de votre expérience. Vous pourrez ensuite incorporer les apprentissages de cette expérience dans le processus de développement.
 
-Ongoing support and development
+Soutien et développement en continu
 -------------------------------
 
-It is a mistake to think about a CiviCRM project as a one-off
-development that will meet the needs of your organisation for the
-foreseeable future. Organisations constantly change and evolve and your
-CRM should evolve with you, otherwise it will eventually become
-out-of-sync with the organisation.
+Votre CRM doit pouvoir s'adapter pour suivre l'évolution de votre organisation, ce qui vous demandera également des efforts de développement et soutien en continu.
 
-Once you have been using CiviCRM for a while and staff are comfortable
-with it, you will likely want to take advantage of other functionality.
-Each improvement or new piece of functionality that you decide to
-implement in CiviCRM will take resources, so you'll need to plan for
-these.
+Une fois que vous aurez utilisé CiviCRM pendant un certain temps et que votre équipe sera comfortable avec l'outil, vous souhaiterez sans doute profiter de d'autres fonctionnalités. Chaque amélioration, chaque nouvelle fonctionnalité que vous déciderez d'implémenter prendra des ressources que vous devrez planifier en conséquence.
 
-Even if your organisational needs don't change, there are ongoing
-support implications, including:
+Même si vos besoins organisationnels ne changent pas, il faut aussi tenir compte de :
 
--   keeping your site up-to-date with security patches
--   upgrading to the latest version of CiviCRM (not necessary, but
-    CiviCRM is improving all the time and your users will thank you for
-    the improved usability and functionality each time you upgrade)
--   upgrading the CMS 
--   hosting
+-  garder votre CiviCRM à jour, en appliquant les correctifs de sécurité
+-  faire une mise à jour de version majeure de CiviCRM (ce n'est pas nécessaire, mais CiviCRM s'améliore régulièrement et vos utilisateurs vous remercieront pour les nouvelles fonctionnalités)
+-  mise à jour du système de gestion de contenu (SGC)
+-  gestion et sécurité du serveur d'hébergement
 
-Training
+Formation
 --------
 
 Training is a significant aspect of most CiviCRM projects. Your training
