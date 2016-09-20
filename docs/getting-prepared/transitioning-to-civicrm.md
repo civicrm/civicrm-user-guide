@@ -61,35 +61,15 @@ Même si vos besoins organisationnels ne changent pas, il faut aussi tenir compt
 Formation
 --------
 
-Training is a significant aspect of most CiviCRM projects. Your training
-could take many shapes and sizes depending on your users, but it often
-makes sense to spend resources on formal and reusable training resources
-(user guides, lesson plans and so on).
+La formation est un bloc important de tout projet CiviCRM. Les formations peuvent se faire sous toutes les formes et de toutes les tailles, selon vos utilisateurs, mais il est souvent recommandé de le faire à l'aide de ressources que vous pourrez re-utiliser ultérieurement (guides utilisateurs, plans de cours, etc).
 
-CiviCRM's range of functionality can be overwhelming at first
-(especially to the less technically-minded). Remember that staff who
-were not involved in the project's early stages will need to have
-concepts explained clearly to them - things that are obvious to you may
-be quite foreign to others.
+L'utilisateur moyen peut facilement être désorienté par l'éventail de fonctionnalités de CiviCRM. N'oubliez pas d'expliquer clairement les concepts de base, surtout à vos collègues qui n'étaient pas impliqués dans le projet dès le début.
 
-Trying to cover everything in one training session probably won't be
-effective; your staff will need time to digest the new ideas. Instead,
-hold smaller training sessions that introduce concepts and specific
-functionality, followed by periods of testing, piloting and feedback.
-Tailor your training for your audience: not everyone needs to sit
-through a two-hour training session on how to manage events if there is
-a single person responsible for event management and planning. And where
-possible, involve staff in training other staff members as this
-increases the sense of ownership and helps to embed learning.
+Tout couvrir en une seule session de formation ne sera probablement pas très efficace; vos collègues ont besoin de temps pour digérer les nouvelles idées. Organisez de petites sessions de formation pour présenter les nouveaux concepts et des fonctionnalités spécifiques, suivi d'une période de tests et de discussions. Adapter votre formation à votre auditoire : vos collègues n'ont pas tous besoin d'une formation de deux heures pour comprendre la gestion d'événements. Si possible, impliquer vos collègues dans l'organisation de la formation, ceci augmentera le sentiment que ce projet leur appartient et favorisera une culture de partage de connaissances.
 
-Training is also ongoing. New staff will need to be trained, users
-familiar with the system can benefit from learning about more advanced
-topics, and staff will need further training when there are significant
-upgrades or new functionality added. If you plan to use CiviCRM for any
-large or mission-critical events, allow adequate time for additional
-staff training and testing.
+La formation doit se faire en continu. De nouveaux membres se joindront à votre organisation et devront être formés, certains utilisateurs voudront s'approprier des fonctionnalités plus avancées, et il faudra offrir une formation d'appoint suite à une mise à jour importante du logiciel ou lors de l'ajout de fonctionnalités. Prévoyez suffisamment de temps pour la formation, surtout si un événement majeur approche.
 
-Hosting and infrastructure
+Hébergement et infrastructure
 --------------------------
 
 Hosting is a key aspect of any CiviCRM project. You will need to provide
