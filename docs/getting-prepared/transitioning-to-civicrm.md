@@ -72,36 +72,15 @@ La formation doit se faire en continu. De nouveaux membres se joindront à votre
 Hébergement et infrastructure
 --------------------------
 
-Hosting is a key aspect of any CiviCRM project. You will need to provide
-maintenance of the server on which CiviCRM is stored, and have someone
-available to fix problems that inevitably occur from time to time. If
-your site needs to be accessible 24 hours a day, you should have a
-support agreement with your ISP that covers this. Ensure that your
-budget is sufficient for appropriate hosting, and that effective backup
-procedures and policies are in place.
+L'hébergement est un autre enjeu important de tout projet CiviCRM. Vous devrez maintenir le serveur qui héberge votre instance de CiviCRM et avoir une personne capable de réparer les problèmes pour les incidents qui surviennent inévitablement de temps en temps. Si votre site doit être accessible 24 heures par jour, assurez-vous que votre fournisseur d'hébergement puisse être disponible en tout temps. Assurez-vous que votre budget soit suffisant pour un hébergement qui réponde à vos besoins et que des procédures et politiques de sauvegardes soient mises en place.
 
-Keep in mind that in the hosting provider world, you get what you pay
-for. In many cases, cheap hosting providers keep their prices down by
-limiting the services or flexibility they provide. CiviCRM doesn't work
-well on poor hosting, and under-budgeting for hosting may lead to other
-problems. Similarly, make sure that the computers your staff are using
-are powerful enough to provide a good experience with CiviCRM.
+N'oubliez pas que dans le monde de l'hébergement web, vous en avez pour votre argent. C'est à dire que bien souvent les hébergeurs « bon marché » vont limiter les services et la flexibilité de ce qu'ils offrent. CiviCRM ne fonctionne généralement pas bien sur ce type d'hébergement. Assurez-vous également que les ordinateurs de vos employés et que la connexion Internet de votre bureau soient suffisamment puissants pour offrir une expérience agréable avec CiviCRM.
 
-Change management
+Gestion du changement
 -----------------
 
-Introducing a new (or the first) CRM will cause changes in work flow and
-processes at your organisation. These changes may be "political",
-practical or technical. Either way, a lot of change at the same time can
-be difficult and stressful.
+L'introduction d'un nouveau (ou du premier) CRM peut apporter des changements importants dans les processus de votre organisation. Ces changements peuvent être politiques, pratiques ou techniques. Dans tous les cas, l'adoption de plusieurs changements en même temps peut être une source de stress.
 
-To mitigate this, give staff time to accept and support each change so
-that they share in ownership of the new system rather than feeling as if
-something has been forced on them. Focus on simple tasks at the
-beginning of deployment and introduce more difficult tasks as staff
-understanding of the system grows. Show staff how the new system will
-make their work easier and where their feedback has been incorporated.
+Pour compenser, assurez-vous de donner à vos employés suffisamment de temps pour accepter et pour soutenir l'adoption de chaque changement dont ils partagent la responsabilité, plutôt que de leur donner l'impression qu'ils se font forcer un changement. Commencez par mettre l'emphase sur les tâches simples, puis présentez les tâches plus difficiles au fur et à mesure que les employés se sentent à l'aise avec le nouveau système. Montrez-leur comment le nouveau système permettra de faciliter leur travail et comment leurs commentaires ont été incorporés lors des phases de développement.
 
-Good planning can minimise the risks around change, but it is important
-to be flexible within your plan; unforeseen things often occur, and a
-rigid plan could prevent you from reaching the best solution.
+Une bonne planification peut minimiser les risques liés au changement, mais vos plans doivent aussi être flexibles. Un plan trop rigide pourrait vous empêcher d'arriver à la meilleure solution.
