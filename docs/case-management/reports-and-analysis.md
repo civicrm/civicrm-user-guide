@@ -77,6 +77,11 @@ or custom fields applied to the contact
 Also useful can be the Activity Search which is located under **Search > Custom Searches > Activity Search**.  Unlike Advanced
 search, this is just based on activities and not contacts.
 
+Print/merge document
+--------------------
+A user can create a letter or document using case tokens on the case management screen, or on multiple cases through a Find Cases search. On the case management screen, beside "Print Report," there's an option to "Export Document" as a PDF, DOCx, ODT, or HTML page. Alternately, you can select multiple cases through a search and "Print/merge Document," which will create a document for each case, compiled in a single PDF.  
+
+
 Further analysis
 ----------------
 
