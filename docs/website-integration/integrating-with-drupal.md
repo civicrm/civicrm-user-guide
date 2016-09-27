@@ -255,9 +255,7 @@ screen.
 ### Syncing CiviCRM Groups to Drupal Roles
 
 -   Navigate to the CiviGroup Role Sync configuration screen.
-
 -   Click on **Add Association Rule.**
-
 -   Under **CiviCRM Group** select the Group that you want a user to
     have in order to be granted a specific Drupal Role.
 -   Under **Drupal Role** select the Drupal Role that should be granted.
@@ -368,80 +366,69 @@ role in addition to the "Active Member" role.*
 
 #### Enabling CiviMember Roles Sync Module
 
-1.
-To enable the CiviMember Roles Sync Module navigate to your list of
+1.  To enable the CiviMember Roles Sync Module navigate to your list of
 installed Drupal modules.
 
     -   Drupal 6: Go to **Administer > Site Building > Modules**
     -   Drupal 7: Go to **Modules** from the Administration Menu at the
     top of your screen.
 
-1.
-Find the Module **CiviMember Roles Sync** and check the box to the left
+1. Find the Module **CiviMember Roles Sync** and check the box to the left
 of the module's name.
 
-1.
-Click on **Save Configuration**.
+1. Click on **Save Configuration**.
 
 #### Syncing CiviCRM Membership Types to Drupal Roles
 
-1.
-Navigate to the CiviMember Role Sync configuration screen.
+1. Navigate to the CiviMember Role Sync configuration screen.
 
     -   Drupal 6: Go to *Administer > Site Configuration > CiviMember
     Roles Sync*
     -   Drupal 7: Go to *Configuration > CiviMember Roles Sync*
 
-1.
-Click on **Add Association Rule.**
+1. Click on **Add Association Rule.**
 
-1.
-Under **Select a CiviMember Membership Type** select the Membership Type
+1. Under **Select a CiviMember Membership Type** select the Membership Type
 that you want a user to have in order to be granted a specific Drupal
 Role.
 
-1.
-Under **Select a Drupal Role** select the Drupal Role that should be
+1. Under **Select a Drupal Role** select the Drupal Role that should be
 granted.
-*Example: RBA wants any user with a Current Bakery Membership Type to be
+
+   *Example: RBA wants any user with a Current Bakery Membership Type to be
 granted the "Active Member" role, so the RBA staff creates a new
 Association Rule and selects Bakery under Select a CiviMember Membership
 Type and selects "Active Member" under Select a Drupal Role.*
 
-1.
-Under **Current Status** select the Membership Status that a user
+1. Under **Current Status** select the Membership Status that a user
 should have to be granted your selected Drupal Role.
-*Example: RBA wants to grant any user who has a Membership Status of
+
+   *Example: RBA wants to grant any user who has a Membership Status of
 either New, Current, or Grace access to the member-only website content,
 so the RBA staff checks the boxes next to those three Membership
 Statuses.*
 
-1.
-Under **Expired Status** select the Membership Status that will revoke
-the Drupal Role from the user. *Example: RBA wants to make sure that any user
-whose membership expires
+1. Under **Expired Status** select the Membership Status that will revoke
+the Drupal Role from the user.
+
+   *Example: RBA wants to make sure that any user whose membership expires
 or who cancels their membership has their access to the member-only website
 content revoked, so the RBA staff checks the boxes next to Expired and
 Canceled.*
 
-1.
-Click on **Add Association Rule** when you are finished configuring your
+1. Click on **Add Association Rule** when you are finished configuring your
 new association rule.
 
-1.
-The page will reload, and you should see the message "Your Association
+1. The page will reload, and you should see the message "Your Association
 Rule has been added."
 
-1.
-Repeat steps 1-8 to add all necessary association rules for your
+1. Repeat steps 1-8 to add all necessary association rules for your
 organization. Once you have finished adding all of your association
 rules, move on to step 10.
 
-1.
-Click on the tab **Manually Synchronize**
+1. Click on the tab **Manually Synchronize**
 
-1.
-Click on **Synchronize CiviMember Membership Types to Drupal Roles
+1. Click on **Synchronize CiviMember Membership Types to Drupal Roles
 Now**. This will put your new CiviMember Role Sync Association Role
 immediately into effect.
 
@@ -449,16 +436,14 @@ immediately into effect.
 
 You can always edit or delete existing association rules.
 
-1.
-To edit or delete an existing Association Rule, Navigate to the
+1. To edit or delete an existing Association Rule, Navigate to the
 CiviMember Role Sync configuration screen.
 
     -   Drupal 6: Go to *Administer > Site Configuration > CiviMember
     Roles Sync*
     -   Drupal 7: Go to *Configuration > CiviMember Roles Sync*
 
-1.
-You should now see a list of all existing CiviMember Role Sync
+1. You should now see a list of all existing CiviMember Role Sync
 Association Rules. If not, click on **List Association Rule(s)** tab.
 
     *   Edit an Existing Association Rule
@@ -466,12 +451,9 @@ Association Rules. If not, click on **List Association Rule(s)** tab.
 on **edit** for that Association rule.
         *   Make the changes to your Association Rule and when yo are finished click
 on **Edit association rule**.
-
     *   Delete an Association Rule
-
         *  Find the Association Rule you want to remove and click on **delete** for
 that Association Rule.
-
         *  Your association rule will be deleted. You will not need to confirm
 deletion.
 
