@@ -33,10 +33,8 @@ types, etc.)
 For more information on Drupal Roles, please read the documentation on
 Drupal Roles at Drupal.org:
 
--   User: Access and management
-    settings [http://drupal.org/documentation/modules/user](http://drupal.org/documentation/modules/user)
--   Managing Access Control with Permissions and Drupal Roles
-    [http://drupal.org/node/22275](http://drupal.org/node/22275)
+- [User: Access and management settings](http://drupal.org/documentation/modules/user)
+- [Managing Access Control with Permissions and Drupal Roles](http://drupal.org/node/22275)
 
 Drupal permission settings allow you to decide what tasks a
 specific **Role** can perform or what information a certain **Role** has
@@ -47,18 +45,11 @@ content, users, or CiviCRM Contact information.
 For more information on Drupal Permission settings, please read the
 documentation on Drupal Permissions at Drupal.org:
 
--   User: Access and management settings
-   [http://drupal.org/documentation/modules/user](http://drupal.org/documentation/modules/user)
-
--   Assigning permissions and users to
-    roles [http://drupal.org/node/22278](http://drupal.org/node/22278)
-
--   Adjusting permissions after adding
-    modules [http://drupal.org/node/22279](http://drupal.org/node/22279)
--   Permissions
-    reference [http://drupal.org/node/132202](http://drupal.org/node/132202)
--   Views module
-    permissions [http://drupal.org/node/1089746](http://drupal.org/node/1089746)
+- [User: Access and management settings](http://drupal.org/documentation/modules/user)
+- [Assigning permissions and users to roles](http://drupal.org/node/22278)
+- [Adjusting permissions after adding modules](http://drupal.org/node/22279)
+- [Permissions reference](http://drupal.org/node/132202)
+- [Views module permissions](http://drupal.org/node/1089746)
 
 Drupal roles are global and will override relevant access controls (see
 chapter Initial Setup> Permissions and Access Control) setup in
@@ -77,15 +68,12 @@ on certain contexts or rules. A few of the most common modules used for
 controlling access to content or include options for controlling content
 based on Drupal **Roles** are:
 
--   Views [http://drupal.org/project/views](http://drupal.org/project/views)
--   Panels [http://drupal.org/project/panels](http://drupal.org/project/panels)
--   Chaos Tools Suite and Page
-    Manager [http://drupal.org/project/ctools](http://drupal.org/project/ctools)
--   Context [http://drupal.org/project/context](http://drupal.org/project/context)
--   Content
-    Access [http://drupal.org/project/content_access](http://drupal.org/project/content_access)
--   Taxonomy Access
-    Control [http://drupal.org/project/taxonomy_access](http://drupal.org/project/taxonomy_access)
+- [Views](http://drupal.org/project/views)
+- [Panels](http://drupal.org/project/panels)
+- [Chaos Tools Suite and Page Manager](http://drupal.org/project/ctools)
+- [Context](http://drupal.org/project/context)
+- [Content Access](http://drupal.org/project/content_access)
+- [Taxonomy Access Control](http://drupal.org/project/taxonomy_access)
 
 Drupal Views
 --------------
@@ -182,13 +170,12 @@ documentation which you should read to make the most out of its
 functionality.
 
 For more information see:
-[http://wiki.civicrm.org/confluence/display/CRMDOC/Webform+CiviCRM+Integration](http://wiki.civicrm.org/confluence/display/CRMDOC/Webform+CiviCRM+Integration)
+<http://wiki.civicrm.org/confluence/display/CRMDOC/Webform+CiviCRM+Integration>.
 
 CiviCRM Organic Groups Sync
 ---------------------------
 
-The Organic Groups CiviCRM module
-([http://drupal.org/project/og_civicrm](http://drupal.org/project/og_civicrm))
+The [Organic Groups CiviCRM module](http://drupal.org/project/og_civicrm)
 integrates Organic Groups from a Drupal site with CiviCRM groups. This
 is useful for groups that require Organic Group functionality on their
 website but also need to be tracked within CiviCRM. Once an Organic
@@ -268,9 +255,7 @@ screen.
 ### Syncing CiviCRM Groups to Drupal Roles
 
 -   Navigate to the CiviGroup Role Sync configuration screen.
-
 -   Click on **Add Association Rule.**
-
 -   Under **CiviCRM Group** select the Group that you want a user to
     have in order to be granted a specific Drupal Role.
 -   Under **Drupal Role** select the Drupal Role that should be granted.
@@ -381,80 +366,69 @@ role in addition to the "Active Member" role.*
 
 #### Enabling CiviMember Roles Sync Module
 
-1.
-To enable the CiviMember Roles Sync Module navigate to your list of
+1.  To enable the CiviMember Roles Sync Module navigate to your list of
 installed Drupal modules.
 
     -   Drupal 6: Go to **Administer > Site Building > Modules**
     -   Drupal 7: Go to **Modules** from the Administration Menu at the
     top of your screen.
 
-1.
-Find the Module **CiviMember Roles Sync** and check the box to the left
+1. Find the Module **CiviMember Roles Sync** and check the box to the left
 of the module's name.
 
-1.
-Click on **Save Configuration**.
+1. Click on **Save Configuration**.
 
 #### Syncing CiviCRM Membership Types to Drupal Roles
 
-1.
-Navigate to the CiviMember Role Sync configuration screen.
+1. Navigate to the CiviMember Role Sync configuration screen.
 
     -   Drupal 6: Go to *Administer > Site Configuration > CiviMember
     Roles Sync*
     -   Drupal 7: Go to *Configuration > CiviMember Roles Sync*
 
-1.
-Click on **Add Association Rule.**
+1. Click on **Add Association Rule.**
 
-1.
-Under **Select a CiviMember Membership Type** select the Membership Type
+1. Under **Select a CiviMember Membership Type** select the Membership Type
 that you want a user to have in order to be granted a specific Drupal
 Role.
 
-1.
-Under **Select a Drupal Role** select the Drupal Role that should be
+1. Under **Select a Drupal Role** select the Drupal Role that should be
 granted.
-*Example: RBA wants any user with a Current Bakery Membership Type to be
+
+   *Example: RBA wants any user with a Current Bakery Membership Type to be
 granted the "Active Member" role, so the RBA staff creates a new
 Association Rule and selects Bakery under Select a CiviMember Membership
 Type and selects "Active Member" under Select a Drupal Role.*
 
-1.
-Under **Current Status** select the Membership Status that a user
+1. Under **Current Status** select the Membership Status that a user
 should have to be granted your selected Drupal Role.
-*Example: RBA wants to grant any user who has a Membership Status of
+
+   *Example: RBA wants to grant any user who has a Membership Status of
 either New, Current, or Grace access to the member-only website content,
 so the RBA staff checks the boxes next to those three Membership
 Statuses.*
 
-1.
-Under **Expired Status** select the Membership Status that will revoke
-the Drupal Role from the user. *Example: RBA wants to make sure that any user
-whose membership expires
+1. Under **Expired Status** select the Membership Status that will revoke
+the Drupal Role from the user.
+
+   *Example: RBA wants to make sure that any user whose membership expires
 or who cancels their membership has their access to the member-only website
 content revoked, so the RBA staff checks the boxes next to Expired and
 Canceled.*
 
-1.
-Click on **Add Association Rule** when you are finished configuring your
+1. Click on **Add Association Rule** when you are finished configuring your
 new association rule.
 
-1.
-The page will reload, and you should see the message "Your Association
+1. The page will reload, and you should see the message "Your Association
 Rule has been added."
 
-1.
-Repeat steps 1-8 to add all necessary association rules for your
+1. Repeat steps 1-8 to add all necessary association rules for your
 organization. Once you have finished adding all of your association
 rules, move on to step 10.
 
-1.
-Click on the tab **Manually Synchronize**
+1. Click on the tab **Manually Synchronize**
 
-1.
-Click on **Synchronize CiviMember Membership Types to Drupal Roles
+1. Click on **Synchronize CiviMember Membership Types to Drupal Roles
 Now**. This will put your new CiviMember Role Sync Association Role
 immediately into effect.
 
@@ -462,16 +436,14 @@ immediately into effect.
 
 You can always edit or delete existing association rules.
 
-1.
-To edit or delete an existing Association Rule, Navigate to the
+1. To edit or delete an existing Association Rule, Navigate to the
 CiviMember Role Sync configuration screen.
 
     -   Drupal 6: Go to *Administer > Site Configuration > CiviMember
     Roles Sync*
     -   Drupal 7: Go to *Configuration > CiviMember Roles Sync*
 
-1.
-You should now see a list of all existing CiviMember Role Sync
+1. You should now see a list of all existing CiviMember Role Sync
 Association Rules. If not, click on **List Association Rule(s)** tab.
 
     *   Edit an Existing Association Rule
@@ -479,12 +451,9 @@ Association Rules. If not, click on **List Association Rule(s)** tab.
 on **edit** for that Association rule.
         *   Make the changes to your Association Rule and when yo are finished click
 on **Edit association rule**.
-
     *   Delete an Association Rule
-
         *  Find the Association Rule you want to remove and click on **delete** for
 that Association Rule.
-
         *  Your association rule will be deleted. You will not need to confirm
 deletion.
 
@@ -507,8 +476,7 @@ should occur by navigating to the CiviMember Role Sync Configure screen.
     actions or content until he or she finally logs out. (This is the
     default setting)
 -   Synchronize when a Drupal Cron occurs: This method relies on a cron
-    to trigger synchronization. Learn more about Drupal Cron at:
-    [http://drupal.org/cron](http://drupal.org/cron)
+    to trigger synchronization. [Learn more about Drupal Cron.](http://drupal.org/cron)
 -   Synchronize when membership is updated: This method will synchronize
     when the user registers for or renews his or her membership and when
     the organization staff updates a user's membership information from
