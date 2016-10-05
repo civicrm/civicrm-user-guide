@@ -1,26 +1,23 @@
-What You Need To Know
-=====================
+Ce que vous devez savoir
+========================
 
-Before you create a campaign, it's a good idea to review the concepts in
-this chapter to understand how CiviCampaign can best help you manage
-your work, and consider the key questions in relation to your
-organisation's specific needs.
+Avant de créer votre première campagne, nous vous proposons de revoir dans cette partie les concepts de CiviCampaign. Cela vous permettra de mieux percevoir la façon dont ce module va vous aider à gérer au mieux votre travail et d'appréhender les questions principales relatives aux besoins spécifiques de votre organisation.
 
-Key Concepts
-------------
+Concepts clés
+-------------
 
 Your organisation will likely have its own campaign strategies and
 processes. CiviCampaign is a tool that you can use in conjunction with
 your existing methods, to streamline and automate certain processes.
 
-### Campaign Goals and Revenue
+### Buts de campagne et Revenus
 
 Define and document the concrete goals of the campaign, and what you
 hope to raise in funds (if applicable), and record it in the campaign
 information. This will enable you to use reports to analyze the
 effectiveness of a campaign at its conclusion.
 
-### Planning Your Campaign Activities
+### Planifiez les activités de votre campagne
 
 As you plan the strategy of your campaign and identify your target
 audience, determine what activities and information can be recorded
@@ -30,12 +27,10 @@ individuals' activities related to the campaign. This allows you to to
 make periodic and overall evaluations of the effectiveness of your
 activities, strategies and outreach efforts.
 
-Key Questions
+Questions clés
 --------------
 
-Answer these questions in the context of your organisation or a specific
-campaign:
-
+Répondez à ces questions dans le contexte de votre organisation ou d'une campagne particulière :
 -   Who are your target audience, and how will you reach them? Remember
     that the audience for your campaign activities may not be the same
     as the audience you are trying to reach with the actual campaign
@@ -50,12 +45,10 @@ campaign:
 -   What kind of reports will be useful for monitoring progress and
     evaluating the campaign at its conclusion?
 
-CiviEngage and CiviCampaign
----------------------------
+CiviEngage et CiviCampaign
+--------------------------
 
-CiviEngage is a Drupal only feature that enhances CiviCampaign with more
-functionality for surveys and pre-configures your installation of
-CiviCRM with custom data sets, profiles and enhancements to reports. See
-the section Civic Engagement for more details about CiviEngage.
+CiviEngage est un module fonctionnant uniquement dans l'environnement Drupal et apportant à CiviCampaign des fonctionnalités complémentaires, notamment pour les sondages. Il permet de pré-paramétrer votre configuration CiviCRM avec des jeux de données personnalisées, de profils et d'évolution pour les rapports.
+Voir la section Civic Engagement pour avoir plus de détails sur CiviEngage.
 
 
