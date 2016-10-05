@@ -1,66 +1,36 @@
-What is CiviCampaign?
-=====================
+Qu'est-ce que CiviCampaign?
+==============================
 
-CiviCampaign lets you link together events, mailings, activities, and
-contributions under one "umbrella" so that you can track the progress of
-all your efforts towards one programmatic goal or campaign. This enables
-organizations to measure and analyze the effectiveness of their outreach
-and mobilization efforts.
+CiviCampaign vous permet de lier des événements, des mailings, des activités et des contributions dans une "enveloppe" commune.
+Vous pouvez ainsi suivre la progression de vos efforts vers l'atteinte d'un but ou d'une campagne.
+Cela permet aussi aux organisations de mesurer et d'analyser l'efficacité de ces efforts.
 
-CiviCampaign allows you to:
+CiviCampaign vous permet de :
+-   créer des sondages et des pétitions ;
+-   d'enregistrer les réponses de ces sondages et pétitions ;
+-   de suivre précisément qui a voté en utilisant la fonctionnalité "Get Out The Vote" (GOTV) ;
+-   de lier des activités telles que dons, mailings et événements à une campagne spécifique ;
+-   d'enregistrer les niveaux d'intérêt et d'engagements de vos contacts pour une activité particulière.
 
--   create surveys and petitions
--   record responses to surveys and petitions
--   link activity such as donations, mailings and events to a particular
-    campaign
--   track who has voted using Get Out The Vote (GOTV)
--   record individual members' levels of interest and engagement in a
-    particular activity.
+CiviCampaign interagit de façon native avec les autres composants de CiviCRM. Vous pouvez ainsi sélectionner les activités faisant partie d'une campagne ou d'un but particuier.
 
-CiviCampaign is integrated with other CiviCRM components so that you can
-select which activities are part of of the overall campaign or goal.
+Concernant les sites fonctionnant sous Drupal, le module CiviEngage améliore les fonctionnalités de CiviCampaign en fournissant un jeu de champs personnalisés renforçant les fonctions de "sondage" et de "pétition" de CiviCampaign.
+A ce sujet, nous vous engageons à lire la documentation de CiviEngage dans la section "Civic Engagement".
 
-For Drupal sites, the CiviEngage module enhances CiviCampaign by
-providing a package of custom fields that enable the Survey and Petition
-features of CiviCampaign. Read more about CviEngage in the Civic
-Engagement section.
+Scenario: Campagne de mobilisation sur une année
+------------------------------------------------
 
-Scenario: Year-long mobilization campaign
------------------------------------------
+Afin de mobiliser les membres de sa communauté, pour le lancement de sa campagne, la Townsville Organisation For Tenants (TOFT) organise  une manifestation au Capitole (USA). Les organisateurs utilisent CiviCampaign pour gérer l'ensemble des activités tout au long de cette campagne.
 
-To kick off a year-long campaign to mobilize community members, the
-Townsville Organisation For Tenants (TOFT) held a protest at the
-Capitol. The campaign organizers use CiviCampaign to associate all
-related campaign activities together over the course of the campaign.
+L'organisateur crée une campagne qu'il va nommer "Mobilize the Masses 2011" (Mobilisons les masses 2011). Cela va lui permettre de lier toute une série d'activités dont, la communication relative à cet manifestation (événement), la participation ainsi que les contributions financières relatives au transport et à la nourriture lors de cette manifestation.
 
-The lead organizer created a campaign called "Mobilize the Masses 2011"
-to link a series of related activities including communications about
-the mobilizing event, participation and financial contributions for
-transport and food during the action.
+Utilisant CiviCampaign, l'organisateur va :
+-   créer une campagne comme "enveloppe". Elle va permettre d'y lier toutes les activités relatives à cette campagne dont sa durée et le budget à atteindre ;
+-   créer un groupe composé des contacts qu'ils ont "ciblés" comme candidats potentiels aux activités de cette campagne ;
+-   appeler les membres les plus actifs pour aider à organiser des comités locaux et trouver des soutiens et, ensuite, enregistrer en tant qu'activité, les contacts téléphoniques dans chaque fiche contact en indiquant la campagne et la réponse des membres ;
+-   envoyer un emailing de masse d'appel aux dons ;
+-   créer un événement pour suivre les participants à la mobilisation... tout en indiquant la campagne liée lors de la phase de crétaion de cet événement.
 
-Using CiviCampaign, the organisers:
+De façon périodique, tout au long de cette campagne, le responsable est amené à chercher les activités liées à cette campagne, les personnes impactées que que soit leur rôle, mesurer l'efficacité de leurs actions et de l'atteinte du budget cible et, si nécessaire, d'ajuster la stratégie.
 
--   created a Campaign as the umbrella for all related activities,
-    including the duration of the campaign and the revenue goal
--   created a group consisting of the individuals they wanted to target
-    for the activities in the campaign
--   called their most active members to help organize other constituents
-    in their neighborhoods to participate, and recorded the activity
-    phone call in the individual's record, indicating the specific
-    campaign and the member's response 
--   sent a mass fundraising mailing and indicated the campaign, which
-    was then recorded in the contribution information of individuals'
-    records
--   created an event to track who will be attending the mobilization,
-    and indicate the campaign in the event setup.
-
-Periodically throughout the campaign, the program lead searches all of
-the activities related to the campaign, and/or individuals who have
-activities related to the campaign, to monitor the effectiveness of
-their outreach and fundraising efforts, and if necessary adjust
-strategies.
-
-Organizers can relate subsequent events, mailings, and other activities
-with the same campaign as it proceeds over the course of the year. At
-the end of the campaign this information can be reviewed within the
-context of the whole campaign.
+Tout au long de l'année, les organisateurs peuvent rattacher, à cette "enveloppe", des événements et mailings ultérieurs, ainsi que d'autres activités. A l'issue de la campagne, ces informations peuvent être revue dans le contexte global de la campagne.
