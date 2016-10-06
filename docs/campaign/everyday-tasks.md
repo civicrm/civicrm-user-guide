@@ -1,27 +1,19 @@
-Everyday tasks
-==============
+Taches quotidiennes
+===================
 
-This chapter describes everyday tasks related to managing campaigns with
-CiviCampaign.
+Ce chapitre décrit les taches quotidiennes liées à la gestion de campagnes, dans CiviCampaign.
 
-Managing Campaigns
-------------------
+Gestion des campagnes
+---------------------
 
-The Campaign Dashboard allows you to create, configure, manage and view
-your campaigns. You can also manage surveys and petitions via the
-Campaign Dashboard (refer to the following chapters on *Surveys* and
-*Petitions* for specific information).
+Le tableau de bord de campagnes vous permet de créer, configurer, gérer et voir les campagnes que vous avez créées. Vous pouvez, de même, y gérer vos enquêtes (sondages) et pétitions. Se référer aux chapitres suivants relatifs à : *Sondages* et *Pétitions*, pour toute information spécifique à ces fonctionnalités.
 
-To view the Campaign Dashboard, go to **Campaigns > Dashboard >
-Campaigns.**
+Pour afficher le tableau de bord de campagnes, ouvrir le menu : **Campagens > Tableau de bord > Campagnes.**
 
 ![Campaign Dashboard](../img/campaign_everyday_dashboard.png)
 
-From the Campaign Dashboard, you can then Edit, Disable and Delete
-existing campaigns, and create new campaigns.
-If you have a large number of campaigns you can open the campaign search
-accordion to set filters to display only the campaigns you want to see a
-t that time.  
+A partir de ce tableau de bord vous pouvez modifier, désactiver et supprimer les campagnes déjà créées. Vous pouvez aussi créer de nouvelles campagnes.
+Le plus souvent, le nombre de campagnes existantes sera trop grand pour être visualisable sur une seule page. Leur exploitation peut se révéler peu aisée. Ouvez alors l'accordéon : "Rechercher des campagnes". Le formulaire intégré vous propose un jeu de filtres permettant de limiter l'affichage du nombre de campagnes.
 
 ![Campaign Search Criteria](../img/civicampaign-dashboard-search-criteria.png)
 
