@@ -1,28 +1,20 @@
-Reports and analysis
+Rapports et Analyses
 ====================
 
-There a few searching and reporting tools at your disposal to report and
-analyse your campaigns.
+CiviCRM met à votre disposition des outils de recherche avancés et de génération de rapports. Ils permettent d'extraire et d'analyser les informations liées à une campagne.
 
-Campaign searches
------------------
+Recherches liées à une campagne
+-------------------------------
 
-All searches for components that can be part of a campaign have a
-campaign filter so that you can search for events, contributions, etc.
-based on campaign. Similarly the tabs for components in advanced search
-also have a campaign filter so you can search for contacts based on
-their participation in campaigns. 
+Tous les modules de recherche dédiés (événements, contributions, etc...) intègrent un filtre permettant d'indiquer la campagne ciblée, quel que soit le type d'information à analyser : événements, contributions, emailings, entre autres.
+De même, le module de recherche muticritères propose une zone dédiée permettant d'indiquer la campagne. Vous pouvez ainsi récupérer les contacts impliqués dans cette campagne.
 
-Campaign reports
-----------------
+Rapports liés à une campagne
+----------------------------
 
-As campaigns can be made up of many components there is no specific
-campaign report. Instead, once CiviCampaign has been enabled you will be
-able to add a column showing the associated campaign to contribution,
-pledge, event, mailing and membership reports. In addition you will be
-able to "filter by campaign" to restrict the records displayed in these
-reports.
+Dans la mesure où une campagne peut utiliser plusieurs composants de CiviCRM, il n'existe aucun rapport prédéfini.
+Cependant, dès lors qu'une campagne est créée, vous pouvez ajouter une colonne affichant les campagnes dans les rapports de contribution, événement, mailing et d'adhésions.
+De même, indiquer une campagne en tant que filtre, va vous permettre de générer un rapport spécifique à cette campagne.
 
-The activity report can be configured to display both the campaign and
-the engagement index and can also be filtered on either or both
-criteria.
+Le rapport d'activité peut être configuré afin d'afficher la campagne ainsi que l'indice d'engagement. 
+Il permet aussi un filtrage sur ces deux critères ou, sur un seul des deux. 
