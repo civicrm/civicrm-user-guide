@@ -1,21 +1,18 @@
-Set-up
-======
+Paramétrage
+===========
 
-This chapter will help you to set up CiviCampaign so that you can track
-related activities such as contributions, surveys, and mailings that are
-part of a particular campaign or project. 
+Le but de ce chapitre est de vous aider à paramétrer le composant CiviCampaign.
+Cela vous permettra de bien suivre et analyser l'ensemble des activités liées à une campagne, que ce soit des contibutions, des sondages ou enquêtes, des mailings, ou tout autre composant.
 
-Enable CiviCampaign 
----------------------
+Activation de CiviCampaign 
+--------------------------
 
-First, you need to enable the CiviCampaign component.
+La première étape est l'activation du composant CiviCampaign.
 
-1.  Go to **Administer > System Settings > Enable CiviCRM
-    Components**.
-2.  Select **CiviCampaign** and click **Enable** then **Save** 
+1.  Ouvrir le menu **Administer > Paramètres système > Activer les composants CiviCRM**.
+2.  Sélectionner **CiviCampaign**, cliquer sur **Activer** puis **Enregistrer** 
 
-Once CiviCampaign is enabled, it will show up as the new menu item
-**Campaigns** located along the top of your CiviCRM screen.
+A partir du moment où CiviCampaign est activé, le nouveau menu **Campagnes** apparait dans votre interface CiviCRM.
 
 Add a new campaign type
 -----------------------
