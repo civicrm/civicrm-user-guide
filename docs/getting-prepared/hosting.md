@@ -18,72 +18,39 @@ Il y a d'autres facteurs à considérer. Si vous avez un réseau interne, le ser
 Hébergement externe
 -----------------
 
-With internal expertise you could manage the install and configuration
-in-house, but host CiviCRM with an external provider. In this instance,
-we recommended you rent a VPS (Virtual Private Server) to ensure you
-have complete control of all packages and libraries (e.g. PHP, MySQL,
-etc), and are therefore able to configure it to your specific
-requirements.
+Vous pouvez héberger CiviCRM avec un fournisseur d'hébergement externe, mais tout en faisant vous-même l'installation et la configuration de CiviCRM. Dans ce cas, il est recommandé de louer un serveur virtuel privé (VPS) pour avoir le plein contrôle sur les logiciels qui seront disponibles sur le serveur (PHP, MySQL, etc) et pour pouvoir les configurer selon les exigences de CiviCRM.
 
-Many shared hosts restrict the level of access you have, and may not
-support CiviCRM if you are unable to install the required
-pre-requisites. Shared hosts can also be prone to performance issues, as
-the hardware is shared between a group of customers with varying usage
-levels; if one customer's website suddenly receives a large spike in
-traffic, every website on that server could experience a lengthy outage.
+La majorité des hébergeurs mutualisés restreignent certaines fonctions et ne peuvent pas répondre aux exigences de CiviCRM. Les hébergeurs mutualisés sont aussi susceptibles à des problèmes de performance, ce qui aura un impact négatif sur la perception de l'outil.
 
-Disadvantages aside, leasing space on a shared host is typically cheaper
-than a VPS, and both are subscription services on a monthly or annual
-basis (discounts may be available for longer leases.
+**Il est fortement recommandé de faire un essais à court terme avec un hébergeur avant de s'engager sur une plus longue période.**
 
-**We advise that you trial run any service for a short-term before
-committing to a longer period.**
+Hébergement existant
+-------------------
 
-Existing hosting
-----------------
+Si vous avez déjà un hébergement pour votre site web, contactez-les pour déterminer s'ils supportent les outils nécessaires pour faire fonctionner CiviCRM. Sinon, vous avez deux options :
 
-If you are already using a website host, contact your provider to
-determine whether they support the packages and libraries required by
-CiviCRM. If they do not, there are two options available to you:
+### Migrer vers un autre hébergement
 
-### **Migrate to another host**.
+Selon le système de gestion de contenu que vous utilisez, la procédure pour migrer d'un hébergeur à un autre peut se faire assez facilement. La migration sera plus facile si vous pouvez :
 
-Depending on the CMS you are using, the process of moving from one host
-to another may be fairly straightforward. You are in a good position to
-transfer to another host if you can:  
+1. demander à vos utilisateurs d'arrêter de publier ou modifier du contenu durant la période de migration,
+2. exporter et importer tout le contenu de votre site web (fichiers, base de données),
+3. modifier les entrées de votre zone DNS pour « pointer » votre domaine vers le nouvel hébergement.
 
-1.  request that your users **stop creating and updating content**
-    during the migration,
-2.  **export and import** all of the content from/to the chosen CMS,
-3.  **edit your DNS records** to switch the 'pointers' to your
-    website from the old host to the new host
+### Héberger CiviCRM sur un site (serveur) séparé
 
-### **Run the website and CiviCRM in parallel, on different servers**.
+Si vous ne pouvez pas migrer votre site web vers un autre hébergement, vous pouvez ouvrir un second compte d'hébergement chez un autre hébergeur et rouler les deux sites côte à côte.
 
-If you cannot move your website to a different host, you could purchase
-a second account on a host capable of running CiviCRM, and run the two
-systems alongside each other.
+Dans ce cas, vous pouvez créer un nouveau « sous-site », par exemple sur https://civicrm.exemple.ca et y ajouter des liens à partir de votre site principal (ex: pour les formulaire de dons).
 
-In this instance, you would use a CNAME DNS record to point to a second
-copy of the CMS and CiviCRM on the other host (e.g.
-civicrm.yourwebsite.com; the CNAME effectively adds a prefix to your
-website's address), and link to it from your website, perhaps in form of
-a log-in button.
+Cependant, vous devrez clôner le visuel de votre site principal sur votre second site pour ne pas trop désorienter vos visiteurs lorsqu'ils naviguent d'un site à l'autre. Si vous modifiez le visuel sur un site, il faudra aussi modifier l'autre site.
 
-Aside from paying a second bill, one of the limitations to this approach
-is the need to clone the style of your website on the second host to
-give the visitor the illusion that they are in the same place. If
-changes to the style are changed, the work must be duplicated.
+Faire appel à un fournisseur d'hébergement/consultation externe
+---------------------------------------------------------------
 
-Outsourcing to a CiviCRM implementer/host
------------------------------------------
+Il y a des experts en implémentation de CiviCRM qui peuvent gérer l'hébergement et/ou l'installation pour vous. Si nécessaire, certains fournisseurs peuvent aussi gérer l'installation de CiviCRM sur vos serveurs.
 
-There are implementers and experts in the CiviCRM community able to
-manage the hosting and/or installation for you. If requested, they may
-also be available to manage a local implementation and configuration on
-your premises.
-
-For a list of experts recommended within the community, visit:
+Pour consulter une liste d'experts, visiter :  
 [https://civicrm.org/providers](https://civicrm.org/providers)
 
 
