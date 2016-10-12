@@ -1,45 +1,21 @@
-Hosting
-=======
+Hébergement
+===========
 
-Before installing CiviCRM, careful consideration must be given to where
-it will be hosted. The main options with an outline of the situations in
-which you would want to choose them, and the advantages and
-disadvantages of doing so are outlined below:
+Avant d'installer CiviCRM, il faut considérer attentivement où héberger l'application. Les sections ci-dessous survolent les principaux avantages et inconvénients des principales options.
 
-Internal hosting
------------------
+Hébergement interne
+-------------------
 
-If you have an internal IT department or staff members with a technical
-background, you may wish to host CiviCRM internally. To do this, you
-will need:
+Si vous avez un département d'informatique ou des employés avec un profil technique, vous voudrez peut-être héberger CiviCRM à l'interne. Pour ce faire, il faudra :
 
--   Servers or dedicated PC hardware available to run as a web server,
-    24-7.
--   A space on premises to permanently store the hardware, possibly air
-    conditioned.
--   An un-interrupted power supply (UPS) to ensure the server is still
-    available during power outages.
--   Either a stable internet connection with a static IP address and an
-    SLA (Service Level Agreement) for high availability, or a leased
-    line. It is important to note that should the Internet connectivity
-    to the building in which your server resides goes down, only users
-    on internal network will be able to access it. External visitors
-    will not be able to access your website, including logging into
-    CiviCRM and accessing online contribution forms. Widgets posted on
-    other sites will also become unavailable. The bandwidth is also an
-    important factor, as it must be high enough to serve the amount of
-    traffic your website receives.
+- Des serveurs ou ordinateurs didiés pouvant disponibles pour faire fonctionner un serveur web 24x7.
+- Un espace dans vos bureaux où il est possible de faire fonctionner le matériel informatique, idéalement dans un endroit climatisé.
+- Une batterie (UPS) pour s'assurer que le serveur ne sera pas affecté par les pannes d'électricité.
+- Une connexion Internet stable et suffisamment performante pour permettre l'accès à partir de l'extérieur du bureau, avec une adresse IP fixe.
 
-There are other aspects to address too. If you have an internal network,
-the web server should be partitioned from the other computers and
-servers to enhance security (e.g. in a Virtual Private Network or DMZ).
-A web server could, potentially, introduce vulnerabilities that an
-external individual, script or bot could use as a gateway into your
-otherwise private, non-Internet facing systems. It is also a good idea
-to research the maintenance and daily running costs of having an
-internal server, and compare it to that of using an external host.
+Il y a d'autres facteurs à considérer. Si vous avez un réseau interne, le serveur web devrait être isolé des autres ordinateurs de votre bureau pour réduire les risques de sécurité (dans le jargon: une zone démilitarisée, DMZ). Un serveur web peut, potentiellement, augmenter les risques en servant de porte d'entrée dans le reste de votre réseau privé. Il est également suggéré de calculer les coûts de maintenance d'un serveur interne, pour mieux comparer avec les coûts d'un serveur hébergé à l'externe.
 
-External hosting 
+Hébergement externe
 -----------------
 
 With internal expertise you could manage the install and configuration
