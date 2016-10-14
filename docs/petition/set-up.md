@@ -1,91 +1,58 @@
-Set-up
-======
+Configuration
+=============
 
-This chapter describes the steps needed to set up a petition.
+Ce chapitre décrit les étapes nécessaires pour la mise en place des pétitions.
 
-The CiviCampaign component must be enabled before you can use Petition.
-See the section *Campaign* for information about this.
+Le composant CiviCampaign doit être activé avant d'utiliser les pétitions.
+Pour plus de renseignements, voir la section *Campagne*.
 
-Set CMS permissions
-----------------------
+Définir les autorisations dans le CMS
+-------------------------------------
 
-You will need to set the appropriate CMS permissions so that specific roles can
-sign the petition. In particular, anonymous users should be granted permission
-if you're planning to make the petition public.
+Vous devez définir les autorisations appropriées dans le CMS afin que des rôles spécifiques puissent signer la pétition.
+En particulier, vous devrez accorder des autorisations aux utilisateurs anonymes, si vous planifiez de faire une pétition publique.
 
-1.  Go your Drupal, Joomla!, or WordPress Access Control page, which is linked
-    from **Administer > Users and Permissions > Permissions (Access Control)**.
-2.  Grant the following permissions--**Sign CiviCRM Petition**, **Profile
-    Create**, and **Access all Custom Data**--for the roles you require. For
-    example, if this is to be a public petition, you must grant these
-    permissions for anonymous users and authenticated users ("Guest" in Joomla!
-    or "Subscriber" in WordPress).
+1. Aller dans la page pour le contrôle des accès de votre CMS, **Administrer > Utilisateurs et permissions > Permissions (contrôle d'accès)**.
+2. Accorder les autorisations suivantes **Sign CiviCRM Petition**, **Profile Create** et **Access all Custom Data** aux rôles requis. Par exemple, si c'est une pétition publique, vous devez accorder ces autorisations aux utilisateurs anonymes et authentifiés.
 
-Create two Custom Profiles
---------------------------
+Créer deux profils personnalisés
+--------------------------------
 
-In order to create a new petition, you must create two custom profiles:
-one to capture the contact information of the signer, and the other to
-capture the responses to the petition questions. The responses to the
-petition questions are recorded in the activity record of type Petition
-for each individual who signs the petition.
+Afin de créer une nouvelle pétition, vous devez créer deux profils personnalisés: un pour recueillir les informations du signataire (contact), et l'autre pour recueillir les réponses aux questions de la pétition.
+Les réponses de la pétition sont conservées dans un enregistrement d'activité de type "Pétition" pour chaque signataire.
 
-1.  Go to **Administer > Customize Data and Screens > Profiles** and add
-    a profile with fields for the contact information you want to
-    collect, such as First Name, Last Name, and Email. You may want to
-    make some of these fields required so you capture enough information
-    to communicate with signers at a later date. Note: you must collect
-    at minimum an email address in the contact profile, because the
-    Petition feature will send an email to the signer of the petition to
-    prompt them to verify their email address. Only those verified email
-    addresses can be counted.
-2.  Go to **Administer > Customize Data and Screens > Custom Fields** and
-    add a set of custom fields to capture responses to the petition
-    questions. From the **Used For** drop down menu select **Activities**. For
-    the **Activity Type** select **Petition Signature**.
-3.  Under **Administer > Customize Data and Screens > Profiles** add a
-    profile for the petition responses. Select **Activity** from the Field
-    Name drop down menu, then select from the custom fields you created.
+1. Aller à **Administrer > Personnaliser les données et écrans > Profils** et ajouter un profil et les champs des informations de contact que vous voulez recueillir, tels que Nom, Prénom et Courriel. Vous pouvez définir certains champs obligatoires pour recueillir assez d'information pour communiquer plus tard avec les signataires. 
+  - Note: Pour le profil contact, vous devez recueillir au moins l'adresse de courriel, parce que la fonctionnalité de pétition enverra un courriel aux signataires pour les inciter à vérifier leur adresse de courriel. Seules les adresses de courriel vérifié peuvent être comptées.
 
+2. Aller à **Administrer > Personnaliser les données et écrans > Données personnalisées** et ajouter des champs personnalisés pour recueillir les réponses aux questions de la pétition. 
+  - À partir du menu déroulant **Utilisé pour**, sélectionnez **Activités**. 
+  - Comme type d'activité, sélectionnez **Pétition Signature**.
+3. Aller à **Administrer > Personnaliser les données et écrans > Profils** et ajouter un profil pour les réponses de la pétition. 
+  - Sélectionnez **Activité** à partir du menu déroulant du champ **Nom**, puis sélectionnez les champs personnalisés que vous avez créés.
 
-For both profiles, you may want to select the following settings in the
-**Advanced Setting** area:
+Pour les deux profils, vous pouvez sélectionner les paramètres suivants dans la section **Paramètres avancés**:
 
--   For **Drupal user account registration option?**, select the radio
-    button for **No account create option** if you do not want all
-    petition signers to have a Drupal account created.
--   For **What to do upon duplicate match**, you can select the radio
-    button for **Allow Duplicate Contact to be Created** if you don't
-    want anonymous users to update an existing contact record's
-    information; you will then need to periodically dedupe records.
+- Si vous ne voulez pas créer un compte Drupal aux signataires. Paramètre **Option d'enregistrement du compte d'utilisateur Drupal ?**, sélectionnez le bouton radio **Pas d'option de création de comptes**.
+- Si vous ne voulez pas que les informations des utilisateurs anonymes écrasent les informations des contacts existants. Paramètre **Que faire en cas de correspondance des doublons**, vous pouvez sélectionner le bouton radio **Permettre la création de contacts en doublons**. Mais vous devrez gérer périodiquement les doublons.
 
-To learn more about how to create custom field sets, see the chapter
-*Creating Custom Fields* in the *Organising Your Data* section. To learn about how to
-create a custom profile, see the *Profiles* chapter.
+Pour découvrir comment créer un ensemble de champs personnalisés, voir le chapitre *Creating Custom Fields* dans la section *Organising Your Data*. 
 
-Create a New Petition
----------------------
+Pour découvrir comment créer un profil personnalisé, voir le chapitre *Profiles*.
 
-Once you have created the two profiles, you are ready to create a
-petition.
+Créer une nouvelle pétition
+---------------------------
 
-1.  Go to **Campaigns > New Petition**, then enter the following
-    information about your petition:
+Lorsque vous avez créé les deux profils, vous êtes prêt à créer une pétition.
 
- -   **Petition Title** (required): enter the name of your petition.
- -   **Introduction**: enter text describing what your petition is
-     about. Potential signers will read this, so create a good message
-     to encourage individuals to sign the petition.
- -   **Campaign**: if your petition is one strategy or activity of a
-     campaign, then select the name of the campaign.
- -   **Contact Profile** (required): select the name of the profile
-     that will collect the contact information of petition signers.
- -   **Activity Profile**: select the name of the activity profile that
-     will collect petition responses.
- -   **Is Active?:** check this box to make your petition active.
- -   **Is Default?**: check this box to make your petition default.
+1. Aller à **Campagnes > Nouvelle pétition**, ensuite entrez les informations suivantes à votre pétition:
+- **Titre de la pétition** (requis): entrer le nom de votre pétition.
+- **Introduction**: entrer un texte qui décrit la pétition. Les signataires potentiels la liront, donc créez un bon message pour encourager les personnes à signer la pétition.
+- **Campagne**: si votre pétition est une stratégie ou une activité d'une campagne alors, sélectionnez le nom de la campagne.
+- **Profil du contact** (requis): sélectionnez le nom du profil qui recueillera les informations de contact des signataires.
+- **Profil de l'activité**: sélectionnez le nom du profil de l'activité qui recueillera les répondes de la pétition.
+- **Activer?** cochez cette case pour rendre la pétition active.
+- **Valeur par défaut?** cochez cette case pour indiquer que la pétition est celle par défaut.
 
-1.
-Click **Save** to save the petition information.
+2. Cliquer sur **Enregister** pour sauvegarder les informations de la pétition.
 
 ![image](../img/petition_new.png)
