@@ -12,7 +12,7 @@ La première étape est l'activation du composant CiviCampaign. Pour cela :
 1.  Ouvrir le menu **Administrer > Paramètres système > Composants**.
 2.  Sélectionner **CiviCampaign**, cliquer le bouton **Activer** puis, le bouton **Enregistrer** 
 
-A partir du moment où CiviCampaign est activé, le nouveau menu **Campagnes** apparait dans votre interface CiviCRM.
+À partir du moment où CiviCampaign est activé, le nouveau menu **Campagnes** apparait dans votre interface CiviCRM.
 
 Ajouter un nouveau type de campagne
 -----------------------------------
@@ -32,7 +32,7 @@ La méthode à suivre est la suivante :
      
     ![image](../img/campaign_configuration_typeoptions_1.png)
 3.  Cliquer le bouton **Ajouter type de campagne**. Le formulaire s'affiche. Entrez le libellé de ce nouveau type ainsi qu'une description (optionnel).
-4.  Eventuellement, vous pouvez changer le numéro d'ordre par défaut. Cela affectera uniquement son ordre d'affichage dans les listes déroulantes. A savoir que l'indice le plus faible (1) indique que l'information est affichée en première ligne.
+4.  Éventuellement, vous pouvez changer le numéro d'ordre par défaut. Cela affectera uniquement son ordre d'affichage dans les listes déroulantes. A savoir que l'indice le plus faible (1) indique que l'information est affichée en première ligne.
 5.  Cliquer le bouton **Enregistrer**.
 
 Une fois fait, il vous est possible de créer une campagne de ce type.
@@ -46,7 +46,7 @@ L'affectation d'un statut particulier vous donne la possibilité de mettre à jo
     Par défaut, CiviCampaign vous propose les statuts suivant : Planifié, En cours, Terminé, Annulé.
     ![image](../img/campaign_configuration_statuses.png)
 2.  Cliquer le bouton **Ajouter statut de campagne**. Le formulaire s'affiche. Entrez le libellé de ce nouveau statut ainsi qu'une description (optionnel). 
-3.  Eventuellement, vous pouvez changer le numéro d'ordre par défaut. Cela affectera uniquement son ordre d'affichage dans les listes déroulantes. A savoir que l'indice le plus faible (1) indique que l'information est affichée en première ligne.
+3.  Éventuellement, vous pouvez changer le numéro d'ordre par défaut. Cela affectera uniquement son ordre d'affichage dans les listes déroulantes. À savoir que l'indice le plus faible (1) indique que l'information est affichée en première ligne.
 4.  Cliquer le bouton **Enregistrer**. Une fois fait, ce nouveau statut est bien pris en compte.
 
 Indice d'implication (ou d'engagement)
@@ -59,7 +59,7 @@ Pour savoir comment affecter une activité à un individu, merci de vous référ
 Pour configurer l'Indice d'implication (ou d'engagement) :
 
 1.  Ouvrir le menu **Administrer > CiviCampaign > Indice d'engagement**.
-2.  Cconfigurer cet indice d'implication. Attention il s'agit d'un nombre et non d'un libellé. En règle générale, "1" correspond à l'implication la plus forte et "5" (par exemple) l'implication la moins forte. Par défaut CiviCampaign propose 5 niveaux. Vous pouvez bien évidemment, par exemple, n'en mettre que 3, ou alors 8,
+2.  Configurer cet indice d'implication. Attention il s'agit d'un nombre et non d'un libellé. En règle générale, "1" correspond à l'implication la plus forte et "5" (par exemple) l'implication la moins forte. Par défaut CiviCampaign propose 5 niveaux. Vous pouvez bien évidemment, par exemple, n'en mettre que 3, ou alors 8,
 
 Cette information peut, aussi, compléter l'évaluation par vos employés/organisateurs, relative à l'implication sur les contacts/membres interagissant avec votre association.
 
