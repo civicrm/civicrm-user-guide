@@ -1,4 +1,4 @@
-Taches quotidiennes
+Tâches quotidiennes
 ===================
 
 Ce chapitre décrit les taches quotidiennes liées à la gestion de campagnes, dans CiviCampaign.
@@ -8,11 +8,12 @@ Gestion des campagnes
 
 Le tableau de bord de campagnes vous permet de créer, configurer, gérer et voir les campagnes que vous avez créées. Vous pouvez, de même, y gérer vos enquêtes (sondages) et pétitions. Se référer aux chapitres suivants relatifs à : *Sondages* et *Pétitions*, pour toute information spécifique à ces fonctionnalités.
 
-Pour afficher le tableau de bord de campagnes, ouvrir le menu : **Campagens > Tableau de bord > Campagnes.**
+Pour afficher le tableau de bord de campagnes, ouvrir le menu : **Campagnes > Tableau de bord > Campagnes.**
 
 ![Campaign Dashboard](../img/campaign_everyday_dashboard.png)
 
-A partir de ce tableau de bord vous pouvez modifier, désactiver et supprimer les campagnes déjà créées. Vous pouvez aussi créer de nouvelles campagnes.
+À partir de ce tableau de bord vous pouvez modifier, désactiver et supprimer les campagnes déjà créées. Vous pouvez aussi créer de nouvelles campagnes.
+
 Le plus souvent, le nombre de campagnes existantes sera trop grand pour être visualisable sur une seule page. Leur exploitation peut se révéler peu aisée. Ouvez alors l'accordéon : "Rechercher des campagnes". Le formulaire intégré vous propose un jeu de filtres permettant de limiter l'affichage du nombre de campagnes.
 
 ![Campaign Search Criteria](../img/civicampaign-dashboard-search-criteria.png)
@@ -43,16 +44,16 @@ Une fois ces informations saisies, cliquez le bouton **Enregistrer**.
 Viser une population particulière : création d'un groupe
 --------------------------------------------------------
 
-Pour être efficace et moins onéreuse, une campagne doit pouvoir viser une population particulière. CiviCRM vous permet de créer des groupes comportant des individus en fonction de critères que vous aurez indiqués. La création de groupes (statiques et dynamiques) est expliquée dans le chapitre relatif aux "Etiquettes et Groupes".
+Pour être efficace et moins onéreuse, une campagne doit pouvoir viser une population particulière. CiviCRM vous permet de créer des groupes comportant des individus en fonction de critères que vous aurez indiqués. La création de groupes (statiques et dynamiques) est expliquée dans le chapitre relatif aux « Étiquettes et groupes ».
 Ces groupes peuvent être des segments.
 
-Envoyer un emailing de masse
-----------------------------
+Créer un envoi massif
+---------------------
 
-Un emailing de masse est un moyen permettant d'informer une audience plus ou moins large et/ou de susciter son intérêt.
+Un envoi massif (publipostage courriel) est un moyen permettant d'informer une audience plus ou moins large et/ou de susciter son intérêt.
 CiviCRM met à disposition un composant vous donnant une telle possibilité.
 
-1.  Créez votre courriel type en utilisant CiviMail. Pour en connaitre plus sur son utilisation et sa configuration, vous reporter à la section *Email* de ce manuel.
+1.  Créez votre courriel type en utilisant CiviMail. Pour en connaitre plus sur son utilisation et sa configuration, vous reporter à la section *Courriel* de ce manuel.
 2.  Sélectionnez votre campagne dans la liste déroulante.
 
 Créer un événement spécifique à la campagne
@@ -72,9 +73,9 @@ Toute contribution liée à une campagne peut être enregistrée en tant que tel
 
 Le fonctionnement du module CiviContribute (mise en oeuvre et configuration) est expliqué au chapitre *Contributions* de ce manuel.
 
-Record event participation
+Saisie des participants à un événement
 --------------------------
 
-Pendant et à l'issue d'un événement, les organisateurs peuvent enregistrer les personnes qui y ont participé, soit en récupérant les feuilles d'émargement et en l'indiquant manuellement à CiviCRM, soit en le saisissant en ligne.
+Pendant et à l'issue d'un événement, les organisateurs peuvent inscrire les personnes qui y ont participé, soit en récupérant les feuilles d'émargement et en l'indiquant manuellement à CiviCRM, soit en le saisissant en ligne.
 
 Le fonctionnement du module CiviEvent (mise en oeuvre et configuration) est expliqué au chapitre *Evénements* de ce manuel. 
