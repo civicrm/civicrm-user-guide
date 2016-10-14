@@ -53,6 +53,6 @@ Lorsque vous avez créé les deux profils, vous êtes prêt à créer une pétit
 - **Activer?** cochez cette case pour rendre la pétition active.
 - **Valeur par défaut?** cochez cette case pour indiquer que la pétition est celle par défaut.
 
-2. Cliquer sur **Enregister** pour sauvegarder les informations de la pétition.
+2. Cliquer sur **Enregister** pour sauvegarder les informations de la pétition. 
 
 ![image](../img/petition_new.png)
