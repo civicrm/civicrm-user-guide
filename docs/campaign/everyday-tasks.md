@@ -1,130 +1,80 @@
-Everyday tasks
-==============
+Taches quotidiennes
+===================
 
-This chapter describes everyday tasks related to managing campaigns with
-CiviCampaign.
+Ce chapitre décrit les taches quotidiennes liées à la gestion de campagnes, dans CiviCampaign.
 
-Managing Campaigns
-------------------
+Gestion des campagnes
+---------------------
 
-The Campaign Dashboard allows you to create, configure, manage and view
-your campaigns. You can also manage surveys and petitions via the
-Campaign Dashboard (refer to the following chapters on *Surveys* and
-*Petitions* for specific information).
+Le tableau de bord de campagnes vous permet de créer, configurer, gérer et voir les campagnes que vous avez créées. Vous pouvez, de même, y gérer vos enquêtes (sondages) et pétitions. Se référer aux chapitres suivants relatifs à : *Sondages* et *Pétitions*, pour toute information spécifique à ces fonctionnalités.
 
-To view the Campaign Dashboard, go to **Campaigns > Dashboard >
-Campaigns.**
+Pour afficher le tableau de bord de campagnes, ouvrir le menu : **Campagens > Tableau de bord > Campagnes.**
 
 ![Campaign Dashboard](../img/campaign_everyday_dashboard.png)
 
-From the Campaign Dashboard, you can then Edit, Disable and Delete
-existing campaigns, and create new campaigns.
-If you have a large number of campaigns you can open the campaign search
-accordion to set filters to display only the campaigns you want to see a
-t that time.  
+A partir de ce tableau de bord vous pouvez modifier, désactiver et supprimer les campagnes déjà créées. Vous pouvez aussi créer de nouvelles campagnes.
+Le plus souvent, le nombre de campagnes existantes sera trop grand pour être visualisable sur une seule page. Leur exploitation peut se révéler peu aisée. Ouvez alors l'accordéon : "Rechercher des campagnes". Le formulaire intégré vous propose un jeu de filtres permettant de limiter l'affichage du nombre de campagnes.
 
 ![Campaign Search Criteria](../img/civicampaign-dashboard-search-criteria.png)
 
-Create a New Campaign
----------------------
+Création d'une campagne
+-----------------------
 
-To create a Campaign:
+Pour créer une campagne, il suffit de suivre les étapes suivantes :
 
-1.   Go to **Campaign > New Campaign**
+1.   Ouvrir le menu **Campagne > Nouvelle campagne**. Le formulaire suivant apparait :
 ![image](../img/campaign_everyday_newcampaign.png)
 
-2.  Enter information about your campaign:
-    -   **Title** (required): enter a unique name that describes your
-    campaign. It's helpful to establish a naming convention for new
-   campaigns so they alphabetize in drop-down lists automatically and
-   are easy to sort through when associating an activity with the
-   campaign.
-    -   **Campaign Type** (required): select the type of campaign, e.g.
-    Constituent Engagement. To add more options to the Campaign Type
-    drop-down list, see the previous chapter on setting up
-    CiviCampaign.
-    -   **Description**: enter text that describes your campaign.
-    -   **Include group(s)**: if appropriate, select the group that
-    contains the individuals you are targeting for this campaign. To
-    find out more about creating groups, see the chapter on Tags and
-    Groups.
-    -   **Start Date & Time** (required): enter the start date and time of
-    the campaign
-    -   **End Date & Time**: enter the end date and time of the campaign.
-    If these fields are empty, then the campaign will be considered
-    ongoing.
-    -   **Campaign Status**: select the status of the campaign, e.g. In
-    Progress, Planned, etc. To add more options to the Campaign
-    Status drop-down list, see the previous chapter on setting up
-   CiviCampaign.
-    -   **Campaign Goals**: enter text the describes the goals and/or
-    objectives of your campaign. You may also want to describe the
-    activities you plan on conducting to meet those goals.
-    -   **Revenue Goals**: if applicable, enter a number that indicates the
-    amount you plan to raise during your campaign.
-    -   **External ID**: if you want to track the campaign ID of the
-    campaign when it existed in another database, you can enter the ID
-    number of your legacy campaign.
-    -   **Is Active?**: check the box if the campaign is an active
-    campaign. If the campaign is inactive, then uncheck the box.
+2.  Saisir les informations qui vont caractériser votre campagne :
+    -   **Libellé** (obligatoire) : indiquez le nom (qui sera unique) décrivant votre campagne. Il est judicieux d'établir (une fois pour toutes) une convention de nomage vous permettant de retrouver rapidement une campagne spécifique, particulièrement lorsqu'il y en a beaucoup. Pour rappel, les listes déroulantes présentent ces informations de façon alphabétique.
+    -   **Type de campagne** (obligatoire) : sélectionnez le type de votre campagne. S'il n'existe pas dans la liste, vous pouvez en ajouter d'autre(s). Voir le précédent chapitre relatif au paramétrage de CiviCampaign. **Astuce** il existe une icone "clé à molette" à coté de cette liste déroulante. En la cliquant vous afficherez la liste des types de campagnes, permettant ainsi de créer un nouveau type à la volée. 
+    -   **Description** : zone de texte libre et non obligatoire. Néanmoins très utile pour décrire votre campagne : stratégie, actions, etc...
+    -   **Inclure le(s) groupe(s)** : Il est possible de sélectionner un groupe de contacts particulier qui sera particulièrement ciblé par votre camapgne (segmentation par exemple). La création de groupes (statiques et dynamiques) est expliquée dans le chapitre relatif aux "Etiquettes et Groupes".
+    -   **Date de début** (obligatoire) : vous permet d'indiquer la date de lancement de cette campagne
+    -   **Date de fin** : vous permet d'indiquer la date de fin de cette campagne. Si cette information est laissée vide, alors la campagne sera considérée comme étant en cours.
+    -   **Statut de campagne** : Sélectionnez le statut de la campagne : en cours, terminée, etc... S'il n'existe pas dans la liste, vous pouvez en ajouter d'autre(s). Voir le précédent chapitre relatif au paramétrage de CiviCampaign. **Astuce** il existe une icone "clé à molette" à coté de cette liste déroulante. En la cliquant vous afficherez la liste des statuts de campagnes, permettant ainsi de créer un nouveau statut à la volée.
+    -   **Buts de la campagne** : zone de texte libre et non obligatoire. Néanmoins très utile pour indiquer les buts de votre campagne et la façon de les atteindre.
+    -   **Objectif de collecte de fonds** : si un des buts de votre campagne est d'atteindre un objectif de levée de fonds, indiquez le dans cette zone.
+    -   **Identifiant externe** : Ce champs est très utile lorsque vous gérez votre campagne via un logiciel externe dédié. Cela vous permet d'indiquer l'identifiant que cet outil a affecté à votre campagne. Cela va vous permettre de faciliter les échanges de données/fichiers ultérieurs entre CiviCampaign et votre logiciel.
+    -   **Actif ?** : permet d'indiquer si cette campagne est active ou non.
 
-Click **Save**, to save the campaign.
+Une fois ces informations saisies, cliquez le bouton **Enregistrer**.
 
-Targeting constituents: create a group
---------------------------------------
+Viser une population particulière : création d'un groupe
+--------------------------------------------------------
 
-You may want to target a specific group of individuals for all campaign
-activities. This is done by creating a group to target these
-individuals. See the chapter Tags and Groups for more information about
-how to create a group.
+Pour être efficace et moins onéreuse, une campagne doit pouvoir viser une population particulière. CiviCRM vous permet de créer des groupes comportant des individus en fonction de critères que vous aurez indiqués. La création de groupes (statiques et dynamiques) est expliquée dans le chapitre relatif aux "Etiquettes et Groupes".
+Ces groupes peuvent être des segments.
 
-Send a mass mailing
--------------------
+Envoyer un emailing de masse
+----------------------------
 
-A mass mailing to your target audience can generate interest and
-participation, and also be used to call for donations.
+Un emailing de masse est un moyen permettant d'informer une audience plus ou moins large et/ou de susciter son intérêt.
+CiviCRM met à disposition un composant vous donnant une telle possibilité.
 
-1.  Create the email using CiviMail. See the *Email* section of this book
-    to learn more about configuring and using CiviMail.
-2.  Select the appropriate campaign from the drop-down list when setting
-    up the mailing.
+1.  Créez votre courriel type en utilisant CiviMail. Pour en connaitre plus sur son utilisation et sa configuration, vous reporter à la section *Email* de ce manuel.
+2.  Sélectionnez votre campagne dans la liste déroulante.
 
-A campaign event
-----------------
+Créer un événement spécifique à la campagne
+-------------------------------------------
 
-Events created using CiviEvent can be associated with a campaign. To
-find out more about configuring and using CiviEvent, see the *Events*
-section of this book.
+Le composant CiviEvent vous permet de créer des événements : conférences, sessions de formations, etc... pouvant être associés à une campagne. Le fonctionnement de ce module (mise en oeuvre et configuration) est expliqué au chapitre *Evénements* de ce manuel.
 
-1.  Create and configure the event.
-2.  Select the appropriate campaign from the drop-down list when setting
-    up a mailing for the event.
-3.  Send a mass email using CiviMail to your target audience using a
-    group or groups, and ask people to register for the event.
-4.  Again, select the name of the campaign on the mailing set-up.
-5.  Search for individuals who have indicated they want to register for
-    the event.
+1.  Créez et configurez l'événement.
+2.  Sélectionnez votre campagne dans la liste déroulante pour l'envoi du mailing associé.
+3.  Envoyez votre mailing de masse au segment/groupe ciblé et demandez à ces personnes de s'enregistrer.
+4.  Une fois fait, vous pouvez rechercher les personnes ayant indiqqué leur présence à cet événement.
 
-Record campaign contributions
------------------------------
+Affecter des contributions à une campagne
+-----------------------------------------
 
-As contributions come in, either online or offline, they can be
-associated with a campaign; simply select the appropriate campaign from
-the drop-down menu when recording the contribution.
+Toute contribution liée à une campagne peut être enregistrée en tant que telle, qu'elle soit en-ligne ou "classique" (chèque, prélèvement, etc...). Dans le premier cas, lors de sa création, vous devez indiquer sur votre page de contribution en ligne que tout don doit être affecté à cette campagne. Dans le deuxième cas, sélectionnez votre campagne dans la liste déroulante lors de la saisie manuelle du don.
 
-To find out more about configuring and using CiviContribute, see the
-*Contributions* section.
+Le fonctionnement du module CiviContribute (mise en oeuvre et configuration) est expliqué au chapitre *Contributions* de ce manuel.
 
 Record event participation
 --------------------------
 
-During and after an event, organizers can record who participated by
-either collecting sign-in sheets and entering the participants manually,
-or recording who participated directly online.
+Pendant et à l'issue d'un événement, les organisateurs peuvent enregistrer les personnes qui y ont participé, soit en récupérant les feuilles d'émargement et en l'indiquant manuellement à CiviCRM, soit en le saisissant en ligne.
 
-Have participants write their contact information on sign-in sheets when
-they arrive, or if you have an internet connection at the event venue
-you may be able to enter participants directly into the database.
-
-Find out more about how to record participant information for an
-event, see the *Events* section.
+Le fonctionnement du module CiviEvent (mise en oeuvre et configuration) est expliqué au chapitre *Evénements* de ce manuel. 
