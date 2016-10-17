@@ -1,20 +1,12 @@
-What is SMS?
-============
+Qu'est-ce qu'un SMS?
+====================
 
-SMS stands for Short Message, or Short Messaging Service, and is simply
-the text messages your mobile phone may send and receive on a daily
-basis. CiviCRM can handle the sending and receiving of these messages
-from within the system, providing you with an extra means of making and
-tracking communication with your constituents, other than email.
+L'acronyme SMS signifie "Short Message" ou "Short Messaging Service", c'est simplement un message texte que votre téléphone mobile peut envoyer et recevoir quotidiennement. CiviCRM peut gérer l'envoie et la réception de ces messages à partir du système, vous offrant un moyen communication, autre que le courrier électronique.
 
-Some of the use-cases for this include:
+Cas d'utilisation:
 
--   Disseminating information to areas where mobile and landline
-    internet access is either unavailable or unstable.
--   Collecting information/responses from remote areas
--   Rolling out an SMS marketing campaign
--   Distributing alerts and reminders
--   Sending a note to event participants (e.g. a meeting) that the
-    location or time has changed at the last minute
-
-
+- Diffuser l'information dans les régions où l'accès à Internet est indisponible ou instable;
+- Collecter l'information/réponses de ces régions;
+- Déploiement d'une campagne de marketing par SMS;
+- Distribution des alertes et des rappels;
+- L'envoi d'une note aux participants d'un événement (par exemple une rencontre) dont la localisation ou l'heure à changer à la dernière minute.
