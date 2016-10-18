@@ -1,26 +1,21 @@
-Reports and Analysis (SMS)
+Rapports et analyses (SMS)
 ==========================
 
-### Reporting on all text message activity
+### Les rapports sur toutes les activités de message texte
 
-To report on all SMS activity recorded in CiviCRM, you can run the
-**Activities** report, available here: **Reports > Contact Reports**.
+Pour produire un rapport sur toutes les activités de type SMS enregistré dans CiviCRM, vous pouvez exécuter le rapport **Activities**, disponible sous: **Rapports > Rapports de contact**.
 
 ![image](../img/contact%20report%20listing.PNG) 
 
+Les types d'activité SMS sont "SMS entrant", "SMS groupé" et "Envoi SMS".
 
-The SMS activity types are "Inbound SMS", "Mass SMS" and "SMS delivery".
+Vous pouvez ensuite filtrer par type d'activité SMS et autre:
 
-You can then filter by SMS activity type and further by:
-
--   message status (e.g. completed/scheduled)
--   date and time
--   which group or tag the recipient is in
--   and characteristics of the recipients themselves, such as their name
-    and location.
+- statut du message (par exemple complété/planifié);
+- date et heure;
+- le groupe ou l'étiquette dans lequel est le destinataire;
+- caractéristiques propres aux destinataires, telles que leurs nom et localisation.
 
 ![image](../img/SMS%20types.PNG) 
 
-
-Finally, to update the results click "Preview Report" at the bottom of
-the Filters window.
+Finalement, pour mettre à jour les résultats, cliquez sur "Rafraîchir les résultats" au bas de la fenêtre.
