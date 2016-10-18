@@ -1,120 +1,62 @@
-Everyday tasks
-==============
+Tâches quotidiennes
+===================
 
-Here we assume that you have already configured an SMS provider in
-CiviCRM, and are now ready to either test sending an SMS, or engage with
-your contacts. If you have yet to set up an SMS gateway, please read
-"Set-up" first.
+Nous supposons que vous avez déjà configuré un fournisseur SMS dans CiviCRM, et que vous êtes prêt, soit à tester l'envoi d'un SMS, ou à collaborer avec vos contacts. Si ce n'est pas encore fait, vous devez configurer la passerelle SMS (voir section "Configuration"). 
 
-Sending text messages
-----------------------
+Envoi de messages texte
+-----------------------
 
-SMS messages can be sent to mailing lists or the results of an advanced
-search for bulk SMS blasting, or a selection of individuals chosen
-manually.
+Les messages SMS peut être envoyés à des listes diffusion ou par envoi regroupé, ou à des personnes sélectionné manuellement.
 
-### Messages to a few individuals
+### Messages destinés à quelques personnes
 
-If you wish to send a text message to an existing individual, open the
-contact's profile, click the "Actions" button and select the option
-"Send SMS". You can also create an SMS in the activities tab of a
-contact from the "- new activity -" drop-down menu.
+Si vous souhaitez envoyer un message texte à un individu, accéder au profil du contact, cliquer sur le bouton "Actions" et sélectionner l'option "Envoi SMS". Vous pouvez aussi créer un SMS à partir de l'onglet "Activités" du contact en sélectionnant une nouvelle activité dans le menu déroulant "Nouvelle activité".
 
 ![image](../img/CiviCRM_SMS_actionmenu.png)
 
-A new page will now appear in which to write your message:
+Une nouvelle page va apparaître dans laquelle vous pourrez écrire votre message:
 
--   **From**: choose the SMS provider you would like to send a message
-    from.
--   **To**: this field will automatically populate with the mobile
-    number of the contacts you selected on the previous screen, however,
-    you can add further recipients by typing their name after the first
-    number, and selecting a name from the suggestion list. Note that
-    contacts without mobile numbers will not appear in the list (the
-    phone number type must be "Mobile").
--   **Name the SMS**: this will appear as the SMS activity against the
-    recipient's profiles, so giving it a name appropriate to the subject
-    will help differentiate it from others later (e.g. "Change of email
-    address request").
--   **Use Template**: if an SMS template has been created in the past,
-    you may insert it here to save time (for more information, see
-    "Set-up" in the "Email" chapter).
--   **Plain-Text Format**: here you may enter up to 160 characters of
-    text for the message content. As with emails, tokens can also be
-    inserted to pull information about the contact into the message
-    (e.g. first and last name, or contribution amount; see "Tokens and
-    mail merge").
--   **Save as New Template**: message written, if you wish to re-use the
-    text regularly at a later date, you can save it as a template to
-    save time later.
+- **De**: sélectionner un fournisseur SMS par lequel vous souhaitez envoyer ce message.
+- **À**: ce champ est automatiquement rempli avec le numéro du téléphone mobile des contacts sélectionnés dans l'écran précédent,  cependant vous pouvez ajouter d'autres destinataires en saisissant leur nom après le premier numéro, sélectionner le nom parmi la liste suggérée. Notez que les contacts sans numéro de téléphone mobile n'apparaîtront pas dans la liste (le numéro de téléphone doit être de type "Mobile").
+- **Nom du SMS**: ce nom apparaîtra comme une activité de type SMS dans les profils des destinataires (contacts). Donnez-lui un nom approprié qui plus tard, vous permettra de le différencier des autres.
+- **Utiliser un modèle**: si un modèle est déjà créé, vous pouvez l'ajouter ici pour épargner du temps (pour plus d'informations, voir «Configuration» dans le chapitre «Courrier électronique»).
+- **Format texte**: dans le contenu du message, vous pouvez saisir un texte de 160 caractères maximum . Comme avec les courriers électroniques, vous pouvez ajouter des jetons pour insérer des informations du contact.
+- **Sauvegarder en tant que nouveau modèle**: le message écrit peut être sauvegardé et réutilisé plus tard comme modèle.
 
 ![image](../img/CIVICRM_SMS_sending-to-an-individual.png)
 
-Finally, once the SMS has been sent, a confirmation message will appear
-and an SMS activity will be posted against the recipient's contact
-profile. To view this, open the contact, go to the "Activity" tab and
-browse the list for an activity of the type "Text Message (SMS)". Click
-"View" in the last column to see more details, including the message
-content and campaign.
+Finalement, lorsque le SMS est envoyé, un message de confirmation apparaîtra et une activité de type SMS sera publiée dans le profil du destinataire (contact). Pour le voir, accédez au contact, allez à l'onglet "Activité" et parcourez la liste des activités de type "Message texte (SMS) envoyé". Cliquer sur "Consulter" pour voir plus de détail, incluant le contenu du message et la campagne.
 
-### Mass SMS messaging
+### Envoi massif de SMS
 
-Alternatively, you might want to send a personalised SMS to many people
-at once. Before you start to write your message however, you will need
-to have a list of recipients. If the message is a one-time affair, you
-can run an advanced search for the criteria your participants must fall
-into, select some or all of the contacts in the results list and choose
-"Send SMS to Contacts" in the "Actions" drop-down menu. Please note that
-the activity type this method creates will be "Text Message (SMS).
+Vous pouvez envoyer un SMS personnalisé à plusieurs personnes en même temps. Avant de commencer l'écriture de votre message, vous aurez besoin de la liste des destinataires. Si le message est utilisé une fois, vous pouvez exécuter une recherche avancée pour sélectionner les participants. Dans la liste, sélectionner les contacts et ensuite sélectionner "Envoyer un SMS aux contacts" dans le menu déroulant "Actions". Noter que le type d'activité de cette méthode sera "Message texte (SMS) envoyé".
 
 ![image](../img/CiviCRM_SMS_sending-by-advanced-search.png)
 
-Otherwise should you wish to send bulk text messages to the same group
-of contacts on a regular basis, you can use a mailing list. If you
-haven't built one before, or would like to refresh your memory, read the
-chapter "Setup" in the email section.
+Sinon, si vous souhaitez envoyer massivement des messages texte au même groupe de contacts sur une base régulière, vous pouvez utiliser une liste d'envoi. Si vous en avait pas encore défini, ou si vous souhaitez rafraichir votre  mémoire, lire la section "Configuration" dans le chapitre "Courrier électronique".
 
-To begin writing a bulk SMS, go to: **Mailings** > **New SMS**. There
-will three steps to complete:
+Pour écrire un SMS regroupé, aller à **Envois massifs** > **Nouveau SMS**. Il y a trois étapes à compléter:
 
-1.  **Naming your SMS and selecting recipients**: first give the text
-    message a name. This will appear as the SMS activity against every
-    recipient's contact profile, so giving it a clear subject will help
-    identify the content later. You will then need to select your
-    recipients, so move the mailing lists you wish to include from the
-    "include groups" box on the left, to the right using the "Add"
-    button. You can also specify groups you do not want to include;
-    contacts who fall into both groups will be not be sent a message
-    (e.g. they may have already received a similar SMS under the group
-    you have chosen not to include). Click Next.
-    
-    ![image](../img/CiviCRM_Bulk-SMS_recipients.png)
-2.  **SMS Content**: before writing the message, select an available SMS
-    Provider and decide whether to use an existing mailing template for
-    the content of your SMS (see "Setup in the Email chapter).
-    
-    The message content can either be written manually in the "Compose
-    On-Screen" section, or uploaded from a text file, however, bear in
-    mind that the character limit for both is 160 (this is the length of
-    one text message). You may also insert tokens to personalise the SMS
-    by 'pulling' information about each contact into the message (see
-    "Tokens and mail merge" to learn more). Once written, if you think
-    you would like to reuse the message later, tick the check box "Save
-    as New Template" before going to the next screen.
-    
-    ![image](../img/CiviCRM_Bulk-SMS_write-message.png)
-3.  **Schedule or Send**: you now have the option to send the message
-    immediately, or schedule it to be sent automatically at a future
-    date and time. If you do not wish to do either at the moment, you
-    can click "Continue Later" to save your progress and make the
-    decision later. To return to the message, go to **Mailings** >
-    **Draft and Unschedule Mailings**, tick the option "Is SMS" and
-    click "Search". A list of unsent text messages will appear - simply
-    click "continue" against the message you wish to complete.
-    
-    Finally, you can click on the "Preview SMS" banner at the bottom to
-    check the content, or hit "Submit Mass SMS" to send your
-    message.![image](../img/CiviCRM_Bulk-SMS_schedule-or-send.png)
+1.  **Nommez votre SMS et sélectionnez les destinataires** 
+
+    Premièrement, donner un nom au message texte. Il apparaîtra comme activité de type SMS dans le profil des destinataires (contacts), un sujet clairement défini vous aidera à l'identifier plus tard. Vous aurez besoin de sélectionner vos destinataires, sélectionnez les groupes que vous voulez inclure, déplacez les groupes de la boîte de gauche vers celle de droite en utilisant le bouton "Ajouter". Vous pouvez aussi spécifier les groupes que vous ne voulez pas inclure; les contacts qui sont dans les deux groupes ne recevront pas le message. Cliquer sur Suivant.
+![image](../img/CiviCRM_Bulk-SMS_recipients.png)
+
+2.  **Contenu SMS**
+
+    Avant d'écrire le message, sélectionnez un fournisseur SMS et décidez si un gabarit sera utilisé pour le contenu du SMS (voir "Configuration" dans le chapitre "Courrier électronique").
+
+    Le contenu du message peut être écrit manuellement dans la section "Composer sur la page", ou téléchargé d'un fichier texte, cependant gardé à l'esprit que la limite de caractères pour les deux est de 160 (longueur d'un message de texte).
+Vous pouvez aussi ajouter des jetons pour personnaliser le SMS insérant de l'information sur le contact dans le message.
+Une fois écrit, si vous voulez réutiliser le message plus tard, cocher la boîte "Sauvegarder en tant que nouveau modèle" avant de continuer dans le prochain écran.
+![image](../img/CiviCRM_Bulk-SMS_write-message.png)
+
+3.  **Planifier ou Envoyer** 
+
+    Vous avez l'option d'envoyer le message immédiatement, ou planifier son envoi automatiquement à une date et à une heure donnée. Si vous ne souhaitez pas le faire maintenant, vous pouvez cliquer sur "Continuer plus tard" pour sauvegarder votre progression et prendre la décision plus tard. Pour retourner au message, aller à **Envois massifs** > **Envois massifs brouillons et non-programmés**, cocher l'option "Is SMS" et cliquer sur le bouton "Rechercher". La liste des messages texte non envoyés apparaît, simplement cliquer sur "Continuer" à la droite du message que vous voulez compléter.
+
+   Finalement, vous pouvez cliquer dans la fenêtre "Prévisualiser SMS" située en bas pour vérifier le contenu, ou sélectionner "Soumettre le SMS groupé" pour envoyé votre message.
+![image](../img/CiviCRM_Bulk-SMS_schedule-or-send.png)
 
 
 
