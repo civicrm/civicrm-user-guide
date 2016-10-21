@@ -1,56 +1,31 @@
-Choosing your CMS
+Choisir votre CMS
 =================
 
-CiviCRM works with what are arguably the three most popular open source
-Content Management Systems (CMS).
+CiviCRM fonctionne avec les trois plus populaires CMS (Content Management Systems) en logiciel libre.
 
 -   Drupal
 -   Joomla
 -   Wordpress
 
-Before starting a project you should consider how you plan to use
-CiviCRM both now and in the future. Two big questions are; How much
-information from CiviCRM do we want to display on our website (e.g. A
-live list of our current members)? What information, collected through
-our website, do we want to store in CiviCRM (e.g. Family data from a
-public form with the family relationships automatically added). This is
-known as integration. How much integration you require will help you
-determine which is the best CMS for you.
+Avant de commencer un projet, vous devriez envisager la façon dont vous  utiliserez CiviCRM, maintenant et à l'avenir.
+Les deux importantes questions sont; qu’elles sont les informations de CiviCRM, voulons-nous afficher sur notre site Web (ex.: la liste en direct de nos membres actuels)?
+Quelles sont les informations que nous voulons collecter par notre site Web et qu'est-ce que nous voulons stocker dans CiviCRM (ex.: données sur les familles provenant d'un formulaire public, elles sont ajoutées automatiquement dans CiviCRM)?
+C'est que l'on appelle l'intégration. Le niveau d'intégration dont vous avez besoin vous aidera  à déterminer quel est le meilleur CMS pour vous.
 
-You may also choose a CMS because you already know how to use it or it
-is already used by your organisation. Each CMS has different advantages
-and disadvantages and different people will give you views on which is
-better. This chapter gives a quick introduction to each of them.
+Vous pouvez également choisir un CMS parce que vous le connaissez déjà ou parce qu'il est déjà utilisé par votre organisation.
+Chacun des CMS a leurs avantages et leurs inconvénients et l'opinion des gens diffère sur lequel est le meilleur.
+Ce chapitre donne une brève introduction de chacun d’eux.
 
-**Drupal** is the most flexible and has the best integration with
-CiviCRM. If you have complex CMS needs or envisage a lot of interaction
-between users on your website and your CRM, then Drupal might be the CMS
-for you. The main negative is that this flexibility makes it harder for
-new site builders to get to grips with.
+**Drupal** est le plus flexible et a la meilleure intégration avec CiviCRM. Si vous avez besoin d'un CMS élaboré ou vous envisagez d'avoir beaucoup d'interaction entre les utilisateurs de votre site Web et votre CRM, alors Drupal pourrait mieux répondre à vos besoins. Le principal aspect négatif est que cette flexibilité rend la prise en main plus difficile.
 
-**Joomla** isn't as popular as WordPress, though it is more popular than
-Drupal. Joomla is easier to learn than Drupal. The amount of integration
-available is lower than then when using Drupal.
+**Joomla** n'est pas aussi populaire que WordPress, mais il est plus populaire que Drupal. Joomla est plus facile à apprendre que Drupal. Les possibilités d'intégration sont inférieures à celles de Drupal.
 
-**WordPress** is by a wide margin the most popular of the three CMS's.
-It is considered to be very easy to build sites using Wordpress,
-especially for people that are not familiar with web technology. A lot
-of people know WordPress as a blogging platform rather than a CMS, but
-it is becoming more powerful and flexible with each release. The amount
-of integration available is lower than when using Drupal.
+**WordPress** est le plus populaire des trois CMS. Il est considéré comme étant très facile à utiliser, spécialement par les personnes non familiarisées aux technologies Web. Les personnes connaissent  WordPress plus comme plateforme pour les blogues qu'un CMS, mais il devient plus puissant et flexible à chaque version. Les possibilités d'intégration sont inférieures à celles de Drupal.
 
-The following chapters in this section go into more detail about what is
-offered for each CMS.
+Les chapitres suivants de cette section vont plus en détail sur l'offre de chaque CMS.
 
-Users and Contacts
--------------------
+Utilisateurs et Contacts
+------------------------
 
-Anonymous site visitors and those with a website login are
-website **Users** 
-Individuals and organisations with a CiviCRM record are **Contacts** 
-
-
-
- 
-
-
+Les visiteurs anonymes et ceux qui peuvent se connecter au site Web sont des **Utilisateurs**.
+Les individus et les organisations qui ont un dossier de CiviCRM sont des **Contacts**.
