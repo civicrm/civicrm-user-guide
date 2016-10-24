@@ -63,7 +63,7 @@ Quelques concepts clés
 -------------------
 Les chapitres de cette section vous aiderons à tirer le meilleur de ce que vous devez savoir pour optimiser CiviEvent
 Avant de commencer, voici quelques points clés qui vous aiderons à configurer votre évènement.
-Vous allez mettre ces concepts en pratique en suivant les tâches, étape par étape, dans les chapitres suivants de cet article
+Vous allez mettre ces concepts en pratique en suivant les tâches, étape par étape, dans les chapitres suivants de cet article.
 
 ### Evenements, participants et contacts
 
@@ -82,28 +82,18 @@ Les types d'évènements sont également utiles pour catégoriser et segmenter l
 
 
 
-### Participant roles
+### Role des Participants 
 
-Every contact that participates in an event is assigned a participant
-role. The most common is probably attendee. Others include volunteer or
-speaker.  Participant roles are fully customizable to match the types of
-events your organization conducts. This allows you to segment
-participants into meaningful categories based on their involvement in
-the event, for example for sending an email to volunteers only or
-generating a list of past table captains for fundraisers. You can also
-create custom fields that apply only to specific roles, for example, to
-collect information about availability from volunteers only.
+A chaque contact qui participe à un événement est attribué un "rôle" de participant. Le plus courant est probablement participant mais aussi animateur, formateur, conférencier, journaliste, invité, etc...
+Les rôles des participants sont entièrement personnalisables pour correspondre aux types d'événements de votre organisation.
+Ceci vous permet de sectoriser les participants dans des catégories significatives en fonction de leur participation à l'événement, par exemple pour l'envoi d'un e-mail à des bénévoles uniquement ou générer une liste de journalistes ayant assisté à vos évènements. 
+Vous pouvez également créer des champs personnalisés qui ne concernent que des rôles spécifiques, par exemple, pour recueillir des informations sur la disponibilité des bénévoles seulement.
 
-### Participant statuses
 
-Participant statuses (for example, registered, wait-listed, attended or
-cancelled) are used to track what stage the contact is at in their
-'event journey'. Participant statuses are fully customizable to match
-the way your organization does event registration. This allows you to
-segment participants into meaningful categories based on their behavior
-with respect to the event,for the purpose of things like generating
-sign-in sheets, tracking how many people are likely to come to an event,
-and tailoring email communications to registrants.
+### Statut des Participants 
+
+Le statut des participants (par exemple, enregistrés, liste d'attente, assisté ou annulé) est utilisé pour suivre le stade du contact par rapport à l'évènement. Les statuts des participants sont entièrement personnalisables pour correspondre à la façon dont votre organisation enregistre ses événements. Cela vous permet de segmenter les participants en catégories significatives en fonction de leur comportement à l'égard de l'événement, dans le but, par exemple, de générer des feuilles de présence, faire le suivi du nombre de personnes susceptibles de venir à un autre événement, et d'adapter les communications par courriel aux personnes inscrites.
+
 
 Other parts of CiviCRM that work with CiviEvent 
 -------------------------------------------------
