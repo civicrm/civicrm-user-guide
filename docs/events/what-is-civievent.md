@@ -1,19 +1,15 @@
 Qu'est-ce que CiviEvent?
 =======================
 
-CiviEvent fournit un ensemble d'outils pour gérer des événements. Ces outils vous permettent d'être plus efficace en tant qu'organisateur de l'évènement et réduisent la quantité de taches à réaliser 
+CiviEvent fournit un ensemble d'outils pour gérer des événements. Ces outils vous permettent d'être plus efficace en tant qu'organisateur de l'évènement et réduisent le nombre de taches à réaliser 
 
 CiviCRM vous aide à gérer un enregistrement simple ou complexe.
 Principales fonctionnalités incluses :
 
--   self-registration for participants, including online credit card
-    payments
--   tracking sign-ups, cancellations, and attendance
--   promotion of your events on your website
--   streamline event set-up for similar, recurring events with event
-    templates and event copy functionality 
--   participant check in on-site at the event from any computer with an
-    internet connection 
+-   Auto inscription des participants, avec possibilité de règlement en ligne par carte de crédit.
+-   Suivi des inscriptions, annulations. Affichage de vos évènements sur votre site web.
+-   Copie des fonctionnalités et paramétrage d'un évènement pour d'autres similaires ou périodiques
+-   Enregistrement des participants de n'importe quel ordinateur avec une connexion à Internet
 
 Scenario: Youth leadership workshop
 -----------------------------------
@@ -63,34 +59,27 @@ of attendees, total event fees paid, and total amount still due. The
 event and mail templates can be updated if necessary and saved for the
 next event.
 
-Some key concepts 
+Quelques concepts clés 
 -------------------
+Les chapitres de cette section vous aiderons à tirer le meilleur de ce que vous devez savoir pour optimiser CiviEvent
+Avant de commencer, voici quelques points clés qui vous aiderons à configurer votre évènement.
+Vous allez mettre ces concepts en pratique en suivant les tâches, étape par étape, dans les chapitres suivants de cet article
 
-The chapters in this section take you through everything you need to
-know in order to get the most from CiviEvent. Below are a few concepts
-you might find helpful for you before you begin to set up your event.
-You will put these concepts into practical use when following the
-step-by-step tasks in the next chapters of this section.
+### Evenements, participants et contacts
 
-### Events, participants and contacts
-
-First lets explain some basic concepts. CiviCRM allows you to create one
-or more **events** that your **contacts** can participate in. When a
-contact participates in an event, they are called a **participant**. 
+Préalable : CiviCRM permet de créér un ou plusieurs **evenements** auxquels vos **contacts** peuvent participer. 
+quand un contact participe à un évènement il est appelé **participant**. 
 
 ### Event types
 
-CiviCRM allows you to define different types of events, such as
-conferences, meetings and fundraisers. Which event types to create is
-entirely up to you, according to the needs of your organization.
+CiviCRM permet de définir différents tyes d'évènements tels que conférences, réunions, présentations, formations,sponsors,...
+Vous pouvez créer autant de types d'évènements, en fonction des besoins de votre organisation.
 
-Event types come in handy if you have different requirements for types
-of events. For example, you can create custom fields to store and
-display additional data about an event by its event type. See the
-chapter *Custom data on events* in this section for more information
-about this. They are also useful for categorizing and segmenting events
-and attendees, for example, you could easily find all contacts that have
-come to one of your trainings or attended on of your fundraising events.
+Par exemple, vous pouvez créer des champs personnalisés pour stocker et afficher des données supplémentaires sur un événement en fonction de son type d'événement. Les différents types d'événements sont utiles si vous avez des exigences différentes pour vos événements.
+Voir le chapitre * Custom data on events * dans cette section pour plus d'information
+Les types d'évènements sont également utiles pour catégoriser et segmenter les événements et les participants, par exemple, vous pouvez facilement trouver tous les contacts qui sont venus à l'une de vos formations ou assisté à l'un de vos événements de collecte de fonds.
+ 
+
 
 
 ### Participant roles
