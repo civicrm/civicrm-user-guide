@@ -1,12 +1,10 @@
-What is CiviEvent?
-==================
+Qu'est-ce que CiviEvent?
+=======================
 
-CiviEvent provides a set of tools for running events. These tools make
-you more effective as an event organiser and reduce the amount of
-administration require.
+CiviEvent fournit un ensemble d'outils pour gérer des événements. Ces outils vous permettent d'être plus efficace en tant qu'organisateur de l'évènement et réduisent la quantité de taches à réaliser 
 
-CiviCRM helps you manage both simple and complicated registration
-processes. Some key features include:
+CiviCRM vous aide à gérer un enregistrement simple ou complexe.
+Principales fonctionnalités incluses :
 
 -   self-registration for participants, including online credit card
     payments
