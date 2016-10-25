@@ -1,9 +1,10 @@
 Qu'est-ce que CiviEvent?
 =======================
 
-CiviEvent fournit un ensemble d'outils pour gérer des événements. Ces outils vous permettent d'être plus efficace en tant qu'organisateur de l'évènement et réduisent le nombre de taches à réaliser 
+CiviEvent fournit un ensemble d'outils pour gérer vos événements. Ces outils vous permettent d'être plus efficace en tant qu'organisateur de l'évènement et réduisent le nombre de taches à réaliser.
 
-CiviCRM vous aide à gérer un enregistrement simple ou complexe.
+CiviEvent vous aide à gérer un enregistrement simple ou complexe.
+
 Principales fonctionnalités incluses :
 
 -   Auto inscription des participants, avec possibilité de règlement en ligne par carte de crédit.
@@ -59,9 +60,9 @@ of attendees, total event fees paid, and total amount still due. The
 event and mail templates can be updated if necessary and saved for the
 next event.
 
-Quelques concepts clés 
--------------------
-Les chapitres de cette section vous aiderons à tirer le meilleur de ce que vous devez savoir pour optimiser CiviEvent. Avant de commencer, voici quelques points clés qui vous aiderons à configurer votre évènement.
+### Quelques concepts clés 
+--------------------------
+Les chapitres de cette section vous aiderons à tirer le meilleur de ce que vous devez savoir pour optimiser CiviEvent. Avant de commencer, voici quelques points clés qui vous aiderons à configurer vos évènements.
 Vous allez mettre ces concepts en pratique en suivant les tâches, étape par étape, dans les chapitres suivants de cet article.
 
 ### Evenements, participants et contacts
@@ -71,29 +72,26 @@ Quand un contact participe à un évènement il est appelé **Participant**.
 
 ### Event types
 
-CiviCRM permet de définir différents types d'évènements tels que conférences, réunions, présentations, formations,sponsors,...
+CiviCRM permet de définir différents types d'évènements tels que conférences, réunions, présentations, formations,...
 Vous pouvez créer autant de types d'évènements que nécessaire, en fonction des besoins de votre organisation.
 
 Par exemple, vous pouvez créer des champs personnalisés pour stocker et afficher des données supplémentaires sur un événement en fonction de son type d'événement. Les différents types d'événements sont utiles si vous avez des exigences différentes pour chacun de vos événements.
 Voir le chapitre * Custom data on events * dans cette section pour plus d'information
-Les types d'évènements sont également utiles pour catégoriser et segmenter les événements et les participants, par exemple, vous pouvez facilement trouver tous les contacts qui sont venus à l'une de vos formations ou assisté à l'un de vos événements d'information publique.
+Les types d'évènements sont également utiles pour catégoriser et segmenter les événements et les participants. Par exemple, vous pouvez facilement trouver tous les contacts qui sont venus à l'une de vos formations ou assisté à l'un de vos événements d'information publique.
  
+### Rôle des Participants 
 
-
-### Role des Participants 
-
-A chaque contact qui participe à un événement est attribué un "rôle" de participant. Le plus courant est probablement participant mais aussi animateur, formateur, conférencier, journaliste, invité, etc...
+A chaque contact qui participe à un événement est attribué un "rôle" de participant. Le plus couramment utilisé est certainement "Participant" mais cela peut être aussi animateur, formateur, bénévole, conférencier, journaliste, invité, etc...
 Les rôles des participants sont entièrement personnalisables pour correspondre aux types d'événements de votre organisation.
-Ceci vous permet de sectoriser les participants dans des catégories significatives en fonction de leur participation à l'événement, par exemple pour l'envoi d'un e-mail à des bénévoles uniquement ou générer une liste de journalistes ayant assisté à vos évènements. 
-Vous pouvez également créer des champs personnalisés qui ne concernent que des rôles spécifiques, par exemple, pour recueillir des informations sur la disponibilité des bénévoles seulement.
-
+Ceci vous permet de sectoriser les participants dans des catégories significatives en fonction de leur participation à l'événement. Par exemple pour l'envoi d'un email à des bénévoles uniquement ou générer une liste de journalistes ayant participé à vos évènements. 
+Vous pouvez également créer des champs personnalisés qui ne concernent que des rôles spécifiques, par exemple, pour recueillir des informations sur la disponibilité des bénévoles.
 
 ### Statut des Participants 
 
-Le statut des participants (par exemple, enregistrés, liste d'attente, assisté ou annulé) est utilisé pour suivre le stade du contact par rapport à l'évènement. Les statuts des participants sont entièrement personnalisables pour correspondre à la façon dont votre organisation enregistre ses événements. Cela vous permet de segmenter les participants en catégories significatives en fonction de leur comportement à l'égard de l'événement, dans le but, par exemple, de générer des feuilles de présence, faire le suivi du nombre de personnes susceptibles de venir à un autre événement, et d'adapter les communications par courriel aux personnes inscrites.
+Le statut des participants (par exemple, enregistrés, liste d'attente, assisté ou annulé) est utilisé pour suivre le stade du contact par rapport à l'évènement. Les statuts des participants sont entièrement personnalisables pour correspondre à la façon dont votre organisation enregistre ses événements. Cela vous permet de segmenter les participants en catégories significatives en fonction de leur comportement à l'égard de l'événement, dans le but, par exemple, de générer des feuilles de présence, faire le suivi du nombre de personnes susceptibles de venir à un autre événement, et d'adapter les communications par email aux personnes inscrites.
 
 
 Autres sections de CiviCRM en lien avec CiviEvent
 -------------------------------------------------
 CiviEvent est conçu pour travailler avec d'autres sections de CiviCRM.
-Par exemple, vous pouvez informer d'un événement une liste ciblée de contacst ou communiquer avec les participants à un événement par courrier électronique avant et après l'événement à l'aide CiviMail (voir la section **Email**, et en particulier les chapitres **Set-up** et **Scheduled Reminders** pour plus information).
+Par exemple, vous pouvez informer d'un événement une liste ciblée de contacts ou communiquer avec les participants à un événement par courrier électronique avant et après l'événement à l'aide CiviMail (voir la section **Email**, et en particulier les chapitres **Set-up** et **Scheduled Reminders** pour plus information).
