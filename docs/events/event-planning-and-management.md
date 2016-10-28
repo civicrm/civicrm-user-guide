@@ -7,36 +7,34 @@ De nombreux éléments sont à considérer lors de la planification d'un événe
 **Planification**
 -------------
 
-Il est important de penser à la structure de vos évènements et comment vous enregistrez vos évènement avant de démarrer, cela l vous facilitera à mieux les configurer.
+avant de démarrer, il est important de penser à la structure de vos évènements et comment vous les enregistrez, , cela vous facilitera à mieux les configurer.
 
 Voici quelques questions importante à vous poser :
 
 
--   What different types of events does your organization hold? And what type of event is this?
+-   Quels sont les différents types d'événements que vous organisez? Et quel type d'évènement est-ce?
 
--   What different roles will participants have at the event?
+-   Quels rôles différents les participants auront-ils? 
 
--   What kinds of information you want to collect about participants, e.g.,
-food and lodging preferences?
+-   Quelles sortes d'information voulez-vous collecter sur les participants ? Exemple : Age, profession, ville...?
 
--   Will you allow online registrations to the event?
+-   Voulez-vous permettre l'inscription en ligne à l'événement?
 
--   Is there a limit on the number of participants that can attend?
+-   Il y a t'il une limite sur le nombre de participants qui peuvent y assister?
 
--    you want to approve registration, or leave it open to anyone?
+-   Souhaitez-vous valider l'enregistrement, ou le laisser ouvert à toute personne?
 
--   Will there be a waitlist if the maximum number of registrations is
-exceeded?
+-   Il y aura t'il une liste d'attente si le nombre maximal d'inscriptions est atteint? 
 
--   Should one person to be able to register multiple people?
+-   Un participant pourra-t-il enregistrer d'autres personnes ? 
 
--   Do you want to give registrants confirmation of registering?
+-   Voulez-vous adresser aux inscrits une confirmation de leur enregistrement ? 
 
--   Do you want to make the listing of the participants public?
+-   Souhaitez-vous que la liste des participant soit publique ? 
 
--   Is this an event that repeats regularly with roughly the same details?
+-   Est-ce un événement qui se répète régulièrement avec à peu près les mêmes critères ? 
 
--   Will this be a paid event? If so..
+-   Est un évènement payant ? Si oui...
 
     -   What Financial Type will you consider the event fees to be?
 
