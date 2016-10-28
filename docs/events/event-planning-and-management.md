@@ -14,7 +14,7 @@ Voici quelques questions importante à vous poser :
 
 -   Quels sont les différents types d'événements que vous organisez? Et quel type d'évènement est-ce?
 
--   Quels rôles différents les participants auront-ils? 
+-   Quels rôles différents les participants auront-ils? Exemple: participant, animateur, conférencier,jounaliste,...
 
 -   Quelles sortes d'information voulez-vous collecter sur les participants ? Exemple : Age, profession, ville...?
 
@@ -30,7 +30,7 @@ Voici quelques questions importante à vous poser :
 
 -   Voulez-vous adresser aux inscrits une confirmation de leur enregistrement ? 
 
--   Souhaitez-vous que la liste des participant soit publique ? 
+-   Souhaitez-vous que la liste des participants soit publique ? 
 
 -   Est-ce un événement qui se répète régulièrement avec à peu près les mêmes critères ? 
 
@@ -45,22 +45,17 @@ Voici quelques questions importante à vous poser :
 
     -   Will you offer discounts or early registration?
 
-Take time to assess the kind of information you need to run your events
-effectively, as well as what information it would be useful to collect
-during events and from event participants. If you run recurring events
-that are very similar, think about using event templates or the event
-copy features to make the set-up processes easier.
+Prenez le temps d'évaluer le type d'information dont vous avez besoin pour exécuter vos événements efficacement, ainsi que les informations qu'il serait utile de recueillir lors d'événements ou sur les participants à l'événement.
+Si vous exécutez des événements récurrents qui sont très similaires, pensez à utiliser des modèles d'événements ou les fonctions de copie de l'événement pour faire la mise en place des processus plus facilement
 
-Promoting your events
------------------------
 
-Getting the word out and building excitement about your event can take
-many forms. Think about who you want at your event and where they tend
-to get their information. This will help you determine which tools can
-help you promote it:
+**La promotion de vos évènements
+------------------------------
 
--   What strategy will you use to promote your event, and through what
-    channels?
+Diffuser et argumenter votre évènement peut prendre plusieurs formes. Pensez au public de votre évènement et ou ils ont tendance à rechercher leurs informations. 
+Ce qui suit vous aidera à déterminer quels outils peuvent vous aider à le promouvoir:
+
+-   What strategy will you use to promote your event, and through what channels?
 
 -   Will you be posting your event on your website and allow people to
     register online?
