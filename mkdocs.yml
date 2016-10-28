@@ -76,7 +76,7 @@ pages:
     - 'Everyday tasks': 'pledges/everyday-tasks.md'
     - 'Pledges Reports and Analysis': 'pledges/pledges-reports-and-analysis.md'
 - Events:
-    - 'What is CiviEvent?': 'events/what-is-civievent.md'
+    - 'Qu'est-ce-que CiviEvent?': 'events/what-is-civievent.md'
     - 'Event planning and management': 'events/event-planning-and-management.md'
     - 'Creating an event': 'events/creating-an-event.md'
     - 'Online event registration': 'events/online-event-registration.md'
