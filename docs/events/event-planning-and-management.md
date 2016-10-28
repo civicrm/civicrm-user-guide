@@ -1,22 +1,18 @@
-Event planning and management
-=============================
+Planification et gestion d'un évènement
+=======================================
+Ce chapitre traite des informations générales sur la planification et la gestion d'un évènement
 
-This chapter covers some general information on planning and managing
-your events. There are lots of things to consider when planning an event
-which will affect the way you set up your event, so it is worth thinking
-about the information in this chapter before you start.
+De nombreux éléments sont à considérer lors de la planification d'un événement, ce qui aura une incidence sur la façon dont vous allez le configurer. Il est donc utile de réfléchir aux informations contenue dans ce chapitre avant de commencer.
 
-Planning your event
----------------------
+**Planification**
+-------------
 
-If you are new to CiviEvent, it is a good idea to think about the
-structure of your events and how you want a person to experience the
-event registration process before you start. This will help to inform
-how you set up and configure your events. Here are some important
-questions to consider.
+Il est important de penser à la structure de vos évènements et comment vous enregistrez vos évènement avant de démarrer, cela l vous facilitera à mieux les configurer.
 
--   What different types of events does your organization hold? And what
-type of event is this?
+Voici quelques questions importante à vous poser :
+
+
+-   What different types of events does your organization hold? And what type of event is this?
 
 -   What different roles will participants have at the event?
 
