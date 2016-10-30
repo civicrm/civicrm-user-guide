@@ -76,7 +76,7 @@ contributions (rather than contacts). The steps involved are:
     [Postal mail communications](.../common-workflows/postal-mail-communications)
     provide more information on creating letter templates.
 10. When you click on **Make Thank-you Letters** the letters will be
-    generated and a "Print PDF letter" activity will be created for each
+    generated and a "Print/Merge Document" activity will be created for each
     letter with the **Activity Subject** you have specified.
 
 ### Grouped contribution thank-you letters
