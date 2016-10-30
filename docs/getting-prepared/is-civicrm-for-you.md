@@ -1,49 +1,27 @@
-Is CiviCRM for You?
+CiviCRM convient-il à votre organisation?
 ===================
 
-This chapter will help you to decide whether CiviCRM is the right tool
-for your organisation.
+Ce chapitre vous aidera à décider si CiviCRM est le bon outil pour votre organisation.
 
-CiviCRM is powerful software and has the potential to help your
-organisation reach its goals - but it won't be the right choice for
-every organisation. Here are some ways that you can find out whether
-CiviCRM is right for your organisation:
+CiviCRM est un puissant outil de gestion de contacts adapté aux besoins typiques des organismes à but non lucratifs. Ce n'est pas nécessairement le meilleur outil pour toutes les organisations. Voici quelques façons pour vous aider à découvrir si CiviCRM est l'outil qu'il vous faut :
 
--   read the book! (you might be doing that right now)
--   identify your organisation needs
--   talk to others who use CiviCRM
--   talk to a CiviCRM consultant
--   play with a demonstration site
--   install a test database
+-   lisez le livre! (vous êtes bien parti !)
+-   identifiez les besoins de votre organisation
+-   échangez avec d'autres utilisateurs de CiviCRM
+-   rencontrez un consultant CiviCRM
+-   essayez un site démo
+-   installez le logiciel dans un environnement test
 
-Talking to others who use CiviCRM
+Échanger avec d'autres utilisateurs
 ---------------------------------
 
-If you know of another organisation that uses CiviCRM, talk to them
-about their experience. Obviously the more similar they are to your
-organisation, the better. If you don't know anyone that is using
-CiviCRM, contact a CiviCRM Ambassador
-([https://civicrm.org/ambassadors](https://civicrm.org/ambassadors)),
-have a look on the CiviCRM forums, at case studies on the community
-site, or try your local non-profit technology mailing list.
+Les forums de CiviCRM ([http://forum.civicrm.org](http://forum.civicrm.org)) ont quelques sections anglophones pour les nouveaux arrivants à CiviCRM, ainsi qu'un ([forum francophone](https://forum.civicrm.org/index.php?board=58.0). Une simple recherche vous permettra de répondre aux questions que d'autres se sont posés avant vous. N'oubliez pas que les participants aux forums sont principalement des bénévoles. Vous aurez de meilleures chances d'obtenir une réponse si vous prenez la peine de bien formuler vos questions. L'inscription est requise pour poster un message.
 
-The CiviCRM forums
-([http://forum.civicrm.org](http://forum.civicrm.org)) have a few boards
-for people who are new to CiviCRM, such as "Pre-installation Questions"
-([http://forum.civicrm.org/index.php/board,5.0.html](http://forum.civicrm.org/index.php/board,5.0.html)).
-Remember that the forums are staffed mainly by volunteers so you will
-get a better response if you spend some time formulating an easily
-answerable question. You can also search the forums and browse for
-questions that others have asked. If you wish to ask questions or
-contribute to the discussions you must register first.
+Depuis 2015, une grande partie des discussions ont migré du forum vers l'espace [CiviCRM de Stack Exchange](http://civicrm.stackexchange.com/) sous forme de questions-réponses.
 
-Talking to CiviCRM Consultants
+Enfin, notons que depuis 2016, une plateforme de clavardage (chat) est disponible à l'adresse suivante : [https://chat.civicrm.org](https://chat.civicrm.org). En cas de doute, n'hésitez pas à vous y connecter et poser votre question !
+
+Discuter avec un consultant CiviCRM
 ------------------------------
 
-Another option to help you understand CiviCRM is to make use of a
-professional. The CiviCRM website lists professional vendors and
-consultants that can walk you through CiviCRM
-([http://civicrm.org/providers](http://civicrm.org/providers)), and
-there are many others; you may find a local website company who has
-experience with CiviCRM. Consider hiring a consultant for a day to
-discuss with you how CiviCRM could help your organisation.
+Une autre option pour vous aider à comprendre CiviCRM est de faire appel à un professionnel. Le site web de CiviCRM offre une liste d'entreprises et de consultants qui peuvent vous accompagner dans votre démarche ([http://civicrm.org/providers](http://civicrm.org/providers)), et il en existe de nombreux autres; vous pourriez y trouver une entreprise dans votre région qui possède de l'expérience avec CiviCRM. Considérez l'embauche d'un consultant pour un seul jour afin de discuter avec lui comment CiviCRM peut aider votre organisation.

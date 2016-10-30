@@ -1,95 +1,36 @@
-Who is CiviCRM?
-===============
+Qui est la communauté CiviCRM ?
+===============================
 
-CiviCRM has a unique and diverse community centred around developing,
-using, and documenting the software. Our community includes the CiviCRM
-core team, people at the non-profits that use CiviCRM; consultants
-working with a number of non-profit organizations; programmers and
-developers, power users, volunteers and community organizers! We are
-also closely related to many other open source projects.
+CiviCRM a une communauté unique et diversifiée centrée autour du développement, l'utilisation et la documentation du logiciel. Notre communauté inclus : l'équipe « core » de CiviCRM, les gens de divers organismes à but non-lucratifs qui utilisent CiviCRM, les consultants travaillant avec des organismes à but non-lucratif, des utilisateurs avancés (« power users »), des bénévoles et des intervenants communautaires. Nous sommes également liés de près avec plusieurs autres projets libres.
 
-Each member of the community interacts with CiviCRM in their own way,
-working to improve the software and how we organize ourselves. The
-strength of community comes from this diversity and the ease with which
-someone can join us, and means that we are constantly changing and
-improving, often in unexpected ways.
+Chaque membre de la communauté interagit avec CiviCRM à sa propre façon afin d'améliorer le logiciel et les méthodes de travail. La force de la communauté repose sur cette diversité et sur la facilité de se joindre à nous.
 
-Like all communities your membership is characterised by your
-interactions. If you treat others well, have some fun, and help others,
-then you can expect to enjoy being a member of the CiviCRM community.
-But if you are prone to complaining or don't use a respectful tone in
-communications, or if you see the community just as a resource and not
-as a collection of very kind, generous and clever people, then you are
-probably not going to get much of a response. Treat people well and you
-can find the CiviCRM community fun and rewarding.
+Comme dans toutes les communautés, votre rôle en tant que membre est caractérisé par vos interactions. Si vous respectez les autres, si vous vous amusez et si vous aidez les autres, vous pourrez sans doute tirer bénéfice de votre expérience dans la communauté CiviCRM. Cependant, si vous avez tendance à vous plaindre ou si vous n'utilisez pas un ton respectueux dans votre façon de communiquer, ou si vous percevez la communauté comme juste une ressource à utiliser et non un regroupement de personnes amicales, généreuses et intelligentes, alors vous aurez probablement plus de difficulté à obtenir des réponses. Soyez positifs dans votre engagement et vous verrez que la communauté CiviCRM est amusante et stimulante.
 
-History
--------
+Historique
+----------
 
-CiviCRM started in 2004 by Dave Greenberg, Donald Lobo and Michal Mach.
-The founders had a lot of previous experience working with non-profit
-organizations and tools. The group was influenced very early by Zack
-Rosen and Neil Drumm, who convinced them to use Drupal as a fundamental
-cornerstone for CiviCRM. This decision has meant that the developers
-have been able to leverage a lot of the functionality that Drupal
-provides, freeing the team up to focus on building the features
-necessary to make a great CRM.
+Le projet CiviCRM a été démarré par Dave Greenberg, Donald Lobo et Michal Mach. Ces membres fondateurs avaient déjà une forte expérience avec les organismes à but non-lucratif et leurs outils. Le groupe a été influencé très tôt par Zack Rosen et Neil Drumm, qui les ont convaincu d'utiliser Drupal comme fondation de base pour CiviCRM. Les développeurs ont par conséquent pû tirer bénéfice des nombreuses fonctionnalités offertes par Drupal, leur permettant ainsi de se concentrer sur les fonctionnalitées nécessaires pour faire un excellent CRM.
 
-In 2005 the first version of CiviCRM was released with two of the core
-modules in place: CiviMail and CiviContribute (you can read more about
-these later).
+En 2005 fut publiée la première version de CiviCRM avec deux principales composantes : les envois massifs CiviMail et la gestion de contributions avec CiviContribute (sur lesquels vous pourrez lire plus en détails un peu plus loin).
 
-Since those early days CiviCRM has built a large community of users and
-contributors (there are now over 8000 installed sites), the software has
-gone from strength to strength (there are now 8 core modules and
-additional third party components), and the core team has expanded to 8
-members. There is also a large ecology of free software contributors
-around the project and high-profile non-profit organisations such as
-Amnesty International, Creative Commons, Electronic Frontier
-Foundation, Free Software Foundation, Mozilla, and Wikimedia Foundation
-use CiviCRM.
+Depuis ce temps, une grande communauté d'utilisateurs et de contributeurs s'est bâtie autour de CiviCRM (il y a maintenant plus de 10 000 sites utilisant CiviCRM). Il y a maintenant huit principales composantes (et de nombreux autres modules par des tiers-partis) et l'équipe « core » est maintenant forte de huit membres. Il y a également un bon nombre de contributeurs provenant de d'autres milieux connexes, tels que Wikipedia, Creative Commons, Mozilla et Amnistie Internationale, tous des utilisateurs de CiviCRM.
 
-It's good to talk
------------------
+Ça fait du bien de discuter
+---------------------------
 
-CiviCRM is an open and learning community, and people are ready to hear
-your ideas. If you have a good idea, there's nothing to stop you
-carrying it out - but the best way to start is to start talking about
-it.
+La communité CiviCRM est toujours à la recherche de nouvelles idées, les membres seront heureux d'entendre vos idées. Si vous avez une bonne idée, rien ne vous empêche de la développer. Cependant, la meilleure façon de commencer, c'est d'en discuter.
 
-If you're not sure where to start, the best place is probably the
-community forum
-([http://forum.civicrm.org/](http://forum.civicrm.org/)). Ask people
-what they think about your idea. There's a wealth of experience on the
-forum, and someone will, very possibly, have tried something similar
-before. CiviCRM people are a friendly bunch and their guiding philosophy
-is collaboration.
+Si vous ne savez pas par où commencer, la meilleure place est probablement le forum de la communauté (http://forum.civicrm.org/). Demandez aux autres ce qu'ils pensent de votre idée. Avec un peu de chance, quelqu'un d'autre aura déjà essayé quelque chose de semblable. Les membres de la communauté sont amicaux et leur philosophie de base est la collaboration.
 
-Depending on your idea, you'll be directed to the next best place; maybe
-an article on the blog
-([http://civicrm.org/blog/](http://civicrm.org/blog/)), a page on the
-wiki ([http://wiki.civicrm.org/](http://wiki.civicrm.org/)), a
-teleconference or a meeting up with another community member in real
-life, yes that's right, REAL LIFE!
+Vous pourriez ensuite être redirigé vers la prochaine étape : peut-être un article sur le blogue (http://civicrm.org/blog/), une page wiki (http://wiki.civicrm.org/), un appel conférence ou une réunion en personne avec un autre membre de la communauté. Eh oui, c'est exact, en personne!
 
-Be the change
--------------
+Faites partie du changement
+---------------------------
 
-So you have a great idea. Now you need an equally great action plan to
-accompany this idea and then you'll need to implement it. Although the
-CiviCRM community is friendly and supportive and will like to be
-involved and updated about your project, you'll need to be the driver.
-How will you get the resources together for your project? How can you
-fit it in with your day job? Finding a way to simultaneously achieve
-your own objectives and benefiting the CiviCRM community is the best way
-of getting things done.
+Alors vous avez une bonne idée? Maintenant vou avez besoin d'un plan d'action à la hauteur pour accompagner cette idée et l'implémenter. Quoique la communauté CiviCRM est amicale et soutiendra votre idée, et elle voudra sans doute être informée et même impliquée dans votre projet, vous devrez mettre en oeuvre les efforts pour atteindre l'objectif. Comment obtiendrez-vous les ressources nécessaires pour votre projet? Pouvez-vous le faire dans le cadre de votre travail régulier? La meilleure façon de faire avancer les choses est souvent en réalisant à la fois vos propres objectifs, tout en faisant bénéficier toute la communauté CiviCRM.
 
-And finally...
+Et finalement...
 --------------
 
-If you're a CiviCRM user who has an ongoing relationship with a
-consultant, there's nothing to stop you from also being an active member
-of the community. The community really benefits from direct feedback
-from end users - your consultant is only one person or organization - by
-asking on the forums you're opening yourself up to help and input from
-the entire community.
+Si vous êtes un utilisateur CiviCRM qui fait affaire avec un consultant, rien ne vous empêche d'être un membre actif de la communauté. La communauté bénéficie grandement de feedback de la part des utilisateurs. Votre consultant n'est qu'une personne ou entreprise. En posant vos questions vous-même sur les forums, vous accéder à un vaste réseau d'entraîde et d'idées de toute la communauté.
