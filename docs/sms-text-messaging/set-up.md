@@ -26,11 +26,11 @@ sign-in and follow the steps below (when logging in you must select
 
 1. 
 In the Central Home dashboard, click "Create a new Connection" under
-"Connection Status" 
- ![image](../img/CiviCRM_SMS_clickatell-create-connection.png)
+"Connection Status" (New language is "Get another API". Page looks also changed.) 
+ ![image](../img/2016-4-27_ClickATell_API_Settings.png)
 
 1. 
-Select "HTTP/S" as the connection type
+Select "HTTP/S" as the connection type (New language: HTTP API)
 
 1. 
 Four optional settings will appear, including:
@@ -38,10 +38,18 @@ Four optional settings will appear, including:
     -   Replace leading zero: enable this option if phone numbers against
         your contacts begin with "0". For delivery to be successful, all
         numbers must begin with the country code if this is not enabled.
+        (This option no longer exists.)
     -   Enable IP Address Restriction: if you know the IP address of your
         CiviCRM server, you can enter it here to ensure that text messages
         cannot be sent using your account elsewhere (your username and
         password would be needed to do this)
+        (New language:  "Protect your account from fraud by restricting IP addresses")
+    -   Enable your app to receive message delivery notifications (New option?)
+        Enter the correct URL for your site. Example:
+        Drupal: http://www.example.com/civicrm/sms/callback?provider=org.civicrm.sms.clickatell
+        Wordpress: https://www.example.org/?page=CiviCRM&q=civicrm%2Fsms%2Fcallback&provider=org.civicrm.sms.clickatell
+
+
 
 1. 
 Click "Submit and Get API ID" to generate an API ID, and on the next
