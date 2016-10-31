@@ -21,93 +21,52 @@ Notez qu'en fonction de vos autorisations vous ne serez pas en mesure de voir ce
 
 Si vous avez **CiviCampaign** activé, vous pouvez sélectionner une campagne pour que cet événement y soit intégré (voir la section *Campaign* pour plus de détails).
 
-**Roles** Attribue un type de rôle aux participants, tel que participant, animateur, conférencier, ou bénévole.
+**Rôle** Attribue un type de rôle aux participants, tel que participant, animateur, conférencier, ou bénévole.
 Quel est le rôle attribué aux participants lors de leur inscription en ligne pour cet événement?
 La valeur placée dans ce champ sera attribué par défaut lorsque les utilisateurs s'enregistrent en ligne ou lorsque vous importez des enregistrements à moins que vous n'insériez le champ "rôle" avec d'autres valeurs dans votre fichier d'importation CSV. La valeur la plus commune est Participant
 
-Voulez-vous que les utilisateurs voient la liste des participants, et quelles informations souhaitez-vous afficher sur les participants?
+Voulez-vous que les visiteurs voient la liste des participants, et quelles informations souhaitez-vous afficher sur les participants?
 
- **Participant Listings** demonstrate support for an event and can help to generate
-interest within your constituent community. Note that the options you
-define in this section only *enable* participant listings — to display
-one, you will need to create a menu item or link to the listing
-somewhere on your website. Once you've created the event, the
-participant listing link is displayed on the event configuration page.
-Refer to the chapter *Event management* for information on participant
-listings and other ways to promote your events.
+ **Listing Participant **: Afficher la liste des participants permet de montrer leur intérêt et peut susciter d'autres inscriptions du public. Pour cela  cocher l'option * activer * listes de participants - Pour l'afficher, vous aurez besoin de  créer un élément de menu ou un lien vers la liste sur votre site. Une fois que vous avez créé l'événement, l'option lien participant est affiché sur la page de configuration de l'événement. Reportez-vous à la gestion de l'événement chapitre * Event management * pour obtenir des informations sur les listes des participants et d'autres façons de promouvoir vos événements.
+ 
+Quel est le nom de votre événement ? Le ** Titre de l'événement ** apparaîtra sur les pages d'information, d'inscription, sur la liste des d'événements, et dans la Gestion des événements (Page administration). Assurez-vous de choisir un titre significatif qui represente votre événement.
+Les deux champs suivants (** Résumé de l'événement ** et ** Description complète **) vous permettent de décrire votre événement. Le résumé et la description complète seront inclus sur les pages d'information de l'événement.Utilisez l'éditeur de texte enrichi prévu pour le champ de description afin d'inclure photos, images et texte formaté.
 
-What is your event called? The **Event Title** will appear on event
-information pages, registration pages, event listings, and in the Manage
-Events administrative page. Be sure to choose a meaningful, well-crafted
-title to represent your event.
+Entrez le ** Date de début / heure ** et ** Date de fin / heure ** pour votre événement. Celles-ci seront incluses dans les pages d informations et la liste des événements.
 
-The next two fields (**Event Summary** and **Complete Description**) let
-you describe your event. Both the summary and complete description will
-be included on event information pages. Use the rich-text editor
-provided for the description field to include photo, images, and
-formatted text.
+Vous pouvez définir un ** Nombre maximum de participants ** pour chaque événement et définir un message à afficher lorsque ce nombre est atteint.
+.
+Si vous souhaitez afficher une carte montrant l'emplacement de l'événement, vous pouvez le faire en utilisant soit Google Maps ou Open Street (vous devrez configurer votre solution de cartographie par ** Administrer> Paramètres système> cartographie et géocodage **).
 
-Enter the **Start date/time** and **End date/time** for your event.
-These will be included on the event information page and event listings.
+Sélectionnez ** Évènement public ** pour inclure l'événement dans les listes promotionnelles telles que des flux RSS, des fichiers ou des flux iCal et la page de liste d'événements.
 
-You can set a **Maximum number of participants** for each event and
-define a message to be displayed when that number is reached.
+Sélectionnez ** Autoriser le partage à travers les médias sociaux ** pour inclure des liens de médias sociaux pour le partage de cet événement sur la page Information sur l'événement, page de remerciement, Tell-a-Friend la page (si activé), et dans les courriels de confirmation de l'événement.
 
-If you want to display a map showing the event location you can do so
-using either Google Maps or Open Street Maps (you will need to configure
-your mapping solution through **Administer > System Settings > Mapping
-and Geocoding**).
+Enfin, vous avez la possibilité de choisir que cet événement soit actif ou inactif
+Si vous prévoyez de prendre un certain temps pour terminer la configuration de votre événement, choisisez de le rendre inactif jusqu'à ce qu'il soit complet pour s'assurer qu'il ne figure pas par inadvertance sur la liste des flux d'événements. Vous pourrez ainsi  l'activer facilement lorsque vous serez prêt à commencer sa diffusion.
 
-Select the **Public Event** box to include the event in promotional
-listings such as RSS feeds, iCal files or feeds, and event listing
-pages.
+Après avoir vérifié les détails de cette page, cliquez sur ** Continuer >> ** pour créer votre événement et passer à l'étape suivante. Vous pouvez interrompre la configuration sur une page suivante en cliquant sur ** Enregistrer et Terminé ** et revenir plus tard pour examiner et modifier l'un des paramètres.
 
-Select **Allow sharing through social media** to include social media
-links for sharing this event on the Event Info page, Thank-you page,
-Tell-a-Friend page (if enabled), and in event confirmation emails.
+Pour revenir à un événement enregistré, accédez ** Événements> Événements Manager ** et cliquez sur ** Configurer **  pour continuer à travailler ou modifier l'événement.
 
-Lastly, you have the option of making this event active or inactive. If
-you anticipate that it will take some time to complete the configuration
-of your event, consider making it inactive until it is complete to
-ensure it is not inadvertently listed on the event listing feeds. You
-can easily activate the event when you are ready to begin publicizing
-it.
-
-After reviewing the details on this page, click **Continue >>** to
-create your event and advance to the next step. You can interrupt
-configuration on any subsequent page by clicking **Save and Done** and
-return later to review and modify any of the settings.
-
-To return to a saved event, navigate to **Events > Manage Events** and
-click **Configure** to continue working on the event.
-
-Event Location
+Localisation
 --------------
 
-The next step is to complete the location and contact details for the
-event.
+L'étape suivante consiste à compléter la localisation et les coordonnées de l'événement.
 
-Once you have entered an event location, you can reuse it for subsequent
-events by clicking **Use existing location** and selecting it from the
-dropdown list. Note that if you choose an existing location and edit it,
-it will update that location for all events that use it.
+Une fois que vous avez saisi un lieu de l'événement, vous pouvez le réutiliser pour des événements ultérieurs en cliquant sur ** Utiliser un emplacement existant  ** et en le sélectionnant dans la liste déroulante. Notez que si vous choisissez un emplacement existant et de que vous le modifiez, il mettra à jour ce lieu pour tous les événements qui l'utilisent.
 
 ![image](../img/event%20location%20with%20warning.PNG)
 
-You can also list phone numbers and email addresses on the event
-information page if you want to give registrants a way to contact event
-organizers directly. If the event is being held off-site from your
-organization's primary location, you may also want to provide contact
-information for the meeting location.
+Vous pouvez aussi lister les numéros de téléphone et adresses e-mail sur la page d'information de l'événement si vous voulez donner aux inscrits un moyen de communiquer directement avec les organisateurs de l'événement. Si l'événement a lieu hors site de l'emplacement principal, vous pouvez également fournir des informations de contact sur le lieu de la réunion.
 
-Fees
-----
 
-If the event is free, set the **Paid Event** radio button to **No**,
-then click **Save** and skip to Online Registration.
+Frais
+-----
 
-If this is a paid event, click **Yes**. The screen will show the options
-available (see the following set of screenshots).
+Si l'événement est gratuit, cochez ** Evénement payant ** à ** Non **, puis cliquez sur  ** Enregistrer ** et passez à l'inscription en ligne.
+Si l'événement payant, cliquez sur ** Oui **. L'écran affiche les options disponibles (voir l'ensemble des captures d'écran ci-dessous).
+
 
 What **Contribution Type** (financial type) will be assigned to paid
 registrations for this event? Although the most common value for this
