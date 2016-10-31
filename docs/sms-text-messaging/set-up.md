@@ -27,7 +27,7 @@ sign-in and follow the steps below (when logging in you must select
 1. 
 In the Central Home dashboard, click "Create a new Connection" under
 "Connection Status" (New language is "Get another API". Page looks also changed.) 
- ![image](../img/CiviCRM_SMS_clickatell-create-connection.png)
+ ![image](../img/2016-4-27_ClickATell_API_Settings.png)
 
 1. 
 Select "HTTP/S" as the connection type (New language: HTTP API)
