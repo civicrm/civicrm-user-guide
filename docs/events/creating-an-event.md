@@ -1,48 +1,33 @@
-Creating an event
-=================
+Création d'un événement
+=======================
 
-This chapter covers the how create a new event, describing each of the
-set up options available in the event creation screen. If you going to
-allow online registration for the event, you will also want to read the
-*online event registration* chapter. If not, you'll want to read the
-*manual event registration* chapter.
+Ce chapitre décrit la façon de créér un nouvel événement et chacune des options disponibles dans les écrans de saisie.
+Pour permettre l'inscription en ligne à un l'événement, vous devez lire le chapitre *online event registration*. Sinon vous pouvez également consulter ce chapitre : *manual event registration*.
 
-To get started, create a new event by choosing **Events > New Event**
-from the menu. (If you can't see the events menu, make sure that you
-have enabled the Events component. You can do this in **Administer >
-Configure > Global Settings > Enable Components**.)
+Pour commencer, créez un nouvel événement en choisissant le menu : **Events > New Event**.(Si vous ne voyez pas le menu Evénement, assurez-vous que le composant evénement est bien activé. Vous pouvez l'activer ici: **Administer > Configure > Global Settings > Enable Components**.)
 
-Event Information and Settings
+Information et paramétrage
 ------------------------------
 
-The first page you see when creating an event requests basic information
-about the event. You can click on any of the blue question marks to
-show help for each of the fields. When you see a pencil, clicking on it
-will take you to a screen where you can edit the options available.
-Note, depending on your permissions, you may not be able to edit these
-options and therefore will not see the pencil.
+Le premier écran que vous voyez lors de la création demande des informations de base sur l'événement.
+Vous pouvez cliquer sur l'un des points d'interrogation bleus pour afficher une aide sur chacun des champs à remplir. En cliquant sur le crayon à droite de certains champs vous ouvrez un écran où vous pouvez modifier les options disponibles.
+Notez qu'en fonction de vos autorisations vous ne serez pas en mesure de voir ce crayon et vous ne pourrez modifier ces options
 
 ![image](../img/4.5_new_event.PNG)
 
-**From template** allows you to create an event from a template (see
-*Event templates* chapter in this section) rather than creating one from
-scratch.
+**From template** vous permet de créer un événement à partir d'un modèle (voir le chapitre *Event templates* dans ce document)  plutôt que d'en créer un à partir de zéro.
 
-**Event type** allows you to categorise the event.
+**Event type** permet de classer l'événement dans une catégorie.
 
-If you have **CiviCampaign** enabled, you can select a campaign for this
-to be a part of (see the *Campaign* section for more details).
+Si vous avez **CiviCampaign** activé, vous pouvez sélectionner une campagne pour que cet événement y soit intégré (voir la section *Campaign* pour plus de détails).
 
-**Roles** distinguish different types of event participants, such as
-attendees, speakers and staff. What role should participants be assigned
-when they register online for this event? The value placed in this field
-will be assigned by default when users register online or when you
-import registrations unless you include the field Participant Role with
-other values in your CSV import file. The most common value is Attendee.
+**Roles** Attribue un type de rôle aux participants, tel que participant, animateur, conférencier, ou bénévole.
+Quel est le rôle attribué aux participants lors de leur inscription en ligne pour cet événement?
+La valeur placée dans ce champ sera attribué par défaut lorsque les utilisateurs s'enregistrent en ligne ou lorsque vous importez des enregistrements à moins que vous n'insériez le champ "rôle" avec d'autres valeurs dans votre fichier d'importation CSV. La valeur la plus commune est Participant
 
-Do you want users to see a list of participants, and how much
-information about the participants do you want to reveal? **Participant
-Listings** demonstrate support for an event and can help to generate
+Voulez-vous que les utilisateurs voient la liste des participants, et quelles informations souhaitez-vous afficher sur les participants?
+
+ **Participant Listings** demonstrate support for an event and can help to generate
 interest within your constituent community. Note that the options you
 define in this section only *enable* participant listings — to display
 one, you will need to create a menu item or link to the listing
