@@ -4,13 +4,13 @@ Création d'un événement
 Ce chapitre décrit la façon de créér un nouvel événement et chacune des options disponibles dans les écrans de saisie.
 Pour permettre l'inscription en ligne à un l'événement, vous devez lire le chapitre *online event registration*. Sinon vous pouvez également consulter ce chapitre : *manual event registration*.
 
-Pour commencer, créez un nouvel événement en choisissant le menu : **Events > New Event**.(Si vous ne voyez pas le menu Evénement, assurez-vous que le composant Evénement est bien activé. Vous pouvez l'activer ici: **Administer > Configure > Global Settings > Enable Components**.)
+Pour commencer, créez un nouvel événement en choisissant le menu : **Events > New Event**.(Si vous ne voyez pas le menu Evénement, assurez-vous que le composant Evénement est bien activé. Vous pouvez l'activer ici : **Administer > Configure > Global Settings > Enable Components**.)
 
 Information et paramétrage
 ------------------------------
 
 Le premier écran que vous voyez lors de la création demande des informations de base sur l'événement.
-Vous pouvez cliquer sur l'un des points d'interrogation bleus pour afficher une aide sur chacun des champs à remplir. En cliquant sur le crayon à droite de certains champs vous ouvrez un écran où vous pouvez modifier les options disponibles.
+Vous pouvez cliquer sur l'un des points d'interrogation bleu pour afficher une aide sur chacun des champs à remplir. En cliquant sur le crayon à droite de certains champs vous ouvrez un écran où vous pouvez modifier les options disponibles.
 Notez qu'en fonction de vos autorisations vous ne serez pas en mesure de voir ce crayon et vous ne pourrez modifier ces options
 
 ![image](../img/4.5_new_event.PNG)
@@ -22,28 +22,29 @@ Notez qu'en fonction de vos autorisations vous ne serez pas en mesure de voir ce
 Si vous avez activé **CiviCampaign**, vous pouvez sélectionner une campagne pour que cet événement y soit intégré (voir la section *Campaign* pour plus de détails).
 
 **Rôle** : Attribue un type de rôle aux participants, tel que participant, animateur, conférencier, ou bénévole...
+
 Quel est le rôle attribué aux participants lors de leur inscription en ligne pour cet événement?
 La valeur placée dans ce champ sera attribué par défaut lorsque les utilisateurs s'enregistrent en ligne ou lorsque vous importez des enregistrements à moins que vous n'insériez le champ "rôle" avec d'autres valeurs dans votre fichier d'importation CSV. La valeur la plus commune est "Participant"
 
 Voulez-vous que les visiteurs voient la liste des participants, et quelles informations souhaitez-vous afficher sur les participants?
 
- **Listing Participant** : Afficher la liste des participants permet de montrer leur intérêt et peut susciter d'autres inscriptions du public. Pour cela  cocher l'option * activer * listes de participants - Pour l'afficher, vous aurez besoin de  créer un élément de menu ou un lien vers la liste sur votre site. Une fois que vous avez créé l'événement, l'option lien participant est affiché sur la page de configuration de l'événement. Reportez-vous à la gestion de l'événement chapitre * Event management * pour obtenir des informations sur les listes des participants et d'autres façons de promouvoir vos événements.
+ **Listing Participant** : Afficher la liste des participants permet de montrer leur intérêt et peut susciter d'autres inscriptions du public. Pour cela  cocher l'option *Activer* - liste de participants. Pour l'afficher, vous aurez besoin de  créer un élément de menu ou un lien vers la liste sur votre site. Une fois que vous avez créé l'événement, l'option *lien participant* est affichée sur la page de configuration de l'événement. Reportez-vous à la gestion de l'événement chapitre *Event management* pour obtenir des informations sur la liste des participants et d'autres façons de promouvoir vos événements.
  
 Quel est le nom de votre événement ? Le **Titre de l'événement** apparaîtra sur les pages d'information, d'inscription, sur la liste des d'événements, et dans la Gestion des événements (Page administration). Assurez-vous de choisir un titre significatif qui represente votre événement.
-Les deux champs suivants (**Résumé de l'événement** et **Description complète**) vous permettent de décrire votre événement. Le résumé et la description complète seront inclus sur les pages d'information de l'événement.Utilisez l'éditeur de texte enrichi prévu pour le champ de description afin d'inclure photos, images et texte formaté.
+Les deux champs suivants (**Résumé de l'événement** et **Description complète**) vous permettent de décrire votre événement. Le résumé et la description complète seront inclus sur les pages d'information de l'événement. Utilisez l'éditeur de texte enrichi prévu pour le champ de description afin d'inclure photos, images et texte formaté.
 
 Entrez la **Date de début / heure** et la **Date de fin / heure** pour votre événement. Celles-ci seront incluses dans les pages d informations et la liste des événements.
 
-Vous pouvez définir un **Nombre maximum de participants** pour chaque événement et définir un message à afficher lorsque ce nombre est atteint.
+Vous pouvez définir un **Nombre maximum de participants** pour chaque événement et définir un message à afficher lorsque ce nombre maximum est atteint.
 
-Si vous souhaitez afficher une carte montrant l'emplacement de l'événement, vous pouvez le faire en utilisant soit Google Maps ou Open Street (vous devrez configurer votre solution de cartographie par **Administrer> Paramètres système> cartographie et géocodage**).
+Si vous souhaitez afficher une carte situant le lieu de l'événement, vous pouvez le faire en utilisant soit Google Maps ou Open Street (vous devrez configurer votre solution de cartographie par **Administrer> Paramètres système> cartographie et géocodage**).
 
 Sélectionnez **Évènement public** pour inclure l'événement dans les listes promotionnelles telles que des flux RSS, des fichiers ou des flux iCal et la page de liste d'événements.
 
-Sélectionnez **Autoriser le partage à travers les médias sociaux** pour inclure des liens de médias sociaux pour le partage de cet événement sur la page Information sur l'événement, page de remerciement, Tell-a-Friend  (si la page est activée), et dans les courriels de confirmation de l'événement.
+Sélectionnez **Autoriser le partage à travers les médias sociaux** pour inclure des liens sur les médias sociaux pour le partage de cet événement sur la page Information sur l'événement, page de remerciement, Tell-a-Friend  (si la page est activée), et dans les courriels de confirmation de l'événement.
 
 Enfin, vous avez la possibilité de choisir que cet événement soit actif ou inactif
-Si vous prévoyez de prendre un certain temps pour terminer la configuration de votre événement, choisisez de le rendre inactif jusqu'à ce qu'il soit complet pour s'assurer qu'il ne figure pas par inadvertance sur la liste des flux d'événements. Vous pourrez ainsi  l'activer facilement lorsque vous serez prêt à commencer sa diffusion.
+Si vous prévoyez de prendre un certain temps pour terminer la configuration de votre événement, choisisez de le rendre inactif jusqu'à ce qu'il soit terminé pour s'assurer qu'il ne figure pas par inadvertance sur la liste des flux d'événements. Vous pourrez ainsi  l'activer facilement lorsque vous serez prêt à le diffuser.
 
 Après avoir vérifié les détails de cette page, cliquez sur **Continuer >>** pour créer votre événement et passer à l'étape suivante. Vous pouvez interrompre la configuration sur une page suivante en cliquant sur **Enregistrer et Terminé** et revenir plus tard pour examiner et modifier l'un des paramètres.
 
@@ -54,19 +55,18 @@ Localisation
 
 L'étape suivante consiste à compléter la localisation et les coordonnées de l'événement.
 
-Une fois que vous avez saisi un lieu de l'événement, vous pouvez le réutiliser pour des événements ultérieurs en cliquant sur **Utiliser un emplacement existant** et en le sélectionnant dans la liste déroulante. Notez que si vous choisissez un emplacement existant et de que vous le modifiez, il mettra à jour ce lieu pour tous les événements qui l'utilisent.
+Une fois que vous avez saisi le lieu de l'événement, vous pouvez le réutiliser pour des événements ultérieurs en cliquant sur **Utiliser un emplacement existant** en le sélectionnant dans la liste déroulante. Notez que si vous choisissez un emplacement existant et que vous le modifiez, il mettra à jour ce lieu pour tous les événements qui l'utilisent.
 
 ![image](../img/event%20location%20with%20warning.PNG)
 
-Vous pouvez aussi lister les numéros de téléphone et adresses e-mail sur la page d'information de l'événement si vous voulez donner aux inscrits un moyen de communiquer directement avec les organisateurs de l'événement. Si l'événement a lieu hors site de l'emplacement principal, vous pouvez également fournir des informations de contact sur le lieu de la réunion.
+Vous pouvez aussi lister des numéros de téléphone et adresses e-mail sur la page d'information de l'événement si vous voulez donner aux inscrits un moyen de communiquer directement avec les organisateurs de l'événement. Si l'événement a lieu hors site de l'emplacement principal, vous pouvez également fournir des informations de contact sur le lieu de la réunion.
 
 
 Frais
 -----
 
 Si l'événement est gratuit, cochez **Evénement payant** à **Non**, puis cliquez sur **Enregistrer** et passez à l'inscription en ligne.
-Si l'événement payant, cliquez sur **Oui**. L'écran affiche les options disponibles (voir l'ensemble des captures d'écran ci-dessous).
-
+Si l'événement est payant, cliquez sur **Oui**. L'écran affiche les options disponibles (voir l'ensemble des captures d'écran ci-dessous).
 
 What **Contribution Type** (financial type) will be assigned to paid
 registrations for this event? Although the most common value for this
