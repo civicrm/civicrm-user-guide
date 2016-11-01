@@ -113,44 +113,22 @@ L'idée est essentiellement la même que ci-dessus, mais vous pouvez accéder à
 Informer un ami
 ---------------
 
-CiviEvent makes it easy to leverage the social networking power of your committed constituents by empowering them to quickly and easily share details about your organization and event with their friends and colleagues. The
-final step in the event creation is a page where you can enable
-"Tell-A-Friend" capabilities. You can define the text and links to be
-included on that page and in the email sent from the tool (see the
-following screenshot).
+CiviEvent facilite l'utilisation de la puissance des réseaux sociaux de vos membres et participants en leur permettant de partager rapidement et facilement des informations sur votre organisation et vos événement avec leurs amis et collègues.
+La dernière étape de la création d'événement est une page où vous pouvez activer les fonctionnalités "Tell-A-Friend" (Informer un ami). Vous pouvez définir le texte et les liens à inclure sur cette page et dans l'email envoyé à partir de l'outil (voir la capture d'écran suivante).
 
 ![EventTellFriend](../img/CiviCRM_update-CiviEvent-EventTellFriend-en.png "EventTellFriend")
 
-A "Tell a friend" activity record will be added to a participant's
-Activities tab each time she sends mail to her friends. This allows you
-to track your most active supporters and engage them further. The people
-who are emailed using this feature are also automatically added to
-CiviCRM as contacts.
+Chaque fois qu'une personne enverra du courrier à ses amis, un enregistrement d'activité «Informer à un ami» sera ajouté à l'onglet Activités d'un participant. Cela vous permet de suivre vos membres ou participants les plus actifs et de les engager davantage. Les personnes sollicitées par courrier électronique à l'aide de cette fonctionnalité sont automatiquement ajoutées à CiviCRM en tant que contacts.
 
-Registration confirmation and receipting
+
+Confirmation d'inscription et réception
 ----------------------------------------
 
-You can send automated confirmation and receipt emails to participants
-who register for an event, whether they register online are registered
-by your staff or volunteers. The content and layout of these emails are
-controlled by message templates*.*Both HTML and Text formats are
-provided. You can modify or add text to these emails, or add branding
-such as a logo to the HTML versions. To set up a from email address from
-which to send the confirmation and receipts, see Set-Up in the Email
-section.
+Vous pouvez envoyer des courriels automatiques de confirmation et de réception aux participants qui s'inscrivent à un événement, qu'ils s'inscrivent en ligne ou manuellement par votre personnel. Le contenu et la présentation de ces emails sont pré-établis dans les *Modèles de message*. Les formats HTML et Texte sont diponibles.
 
-Navigate to **Administer > Communications > Message Templates** (shown
-in the following screenshot) and click the **System Workflow Message**
-tab to see the list of messages you can modify. Click **Edit** next to
-"Events - Registration Confirmation and Receipt" rows to edit the
-content and layout.
+Vous pouvez modifier ou ajouter du texte à ces e-mails ou ajouter des images telles qu'un logo aux versions HTML. Pour configurer une adresse de courriel à partir de laquelle envoyer la confirmation et les reçus, consultez la section Configuration dans la section Courrier électronique.
+Accédez à **Administrer> Communications> Modèles de message** (illustré dans la capture d'écran suivante) et cliquez sur l'onglet **Système de flux de travail** pour afficher la liste des messages que vous pouvez modifier. Cliquez ensuite sur **Modifier** à côté de "Événements - Confirmation d'inscription et réception" pour modifier le contenu et la mise en page.
 
 ![WorkflowMsgTpls](../img/CiviCRM_update-CiviEvent-WorkflowMsgTpls-en.png "WorkflowMsgTpls")
 
-
-The templates for these messages include both the text shown and
-necessary program logic. Use caution when editing so as not to modify
-the program logic. Be sure to test the workflow and review the emails
-sent after making any changes. If you find that your changes have caused
-problems, errors or missing information, you can always revert to the
-system default for that workflow.  
+Les modèles de ces messages incluent à la fois le texte affiché et la logique de programme nécessaire. Soyez prudent lors de l'édition afin de ne pas modifier la logique du programme. Assurez-vous de tester votre de travail et d'examiner les courriels envoyés après avoir apporté des modifications. Si vous constatez que vos modifications ont causé des problèmes, des erreurs ou des informations manquantes, vous pouvez toujours revenir au système par défaut pour ce modèle.
