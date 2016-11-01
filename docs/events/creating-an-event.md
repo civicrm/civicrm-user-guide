@@ -35,7 +35,7 @@ Les deux champs suivants (**Résumé de l'événement** et **Description complè
 
 Entrez la **Date de début / heure** et la **Date de fin / heure** pour votre événement. Celles-ci seront incluses dans les pages d informations et la liste des événements.
 
-Vous pouvez définir un **Nombre maximum de participants** pour chaque événement et définir un message à afficher lorsque ce nombre maximum est atteint.
+Vous pouvez définir un **Nombre maximum de participants** pour chaque événement ainsi qu'un message à afficher lorsque ce nombre maximum est atteint.
 
 Si vous souhaitez afficher une carte situant le lieu de l'événement, vous pouvez le faire en utilisant soit Google Maps ou Open Street (vous devrez configurer votre solution de cartographie par **Administrer> Paramètres système> cartographie et géocodage**).
 
@@ -62,93 +62,58 @@ Une fois que vous avez saisi le lieu de l'événement, vous pouvez le réutilise
 Vous pouvez aussi lister des numéros de téléphone et adresses e-mail sur la page d'information de l'événement si vous voulez donner aux inscrits un moyen de communiquer directement avec les organisateurs de l'événement. Si l'événement a lieu hors site de l'emplacement principal, vous pouvez également fournir des informations de contact sur le lieu de la réunion.
 
 
-Frais
------
+Tarif et Frais
+--------------
 
 Si l'événement est gratuit, cochez **Evénement payant** à **Non**, puis cliquez sur **Enregistrer** et passez à l'inscription en ligne.
+
 Si l'événement est payant, cliquez sur **Oui**. L'écran affiche les options disponibles (voir l'ensemble des captures d'écran ci-dessous).
 
-What **Contribution Type** (financial type) will be assigned to paid
-registrations for this event? Although the most common value for this
-field is simply Event Fee, CiviCRM provides the flexibility to define
-multiple Financial Types and assign them to different events as needed.
-See *Set-Up* in the *Contributions* section for details.
+Quel **type de contribution** (type financier) sera affecté aux inscriptions payantes de cet événement? Bien que la valeur la plus courante pour ce champ soit simplement les frais d'inscription, CiviCRM offre la souplesse nécessaire pour définir plusieurs tarifs et les affecter à différents événements.
+Voir *Set-Up* dans la section *Contributions* pour plus de détails.
+Si vous prévoyez d'accepter des paiements par carte de crédit via le formulaire d'inscription en ligne, vous devez configurer un **processeur de paiement** avant de créer votre événement.
+Pour plus d'informations consultez *Payment Processors* dans la section *Contributions*.
 
-If you plan to accept credit card payments through the online
-registration form, you need to configure a **payment processor** prior
-to creating your event. Find more information about this, see *Payment
-Processors* in the *Contributions* section.
-
-Do you want to allow registrants to pay later by mailing in a check,
-paying on-site with cash or credit card, or arranging some other payment
-method? If so, you can enable the **Pay Later option** and define a
-label and payment instructions. If you keep this unchecked, registrants
-will be required to pay by credit card.
+Si vous voulez permettre aux inscrits de payer plus tard, par l'envoi d'un chèque par exemple, de payer sur place en espèces ou par carte de crédit, ou autre moyen de paiement, dans ces cas activez **Payez plus tard** et définissez une étiquette et les instructions de paiement. Si cette option est décochée, les inscrits devront payer par carte de crédit.
 
 ![EventFeesPayLater](../img/CiviCRM_update-CiviEvent-EventFeesPayLater-en.png "EventFeesPayLater")
 
-**Regular Fees** provide a set of price levels from which the registrant
-must select a single level (e.g. an individual registration for $50 or
-a family registration for $100). Each fee amount has a label assigned
-and you can set a default fee. This approach works well for many events
-and is easy to set up. Here's a simple example:
+**Regular Fees**  permettent de géréer plusieurs de niveaux de tarif à partir desquels l'inscrit doit choisir un niveau unique (par exemple, un enregistrement individuel pour 50 € ou un enregistrement familial pour 100 €). A chaque montant de tarif est attribué une étiquette, vous pouvez ainsi définir des tarifs par défaut. Cette façon donne satisfaction pour de nombreux événements et est facile à mettre en place. Voici un exemple simple:
 
 ![EventRegFees](../img/CiviCRM_update-CiviEvent-EventRegFees-en.png "EventRegFees")
 
-If your event requires a more complex pricing structure, with more
-options or additional add-ons, you may wish to use **price sets** or
-**discounts**. For more information about this, see the *Complex event
-fees* chapter in this section.
+Si votre événement nécessite une structure de tarif plus complexe, avec plus d'options ou d'add-ons supplémentaires, vous pouvez utiliser **ensembles de prix** ou **rabais**. Pour plus d'informations à ce sujet, reportez-vous au chapitre * Frais d'événement complexes * de cette section.
 
-Online registration
---------------------
 
-Allowing people to register online (self-service) through your web site
-offers many benefits. Online registration is convenient for your
-constituents and can save staff time and resources. If you do not need
-to offer online registration, do not check **Allow Online
-Registration** and move onto the next step. If you do want to allow
-online registration, please see the *Online event registration* chapter
-in this section.
+Enregistrement en ligne
+-----------------------
 
-Scheduled reminders
--------------------
+Permettre au public de s'inscrire en ligne via votre site Web offre de nombreux avantages. L'inscription en ligne est aisée et permet à votre personnel de gagner du temps. Si vous n'avez pas besoin d'offrir l'inscription en ligne, ne cochez pas **Autoriser l'inscription en ligne** et passez à l'étape suivante. Si vous souhaitez autoriser l'inscription en ligne, consultez le chapitre * Enregistrement des événements en ligne * de cette section.
 
-Scheduled reminders can be used to automatically send event registrants
-emails at certain times before or after events, for example
+Rappels programmés
+------------------
 
--   a week before: remind them that they should check out the conference
-    schedule
--   a day after: ask them to fill in the feedback form
--   Two days before payment is due for a Pending from Pay Later
-    registration: warn them that their registration will be cancelled if
-    they don't provide payment details in the next 48 hours.
+Des rappels programmés peuvent être utilisés pour envoyer automatiquement des courriels d'inscription à l'événement avant ou après les événements, par exemple
 
-To set up a scheduled reminder for a specific event, click on the
-scheduled reminders tab, which will show you already existing scheduled
-reminders for this event (if any) and click on **Add Reminder**.
+-   Une semaine avant: pour leur rappeler le lieu et l'horaire de la conférence
+-   Un jour après: pour leur demander de remplir un formulaire de commentaires
+-   Deux jours avant : dans l'attente du paiement convenu et les informer que leur inscription sera annulée si le paiement n'est pas reçu dans les 48 heures suivantes.
 
-![image](../img/scheduled-reminder-events.png)Fill in the details on
-this form to send, for example, an email to all registered speakers 3
-days before the event start date.  Note that you can limit recipients by
-status (registered, attended, etc.) and also by role (speaker, attendee,
-volunteer, etc.).  You can either use a template or compose your own
-message in the HTML format box.
+Pour configurer un rappel planifié sur un événement spécifique, cliquez sur l'onglet "Rappels planifiés", qui vous montrera  les rappels déjà planifiés pour cet événement (si c'est le cas) et cliquez sur **Add Reminder**.
+    
+![image](../img/scheduled-reminder-events.png)
+
+Remplissez les champs de ce formulaire pour envoyer, par exemple, un courriel à tous les intervenants inscrits 3 jours avant la date de début de l'événement. Notez que vous pouvez limiter les destinataires par statut et aussi par rôle (conférencier, participant, bénévole, etc.). Vous pouvez utiliser un modèle ou composer votre propre message dans la zone de format HTML.
 
 ![image](../img/scheduled-reminder-events-compose.png)
 
-As well as setting up reminders on an event by event basis, you can also
-set them up for specific event types. and add them to specific event
-templates.  The idea is basically the same as above, but you can access
-this functionality from **Administer > Communications > Scheduled
-reminders**.
+En plus de configurer des modèles de rappels généraux des événements, vous pouvez également les configurer pour des types d'événements spécifiques et les ajouter à des modèles d'événements spécifiques.
+L'idée est essentiellement la même que ci-dessus, mais vous pouvez accéder à cette fonctionnalité à partir de **Administer> Communications> Rappels planifiés**.
 
-Tell-A-Friend
--------------
+Informer un ami
+---------------
 
-CiviEvent makes it easy to leverage the social networking power of your committed
-constituents by empowering them to quickly and easily share details
-about your organization and event with their friends and colleagues. The
+CiviEvent makes it easy to leverage the social networking power of your committed constituents by empowering them to quickly and easily share details about your organization and event with their friends and colleagues. The
 final step in the event creation is a page where you can enable
 "Tell-A-Friend" capabilities. You can define the text and links to be
 included on that page and in the email sent from the tool (see the
