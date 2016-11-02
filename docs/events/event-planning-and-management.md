@@ -1,106 +1,71 @@
-Event planning and management
-=============================
+Planification et gestion d'un événement
+=======================================
+Ce chapitre traite des informations générales sur la planification et la gestion d'un événement
 
-This chapter covers some general information on planning and managing
-your events. There are lots of things to consider when planning an event
-which will affect the way you set up your event, so it is worth thinking
-about the information in this chapter before you start.
+De nombreux éléments sont à considérer lors de la planification d'un événement, ce qui aura une incidence sur la façon dont vous allez le configurer. Il est donc utile de réfléchir aux informations contenues dans ce chapitre avant de commencer.
 
-Planning your event
----------------------
+**Planification**
+-------------
 
-If you are new to CiviEvent, it is a good idea to think about the
-structure of your events and how you want a person to experience the
-event registration process before you start. This will help to inform
-how you set up and configure your events. Here are some important
-questions to consider.
+Avant de démarrer, il est important de penser à la structure de vos événements et comment vous allez les enregistrer, cela vous permettra de mieux les configurer.
 
--   What different types of events does your organization hold? And what
-type of event is this?
+Voici quelques questions importantes à vous poser :
 
--   What different roles will participants have at the event?
+-   Quels sont les différents types d'événements que vous organisez? Et de quel type d'événement s'agit-il?
 
--   What kinds of information you want to collect about participants, e.g.,
-food and lodging preferences?
+-   Quels rôles différents les participants auront-ils? Exemple: participant, animateur, conférencier,journaliste,...
 
--   Will you allow online registrations to the event?
+-   Quelles sortes d'information voulez-vous collecter sur les participants ? Exemple : Age, profession, ville...?
 
--   Is there a limit on the number of participants that can attend?
+-   Voulez-vous permettre l'inscription en ligne à l'événement?
 
--    you want to approve registration, or leave it open to anyone?
+-   Le nombre de participants qui peuvent y assister est-il limité?
 
--   Will there be a waitlist if the maximum number of registrations is
-exceeded?
+-   Souhaitez-vous valider l'enregistrement, ou le laisser ouvert à toute personne?
 
--   Should one person to be able to register multiple people?
+-   Si le nombre maximal d'inscriptions est atteint: gestion d'une file d'attente? 
 
--   Do you want to give registrants confirmation of registering?
+-   Un participant pourra-t-il enregistrer d'autres personnes ? 
 
--   Do you want to make the listing of the participants public?
+-   Voulez-vous adresser aux inscrits une confirmation de leur enregistrement ? 
 
--   Is this an event that repeats regularly with roughly the same details?
+-   Souhaitez-vous que la liste des participants soit publique ? 
 
--   Will this be a paid event? If so..
+-   Est-ce un événement qui se répète régulièrement avec à peu près les mêmes critères ? 
 
-    -   What Financial Type will you consider the event fees to be?
+-   Est un événement payant ? Si oui...
 
-    -   What kind of fee structure will you need to hold your event?
+    -   A quel moyen financier voulez-vous rattacher les frais de l'événement ?
+    -   Voulez-vous facturer des frais multiples, tels que frais de session supplémentaire ou repas. 
+    -   Voulez-vous offrir des remises ou gratuités ?  
 
-    -   Will you charge multiple fees, such as fees for additional sessions
-    or meals?
+Prenez le temps d'évaluer le type d'information dont vous avez besoin pour parametrer vos événements efficacement, ainsi que les informations qu'il serait utile de recueillir lors de vos manifestations ou sur les participants à l'événement.
+Si vous exécutez des événements récurrents qui sont très similaires, pensez à utiliser des modèles d'événements ou les fonctions de copie de l'événement pour faire la mise en place des processus plus facilement et plus rapidement.
 
-    -   Will you offer discounts or early registration?
 
-Take time to assess the kind of information you need to run your events
-effectively, as well as what information it would be useful to collect
-during events and from event participants. If you run recurring events
-that are very similar, think about using event templates or the event
-copy features to make the set-up processes easier.
+**La promotion de vos évènements**
+------------------------------
 
-Promoting your events
------------------------
+Diffuser et promouvoir votre évènement peut prendre plusieurs formes. Pensez au public de votre événement et où ils ont tendance à rechercher leurs informations. 
+Ce qui suit vous aidera à déterminer quels outils peuvent vous aider à le promouvoir:
 
-Getting the word out and building excitement about your event can take
-many forms. Think about who you want at your event and where they tend
-to get their information. This will help you determine which tools can
-help you promote it:
+-  Quelle stratégie allez-vous utiliser pour promouvoir votre événement, et à travers quels canaux?
+-  Allez-vous afficher vos événements sur votre site Web et permettre aux public de s'inscrire en ligne?
+-  Est-ce qu'un email est un bon moyen d'atteindre votre public cible pour les informer de l'événement?
+-  Si votre événement est "sur invitation seulement"? Qui allez-vous inviter?
+-  Avez-vous prévu un calendrier pour l'envoi de rappels à partir de l'invitation initiale à l'événement?
 
--   What strategy will you use to promote your event, and through what
-    channels?
+Mettez la liste de vos événements bien en évidence sur le site Web de votre organisation. Votre agenda public est également un moyen important de promouvoir ces événements. Vous pouvez utiliser différentes stratégies, ou vos propres méthodes, pour que le public et autres organisations prennent connaissance de vos événements mais aussi encourager les participants à contribuer à la promotion de l'événement.
 
--   Will you be posting your event on your website and allow people to
-    register online?
--   Is email a good way to reach your constituents to market the event?
--   Is your event "by invitation only"? Who are you are inviting?
--   Have you planned a schedule to announce your event from the initial
-    invitation to sending out event reminders?
+Voir comment integrer vos événements dans votre site web dans le chapitre  *Online event registration*  de cette section 
 
-Prominently listing your event on your organization's website and your
-public calendar is an important way to promote your event. Then you can
-use various strategies to let people and organizations know about it,
-and encourage participants to help promote the event. See the
-Integrating events with your website sub-section of the *Online event
-registration* chapter in this section.
+Si vous faites connaître vos événements sur un autre site ou sur le calendrier de l'organisation, indiquez clairement comment le public doit s'enregistrer. Par exemple, certains réseaux sociaux ont un système d'enregistrement d'événement intégré, tels que, par exemple, les événements Facebook. D'autres organisations qui contribuent à faire connaître votre événement peuvent avoir leurs propres systèmes d'enregistrement des événements. Assurez-vous que, peu importe où vous diffusez vos événements, il est important de préciser comment la personne doit s'enregistrer.
 
-If you are publicising your events on another website or organization's
-calendar, make it clear how people are expected to register. For
-example, some social networks have a built-in event registration system,
-such as Facebook events. Other organizations that are helping to
-publicise your event may have their own event registration systems. Make
-sure that no matter where you publicise the event, it is obvious how the
-person is expected to register.
-
-Following up after the Event
+**Le Suivi après l'événement**
 ----------------------------
 
-Updating the status of each participant during the event or soon after
-will help to ensure that you have the most accurate information to
-evaluate your event.
-
-It is good practice to send an email after the event to all the
-attendees to thank them and provide links to any documentation you have
-online. You may want to send a different email to those who registered
-but did not attend. You might also want to use this opportunity to
-promote a new event, suggest that attendees join your organisation as a
-member, or solicit donations for a specific campaign. You can learn more
-about how to do this in *Scheduled Reminders* in the *Email* section.
+La mise à jour de l'état de chaque participant lors de l'événement, ou peu après, vous aidera à vous assurer que vous avez les informations les plus précises pour évaluer votre événement.
+Il est bon d'envoyer un e-mail après l'événement à tous les participants pour les remercier et fournir des liens vers tous les documents que vous avez en ligne.
+Vous pouvez envoyer un e-mail aux personnes qui se sont inscrites, mais n'ont pu venir. Vous pouvez également profiter de cette occasion pour promouvoir un nouvel événement, ou inciter les participants à adhérer à votre organisation en tant que membre, bénévoles, ou solliciter des dons pour une campagne spécifique.
+ 
+Vous pouvez en savoir plus sur la façon de le faire en consultant *Scheduled Reminders* dans la section *Email*.
