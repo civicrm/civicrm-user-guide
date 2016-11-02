@@ -1,102 +1,41 @@
-Overview
-========
+Aperçu
+======
 
-This chapter covers the main building blocks that CiviCRM uses to store
-data and offers advice on how to transfer and organize your existing
-data. Using CiviCRM successfully depends on storing data in the right
-place and in the right way, which can only happen with some thoughtful
-planning of mapping your data into CiviCRM. 
+Ce chapitre couvre les principaux critères de paramétrage que CiviCRM utilise pour stocker des données et donne des conseils sur la façon de transférer et d'organiser vos données existantes. La bonne utilisation de CiviCRM dépend de la façon dont les données sont stockées, au bon endroit et de la bonne manière, ce qui ne peut se faire qu'avec une planification judicieuse de la structure de vos données dans CiviCRM.
 
-Before thinking about CiviCRM structure, it is important to think about
-the systems you currently have in place to store and organise your data.
-Your data could be stored in a spreadsheets, another database or CRM
-(i.e. Constant Contact, Convio or The Raiser's Edge), paper files or in
-someone's memory. In thinking about your contacts and their interactions
-with your organisation, talk to your co-workers, including those who
-have been around the longest and those who have just joined. Talk to as
-many people as possible to get a complete picture of their interactions
-with all kinds of contacts. 
+Avant de penser à la structure des données que vous allez mettre en place dans CiviCRM, il est important de connaître parfaitement le système actuel qui vous permet de gérer, stocker et organiser vos données. Vos données peuvent être stockées dans des feuilles de calcul, une autre base de données ou CRM, des fichiers papier ou dans la mémoire et l'expérience d'une personne. Reflechisez à vos contacts et à leurs interactions avec votre organisation, parlez-en à vos collègues de travail, y compris les plus anciens et ceux qui viennent de vous rejoindre. Parlez-en au plus grand nombre de personnes possible pour obtenir une image complète de leurs interactions avec tous types de contacts.
+
+Beaucoup d'organisations font l'erreur de ne pas identifier qui sont réellement leurs contacts. Passez du temps à bien connaître toutes les personnes impliquées dans votre organisation. Quels sont les différents types de personnes avec qui vous interagissez, et comment diffèrent-ils les uns des autres? Mieux vous comprendrez leurs interactions avec votre organisation, mieux vous pourrez les modéliser dans CiviCRM. Des commentaires anecdotiques ou systématiques sur vos contacts peuvent être utiles.
  
-Many organisations make the mistake of not thinking about who their
-contacts actually are. Spend some time identifying all the people
-involved with your organisation. What different types of people do you
-interact with, and how do they differ from each other? The better you
-understand them and their interactions with your organisation, the
-better you can model them in CiviCRM. Anecdotal or systematic feedback
-from your contacts may be useful. 
+Voici quelques questions importantes à vous poser concernant vos données actuelles:
  
-Here are some important questions to ask yourself about your current
-data: 
+1.  Utilisez-vous dejà un CRM ?
+2.  Avez-vous des feuilles de calcul(tableur) contenant des informations sur vos contacts, vos cotisations ou d'autres données importantes?
+3.  Avez-vous des notes, des mémos ou des classeurs avec des informations sur vos membres? 
+4.  Est-ce que quelqu'un de votre organisation en sait beaucoup sur les membres?
+5.  Quelles sont les sources financières de votre organisation?
+6.  Quelles sont les tâches quotidiennes de votre personnel et de vos bénévoles?
+7.  Comment communiquez-vous actuellement avec vos donateurs, adhérents, bénévoles et autres membres de votre organisation? Comment voulez-vous communiquer avec eux?
+8.  Comment suivez-vous les activités et les communications (courriels, réunions, séminaires, autres événements) que vous avez avec vos membres? 
+9.  Avez-vous une liste des intérêts et des préférences des donateurs?
+10. Comment gérez-vous les nouveaux contacts?
+11. Comment sont classés les contacts existants (anciens élèves, étudiants, parents, principaux donateurs, bénévoles)?
+12. Y at-il des éditions ou des rapports que vous souhaitez créer? Quelles informations contiendront-ils?
 
-1.  Do you have an existing CRM?
-2.  Do you have spreadsheets with information about your contacts,
-    donations or other valuable data?
-3.  Do you have any post-it notes or file cabinets with information
-    about your community?
-4.  Does anyone at your organization know a lot about community members?
-5.  How does money come into your organization?
-6.  What are the day to day tasks your staff and volunteers carry out?
-7.  How do you currently communicate with your donors, members,
-    volunteers and other community members? How would you like to
-    communicate with them?
-8.  How do you track activities and communications (emails, meetings,
-    webinars, other events) that you have with your community?
-9.  Do you have a list of donors interests and preferences?
-10. How do you handle new contacts?
-11. What classifications or labels are you using for your existing
-    contacts (ie. alumni, students, parents, major donor, volunteer)?
-12. Are there any reports you would like to create? What information
-    will they contain?
-
-CiviCRM has been designed to be flexible and adaptable, based on
-feedback from many different non-profits, but it may not map exactly to
-the ways that your organisation currently works. Doing things the
-CiviCRM way could mean adapting your workflow and adopting best
-practices in non-profit technology. Be pragmatic and flexible and
-consider whether your current working practices need to change. 
+CiviCRM a été conçu pour être flexible et adaptable, basé sur les retours et commentaires de nombreuses organisations différentes à but non lucratif qui l'utilisent, mais il peut ne pas correspondre exactement à la façon dont votre organisation travaille actuellement. Faire les choses à la manière CiviCRM pourrait signifier l'adaptation de votre flux de travail et l'adoption des meilleures pratiques de la technologie à but non lucratif. Soyez pragmatique et flexible et examinez si vos pratiques et mode de travail actuelles peuvent ou doivent changer.
  
-It's worth remembering that CiviCRM offers many opportunities to
-interact with your contacts in ways that you have not previously had.
-Taking advantage of these new possibilities can lead to positive changes
-and improvements.
+Il est important de rappeler que CiviCRM offre de nombreuses possibilités d'interagir avec vos contacts de plusieurs façons différentes que vous n'aviez pas auparavant. Tirer profit de ces nouvelles possibilités ne peut qu'entraîner des changements et des améliorations positives.
 
-Think about the move
+Pensez au changement
 --------------------
 
-It might be useful to think about your pre-existing data in the same way
-as the contents of a house or apartment when you need to move. People
-often use moving as a chance to say, "Do we really need this? This stuff
-is too old; let's trash it and get some new stuff once we have moved
-in."
+Penser au changement de la gestion de vos données existantes peut s'assimiler au déménagement d'une maison ou d'un appartement. Vous utilisez cette opportunité comme une chance de se dire : "...Avons-nous vraiment besoin de ceci ou cela?... Ce truc est trop vieux,... nous allons le jeter et le remplacer par du matériel plus récent, plus fonctionnel dès que nous aurons emménagé !"
+Pour appliquer cette métaphore à vos données, recherchez des données sans objet, telles que les anciens modes d'organisation... que vous avez abandonnées ou la situation d'un bureau que vous n'occupez plus.
 
-To apply this metaphor to your data, look for data that have no purpose,
-such as old organisational divisions that you've abandoned or office
-locations in a facility you no longer occupy.
+Certaines anciennes données auront toujours une valeur actuelle. Par exemple, une association dans une situation financiere critique a décidé d'utiliser une vieille liste de donateurs fondateurs qui n'avaient pas donné de l'argent pendant de nombreuses années. Il s'est avéré que ces anciens donateurs qui avaient encore de solides liens émotionnels avec l'association qu'ils avaient fondée sont venus permettre son sauvetage financier. Dans ce cas, sauvegarder les données anciennes et les réutiliser s'est avéré crucial.
 
-Some old data will have continuing value. For instance, one organisation
-in a financial pinch decided to use an old list of founding donors who
-had not given money for many years. It turned out that these lapsed
-donors still had strong emotional ties to the organisation that they had
-founded and they came to its financial rescue. In that case, saving old
-data was crucial.
+Passer à un nouvel espace de vie n'est pas seulement une occasion d'évaluer ce qui est vraiment important à conserver et ce qui peut être détruit. Cela vous donne également une chance de nettoyer tout ce que vous décidez de garder avec vous. Tout comme vous n'allez pas emballer des cadres de peinture poussiéreux et défraichis ou des plats sales parce que cela ferait de votre  nouvelle  demeure un lieu aussi sale que l'ancien. Vous devrez nettoyer vos données avant de le transférer dans CiviCRM de sorte que vous commenciez avec une base de données aussi propre et utile que possible. Pour en savoir plus à ce sujet, reportez-vous au chapitre "Mappage de vos données dans CiviCRM".
 
-Moving to a new living space doesn't just provide an opportunity to
-evaluate what's really important to keep and what can be left behind; it
-also gives you a chance to clean up everything that you do decide to
-take with you. Just as you wouldn't pack up dusty picture frames and
-dirty dishes because that would make your nice new clean place as dirty
-as your old place, you'll want to clean up your data before moving it
-into CiviCRM so that you're starting off with as clean and useful a
-database as possible. You can read more about this in chapter "Mapping
-your data into CiviCRM".
+Ainsi, dans le cadre de la planification d'un déménagement vers CiviCRM, préparez-vous à passer pas mal de temps à vérifier vos anciennes données, par exemple les saisies entrées comme " NY ou New York"?, en supprimant les doublons évidents, les entrées accidentelles, les informations périmées et les enregistrements corrompus.
 
-Also, in planning for a move to CiviCRM, prepare to spend a good amount
-of time looking at your old data; standardising how different elements
-of contacts' records are stored (e.g. are states entered as NY or New
-York?) and deleting obvious duplicates, accidental entries, outdated
-information, and corrupted records.
-
-The following chapters will help you understand what data CiviCRM can
-store and how the best to map your existing records into CiviCRM
-structure. 
-
+Les chapitres suivants vous aideront à comprendre quelles données CiviCRM peut stocker et comment mieux les préparer pour mapper vos enregistrements existants dans la structure de CiviCRM .
