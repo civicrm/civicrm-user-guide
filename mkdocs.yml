@@ -77,8 +77,8 @@ pages:
     - 'Pledges Reports and Analysis': 'pledges/pledges-reports-and-analysis.md'
 - Évènements:
     - "Qu'est-ce que CiviEvent?": 'events/what-is-civievent.md'
-    - 'Event planning and management': 'events/event-planning-and-management.md'
-    - 'Creating an event': 'events/creating-an-event.md'
+    - 'Planification et gestion des événements  ': 'events/event-planning-and-management.md'
+    - 'Créer un événement': 'events/creating-an-event.md'
     - 'Online event registration': 'events/online-event-registration.md'
     - 'Integrating events with your website': 'events/integrating-events-with-your-website.md'
     - 'Manual event registration': 'events/manual-event-registration.md'
