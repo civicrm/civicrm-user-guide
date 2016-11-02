@@ -1,247 +1,134 @@
-Creating an event
-=================
+Création d'un événement
+=======================
 
-This chapter covers the how create a new event, describing each of the
-set up options available in the event creation screen. If you going to
-allow online registration for the event, you will also want to read the
-*online event registration* chapter. If not, you'll want to read the
-*manual event registration* chapter.
+Ce chapitre décrit la façon de créér un nouvel événement et chacune des options disponibles dans les écrans de saisie.
+Pour permettre l'inscription en ligne à un l'événement, vous devez lire le chapitre *online event registration*. Sinon vous pouvez également consulter ce chapitre : *manual event registration*.
 
-To get started, create a new event by choosing **Events > New Event**
-from the menu. (If you can't see the events menu, make sure that you
-have enabled the Events component. You can do this in **Administer >
-Configure > Global Settings > Enable Components**.)
+Pour commencer, créez un nouvel événement en choisissant le menu : **Events > New Event**.(Si vous ne voyez pas le menu Evénement, assurez-vous que le composant Evénement est bien activé. Vous pouvez l'activer ici : **Administer > Configure > Global Settings > Enable Components**.)
 
-Event Information and Settings
+Information et paramétrage
 ------------------------------
 
-The first page you see when creating an event requests basic information
-about the event. You can click on any of the blue question marks to
-show help for each of the fields. When you see a pencil, clicking on it
-will take you to a screen where you can edit the options available.
-Note, depending on your permissions, you may not be able to edit these
-options and therefore will not see the pencil.
+Le premier écran que vous voyez lors de la création demande des informations de base sur l'événement.
+Vous pouvez cliquer sur l'un des points d'interrogation bleu pour afficher une aide sur chacun des champs à remplir. En cliquant sur le crayon à droite de certains champs vous ouvrez un écran où vous pouvez modifier les options disponibles.
+Notez qu'en fonction de vos autorisations vous ne serez pas en mesure de voir ce crayon et vous ne pourrez modifier ces options
 
 ![image](../img/4.5_new_event.PNG)
 
-**From template** allows you to create an event from a template (see
-*Event templates* chapter in this section) rather than creating one from
-scratch.
+**From template** : vous permet de créer un événement à partir d'un modèle (voir le chapitre *Event templates* dans ce document)  plutôt que d'en créer un à partir de zéro.
 
-**Event type** allows you to categorise the event.
+**Event type** : permet de classer l'événement dans une catégorie.
 
-If you have **CiviCampaign** enabled, you can select a campaign for this
-to be a part of (see the *Campaign* section for more details).
+Si vous avez activé **CiviCampaign**, vous pouvez sélectionner une campagne pour que cet événement y soit intégré (voir la section *Campaign* pour plus de détails).
 
-**Roles** distinguish different types of event participants, such as
-attendees, speakers and staff. What role should participants be assigned
-when they register online for this event? The value placed in this field
-will be assigned by default when users register online or when you
-import registrations unless you include the field Participant Role with
-other values in your CSV import file. The most common value is Attendee.
+**Rôle** : Attribue un type de rôle aux participants, tel que participant, animateur, conférencier, ou bénévole...
 
-Do you want users to see a list of participants, and how much
-information about the participants do you want to reveal? **Participant
-Listings** demonstrate support for an event and can help to generate
-interest within your constituent community. Note that the options you
-define in this section only *enable* participant listings — to display
-one, you will need to create a menu item or link to the listing
-somewhere on your website. Once you've created the event, the
-participant listing link is displayed on the event configuration page.
-Refer to the chapter *Event management* for information on participant
-listings and other ways to promote your events.
+Quel est le rôle attribué aux participants lors de leur inscription en ligne pour cet événement?
+La valeur placée dans ce champ sera attribué par défaut lorsque les utilisateurs s'enregistrent en ligne ou lorsque vous importez des enregistrements à moins que vous n'insériez le champ "rôle" avec d'autres valeurs dans votre fichier d'importation CSV. La valeur la plus commune est "Participant"
 
-What is your event called? The **Event Title** will appear on event
-information pages, registration pages, event listings, and in the Manage
-Events administrative page. Be sure to choose a meaningful, well-crafted
-title to represent your event.
+Voulez-vous que les visiteurs voient la liste des participants, et quelles informations souhaitez-vous afficher sur les participants?
 
-The next two fields (**Event Summary** and **Complete Description**) let
-you describe your event. Both the summary and complete description will
-be included on event information pages. Use the rich-text editor
-provided for the description field to include photo, images, and
-formatted text.
+ **Listing Participant** : Afficher la liste des participants permet de montrer leur intérêt et peut susciter d'autres inscriptions du public. Pour cela  cocher l'option *Activer* - liste de participants. Pour l'afficher, vous aurez besoin de  créer un élément de menu ou un lien vers la liste sur votre site. Une fois que vous avez créé l'événement, l'option *lien participant* est affichée sur la page de configuration de l'événement. Reportez-vous à la gestion de l'événement chapitre *Event management* pour obtenir des informations sur la liste des participants et d'autres façons de promouvoir vos événements.
+ 
+Quel est le nom de votre événement ? Le **Titre de l'événement** apparaîtra sur les pages d'information, d'inscription, sur la liste des d'événements, et dans la Gestion des événements (Page administration). Assurez-vous de choisir un titre significatif qui represente votre événement.
+Les deux champs suivants (**Résumé de l'événement** et **Description complète**) vous permettent de décrire votre événement. Le résumé et la description complète seront inclus sur les pages d'information de l'événement. Utilisez l'éditeur de texte enrichi prévu pour le champ de description afin d'inclure photos, images et texte formaté.
 
-Enter the **Start date/time** and **End date/time** for your event.
-These will be included on the event information page and event listings.
+Entrez la **Date de début / heure** et la **Date de fin / heure** pour votre événement. Celles-ci seront incluses dans les pages d informations et la liste des événements.
 
-You can set a **Maximum number of participants** for each event and
-define a message to be displayed when that number is reached.
+Vous pouvez définir un **Nombre maximum de participants** pour chaque événement ainsi qu'un message à afficher lorsque ce nombre maximum est atteint.
 
-If you want to display a map showing the event location you can do so
-using either Google Maps or Open Street Maps (you will need to configure
-your mapping solution through **Administer > System Settings > Mapping
-and Geocoding**).
+Si vous souhaitez afficher une carte situant le lieu de l'événement, vous pouvez le faire en utilisant soit Google Maps ou Open Street (vous devrez configurer votre solution de cartographie par **Administrer> Paramètres système> cartographie et géocodage**).
 
-Select the **Public Event** box to include the event in promotional
-listings such as RSS feeds, iCal files or feeds, and event listing
-pages.
+Sélectionnez **Évènement public** pour inclure l'événement dans les listes promotionnelles telles que des flux RSS, des fichiers ou des flux iCal et la page de liste d'événements.
 
-Select **Allow sharing through social media** to include social media
-links for sharing this event on the Event Info page, Thank-you page,
-Tell-a-Friend page (if enabled), and in event confirmation emails.
+Sélectionnez **Autoriser le partage à travers les médias sociaux** pour inclure des liens sur les médias sociaux pour le partage de cet événement sur la page Information sur l'événement, page de remerciement, Tell-a-Friend  (si la page est activée), et dans les courriels de confirmation de l'événement.
 
-Lastly, you have the option of making this event active or inactive. If
-you anticipate that it will take some time to complete the configuration
-of your event, consider making it inactive until it is complete to
-ensure it is not inadvertently listed on the event listing feeds. You
-can easily activate the event when you are ready to begin publicizing
-it.
+Enfin, vous avez la possibilité de choisir que cet événement soit actif ou inactif
+Si vous prévoyez de prendre un certain temps pour terminer la configuration de votre événement, choisisez de le rendre inactif jusqu'à ce qu'il soit terminé pour s'assurer qu'il ne figure pas par inadvertance sur la liste des flux d'événements. Vous pourrez ainsi  l'activer facilement lorsque vous serez prêt à le diffuser.
 
-After reviewing the details on this page, click **Continue >>** to
-create your event and advance to the next step. You can interrupt
-configuration on any subsequent page by clicking **Save and Done** and
-return later to review and modify any of the settings.
+Après avoir vérifié les détails de cette page, cliquez sur **Continuer >>** pour créer votre événement et passer à l'étape suivante. Vous pouvez interrompre la configuration sur une page suivante en cliquant sur **Enregistrer et Terminé** et revenir plus tard pour examiner et modifier l'un des paramètres.
 
-To return to a saved event, navigate to **Events > Manage Events** and
-click **Configure** to continue working on the event.
+Pour revenir à un événement enregistré, accédez **Événements> Événements Manager** et cliquez sur **Configurer**  pour continuer à travailler ou modifier l'événement.
 
-Event Location
+Localisation
 --------------
 
-The next step is to complete the location and contact details for the
-event.
+L'étape suivante consiste à compléter la localisation et les coordonnées de l'événement.
 
-Once you have entered an event location, you can reuse it for subsequent
-events by clicking **Use existing location** and selecting it from the
-dropdown list. Note that if you choose an existing location and edit it,
-it will update that location for all events that use it.
+Une fois que vous avez saisi le lieu de l'événement, vous pouvez le réutiliser pour des événements ultérieurs en cliquant sur **Utiliser un emplacement existant** en le sélectionnant dans la liste déroulante. Notez que si vous choisissez un emplacement existant et que vous le modifiez, il mettra à jour ce lieu pour tous les événements qui l'utilisent.
 
 ![image](../img/event%20location%20with%20warning.PNG)
 
-You can also list phone numbers and email addresses on the event
-information page if you want to give registrants a way to contact event
-organizers directly. If the event is being held off-site from your
-organization's primary location, you may also want to provide contact
-information for the meeting location.
+Vous pouvez aussi lister des numéros de téléphone et adresses e-mail sur la page d'information de l'événement si vous voulez donner aux inscrits un moyen de communiquer directement avec les organisateurs de l'événement. Si l'événement a lieu hors site de l'emplacement principal, vous pouvez également fournir des informations de contact sur le lieu de la réunion.
 
-Fees
-----
 
-If the event is free, set the **Paid Event** radio button to **No**,
-then click **Save** and skip to Online Registration.
+Tarif et Frais
+--------------
 
-If this is a paid event, click **Yes**. The screen will show the options
-available (see the following set of screenshots).
+Si l'événement est gratuit, cochez **Evénement payant** à **Non**, puis cliquez sur **Enregistrer** et passez à l'inscription en ligne.
 
-What **Contribution Type** (financial type) will be assigned to paid
-registrations for this event? Although the most common value for this
-field is simply Event Fee, CiviCRM provides the flexibility to define
-multiple Financial Types and assign them to different events as needed.
-See *Set-Up* in the *Contributions* section for details.
+Si l'événement est payant, cliquez sur **Oui**. L'écran affiche les options disponibles (voir l'ensemble des captures d'écran ci-dessous).
 
-If you plan to accept credit card payments through the online
-registration form, you need to configure a **payment processor** prior
-to creating your event. Find more information about this, see *Payment
-Processors* in the *Contributions* section.
+Quel **type de contribution** (type financier) sera affecté aux inscriptions payantes de cet événement? Bien que la valeur la plus courante pour ce champ soit simplement les frais d'inscription, CiviCRM offre la souplesse nécessaire pour définir plusieurs tarifs et les affecter à différents événements.
+Voir *Set-Up* dans la section *Contributions* pour plus de détails.
+Si vous prévoyez d'accepter des paiements par carte de crédit via le formulaire d'inscription en ligne, vous devez configurer un **processeur de paiement** avant de créer votre événement.
+Pour plus d'informations consultez *Payment Processors* dans la section *Contributions*.
 
-Do you want to allow registrants to pay later by mailing in a check,
-paying on-site with cash or credit card, or arranging some other payment
-method? If so, you can enable the **Pay Later option** and define a
-label and payment instructions. If you keep this unchecked, registrants
-will be required to pay by credit card.
+Si vous voulez permettre aux inscrits de payer plus tard, par l'envoi d'un chèque par exemple, de payer sur place en espèces ou par carte de crédit, ou autre moyen de paiement, dans ces cas activez **Payez plus tard** et définissez une étiquette et les instructions de paiement. Si cette option est décochée, les inscrits devront payer par carte de crédit.
 
 ![EventFeesPayLater](../img/CiviCRM_update-CiviEvent-EventFeesPayLater-en.png "EventFeesPayLater")
 
-**Regular Fees** provide a set of price levels from which the registrant
-must select a single level (e.g. an individual registration for $50 or
-a family registration for $100). Each fee amount has a label assigned
-and you can set a default fee. This approach works well for many events
-and is easy to set up. Here's a simple example:
+**Regular Fees**  permettent de géréer plusieurs de niveaux de tarif à partir desquels l'inscrit doit choisir un niveau unique (par exemple, un enregistrement individuel pour 50 € ou un enregistrement familial pour 100 €). A chaque montant de tarif est attribué une étiquette, vous pouvez ainsi définir des tarifs par défaut. Cette façon donne satisfaction pour de nombreux événements et est facile à mettre en place. Voici un exemple simple:
 
 ![EventRegFees](../img/CiviCRM_update-CiviEvent-EventRegFees-en.png "EventRegFees")
 
-If your event requires a more complex pricing structure, with more
-options or additional add-ons, you may wish to use **price sets** or
-**discounts**. For more information about this, see the *Complex event
-fees* chapter in this section.
+Si votre événement nécessite une structure de tarif plus complexe, avec plus d'options ou d'add-ons supplémentaires, vous pouvez utiliser **ensembles de prix** ou **rabais**. Pour plus d'informations à ce sujet, reportez-vous au chapitre * Frais d'événement complexes * de cette section.
 
-Online registration
---------------------
 
-Allowing people to register online (self-service) through your web site
-offers many benefits. Online registration is convenient for your
-constituents and can save staff time and resources. If you do not need
-to offer online registration, do not check **Allow Online
-Registration** and move onto the next step. If you do want to allow
-online registration, please see the *Online event registration* chapter
-in this section.
+Enregistrement en ligne
+-----------------------
 
-Scheduled reminders
--------------------
+Permettre au public de s'inscrire en ligne via votre site Web offre de nombreux avantages. L'inscription en ligne est aisée et permet à votre personnel de gagner du temps. Si vous n'avez pas besoin d'offrir l'inscription en ligne, ne cochez pas **Autoriser l'inscription en ligne** et passez à l'étape suivante. Si vous souhaitez autoriser l'inscription en ligne, consultez le chapitre * Enregistrement des événements en ligne * de cette section.
 
-Scheduled reminders can be used to automatically send event registrants
-emails at certain times before or after events, for example
+Rappels programmés
+------------------
 
--   a week before: remind them that they should check out the conference
-    schedule
--   a day after: ask them to fill in the feedback form
--   Two days before payment is due for a Pending from Pay Later
-    registration: warn them that their registration will be cancelled if
-    they don't provide payment details in the next 48 hours.
+Des rappels programmés peuvent être utilisés pour envoyer automatiquement des courriels d'inscription à l'événement avant ou après les événements, par exemple
 
-To set up a scheduled reminder for a specific event, click on the
-scheduled reminders tab, which will show you already existing scheduled
-reminders for this event (if any) and click on **Add Reminder**.
+-   Une semaine avant: pour leur rappeler le lieu et l'horaire de la conférence
+-   Un jour après: pour leur demander de remplir un formulaire de commentaires
+-   Deux jours avant : dans l'attente du paiement convenu et les informer que leur inscription sera annulée si le paiement n'est pas reçu dans les 48 heures suivantes.
 
-![image](../img/scheduled-reminder-events.png)Fill in the details on
-this form to send, for example, an email to all registered speakers 3
-days before the event start date.  Note that you can limit recipients by
-status (registered, attended, etc.) and also by role (speaker, attendee,
-volunteer, etc.).  You can either use a template or compose your own
-message in the HTML format box.
+Pour configurer un rappel planifié sur un événement spécifique, cliquez sur l'onglet "Rappels planifiés", qui vous montrera  les rappels déjà planifiés pour cet événement (si c'est le cas) et cliquez sur **Add Reminder**.
+    
+![image](../img/scheduled-reminder-events.png)
+
+Remplissez les champs de ce formulaire pour envoyer, par exemple, un courriel à tous les intervenants inscrits 3 jours avant la date de début de l'événement. Notez que vous pouvez limiter les destinataires par statut et aussi par rôle (conférencier, participant, bénévole, etc.). Vous pouvez utiliser un modèle ou composer votre propre message dans la zone de format HTML.
 
 ![image](../img/scheduled-reminder-events-compose.png)
 
-As well as setting up reminders on an event by event basis, you can also
-set them up for specific event types. and add them to specific event
-templates.  The idea is basically the same as above, but you can access
-this functionality from **Administer > Communications > Scheduled
-reminders**.
+En plus de configurer des modèles de rappels généraux des événements, vous pouvez également les configurer pour des types d'événements spécifiques et les ajouter à des modèles d'événements spécifiques.
+L'idée est essentiellement la même que ci-dessus, mais vous pouvez accéder à cette fonctionnalité à partir de **Administer> Communications> Rappels planifiés**.
 
-Tell-A-Friend
--------------
+Informer un ami
+---------------
 
-CiviEvent makes it easy to leverage the social networking power of your committed
-constituents by empowering them to quickly and easily share details
-about your organization and event with their friends and colleagues. The
-final step in the event creation is a page where you can enable
-"Tell-A-Friend" capabilities. You can define the text and links to be
-included on that page and in the email sent from the tool (see the
-following screenshot).
+CiviEvent facilite l'utilisation de la puissance des réseaux sociaux de vos membres et participants en leur permettant de partager rapidement et facilement des informations sur votre organisation et vos événement avec leurs amis et collègues.
+La dernière étape de la création d'événement est une page où vous pouvez activer les fonctionnalités "Tell-A-Friend" (Informer un ami). Vous pouvez définir le texte et les liens à inclure sur cette page et dans l'email envoyé à partir de l'outil (voir la capture d'écran suivante).
 
 ![EventTellFriend](../img/CiviCRM_update-CiviEvent-EventTellFriend-en.png "EventTellFriend")
 
-A "Tell a friend" activity record will be added to a participant's
-Activities tab each time she sends mail to her friends. This allows you
-to track your most active supporters and engage them further. The people
-who are emailed using this feature are also automatically added to
-CiviCRM as contacts.
+Chaque fois qu'une personne enverra du courrier à ses amis, un enregistrement d'activité «Informer à un ami» sera ajouté à l'onglet Activités d'un participant. Cela vous permet de suivre vos membres ou participants les plus actifs et de les engager davantage. Les personnes sollicitées par courrier électronique à l'aide de cette fonctionnalité sont automatiquement ajoutées à CiviCRM en tant que contacts.
 
-Registration confirmation and receipting
+
+Confirmation d'inscription et réception
 ----------------------------------------
 
-You can send automated confirmation and receipt emails to participants
-who register for an event, whether they register online are registered
-by your staff or volunteers. The content and layout of these emails are
-controlled by message templates*.*Both HTML and Text formats are
-provided. You can modify or add text to these emails, or add branding
-such as a logo to the HTML versions. To set up a from email address from
-which to send the confirmation and receipts, see Set-Up in the Email
-section.
+Vous pouvez envoyer des courriels automatiques de confirmation et de réception aux participants qui s'inscrivent à un événement, qu'ils s'inscrivent en ligne ou manuellement par votre personnel. Le contenu et la présentation de ces emails sont pré-établis dans les *Modèles de message*. Les formats HTML et Texte sont diponibles.
 
-Navigate to **Administer > Communications > Message Templates** (shown
-in the following screenshot) and click the **System Workflow Message**
-tab to see the list of messages you can modify. Click **Edit** next to
-"Events - Registration Confirmation and Receipt" rows to edit the
-content and layout.
+Vous pouvez modifier ou ajouter du texte à ces e-mails ou ajouter des images telles qu'un logo aux versions HTML. Pour configurer une adresse de courriel à partir de laquelle envoyer la confirmation et les reçus, consultez la section Configuration dans la section Courrier électronique.
+Accédez à **Administrer> Communications> Modèles de message** (illustré dans la capture d'écran suivante) et cliquez sur l'onglet **Système de flux de travail** pour afficher la liste des messages que vous pouvez modifier. Cliquez ensuite sur **Modifier** à côté de "Événements - Confirmation d'inscription et réception" pour modifier le contenu et la mise en page.
 
 ![WorkflowMsgTpls](../img/CiviCRM_update-CiviEvent-WorkflowMsgTpls-en.png "WorkflowMsgTpls")
 
-
-The templates for these messages include both the text shown and
-necessary program logic. Use caution when editing so as not to modify
-the program logic. Be sure to test the workflow and review the emails
-sent after making any changes. If you find that your changes have caused
-problems, errors or missing information, you can always revert to the
-system default for that workflow.  
+Les modèles de ces messages incluent à la fois le texte affiché et la logique de programme nécessaire. Soyez prudent lors de l'édition afin de ne pas modifier la logique du programme. Assurez-vous de tester votre de travail et d'examiner les courriels envoyés après avoir apporté des modifications. Si vous constatez que vos modifications ont causé des problèmes, des erreurs ou des informations manquantes, vous pouvez toujours revenir au système par défaut pour ce modèle.
