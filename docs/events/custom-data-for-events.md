@@ -3,7 +3,7 @@ Données personnalisées pour les événements
 
 Dans le cadre du processus de gestion des événements vous souhaiterez certainement recueillir des informations supplémentaires sur les événements ou sur leurs participants . Ce chapitre vous explique comment faire, facilement, avec les données personnalisées et vous informe des différentes façons de recueillir ces données pour les événements et comment mieux insérer chaque type d'information. Comprendre la façon dont les données personnalisées fonctionnent dans CiviCRM est nécessaire pour tirer le meilleur parti de ce chapitre. Pour mieux comprendre voir le chapitre *Champs personnalisés* dans *Organiser vos données*.
 
-La question clé à se poser lors de l'ajout de données personnalisées pour la gestion des événements est *où* ces données  doivent-elles aller?
+La question clé à se poser lors de l'ajout de données personnalisées pour la gestion des événements est *où ces données  doivent-elles aller?*
 Il ya trois endroits où vous pouvez ajouter des données personnalisées
 
 -   le dossier des participants
@@ -25,14 +25,14 @@ Une autre erreur classique que vous pouvez faire est d'ajouter des données pers
 
 Différentes options lorsque vous ajoutez des données personnalisées aux participants :
 
--   **Participants:** Ceci ajoutera le champ à tous les enregistrements des participants.
+-   **Participants:** ajoute le champ à tous les enregistrements des participants.
 Utile si vous êtes souhaitez recueillir des informations qui s'appliquent à tous les participants.
 
--   **Participants(Nom de l'évènement): **  identique pour tous les participants
-Cela vous permet d'affecter un groupe de champs personnalisés à un événement spécifique. 
+-   **Participants(Nom de l'évènement):**  identique pour tous les participants
+Vous permet d'affecter un groupe de champs personnalisés à un événement spécifique. 
 Utile pour ajouter des données d'enregistrement complexes pour un seul événement sans encombrer tous les événements.
 
--   **Participants (Rôle):** Ces champs ne seront disponibles que pour certains types de participants.
+-   **Participants (Rôle):** Ce champ ne sera disponible que pour certains types de participants.
 Utile, par exemple, si vous avez besoin de recueillir des détails sur le profil de vos conférenciers (Social, Sponsor, Médecin,..) et souhaitez l'enregistrer lorsqu'il participe à l'événement.
 
 L'ajout de données personnalisées requiert l'autorisation de l'administrateur. Pour ajouter des données personnalisées aux participants, ajoutez de nouveaux champs personnalisés via **Administer> Personnaliser les données et les écrans> Données personnalisées**. Pour créer des champs personnalisés pour les événements, ajoutez d'abord le champ **Personnalisé** sur l'enregistrement approprié, puis ajoutez les champs eux-mêmes.
