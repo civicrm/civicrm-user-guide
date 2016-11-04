@@ -1,75 +1,40 @@
-Custom data for events
-======================
+Données personnalisées pour les événements
+==========================================
 
-You many want to collect extra information about events and their
-participants as part of the event management process. This chapter
-explains how you can easily do this with custom data. It describes the
-different ways to collect custom data for events and discusses where
-best to store each type of information. A general understanding of how
-custom data works in CiviCRM is needed to get the most out of this
-chapter. The chapter on *Custom fields* in *Organising Your Data* should
-give you that understanding.
+Dans le cadre du processus de gestion des événements vous souhaiterez certainement recueillir des informations supplémentaires sur les événements ou sur leurs participants . Ce chapitre vous explique comment faire, facilement, avec les données personnalisées et vous informe des différentes façons de recueillir ces données pour les événements et comment mieux insérer chaque type d'information. Comprendre la façon dont les données personnalisées fonctionnent dans CiviCRM est nécessaire pour tirer le meilleur parti de ce chapitre. Pour mieux comprendre voir le chapitre *Champs personnalisés* dans *Organiser vos données*.
 
-The key question to ask when adding custom data for event management is
-*where* should this custom data go? There are three places that you
-typically want to add custom data
+La question clé à se poser lors de l'ajout de données personnalisées pour la gestion des événements est *où ces données  doivent-elles aller?*
+Il ya trois endroits où vous pouvez ajouter des données personnalisées
 
--   the participant record
--   the contact record
--   the event record. 
+-   le dossier des participants
+-   le dossier de contact
+-   l'enregistrement d'événement.
 
-It's important to add custom data in the it in the right place. Adding
-it in the wrong place might cause you headaches further down the line.
-People often add custom data to the participant record, when they should
-probably add it to the contact record, and visa versa. A couple of
-examples might help to clarify.
+Il est important d'ajouter des données personnalisées au bon endroit. Les ajouter au mauvais endroit pourrait vous causer des soucis ultérieurement. Exemple : Ajouter des données à l'enregistrement du participant, alors qu'elles devraient être ajoutées à l'enregistrement de contact, et vice-versa. 
 
--   dietary preference should be added to contacts since this is
-    unlikely to change between events.
--   Session preference should be added to the participant record since
-    it is only of interest in the context of the event.
+Quelques exemples vous aiderons à clarifier .
 
-Custom fields can also be added to events. For example, lets say an
-organisation holds a series of training workshops throughout the year
-and wants to create a custom field to track six common topics covered in
-workshops. You could create a checkbox style field with the list of
-topic options and add it as custom data for events of the type
-workshop. Then, when creating an event of type Workshop, this field
-will be available.
+-  Les préférences alimentaires devraient être ajoutées aux contacts car il est peu probable que cela change d'un événement à l'autre.
+-  La préférence de choix d'une session (réunion, conférence, formation,...) doit être ajoutée au dossier du participant puisqu'elle n'est intéressante que dans le contexte de l'événement
 
-Note that you are not required to select a specific event type. Leaving
-the dropdown set to Any indicates the field is available to all events,
-regardless of the type.
+Des champs personnalisés peuvent également être ajoutés aux événements. Par exemple : une organisation organise une série d'ateliers de formation tout au long de l'année et veut créer un champ personnalisé pour suivre six sujets communs developpés dans ces ateliers. Vous pouvez alors créer un champ de type "case à cocher" avec la liste des six options et l'ajouter en tant que donnée personnalisée pour les événements de cet atelier de formation. Ensuite, lors de la création d'un événement de type atelier de formation, ce champ sera disponible.
 
-Another common mistake that people make is adding custom data to the
-event record, when they should add it to the participant record. The
-event record should only be used to collect information about the event
-itself, not its participants.
+Notez que vous n'êtes pas obligé de sélectionner un type d'événement spécifique. En laissant la liste déroulante sur "Tout", cela indique que le champ est disponible pour tous les événements, quel que soit le type.
 
-There are a few different options when adding custom data to
-participants. 
+Une autre erreur classique que vous pouvez faire est d'ajouter des données personnalisées à l'enregistrement d'événement, quand vous devez les ajouter à l'enregistrement du participant. L'enregistrement de l'événement ne doit être utilisé que pour recueillir des informations sur l'événement lui-même, et non sur ses participants.
 
--   **Participants:**This will add the field to all participant records.
-Useful if you are interested in collecting information that applies to
-all participants.
+Différentes options lorsque vous ajoutez des données personnalisées aux participants :
 
--   **Participants (Event Name):**This is identical to the Participants
-type, with the exception that it allows you to assign a group of custom
-fields to a specific event. Useful for adding complex registration data
-for a single event without cluttering up all events. 
+-   **Participants:** ajoute le champ à tous les enregistrements des participants.
+Utile si vous souhaitez recueillir des informations qui s'appliquent à tous les participants.
 
--   **Participants (Role):** These fields will only be available for
-particular types of participants. Useful, for example, if you need to
-collect biographical profile details from your speakers and wish to
-record it with their event registration. 
+-   **Participants(Nom de l'évènement):**  identique pour tous les participants
+Vous permet d'affecter un groupe de champs personnalisés à un événement spécifique. 
+Utile pour ajouter des données d'enregistrement complexes pour un seul événement sans encombrer tous les événements.
 
+-   **Participants (Rôle):** Ce champ ne sera disponible que pour certains types de participants.
+Utile, par exemple, si vous avez besoin de recueillir des détails sur le profil de vos conférenciers (Social, Sponsor, Médecin,..) et souhaitez l'enregistrer lorsqu'il participe à l'événement.
 
-Adding custom data requires the administrator permission. To add custom
-data from participants, add new custom fields through **Administer >
-Customize Data and Screens > Custom Data**. To create custom fields for
-events, first add the **custom field set** on the appropriate record, and
-then add the fields themselves.
+L'ajout de données personnalisées requiert l'autorisation de l'administrateur. Pour ajouter des données personnalisées aux participants, ajoutez de nouveaux champs personnalisés via **Administer> Personnaliser les données et les écrans> Données personnalisées**. Pour créer des champs personnalisés pour les événements, ajoutez d'abord le champ **Personnalisé** sur l'enregistrement approprié, puis ajoutez les champs eux-mêmes.
 
-Alternatively, you can create custom fields on the fly during the event
-creation process - see chapter *Creating an event*. 
-
+Alternativement, vous pouvez créer des champs personnalisés à la demande pendant le processus de création d'événement - voir le chapitre *Création d'un événement*.
