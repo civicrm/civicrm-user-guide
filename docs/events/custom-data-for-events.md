@@ -26,7 +26,7 @@ Une autre erreur classique que vous pouvez faire est d'ajouter des données pers
 Différentes options lorsque vous ajoutez des données personnalisées aux participants :
 
 -   **Participants:** ajoute le champ à tous les enregistrements des participants.
-Utile si vous êtes souhaitez recueillir des informations qui s'appliquent à tous les participants.
+Utile si vous souhaitez recueillir des informations qui s'appliquent à tous les participants.
 
 -   **Participants(Nom de l'évènement):**  identique pour tous les participants
 Vous permet d'affecter un groupe de champs personnalisés à un événement spécifique. 
