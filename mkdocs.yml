@@ -36,7 +36,7 @@ pages:
     - 'Searching': 'the-user-interface/searching.md'
     - 'Undelete': 'the-user-interface/undelete.md'
 - Organiser vos données:
-    - 'Overview': 'organising-your-data/overview.md'
+    - 'Aperçu': 'organising-your-data/overview.md'
     - 'Mapping your data': 'organising-your-data/mapping-your-data.md'
     - 'Contacts': 'organising-your-data/contacts.md'
     - 'Groups and tags': 'organising-your-data/groups-and-tags.md'
@@ -86,7 +86,7 @@ pages:
     - 'Complex event fees': 'events/complex-event-fees.md'
     - 'Event templates': 'events/event-templates.md'
     - 'Reports': 'events/reports.md'
-    - 'Custom data for events': 'events/custom-data-for-events.md'
+    - 'Données personnalisées': 'events/custom-data-for-events.md'
     - 'Repeating Events': 'events/repeating-events.md'
 - Membership:
     - 'What is CiviMember': 'membership/what-is-civimember.md'
