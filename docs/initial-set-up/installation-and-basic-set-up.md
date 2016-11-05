@@ -1,41 +1,25 @@
-Installation and basic set-up
-=============================
+Installation et configuration de base
+=====================================
 
-Before reading further, please be aware that much of the information
-contained here is intended for technicians and may be difficult to
-understand if you have little or no experience in setting up web
-applications. If you don't understand this topic, you may wish to either
-seek help, or point your organisation's technical staff to this
-material.
+Avant d'aller plus loin, n'oubliez pas que la plupart des informations contenues ici sont destinées aux techniciens et peuvent être difficiles à comprendre si vous avez peu ou pas d'expérience dans la configuration d'applications Web. Si vous ne comprenez pas ce sujet, vous pouvez demander de l'aide sur nos forums ou faire intervenir les personnes compétentes de votre organisation.
 
-Prerequisites
--------------
+Prérequis 
+---------
 
-Before exploring the installation of CiviCRM, ensure you have read the
-chapter 'hosting' to confirm whether or not your host can support it.
+Avant d'explorer l'installation de CiviCRM, assurez-vous d'avoir lu le chapitre 'hébergement' pour vérifier que votre hébergeur puisse le supporter.
 
-CiviCRM must be installed on a computer that has been configured with a
-web server (such as Apache or ngnx), PHP and MySQL. Some people prefer
-to try out CiviCRM on their own local computer before installing it on a
-dedicated web-server. If you are doing this and don't have the
-prerequisites just mentioned, you can download packages from the
-Internet such as WAMP, XAMPP, MAMPP and LAMP, which will quickly install
-an Apache web server, PHP and MySQL. (The first two packages are for
-Windows and the second two are for the Macintosh and Linux
-respectively).
+CiviCRM doit être installé sur un ordinateur configuré avec un serveur Web (tel que Apache ou ngnx), PHP et MySQL. Certaines personnes préfèrent essayer CiviCRM sur leur propre ordinateur local avant de l'installer sur un serveur web dédié. Si vous n'avez pas les préalables ci-dessus, vous pouvez télécharger des plateformes de développement Web telles que WAMP, XAMPP, MAMPP et LAMP, qui installeront rapidement un serveur Web Apache, PHP et MySQL. (Les deux premières sont pour Windows et les deux autres pour Macintosh et Linux respectivement).
 
-Before you can begin installation, you need to decide which CMS (Content
-Management System; used for building and managing websites) you wish to
-integrate with, choosing between the open-source options: Drupal,
-Wordpress or Joomla!.
+Avant de pouvoir commencer l'installation, vous devez décider quel système de gestion de contenu (CMS) vous souhaitez intégrer pour construire et gérer votre site : Choisir entre les options open-source: Drupal, Joomla ou Wordpress!.
 
-You can find full instructions on installing CiviCRM here:[
+
+Vous trouverez des instructions complètes sur l'installation de CiviCRM ici:[
 http://wiki.civicrm.org/confluence/display/CRMDOC/Installation+and+Upgrades](http://wiki.civicrm.org/confluence/display/CRMDOC/Installation+and+Upgrades%20)[](http://wiki.civicrm.org/confluence/display/CRMDOC/Installation+and+Upgrades%20)
 
-Internet vs. local installs
------------------------------
+Intallation locale ou Internet ?
+--------------------------------
 
-Most organisations access CiviCRM over the internet. However, some
+La plupart des organisations accèdent à CiviCRM via Internet. However, some
 organizations who only want internal staff to have access to CiviCRM and
 are security conscious, choose to install CiviCRM on an internal network
 and have it only accessible internally. The downside to an install that
