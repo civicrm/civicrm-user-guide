@@ -74,36 +74,19 @@ Lorsque vous installez CiviCRM pour la première fois, les composants les plus u
 Vous pouvez désactiver un composant que vous avez déjà utilisé. Les données et informations contenues dans le composant sont conservées et seront toujours là si vous le réactivez. Il serait inhabituel de désactiver un composant que vous avez déjà utilisé. Si vous souhaitez simplifier le menu d'administration et la page de recherche avancée, une meilleure approche peut consister à utiliser les autorisations (voir le chapitre Autorisations et contrôle d'accès).
 
 ### Préférences d'affichage
+Cet écran vous permet de modifier l'affichage des éléments à l'écran et les formulaire pour les tâches suivantes:
 
-This screen allows you to modify the screen and form elements for the
-following tasks:
 
--   **Viewing Contacts** - Controls the tabs displayed when viewing a
-    contact record. EXAMPLE: If your organization does not keep track of
-    Relationships, deselect this option to simplify the screen display.
-    Tabs for Contributions, Pledges, Memberships, Events, Grants and
-    Cases are also hidden if the corresponding component is not enabled.
--   **Viewing Smart Groups** - Controls the display of the smart groups a contact belongs to.
--   **Editing Contacts** - Controls the sections included when adding or
-    editing a contact record. EXAMPLE: If your organization does not
-    record Gender and Birth Date for individuals, then simplify the form
-    by deselecting Demographics.
--   **Contact Search** - Controls the sections included in the Advanced
-    Search form. EXAMPLE: If you don't track Relationships, you will not
-    search for that section. Simplify the form by deselecting this
-    option.
--   **Contact Dashboard** - Allows your constituents to view the groups
-    they are subscribed to, their contribution history, event
-    registration information and more. You can control the sections that
-    should be included in the dashboard here. EXAMPLE: If you don't want
-    constituents to view their own contribution history, deselect that
-    option.
--   **WYSIWYG Editor** - Select **CKEditor** to provided users with an easy way to enter text into fields that allow HTML formatting (such as the introductory section for your online contribution pages). You can configure CKEditor (see http://ckeditor.com/) to add or remove functionality as desired. Select **Textarea** if you don't want to provide a WYSIWYG editor.
--   **Enable Popup Forms** - this is on by default. Uncheck to  revert to opening the form by refreshing the page.
--   **Individual Display Name** - Display name format for individual
-    contact display names.
--   **Individual Sort Name** - Sort Name format for individual contact
-    sort names.
+-   **Affichage des contacts**  - Contrôle les onglets affichés lors de l'affichage d'un enregistrement de contact. EXEMPLE:   Si votre organisation ne suit pas les relations entre les contacts, désélectionnez cette option pour simplifier l'affichage à l'écran. Les onglets des contributions, annonces de contributions, adhésions, événements, subventions et cas sont également masqués si le composant correspondant n'est pas activé.
+-   **Affichage des Groupes intelligents** - Contrôle l'affichage des groupes intelligents auxquels un contact appartient.
+-   **Modification des contacts** - Contrôle les sections incluses lors de l'ajout ou de l'édition d'un enregistrement de contact. EXEMPLE: Si votre organisation ne gére pas le sexe ni la date de naissance des individus, simplifiez le formulaire en désélectionnant les données démographiques.
+-   **Recherche de contacts** - Contrôle les sections comprises dans le formulaire Recherche avancée. EXEMPLE: Si vous ne suivez pas les relations, vous ne chercherez pas cette section. Simplifiez le formulaire en désélectionnant cette option.
+-  - **tableau de bord de contact** - Permet à vos contacts de voir les groupes auxquels ils sont abonnés, leur historique de contribution, les informations d'inscription à un événement... et plus encore. Vous pouvez contrôler les sections qui doivent être incluses dans le tableau de bord ici. EXEMPLE: Si vous ne voulez pas que les électeurs voient leur propre historique de contribution, désélectionnez cette option.
+-  **Editeur WYSIWYG** - Sélectionnez **CKEditor** pour que les utilisateurs disposent d'un moyen simple d'entrer du texte dans des champs qui permettent le formatage HTML (comme par exemple la section d'introduction de vos pages de contribution en ligne). Vous pouvez configurer CKEditor (voir http://ckeditor.com/) comme vous le souhaitez pour ajouter ou supprimer des fonctionnalités. Sélectionnez **Zone de texte** si vous ne souhaitez pas fournir d'éditeur WYSIWYG.
+-  ** Activer les formulaires Popup** - cette option est activée par défaut. Décochez pour revenir à l'ouverture du formulaire en rafraîchissant la page.
+-  **Affichage du nom individuel** - Format d'affichage du nom des noms d'affichage des contacts individuels.
+-  **Nom de classement individuel** - Format de nom de tri pour les noms de tri des contacts individuels.
+
 
 ### Address Settings
 
