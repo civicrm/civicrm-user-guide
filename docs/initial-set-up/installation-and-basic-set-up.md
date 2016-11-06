@@ -8,104 +8,71 @@ Prérequis
 
 Avant d'explorer l'installation de CiviCRM, assurez-vous d'avoir lu le chapitre 'hébergement' pour vérifier que votre hébergeur puisse le supporter.
 
-CiviCRM doit être installé sur un ordinateur configuré avec un serveur Web (tel que Apache ou ngnx), PHP et MySQL. Certaines personnes préfèrent essayer CiviCRM sur leur propre ordinateur local avant de l'installer sur un serveur web dédié. Si vous n'avez pas les préalables ci-dessus, vous pouvez télécharger des plateformes de développement Web telles que WAMP, XAMPP, MAMPP et LAMP, qui installeront rapidement un serveur Web Apache, PHP et MySQL. (Les deux premières sont pour Windows et les deux autres pour Macintosh et Linux respectivement).
+CiviCRM doit être installé sur un ordinateur configuré avec un serveur Web (tel que Apache ou ngnx), PHP et MySQL. Certaines personnes préfèrent tester CiviCRM sur leur propre ordinateur local avant de l'installer sur un serveur web dédié. Si vous n'avez pas les préalables ci-dessus sur votre ordianteur, vous pouvez télécharger des plateformes de développement Web telles que WAMP, XAMPP, MAMPP et LAMP, qui installeront rapidement un serveur Web Apache, PHP et MySQL. (Les deux premières sont pour Windows et les deux autres pour Macintosh et Linux respectivement).
 
 Avant de pouvoir commencer l'installation, vous devez décider quel système de gestion de contenu (CMS) vous souhaitez intégrer pour construire et gérer votre site : Choisir entre les options open-source: Drupal, Joomla ou Wordpress!.
 
-
-Vous trouverez des instructions complètes sur l'installation de CiviCRM ici:[
+Vous trouverez des instructions complètes sur l'installation de CiviCRM ici : [
 http://wiki.civicrm.org/confluence/display/CRMDOC/Installation+and+Upgrades](http://wiki.civicrm.org/confluence/display/CRMDOC/Installation+and+Upgrades%20)[](http://wiki.civicrm.org/confluence/display/CRMDOC/Installation+and+Upgrades%20)
 
 Intallation locale ou Internet ?
 --------------------------------
 
-La plupart des organisations accèdent à CiviCRM via Internet. Toutefois, certaines organisations qui souhaitent uniquement que le personnel interne ait accès à CiviCRM et veulent préserver la sécurité des données, choisissent d'installer CiviCRM sur un réseau local et de le rendre accessible uniquement en interne. L'inconvénient d'une installation qui n'est pas accessible au public est que vos contacts ne peuvent pas s'inscrire directement à vos manifestations et n'ont pas accès à leurs données pour mise à jour.
-
+La plupart des organisations accèdent à CiviCRM via Internet. Toutefois certaines organisations, qui souhaitent uniquement que le personnel interne ait accès à CiviCRM et veulent préserver la sécurité des données, choisissent d'installer CiviCRM sur un réseau local et de le rendre accessible uniquement en interne. L'inconvénient d'une telle installation, qui n'est pas accessible au public, est que vos contacts ne peuvent pas s'inscrire directement à vos manifestations et n'ont pas accès à leurs données pour mise à jour.
 
 Mises à jour
 ------------
 
-Les nouvelles versions de CiviCRM sont diffusées environ deux fois par an (une au printemps et une en automne)
-Vous devrez appliquer les mises à jour à votre site CiviCRM régulièrement si vous souhaitez profiter des nouvelles fonctionnalités et des améliorations, et aussi pour maintenir votre site sécurisé. Certaines mises à niveau contiennent des correctifs de sécurité et il est crucial que ces dernières soient appliquées en temps opportun. Il est important que vous planifiez les ressources (personnes et temps) pour appliquer les mises à niveau à votre site. Vous devez executer par prudence  les mises à niveau sur une copie de votre site en production pour s'assurer que le processus fonctionne correctement. Il est  essentiel de faire une sauvegarde de votre site et de votre base de données avant d'exécuter une mise à niveau, même si vous aviez testé le processus sur un site de test..
+Les nouvelles versions de CiviCRM sont diffusées environ deux fois par an (une au printemps et une en automne).
+Vous devrez appliquer les mises à jour à votre site CiviCRM régulièrement si vous souhaitez profiter des nouvelles fonctionnalités et des améliorations, et aussi pour maintenir votre site sécurisé. Certaines mises à niveau contiennent des correctifs de sécurité et il est crucial que ces dernières soient appliquées immédiatement. Il est important que vous planifiez des ressources (personnes et temps) pour appliquer les mises à niveau à votre site. Vous pouvez executer, par prudence, les mises à niveau sur une copie de votre site en production pour s'assurer que le processus fonctionne correctement. Il est  essentiel de faire une sauvegarde de votre site et de votre base de données avant d'exécuter une mise à niveau, même si vous aviez testé le processus sur un site de test..
 
-Les mises à jour sont un processus important et technique, de nombreuses organisations emploient les services de professionnels agréés par CIVICRM pour les réaliser.
+Les mises à jour sont un processus important. De nombreuses organisations emploient les services de professionnels agréés par CIVICRM pour les réaliser.
 
 
 Configuration
 -------------
 
-Une fois CiviCRM installé, vous devez personnaliser CiviCRM et parametrer la configuration de votre site : 
+Une fois CiviCRM installé, vous devez personnaliser CiviCRM et paramétrer la configuration de votre site : 
 
 Connectez-vous à votre site CiviCRM et accédez à **Administer> Console d'administration> Checklist de configuration**. Cette section permet de paramétrer les tâches générales, tandis que la configuration spécifique aux composants sera effectuée dans chaque section de composant.
 
 Utilisez cette liste de contrôle pour paramétrer et enregistrer les tâches de configuration de votre site. Vous serez redirigé vers cette liste après avoir enregistré chaque paramètre. Les paramètres que vous n'avez pas encore initialisés s'affichent en rouge. Après avoir visité une page, les liens s'affichent en vert (mais vous aurez peut-être besoin revenir sur une section afin de completer ou mettre à jour les paramètres, vous pourrez le faire plus tard).
 
-![image](../img/Configuration_Checklist_4_4.png)
+![image](../img/checklist-de-config-4-4.PNG )
 
 ### Localization
 
-Localization involves adapting CiviCRM for use in a specific country or
-language by translating the text displayed on the screen and setting
-region specific formats for dates and money (including currency). By
-default, CiviCRM is localized for the United States. If you are using
-CiviCRM in a different country, need to store contact addresses that
-appear in countries other than the United States, or want to use CiviCRM
-in another language, you will need to review and update the values on
-this screen.
+La localisation implique l'adaptation de CiviCRM pour une utilisation dans un pays ou une langue spécifique en traduisant le texte affiché à l'écran et en définissant des formats régionaux spécifiques pour les dates et la monnaie. Par défaut, CiviCRM est initialisé pour les États-Unis. Si vous utilisez CiviCRM dans un pays différent, vous devez paramétrer et mettre à jour les valeurs sur cet écran. 
 
-CiviCRM has been translated into a number of different languages and
-translations are available to download when you download CiviCRM. These
-translations are contributed by community members. If CiviCRM is not
-available in your language, you may wish to consider translating it.
-You can find a translation guide on the wiki.
+CiviCRM a été traduit dans de nombreuses langues différentes et les traductions sont incluses lorsque vous téléchargez CiviCRM. Ces traductions sont fournies par les membres de la communauté. Si CiviCRM n'est pas disponible dans votre langue, vous pouvez envisager de le traduire. Vous trouverez un guide de traduction sur le wiki.
 
-It is also possible to configure your site to support multiple
-languages. In this mode, your users will be able to choose from a list
-of available languages after logging in. You can also create and store
-multi-language versions of text. Examples include custom field labels,
-an online contribution page, campaign information, and event
-descriptions.
+Vous pouvez aussi configurer votre site pour prendre en charge plusieurs langues. Dans ce mode, vos utilisateurs pourront choisir parmi une liste de langues disponibles après leur connexion. Vous pouvez également créer et stocker des versions multilingues de texte. Les exemples comprennent des étiquettes de champs personnalisées, une page de contribution en ligne, des informations sur les campagnes et des descriptions d'événements.
 
-For more info, have a look here:
+Pour plus d'info, consulter:
 [http://wiki.civicrm.org/confluence/pages/viewpage.action?pageId=88408149](http://wiki.civicrm.org/confluence/pages/viewpage.action?pageId=88408149)
 
-Under Localization you will also find the **Advanced Date Input Settings**.
-By default, CiviCRM provides ranges for input on specific date fields. For instance,
- the default range for Activity Dates are 20 years prior to the current year all the way through to 10 years beyond the current year. If you would like to track activities that have occurred, say, 25 years ago then you would need to update this range to enable your end users to log these activities. To update these settings to the appropriate range go to **Administer > Localization > Date Formats > Advanced Date Input Settings**. If you were to leave these settings as the default you will see an error such as this:
+Sous Localisation, vous trouverez également les **Paramètres d'entrée de date**.
+
+, CiviCRM fournit par défaut des intervalles pour l'entrée sur des champs de date spécifiques. Par exemple, la fourchette par défaut pour les dates d'activité est 20 ans avant l'année en cours jusqu'à 10 ans au-delà de l'année en cours. Si vous souhaitez suivre les activités qui ont eu lieu, disons, il ya 25 ans, vous devriez mettre à jour cette option pour permettre à vos utilisateurs finaux de consigner ces activités. Pour mettre à jour ces paramètres dans la plage appropriée, allez dans **Administer> Personnalisez les données> Dates Préférences**. Si vous deviez laisser ces paramètres par défaut, vous verrez une erreur comme celle-ci: 
+By default, CiviCRM provides ranges for input on specific date fields. For instance, the default range for Activity Dates are 20 years prior to the current year all the way through to 10 years beyond the current year. If you would like to track activities that have occurred, say, 25 years ago then you would need to update this range to enable your end users to log these activities. To update these settings to the appropriate range go to **Administer> Personnalisez les données> Dates Préférences**.
 
 ![Advanced Date Input Settings](../img/configure-localization-advanced-date-input-settings.png)
 
-### Organization Address and Contact Info
+### Adresse et coordonnées de votre organisation
 
-Use this screen to enter identifying information for the organization or
-entity which "owns" this CiviCRM installation. The organization name and
-address are used to identify your organization in CiviMail mailings when
-you include the domain.name and domain.address tokens.
+Utilisez cet écran pour saisir les informations d'identification pour l'organisation ou l'entité qui «est propriétaire» de cette installation CiviCRM. Le nom et l'adresse de l'organisation sont utilisés pour identifier votre organisation dans les envois CiviMail lorsque vous incluez les jetons domain.name et domain.address.
 
-You should also enter a valid email address belonging to your
-organization, which will be used as the From field in system-generated
-(automated) emails.
+Vous devez également saisir une adresse e-mail valide appartenant à votre organisation, qui sera utilisée comme champ "De" dans les courriels simples ou automatisés générés par le système.
 
-### Enable components
+### Activer les composants
 
-This is where you can turn on or turn off the components for your
-CiviCRM system.
+C'est ici que vous pouvez activer ou désactiver les composants pour votre système CiviCRM.
 
-When you first install CiviCRM the most frequently used components
-(CiviContribute, CiviEvent, CiviMail, CiviMember, CiviReport) are
-already enabled. If you do not need those components you can disable
-them. You can also enable any or all of CiviCampaign, CiviCase,
-CiviGrant and CiviPledge. You can revisit this page at any time to
-enable more components.
+Lorsque vous installez CiviCRM pour la première fois, les composants les plus utilisés (CiviContribute, CiviEvent, CiviMail, CiviMember, CiviReport) sont déjà activés. Si vous n'avez pas besoin de ces composants, vous pouvez les désactiver. Vous pouvez également activer tout ou partie de CiviCampaign, CiviCase, CiviGrant et CiviPledge. Vous pouvez modifier cette page à tout moment pour activer ou desactiver les composants.
 
-You can also disable a component you have already used. The information
-in the component is retained and will still be there if you re-enable
-it. It would be unusual to disable a component you have already used.
-If you want to simplify the administration menu and advanced search page
-then a better approach may be to use permissions (see the Permissions
-and access control chapter).
+Vous pouvez désactiver un composant que vous avez déjà utilisé. Les données et informations contenues dans le composant sont conservées et seront toujours là si vous le réactivez. Il serait inhabituel de désactiver un composant que vous avez déjà utilisé. Si vous souhaitez simplifier le menu d'administration et la page de recherche avancée, une meilleure approche peut consister à utiliser les autorisations (voir le chapitre Autorisations et contrôle d'accès).
 
-### Display Preferences
+### Préférences d'affichage
 
 This screen allows you to modify the screen and form elements for the
 following tasks:
