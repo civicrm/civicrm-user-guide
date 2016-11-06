@@ -19,50 +19,26 @@ http://wiki.civicrm.org/confluence/display/CRMDOC/Installation+and+Upgrades](htt
 Intallation locale ou Internet ?
 --------------------------------
 
-La plupart des organisations accèdent à CiviCRM via Internet. However, some
-organizations who only want internal staff to have access to CiviCRM and
-are security conscious, choose to install CiviCRM on an internal network
-and have it only accessible internally. The downside to an install that
-is not publicly available is that your contacts cannot 'self serve' to
-update their data.
+La plupart des organisations accèdent à CiviCRM via Internet. Toutefois, certaines organisations qui souhaitent uniquement que le personnel interne ait accès à CiviCRM et veulent préserver la sécurité des données, choisissent d'installer CiviCRM sur un réseau local et de le rendre accessible uniquement en interne. L'inconvénient d'une installation qui n'est pas accessible au public est que vos contacts ne peuvent pas s'inscrire directement à vos manifestations et n'ont pas accès à leurs données pour mise à jour.
 
-Upgrades
---------
 
-New versions of CiviCRM are released approximately twice a year (once in
-the Spring and once in the Autumn). You will need to apply upgrades to
-your CiviCRM site periodically if you want to take advantage of new
-features and improvements, and also to keep your site secure. Some
-upgrades contain security fixes and it is crucial that these are applied
-in a timely manner. It's important that you plan for the resources
-(people and time) required to apply upgrades to your site. You need to
-plan on testing upgrades on a copy of your live site to make sure the
-process runs smoothly. It's also critical to make backups of your site
-and database prior to running an upgrade on your live site even if you
-had tested the process on a test site.
+Mises à jour
+------------
 
-Since upgrades are an important and technical process, many
-organisations employ the services of a CiviCRM expert service provider
-to carry them out.
+Les nouvelles versions de CiviCRM sont diffusées environ deux fois par an (une au printemps et une en automne)
+Vous devrez appliquer les mises à jour à votre site CiviCRM régulièrement si vous souhaitez profiter des nouvelles fonctionnalités et des améliorations, et aussi pour maintenir votre site sécurisé. Certaines mises à niveau contiennent des correctifs de sécurité et il est crucial que ces dernières soient appliquées en temps opportun. Il est important que vous planifiez les ressources (personnes et temps) pour appliquer les mises à niveau à votre site. Vous devez executer par prudence  les mises à niveau sur une copie de votre site en production pour s'assurer que le processus fonctionne correctement. Il est  essentiel de faire une sauvegarde de votre site et de votre base de données avant d'exécuter une mise à niveau, même si vous aviez testé le processus sur un site de test..
+
+Les mises à jour sont un processus important et technique, de nombreuses organisations emploient les services de professionnels agréés par CIVICRM pour les réaliser.
+
 
 Configuration
 -------------
 
-Once CiviCRM has been installed, you should review the initial
-configuration tasks which allow you to customize CiviCRM for your
-organization.
+Une fois CiviCRM installé, vous devez personnaliser CiviCRM et parametrer la configuration de votre site : 
 
-Log in to your CiviCRM site and navigate to **Administer >
-Administration Console > Configuration Checklist**. This section will
-cover the general tasks, while component-specific configuration will be
-covered in each component section.
+Connectez-vous à votre site CiviCRM et accédez à **Administer> Console d'administration> Checklist de configuration**. Cette section permet de paramétrer les tâches générales, tandis que la configuration spécifique aux composants sera effectuée dans chaque section de composant.
 
-Use this checklist to review and complete configuration tasks for your
-site. You will be redirected back to this checklist after saving each
-setting. Settings which you have not yet reviewed will be displayed in
-red. After you have visited a page, the links will display in green
-(although you may still need to revisit the page to complete or update
-the settings).
+Utilisez cette liste de contrôle pour paramétrer et enregistrer les tâches de configuration de votre site. Vous serez redirigé vers cette liste après avoir enregistré chaque paramètre. Les paramètres que vous n'avez pas encore initialisés s'affichent en rouge. Après avoir visité une page, les liens s'affichent en vert (mais vous aurez peut-être besoin revenir sur une section afin de completer ou mettre à jour les paramètres, vous pourrez le faire plus tard).
 
 ![image](../img/Configuration_Checklist_4_4.png)
 
