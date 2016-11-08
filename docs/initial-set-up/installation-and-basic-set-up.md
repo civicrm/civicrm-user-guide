@@ -40,7 +40,7 @@ Utilisez cette liste de contrôle pour paramétrer et enregistrer les tâches de
 
 ![image](../img/Fr_checklist-de-config-1.PNG)
 
-### Localization
+### Localisation
 
 La localisation implique l'adaptation de CiviCRM pour une utilisation dans un pays ou une langue spécifique en traduisant le texte affiché à l'écran et en définissant des formats régionaux spécifiques pour les dates et la monnaie. Par défaut, CiviCRM est initialisé pour les États-Unis. Si vous utilisez CiviCRM dans un pays différent, vous devez paramétrer et mettre à jour les valeurs sur cet écran. 
 
@@ -69,9 +69,9 @@ Vous devez également saisir une adresse e-mail valide de votre organisation, qu
 
 C'est ici que vous pouvez activer ou désactiver les composants pour votre système CiviCRM.
 
-Lorsque vous installez CiviCRM pour la première fois, les composants les plus utilisés (CiviContribute, CiviEvent, CiviMail, CiviMember, CiviReport) sont déjà activés. Si vous n'avez pas besoin de ces composants, vous pouvez les désactiver. Vous pouvez également activer tout ou partie de CiviCampaign, CiviCase, CiviGrant et CiviPledge. Vous pouvez modifier cette page à tout moment pour activer ou desactiver les composants.
+Lorsque vous installez CiviCRM pour la première fois, les composants les plus utilisés (CiviContribute, CiviEvent, CiviMail, CiviMember, CiviReport) sont déjà activés. Si vous n'avez pas besoin de ces composants, vous pouvez les désactiver. Vous pouvez également activer tout ou partie de CiviCampaign, CiviCase, CiviGrant et CiviPledge. Vous pouvez modifier cette page à tout moment pour activer ou désactiver les composants.
 
-Vous pouvez désactiver un composant que vous avez déjà utilisé. Les données et informations contenues dans le composant sont conservées et seront toujours là si vous le réactivez. Il serait inhabituel de désactiver un composant que vous avez déjà utilisé. Si vous souhaitez simplifier le menu d'administration et la page de recherche avancée, une meilleure façon de faire  peut consister à utiliser les autorisations (voir le chapitre Autorisations et contrôle d'accès).
+Vous pouvez désactiver un composant que vous avez déjà utilisé. Les données et informations contenues dans le composant sont conservées et seront toujours là si vous le réactivez. Il serait anormal de désactiver un composant que vous avez déjà utilisé. Si vous souhaitez simplifier le menu d'administration et la page de recherche avancée, une meilleure façon de faire  peut consister à utiliser les autorisations (voir le chapitre Autorisations et contrôle d'accès).
 
 ### Préférences d'affichage
 Cet écran vous permet de modifier l'affichage des éléments à l'écran et les formulaires pour les tâches suivantes:
@@ -80,18 +80,18 @@ Cet écran vous permet de modifier l'affichage des éléments à l'écran et les
 -   **Affichage des Groupes intelligents** - Contrôle l'affichage des groupes intelligents auxquels un contact appartient.
 -   **Modification des contacts** - Contrôle les sections incluses lors de l'ajout ou de l'édition d'un enregistrement de contact. EXEMPLE: Si votre organisation ne gére pas le sexe ni la date de naissance des individus, simplifiez le formulaire en désélectionnant les données démographiques.
 -   **Recherche de contacts** - Contrôle les sections comprises dans le formulaire "Recherche avancée". EXEMPLE: Si vous ne suivez pas les relations, vous ne rechercherez pas dans cette section. Simplifiez le formulaire en désélectionnant cette option.
--  - **Tableau de bord de contact** - Permet à vos contacts de voir les groupes auxquels ils sont abonnés, leur historique de contribution, les informations d'inscription à un événement... et plus encore. Vous pouvez contrôler les sections qui doivent être incluses dans le tableau de bord ici. EXEMPLE: Si vous ne voulez pas que les électeurs voient leur propre historique de contribution, désélectionnez cette option.
--  **Editeur WYSIWYG** - Sélectionnez **CKEditor** pour que les utilisateurs disposent d'un moyen simple d'entrer du texte dans les champs qui permettent le formatage HTML (comme par exemple la section d'introduction de vos pages de contribution en ligne). Vous pouvez configurer CKEditor (voir http://ckeditor.com/) comme vous le souhaitez pour ajouter ou supprimer des fonctionnalités. Sélectionnez **Zone de texte** si vous ne souhaitez pas fournir d'éditeur WYSIWYG.
--  ** Activer les formulaires Popup** - Cette option est activée par défaut. Décochez pour revenir à l'ouverture du formulaire en rafraîchissant la page.
--  **Affichage du nom individuel** - Format d'affichage du nom des des contacts individuels.
--  **Nom de classement individuel** - Format de nom de tri pour le tri des contacts individuels.
+-   **Tableau de bord de contact** - Permet à vos contacts de voir les groupes auxquels ils sont abonnés, leur historique de contribution, les informations d'inscription à un événement... et plus encore. Vous pouvez contrôler les sections qui doivent être incluses dans le tableau de bord ici. EXEMPLE: Si vous ne voulez pas que les électeurs voient leur propre historique de contribution, désélectionnez cette option.
+-   **Editeur WYSIWYG** - Sélectionnez **CKEditor** pour que les utilisateurs disposent d'un moyen simple d'entrer du texte dans les champs qui permettent le formatage HTML (comme par exemple la section d'introduction de vos pages de contribution en ligne). Vous pouvez configurer CKEditor (voir http://ckeditor.com/) comme vous le souhaitez pour ajouter ou supprimer des fonctionnalités. Sélectionnez **Zone de texte** si vous ne souhaitez pas fournir d'éditeur WYSIWYG.
+-   **Activer les formulaires Popup** - Cette option est activée par défaut. Décochez pour revenir à l'ouverture du formulaire en rafraîchissant la page.
+-   **Affichage du nom individuel** - Format d'affichage du nom des des contacts individuels.
+-   **Nom de classement individuel** - Format de nom de tri pour le tri des contacts individuels.
 
 
 ### Paramètre d'adresse
 
-menu : ** Localisation> Paramètres d'adresse **  Permet de modifier les champs par défaut pour ajouter et modifier des données de contact et d'adresse d'événement. Vous pouvez également modifier la disposition du champ d'adresse utilisée pour l'affichage à l'écran et les étiquettes d'envoi. Examinez les paramètres par défaut en ajoutant un nouvel enregistrement de contact et en notant les champs d'adresse fournis sur le formulaire. Vérifier l'enregistrement et notez l'ordre dans lequel les champs sont affichés dans l'écran "Résumé des contacts". Si vous envisagez de générer des étiquettes pour les contacts, consultez la disposition des étiquettes (sélectionnez "Étiquettes de publipostage" dans le menu déroulant *-actions-* après avoir effectué une recherche à l'aide de l'option de menu "Rechercher un contact").
+Menu : **Localisation> Paramètres d'adresse** : Permet de modifier les champs par défaut pour ajouter et modifier des données de contact et d'adresse d'événement. Vous pouvez également modifier la disposition du champ d'adresse utilisée pour l'affichage à l'écran et les étiquettes d'envoi. Examinez les paramètres par défaut en ajoutant un nouvel enregistrement de contact et en notant les champs d'adresse fournis sur le formulaire. Vérifier l'enregistrement et notez l'ordre dans lequel les champs sont affichés dans l'écran "Résumé des contacts". Si vous envisagez de générer des étiquettes pour les contacts, consultez la disposition des étiquettes (sélectionnez "Étiquettes de publipostage" dans le menu déroulant *-actions-* après avoir effectué une recherche à l'aide de l'option de menu "Rechercher un contact").
 
-Après avoir vérifié les champs et les mises en page par défaut, passez en revue l'écran "Paramètres d'adresse" et, si nécessaire, effectuez les modifications.
+Après avoir vérifié les champs et les mises en page par défaut, contrôlez l'écran "Paramètres d'adresse" et, si nécessaire, effectuez les modifications.
 
 -  **Étiquettes de Publipostage** - Contrôler le formatage des étiquettes d'expédition ici. Le format par défaut est:
 
@@ -104,7 +104,7 @@ Après avoir vérifié les champs et les mises en page par défaut, passez en re
 
     Vous devez inclure ici le champ (token) *{contact.addressee}* afin d'inclure le nom du destinataire dans vos étiquettes. Les utilisateurs peuvent choisir parmi une variété de types d'étiquettes, correspondant au code du fabricant d'étiquettes, lorsqu'ils génèrent des étiquettes à partir d'une liste de contacts. Vous devez tester votre format avec le type d'étiquette et l'imprimante que vous prévoyez d'utiliser pour vérifier le cadrage.
     
-  - **Affichage de l'adresse** - Contrôle la disposition des adresses de contact et lieux d'événement affichées sur les écrans de CiviCRM. Le format par défaut est:
+-  **Affichage de l'adresse** - Contrôle la disposition des adresses de contact et lieux d'événement affichées sur les écrans de CiviCRM. Le format par défaut est:
 
     *{contact.address_name}
     {contact.street_address}
@@ -113,12 +113,12 @@ Après avoir vérifié les champs et les mises en page par défaut, passez en re
     {contact.city}{, }{contact.state_province}{ }{contact.postal_code}
     {contact.country}*
 
-    Ce format s'applique également aux lieux d'événements, malgré l'utilisation du type d'enregistrement *contact* dans la mise en page. Le token *{contact.address_name}* est particulièrement utile pour les événements où vous devez inclure un nom le lieu  (par exemple, "Smithson Hall").
+    Ce format s'applique également aux lieux d'événements, malgré l'utilisation du type d'enregistrement *contact* dans la mise en page. Le token *{contact.address_name}* est particulièrement utile pour les événements où vous devez inclure un nom de lieu  (par exemple, "Parc des expositions").
   
 -  **Edition de l'adresse** - Modifiez les champs d'édition d'adresse disponibles ici. Vous pouvez masquer les champs que vous n'avez pas l'intention d'utiliser afin de simplifier les formulaires. EXEMPLE: Si vous ne prévoyez pas d'enregistrer la latitude et la longitude des contacts, vous pouvez les désélectionner. 
 
 
--  **Normalisation de l'adresse**- CiviCRM utilise les normes d'adressage postal du service postal des États-Unis (USPS) pour analyser une adresse dans les champs qui contiennent les éléments d'adresse: numéro de rue, nom de rue et appt / unité / suite. Il est préférable de saisir des informations d'adresse qui sont conformes aux normes d'adressage postal, non seulement pour la cohérence de vos données, mais aussi pour tirer le meilleur parti de la fonction d'analyse des adresses. Lorsque l'analyse d'adresse est activée, vous pouvez modifier et/ou afficher l'adresse analysée en cliquant sur "Modifier les éléments d'adresse" lorsque vous modifiez une adresse.
+-  **Normalisation de l'adresse**- CiviCRM utilise les normes d'adressage postal du service postal des États-Unis (USPS) pour analyser une adresse dans les champs qui contiennent les éléments d'adresse: numéro de rue, nom de rue et appt / unité /etc... Il est préférable de saisir des informations d'adresse qui sont conformes aux normes d'adressage postal de votre pays, non seulement pour la cohérence de vos données, mais aussi pour tirer le meilleur parti de la fonction d'analyse des adresses. Lorsque l'analyse d'adresse est activée, vous pouvez modifier et/ou afficher l'adresse analysée en cliquant sur "Modifier les éléments d'adresse".
       
     ![Configuration Address Parsing](../img/basic-set-up-address-parsing.png)  
 
@@ -130,7 +130,7 @@ Après avoir vérifié les champs et les mises en page par défaut, passez en re
 
 ### Géolocalisation et géocodage
 
-CiviCRM inclut des modules d'interface avec plusieurs services de géolocalisation et géocodage. Quand vos utilisateurs enregistrent l'adresse d'un contact ou d'un événement, le service de géocodage va convertir l'adresse en coordonnées géographiques qui sont ensuite utilisées pour la géolocalisation. Le service de Yahoo va aussi renseigner automatiquement le champ code postal. Ces services permettent de montrer des adresses sur une carte
+CiviCRM inclut des modules d'interface avec plusieurs services de géolocalisation et cartographie. Quand vos utilisateurs enregistrent l'adresse d'un contact ou d'un événement, le service de cartographie va convertir l'adresse en coordonnées géographiques qui sont ensuite utilisées pour la géolocalisation. Le service de Yahoo va aussi renseigner automatiquement le champ "code postal". Ces services permettent de montrer des adresses sur une carte.
 
 CivCiviCRM prend en charge les services de cartographie Google et OpenStreetMap. Ces services permettent à vos utilisateurs d'afficher les adresses de contact et les lieux d'événements sur une carte. Pour activer cette fonctionnalité, sélectionnez votre fournisseur et obtenez une clé pour votre site auprès de ce fournisseur..
 
@@ -142,21 +142,21 @@ Ces paramètres vous permettent de modifier les comportements de recherche tels 
 
 Un caractère générique est un caractère spécial qui peut être utilisé pour remplacer un ou plusieurs autres caractères dans les critères de recherche. CiviCRM vous permet d'utiliser le caractère de pourcentage « % » pour remplacer plusieurs caractères ou aucun, et le caractère de soulignement « _ » pour remplacer un caractère unique. Les caractères génériques sont utiles pour élargir vos résultats de recherche.
 
-Par exemple, en tapant «Bénévole%» comme sujet d'activité correspondra à tout enregistrement dont le sujet commence par «Bénévoles» (par exemple, «Bénévole pour la journée portes ouvertes» ou «formation de bénévoles»).
+Par exemple, en tapant «Bénévole%» comme sujet d'activité correspondra à tout enregistrement dont le sujet est «Bénévole» (par exemple, «Bénévole pour la journée portes ouvertes» ou «formation de bénévoles»).
 
 -  **Caractères génériques automatiques** - Par défaut, lorsque les utilisateurs recherchent des contacts par Nom, l'interface de recherche traite le texte comme s'il était entouré de signes de pourcentage. EXEMPLE: La recherche de «ada» renverra tout contact dont le nom inclut les lettres «Adams, Janet», «Nadal, Jorge», etc. La désactivation de cette fonctionnalité accélérera considérablement les recherches pour les grandes bases de données, mais pour les recherches partielles de nom les utilisateurs devront utiliser les caractères "%" ou "_".
 
 -  **Inclure Email** - Par défaut, lorsque les utilisateurs recherchent des contacts par Nom, l'interface de recherche recherche automatiquement le texte dans les adresses e-mail. La désactivation de cette fonctionnalité accélérera considérablement les recherches pour les bases de données volumineuses, mais les utilisateurs devront utiliser les champs de recherche par e-mail (de la Recherche avancée, du Générateur de recherche ou des Profils) pour trouver des contacts par adresse électronique.
 
--  **Inclure le Pseudonyme** - Par défaut, les pseudonymes sont automatiquement *non* inclus lorsque les utilisateurs recherchent par Nom. Changez cette valeur en Oui si vous voulez que les pseudonymes soient inclus dans les recherches.
+-  **Inclure le Pseudonyme** - Par défaut désactivé. Changez cette valeur en Oui si vous voulez que les pseudonymes soient inclus dans les recherches.
 
--  **Inclure la pagination alphabétique** - Si désactivé, la pagination alphabétique ne sera pas affiché sur les écrans de recherche. Cela améliorera le temps de réponse pour les résultats de recherche sur de grands ensembles de données.
+-  **Inclure la pagination alphabétique** - Si désactivé, la pagination alphabétique ne sera pas affichée sur les écrans de recherche. Cela améliorera le temps de réponse pour les résultats de recherche sur de grands ensembles de données.
 
--  **Inclure la clause « order by »** - Si désactivé, les résultats de recherche ne seront pas ordonnés. Ceci améliore significativement les temps de réponse lors de recherche sur de larges ensembles de données.
+-  **Inclure la clause « order by »** - Si désactivé, les résultats de recherche ne seront pas ordonnés. Ceci améliore significativement les temps de réponse lors de recherches sur de grands ensembles de données.
 
 -  **Profil de recherche de contact par défaut** - Vous pouvez sélectionner un profil pour remplacer les colonnes affichées par défaut dans les résultats de recherche des contacts.
 
--  **Expiration de la mémoire cache des groupes dynamiques** - Les groupes intelligents sont essentiellement des recherches enregistrées. La liste des contacts de chaque groupe intelligent est mise en cache dans la base de données afin d'éviter d'exécuter la recherche enregistrée chaque fois que vous accédez à un groupe intelligent. Ce champ détermine le nombre de minutes pour maintenir le cache avant de le rafraîchir. La valeur par défaut de 0 signifie que le cache est vidé immédiatement lorsqu'un contact est modifié ou qu'un nouveau est ajouté. Si vos données de contact changent fréquemment, vous pouvez essayer de définir cette valeur sur une valeur de 5 minutes (voire plus) pour réduire la charge de traitement sur votre serveur. L'inconvénient de retarder le rafraîchissement du cache est que les données anciennes seront toujours servies aux utilisateurs pendant quelques minutes après l'ajout de nouvelles données.
+-  **Expiration de la mémoire cache des groupes dynamiques** - Les groupes intelligents sont essentiellement des recherches enregistrées. La liste des contacts de chaque groupe intelligent est mise en cache dans la base de données afin d'éviter d'exécuter la recherche enregistrée chaque fois que vous accédez à un groupe intelligent. Ce champ détermine le nombre de minutes pour maintenir le cache avant de le rafraîchir. La valeur par défaut de 0 signifie que le cache est vidé immédiatement lorsqu'un contact est modifié ou qu'un nouveau est ajouté. Si vos données de contact changent fréquemment, vous pouvez essayer de définir cette valeur sur une valeur de 5 minutes (voire plus) pour réduire la charge de traitement sur votre serveur. L'inconvénient de retarder le rafraîchissement du cache est que les données anciennes seront toujours affichées aux utilisateurs pendant quelques minutes après l'ajout de nouvelles données.
 
 -  **Recherche de contacts avec autocomplétion** - Si cette option est activée, les champs sélectionnés seront affichés dans les listes déroulantes d'auto-complétion et dans la zone "Recherche rapide" du menu de navigation. Le nom du contact est toujours inclus.
     
@@ -164,45 +164,44 @@ Par exemple, en tapant «Bénévole%» comme sujet d'activité correspondra à t
 
 -  **Autocomplete Results** -  Spécifie le nombre maximum de contacts à afficher en même temps dans un champ de saisie semi-automatique. La valeur par défaut est 10.
 
-
--   **InnoDB Full Text Search**  - Si vous utilisez MySQL 5.6+, vous pouvez activer les optimisations de recherche en texte intégral InnoDB.
+-  **InnoDB Full Text Search**  - Si vous utilisez MySQL 5.6+, vous pouvez activer les optimisations de recherche en texte intégral InnoDB.
 
 ### Divers (Corbeille, PDFs, Limites, Journalisation, reCAPTCHA, etc...)
 
-Utilisez la page Divers pour configurer et contrôler les paramètres suivants:
+Utilisez la page "Parametres système > Divers" pour configurer et contrôler les paramètres suivants:
 
--   **Délai d'expiration du cache du tableau de bord -** Durée en minutes pendant laquelle les indicateurs du tableau de bord sont maintenus dans le cache.
+-   **Délai d'expiration du cache du tableau de bord** - Durée en minutes pendant laquelle les indicateurs du tableau de bord sont maintenus dans le cache.
 
--   **Checksum Lifespan -** Le nombre de jours à partir duquel les liens personnalisés (hash) vont expirer.
+-   **Checksum Lifespan** - Le nombre de jours à partir duquel les liens personnalisés (hash) vont expirer.
 
 -   **Contact Trash and Undelete** - Si cette option est activée, les contacts supprimés seront déplacés vers la corbeille (au lieu d'être détruits). Les utilisateurs disposant de la permission appropriée peuvent rechercher les contacts supprimés et les restaurer (ou les supprimer définitivement).
 
 
 -   **Logging** - Si cette option est activée, toutes les actions effectuées sur des tables non-cache seront enregistrées (dans les tables log_\* respectives). Par défaut, ces tables seront créées dans la même base de données. Toutefois, vous pouvez configurer CiviCRM pour écrire des tables de journalisation dans une base de données différente en modifiant le fichier *civicrm.settings.php* de votre site. Spécifiez la base de données de consignation distincte dans le paramètre CIVICRM_LOGGING_DSN. Après avoir activé cette fonctionnalité, vous pouvez consulter les modifications apportées aux enregistrements de contact à l'aide du rapport d'enregistrement des contacts. Accédez à **Rapports> Liste des rapports> Rapport d'enregistrement des contacts (Résumé)**.
 
-- ** Joindre une copie PDF aux reçus ** - Si cette option est activée, CiviCRM envoie un reçu PDF, en pièce jointe, lors de l'inscription d'un événement ou d'une contribution en ligne.
+-   **Joindre une copie PDF aux reçus** - Si cette option est activée, CiviCRM envoie un reçu PDF, en pièce jointe, lors de l'inscription d'un événement ou d'une contribution en ligne.
     
-- **Chemin de l'executable wkhtmltopdf** - wkhtmltopdf est un utilitaire alternatif pour générer des PDF et qui peut  produire fournir de meilleurs résultats surtout si vous générez un grand nombre de lettres PDF ou de reçus. Votre administrateur système devra télécharger et installer cet utilitaire, puis saisir le chemin d'accès de l'exécutable.
+-   **Chemin de l'executable wkhtmltopdf** - wkhtmltopdf est un utilitaire alternatif pour générer des PDF et qui peut  produire de meilleurs résultats surtout si vous générez un grand nombre de lettres PDF ou de reçus. Votre administrateur système devra télécharger et installer cet utilitaire, puis saisir le chemin d'accès de l'exécutable.
 
-- **Alertes de nouvelle version** - Si activé, une alerte s'affichera sur l'écran des utilisateurs disposant des autorisations "Administer CiviCRM" lorsqu'une nouvelle version de CiviCRM est disponible. Ce paramètre ne fonctionnera que si le paramètre "Version Check & Statistics Reporting" est activé.
+-  **Alertes de nouvelle version** - Si activé, une alerte s'affichera sur l'écran des utilisateurs disposant des autorisations "Administer CiviCRM" lorsqu'une nouvelle version de CiviCRM est disponible. Ce paramètre ne fonctionnera que si le paramètre "Version Check & Statistics Reporting" est activé.
 
-- **Vérification des versions et rapports statistiques** - Cette fonction vérifie automatiquement la disponibilité d'une nouvelle version stable de CiviCRM. Les alertes de nouvelle version sont affichées sur la page d'administration principale de CiviCRM. Les statistiques concernant votre installation de CiviCRM sont également signalées anonymement à l'équipe de CiviCRM pour aider à prioriser les efforts de développement en cours. Les informations suivantes sont rassemblées: version CiviCRM, versions de PHP, MySQL et framework (Drupal / Joomla! / Wordpress) et langage par défaut. Le nombre d'enregistrements (mais pas de données réelles) est également indiqué. Vous pouvez définir ce champ sur Non si vous ne souhaitez pas que ce genre d'informations soient transmises à l'équipe de CIVICRM. 
+-  **Vérification des versions et rapports statistiques** - Cette fonction vérifie automatiquement la disponibilité d'une nouvelle version stable de CiviCRM. Les alertes de nouvelle version sont affichées sur la page d'administration principale de CiviCRM. Les statistiques concernant votre installation de CiviCRM sont également signalées anonymement à l'équipe de CiviCRM pour aider à prioriser les efforts de développement en cours. Les informations suivantes sont rassemblées: version CiviCRM, versions de PHP, MySQL et framework (Drupal / Joomla! / Wordpress) et langage par défaut. Le nombre d'enregistrements (mais pas de données réelles) est également indiqué. Vous pouvez définir ce champ à Non si vous ne souhaitez pas que ce genre d'informations soient transmises à l'équipe de CIVICRM. 
 
-- **Afficher "Propulsé par CiviCRM ** - Si activé," Propulsé par CiviCRM " est affiché au bas des formulaires publics. Cela aidera à augmenter la popularité de CiviCRM
+-  **Afficher "Propulsé par CiviCRM** - Si activé," Propulsé par CiviCRM " est affiché au bas des formulaires publics. Cela aidera à augmenter la popularité de CiviCRM
 
-- **Nombre maximum de pièces jointes** - Vous pouvez augmenter ou diminuer le nombre maximum de fichiers (documents, images, etc.) qui peuvent être attachés à des courriels, des activités et des enregistrements de subventions. La valeur par défaut est de 3.
-- **Taille maximale de fichier (en Mo)** - Taille maximale d'un fichier (documents, images, etc.) qui peut être attaché à des courriels ou à des activités. Notez que votre fichier de configuration PHP, *php.ini*, doivent supporter une taille au moins égale à la valeur spécifiée ici
+-  **Nombre maximum de pièces jointes** - Vous pouvez augmenter ou diminuer le nombre maximum de fichiers (documents, images, etc.) qui peuvent être attachés à des courriels, des activités et des enregistrements de subventions. La valeur par défaut est de 3.
+-  **Taille maximale de fichier (en Mo)** - Taille maximale d'un fichier (documents, images, etc.) qui peut être attaché à des courriels ou à des activités. Notez que votre fichier de configuration PHP, *php.ini*, doivent supporter une taille au moins égale à la valeur spécifiée ici
 
-- **Permettre les autorisations de relation de second degré** -  Si activé, les contacts avec l'autorisation de modifier un contact associé hériteront de la permission de ce contact pour modifier d'autres contacts. Cela peut être utilisé, par exemple, pour permettre au professeur d'une classe d'éditer les enregistrements pour les élèves de cette classe lorsqu'ils sont tous les deux liés à la classe (mise en place sous forme de sous-type d'organisation) via des relations.
+-  **Permettre les autorisations de relation de second degré** -  Si activé, les contacts avec autorisation de modifier un contact associé hériteront de la permission de ce contact pour modifier d'autres contacts. Cela peut être utilisé, par exemple, pour permettre au professeur d'une classe d'éditer les enregistrements pour les élèves de cette classe lorsqu'ils sont tous les deux liés à la classe (mise en place sous forme de sous-type d'organisation) via des relations.
     
-- **reCAPTCHA** - reCAPTCHA est un service gratuit qui aide à prévenir l'utilisation abusive de votre site en demandant aux utilisateurs de lire une paire aléatoire de mots et de les saisir dans le formulaire. Pour utiliser reCAPTCHA sur des formulaires CiviCRM ouverts au public, inscrivez-vous à [recaptcha.net] (http://recaptcha.net/), entrez les clés publiques et privées fournies par reCAPTCHA ici, puis activez reCAPTCHA sous la section "Paramètres avancés" dans un profil où vous voulez qu'il soit utilisé. Si vous souhaitez utiliser la protection reCAPTCHA pour les formulaires d'inscription en ligne, d'adhésion ou d'événement, vous devez configurer un profil avec reCAPTCHA activé, puis l'inclure dans ces formulaires.
+-  **reCAPTCHA** - reCAPTCHA est un service gratuit qui aide à prévenir l'utilisation abusive de votre site en demandant aux utilisateurs de lire une paire aléatoire de mots et de les saisir dans le formulaire. Pour utiliser reCAPTCHA sur des formulaires CiviCRM ouverts au public, inscrivez-vous à [recaptcha.net] (http://recaptcha.net/), entrez les clés publiques et privées fournies par reCAPTCHA, puis activez reCAPTCHA sous la section "Paramètres avancés" dans un profil où vous voulez qu'il soit utilisé. Si vous souhaitez utiliser la protection reCAPTCHA pour les formulaires d'inscription en ligne, d'adhésion ou d'événement, vous devez configurer un profil avec reCAPTCHA activé, puis l'inclure dans ces formulaires.
 
 ### Types de Contacts
 Vous pouvez modifier les noms des types de contacts (individuel, ménage, organisations) et créer et modifier des "sous-types de contact" pour des utilisations plus spécifiques (par exemple, Étudiant, Parent, Équipe, etc.)
 
 ### Email sortant
 
-Si vous envoyez des courriels à des contacts à l'aide de CiviCRM, vous devez entrer des paramètres qui permettent à CiviCRM de se connecter à votre serveur de messagerie. Ces courriels incluent l'envoi de reçus aux contributeurs, l'envoi de confirmations aux personnes s'inscrivant à des événements et l'utilisation de CiviMail pour envoyer tout type d'envois.
+Si vous envoyez des courriels à des contacts à l'aide de CiviCRM, vous devez entrer les paramètres qui permettent à CiviCRM de se connecter à votre serveur de messagerie. Ces courriels incluent l'envoi de reçus aux contributeurs, l'envoi de confirmations aux personnes s'inscrivant à des événements et l'utilisation de CiviMail pour envoyer tout type d'envois.
 
 
 
