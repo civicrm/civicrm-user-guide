@@ -124,15 +124,13 @@ Après avoir vérifié les champs et les mises en page par défaut, contrôlez l
 
   Pour en savoir plus sur les normes d'adressage postal d'USPS ici:  [http://pe.usps.com/text/pub28/welcome.htm](http://pe.usps.com/text/pub28/welcome.htm).
    
--  **Standardisation de l'adresse** - CiviCRM inclut une fonctionnalité facultative pour l'interface avec le service Web de standardisation des adresses des Services postaux des États-Unis (USPS). Vous devez vous inscrire pour utiliser le service USPS ici : [https://www.usps.com/business/web-tools-apis/welcome.htm](https://www.usps.com/business/web-tools-apis/welcome.htm).
-
-  Si vous êtes approuvé, vous recevrez un ID utilisateur et l'URL du service. L'URL fournie par USPS ne sera pas précédée du préfixe "http: //". Lorsque vous entrez cette URL dans le champ des paramètres CiviCRM, vous devez le préfixer avec "http: //".
+-  **Standardisation de l'adresse** - CiviCRM inclut une fonctionnalité facultative pour l'interface avec le service Web de standardisation des adresses des Services postaux des États-Unis (USPS). Vous devez vous inscrire pour utiliser le service USPS ici : [https://www.usps.com/business/web-tools-apis/welcome.htm](https://www.usps.com/business/web-tools-apis/welcome.htm).   Après validation vous recevrez un ID utilisateur et l'URL du service. L'URL fournie par USPS ne sera pas précédée du préfixe "http: //". Lorsque vous entrez cette URL dans le champ des paramètres CiviCRM, vous devez le préfixer avec "http: //".
 
 ### Géolocalisation et géocodage
 
 CiviCRM inclut des modules d'interface avec plusieurs services de géolocalisation et cartographie. Quand vos utilisateurs enregistrent l'adresse d'un contact ou d'un événement, le service de cartographie va convertir l'adresse en coordonnées géographiques qui sont ensuite utilisées pour la géolocalisation. Le service de Yahoo va aussi renseigner automatiquement le champ "code postal". Ces services permettent de montrer des adresses sur une carte.
 
-CivCiviCRM prend en charge les services de cartographie Google et OpenStreetMap. Ces services permettent à vos utilisateurs d'afficher les adresses de contact et les lieux d'événements sur une carte. Pour activer cette fonctionnalité, sélectionnez votre fournisseur et obtenez une clé pour votre site auprès de ce fournisseur..
+CivCiviCRM prend en charge les services de cartographie Google et OpenStreetMap. Ces services permettent à vos utilisateurs d'afficher les adresses de contact et les lieux d'événements sur une carte. Pour activer cette fonctionnalité, sélectionnez votre fournisseur et demandez une clé pour votre site auprès de ce fournisseur.
 
 Vous pouvez également sélectionner un autre fournisseur de cartographie ou de géolocalisation. Une fois ce service activé, vos enregistrements de contacts et d'événements seront automatiquement géocodés (la latitude et la longitude de cette adresse sont insérés) lorsque vous ajoutez ou modifiez des données d'adresse.
 
@@ -142,11 +140,11 @@ Ces paramètres vous permettent de modifier les comportements de recherche tels 
 
 Un caractère générique est un caractère spécial qui peut être utilisé pour remplacer un ou plusieurs autres caractères dans les critères de recherche. CiviCRM vous permet d'utiliser le caractère de pourcentage « % » pour remplacer plusieurs caractères ou aucun, et le caractère de soulignement « _ » pour remplacer un caractère unique. Les caractères génériques sont utiles pour élargir vos résultats de recherche.
 
-Par exemple, en tapant «Bénévole%» comme sujet d'activité correspondra à tout enregistrement dont le sujet est «Bénévole» (par exemple, «Bénévole pour la journée portes ouvertes» ou «formation de bénévoles»).
+Par exemple, en tapant «Bénévole%» comme sujet d'activité correspondra à tout enregistrement dont le sujet est «Bénévole» (par exemple, «Bénévole pour la journée portes ouvertes»).
 
--  **Caractères génériques automatiques** - Par défaut, lorsque les utilisateurs recherchent des contacts par Nom, l'interface de recherche traite le texte comme s'il était entouré de signes de pourcentage. EXEMPLE: La recherche de «ada» renverra tout contact dont le nom inclut les lettres «Adams, Janet», «Nadal, Jorge», etc. La désactivation de cette fonctionnalité accélérera considérablement les recherches pour les grandes bases de données, mais pour les recherches partielles de nom les utilisateurs devront utiliser les caractères "%" ou "_".
+-  **Caractères génériques automatiques** - Par défaut, lorsque les utilisateurs recherchent des contacts par Nom, l'interface de recherche traite le texte comme s'il était entouré de signes de pourcentage. EXEMPLE: La recherche de «ada» renverra tout contacts dont le nom inclut ces lettres : «Adam, Jean», «Nadal, Georges», etc. La désactivation de cette fonctionnalité accélérera considérablement les recherches pour les grandes bases de données, mais pour les recherches partielles de nom les utilisateurs devront utiliser les caractères "%" ou "_".
 
--  **Inclure Email** - Par défaut, lorsque les utilisateurs recherchent des contacts par Nom, l'interface de recherche recherche automatiquement le texte dans les adresses e-mail. La désactivation de cette fonctionnalité accélérera considérablement les recherches pour les bases de données volumineuses, mais les utilisateurs devront utiliser les champs de recherche par e-mail (de la Recherche avancée, du Générateur de recherche ou des Profils) pour trouver des contacts par adresse électronique.
+-  **Inclure Email** - Par défaut, lorsque les utilisateurs recherchent des contacts par Nom, l'interface de recherche recherche automatiquement le texte dans les adresses e-mail. La désactivation de cette fonctionnalité accélérera considérablement les recherches pour les bases de données volumineuses, mais les utilisateurs devront utiliser les champs de recherche par e-mail (dans les Recherches avancées, du Générateur de recherche ou des Profils) pour trouver des contacts par adresse électronique.
 
 -  **Inclure le Pseudonyme** - Par défaut désactivé. Changez cette valeur en Oui si vous voulez que les pseudonymes soient inclus dans les recherches.
 
@@ -176,8 +174,7 @@ Utilisez la page "Parametres système > Divers" pour configurer et contrôler le
 
 -   **Contact Trash and Undelete** - Si cette option est activée, les contacts supprimés seront déplacés vers la corbeille (au lieu d'être détruits). Les utilisateurs disposant de la permission appropriée peuvent rechercher les contacts supprimés et les restaurer (ou les supprimer définitivement).
 
-
--   **Logging** - Si cette option est activée, toutes les actions effectuées sur des tables non-cache seront enregistrées (dans les tables log_\* respectives). Par défaut, ces tables seront créées dans la même base de données. Toutefois, vous pouvez configurer CiviCRM pour écrire des tables de journalisation dans une base de données différente en modifiant le fichier *civicrm.settings.php* de votre site. Spécifiez la base de données de consignation distincte dans le paramètre CIVICRM_LOGGING_DSN. Après avoir activé cette fonctionnalité, vous pouvez consulter les modifications apportées aux enregistrements de contact à l'aide du rapport d'enregistrement des contacts. Accédez à **Rapports> Liste des rapports> Rapport d'enregistrement des contacts (Résumé)**.
+-   **Logging** - Si cette option est activée, toutes les actions effectuées sur des tables non-cache seront enregistrées (dans les tables log_\* respectives). Par défaut, ces tables seront créées dans la même base de données. Toutefois, vous pouvez configurer CiviCRM pour écrire des tables de journalisation dans une base de données différente en modifiant le fichier *civicrm.settings.php* de votre site. Spécifiez la base de données de consignation distincte dans le paramètre CIVICRM_LOGGING_DSN. Après avoir activé cette fonctionnalité, vous pouvez consulter les modifications apportées aux enregistrements de contact à l'aide du rapport d'enregistrement des contacts. Voir : **Rapports> Liste des rapports> Rapport d'enregistrement des contacts (Résumé)**.
 
 -   **Joindre une copie PDF aux reçus** - Si cette option est activée, CiviCRM envoie un reçu PDF, en pièce jointe, lors de l'inscription d'un événement ou d'une contribution en ligne.
     
@@ -185,121 +182,64 @@ Utilisez la page "Parametres système > Divers" pour configurer et contrôler le
 
 -  **Alertes de nouvelle version** - Si activé, une alerte s'affichera sur l'écran des utilisateurs disposant des autorisations "Administer CiviCRM" lorsqu'une nouvelle version de CiviCRM est disponible. Ce paramètre ne fonctionnera que si le paramètre "Version Check & Statistics Reporting" est activé.
 
--  **Vérification des versions et rapports statistiques** - Cette fonction vérifie automatiquement la disponibilité d'une nouvelle version stable de CiviCRM. Les alertes de nouvelle version sont affichées sur la page d'administration principale de CiviCRM. Les statistiques concernant votre installation de CiviCRM sont également signalées anonymement à l'équipe de CiviCRM pour aider à prioriser les efforts de développement en cours. Les informations suivantes sont rassemblées: version CiviCRM, versions de PHP, MySQL et framework (Drupal / Joomla! / Wordpress) et langage par défaut. Le nombre d'enregistrements (mais pas de données réelles) est également indiqué. Vous pouvez définir ce champ à Non si vous ne souhaitez pas que ce genre d'informations soient transmises à l'équipe de CIVICRM. 
+-  **Vérification des versions et rapports statistiques** - Cette fonction vérifie automatiquement la disponibilité d'une nouvelle version stable de CiviCRM. Les alertes de nouvelle version sont affichées sur la page d'administration principale de CiviCRM. Les statistiques concernant votre installation de CiviCRM sont également signalées anonymement à l'équipe de CiviCRM pour aider à prioriser les efforts de développement en cours. Les informations suivantes sont rassemblées: version CiviCRM, versions de PHP, MySQL et framework (Drupal / Joomla / Wordpress) et langage par défaut. Le nombre d'enregistrements (mais pas les données enregistrées) est également indiqué. Vous pouvez définir ce champ à Non si vous ne souhaitez pas que ce genre d'informations soient transmises à l'équipe de CIVICRM. 
 
--  **Afficher "Propulsé par CiviCRM** - Si activé," Propulsé par CiviCRM " est affiché au bas des formulaires publics. Cela aidera à augmenter la popularité de CiviCRM
+-  **Afficher "Propulsé par CiviCRM** - Si activé," Propulsé par CiviCRM " est affiché au bas des formulaires publics. Cela aide à augmenter la popularité de CiviCRM.
 
 -  **Nombre maximum de pièces jointes** - Vous pouvez augmenter ou diminuer le nombre maximum de fichiers (documents, images, etc.) qui peuvent être attachés à des courriels, des activités et des enregistrements de subventions. La valeur par défaut est de 3.
--  **Taille maximale de fichier (en Mo)** - Taille maximale d'un fichier (documents, images, etc.) qui peut être attaché à des courriels ou à des activités. Notez que votre fichier de configuration PHP, *php.ini*, doivent supporter une taille au moins égale à la valeur spécifiée ici
+-  **Taille maximale de fichier (en Mo)** - Taille maximale d'un fichier (document, image, etc.) qui peut être attaché à des courriels ou à des activités. Notez que votre fichier de configuration PHP, *php.ini*, doivent supporter une taille au moins égale à la valeur spécifiée ici
 
--  **Permettre les autorisations de relation de second degré** -  Si activé, les contacts avec autorisation de modifier un contact associé hériteront de la permission de ce contact pour modifier d'autres contacts. Cela peut être utilisé, par exemple, pour permettre au professeur d'une classe d'éditer les enregistrements pour les élèves de cette classe lorsqu'ils sont tous les deux liés à la classe (mise en place sous forme de sous-type d'organisation) via des relations.
+-  **Permettre les autorisations de relation de second degré** -  Si activé, les contacts avec autorisation de modifier un contact associé hériteront de la permission de ce contact pour modifier d'autres contacts. Cela peut être utilisé, par exemple, pour permettre au professeur d'une classe d'éditer les enregistrements des élèves de cette classe lorsqu'ils sont tous les deux liés à la classe (mise en place sous forme de sous-type d'organisation) via des relations.
     
 -  **reCAPTCHA** - reCAPTCHA est un service gratuit qui aide à prévenir l'utilisation abusive de votre site en demandant aux utilisateurs de lire une paire aléatoire de mots et de les saisir dans le formulaire. Pour utiliser reCAPTCHA sur des formulaires CiviCRM ouverts au public, inscrivez-vous à [recaptcha.net] (http://recaptcha.net/), entrez les clés publiques et privées fournies par reCAPTCHA, puis activez reCAPTCHA sous la section "Paramètres avancés" dans un profil où vous voulez qu'il soit utilisé. Si vous souhaitez utiliser la protection reCAPTCHA pour les formulaires d'inscription en ligne, d'adhésion ou d'événement, vous devez configurer un profil avec reCAPTCHA activé, puis l'inclure dans ces formulaires.
 
 ### Types de Contacts
-Vous pouvez modifier les noms des types de contacts (individuel, ménage, organisations) et créer et modifier des "sous-types de contact" pour des utilisations plus spécifiques (par exemple, Étudiant, Parent, Équipe, etc.)
+Vous pouvez modifier les noms des types de contacts (individuel, ménage, organisations) et créer et modifier des "sous-types de contact" pour des utilisations plus spécifiques (par exemple, Étudiant, Parent, Bénévole, etc.)
 
 ### Email sortant
 
 Si vous envoyez des courriels à des contacts à l'aide de CiviCRM, vous devez entrer les paramètres qui permettent à CiviCRM de se connecter à votre serveur de messagerie. Ces courriels incluent l'envoi de reçus aux contributeurs, l'envoi de confirmations aux personnes s'inscrivant à des événements et l'utilisation de CiviMail pour envoyer tout type d'envois.
 
+CiviCRM prend en charge trois méthodes différentes de connexion à un serveur de messagerie: mail (la fonction de courrier PHP intégrée), SMTP (Simple Mail Transport Protocol), et Sendmail. Chaque méthode requiert des paramètrages spécifiques. Si vous ne connaissez pas les valeurs correctes de ces paramètres, contactez votre administrateur système, votre FAI ou votre fournisseur d'hébergement.
 
-
-CiviCRM supports three different methods of connecting to a mail server:
-mail (the built-in PHP mail function); SMTP (Simple Mail Transport
-Protocol); and Sendmail. Each method requires that you enter specific
-settings. If you're unfamiliar with these terms, or unsure of the
-correct values for these settings, check with your system administrator,
-ISP or hosting provider.
-
-You should always send a test email after you enter or modify the
-settings. Simply click "Save and Send Test Email"(shown in the following
-screenshot). An email will be sent to the email address associated with
-your user login account. The From email address will be the default From
-address you've configured in the previous section.
+Vous devez toujours envoyer un email de test après avoir saisi ou modifié les paramètres. Cliquez simplement sur "Enregistrer et envoyer un e-mail de test" (illustré dans la capture d'écran suivante). Un e-mail sera envoyé à l'adresse e-mail associée à votre compte de connexion utilisateur. L'adresse de courriel " De " sera l'adresse par défaut que vous avez configurée dans la section précédente.
 
 ![Picture_11](../img/CiviCRM-Configuring-Picture_11-en.png "Save and Send Test Email")
 
-If CiviCRM is unable to send the test email, you will see a message on
-your screen with the specific error and some suggestions for
-trouble-shooting the problem.
+Si CiviCRM ne parvient pas à envoyer le courrier électronique de test, un message s'affichera à l'écran avec l'erreur spécifique et quelques suggestions pour résoudre le problème.
 
-### Disabling outbound email
 
-If you do *not* want users to send outbound emails from CiviCRM at all,
-select "Disable Outbound Email". However, if you disable outbound email,
-and you are using Online Contribution pages or online Event
-Registration, you will need to turn off the automated receipting and
-registration confirmation features (these are enabled by default).
-Otherwise your constituents will see error messages after they've
-completed a contribution or registration.
+### Désactivation du courrier sortant
 
-**Redirect to Database**- If this option is selected, all emails will be
-recorded as archived mailings instead of being sent out.
+Si vous ne voulez pas que les utilisateurs envoient des emails sortants depuis CiviCRM, sélectionnez "Désactiver le courrier électronique sortant". Attention, si vous désactivez le courrier électronique sortant et que vous utilisez des pages de contribution en ligne ou l'enregistrement d'événements en ligne, vous devez désactiver les fonctionnalités automatiques de réception et de confirmation d'enregistrement (activées par défaut). Sinon, vos utilisateurs verront des messages d'erreur après avoir effectué en ligne une contribution ou un enregistrement.
 
-See **Email System Configuration** for more details.
+**Redirection vers la base de données** - Si cette option est sélectionnée, tous les courriels seront enregistrés comme des envois archivés au lieu d'être envoyés. Voir **Email System Configuration** pour plus de détails.
 
-### From Email Addresses
+### Addresse d'envoi des emails
 
-CiviCRM will use the default From address defined here when sending
-automated emails. If you've already entered an email address in the
-Domain Information screen, that address will be listed here (as
-illustrated on the leftmost field of the following screenshot).
+CiviCRM utilisera l'adresse par défaut " De " définie ici lors de l'envoi de courriels automatisés. Si vous avez déjà entré une adresse e-mail dans l'écran Informations du domaine, cette adresse sera répertoriée ici (comme illustré sur le champ le plus à gauche de la capture d'écran suivante).
 
 ![image](../img/From%20email.PNG)
 
-When users send an email using CiviCRM, their primary email address is
-used as the From address by default. However, they can also select one
-of the general email addresses defined here as an alternative.
+Lorsque les utilisateurs envoient un courrier électronique à l'aide de CiviCRM, leur adresse de courriel principale est utilisée comme adresse " De " par défaut. Toutefois, ils peuvent également sélectionner l'une des adresses courriel générales définies ici comme alternative.
 
-### Payment Processors
+### Paiment par carte de crédit
 
-Payment processors are companies that handle credit card transactions
-for merchants and non-profit organizations and then transfer funds to
-the organization's bank account. If you plan on using CiviCRM to accept
-online contributions, online membership signup and renewal or online
-event registration, you will need to select and configure a payment
-processor for your site.
+Les réseaux de paiement, tel que VISA, MasterCard, American Express, JCB, le Groupe Carte Bleue sont des entreprises qui gèrent les transactions par carte de crédit pour les commerçants et les organisations à but non lucratif, puis transférent les fonds sur le compte bancaire de l'organisation. Si vous envisagez d'utiliser CiviCRM pour accepter des contributions en ligne, l'adhésion et le renouvellement des cotisations en ligne ou l'inscription d'événement en ligne, vous devrez sélectionner et configurer une passerelle de paiement pour votre site.
 
-CiviCRM includes support for several different processors, and provides
-a way for third-party developers to add support for additional
-processors based on their clients' needs. Each processor has their own
-pricing structure and features, and you will want to investigate each
-available option to determine the best fit for your organization. Refer
-to the "Contributions" section for a list of factors to consider in
-selecting a processor.
+CiviCRM prend en charge différents réseaux et permet aux développeurs d'ajouter des réseaux supplémentaires en fonction des besoins de leurs utilisateurs. Chaque réseau a sa propre structure tarifaire et ses fonctionnalités, et il vous appartiendra de déterminer le meilleur choix pour votre organisation. Reportez-vous à la section «Contributions» pour obtenir une liste des facteurs à prendre en considération lors du choix d'un réseau.
 
-The actual steps involved in configuring and testing your payment
-processor connection are different for each processor. For more
-information, visit:
-[http://wiki.civicrm.org/confluence/display/CRMDOC/Payment+Processors](http://wiki.civicrm.org/confluence/display/CRMDOC/Payment+Processors)
+Les étapes permettant la configuration et le test de votre connexion au réseau de paiement choisi sont différentes pour chaque réseau. Pour plus d'informations, consultez : [http://wiki.civicrm.org/confluence/display/CRMDOC/Payment+Processors](http://wiki.civicrm.org/confluence/display/CRMDOC/Payment+Processors)
 
-### Permissions for anonymous users
+### Autorisations pour le public
 
-This link is only present on Drupal sites. On Joomla! and WordPress
-(and Drupal) Sites permissions for anonymous and other users are set
-after navigating to **Administer > Users and Permissions >
-Permissions** > **Drupal (or Joomla! or WordPress) Access Control**.
-See the *Permissions and Access Control* chapter in this section for
-information on setting permissions.
+Ce lien est seulement présent sur les sites Drupal. Sur Joomla!, WordPress et Drupal les utilisateurs public ou anonymes et autres sont définies après avoir navigué vers **Administer> Utilisateurs et autorisations> Autorisations** > **Contrôle d'accès Drupal (ou Joomla! Ou WordPress)**. Reportez-vous au chapitre *Autorisations et contrôle d'accès* de cette section pour plus d'informations sur la définition des autorisations.
+
 
 ### System Workflow Templates
 
-CiviCRM comes with a set of system-generated emails, including
-contribution receipts and event registration confirmations. These are
-known as system workflow templates, and it's a good idea to review them.
-They will be sent out with your organization's name on them. You can
-customize the style and wording of these messages here.
+CiviCRM est livré avec un ensemble de courriels générés par le système, incluant notamment les reçus de contribution et les confirmations d'inscription d'événement. Ceux-ci sont connus sous le nom de modèles de workflow système, vous pouvez les examiner. Ils sont envoyés avec le nom de votre organisation. Vous pouvez personnaliser le style et le libellé de ces messages.
 
-Workflow messages include text AND necessary program logic. Use caution
-when editing so as not to modify the program logic. Be sure to test the
-workflow and review the emails sent after making any changes. If you
-find that your changes have caused problems, errors or missing
-information - you can always "Revert" to the system default for that
-workflow.
+Les messages de workflow incluent le texte **ET** la logique de programme nécessaire. Soyez prudent lors de l'édition afin de ne pas modifier la logique du programme. Assurez-vous de tester ces messages et d'examiner les courriels envoyés après avoir apporté des modifications. Si vous constatez que vos modifications causent des problèmes, des erreurs ou des informations manquantes, vous pouvez toujours "Revenir" au système par défaut pour ce workflow.
 
-
-You should now have reviewed all the basic configuration tasks. The
-remaining tasks on the checklist involve an understanding of the ways in
-which you can record and use contact data and are best left until you
-have read more in this book.
+Vous avez maintenant survolé toutes les tâches de configuration de base. Les tâches restantes de la liste de contrôle impliquent la compréhension de la façon dont vous allez enregistrer et utiliser les données de contact et actuellement il vaut mieux attendre, avant de commencer, d'avoir lu d'autres chapitres de ce livre.
