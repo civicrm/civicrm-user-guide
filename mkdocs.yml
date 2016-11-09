@@ -1,4 +1,4 @@
-site_name: "Guide d'utilisation et d'administration de CiviCRM"
+psite_name: "Guide d'utilisation et d'administration de CiviCRM"
 site_url: http://rtfd.civicrm.org
 repo_url: https://github.com/civicrm-french/civicrm-user-guide
 site_description: 'Un guide pour les utilisateurs et administrateurs de CiviCRM.'
@@ -21,7 +21,7 @@ pages:
     - 'Hébergement': 'getting-prepared/hosting.md'
     - 'Faire la transition': 'getting-prepared/transitioning-to-civicrm.md'
 - Configuration initiale:
-    - 'Installation and basic set-up': 'initial-set-up/installation-and-basic-set-up.md'
+    - 'Installation et paramètre': 'initial-set-up/installation-and-basic-set-up.md'
     - 'Scheduled jobs': 'initial-set-up/scheduled-jobs.md'
     - 'Customizing the user interface': 'initial-set-up/customizing-the-user-interface.md'
     - 'Permissions and access control': 'initial-set-up/permissions-and-access-control.md'
