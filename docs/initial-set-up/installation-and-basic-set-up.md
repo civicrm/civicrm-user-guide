@@ -51,13 +51,15 @@ Vous pouvez aussi configurer votre site pour prendre en charge plusieurs langues
 Pour plus d'info, consulter:
 [http://wiki.civicrm.org/confluence/pages/viewpage.action?pageId=88408149](http://wiki.civicrm.org/confluence/pages/viewpage.action?pageId=88408149)
 
-Sous Localisation, vous trouverez également les **Paramètres d'entrée de date**.
+Sous Localisation, vous trouverez également les **Paramètres d'entrée de date** :
+
+[Parametre de date](../img/FR_parametre_de_date.PNG)
 
 CiviCRM fournit par défaut des fourchettes de date pour l'entrée sur des champs de date spécifiques. Par exemple, la fourchette par défaut pour les dates d'activité est 20 ans avant l'année en cours jusqu'à 10 ans au-delà de l'année en cours. Si vous souhaitez suivre les activités qui ont eu lieu, disons, il ya 25 ans, vous devez mettre à jour cette option pour permettre à vos utilisateurs finaux de consigner ces activités. Pour mettre à jour ces paramètres dans la plage appropriée, allez dans **Administer> Personnalisez les données> Dates Préférences**. Si vous laissez ces paramètres par défaut, vous verrez ce  message d'erreur: 
 *By default, CiviCRM provides ranges for input on specific date fields. For instance, the default range for Activity Dates are 20 years prior to the current year all the way through to 10 years beyond the current year. If you would like to track activities that have occurred, say, 25 years ago then you would need to update this range to enable your end users to log these activities.*
 Pour mettre à jour ces paramétrages, menu : **Administer> Personnalisez les données> Dates Préférences**.
 
-![Advanced Date Input Settings](../img/configure-localization-advanced-date-input-settings.png)
+![Parametre de base](../img/FR_parametre_de_date.PNG)
 
 ### Adresse et coordonnées de votre organisation
 
