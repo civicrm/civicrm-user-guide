@@ -50,7 +50,7 @@ L'interface utilisateur CiviCRM fait un usage étendu des boîtes de dialogue co
 Personnalisation des préférences de recherche
 ---------------------------------------------
 
-Vous pouvez modifier le paramétrage de recherche par défaut de CiviCRM dans ** Administer> Personnaliser les données et les écrans> Préférences de recherche **. Les options disponibles sont:
+Vous pouvez modifier le paramétrage de recherche par défaut de CiviCRM dans **Administer> Personnaliser les données et les écrans> Préférences de recherche**. Les options disponibles sont:
 
 -   **Recherche aproximative** : (choisissez Oui ou Non): Si vous choisissez Oui, les caractères génériques sont automatiquement ajoutés au début ET à la fin du terme de recherche lorsque les utilisateurs recherchent des contacts par Nom. Par exemple, la recherche de "ada" renverra n'importe quel contact dont le nom inclut ces lettres: Adams, Janet; Nadal, Jorge; Etc. Si elle est désactivée, un caractère générique est ajouté, mais uniquement à la fin du terme de recherche. Dans ce cas, la recherche de "ada" renverra tout contact dont le nom de famille commence par ces lettres: Adams, Janet 'mais pas Nadal, Jorge.
 
@@ -81,9 +81,10 @@ Customizing date preferences
 The default display preference for dates is set at **Administer > Localization > Date Formats**.
 
 You can override this default setting and define the range of allowed
-dates for specific field types at **Administer > Customise Data and
-Screens > Date
-Preferences[](http://drupal.screenshots.civicrm.org/civicrm/admin/setting/preferences/date?action=reset=1)**.
+dates for specific field types at **Administer > Customise Data and Screens > Date Preferences**
+
+[](http://drupal.screenshots.civicrm.org/civicrm/admin/setting/preferences/date?action=reset=1)
+
 By default, CiviCRM provides ranges for input on specific date fields.
 For instance, the default range for Activity Dates are 20 years prior to
 the current year all the way through to 10 years beyond the current
