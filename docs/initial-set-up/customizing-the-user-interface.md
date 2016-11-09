@@ -10,7 +10,6 @@ Modifier les listes déroulantes
 
 Les options incluses dans les champs déroulants que vous voyez dans les formulaires de saisie/d'édition de contact dans CiviCRM peuvent être modifiées (vous pouvez ajouter, renommer, désactiver ou supprimer des options) dans **Administer> Personnaliser les données et les écrans> Listes déroulantes**. Ceci inclus:
 
-
 -   Le sexe : Homme, Femme
 -   Préfixe et suffixe individuel (exemple : Mme., Mr., Docteur, Me., et Jr., Sr.)
 -   Type de téléphone (exemple : Téléphone, Mobile, Fax..)
@@ -75,13 +74,10 @@ Vous pouvez modifier le paramétrage de recherche par défaut de CiviCRM dans **
 Si votre base de données est importante et que vos recherches sont lentes, envisagez de désactiver certaines de ces options pour augmenter votre vitesse.
 
 
-Customizing date preferences
-----------------------------
-
-The default display preference for dates is set at **Administer > Localization > Date Formats**.
-
-You can override this default setting and define the range of allowed
-dates for specific field types at **Administer > Customise Data and Screens > Date Preferences**
+Personnalisation des préférences de date
+----------------------------------------
+L'affichage par défaut des dates est définie sur **Administer> Localisation> Formats de date**.
+Vous pouvez remplacer les paramètre par défaut et définir la plage de dates autorisées pour les types de champs spécifiques à :  **Administer> Données et écrans personnalisés> Préférences de date**
 
 [](http://drupal.screenshots.civicrm.org/civicrm/admin/setting/preferences/date?action=reset=1)
 
