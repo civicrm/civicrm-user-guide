@@ -52,7 +52,7 @@ Personnalisation des préférences de recherche
 
 Vous pouvez modifier le paramétrage de recherche par défaut de CiviCRM dans ** Administer> Personnaliser les données et les écrans> Préférences de recherche **. Les options disponibles sont:
 
--   ** Recherche aproximative** : (choisissez Oui ou Non): Si vous choisissez Oui, les caractères génériques sont automatiquement ajoutés au début ET à la fin du terme de recherche lorsque les utilisateurs recherchent des contacts par Nom. Par exemple, la recherche de "ada" renverra n'importe quel contact dont le nom inclut ces lettres: Adams, Janet; Nadal, Jorge; Etc. Si elle est désactivée, un caractère générique est ajouté, mais uniquement à la fin du terme de recherche. Dans ce cas, la recherche de "ada" renverra tout contact dont le nom de famille commence par ces lettres: Adams, Janet 'mais pas Nadal, Jorge.
+-   **Recherche aproximative** : (choisissez Oui ou Non): Si vous choisissez Oui, les caractères génériques sont automatiquement ajoutés au début ET à la fin du terme de recherche lorsque les utilisateurs recherchent des contacts par Nom. Par exemple, la recherche de "ada" renverra n'importe quel contact dont le nom inclut ces lettres: Adams, Janet; Nadal, Jorge; Etc. Si elle est désactivée, un caractère générique est ajouté, mais uniquement à la fin du terme de recherche. Dans ce cas, la recherche de "ada" renverra tout contact dont le nom de famille commence par ces lettres: Adams, Janet 'mais pas Nadal, Jorge.
 
 -   **Inclure l'adresse électronique** : (Choisissez Oui ou Non): Si vous choisissez Oui, les adresses électroniques seront automatiquement incluses lorsque les utilisateurs effectueront une recherche par nom.
 
@@ -62,7 +62,7 @@ Vous pouvez modifier le paramétrage de recherche par défaut de CiviCRM dans **
 
 -   **Inclure la clause « order by »** (Choisissez Oui ou Non): Si vous choisisez NON, les résultats de recherche ne seront pas ordonnés.
 
--   **Délai d'attente de cache de groupe intelligent **: Détermine la fréquence à laquelle le cache de groupe intelligent est actualisé. Pour la plupart des sites cette valeur ne doit pas être définie à zéro, car cela signifie pas de mise en cache du tout et ralentira votre site. Même sur les sites où les données de contact changent fréquemment, la valeur minimale proposée est de 5 minutes.
+-   **Délai d'attente de cache de groupe intelligent**: Détermine la fréquence à laquelle le cache de groupe intelligent est actualisé. Pour la plupart des sites cette valeur ne doit pas être définie à zéro, car cela signifie pas de mise en cache du tout et ralentira votre site. Même sur les sites où les données de contact changent fréquemment, la valeur minimale proposée est de 5 minutes.
 
 -   **Expiration de la mémoire cache des groupes dynamiques**: Détermine la fréquence à laquelle le cache de groupe intelligent est actualisé. Pour la plupart des sites cette valeur ne doit pas être définie à zéro, car cela signifie pas de mise en cache du tout et ralentira votre site. Même sur les sites où les données de contact changent fréquemment, la valeur minimale proposée est de 5 minutes.
 
@@ -74,21 +74,11 @@ Vous pouvez modifier le paramétrage de recherche par défaut de CiviCRM dans **
 
 Si votre base de données est importante et que vos recherches sont lentes, envisagez de désactiver certaines de ces options pour augmenter votre vitesse.
 
-Vous pouvez encore personnaliser les paramètres de recherche ici: ** Administer> Personnaliser les données et les écrans> Préférences d'affichage ** a un bloc de ** Contact Search ** paramètres:
-
-There is one more place to customize search search settings: **Administer > Customize Data and Screens > Display Preferences** has a block of **Contact Search** settings:
-
-![Display Preferences Contact Search](../img/Contact%20Search.png)
-
-These check boxes modify the **Search > Find Contacts** and **Search >
-Advanced Search** screens. Uncheck the boxes to remove the corresponding
-types of fields from your search screens.
 
 Customizing date preferences
 ----------------------------
 
-The default display preference for dates is set at **Administer >
-Localization > Date Formats**.
+The default display preference for dates is set at **Administer > Localization > Date Formats**.
 
 You can override this default setting and define the range of allowed
 dates for specific field types at **Administer > Customise Data and
