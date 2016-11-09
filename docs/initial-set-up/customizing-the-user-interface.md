@@ -17,92 +17,66 @@ Les options incluses dans les champs déroulants que vous voyez dans les formula
 -   Fournisseurs de téléphonie mobile (exemple : orange, SFR, Free,...)
 -   Messagerie - Chat : (exemple: Yahoo, MSN, Skype, ... )
 -   Type de site Web : (exemple : Personnel,Entreprise, Facebook, Linkedln, Twitter,...)
--   Type d'adresse : (exemple : Principale, domicile, Bureaux, Compta, Facturation,..). Notez que l'adresse de facturation est attribuée lorsque les membres contribuent ou paient les frais d'inscription et d'inscription en ligne.Le type d'adresse ne doit pas contenir d'espaces.(ex : "Résidence secondaire", n'est pas permis).
+-   Type d'adresse : (exemple : Principale, domicile, Bureaux, Compta, Facturation,..). Notez que l'adresse de facturation est attribuée lorsque les membres contribuent ou paient les frais d'inscription et d'inscription en ligne. Le type d'adresse ne doit pas contenir d'espaces.(ex : "Résidence secondaire", n'est pas permis).
 
 Les choix des Moyens de communication préférées (par exemple, Téléphone, Email, Courrier postal, SMS) dans le formulaire d'édition/saisie de contact peuvent également être modifiés. Allez à **Administrer> Communications> Méthodes de communication préférées**.
 
-Les choix de Méthodes de communication préférées (par exemple, Téléphone, Email, Courrier postal, SMS) dans le formulaire d'édition / saisie de contact peuvent également être modifiés; Allez à **Administrer> Communications> Méthodes de communication préférées**.
+Les choix de Méthodes de communication préférées (par exemple, Téléphone, Email, Courrier postal, SMS) dans le formulaire d'édition / saisie de contact peut également être modifié.  Allez à **Administrer> Communications> Méthodes de communication préférées**.
 
-La modification des options de liste déroulante qui définissent des données, telles que Type d'activité, Relations, etc., ne relèvent pas du champ d'application de ce chapitre. Voir *Organiser vos données* et les sections sur les différents composants CiviCRM.
+La modification des options de liste déroulante qui définissent des données, telles que Type d'activité, Relations, etc., ne relève pas du champ d'application de ce chapitre. Voir *Organiser vos données* et les sections sur les différents composants CiviCRM.
 
 Modification des préférences d'affichage
 ----------------------------------------
 
 S'il existe des types d'activités ou des catégories de données que vous ne souhaitez pas utiliser, vous pouvez faire que ces champs et ces onglets ne s'affichent pas lorsque vos utilisateurs utilisent CiviCRM. Ce qui permet de faciliter la formation des utilisateurs et l'utilisation quotidienne. Pour cela allez à : **Administer > Personnaliser les données et écrans > Préférences d'affichage**.
-Ensuite : **Informations à afficher** : vous pouvez modifier les onglets disponibles en cochant et en désélectionnant les cases appropriées pour voir ce que vous désirez lorsque vous consulterez les enregistrements de contact.
-
-You can change which tabs are available when you are viewing contact records by checking and un-checking the appropriate boxes next to **Viewing Contacts**.
+Ensuite : **Informations à afficher** : vous pouvez modifier les onglets disponibles en cochant ou décochant les cases appropriées pour voir ce qui est nécessaire lorsque vous consulterez les enregistrements de contact.
 
 ![Display Preferences Viewing Contacts](../img/Viewing%20Contacts.png)
 
 Par exemple, si votre organisation n'utilise pas les Dossiers ou les Subventions, vous pouvez les décocher. Ces onglets ne s'afficheront plus dans l'interface utilisateur. Si vous décidez plus tard de les utiliser, il suffit de ré-afficher l'onglet en cochant la case appropriée. Les informations stockées dans les onglets que vous masquez restent dans votre base de données. Vous pouvez masquer les onglets que vous avez déjà utilisés, et lorsque vous choisirez de les afficher à nouveau, toutes les informations s'afficheront comme auparavant.
 
-Vous pouvez choisir les informations qui apparaitront sur les fiches de contact en cochant ou décochant les cases appropriées en regard de ** Modification des contacts **:
-
-You can change which blocks of information appear when you are editing a contact by checking and unchecking the appropriate boxes next to **Editing Contacts**:
+Vous pouvez choisir les informations qui apparaitront sur les fiches de contact en cochant ou décochant les cases appropriées en regard de **Information éditables**:
 
 ![Display Preferences Editing Contacts](../img/Editing%20Contacts.png)
 
-For example, if your organization doesn't collect information
-Demographics or Communication Preferences, you could uncheck those boxes
-to streamline the editing screen. As with the Viewing Contacts
-preferences, any information contained in fields you choose not to
-display remains in your database, and you can choose to display it again
-at any time by re-checking the boxes in this setting.
+Par exemple, si votre organisation ne collecte pas d'informations démographiques ou de préférences de communication, vous pouvez les décocher pour rationaliser l'écran d'édition. Comme pour les préférences *informations à afficher*, toutes les informations contenues dans les champs que vous choisissez de ne pas afficher restent dans votre base de données et vous pouvez choisir de l'afficher à tout moment en cochant de nouveau les cases de ce paramètre.
 
-### Disabling Popup Forms
+### Désactiver les boites de dialogue (popup)
 
-The CiviCRM user-interface makes extensive use of popup dialog boxes to
-enable quick viewing and easy editing of data. You can disable this
-feature and limit the interface to traditional browsing by deselecting
-the checkbox **Enable Popup Forms** in **administer > customize data and
-screens > display preferences**. Note that CiviCRM will be slower with
-this feature disabled as every form will require a complete page load in
-the browser.
+L'interface utilisateur CiviCRM fait un usage étendu des boîtes de dialogue contextuelles (popup) pour permettre une visualisation rapide et une édition facile des données. Vous pouvez désactiver cette fonctionnalité et limiter l'interface à la navigation traditionnelle en désélectionnant la case à cocher **Enable popup** dans **Administrer> Personnaliser les données et les écrans> Préférences d'affichage **. Notez que CiviCRM sera plus lent avec cette fonction désactivée car chaque formulaire nécessitera une charge de page complète dans le navigateur.
 
 ![Display Preferences Disabling Popup Forms](../img/Contact%20Dashboard.png)
 
-Customizing search preferences
-------------------------------
+Personnalisation des préférences de recherche
+---------------------------------------------
 
-You can change CiviCRM's default search behavior at **Administer >
-Customize Data and Screens > Search Preferences**. Available options
-are:
+Vous pouvez modifier le paramétrage de recherche par défaut de CiviCRM dans ** Administer> Personnaliser les données et les écrans> Préférences de recherche **. Les options disponibles sont:
 
--   **Automatic Wildcard** (choose Yes or No): If you choose Yes,
-    wildcards are automatically added to the beginning AND end of the
-    search term when users search for contacts by Name. For example,
-    searching for "ada" will return any contact whose name includes
-    those letters: Adams, Janet; Nadal, Jorge; etc. If disabled, a
-    wildcard is still added, but only to the end of the search term. In
-    this case, searching for "ada" will return any contact whose last
-    name begins with those letters: Adams, Janet' but not Nadal, Jorge.
--   **Include Email** (choose Yes or No): If you choose Yes, email
-    addresses will be automatically included when users search by Name.
--   **Include Nickname** (choose Yes or No): If you choose Yes, contents
-    of the Nickname field will be automatically included when users
-    search by Name.
--   **Include Alphabetical Pager** (choose Yes or No): If you choose
-    Yes, a bar will appear at the top of your search results allowing
-    you to choose a letter of the alphabet. Clicking A, for example,
-    will take you to a page displaying only contacts that begin with A.
+-   ** Recherche aproximative** : (choisissez Oui ou Non): Si vous choisissez Oui, les caractères génériques sont automatiquement ajoutés au début ET à la fin du terme de recherche lorsque les utilisateurs recherchent des contacts par Nom. Par exemple, la recherche de "ada" renverra n'importe quel contact dont le nom inclut ces lettres: Adams, Janet; Nadal, Jorge; Etc. Si elle est désactivée, un caractère générique est ajouté, mais uniquement à la fin du terme de recherche. Dans ce cas, la recherche de "ada" renverra tout contact dont le nom de famille commence par ces lettres: Adams, Janet 'mais pas Nadal, Jorge.
 
--   **Include Order By Clause** (choose Yes or No): If you choose No,
-    your search results will not be ordered.
--   **Smart group cache timeout**: This determines how often the smart group cache is refreshed. For most sites this value should not be set to zero, since that means no caching at all and will slow down your site.  Even on sites where contact data changes frequently, the suggested minimum value is 5 minutes.
--   **Autocomplete Contact Search**: This is a series of checkboxes for
-    basic contact fields (name, email, phone, etc). The fields that are
-    checked will show up in the autocomplete results list that appears
-    when you use the Quick Search bar at the top left of all screens.
--   **Contact Reference Options**: This is a series of checkboxes for basic contact fields (name, email, phone, etc). The fields that are checked will show up in the autocomplete dropdown search results for 'Contact Reference' custom fields.
--   **Autocomplete Results**: This determines the maximum number of results that will be displayed when typing in an autocomplete field.
+-   **Inclure l'adresse électronique** : (Choisissez Oui ou Non): Si vous choisissez Oui, les adresses électroniques seront automatiquement incluses lorsque les utilisateurs effectueront une recherche par nom.
 
-If your database is large and your searches are slow, consider disabling
-some of these options to increase your speed.
+-   **Inclure le surnom** : (choisir Oui ou Non): Si vous choisissez Oui, le contenu du champ Surnom sera automatiquement inclus lorsque les utilisateurs effectueront une recherche par nom.
 
-There is one more place to customize search search settings:
-**Administer > Customize Data and Screens > Display Preferences** has
-a block of **Contact Search** settings:
+-   **Inclure une pagination alphabétique** : (choisissez Oui ou Non): Si vous choisissez Oui, une barre apparaît en haut de vos résultats de recherche vous permettant de choisir une lettre de l'alphabet. En cliquant sur A, par exemple, vous accédez à une page affichant uniquement les contacts commençant par A.
+
+-   **Inclure la clause « order by »** (Choisissez Oui ou Non): Si vous choisisez NON, les résultats de recherche ne seront pas ordonnés.
+
+-   **Délai d'attente de cache de groupe intelligent **: Détermine la fréquence à laquelle le cache de groupe intelligent est actualisé. Pour la plupart des sites cette valeur ne doit pas être définie à zéro, car cela signifie pas de mise en cache du tout et ralentira votre site. Même sur les sites où les données de contact changent fréquemment, la valeur minimale proposée est de 5 minutes.
+
+-   **Expiration de la mémoire cache des groupes dynamiques**: Détermine la fréquence à laquelle le cache de groupe intelligent est actualisé. Pour la plupart des sites cette valeur ne doit pas être définie à zéro, car cela signifie pas de mise en cache du tout et ralentira votre site. Même sur les sites où les données de contact changent fréquemment, la valeur minimale proposée est de 5 minutes.
+
+-   **Recherche de contacts avec autocomplétion**: Il s'agit d'une série de cases à cocher pour les champs de contact de base (nom, courriel, téléphone, etc.). Les champs cochés apparaissent dans la liste des résultats de la saisie semi-automatique qui s'affiche lorsque vous utilisez la barre de recherche rapide en haut à gauche de tous les écrans.
+
+-   **Options référence à contact**: Il s'agit d'une série de cases à cocher pour les champs de contact de base (nom, courriel, téléphone, etc.). Les champs sélectionnés seront inclus dans les listes déroulantes de résultats de recherche pour les champs personnalisés de type référence contact. Le nom de contact est toujours inclus. Note: Vous devez assigner au rôle "public" la permission d'accès aux champs de référence contact si vous voulez utiliser des champs personnalisés de référence contact dans des profils sur des pages publiques. Dans la plupart des situations, vous devrez cocher le paramètre « Restreindre la liste au groupe » lorsque vous configurez un champ de référence contact qui est inclus dans des formulaires publics pour ne pas afficher la liste complète de vos contacts.
+
+-  **Autocomplete Results**: Détermine le nombre maximal de résultats qui s'afficheront lors de la saisie d'un champ de saisie semi-automatique.
+
+Si votre base de données est importante et que vos recherches sont lentes, envisagez de désactiver certaines de ces options pour augmenter votre vitesse.
+
+Vous pouvez encore personnaliser les paramètres de recherche ici: ** Administer> Personnaliser les données et les écrans> Préférences d'affichage ** a un bloc de ** Contact Search ** paramètres:
+
+There is one more place to customize search search settings: **Administer > Customize Data and Screens > Display Preferences** has a block of **Contact Search** settings:
 
 ![Display Preferences Contact Search](../img/Contact%20Search.png)
 
