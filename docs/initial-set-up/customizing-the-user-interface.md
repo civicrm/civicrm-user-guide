@@ -1,73 +1,45 @@
-Customizing the user interface
-==============================
+Personalisation de l'interface utilisateur
+==========================================
 
-CiviCRM is highly flexible and customizable. This chapter gives
-information on the many ways you can change the interface to suit your
-needs and make it easier for your users.
+CiviCRM est très flexible et personnalisable. Ce chapitre donne des informations sur les nombreuses façons de modifier l'interface en fonction de vos besoins et de la rendre plus conviviable pour vos utilisateurs.
 
-How to customize your data itself—what you collect and track—is covered
-in *Organising Your Data* and in the *What you need to know*and *Set-up*
-chapters in the sections on the different CiviCRM components (e.g.,
-learn about customizing event types in the *Events* section).
+La façon de personnaliser vous-même vos données est traité dans *Organiser vos données* et dans les chapitres *Ce que vous devez savoir* et *Configurer* dans les sections des différents composants CiviCRM (exemple : La personnalisation des types d'événements dans la section *Evenements*).
 
-Changing dropdown options
--------------------------
+Modifier les listes déroulantes
+-------------------------------
 
-The options included in the dropdown fields you see on contact
-entry/editing forms in CiviCRM can be modified (you can add, rename,
-disable or remove options) from **Administer > Customize Data and
-Screens > Dropdown Options**. These include:
+Les options incluses dans les champs déroulants que vous voyez dans les formulaires de saisie/d'édition de contact dans CiviCRM peuvent être modifiées (vous pouvez ajouter, renommer, désactiver ou supprimer des options) dans **Administer> Personnaliser les données et les écrans> Listes déroulantes**. Ceci inclus:
 
--   Gender
--   Individual prefixes and suffixes (e.g., Ms., Mr. and Jr., Sr.)
--   Phone types (e.g. Phone, Mobile, Pager)
--   Mobile phone providers (e.g. Sprint, Verizon and Cingular)
--   Instant messenger services (e.g., Yahoo, MSN, AIM, GTalk, Jabber and
-    Skype)
--   Website types (e.g., Work, Facebook, Twitter)
--   Location types (e.g., Home, Work, Billing, Main). Note that that
-    Billing location is assigned to Billing Addresses entered when
-    constituents contribute or pay for event and membership fees online.
-    Location type names may not contain spaces (e.g., Summer Home is not
-    permitted; use SummerHome).
 
-The choices in Preferred Communication Methods (e.g., Phone, Email,
-Postal Mail, SMS) in the contact edit/entry form can also be modified;
-go to **Administer > Communications > Preferred Communications
-Methods**.
+-   Le sexe : Homme, Femme
+-   Préfixe et suffixe individuel (exemple : Mme., Mr., Docteur, Me., et Jr., Sr.)
+-   Type de téléphone (exemple : Téléphone, Mobile, Fax..)
+-   Fournisseurs de téléphonie mobile (exemple : orange, SFR, Free,...)
+-   Messagerie - Chat : (exemple: Yahoo, MSN, Skype, ... )
+-   Type de site Web : (exemple : Personnel,Entreprise, Facebook, Linkedln, Twitter,...)
+-   Type d'adresse : (exemple : Principale, domicile, Bureaux, Compta, Facturation,..). Notez que l'adresse de facturation est attribuée lorsque les membres contribuent ou paient les frais d'inscription et d'inscription en ligne.Le type d'adresse ne doit pas contenir d'espaces.(ex : "Résidence secondaire", n'est pas permis).
 
-Modifying dropdown options that define data—such as Activity Type,
-Relationship, etc.—is outside the scope of this chapter; see *Organising
-Your Data* and the sections on the different CiviCRM components.
+Les choix des Moyens de communication préférées (par exemple, Téléphone, Email, Courrier postal, SMS) dans le formulaire d'édition/saisie de contact peuvent également être modifiés. Allez à **Administrer> Communications> Méthodes de communication préférées**.
 
-Changing display preferences
-----------------------------
+Les choix de Méthodes de communication préférées (par exemple, Téléphone, Email, Courrier postal, SMS) dans le formulaire d'édition / saisie de contact peuvent également être modifiés; Allez à **Administrer> Communications> Méthodes de communication préférées**.
 
-If there are types of activities you do not track or categories of data
-you do not collect, you can make it so these fields and tabs don't even
-show up when your users log into CiviCRM. This can make training and
-everyday use much easier.
+La modification des options de liste déroulante qui définissent des données, telles que Type d'activité, Relations, etc., ne relèvent pas du champ d'application de ce chapitre. Voir *Organiser vos données* et les sections sur les différents composants CiviCRM.
 
-To do this, go to **Administer > Customize Data and Screens > Display
-Preferences**.
+Modification des préférences d'affichage
+----------------------------------------
 
-You can change which tabs are available when you are viewing contact
-records by checking and un-checking the appropriate boxes next to
-**Viewing Contacts**.
+S'il existe des types d'activités ou des catégories de données que vous ne souhaitez pas utiliser, vous pouvez faire que ces champs et ces onglets ne s'affichent pas lorsque vos utilisateurs utilisent CiviCRM. Ce qui permet de faciliter la formation des utilisateurs et l'utilisation quotidienne. Pour cela allez à : **Administer > Personnaliser les données et écrans > Préférences d'affichage**.
+Ensuite : **Informations à afficher** : vous pouvez modifier les onglets disponibles en cochant et en désélectionnant les cases appropriées pour voir ce que vous désirez lorsque vous consulterez les enregistrements de contact.
+
+You can change which tabs are available when you are viewing contact records by checking and un-checking the appropriate boxes next to **Viewing Contacts**.
 
 ![Display Preferences Viewing Contacts](../img/Viewing%20Contacts.png)
 
-For example, if your organization is not using Cases or Grants, you
-could uncheck those boxes and those tabs would no longer show up in the
-user interface. If you later decide start using them, simply re-display
-the tab by checking the box. Information stored in the tabs you hide
-remains in your database; you can hide tabs you have already used, and
-when you choose to display them again, all the information will display
-as it did before.
+Par exemple, si votre organisation n'utilise pas les Dossiers ou les Subventions, vous pouvez les décocher. Ces onglets ne s'afficheront plus dans l'interface utilisateur. Si vous décidez plus tard de les utiliser, il suffit de ré-afficher l'onglet en cochant la case appropriée. Les informations stockées dans les onglets que vous masquez restent dans votre base de données. Vous pouvez masquer les onglets que vous avez déjà utilisés, et lorsque vous choisirez de les afficher à nouveau, toutes les informations s'afficheront comme auparavant.
 
-You can change which blocks of information appear when you are editing a
-contact by checking and unchecking the appropriate boxes next
-to **Editing Contacts**:
+Vous pouvez choisir les informations qui apparaitront sur les fiches de contact en cochant ou décochant les cases appropriées en regard de ** Modification des contacts **:
+
+You can change which blocks of information appear when you are editing a contact by checking and unchecking the appropriate boxes next to **Editing Contacts**:
 
 ![Display Preferences Editing Contacts](../img/Editing%20Contacts.png)
 
