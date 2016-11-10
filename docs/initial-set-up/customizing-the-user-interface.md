@@ -81,78 +81,53 @@ Vous pouvez remplacer les paramètre par défaut et définir la plage de dates a
 
 [](http://drupal.screenshots.civicrm.org/civicrm/admin/setting/preferences/date?action=reset=1)
 
-By default, CiviCRM provides ranges for input on specific date fields.
-For instance, the default range for Activity Dates are 20 years prior to
-the current year all the way through to 10 years beyond the current
-year. If you would like to track activities that have occurred, say, 25
-years ago then you would need to update this range to enable your end
-users to log these activities.
+Par défaut, CiviCRM fournit des fourchettes de date sur des champs de date spécifiques.
 
-Customizing the navigation menu
--------------------------------
+Par exemple, la fourchette par défaut pour les dates d'activité est 20 ans avant l'année en cours jusqu'à 10 ans au-delà de l'année en cours. Si vous souhaitez suivre les activités qui ont eu lieu, disons, il ya 25 ans, vous devez modifier le nombre d'années d'activités à consulter pour vos utilisateurs finaux.
 
-You can add, delete, rename, and move all items in the CiviCRM
-navigation bar to better meet the needs of your users. Some things you
-might want to do are:
 
--   Streamline the navigation by removing menu items you don't use
--   Add items to support specific workflows (e.g. data entry Profiles)
--   Add links to non-CiviCRM web pages or apps
--   Rename menu items to use terms for familiar to your users
--   Move menu items to better support the flow of your work
+Personnalisation du menu de navigation
+--------------------------------------
 
-To customize menu items, go to **Administer > Customize Data and
-Screens > Navigation Menu**. You will see a file structure containing
-all of your menu items, with the items represented by folder icons.
-Expand folders by clicking the small triangles to the left of their
-names.
+Vous pouvez ajouter, supprimer, renommer et déplacer tous les éléments de menu dans la barre de navigation CiviCRM pour mieux répondre aux besoins de vos utilisateurs. Certaines choses que vous pourriez vouloir faire sont
 
--  To delete an item, right-click it and select **Delete**.
--  To rename an item, right-click it and select **Rename**.
--  To move an item, drag and drop it to the desired location in the tree structure.
--  To add an item:
- 1.  Click on the **Add Menu Item** button.
- 2.  Enter the text you want to appear in the menu in the **Title**
-    field.
- 3.  Enter the link to your item in the **Url** field.
- 4.  Select the location of your new item from the **Parent** dropdown
-    menu. You can place the item anywhere in the navigation, at any
-    level. If you want your new item to be in the top level of the
-    navigation, do not select anything from this dropdown.
- 5.  Check the **Separator** box if you want to add a line below your new
-    item to separate it form the item below.
+You can add, delete, rename, and move all items in the CiviCRM navigation bar to better meet the needs of your users. Some things you might want to do are:
 
-Making custom data entry forms
-------------------------------
+-   Rationaliser la navigation en supprimant les éléments de menu que vous n'utilisez pas
+-   Ajouter des éléments pour prendre en charge des taches spécifiques (par exemple, saisie de données dans les profils )
+-   Ajouter des liens vers des pages Web ou des applications autres que CiviCRM
+-   Renommer les éléments du menu pour utiliser les termes habituels de vos utilisateurs
+-   Déplacer les éléments du menu pour mieux organiser les flux de travail
 
-If you have staff or volunteers who are often entering batches of
-similar contacts manually, you can create a tool called a Profile with
-only the fields they need. This can speed up data entry considerably.
+Pour personnaliser les éléments de menu, allez dans **Administer> Personnaliser les données et les écrans> Menu Navigation**. Vous verrez une structure de fichier contenant tous vos éléments de menu, avec les éléments représentés par des icônes de dossier. Vous pouvez développer les dossiers en cliquant sur les petits triangles à gauche de leur nom :
 
-1.  Go to **Administer > Customize Data and Screens > Profiles**and
-    click**Add Profile**.
-2.  Give your Profile a clear name that relates to its purpose (e.g.,
-    Name and Address Data Entry Form)
-3.  Check the Standalone Form or Directory box in the **Used For**
-    field.
-4.  Use the **Pre-form Help** and **Post-form Help** fields to add any
-    text you'd like to display to hose doing data entry.
-5.  Click **Save**; this takes you to the Add Fields screen so you can
-    choose which fields to put in your Profile.
-6.  From the **Field Name** dropdown menu, select the contact record
-    type where your desired field is found. This will be Contact,
-    Individual, Organization, Household, or any custom contact subtypes
-    you may have created. (The other record types available on this menu
-    will not work with data entry forms, so do not choose them.) It's
-    important to note that any field applying to more than one kind of
-    contact record type (such as Phone or Email, which applies to both
-    Individuals and Organizations) will be found on the Contacts menu.
-7.  Once you have chosen a contact type, another dropdown menu will
-    appear listing the available fields. Choose your desired fields.
-8.  If the text that appears automatically in the **Field Label** field
-    is not what you would like to appear on the form, edit it.
-9.  If every record entered through this form must have data in this
-    field, check the **Required?** box.
+-  Pour supprimer un élément, cliquez dessus avec le bouton droit de la souris et sélectionnez **Supprimer**.
+-  Pour renommer un élément, cliquez dessus avec le bouton droit de la souris et sélectionnez **Renommer**.
+-  Pour déplacer un élément, faites-le glisser vers l'emplacement souhaité dans l'arborescence.
+-  Pour ajouter un élément de menu :
+   -  1.  Cliquez sur le bouton **Ajouter élément de menu**.
+   -  2.  Entrez le texte que vous souhaitez afficher dans le menu dans le champ **Titre**. 
+   -  3.  Entrez le lien vers votre élément dans le champ **Url**.
+   -  4.  Sélectionnez l'emplacement de votre nouvel élément dans le menu déroulant **Parent**. Vous pouvez placer l'élément n'importe où dans la navigation, à n'importe quel niveau. Si vous souhaitez que votre nouvel élément soit au niveau supérieur de la navigation, ne sélectionnez rien dans cette liste déroulante. 
+    - 5.  Cochez la case **Séparateur** si vous souhaitez ajouter une ligne au-dessous de votre nouvel élément pour le séparer de l'élément suivant.
+
+Création de formulaires de saisie personnalisés
+-----------------------------------------------
+
+Si vous avez du personnel ou des bénévoles qui saisissent souvent manuellement des types de contacts similaires , vous pouvez créer un outil appelé "profil" avec seulement les champs dont ils ont besoin. Cela peut accélérer considérablement l'enregistrement des données.
+
+1.  Allez dans **Administer> Personnaliser les données et les écrans> Profils** et cliquez sur **Ajouter un profil**.
+2.  Donnez à votre profil un nom clair qui se rapporte à son objet (par exemple, Saisie du nom et d'adresse de bénévoles)
+
+3.  Cochez la case Formulaire autonome ou Répertoire dans le champ **Utilisé pour**.
+4.  Utilisez les champs **Aide avant le formulaire** et **Aide aprés le formulaire** pour ajouter le texte que vous souhaitez afficher au formulaire lors de la saisie des données.
+5.  Cliquez sur **Enregistre **  pour accéder à l'écran **Ajouter des champs** afin que vous puissiez choisir les champs à mettre dans votre profil.
+6.  Dans le champ déroulant **Nom de champ**, sélectionnez le type d'enregistrement de contact où se trouve votre champ recherché. Ce contact sera "individuel, organisation, ménage", ou tout sous-types de contact personnalisé que vous avez peut-être créé. (Les autres types d'enregistrements disponibles dans ce champ ne fonctionneront pas avec les formulaires de saisie des données. Il ne faut donc pas les choisir.) Il est important de noter que tout champ s'appliquant à plus d'un type d'enregistrement de contact (tel que téléphone ou Email, pour les personnes et les organisations) se trouvent dans le menu Contacts.      
+7. Une fois que vous avez choisi un type de contact, un autre champ déroulant apparaîtra à droite avec la liste des champs disponibles. Choisissez le champ que vous désirez. 
+8.  Si le texte qui apparaît automatiquement dans le champ **Nom de champ** n'est pas ce que vous souhaitez afficher sur le formulaire, vous pouvez en choisir un autre.  
+9.  Si les enregistrements saisis dans ce champ doivent obligatoirement contenir des données alors cochez la case **Obligatoire?**.
+
+
 10. Use the **Field Pre Help** and **Field Post Help** fields to add any
     text you'd like to display to those doing data entry.
 11. You can use the **Order** field to change the order in which fields
