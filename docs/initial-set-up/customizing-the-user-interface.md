@@ -1,4 +1,4 @@
-Personalisation de l'interface utilisateur
+Personnalisation de l'interface utilisateur
 ==========================================
 
 CiviCRM est très flexible et personnalisable. Ce chapitre donne des informations sur les nombreuses façons de modifier l'interface en fonction de vos besoins et de la rendre plus conviviable pour vos utilisateurs.
