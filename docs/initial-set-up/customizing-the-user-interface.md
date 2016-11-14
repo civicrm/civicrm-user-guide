@@ -18,16 +18,16 @@ Les options incluses dans les champs déroulants que vous voyez dans les formula
 -   Type de site Web : (exemple : Personnel,Entreprise, Facebook, Linkedln, Twitter,...)
 -   Type d'adresse : (exemple : Principale, domicile, Bureaux, Compta, Facturation,..). Notez que l'adresse de facturation est attribuée lorsque les membres contribuent ou paient les frais d'inscription et d'inscription en ligne. Le type d'adresse ne doit pas contenir d'espaces.(ex : "Résidence secondaire", n'est pas permis).
 
-Les choix des Moyens de communication préférées (par exemple, Téléphone, Email, Courrier postal, SMS) dans le formulaire d'édition/saisie de contact peuvent également être modifiés. Allez à **Administrer> Communications> Méthodes de communication préférées**.
+Les choix des Moyens de communication préférées (par exemple, Téléphone, Email, Courrier postal, SMS) dans le formulaire d'édition/saisie de contact peuvent également être modifiés. Aller à **Administrer> Communications> Méthodes de communication préférées**.
 
-Les choix de Méthodes de communication préférées (par exemple, Téléphone, Email, Courrier postal, SMS) dans le formulaire d'édition / saisie de contact peut également être modifié.  Allez à **Administrer> Communications> Méthodes de communication préférées**.
+Les choix de Méthodes de communication préférées (par exemple, Téléphone, Email, Courrier postal, SMS) dans le formulaire d'édition / saisie de contact peut également être modifié.  Aller à **Administrer> Communications> Méthodes de communication préférées**.
 
-La modification des options de liste déroulante qui définissent des données, telles que Type d'activité, Relations, etc., ne relève pas du champ d'application de ce chapitre. Voir *Organiser vos données* et les sections sur les différents composants CiviCRM.
+La modification des options de liste déroulante qui définissent des données, telles que Type d'activité, Relations, etc., ne relève pas du champ d'application de ce chapitre. Voir *Organiser vos données* et les sections des différents composants CiviCRM.
 
 Modification des préférences d'affichage
 ----------------------------------------
 
-S'il existe des types d'activités ou des catégories de données que vous ne souhaitez pas utiliser, vous pouvez faire que ces champs et ces onglets ne s'affichent pas lorsque vos utilisateurs utilisent CiviCRM. Ce qui permet de faciliter la formation des utilisateurs et l'utilisation quotidienne. Pour cela allez à : **Administer > Personnaliser les données et écrans > Préférences d'affichage**.
+S'il existe des types d'activités ou des catégories de données que vous ne souhaitez pas utiliser, vous pouvez faire que ces champs et ces onglets ne s'affichent pas lorsque vos utilisateurs utilisent CiviCRM. Ce qui permet de faciliter l'utilisation quotidienne des utilisateurs. Pour cela allez à : **Administer > Personnaliser les données et écrans > Préférences d'affichage**.
 Ensuite : **Informations à afficher** : vous pouvez modifier les onglets disponibles en cochant ou décochant les cases appropriées pour voir ce qui est nécessaire lorsque vous consulterez les enregistrements de contact.
 
 ![Display Preferences Viewing Contacts](../img/Viewing%20Contacts.png)
@@ -38,7 +38,7 @@ Vous pouvez choisir les informations qui apparaitront sur les fiches de contact 
 
 ![Display Preferences Editing Contacts](../img/Editing%20Contacts.png)
 
-Par exemple, si votre organisation ne collecte pas d'informations démographiques ou de préférences de communication, vous pouvez les décocher pour rationaliser l'écran d'édition. Comme pour les préférences *informations à afficher*, toutes les informations contenues dans les champs que vous choisissez de ne pas afficher restent dans votre base de données et vous pouvez choisir de l'afficher à tout moment en cochant de nouveau les cases de ce paramètre.
+Par exemple, si votre organisation ne collecte pas d'informations démographiques ou de préférences de communication, vous pouvez les décocher pour rationaliser l'écran d'édition. Comme pour les préférences des *informations à afficher*, toutes les informations contenues dans les champs que vous choisissez de ne pas afficher restent dans votre base de données et vous pouvez choisir de l'afficher à tout moment en cochant de nouveau les cases de ce paramètre.
 
 ### Désactiver les boites de dialogue (popup)
 
@@ -63,9 +63,9 @@ Vous pouvez modifier le paramétrage de recherche par défaut de CiviCRM dans **
 
 -   **Délai d'attente de cache de groupe intelligent**: Détermine la fréquence à laquelle le cache de groupe intelligent est actualisé. Pour la plupart des sites cette valeur ne doit pas être définie à zéro, car cela signifie pas de mise en cache du tout et ralentira votre site. Même sur les sites où les données de contact changent fréquemment, la valeur minimale proposée est de 5 minutes.
 
--   **Expiration de la mémoire cache des groupes dynamiques**: Détermine la fréquence à laquelle le cache de groupe intelligent est actualisé. Pour la plupart des sites cette valeur ne doit pas être définie à zéro, car cela signifie pas de mise en cache du tout et ralentira votre site. Même sur les sites où les données de contact changent fréquemment, la valeur minimale proposée est de 5 minutes.
+-   **Expiration de la mémoire cache des groupes dynamiques**: Détermine la fréquence à laquelle le cache de groupe intelligent est actualisé. Pour la plupart des sites cette valeur ne doit pas être définie à zéro, car cela signifie aucune mise en cache t et ralentira votre site. Même sur les sites où les données de contact changent fréquemment, la valeur minimale proposée est de 5 minutes.
 
--   **Recherche de contacts avec autocomplétion**: Il s'agit d'une série de cases à cocher pour les champs de contact de base (nom, courriel, téléphone, etc.). Les champs cochés apparaissent dans la liste des résultats de la saisie semi-automatique qui s'affiche lorsque vous utilisez la barre de recherche rapide en haut à gauche de tous les écrans.
+-   **Recherche de contacts avec autocomplétion**: Il s'agit d'une série de cases à cocher pour les champs de contact de base (nom, courriel, téléphone, etc.). Les champs cochés apparaissent dans la liste des résultats de la saisie semi-automatique qui s'affichent lorsque vous utilisez la barre de recherche rapide en haut à gauche de tous les écrans.
 
 -   **Options référence à contact**: Il s'agit d'une série de cases à cocher pour les champs de contact de base (nom, courriel, téléphone, etc.). Les champs sélectionnés seront inclus dans les listes déroulantes de résultats de recherche pour les champs personnalisés de type référence contact. Le nom de contact est toujours inclus. Note: Vous devez assigner au rôle "public" la permission d'accès aux champs de référence contact si vous voulez utiliser des champs personnalisés de référence contact dans des profils sur des pages publiques. Dans la plupart des situations, vous devrez cocher le paramètre « Restreindre la liste au groupe » lorsque vous configurez un champ de référence contact qui est inclus dans des formulaires publics pour ne pas afficher la liste complète de vos contacts.
 
@@ -79,19 +79,16 @@ Personnalisation des préférences de date
 L'affichage par défaut des dates est définie sur **Administer> Localisation> Formats de date**.
 Vous pouvez remplacer les paramètre par défaut et définir la plage de dates autorisées pour les types de champs spécifiques à :  **Administer> Données et écrans personnalisés> Préférences de date**
 
-[](http://drupal.screenshots.civicrm.org/civicrm/admin/setting/preferences/date?action=reset=1)
+:-:
 
 Par défaut, CiviCRM fournit des fourchettes de date sur des champs de date spécifiques.
 
 Par exemple, la fourchette par défaut pour les dates d'activité est 20 ans avant l'année en cours jusqu'à 10 ans au-delà de l'année en cours. Si vous souhaitez suivre les activités qui ont eu lieu, disons, il ya 25 ans, vous devez modifier le nombre d'années d'activités à consulter pour vos utilisateurs finaux.
 
-
 Personnalisation du menu de navigation
 --------------------------------------
 
-Vous pouvez ajouter, supprimer, renommer et déplacer tous les éléments de menu dans la barre de navigation CiviCRM pour mieux répondre aux besoins de vos utilisateurs. Certaines choses que vous pourriez vouloir faire sont
-
-You can add, delete, rename, and move all items in the CiviCRM navigation bar to better meet the needs of your users. Some things you might want to do are:
+Vous pouvez ajouter, supprimer, renommer et déplacer tous les éléments de menu dans la barre de navigation CiviCRM pour mieux répondre aux besoins de vos utilisateurs. Voici ce que vous pourriez vouloir faire :
 
 -   Rationaliser la navigation en supprimant les éléments de menu que vous n'utilisez pas
 -   Ajouter des éléments pour prendre en charge des taches spécifiques (par exemple, saisie de données dans les profils )
@@ -117,71 +114,42 @@ Création de formulaires de saisie personnalisés
 Si vous avez du personnel ou des bénévoles qui saisissent souvent manuellement des types de contacts similaires , vous pouvez créer un outil appelé "profil" avec seulement les champs dont ils ont besoin. Cela peut accélérer considérablement l'enregistrement des données.
 
 1.  Allez dans **Administer> Personnaliser les données et les écrans> Profils** et cliquez sur **Ajouter un profil**.
-2.  Donnez à votre profil un nom clair qui se rapporte à son objet (par exemple, Saisie du nom et d'adresse de bénévoles)
-
+2.  Donnez à votre profil un nom clair qui se rapporte à son objet (par exemple: Saisie nom et adresse du bénévole)
 3.  Cochez la case Formulaire autonome ou Répertoire dans le champ **Utilisé pour**.
-4.  Utilisez les champs **Aide avant le formulaire** et **Aide aprés le formulaire** pour ajouter le texte que vous souhaitez afficher au formulaire lors de la saisie des données.
-5.  Cliquez sur **Enregistre **  pour accéder à l'écran **Ajouter des champs** afin que vous puissiez choisir les champs à mettre dans votre profil.
+4.  Utilisez les champs **Aide avant le formulaire** et **Aide aprés le formulaire** pour ajouter un texte d'explication que vous souhaitez afficher au formulaire lors de la saisie des données.
+5.  Cliquez sur **Enregistrer**  pour accéder à l'écran **Ajouter des champs** afin que vous puissiez choisir les champs à mettre dans votre profil.
 6.  Dans le champ déroulant **Nom de champ**, sélectionnez le type d'enregistrement de contact où se trouve votre champ recherché. Ce contact sera "individuel, organisation, ménage", ou tout sous-types de contact personnalisé que vous avez peut-être créé. (Les autres types d'enregistrements disponibles dans ce champ ne fonctionneront pas avec les formulaires de saisie des données. Il ne faut donc pas les choisir.) Il est important de noter que tout champ s'appliquant à plus d'un type d'enregistrement de contact (tel que téléphone ou Email, pour les personnes et les organisations) se trouvent dans le menu Contacts.      
 7. Une fois que vous avez choisi un type de contact, un autre champ déroulant apparaîtra à droite avec la liste des champs disponibles. Choisissez le champ que vous désirez. 
 8.  Si le texte qui apparaît automatiquement dans le champ **Nom de champ** n'est pas ce que vous souhaitez afficher sur le formulaire, vous pouvez en choisir un autre.  
 9.  Si les enregistrements saisis dans ce champ doivent obligatoirement contenir des données alors cochez la case **Obligatoire?**.
+10. Utilisez les champs **Aide avant** et **Aide après** pour ajouter les instrustions que vous souhaitez afficher à ceux qui effectuent la saisie des données.
+11. Vous pouvez utiliser le champ **Numéro d'ordre** pour modifier l'ordre dans lequel les champs sont affichés sur le formulaire. Les nombres inférieurs sont affichés devant des nombres plus élevés.
+12. Cliquez sur **Enregistrer et Nouvelle entrée** pour ajouter d'autres champs, et **Enregistrer** lorsque vous avez terminé.
+13. Vous serez redirigé vers un écran répertoriant tous vos champs et leurs paramètres. Cliquez sur **Prévisualisation(tous les champs)** pour vous assurer que votre formulaire ressemble à ce que vous souhaitez. Cliquez sur **Utiliser (mode de création)** pour accéder à la page contenant votre formulaire. Copiez le lien et utilisez-le pour créer un élément de menu de navigation (voir la section précédente pour les instructions).
 
+Personnalisation des écrans de recherche
+----------------------------------------
 
-10. Use the **Field Pre Help** and **Field Post Help** fields to add any
-    text you'd like to display to those doing data entry.
-11. You can use the **Order** field to change the order in which fields
-    are displayed on the form. Lower numbers are displayed ahead of
-    higher numbers.
-12. Click on **Save and New** to add more fields, and **Save** when are
-    finished.
-13. You'll be taken to a screen listing all your fields and their
-    settings. Click **Preview (all fields)** to make sure your form
-    looks the way you want it to. Click **Use (create mode)** to go to
-    the page containing your form. Copy the link and use it to create a
-    navigation menu item (see the previous section for instructions).
+Pour cela:
 
-Customizing search views
-------------------------
+1.  Créer ou ouvrir un profil et cochez "Résultat de recherche" si vous voulez utiliser ce profil pour afficher d'autres colonnes de résultats lors de recherches simples ou multicritères. (connus sous le nom de résultats de recherche dans 4.1 et précédents):
+2.  Lorsque vous ajoutez des champs à ce profil, vous devez définir la "Visibilité" pour les champs sur "Pages publiques" et cocher la case" Colonne des résultats".
 
-To do this:
-
-1.  Create or open a profile and mark it as used for Search Views (known
-    as Search Results in 4.1 and previous):
-2.  When adding fields to this profile, you will need to set Visibility
-    for the fields to Public Pages and check the Results Column box.
-
-When conducting your advanced search, use the **Search Views** dropdown
-menu in the top right of the page to select your Profile (see image
-below).
+Lorsque vous effectuez une "Recherche multicritères", utilisez le menu déroulant **Views For Display Contacts** en haut à droite de la page pour sélectionner votre profil (voir image ci-dessous).
 
 ![Customize Search Views](../img/configure-customize-search-views.png)
 
-Using Word Replacement to change terminology
-----------------------------------------------
+Utilisation de "Remplacement de mots" pour modifier la terminologie
+-------------------------------------------------------------------
+CiviCRM possède un utilitaire de remplacement de mots qui vous permet de remplacer le texte existant dans le système par votre texte désiré. Par exemple, si votre organisation n'utilise pas "contributions" pour des opérations financières mais préfère utiliser le terme «dons», vous pouvez définir un remplacement de mot et le modifier automatiquement dans toute votre instance de CiviCRM.
 
-CiviCRM has a Word Replacement setting that lets you replace existing
-text found in the system with your desired text. For example, if your
-organization does not typically refer to monetary transactions as
-"contributions," but prefers to use the term "donations," you can define
-a word replacement and have it automatically altered throughout your
-instance of CiviCRM.
+Pour utiliser "Remplacement de mots":
 
-To use Word Replacement:
+1.  Allez dans **Administer> Personnaliser les données et les écrans> Remplacement de mots**.
+2.  Entrez le texte original dans la colonne "Original" à gauche et le texte de remplacement dans la colonne "Remplacement" à droite.
+3.  Cochez la case "Correspondance exacte" à droite pour remplacer uniquement les occurrences du mot ou de la phrase qui correspondent exactement. Par exemple, si l'option Correspondance exacte n'est pas cochée, le remplacement de «Contribution» par «Don» remplacerait également «Contributions» par «Dons». Si elle est cochée, cela n'arrivera pas.
+4.  Cochez la case Activé à gauche pour remplacer le mot ou la phrase.
+5.  Vous pouvez ajouter des lignes supplémentaires en utilisant le bouton **Ajouter une ligne**.
+6.  Cliquez sur **Enregistrer** lorsque vous avez terminé d'entrer les remplacements.
 
-1.  Go to **Administer > Customize Data and Screens > Word
-    Replacements**.
-2.  Enter the original text in the Original column on the left, and the
-    replacement text in the Replacement column on the right.
-3.  Check the Exact Match box on the right to replace only instances of
-    the word or phrase that match exactly. For example, if Exact Match
-    is not checked checked, replacing "Contribution" with "Donation"
-    would also replace "Contributions" with "Donations"; if it is
-    checked, this would not happen.
-4.  Check the Enabled box to the left to replacement of the word or
-    phrase.
-5.  You can add additional rows using the **Add row** button.
-6.  Click **Save** when you are finished entering replacements.
-
-When using this function, be sure to anticipate alternate forms of words
-and different ways your chosen word or phrase may appear in CiviCRM.
+Lorsque vous utilisez cette fonction, assurez-vous d'anticiper les formes alternatives de mots et les différentes façons dont votre mot ou expression choisie peut apparaître dans CiviCRM.
