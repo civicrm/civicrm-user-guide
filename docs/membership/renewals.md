@@ -79,7 +79,14 @@ the membership end date. For example, renewal reminders sent three
 months in advance to individuals who signed up on behalf of
 organisations (to give them enough time to arrange for a purchase order
 and payment through their accounts department)) would be different from
-those sent one week after an individual 's membership has ended.
+those sent one week after an individual's membership has ended.
+
+In addition to the core tokens available to include in your reminder 
+emails, you may wish to provide additional information, such as the 
+membership expiration date associated with the renewal reminder. 
+Associating additional membership information to the contact for the 
+reminder may require an extension such as 
+https://github.com/eileenmcnaughton/nz.co.fuzion.civitoken.
 
 However, if members are able to renew online, all renewal email
 reminders should contain a checksum token link. This is a "special"
