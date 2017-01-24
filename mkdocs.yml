@@ -1,7 +1,7 @@
-site_name: 'CiviCRM user guide'
-site_url: http://rtfd.civicrm.org
-repo_url: https://github.com/civicrm/civicrm-user-guide-rtfd
-site_description: 'A guide for users and administrators of CiviCRM.'
+site_name: 'CiviCRM User Guide'
+site_url: https://docs.civicrm.org/user/en/stable/
+repo_url: https://github.com/civicrm/civicrm-user-guide
+site_description: 'A guide for CiviCRM users.'
 site_author: 'The CiviCRM community'
 theme: material
 markdown_extensions:

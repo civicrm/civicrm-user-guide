@@ -1,9 +1,9 @@
 
-CiviCRM User and Administrator Guide
-====================================
+CiviCRM User Guide
+==================
 
-This book is a guide for users and administrators of CiviCRM. It covers
-everything that normal users and administrators of CiviCRM need to know
+This book is a guide for users of CiviCRM and covers
+everything they need to know
 to work with CiviCRM on a day to day basis. Our aim is to cover all
 functionality that is available via CiviCRM's user interface.
 
