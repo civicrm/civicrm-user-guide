@@ -21,7 +21,7 @@ CiviContribute
 
 An online fundraising and donor management component which enables you
 to track and manage contributions to your organization. It also allows
-you to quickly and easily create customized web pages to accept one of
+you to quickly and easily create customized web pages to accept one-off
 and recurring online donations.  Part of CiviContribute is
 **CiviPledge**, which allows you to record and track pledges, send
 pledge acknowledgements and payment reminders, configure online
