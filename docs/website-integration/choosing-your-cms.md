@@ -1,8 +1,7 @@
 Choosing your CMS
 =================
 
-CiviCRM works with what are arguably the three most popular open source
-Content Management Systems (CMS).
+CiviCRM works with the three most popular open source Content Management Systems (CMS)[^footnote].
 
 -   Drupal
 -   Joomla
@@ -50,7 +49,7 @@ website **Users**
 Individuals and organisations with a CiviCRM record are **Contacts** 
 
 
-
+[^footnote]: Usage of content management systems for websites, [Link](https://w3techs.com/technologies/overview/content_management/all).
  
 
 
