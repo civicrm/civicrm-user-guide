@@ -105,6 +105,10 @@ custom data).
 
 ![image](../img/Drag_and_drop_profile_for_event.PNG)
 
+It is highly recommended that if you are charging for your event that you include a CPATCHA (reCAPTCHA in the case of CiviCRM).  You can add reCAPTCHA to a profile you include and it will be included on the Online Registration page.  
+
+For more information read [Profiles](../organising-your-data/profiles).
+
 Registration confirmation
 --------------------------
 
