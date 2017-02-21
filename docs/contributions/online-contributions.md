@@ -142,6 +142,8 @@ Address are the same. (If the Home Address profile is included at the
 bottom of the page, this checkbox will not be generated).
 ![image](../img/Profiles-HomeAddress.jpg)
 
+It is highly recommended that Contribution Pages include a CPATCHA (reCAPTCHA in the case of CiviCRM).  You can add reCAPTCHA to a profile you include and it will be included on the Contribution Page. 
+
 For more information read [Profiles](../organising-your-data/profiles).
 
 Automatic Contribution Recording
@@ -160,7 +162,7 @@ chance of this happening, you can adjust CiviCRM's default duplicate
 matching rules. For instructions on how to do this, read
 [Deduping and Merging](../common-workflows/deduping-and-merging).
 
-### Receipt TabThank-you and Receipting
+### Receipt Tab Thank-you and Receipting
 
 Once you have created your contribution page, you can customise the
 Thank-you and Receipt emails that are sent to contributors.
