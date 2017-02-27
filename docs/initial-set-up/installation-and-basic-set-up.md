@@ -170,7 +170,7 @@ following tasks:
     should be included in the dashboard here. EXAMPLE: If you don't want
     constituents to view their own contribution history, deselect that
     option.
--   **WYSIWYG Editor** - Select **CKEditor** to provided users with an easy way to enter text into fields that allow HTML formatting (such as the introductory section for your online contribution pages). You can configure CKEditor (see http://ckeditor.com/) to add or remove functionality as desired. Select **Textarea** if you don't want to provide a WYSIWYG editor.
+-   **WYSIWYG Editor** - Select **CKEditor** to provide users with an easy way to enter text into fields that allows HTML formatting (such as the introductory section for your online contribution pages). You can configure CKEditor (http://ckeditor.com/) to add or remove functionality as desired, and alter the display order of the elements in the toolbar using the built-in configuration page. Click on the Configure CKEditor button to access this configuration page. Select **Textarea** if you don't want to provide a WYSIWYG editor.
 -   **Enable Popup Forms** - this is on by default. Uncheck to  revert to opening the form by refreshing the page.
 -   **Individual Display Name** - Display name format for individual
     contact display names.
