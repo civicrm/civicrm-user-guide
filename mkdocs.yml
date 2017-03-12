@@ -3,9 +3,18 @@ site_url: http://rtfd.civicrm.org
 repo_url: https://github.com/civicrm/civicrm-user-guide-rtfd
 site_description: 'A guide for users and administrators of CiviCRM.'
 site_author: 'The CiviCRM community'
-
-
-theme: readthedocs
+theme: material
+markdown_extensions:
+  - attr_list
+  - admonition
+  - def_list
+  - codehilite(guess_lang=false)
+  - toc(permalink=true)
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.tilde
+  - pymdownx.betterem
+  - pymdownx.mark
 
 pages:
 - Home: 'index.md'
