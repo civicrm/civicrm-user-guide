@@ -3,9 +3,18 @@ site_url: https://docs.civicrm.org/user/en/stable/
 repo_url: https://github.com/civicrm/civicrm-user-guide
 site_description: 'A guide for CiviCRM users.'
 site_author: 'The CiviCRM community'
-
-
-theme: readthedocs
+theme: material
+markdown_extensions:
+  - attr_list
+  - admonition
+  - def_list
+  - codehilite(guess_lang=false)
+  - toc(permalink=true)
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.tilde
+  - pymdownx.betterem
+  - pymdownx.mark
 
 pages:
 - Home: 'index.md'
