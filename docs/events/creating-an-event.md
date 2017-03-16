@@ -10,7 +10,7 @@ allow online registration for the event, you will also want to read the
 To get started, create a new event by choosing **Events > New Event**
 from the menu. (If you can't see the events menu, make sure that you
 have enabled the Events component. You can do this in **Administer >
-Configure > Global Settings > Enable Components**.)
+System Settings > Components**.)
 
 Event Information and Settings
 ------------------------------
