@@ -7,7 +7,7 @@ CiviCRM works, especially when these changes are not needed or desired
 by the entire CiviCRM community.
 
 Many people write extensions for their *specific use cases* and install
-them it on their CiviCRM installation. Many people write *generic
+them on their CiviCRM installation. Many people write *generic
 extensions* that are useful for multiple organizations. Extensions that
 are useful to multiple organisations can be published in the CiviCRM
 extensions directory. 
