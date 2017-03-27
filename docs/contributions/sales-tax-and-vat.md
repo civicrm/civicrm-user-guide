@@ -46,7 +46,7 @@ and click on **Accounts**. Click on **Assign Account**.
 ![image](../img/assignaccount2.jpg)
 
 For the **Financial Account Relationship** choose **Sales Tax Account is**
-and in the ** Financial Account** field select your sales tax account.
+and in the **Financial Account** field select your sales tax account.
 Click **Save.**
 
 ![image](../img/civicontribute-sales-tax-add-account.png)
