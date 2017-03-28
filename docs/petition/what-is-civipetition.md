@@ -1,43 +1,22 @@
-What is CiviPetition?
-===================
+Qu'est-ce que CiviPetition?
+===========================
 
-CiviCampaign includes a function that lets you create a petition to
-publicly gather responses and information online.
+CiviCampaign inclut une fonction qui vous permet de créer une pétition publique pour collecter des réponses et informations en ligne.
 
-Typically when we think of petitions, we think about individuals signing
-a petition for a particular cause that will then be presented to an
-elected official or for education about a specific issue. But petitions
-can also be used as an online surveys, to gather responses about
-questions and then allow the an organization to build support about
-their causes based on the analysis of the responses. Petition is also
-best used as an online survey when you don't know who will be
-responding, e.g. you may put your petition on your website, so anyone
-can submit responses. 
+Généralement lorsque nous pensons à des pétitions, nous pensons à des personnes qui signent une pétition pour une cause particulière qui sera ensuite présentée à un élu ou pour conscientiser la population sur un sujet déterminé.
 
-Scenario: City Council petition
--------------------------------
+Mais les pétitions peuvent être aussi utilisées comme un sondage en ligne, pour recueillir les réponses sur des questions et permettre à une organisation de renforcer l'appui à ses causes basé sur les analyses des réponses.
 
-Townsville Organisation for Tenants (TOFT) wanted to demonstrate to the
-Townsville City Council the public's dissatisfaction or satisfaction
-with the Council's work to provide safe public housing for the
-community. In order to do this, they created a petition that would
-gather responses to questions at the same time as gathering signatures.
-The results were then presented to the City Council.
+La pétition est tout indiquée comme sondage en ligne, lorsque vous ne savez pas qui y répondra. Par exemple, vous pouvez mettre votre pétition sur votre site Web pour qu’elle soit répondue par quiconque.
 
-A TOFT staff member used CiviCampaign to create the petition then sent
-it via email to all of their existing contacts. She linked the petition
-to the organization's web site so that the community could respond
-online, and worked with the Communications Director on various
-communication strategies to drive individuals to the web site to fill
-out the petition. 
+Scénario: Pétition au conseil municipal
+---------------------------------------
 
-The petition also allowed respondents to elect if they wanted to receive
-ongoing email updates from TOFT about the campaign's progress throughout
-the year.
+L'association de locataires de Townsville (ALT) veut démontrer le mécontentement ou la satisfaction de la population sur le travail accompli par le conseil municipal pour fourni des logements publics sécuritaires à la communauté. Pour ce faire, une pétition a été créée pour recueillir des réponses aux questions et en même temps pour recueillir des signatures. Les résultats ont été présentés au conseil municipal.
 
-After the duration of the petition drive, the staff member compiled the
-electronic signatures and responses, created reports to analyse the
-results and then the organisation communicated the results to City
-Council. The results of the petition were also used to frame TOFT's
-messages and communicate their story to build interest about the
-campaign.
+Un employé de l'ALT a utilisé CiviCampaign pour créer la pétition qui a été ensuite envoyée par courriel à tous leurs contacts.
+Il rend disponible la pétition sur le site Web de l'association afin que la communauté puisse y répondre en ligne, et travail avec le directeur des communications sur diverses stratégies de communication pour inciter les personnes à remplir la pétition sur le site Web.
+
+La pétition permet aussi aux répondants de choisir s'ils veulent recevoir par courriel les dernières mises à jour sur les progrès de la campagne tout au long l'année.
+
+Après la campagne de pétition, les membres du personnel ont compilé les réponses et les signatures électroniques, ont créé des rapports pour analyser les résultats et puis l'association a communiqué les résultats au conseil municipal. Les résultats de la pétition ont également été utilisés pour formuler le message de l'ALT et présenter leur récit pour susciter l'intérêt pour la campagne.
