@@ -50,13 +50,13 @@ comprehensive Constituent Relationship Management solution.
     efforts.** With fractured constituent lists we are unable to include
     all constituents in our efforts to raise funds, awareness and
     promote events.
--   **Inefficient use of staff.**Redundant staff time is spent re-keying
+-   **Inefficient use of staff.** Redundant staff time is spent re-keying
     information originally received digitally, importing, exporting and
     de-duping records.
--   **Lack of communication.**Inability to communicate across
+-   **Lack of communication.** Inability to communicate across
     departments about our various interactions with the same
     constituent.
--   **Data vulnerability.**Inability to make reliable backups of all
+-   **Data vulnerability.** Inability to make reliable backups of all
     data and protect it against malicious or accidental loss.
 
 
