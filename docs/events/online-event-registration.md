@@ -2,7 +2,7 @@ Online event registration
 =========================
 
 The ability for end-users to register themselves for events is
-beneficial for both your constituents - they can register and a time and
+beneficial for both your constituents - they can register at a time and
 in a place that is convenient for them - and for your organization -
 reducing administration. This chapter details the steps involved in
 offering online registration for events.
