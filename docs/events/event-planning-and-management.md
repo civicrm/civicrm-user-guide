@@ -32,7 +32,7 @@ food and lodging preferences?
 -   Will there be a waitlist if the maximum number of registrations is
 exceeded?
 
--   Should one person to be able to register multiple people?
+-   Should one person be able to register multiple people?
 
 -   Do you want to give registrants confirmation of registering?
 
