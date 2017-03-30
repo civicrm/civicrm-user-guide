@@ -1,7 +1,7 @@
 Creating an event
 =================
 
-This chapter covers the how create a new event, describing each of the
+This chapter covers how to create a new event, describing each of the
 set up options available in the event creation screen. If you going to
 allow online registration for the event, you will also want to read the
 *online event registration* chapter. If not, you'll want to read the
@@ -222,9 +222,9 @@ Registration confirmation and receipting
 ----------------------------------------
 
 You can send automated confirmation and receipt emails to participants
-who register for an event, whether they register online are registered
+who register for an event, whether they register online or are registered
 by your staff or volunteers. The content and layout of these emails are
-controlled by message templates*.*Both HTML and Text formats are
+controlled by message templates. Both HTML and Text formats are
 provided. You can modify or add text to these emails, or add branding
 such as a logo to the HTML versions. To set up a from email address from
 which to send the confirmation and receipts, see Set-Up in the Email
