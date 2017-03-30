@@ -114,7 +114,7 @@ cancelled) are used to track what stage the contact is at in their
 'event journey'. Participant statuses are fully customizable to match
 the way your organization does event registration. This allows you to
 segment participants into meaningful categories based on their behavior
-with respect to the event,for the purpose of things like generating
+with respect to the event, for the purpose of things like generating
 sign-in sheets, tracking how many people are likely to come to an event,
 and tailoring email communications to registrants.
 
