@@ -27,7 +27,7 @@ food and lodging preferences?
 
 -   Is there a limit on the number of participants that can attend?
 
--    you want to approve registration, or leave it open to anyone?
+-  Do you want to approve registration, or leave it open to anyone?
 
 -   Will there be a waitlist if the maximum number of registrations is
 exceeded?
