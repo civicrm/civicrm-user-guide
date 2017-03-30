@@ -211,7 +211,7 @@ Participants will be placed in 'Awaiting Approval' status. You can
 review and approve participants from 'Find Participants' - select the
 'Change Participant Status' task. Approved participants will move to
 'Pending from approval' status, and will be sent an email with a link to
-complete their registration (including paying event fees - if any)
+complete their registration (including paying event fees - if any).
 
 Note that in order for the status processing to happen, you need to have
 the **Update Participant Statuses** scheduled job running
