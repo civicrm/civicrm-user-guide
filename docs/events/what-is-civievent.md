@@ -92,7 +92,7 @@ display additional data about an event by its event type. See the
 chapter *Custom data on events* in this section for more information
 about this. They are also useful for categorizing and segmenting events
 and attendees, for example, you could easily find all contacts that have
-come to one of your trainings or attended on of your fundraising events.
+come to one of your trainings or attended one of your fundraising events.
 
 
 ### Participant roles
