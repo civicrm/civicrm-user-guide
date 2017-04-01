@@ -20,7 +20,7 @@ count** to see a list of participants.
 
 ![EventSummary](../img/CiviCRM-EverydayTasks-EventSummary-en.png "EventSummary")
 
-To run your own customized searches, click** Find more event
+To run your own customized searches, click ** Find more event
 participants** at the end of the page. Here you can search by
 Participant Name, Event, Date Range and Status.
 
@@ -92,7 +92,7 @@ them. Available **Actions** include:
     as parking options or changes to the programme.    
 
 -  **Export participants:** This allows you to export a predefined set
-    of fields (export mapping) or create yourexport mapping that can be
+    of fields (export mapping) or create your export mapping that can be
     saved for reuse. The software exports to CSV format, which can be
     easily opened in standard spreadsheet software or directly used for
     mail merges.
@@ -182,7 +182,7 @@ Event badges
 
 You can create custom name badges for your event.
 
-Navigate to **Administer>CiviEvent>Event Badge Layout>New Badge
+Navigate to **Administer > CiviEvent > Event Badge Layout > New Badge
 Layout** and you will see the following set-up screen.
 
 ![image](../img/Event%20Badges%20UIv2.png)
@@ -231,7 +231,7 @@ badges for the event as follows:
 
 To print name badges, do the following:
 
--   Go to **Events>Find Participants**.
+-   Go to **Events > Find Participants**.
 -   Select the relevant participants.
 -   Choose **Print Event Name Badges** from the drop-down list of
     actions and Click Go.

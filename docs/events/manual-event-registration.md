@@ -73,7 +73,7 @@ The distinction is best understood by considering the common scenario of
 an organization waiving fees for a V.I.P., a speaker, or someone who
 participating in the event in a limited way. In such cases, you want to
 register the individuals but may not want to create an associated
-financial transaction.CiviCRM respects this distinction by recording
+financial transaction. CiviCRM respects this distinction by recording
 the event registration record under the Events tab, recording the
 financial record under the Contributions tab, and then creating a link
 between the two records.
