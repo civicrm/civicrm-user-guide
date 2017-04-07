@@ -10,8 +10,8 @@ Contribution reports
 Out of the box, CiviCRM comes with thirteen contribution reports
 designed to help you analyse your contributions.
 
-A **contribution summary report** allows you group contributions by
-different criteria including including the contact that made the
+A **contribution summary report** allows you to group contributions by
+different criteria including the contact that made the
 contribution, time period, type, location and view summary statistics
 for these contributions. The accompanying **contribution detail
 report** is automatically called when clicking on any rows from the
@@ -24,7 +24,7 @@ The **repeat contribution report** compares the total amount of
 contributions that contacts have made in two different time periods. As
 well as the totals, it shows the percentage increase/decrease. This
 report is useful for tracking contacts who have stepped up their giving,
-or who giving less than before. **SYBUNT report** AND **LYBUNT report** are two
+or who are giving less than before. **SYBUNT report** AND **LYBUNT report** are two
 strangely named but useful reports that allow you to
 find donors that gave in 'some years / last year but not this year'.
 
@@ -36,7 +36,7 @@ see all contributions that have been made by employees of one
 organisation and thank them as a whole, or see the contributions made by
 a particularly active family. These reports will also include any
 donations that are attached to the organisation or household record, for
-example a donation made by the organisation after an collective office
+example a donation made by the organisation after a collective office
 fundraising event.
 
 The **top donors report** provides a list of the top donors during a time
