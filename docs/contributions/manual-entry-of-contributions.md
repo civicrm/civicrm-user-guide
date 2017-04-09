@@ -204,7 +204,7 @@ If the total amount or count of items do not match the values you
 entered when you created the Batch, you will be alerted when closing if
 the count or total don't match. In this case, you either:
 
--   You can override the entered count and total by clicking**Ignore
+-   You can override the entered count and total by clicking **Ignore
     Mismatch & Process the Batch?** button, in which case the batch
     values are updated to match the transactions in the batch, and then
     the status of the batch will be set to “**Closed**”, OR
@@ -233,7 +233,7 @@ processed batches in a several ways:
     select **Closed** in the **Status** field;
 -   From the menu, click **Reports > Create Reports from Templates**,
     then click **Contribution Report Detail**, enter your report
-    criteria and under Set Filters area, next to**Batch Name**, select
+    criteria and under Set Filters area, next to **Batch Name**, select
     “**is one of**” or “**is not one of**” and select the name(s) of the
     batch(es) you want.
 
