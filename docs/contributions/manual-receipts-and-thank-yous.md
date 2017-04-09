@@ -51,8 +51,8 @@ contributions (rather than contacts). The steps involved are:
     ![ContributionThankyouLettersNogrouping](../img/civicontribute-thank-you-letters-no-grouping.PNG)
 4.  Choose to **Update thank-you dates for these contributions** or
     **Update receipt dates for these contributions** as required. The
-    current date will be entered into the appropriate field.**
-    **
+    current date will be entered into the appropriate field.
+    
 5.  There are three self-explanatory **Print and Email Options**:
     -   Generate PDFs for printing (only)
     -   Send emails where possible. Generate printable PDFs for contacts
