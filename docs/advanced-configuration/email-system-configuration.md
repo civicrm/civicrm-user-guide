@@ -151,6 +151,9 @@ This section explains configuration for bounce processing and auto
 filing incoming emails. Configuring **Scheduled Jobs** to do the actual
 bounce processing is discussed later in this chapter.
 
+!!! note
+    Bounce processing (and auto-filing) is available for any mail sent with the CiviMail component. For other emails sent by CiviCRM (such as confirmation emails in CiviEvent), those features are not available.
+
 ### Bounce processing
 
 CiviCRM can automatically receive the [bounced email
