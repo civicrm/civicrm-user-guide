@@ -1,7 +1,7 @@
 Custom data for events
 ======================
 
-You many want to collect extra information about events and their
+You may want to collect extra information about events and their
 participants as part of the event management process. This chapter
 explains how you can easily do this with custom data. It describes the
 different ways to collect custom data for events and discusses where
@@ -18,10 +18,10 @@ typically want to add custom data
 -   the contact record
 -   the event record. 
 
-It's important to add custom data in the it in the right place. Adding
+It's important to add custom data in the right place. Adding
 it in the wrong place might cause you headaches further down the line.
 People often add custom data to the participant record, when they should
-probably add it to the contact record, and visa versa. A couple of
+probably add it to the contact record, and vice versa. A couple of
 examples might help to clarify.
 
 -   dietary preference should be added to contacts since this is
@@ -29,7 +29,7 @@ examples might help to clarify.
 -   Session preference should be added to the participant record since
     it is only of interest in the context of the event.
 
-Custom fields can also be added to events. For example, lets say an
+Custom fields can also be added to events. For example, let's say an
 organisation holds a series of training workshops throughout the year
 and wants to create a custom field to track six common topics covered in
 workshops. You could create a checkbox style field with the list of
@@ -65,7 +65,7 @@ record it with their event registration.
 
 
 Adding custom data requires the administrator permission. To add custom
-data from participants, add new custom fields through **Administer >
+data for participants, add new custom fields through **Administer >
 Customize Data and Screens > Custom Data**. To create custom fields for
 events, first add the **custom field set** on the appropriate record, and
 then add the fields themselves.
