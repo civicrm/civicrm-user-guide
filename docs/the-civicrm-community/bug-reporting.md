@@ -1,8 +1,8 @@
 Bug Reporting
 =============
 
-Like all software there will be times when CiviCRM
-don't work the way you expect it to.
+As with all software, there may be times when CiviCRM
+doesn't work the way you expect it to.
 
 A good first step is to search the question & answer site
 ([https://civicrm.stackexchange.com](https://civicrm.stackexchange.com/)) for similar
