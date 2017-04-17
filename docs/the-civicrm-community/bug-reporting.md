@@ -1,16 +1,15 @@
 Bug Reporting
 =============
 
-Like all software there will be times when you use CiviCRM when things
-don't work the way you expect them to.
+Like all software there will be times when CiviCRM
+don't work the way you expect it to.
 
-A good first step is to search the forums
-([http://forum.civicrm.org](http://forum.civicrm.org/)) for similar
+A good first step is to search the question & answer site
+([https://civicrm.stackexchange.com](https://civicrm.stackexchange.com/)) for similar
 problems and follow advice given there. If your problem hasn't been
-addressed, posting to the forum is probably the right thing to do.
+addressed, posting a question about it probably the right thing to do.
 
-Before posting its a good idea to look on the forum for good posting
-guidelines and spend a bit of time writing your post. Make sure you are
+When posting your question, make sure you are
 detailed and specific about what software you are using (i.e. the
 version of CiviCRM, which CMS platform and its version, and which
 browser and its version), what you are trying to do and how you are
