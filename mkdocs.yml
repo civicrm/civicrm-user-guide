@@ -42,7 +42,6 @@ pages:
     - 'Logging': 'advanced-configuration/change-logging.md'
 - The user interface:
     - 'Menu, dashboard and dashlets': 'the-user-interface/menu-dashboard-and-dashlets.md'
-    - 'Keyboard shortcuts': 'the-user-interface/keyboard-shortcuts.md'
     - 'Searching': 'the-user-interface/searching.md'
     - 'Undelete': 'the-user-interface/undelete.md'
 - Organising your data:
