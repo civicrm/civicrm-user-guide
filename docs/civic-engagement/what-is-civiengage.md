@@ -1,5 +1,4 @@
-What is CiviEngage?
-===================
+# What is CiviEngage?
 
 CiviEngage is a Drupal module that is downloaded with CiviCRM when you install it on a Drupal site. When enabled, it enhances CiviCRM's core functions for
 non-profits focused on community organising and civic engagement work.
@@ -26,8 +25,7 @@ CiviEngage provides:
 CiviEngage enhances CiviCampaign, which you can read more about in the
 Campaign section.
 
-Scenario: Direct action
------------------------
+## Scenario: Direct action
 
 Townsville Organisation For Tenants (TOFT) focuses on affordable housing
 issues. To impact the decisions of the state legislators on an upcoming
@@ -60,8 +58,7 @@ After the Direct Action event, TOFT staff were able to analyse how many
 people said they would attend, how many actually attended, and how
 effective their method of outreach was.
 
-Scenario: Canvassing
---------------------
+## Scenario: Canvassing
 
 An organisation wanted to engage constituents based on what they learned
 from individual responses during a door-knock canvass related to the

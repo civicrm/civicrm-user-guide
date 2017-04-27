@@ -1,5 +1,4 @@
-What is CiviMail?
-=================
+# What is CiviMail?
 
 The CiviMail component is a sophisticated tool for handling mass email
 campaigns. It can reliably deliver a high volume of email and provide
@@ -21,8 +20,7 @@ spam black list is much harder that getting on it. For more information
 about configuring your mail server, see the "Email system configuration"
 chapter in the Initial Setup section.
 
-Scenario: managing email lists
--------------------------------
+## Scenario: managing email lists
 
 St Ethelburga's Centre for Peace and Reconciliation uses CiviEvent to
 run a yearly event programme on a number of different themes. They have
@@ -47,8 +45,7 @@ can do this by sending the email to half the contacts in a particular
 group and then sending another email which excludes contacts that have
 already received the first email.
 
-Scenario: mobilising with email
--------------------------------
+## Scenario: mobilising with email
 
 The Townsville Organisation For Tenants (TOFT) held a survey and
 petition to gather data and support for the campaign Demand Affordable

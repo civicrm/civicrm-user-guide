@@ -1,5 +1,4 @@
-Is CiviCRM for You?
-===================
+# Is CiviCRM for You?
 
 This chapter will help you to decide whether CiviCRM is the right tool
 for your organisation.
@@ -16,8 +15,7 @@ CiviCRM is right for your organisation:
 -   play with a demonstration site
 -   install a test database
 
-Talking to others who use CiviCRM
----------------------------------
+## Talking to others who use CiviCRM
 
 If you know of another organisation that uses CiviCRM, talk to them
 about their experience. Obviously the more similar they are to your
@@ -37,8 +35,7 @@ answerable question. You can also search the forums and browse for
 questions that others have asked. If you wish to ask questions or
 contribute to the discussions you must register first.
 
-Talking to CiviCRM Consultants
-------------------------------
+## Talking to CiviCRM Consultants
 
 Another option to help you understand CiviCRM is to make use of a
 professional. The CiviCRM website lists professional vendors and

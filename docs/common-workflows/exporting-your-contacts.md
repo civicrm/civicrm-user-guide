@@ -1,6 +1,5 @@
 
-Exporting Your Contacts
-=======================
+# Exporting Your Contacts
 
 Exporting lets you share data with external applications by providing a
 copy of data from CiviCRM in a standard comma separated value (CSV)

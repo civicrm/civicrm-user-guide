@@ -1,11 +1,9 @@
-What You Need To Know
-=====================
+# What You Need To Know
 
 The following concepts and questions will help you to get the most out
 of using the survey tool in CiviCampaign.
 
-Key Concepts
--------------
+## Key Concepts
 
 These concepts are not about creating and undertaking surveys in
 general, but about the specific use of the survey tool in CiviCampaign.
@@ -66,8 +64,7 @@ conducting the surveys. To learn more about setting Drupal permissions,
 go to the Drupal documentation at
 [http://drupal.org/getting-started/6/admin/user/permissions](http://drupal.org/getting-started/6/admin/user/permissions).
 
-Key Questions
--------------
+## Key Questions
 
 -   Is the survey part of a campaign? When creating a survey, you don't
     have to connect it to a specific campaign; a general survey may be

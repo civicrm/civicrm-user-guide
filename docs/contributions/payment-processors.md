@@ -1,5 +1,4 @@
-Payment processors
-==================
+# Payment processors
 
 CiviCRM connects to a variety of different payment processors.
 Out-of-the-box, it comes with support for approximately 15 payment
@@ -24,8 +23,7 @@ processors at
 
 [http://wiki.civicrm.org/confluence/display/CRMDOC/Payment+Processors](http://wiki.civicrm.org/confluence/display/CRMDOC/Payment+Processors%20)
 
-Selecting a payment processor
------------------------------
+## Selecting a payment processor
 
 Below is a list various things to think about when choosing a payment
 processor. Not all payment providers are created equal and there
@@ -109,16 +107,14 @@ easy to use. Paypal Standard is often confusing to end users because
 they are not sure whether or not they need to create a PayPal account.
 Such a barrier can result in decreased contributions.
 
-Support
--------
+## Support
 
 CiviCRM supports the processors that are incorporated into the core
 codebase, to the extent that they ensure they do not break in upgrade -
 support and enhancements of community contributed processors are
 generally expected to come from the community.
 
-Set up
--------
+## Set up
 
 You can configure one or more Payment Processors for your CiviCRM
 installation.
@@ -165,8 +161,7 @@ is beyond the scope of this book and should be documented by your gateway.
 Once done, the processor will be available in your paid events and
 contribution pages.
 
-Test payments and dummy payment processors
-------------------------------------------
+## Test payments and dummy payment processors
 
 For the purposed of testing, you can configure dummy payment processors.
 
@@ -178,8 +173,7 @@ in test mode, the following card details should work:
 -   CVV: any three digits
 -   Expiry: any date in the future
 
-Writing a new payment processor
---------------------------------
+## Writing a new payment processor
 
 If you cannot find a suitable payment processor, or want to use a
 specific payment provider that is not currently supported by CiviCRM,

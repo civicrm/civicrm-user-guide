@@ -1,5 +1,4 @@
-Relationships
-=============
+# Relationships
 
 CiviCRM allows you to represent connections between contacts by creating
 relationships. For example, if a mother and son are both in your
@@ -13,8 +12,7 @@ automatically creates an "Employee of" relationship from the individual
 to the organisation, and an "Employer of" relationship from the
 organisation to the individual.
 
-Creating relationships between contacts
----------------------------------------
+## Creating relationships between contacts
 
 ![image](../img/4.5%20Add%20Relationship.png)
 
@@ -35,8 +33,7 @@ Creating relationships between contacts
 6.  When you have made the changes you want, click **Save
     Relationship**.
 
-Connecting employees and employers
-----------------------------------
+## Connecting employees and employers
 
 A quick way to connect employees (which are stored in CiviCRM as
 individuals) to employers (stored as organisations) is to use the
@@ -65,8 +62,7 @@ between the contacts.
     on the Relationships tab to view your newly created relationship
     Employee of and see any existing relationships.
 
-Adding contacts to organisations
---------------------------------
+## Adding contacts to organisations
 
 1.  Select the desired contacts from your search results as described
     above.
@@ -91,8 +87,7 @@ Adding contacts to organisations
     organisation.
 7.  Click **Done** to return to your search results.
 
-Adding contacts to households
------------------------------
+## Adding contacts to households
 
 1.  Select the desired contacts from your search results as described
     above.
@@ -120,8 +115,7 @@ Adding contacts to households
     of participants that you selected have been added to the household.
 7.  Click **Done** to return to your search results.
 
-Creating new relationship types
--------------------------------
+## Creating new relationship types
 
 CiviCRM comes with a set of common relationship types that can be
     used to indicate relationships between contacts. If you need to
@@ -171,8 +165,7 @@ CiviCRM comes with a set of common relationship types that can be
     the list below.
 
 
-Disabling or deleting unneeded relationship types
--------------------------------------------------
+## Disabling or deleting unneeded relationship types
 
 If an existing relationship type is no longer useful or relevant for
 your organisation you can either disable or delete it so it is no longer

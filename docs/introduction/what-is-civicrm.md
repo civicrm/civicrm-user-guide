@@ -1,5 +1,4 @@
-What is CiviCRM?
-================
+# What is CiviCRM?
 
 CiviCRM is a powerful, web-based contact relationship management (CRM)
 system. It allows an organisation to record and manage information about

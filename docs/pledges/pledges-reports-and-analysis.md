@@ -1,8 +1,6 @@
-Pledges Reports and Analysis
-============================
+# Pledges Reports and Analysis
 
-Pledge reports
---------------
+## Pledge reports
 
 CiviCRM comes with two pledge reports that are useful when analysing
 pledges. The **Pledge summary report** includes per contact information

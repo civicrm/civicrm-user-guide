@@ -1,13 +1,11 @@
-Defining memberships
-====================
+# Defining memberships
 
 This chapter describes how to set up one or more **membership
 types** that you can use to manage your organisation's members. It also
 explains the concept of **membership statuses** and how your
 organisation can use them to define a membership life-cycle.
 
-Membership types
-----------------
+## Membership types
 
 Membership types are a basic building block for membership management in
 CiviCRM. Typically an organisation will set up a membership type for
@@ -203,8 +201,7 @@ available you may wish to untick this box. This will remove these
 memberships from the user interface. It will not delete the membership
 data and the membership can be re-enabled at a later date.
 
-Membership status rules 
--------------------------
+## Membership status rules 
 
 Membership status rules allow you to define a journey that contacts take
 through their membership. These rules are defined in terms of the join,
@@ -284,8 +281,7 @@ extended by the duration of the renewal. Renewing contacts with a
 status that defines them as non-members get a new start date for their
 membership and an end date based on that new start date.
 
-Keeping membership statuses updated
------------------------------------
+## Keeping membership statuses updated
 
 When a membership is added or renewed the membership status is
 automatically set based on your status rules. For example, a newly
@@ -297,8 +293,7 @@ Jobs](http://booki.flossmanuals.net/initial-set-up/scheduled-jobs)
 chapter for configuration details and consult your system administrator
 if appropriate. 
 
-Collecting additional information about your members 
-------------------------------------------------------
+## Collecting additional information about your members 
 
 Sometimes you want to collect additional information about your
 members. You can create one or more custom field sets for this

@@ -1,12 +1,10 @@
-What you need to know
-=====================
+# What you need to know
 
 Before using CiviPledge, you must enable it for your installation, if
 you have not done so already. Go to **Administer > System Settings > Enable CiviCRM Components**, and move CiviPledge into the
 box on the right to enable it.
 
-New Pledges
------------
+## New Pledges
 
 To create a new pledge on behalf of a constituent, navigate to
 **Contributions** > **Pledges** > **New Pledge** (note that an
@@ -46,8 +44,7 @@ The options available are as follows:
 
 ![image](../img/new_pledge2.png)
 
-Payment reminders
------------------
+## Payment reminders
 
 One or more payment reminders can be emailed to the donor prior to the
 scheduled payment date. If a 'Self-service Payments Page' has been
@@ -76,8 +73,7 @@ settings are:
     reminders, by the number of days, e.g. 5 days before the next
     reminder is sent.
 
-Self service payments
----------------------
+## Self service payments
 
 A donor can be given the option to make a scheduled payment online if a
 contribution page (with payment processor) has been created. To do this,
@@ -86,8 +82,7 @@ payments page' when creating a new pledge. If reminders have been
 enabled for the pledge, a link to this page will be included in the body
 of the emails.
 
-Finding Pledges
----------------
+## Finding Pledges
 
 To search for existing pledges, go to: **Contributions > Pledges >  Find Pledges**. You may search by name, email address, or any
 discrete feature of the pledges themselves (e.g. payment start date,
@@ -99,8 +94,7 @@ the pledge.
 
 ![image](../img/pledge_menu.png)
 
-Dashboard
----------
+## Dashboard
 
 You can view a list of recent pledges and a summary table of pledges
 recorded over the current month and past year on the pledges dashboard.

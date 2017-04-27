@@ -1,13 +1,11 @@
-Set-up
-======
+# Set-up
 
 This chapter describes the steps needed to set up a petition.
 
 The CiviCampaign component must be enabled before you can use Petition.
 See the section *Campaign* for information about this.
 
-Set CMS permissions
-----------------------
+## Set CMS permissions
 
 You will need to set the appropriate CMS permissions so that specific roles can
 sign the petition. In particular, anonymous users should be granted permission
@@ -21,8 +19,7 @@ if you're planning to make the petition public.
     permissions for anonymous users and authenticated users ("Guest" in Joomla!
     or "Subscriber" in WordPress).
 
-Create two Custom Profiles
---------------------------
+## Create two Custom Profiles
 
 In order to create a new petition, you must create two custom profiles:
 one to capture the contact information of the signer, and the other to
@@ -63,8 +60,7 @@ To learn more about how to create custom field sets, see the chapter
 *Creating Custom Fields* in the *Organising Your Data* section. To learn about how to
 create a custom profile, see the *Profiles* chapter.
 
-Create a New Petition
----------------------
+## Create a New Petition
 
 Once you have created the two profiles, you are ready to create a
 petition.

@@ -1,5 +1,4 @@
-Choosing your CMS
-=================
+# Choosing your CMS
 
 CiviCRM works with the three most popular open source Content Management Systems (CMS)<sup><a href="#1">1</a></sup>.
 
@@ -41,8 +40,7 @@ of integration available is lower than when using Drupal.
 The following chapters in this section go into more detail about what is
 offered for each CMS.
 
-Users and Contacts
--------------------
+## Users and Contacts
 
 Anonymous site visitors and those with a website login are
 website **Users** 

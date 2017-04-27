@@ -1,5 +1,4 @@
-Security
-========
+# Security
 
 CiviCRM is a web based solution, and as such, requires a web server to
 run. When web servers store sensitive data and are publicly available
@@ -13,8 +12,7 @@ protocols (e.g. SSH, SSL and FTPS, explored below); this effectively
 wraps and the data in a protective shell, which can only be opened by
 the user's web browser, and the server.
 
-Encrypted data transfer
------------------------
+## Encrypted data transfer
 
 There are a number of different protocols (methods) for transferring
 data from one point to another.
@@ -38,8 +36,7 @@ data from one point to another.
 Note: ensure passwords used by one person across several protocols are
 different, as each carry with it varying levels of control.
 
-Should I use SSL (Secure Sockets Layer)? 
--------------------------------------------
+## Should I use SSL (Secure Sockets Layer)? 
 
 ### PCI compliance
 
@@ -79,8 +76,7 @@ if you wish to ensure:
     individual could assume their identity and proceed to use the system
     through their account.
 
-Setting up SSL
---------------
+## Setting up SSL
 
 Before choosing a hosting company or web server provider, check that
 they support SSL certificates. As explained above, SSL encrypts the data
@@ -105,8 +101,7 @@ certificate from a trusted vendor. To install SSL:
     force SSL and redirect HTTP requests to HTTPS, or enable the option
     in Drupal.
 
-Backups and their security
---------------------------
+## Backups and their security
 
 All computer systems are prone to failures - both hardware and software.
 It is advisable to create periodic backups of all existing data (and
@@ -125,8 +120,7 @@ disasters, fire, vandalism and theft. It is good practice to encrypt
 backups and duplicate them, keeping one copy on premises, and sending
 the other to storage at another external location.
 
-Data storage jurisdiction
--------------------------
+## Data storage jurisdiction
 
 CiviCRM can be run on a web server managed by your organisation, or by
 an external hosting provider. When working with issues related to human
@@ -137,8 +131,7 @@ where the servers are physically located, and the country whose
 jurisdiction the data will fall under in case a governmental agency
 requests information.
 
-Other security concerns
------------------------
+## Other security concerns
 
 Data may be accessed by unauthorised individuals through a
 variety of methods, many of which do not directly relate to the CRM's

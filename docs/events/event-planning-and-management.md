@@ -1,13 +1,11 @@
-Event planning and management
-=============================
+# Event planning and management
 
 This chapter covers some general information on planning and managing
 your events. There are lots of things to consider when planning an event
 which will affect the way you set up your event, so it is worth thinking
 about the information in this chapter before you start.
 
-Planning your event
----------------------
+## Planning your event
 
 If you are new to CiviEvent, it is a good idea to think about the
 structure of your events and how you want a person to experience the
@@ -57,8 +55,7 @@ during events and from event participants. If you run recurring events
 that are very similar, think about using event templates or the event
 copy features to make the set-up processes easier.
 
-Promoting your events
------------------------
+## Promoting your events
 
 Getting the word out and building excitement about your event can take
 many forms. Think about who you want at your event and where they tend
@@ -90,8 +87,7 @@ publicise your event may have their own event registration systems. Make
 sure that no matter where you publicise the event, it is obvious how the
 person is expected to register.
 
-Following up after the Event
-----------------------------
+## Following up after the Event
 
 Updating the status of each participant during the event or soon after
 will help to ensure that you have the most accurate information to

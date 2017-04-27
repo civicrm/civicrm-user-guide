@@ -1,5 +1,4 @@
-Scheduled jobs
-==============
+# Scheduled jobs
 
 CiviCRM relies on a number of scheduled jobs that are run on a regular
 basis to keep data up to date and to perform certain tasks. These jobs

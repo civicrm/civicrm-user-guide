@@ -1,5 +1,4 @@
-What is CiviContribute?
-=======================
+# What is CiviContribute?
 
 CiviContribute is the component that lets you record and report on financial
 and in-kind contributions to your organization.  It allows you to:
@@ -17,8 +16,7 @@ Throughout CiviCRM, the term *contribution* refers to any financial
 transaction or payment taking place in the system such as a donation,
 event fee payment or membership fee payment and includes in-kind contributions.
 
-Scenario: Contributing to Leadership
-------------------------------------
+## Scenario: Contributing to Leadership
 
 A community arts group, Arts in Action, conducts leadership workshops
 for youth under 25 throughout the year. They use CiviCRM extensively in

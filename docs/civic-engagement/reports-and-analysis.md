@@ -1,5 +1,4 @@
-Reports and analysis
-====================
+# Reports and analysis
 
 Reports and searches can be created with the default (or core) Report
 Templates and Searches in CiviCRM. This chapter will describe some of
@@ -8,8 +7,7 @@ the reports that can be used with CiviEngage.
 To learn more about how to work with reports, see the section called
 *Reporting*.
 
-Analysing Results from a Door-Knock Canvass
--------------------------------------------
+## Analysing Results from a Door-Knock Canvass
 
 To analyse responses from a survey used during a door-knock canvass, you
 may want to use the Survey Report that's part of the Campaign component.
@@ -29,8 +27,7 @@ may want to use the Survey Report that's part of the Campaign component.
     export the the information to .CSV file to do further analysis and
     reporting
 
-Analysing Results from a PhoneBank
-----------------------------------
+## Analysing Results from a PhoneBank
 
 To analyse responses from a phonebank, you may want to use the Survey
 Report that's part of the Campaign component.

@@ -1,6 +1,5 @@
 
-CiviCRM User Guide
-==================
+# CiviCRM User Guide
 
 This book is a guide for users of CiviCRM and covers
 everything they need to know

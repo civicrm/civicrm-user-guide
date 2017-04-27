@@ -1,5 +1,4 @@
-What is CiviCampaign?
-=====================
+# What is CiviCampaign?
 
 CiviCampaign lets you link together events, mailings, activities, and
 contributions under one "umbrella" so that you can track the progress of
@@ -25,8 +24,7 @@ providing a package of custom fields that enable the Survey and Petition
 features of CiviCampaign. Read more about CviEngage in the Civic
 Engagement section.
 
-Scenario: Year-long mobilization campaign
------------------------------------------
+## Scenario: Year-long mobilization campaign
 
 To kick off a year-long campaign to mobilize community members, the
 Townsville Organisation For Tenants (TOFT) held a protest at the

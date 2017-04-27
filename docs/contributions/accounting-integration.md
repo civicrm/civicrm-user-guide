@@ -1,5 +1,4 @@
-Accounting Integration
-======================
+# Accounting Integration
 
 The accounting integration feature allows you to export all the double-entry
 financial transactions for a batch of contributions so that you can import
@@ -7,16 +6,14 @@ them into your accounting software. You can create a new accounting batch then
 assign existing contributions to it, or re-use a batch created during
 batch data entry as an accounting batch.
 
-Use a batch created through Batch Data Entry
----------------------------------------------
+## Use a batch created through Batch Data Entry
 
 Batch entry of transactions is covered in [Manual Entry of Contributions](../contributions/manual-entry-of-contributions)
 
 After you validate and close a batch, it will appear in the accounting batch
 listing with a status of Closed.
 
-Create a New Batch from Existing Transactions
------------------------------------------------
+## Create a New Batch from Existing Transactions
 
 ### Create the batch
 
@@ -147,8 +144,7 @@ From the search results page, you may also take action on more than one
 batch. Select all the batches to be updated, and choose an option from
 the action dropdown menu: Re-open, Close, Export, or Delete.
 
-Finding Transactions by Batch
------------------------------
+## Finding Transactions by Batch
 
 From the Advanced Search Contribution pane, or from Find Contributions,
 you can search by Batch Name. Select a batch and the results will return

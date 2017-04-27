@@ -1,8 +1,6 @@
-Test it out
-===========
+# Test it out
 
-Demonstration sites
--------------------
+## Demonstration sites
 
 CiviCRM hosts several demo sites - there is at least one for each of the
 supported **Content Management Systems** (CMS) - Drupal, Joomla, and
@@ -26,8 +24,7 @@ If you are having trouble working on a demo site, contact the CiviCRM
 core team via the forum or IRC. If you want a more controlled
 environment for exploring CiviCRM, install your own test site.
 
-Test installations
-------------------
+## Test installations
 
 You can download and set up a local version of CiviCRM, that is a
 version that is stored on your local computer rather than on a server on

@@ -1,5 +1,4 @@
-Creating Contribution Pages
------------------------------
+## Creating Contribution Pages
 This section describes setting up online contribution pages where
 visitors to your website can make contributions to your organisation.
 CiviContribute is very flexible and includes many optional fields and features
@@ -146,8 +145,7 @@ It is highly recommended that Contribution Pages include a CPATCHA (reCAPTCHA in
 
 For more information read [Profiles](../organising-your-data/profiles).
 
-Automatic Contribution Recording
---------------------------------
+## Automatic Contribution Recording
 
 Regardless of how donors get to your contribution page, CiviCRM
 automatically records their donations, freeing your staff from doing

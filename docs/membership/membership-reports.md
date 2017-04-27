@@ -1,5 +1,4 @@
-Membership Reports
-==================
+# Membership Reports
 
 There are a number of techniques for reporting on and analysing your
 memberships.
@@ -15,8 +14,7 @@ to find your memberships, refer to the "Finding Memberships" chapter.
 This chapter will show you how to view and create membership reports as
 well as export membership information so you can do further analysis. 
 
-Viewing Membership Reports
---------------------------
+## Viewing Membership Reports
 
 Out-of-the-box, CiviCRM comes with several membership reports designed
 to tell you something specific about your membership:
@@ -56,8 +54,7 @@ to a membership records based on your report criteria.
 
 ![image](../img/membership%20contribution%20report.PNG) 
 
-Creating New Membership Reports
--------------------------------
+## Creating New Membership Reports
 
 If you find that you want to create and save new membership reports with
 different criteria other than the out-of-the-box membership reports
@@ -78,8 +75,7 @@ offer , you can do so by using the membership templates.
 
 To learn more about working with reports, see the "Reporting" section.
 
-Exporting membership records
-----------------------------
+## Exporting membership records
 
 You may decide to export membership records so that you can do more
 analysis, perform document mail merges, or create a specific type of

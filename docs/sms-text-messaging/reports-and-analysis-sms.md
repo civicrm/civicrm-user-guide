@@ -1,5 +1,4 @@
-Reports and Analysis (SMS)
-==========================
+# Reports and Analysis (SMS)
 
 ### Reporting on all text message activity
 

@@ -1,5 +1,4 @@
-Installation and basic set-up
-=============================
+# Installation and basic set-up
 
 Before reading further, please be aware that much of the information
 contained here is intended for technicians and may be difficult to
@@ -8,8 +7,7 @@ applications. If you don't understand this topic, you may wish to either
 seek help, or point your organisation's technical staff to this
 material.
 
-Prerequisites
--------------
+## Prerequisites
 
 Before exploring the installation of CiviCRM, ensure you have read the
 chapter 'hosting' to confirm whether or not your host can support it.
@@ -32,8 +30,7 @@ Wordpress or Joomla!.
 You can find full instructions on installing CiviCRM here:[
 http://wiki.civicrm.org/confluence/display/CRMDOC/Installation+and+Upgrades](http://wiki.civicrm.org/confluence/display/CRMDOC/Installation+and+Upgrades%20)[](http://wiki.civicrm.org/confluence/display/CRMDOC/Installation+and+Upgrades%20)
 
-Internet vs. local installs
------------------------------
+## Internet vs. local installs
 
 Most organisations access CiviCRM over the internet. However, some
 organizations who only want internal staff to have access to CiviCRM and
@@ -42,8 +39,7 @@ and have it only accessible internally. The downside to an install that
 is not publicly available is that your contacts cannot 'self serve' to
 update their data.
 
-Upgrades
---------
+## Upgrades
 
 New versions of CiviCRM are released approximately twice a year (once in
 the Spring and once in the Autumn). You will need to apply upgrades to
@@ -61,8 +57,7 @@ Since upgrades are an important and technical process, many
 organisations employ the services of a CiviCRM expert service provider
 to carry them out.
 
-Configuration
--------------
+## Configuration
 
 Once CiviCRM has been installed, you should review the initial
 configuration tasks which allow you to customize CiviCRM for your

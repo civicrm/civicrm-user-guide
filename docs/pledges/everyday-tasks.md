@@ -1,8 +1,6 @@
-Everyday tasks
-==============
+# Everyday tasks
 
-Recording payments
--------------------
+## Recording payments
 
 If a donor has chosen to use an offline payment method such as cash or
 cheque, you will need to manually record the receipt of payment within

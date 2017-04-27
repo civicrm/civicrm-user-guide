@@ -1,5 +1,4 @@
-What is CiviCase?
-=================
+# What is CiviCase?
 
 CiviCase is a tool for tracking and managing sequences of interactions
 between people in your organisation and contacts in CiviCRM. It's
@@ -24,8 +23,7 @@ Organisations have employed CiviCase in a wide variety of situations.
 Here are a couple of examples of different types of organisations that
 use CiviCase. 
 
-Scenario: managing legislator-constituent interactions
-------------------------------------------------------
+## Scenario: managing legislator-constituent interactions
 
 A legislator's staff manages hundreds of interactions with constituents
 and communities daily. Legislative staff can manage and track these
@@ -57,8 +55,7 @@ including:
 -   The legislator's staff records event invitations on an ongoing basis
     that a legislator's scheduler must respond to.
 
-Scenario: complex application process
---------------------------------------
+## Scenario: complex application process
 
 An organisation administering a health department grant programme to
 distribute several million dollars worth of grants used CiviCase to
@@ -103,8 +100,7 @@ review committee was able to view the key details of applications with
 different statuses, and finally, just review the summary details of all
 applications with an accepted status to make a final determination.
 
-CiviCase in use 
------------------
+## CiviCase in use 
 
 Here's a simple example of a Housing Support case. The Open Case
 activity is marked as Completed when the case is opened. Three

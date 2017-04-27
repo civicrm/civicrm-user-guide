@@ -1,5 +1,4 @@
-What You Need To Know
-=====================
+# What You Need To Know
 
 The CiviCase component allows for a high degree of customisation to meet
 the needs of a wide variety of organisations and workflows. It is
@@ -7,8 +6,7 @@ important to understand CiviCase's underlying principles and
 assumptions, as well as the elements that can be customised, before you
 begin to plan and configure the component based on your requirements.
 
-Key Concepts
-------------
+## Key Concepts
 
 **Activities**: CiviCRM tracks most interactions with activities. These
 are particularly useful for single interactions. For example, if a
@@ -197,8 +195,7 @@ between the two. For example, you cannot include the activity type of
 "Meeting" in both a timeline and the sequence within the same case as
 this will create problems. 
 
-Case Roles and Relationships 
-------------------------------
+## Case Roles and Relationships 
 
 CiviCase provides three mechanisms for relating people to cases and
 clients:

@@ -1,5 +1,4 @@
-Reports and analysis
-====================
+# Reports and analysis
 
 There are a few techniques for reporting on and analysing grants. The
 grant dashboard gives a quick overview of your grant types. Aside from
@@ -9,8 +8,7 @@ this there are
 -   The grants tab in advanced search
 -   The Grant report
 
-Searching for grant data
-------------------------
+## Searching for grant data
 
 CiviCRM makes an important distinction between contacts and grants.
 Sometimes it is useful to get the answer to your grant related question
@@ -28,16 +26,14 @@ contacts.
 Searching based on these criteria gives you access to simple totals. It
 also the option to export as CSV for further analysis.
 
-Grant reports
--------------
+## Grant reports
 
 Out of the box, CiviCRM comes with one report that can be used for
 Grants. This report can be used, for example to show details for all
 grants of a particular grant type. The report has agregatted statistics
 at the bottom for amount requested and granted.
 
-More analysis
--------------
+## More analysis
 
 If you can't do what you want with a built in report or search, consider
 commissioning a new report or custom search. Read the CiviReport section

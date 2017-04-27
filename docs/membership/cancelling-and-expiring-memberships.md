@@ -1,5 +1,4 @@
-Cancelling and expiring memberships
-===================================
+# Cancelling and expiring memberships
 
 If a contact wants to resign or cancel their membership, rather than
 deleting their membership, you should change the status to cancelled or
@@ -29,8 +28,7 @@ Dependent upon how you have your Membership status rules setup within
 **Administer > CiviMember > Membership Status Rules** memberships will
 automatically expire based on a certain timeline criteria.
 
-Deleting memberships
----------------------
+## Deleting memberships
 
 The only time you would want to **delete** a membership is if you
 entered it error, for example if you made Jo Smith a member instead of

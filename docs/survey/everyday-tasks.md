@@ -1,8 +1,6 @@
-Everyday Tasks
-==============
+# Everyday Tasks
 
-Managing Your Surveys
----------------------
+## Managing Your Surveys
 
 To view and edit existing surveys, go to**Campaign > Dashboard >
 Surveys**. Here you will find a summary of your surveys.
@@ -62,8 +60,7 @@ On the Reserve Respondents screen, click **Reserve**.
 
 *![image](../img/survey_reserverespondents.png)* 
 
-Interview Respondents
----------------------
+## Interview Respondents
 
 1.  To interview respondents Click **Campaign > Interview
     Respondents**.
@@ -104,8 +101,7 @@ At the end of the canvass, a program lead may want to review the results
 of the survey. Refer to the chapter Reports and Analysis to learn how to
 view this report.
 
-How to create a list of addresses for Surveys of type Walklist
---------------------------------------------------------------
+## How to create a list of addresses for Surveys of type Walklist
 
 Surveys allow you to easily print walk lists for your volunteers or
 staff who are doing door-knocking activities and want to conduct a

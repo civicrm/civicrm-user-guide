@@ -1,11 +1,9 @@
-Everyday tasks
-==============
+# Everyday tasks
 
 This chapter describes everyday tasks related to managing campaigns with
 CiviCampaign.
 
-Managing Campaigns
-------------------
+## Managing Campaigns
 
 The Campaign Dashboard allows you to create, configure, manage and view
 your campaigns. You can also manage surveys and petitions via the
@@ -25,8 +23,7 @@ t that time.
 
 ![Campaign Search Criteria](../img/civicampaign-dashboard-search-criteria.png)
 
-Create a New Campaign
----------------------
+## Create a New Campaign
 
 To create a Campaign:
 
@@ -70,16 +67,14 @@ To create a Campaign:
 
 Click **Save**, to save the campaign.
 
-Targeting constituents: create a group
---------------------------------------
+## Targeting constituents: create a group
 
 You may want to target a specific group of individuals for all campaign
 activities. This is done by creating a group to target these
 individuals. See the chapter Tags and Groups for more information about
 how to create a group.
 
-Send a mass mailing
--------------------
+## Send a mass mailing
 
 A mass mailing to your target audience can generate interest and
 participation, and also be used to call for donations.
@@ -89,8 +84,7 @@ participation, and also be used to call for donations.
 2.  Select the appropriate campaign from the drop-down list when setting
     up the mailing.
 
-A campaign event
-----------------
+## A campaign event
 
 Events created using CiviEvent can be associated with a campaign. To
 find out more about configuring and using CiviEvent, see the *Events*
@@ -105,8 +99,7 @@ section of this book.
 5.  Search for individuals who have indicated they want to register for
     the event.
 
-Record campaign contributions
------------------------------
+## Record campaign contributions
 
 As contributions come in, either online or offline, they can be
 associated with a campaign; simply select the appropriate campaign from
@@ -115,8 +108,7 @@ the drop-down menu when recording the contribution.
 To find out more about configuring and using CiviContribute, see the
 *Contributions* section.
 
-Record event participation
---------------------------
+## Record event participation
 
 During and after an event, organizers can record who participated by
 either collecting sign-in sheets and entering the participants manually,

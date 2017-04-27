@@ -1,5 +1,4 @@
-Set-up
-======
+# Set-up
 
 This section explains how to set up CiviReports. It assumes a basic
 understanding of why you would want to use CiviReport, and describes the
@@ -11,8 +10,7 @@ If the report template you need does not exist you (or your developer)
 should refer to the Custom Reports chapter in the Extensions section of
 the Developer Guide for information about creating new templates.
 
-Report templates
-----------------
+## Report templates
 
 Report templates are general reports that can be further customised to
 create specific report instances. These report instances can then be
@@ -36,8 +34,7 @@ There are two steps to configuring a report:
 2.  Define the **report settings**: choose a title, set permissions and
     add it to a menu. You will not see the report settings tabs until you have previewed the report.
 
-Select report criteria
-----------------------
+## Select report criteria
 
 When you create a new report you will be presented with two or more tabs
 that will let you define the information the will be displayed in your
@@ -135,8 +132,7 @@ visible.) If the information displayed isn't exactly what you wanted,
 you can select the appropriate tab to modify your criteria. You may need
 to make several modifications before you achieve the report you want.
 
-Define Report settings
-------------------------
+## Define Report settings
 
 Once you are happy with the report criteria you have entered into the
 template, you need to save this criteria as a new report so that it can
@@ -200,8 +196,7 @@ Sometimes you need to permanently alter the criteria for an existing report. Ope
 At other times you may want two or more reports displaying the same columns of information but using different filters.  For example you may want an Event Income Summary report showing the income for all events for the events manager, but may only want the fundraising manager to have access to a report showing income from Fundraiser events. Once you have created the initial report you can open it, change the filtering criteria and click on **Save a Copy...**.  You will be prompted to enter a new title and description for the new report.
 
 
-CiviReport Permissions
-----------------------
+## CiviReport Permissions
 
 There are four permission specifically associated with reports:
 

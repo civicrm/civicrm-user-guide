@@ -1,5 +1,4 @@
-Keeping track of events and participants
-========================================
+# Keeping track of events and participants
 
 After creating your event and providing the registration form to web
 site visitors, you can manage your event participants through the
@@ -8,8 +7,7 @@ of event you are organising. This chapter outlines how to view your
 events and participants and describes how CiviCRM supports a variety of
 the associated administrative tasks.
 
-Dashboard
------------
+## Dashboard
 
 The CiviEvent Dashboard (**Events > Dashboard**) brings all your events
 and participant information together in one place (see screenshot).
@@ -31,8 +29,7 @@ From the Dashboard you can also:
 -   use the icons for RSS feeds and calendars to use the data in
     external applications.
 
-Finding and viewing events
-----------------------------
+## Finding and viewing events
 
 Another way to access your events is to navigate to **Events > Manage
 Events**. This screen gives you a list of all CiviEvents that have been
@@ -50,8 +47,7 @@ side of the page you have four links for each event:
     event pages including the event information page and the live online
     registration page.
 
-Finding and administering participants
-----------------------------------------
+## Finding and administering participants
 
 This section describes some common tasks and searches associated with
 event participants. Note that these tasks all refer to existing event
@@ -177,8 +173,7 @@ described in the section on partial payments.
 
 
 
-Event badges
--------------
+## Event badges
 
 You can create custom name badges for your event.
 

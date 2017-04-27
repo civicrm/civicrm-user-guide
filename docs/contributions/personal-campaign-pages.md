@@ -1,5 +1,4 @@
-Personal Campaign Pages
-=======================
+# Personal Campaign Pages
 
 CiviCRM's features include allowing your constituents to create their
 own fundraising pages - and then ask others to fund their cause. These
@@ -15,8 +14,7 @@ feature to help someone share their page even more.
 Examples of this feature in action are typically called "Sponsor My 5k
 Walk", "Help Fund Our Trip" or "Let's Raise Money to Build A School".
 
-Administrator Features
-----------------------
+## Administrator Features
 
 Administrators managing fundraising pages may use the following features
 via the contribution page configuration:
@@ -39,8 +37,7 @@ Once PCP pages are active, administrators can:
 -   Enter 'offline' contributions (i.e. checks) and credit the money to
     a PCP
 
-Fundraiser Features
----------------------
+## Fundraiser Features
 
 Those creating their PCPs enjoy the following ways to personalize their
 page:
@@ -56,8 +53,7 @@ page:
 -   Create a username (or login using a username they already have) so
     they can edit their PCP later
 
-Limitations
------------
+## Limitations
 
 -   CiviCRM's PCP functionality doesn't allow for team management. For
     instance, a fundraising leader recruiting members to a team,
@@ -145,8 +141,7 @@ To use this link, replace the following:
     If the invitation is in support of an event, use *component=event*.
 
 
-Managing Personal Campaign Pages
----------------------------------
+## Managing Personal Campaign Pages
 
 When an individual has clicked the 'create your own fundraising page'
 button or a direct link, they will be presented with a form to fill out

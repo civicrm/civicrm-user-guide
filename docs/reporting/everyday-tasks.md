@@ -1,13 +1,11 @@
-Everyday Tasks
-==============
+# Everyday Tasks
 
 This chapter assumes that CiviReport is already configured and you are a
 user wanting to access reports that have been configured for you. If you
 want to learn more about how to set up and configure reports, read the
 section on setting up CiviReport.
 
-Viewing reports
----------------
+## Viewing reports
 
 To view a report:
 
@@ -45,8 +43,7 @@ If you have the appropriate permissions, you will be able to adjust the
 report criteria and settings when you view the report. Read the section
 configuring reports for detailed information about how to do this.
 
-Reports on your dashboard
--------------------------
+## Reports on your dashboard
 
 Reports can be configured to appear on your dashboard (the first page
 you see when you log in to CiviCRM). You can configure this yourself,
@@ -62,8 +59,7 @@ To display specific reports on your dashboard:
 
 ![dashboard_config](../img/CiviCRM_update-CiviReport-resized_600x249_dashboard_config-en.png "dashboard_config")
 
-Adding report results to a group
---------------------------------
+## Adding report results to a group
 
 Sometimes it is useful to add contacts returned in a report to a group.
 This functionality isn't available in all reports but where it is, you

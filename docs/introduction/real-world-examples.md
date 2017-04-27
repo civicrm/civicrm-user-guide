@@ -1,5 +1,4 @@
-Real World Examples
-===================
+# Real World Examples
 
 CiviCRM is used by all shapes and sizes of organisations that are
 located all over the world. Some have no paid employees, while others
@@ -110,8 +109,7 @@ online newsletters and postal mailings. CiviCRM has enabled them to
 better manage their constituents. This makes their life easier and in
 turn, is of great benefit to AFSC.
 
-A CRM Education
----------------
+## A CRM Education
 
 ![Schoolhouse_Supplies_medium72dpi](../img/CiviCRM-Icons-Schoolhouse_Supplies_medium72dpi-en.jpg)]
 
@@ -150,8 +148,7 @@ New campaigns are now being planned and executed which would previously
 have been impossible or prohibitively expensive.
 
 
-Growing Satisfaction
---------------------
+## Growing Satisfaction
 
 ![nysnla](../img/CiviCRM-Icons-nysnla-en.png "nysnla")
 
@@ -221,8 +218,7 @@ update and maintain their list of services provided and other
 information.
 
 
-Campaigning for Efficiency
---------------------------
+## Campaigning for Efficiency
 
 ![Newlogo_1](../img/CiviCRM-Icons-Newlogo_1-en.jpg "Newlogo_1")
 
@@ -288,8 +284,7 @@ and Drupal Organic Groups suggest that a more time effective approach
 may soon be possible.
 
 
-Quest for Success
------------------
+## Quest for Success
 
 ![quest_bridge_logo](../img/CiviCRM-Icons-quest_bridge_logo-en.gif "quest_bridge_logo")
 
@@ -325,11 +320,9 @@ If Questbridge were to start over they would have invested more in
 training on CiviCRM up-front.
 
 
-Changing with the Times
------------------------
+## Changing with the Times
 
-![SFS](../img/CiviCRM-Icons-SFS-en.gif "SFS")
-------------------------------------------------
+## ![SFS](../img/CiviCRM-Icons-SFS-en.gif "SFS")
 
 The San Francisco School (SFS), is a Preschool through 8th grade
 coeducational school with a diverse student body of about 270 students.

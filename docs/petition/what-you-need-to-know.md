@@ -1,12 +1,10 @@
-What You Need To Know
-=====================
+# What You Need To Know
 
 The following concepts are important to understand before creating and
 using petitions, and the key questions will help you to plan your
 petition.
 
-Key Concepts
-------------
+## Key Concepts
 
 Petitions are a function within the CiviCampaign component of CiviCRM.
 When an individual responds to a petition, an activity record of the
@@ -57,8 +55,7 @@ You need to set permissions to allow specific roles to Sign CiviCRM Petitions.
 Refer to the next chapter called Set-up in this section, to find out what
 permissions you'll need to allow.
 
-Key Questions
--------------
+## Key Questions
 
 Think about the online strategies you will use and consider these
 questions before creating your petition:

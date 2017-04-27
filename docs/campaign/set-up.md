@@ -1,12 +1,10 @@
-Set-up
-======
+# Set-up
 
 This chapter will help you to set up CiviCampaign so that you can track
 related activities such as contributions, surveys, and mailings that are
 part of a particular campaign or project. 
 
-Enable CiviCampaign 
----------------------
+## Enable CiviCampaign 
 
 First, you need to enable the CiviCampaign component.
 
@@ -17,8 +15,7 @@ First, you need to enable the CiviCampaign component.
 Once CiviCampaign is enabled, it will show up as the new menu item
 **Campaigns** located along the top of your CiviCRM screen.
 
-Add a new campaign type
------------------------
+## Add a new campaign type
 
 CiviCampaign provides three default campaign types:
 
@@ -45,8 +42,7 @@ To add a new campaign type:
 The next time you add a new campaign, this campaign type will be
 available to assign to your new campaign.
 
-Campaign status
----------------
+## Campaign status
 
 Assigning a status to your campaign makes it possible to update campaign
 activities in the database and track how the campaign is proceeding.
@@ -63,8 +59,7 @@ activities in the database and track how the campaign is proceeding.
 
 ![image](../img/campaign_configuration_statuses.png)
 
-Engagement index 
-----------------
+## Engagement index 
 
 CiviCampaign allows you to track an individual's level of
 interest/engagement in a particular activity. The Engagement Index can

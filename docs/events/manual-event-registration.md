@@ -1,13 +1,11 @@
-Manual event registration
-=========================
+# Manual event registration
 
 This chapter covers how office staff can register people for events
 through the admin interface. It will show how to register an individual
 participant manually, how to register multiple participants and how to
 import registrations from an external source.
 
-**Registering a Participant Manually**
---------------------------------------
+## **Registering a Participant Manually**
 
 
 Although CiviCRM helps alleviate data entry for event registration by

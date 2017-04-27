@@ -1,5 +1,4 @@
-Activities
-==========
+# Activities
 
 Activities are a key concept in CiviCRM, providing a unified place to
 record and view the history of interactions between your organization
@@ -67,8 +66,7 @@ meet-up, a training, a dinner or fundraising event. As discussed, an
 activity can be any type of interaction a contact has with your
 organisation, from a meeting or a phone call to a donation. 
 
-Creating new Activity Types
----------------------------
+## Creating new Activity Types
 
 Go to the Activity Type Options page **Administer > Customize Data and
 Screens > Activity Types** and click Add Activity Type. 
@@ -80,8 +78,7 @@ to be available from the Actions button when viewing a contact record.
 Assign it to "CiviCase" if these activities are only for use inside a
 case. 
 
-Setting up Custom Field Sets for Activities
--------------------------------------------
+## Setting up Custom Field Sets for Activities
 
 When setting up custom data sets, you will need to specify what the
 custom data will be used for. One of the options here is Activity and if
@@ -91,8 +88,7 @@ activities.
 
 ![image](../img/activity%20cf.png)
 
-Activity Status Options
------------------------
+## Activity Status Options
 
 The default set of status options is
 
@@ -110,8 +106,7 @@ However, before you add too many status options, remember that all
 status options show up on all activity types. So think carefully about
 what you need to add.
 
-Repeating Activities 
-----------------------
+## Repeating Activities 
 
 You can set an activity to repeat on a certain day and time with a
 specific end date and include dates to exclude from the repetition.

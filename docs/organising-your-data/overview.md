@@ -1,5 +1,4 @@
-Overview
-========
+# Overview
 
 This chapter covers the main building blocks that CiviCRM uses to store
 data and offers advice on how to transfer and organize your existing
@@ -60,8 +59,7 @@ interact with your contacts in ways that you have not previously had.
 Taking advantage of these new possibilities can lead to positive changes
 and improvements.
 
-Think about the move
---------------------
+## Think about the move
 
 It might be useful to think about your pre-existing data in the same way
 as the contents of a house or apartment when you need to move. People

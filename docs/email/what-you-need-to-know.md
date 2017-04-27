@@ -1,5 +1,4 @@
-What You Need To Know
-=====================
+# What You Need To Know
 
 This chapter outlines some key concepts and questions that are useful
 for planning the use of CiviCRM's email capabilities. This chapter
@@ -7,8 +6,7 @@ should be read before you start sending emails to contacts. Detailed
 information on how to carry out the activities mentioned can be found in
 the **Everyday Tasks** section. 
 
-Key Concepts
--------------
+## Key Concepts
 
 As you might expect for a web-based CRM, email plays a central role in
 CiviCRM. Broadly speaking, there are three situations in which email is
@@ -183,8 +181,7 @@ matches the email address. If that email address does not exist in your
 database a new contact record will be created. See the **Email System
 Configuration** chapter of the **Intial Setup** section for details.
 
-Key Questions
--------------
+## Key Questions
 
 When planning your use of CiviCRM's email capabilities, it may be
 helpful to answer these questions to guide your setup and use:

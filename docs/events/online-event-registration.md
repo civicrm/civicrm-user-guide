@@ -1,5 +1,4 @@
-Online event registration
-=========================
+# Online event registration
 
 The ability for end-users to register themselves for events is
 beneficial for both your constituents - they can register at a time and
@@ -11,8 +10,7 @@ The standard flow for registering for an event is as follows:
 
 ![event_registrationflow_1](../img/CiviCRM-CiviEvent-event_registrationflow_1-en.gif "event_registrationflow_1")
 
-Setting up online registration
-------------------------------
+## Setting up online registration
 
 To offer online registration, check **Allow Online Registration** in the
 Online Registration step of event creation and use the options on this
@@ -69,8 +67,7 @@ The introductory text comes at the top of the page and the footer text
 at the bottom. In between will come some, or all, of: profile, fee
 selection, credit card details, additional profile(s) in that order.
 
-Collecting participant information with profiles
--------------------------------------------------
+## Collecting participant information with profiles
 
 The best way to collect information during online registration is to
 include one or more profiles in your event configuration.You can include
@@ -109,8 +106,7 @@ It is highly recommended that if you are charging for your event that you includ
 
 For more information read [Profiles](../organising-your-data/profiles).
 
-Registration confirmation
---------------------------
+## Registration confirmation
 
 Once you registration page is configured you need to enter the text to
 be displayed on the Confirmation page, Thank-you page, and emailed
@@ -133,8 +129,7 @@ Please note that the contents of the **Text** field will be included in
 both TEXT and HTML versions of receipt emails so we do not recommend
 including HTML tags / formatting here.
 
-Optional event registration features
-------------------------------------
+## Optional event registration features
 
 The following features may be useful to enhance your online event
 registration process. 
@@ -231,8 +226,7 @@ For more information see **Contributions > Personal Campaign Pages** in
 this book. This is the last step in creating an event. Click **Save and
 Done.**
 
-Contact matching and duplicate management 
-------------------------------------------
+## Contact matching and duplicate management 
 
 Whenever we allow people to interact with our database from 'the
 outside' we run the risk of creating duplicate contacts. There are
@@ -277,8 +271,7 @@ if there's no way to match duplicate contacts using the rule, while the
 warning "Duplicate Contacts Possible" appears if enough fields are there
 but not all of them are required.
 
-Registration permissions
--------------------------
+## Registration permissions
 
 If you've enabled online registration for events on your site you need
 to review the Drupal user permissions to ensure that visitors are able
@@ -312,8 +305,7 @@ If you need to limit access control for specific events, you can use the
 Manage Access Control feature to assign access to specific groups of
 contacts.
 
-Testing the registration process
---------------------------------
+## Testing the registration process
 
 Before revealing your event to the public, you should always test the
 event registration process. This can be done as follows:

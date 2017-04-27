@@ -1,18 +1,15 @@
-Everyday Tasks
-==============
+# Everyday Tasks
 
 This chapter describes the everyday tasks to conduct and manage
 petitions.
 
-Manage Your Petitions
----------------------
+## Manage Your Petitions
 
 To view, manage and edit your petitions, click **Campaigns > Dashboard > Petitions**.
 
 ![image](../img/petition_dashboard.png)
 
-Send out a petition for signing
--------------------------------
+## Send out a petition for signing
 
 When your petition is ready, you will want to publicise the URL where
 people can sign it.
@@ -23,8 +20,7 @@ people can sign it.
     to your existing contacts, or add to your web site for individuals
     to sign your petition.
 
-Collect Responses Online
-------------------------
+## Collect Responses Online
 
 Once you have publicised the URL for your petition, people will be able
 to complete the form, answer the questions and submit their response.
@@ -37,8 +33,7 @@ their email address:
 
 ![image](../img/petition_thankyou.png) 
 
-Collect Signatures
-------------------
+## Collect Signatures
 
 To view who has signed the petition:
 
@@ -50,8 +45,7 @@ To view who has signed the petition:
 
 ![image](../img/petition_signatures_email.png)
 
-Review results with Activity Report
-------------------------------------
+## Review results with Activity Report
 
 To review all or some of the results from a petition, use the Activity
 Report.

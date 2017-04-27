@@ -1,18 +1,15 @@
-Reports and analysis
-====================
+# Reports and analysis
 
 There are a couple of simple tools to report and analyse petitions.
 
-View signatories
-----------------
+## View signatories
 
 To view who has signed the petition:
 
 1.  Click **Campaign > Dashboard > Petitions**.
 2.  Click **More > Signatures** next to the name of your petition.
 
-Review results with activity report
------------------------------------
+## Review results with activity report
 
 To review all or some of the results from a petition, use the Activity
 Report.

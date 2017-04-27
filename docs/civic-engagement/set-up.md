@@ -1,11 +1,9 @@
-Set-up
-======
+# Set-up
 
 This chapter describes how to access CiviEngage functionality and gives suggestions
 on how to use the custom field sets and profiles that it includes.
 
-Enabling CiviEngage
----------------------
+## Enabling CiviEngage
 
 CiviEngage is automatically installed as a Drupal module when you install CiviCRM, so you only need to "turn it on".  You will need Drupal Adminstrator permissions to:
 
@@ -16,8 +14,7 @@ CiviEngage is automatically installed as a Drupal module when you install CiviCR
 
 Note that CiviEngage requires the component CiviCampaign to be enabled.
 
-CiviEngage Contact Subtypes
----------------------------
+## CiviEngage Contact Subtypes
 
 CiviEngage takes advantage of CiviCRM contact subtypes to expose custom
 field sets associated only with specific subtypes (see below for a
@@ -48,8 +45,7 @@ Organisation subtypes:
     such as the average grant amount a foundation will give and funding
     areas the foundation is interested in. 
 
-Modifying the custom field sets
--------------------------------
+## Modifying the custom field sets
 
 When you install CiviEngage, a number of custom fields are automatically
 created. These fields are designed to support your community organising
@@ -284,8 +280,7 @@ subtype Elected Official.
 -   Elected Staffer Role: whether the contact is the elected official,
     or the official's staff, spokesperson, etc.
 
-Modifying CiviEngage's custom value options
--------------------------------------------
+## Modifying CiviEngage's custom value options
 
 CiviEngage includes many custom fields with value options. The following
 are examples of value options that you may want to consider reviewing
@@ -348,8 +343,7 @@ printing out WalkLists or PhoneBank reports using the Survey Report, the
 code or value is displayed to keep your report neat and easy to look at
 for recording responses.
 
-Custom profiles
----------------
+## Custom profiles
 
 CiviEngage creates several custom profiles for easier batch updating of
 individual or organisation information, such as voter demographics,
@@ -357,8 +351,7 @@ issue interests, volunteer interests or event participant information.
 To learn more about profiles, please refer to the chapter called
 Profiles in the Core Functionality section.
 
-Setting up Surveys for Walklists and Phonebanking
--------------------------------------------------
+## Setting up Surveys for Walklists and Phonebanking
 
 CiviEngage in combination with CiviCampaign allows you to easily set up
 your surveys for walklists during door-knocking canvasses and for

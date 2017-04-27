@@ -1,18 +1,15 @@
-Everyday tasks
-===============
+# Everyday tasks
 
 This section discusses the every day tasks associated with administering
 grants with CiviGrant.
 
-CiviGrant Dashboard
---------------------
+## CiviGrant Dashboard
 
 Go to **Other > Grants > Dashboard** to access the CiviGrant
 Dashboard. Here you will see a summary of the grants registered in your
 CiviCRM database, and a table of recent grant recipients.
 
-Viewing grants
---------------
+## Viewing grants
 
 There are a couple of ways to view grants:
 
@@ -22,8 +19,7 @@ There are a couple of ways to view grants:
 -   An individual contact's grants can be viewed from the **Grants** tab
     on their record.
 
-Adding and editing grant recipients
------------------------------------
+## Adding and editing grant recipients
 
 After Wookie Hole Community Action selected its grant recipients for the
 Cave Festival, their grant administrator looked up the contact record of
@@ -42,8 +38,7 @@ To add or edit grant recipients:
 Grants can be edited and updated at any time using the edit link which
 appears in the grant record.
 
-Recording Reports
------------------
+## Recording Reports
 
 When reports are received from grant recipients, you can edit the grant
 information (either from the CiviGrant dashboard or the contact's

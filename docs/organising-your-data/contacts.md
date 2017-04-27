@@ -1,5 +1,4 @@
-Contacts
-========
+# Contacts
 
 This chapter introduces contacts: the basic building block of CiviCRM.
 We look at how to find, view, add, edit and delete contacts. We also
@@ -33,8 +32,7 @@ Think of contacts as the centre of your CiviCRM universe. All of the
 other building blocks of CiviCRM, like relationships, actvities, groups
 and contributions connect to contacts in some way.
 
-A quick look at contacts
-------------------------
+## A quick look at contacts
 
 Contacts are organised into tabs. The first tab that you see when
 looking at a contact is the **summary tab** with some basic information
@@ -316,8 +314,7 @@ was changed.
 Note: Administrators can use the Contact Logging Report to get detailed
 information on changes to contact records (who, what and when).
 
-Adding contacts
----------------
+## Adding contacts
 
 The simplest way to add a single contact to CiviCRM is to use the
 navigation menu at the top of any non-public page. To create a new
@@ -385,8 +382,7 @@ to click:
 -   Cancel will discard the entered information and return you to your
     CiviCRM dashboard.
 
-Editing contacts
-----------------
+## Editing contacts
 
 Editing information on the summary screen is simple. Hovering in the
 upper right corner of the block that you wish to edit will bring up the
@@ -405,8 +401,7 @@ screen, then both save the contact), the second admin user will be
 notified of the first admin user's edit and be given the chance to
 manually 'merge' the edits.
 
-Deleting contacts
------------------
+## Deleting contacts
 
 At the top right there is a button to Delete the contact. When a
 contact is deleted, it does not disappear completely - instead it moves
@@ -430,8 +425,7 @@ contact:
     your intention; simply click 'Delete' to continue or 'Cancel' to
     return to the previous screen.
 
-Contact subtypes 
-------------------
+## Contact subtypes 
 
 In addition to the three default contact types (individuals, households
 and contacts), you can define additional contact types (sometimes
@@ -464,8 +458,7 @@ names and the images associated with them.
 To add custom fields to specific contact subtypes, see the chapter on
 custom fields.
 
-Customizing the view of contacts
---------------------------------
+## Customizing the view of contacts
 
 After working with the contact editing and summary screens for a while,
 you may realise that there are sections and/or fields that aren't useful

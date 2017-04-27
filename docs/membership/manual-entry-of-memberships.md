@@ -1,5 +1,4 @@
-Manual entry of memberships
-===========================
+# Manual entry of memberships
 
 Although CiviCRM provides a tool set allowing website contacts to
 self-serve and become members without intervention required on the part
@@ -14,8 +13,7 @@ manually create and process memberships, including:
 -   Batch data entry of members 
 -   Importing Memberships
 
-CiviMember Access Control
--------------------------
+## CiviMember Access Control
 
 As with other CiviCRM functions, Administer > User & Permissions >
 Permissions allows you to control access to various CiviMember features.
@@ -34,8 +32,7 @@ More details on permissions can be found at
 [http://wiki.civicrm.org/confluence/display/CRMDOC/Default+Permissions+and+Roles](http://wiki.civicrm.org/confluence/display/CRMDOC/Default+Permissions+and+Roles)
 . 
 
-Creating a New Membership Record
---------------------------------
+## Creating a New Membership Record
 
 You can create a new membership record in a couple ways, by looking at
 an existing contact's record, or through the Memberships menu. Using
@@ -177,8 +174,7 @@ cancel the auto-renewal.
 
 ![image](../img/memberships%20add%20membership%20via%20menu.JPG) 
 
-Gift Memberships
-----------------
+## Gift Memberships
 
 When you enter a membership manually you can select **Record Payment
 from a Different Contact?** to record the membership as a gift from
@@ -191,8 +187,7 @@ recipient about their membership.
 
 ![image](../img/gift%20membership.PNG)
 
-Entering batches of membership payments
----------------------------------------
+## Entering batches of membership payments
 
 CiviCRM offers a **Batch Data Entry** feature (found in the
 **Memberships** menu) that can be used for entering batches of
@@ -218,8 +213,7 @@ Membership Payments* feature in the *Set-Up* chapter of the
 *Contributions* section. 
  
 
-Importing Memberships 
------------------------
+## Importing Memberships 
 
 The **Importing Memberships** feature is very useful if you have a large
 set of membership records that comes from a source outside of CiviCRM.

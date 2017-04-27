@@ -1,5 +1,4 @@
-Free Software?
-==============
+# Free Software?
 
 CiviCRM is **Free Software** - this means it is developed by a community
 and licensed in a generous way so you can use it for free for whatever
@@ -73,8 +72,7 @@ licenses. CiviCRM itself is available under **Affero General Public
 License version 3.0**, one of the popular free software licenses used by
 many other projects.
 
-Free Software and non-profits
------------------------------
+## Free Software and non-profits
 
 Explaining all of the possible considerations on using FOSS in
 non-profit and advocacy work might take a really long time, so let's
@@ -117,8 +115,7 @@ Source Software communities. By working with the community of users,
 providing your feedback, contributing your changes back into the
 project, you are actually strengthening the non-profit sector.
 
-Further Reading
----------------
+## Further Reading
 
 **Free Software Foundation** 
 http://www.fsf.org/

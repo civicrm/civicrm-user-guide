@@ -1,5 +1,4 @@
-Permissions and access control
-==============================
+# Permissions and access control
 
 Permissions (and the related concept of access control lists, or ACLs)
 are collections of rules which define access to various areas of the
@@ -21,8 +20,7 @@ It is very easy to check a permissions box without fully understanding
 what it does. A site with badly configured permissions may inadvertently
 expose your contacts' data. 
 
-The difference between CMS permissions and CiviCRM ACLs
--------------------------------------------------------
+## The difference between CMS permissions and CiviCRM ACLs
 
 Permissions and ACLs are defined in two separate places: in the content
 management system (CMS) and in CiviCRM itself. Many organisations are
@@ -69,8 +67,7 @@ be used instead of those in Drupal, Joomla! or WordPress:
     rule controlling access to custom fields should be disabled, and a
     CiviCRM ACL used instead.
 
-CMS permissions
----------------
+## CMS permissions
 
 All CMS have the same set of CiviCRM permissions, but each are found in
 different places, and differ slightly in appearance.
@@ -345,8 +342,7 @@ can be found
 at [http://wiki.civicrm.org/confluence/display/CRMDOC/Default+Permissions+and+Roles](http://wiki.civicrm.org/confluence/display/CRMDOC/Default+Permissions+and+Roles).
 
 
-Native CiviCRM ACLs
--------------------
+## Native CiviCRM ACLs
 
 As discussed earlier, CiviCRM ACLs are a more advanced and granular way
 of managing user access to records through contact groups, assigned to

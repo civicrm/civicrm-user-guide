@@ -1,5 +1,4 @@
-Reports and analysis
-====================
+# Reports and analysis
 
 There are a number of techniques for reporting on and analysing your
 casework. You can run an audit of the activities for each case from
@@ -14,8 +13,7 @@ but there are a couple of ways that you can create more detailed and
 customised views of the data for case workers and administrators using
 CiviCRM's search features and CiviReport.
 
-QA Audit / Redact
------------------
+## QA Audit / Redact
 
 This report is run from the contact's case management screen. It
 provides details for the activities in the case. You can chose to report
@@ -32,8 +30,7 @@ table on the left to display the information for that activity.
 If you print the report it will include the Case Summary and the Case
 Roles as well as the Case Activities. 
 
-CiviCase Reports
-----------------
+## CiviCase Reports
 
 There are four report templates specifically for cases as shown below:
 
@@ -58,8 +55,7 @@ Your installation may define additional reports for audit or quality
 assurance purposes. If so, you will see them listed in the "Run QA
 Audit/Redact" dropdown menu.
 
-Searching based on cases
-------------------------
+## Searching based on cases
 
 There is a Find Cases search which allows you to search on Case Type and
 Status as well as by client name or email. This is a useful quick search
@@ -77,15 +73,13 @@ or custom fields applied to the contact
 Also useful can be the Activity Search which is located under **Search > Custom Searches > Activity Search**.  Unlike Advanced
 search, this is just based on activities and not contacts.
 
-Print/merge document
---------------------
+## Print/merge document
 A user can create a letter or document using case tokens on the case management screen, or on multiple cases through a Find Cases search. On the case management screen, beside "Print Report," there's an option to "Export Document" as a PDF, DOCx, ODT, or HTML page. Alternately, you can select multiple cases through a search and "Print/merge Document," which will create a document for each case, compiled in a single PDF.  
 
 When working with DOCx turn off spelling and grammar check for best results. 
 
 
-Further analysis
-----------------
+## Further analysis
 
 If the combination of Case Dashboard, CiviReport and the contact and
 activity searches aren't giving you want you want, consider

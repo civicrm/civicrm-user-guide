@@ -1,5 +1,4 @@
-Identifying Your Needs
-======================
+# Identifying Your Needs
 
 This chapter covers some basic strategies for identifying your
 organizational needs, and how they could be met by CiviCRM. It doesn't
@@ -16,8 +15,7 @@ internally while others rely on outside consultants. Following are our
 recommendations for how best to evaluate your organization’s needs and
 build internal support.
 
-Goal
-----
+## Goal
 
 To start with, take a minute to articulate the goal of adopting a CRM.
 For example:
@@ -26,8 +24,7 @@ For example:
 allow our team to better focus on raising funds and awareness to fulfill
 our mission now and in the future.*
 
-Evaluation
-----------
+## Evaluation
 
 Evaluate your organization's specific CRM needs by interviewing key
 stakeholders. This might include development, communications, marketing,
@@ -76,8 +73,7 @@ and shared across departments. For example:
 -   Carole / Volunteers / 3450 / volunteers / all MLK day volunteers,
     skills / mlk_volunteers_10.xls
 
-Benefits
---------
+## Benefits
 
 Enumerate the specific benefits of investing in a holistic CRM solution.
 For example:
@@ -94,8 +90,7 @@ For example:
 -   **Constituents' self-service creation and management** of their
     contact/contribution/subscription/activity records
 
-Recommendations
----------------
+## Recommendations
 
 In recommending your CRM solution enumerate and compare its features and
 costs to other market solutions. Share case studies of other

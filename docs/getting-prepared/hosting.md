@@ -1,13 +1,11 @@
-Hosting
-=======
+# Hosting
 
 Before installing CiviCRM, careful consideration must be given to where
 it will be hosted. The main options with an outline of the situations in
 which you would want to choose them, and the advantages and
 disadvantages of doing so are outlined below:
 
-Internal hosting
------------------
+## Internal hosting
 
 If you have an internal IT department or staff members with a technical
 background, you may wish to host CiviCRM internally. To do this, you
@@ -39,8 +37,7 @@ otherwise private, non-Internet facing systems. It is also a good idea
 to research the maintenance and daily running costs of having an
 internal server, and compare it to that of using an external host.
 
-External hosting 
------------------
+## External hosting 
 
 With internal expertise you could manage the install and configuration
 in-house, but host CiviCRM with an external provider. In this instance,
@@ -63,8 +60,7 @@ basis (discounts may be available for longer leases.
 **We advise that you trial run any service for a short-term before
 committing to a longer period.**
 
-Existing hosting
-----------------
+## Existing hosting
 
 If you are already using a website host, contact your provider to
 determine whether they support the packages and libraries required by
@@ -99,8 +95,7 @@ is the need to clone the style of your website on the second host to
 give the visitor the illusion that they are in the same place. If
 changes to the style are changed, the work must be duplicated.
 
-Outsourcing to a CiviCRM implementer/host
------------------------------------------
+## Outsourcing to a CiviCRM implementer/host
 
 There are implementers and experts in the CiviCRM community able to
 manage the hosting and/or installation for you. If requested, they may

@@ -1,5 +1,4 @@
-Membership price sets
-=====================
+# Membership price sets
 
 This chapter describes how to configure membership price sets so that
 your contacts can:
@@ -46,8 +45,7 @@ Price sets can be configured in many ways and you should always test a
 price set thoroughly before using it on your live site to make sure that
 you have configured it in the way that fits your situation best.
 
-Creating a New Price Set
-------------------------
+## Creating a New Price Set
 
 ![image](../img/4.5_membership_price_sets_new_new_price_set_1.PNG) 
 
@@ -119,8 +117,7 @@ You will be taken to a form to create the first **price field** for your
     only through the back end and then only to users with appropriate
     permissions). 
 
-Multiple membership terms
--------------------------
+## Multiple membership terms
 
 The configuration for the National Membership price field illustrates
 how you can allow contacts to sign up for multiple membership terms at
@@ -151,8 +148,7 @@ of three membership types. However you need to be aware that your
 members will not be able to auto-renew if you use this type of
 multi-term configuration. 
 
-Membership of more than one organisation
-----------------------------------------
+## Membership of more than one organisation
 
 In addition to the National Association Fees, contacts are required to
 sign up for a membership with the swim club. The **Select** input field
@@ -177,8 +173,7 @@ organisations as a contact can only have one active membership with a
 specific organisation. (See the *Defining memberships* chapter for more
 information.)
 
-Non-membership Price fields 
------------------------------
+## Non-membership Price fields 
 
 You can also configure price set fields to offer additional services,
 subscriptions or other non-membership options. 

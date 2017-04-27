@@ -1,5 +1,4 @@
-Reports
-=======
+# Reports
 
 There are a number of techniques for reporting on and analysing your
 events and participants.
@@ -17,8 +16,7 @@ customised analysis using CiviCRM's search features and CiviReport.
 If you are interested in the financial aspects of events, you may also
 find the *Reports and analysis* chapter in *Contributions* useful.
 
-Searching based on participant data
------------------------------------
+## Searching based on participant data
 
 CiviCRM makes an important distinction between contacts and event
 participants. Sometimes it is useful to get the answer to your event
@@ -40,8 +38,7 @@ Searching based on these criteria gives you access to simple totals. You
 can also export your search results as CSV for further analysis in your
 spreadsheet software.
 
-Event and participant reports
------------------------------
+## Event and participant reports
 
 Reports have several features that cannot be accomplished by search. For instance, you cannot aggregate data from multiple events at once or
 limit the date of registration very flexibly. Also, repeating the same
@@ -75,15 +72,13 @@ or Bar Chart.
 
 See the chapter *Reporting Set-up* for details. 
 
-More analysis
--------------
+## More analysis
 
 If you can't do what you want with a built in report or search, consider
 commissioning a new report or custom search. Read the *CiviReport*
 section for more information.
 
-**Displaying an event report on CiviCRM 's home dashboard**
------------------------------------------------------------
+## **Displaying an event report on CiviCRM 's home dashboard**
 
 If you haven't already created any Event Reports, see the following
 chapter Reports and Analysis for instructions on how to create reports.

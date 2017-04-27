@@ -1,5 +1,4 @@
-Localising CiviCRM
-==================
+# Localising CiviCRM
 
 CiviCRM is written with English-language code and strings for display.
 It has, however, also been built for organisations worldwide. They need
@@ -26,8 +25,7 @@ Administer > Configure > Global Settings > Localization.
 
 ![2](../img/CiviCRM_update-CiviCore-2-en.png "2")
 
-Translations
-------------
+## Translations
 
 CiviCRM accommodates different languages, however the developers rely on
 the community to translate the text displayed. 
@@ -44,8 +42,7 @@ You may find that although the translation is correct, you would want to
 use different terms in your situation. You are very much encouraged to
 take part in the translation of your language.
 
-Facilities
-----------
+## Facilities
 
 A number of facilities in CiviCRM support the community in its
 translation efforts, though some are still under development.
@@ -68,8 +65,7 @@ translation efforts, though some are still under development.
     ([http://wiki.civicrm.org/confluence/display/CRMDOC/Internationalisation+FAQ)](http://wiki.civicrm.org/confluence/display/CRMDOC/Internationalisation+FAQ)
     on the CiviCRM wiki covers localisation.
 
-Getting Started
----------------
+## Getting Started
 
 Feel like helping translating CiviCRM to a new language or improving the
 current translation? Here's how to do it (provided you have a bit of a
@@ -96,8 +92,7 @@ be able to review your translations and give constructive criticism. If
 such a team does not yet exist, the opportunity is all yours to create
 one.
 
-Components and files
---------------------
+## Components and files
 
 There are quite a lot of strings (phrases) to translate in CiviCRM. To
 make it easier to translate the part that you are interested in
@@ -112,8 +107,7 @@ contain the strings to translate. The main component "CiviCRM" (the
 *core*) has close to 20 files (for *countries*, *provinces*, *menu*,
 etc.). 
 
-Tools and technical details
----------------------------
+## Tools and technical details
 
 The process you use to do translation depends on whether you prefer to
 do translation online or offline. Online translation does not require
@@ -193,8 +187,7 @@ tools, also helps to insure consistency. The PoEdit help system
 explains how to build this database (and most other translation software
 should do the same).
 
-Team building and sprints
--------------------------
+## Team building and sprints
 
 A good way to make progress in translation is to organize *translation
 sprints*. This means getting as many people as possible together in the

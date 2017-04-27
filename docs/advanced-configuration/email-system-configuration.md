@@ -1,5 +1,4 @@
-Email system configuration
-==========================
+# Email system configuration
 
 This chapter covers system configuration necessary so that CiviCRM can
 send and receive email. This is a complex task which requires system
@@ -41,8 +40,7 @@ Once your system is properly configured we are going to use cron to
 trigger CiviCRM's **Scheduled Jobs** to ensure your scheduled mailings
 are sent.
 
-Configuring outbound email service
-----------------------------------
+## Configuring outbound email service
 
 Outbound email settings are configured at: **Administer > System
 Settings > Outbound Email (SMTP/Sendmail)**. The choices here are:
@@ -124,8 +122,7 @@ They are several websites that help you testing whether you are in a
 DNSBL. A web search for "blacklisting email" will turn some up. Test
 regularly to find whether you are on a blacklist.
 
-Configuring sender policy framework (SPF)
------------------------------------------
+## Configuring sender policy framework (SPF)
 
 By default, the Internet allows any mail server to send any email
 claiming to be from anyone. This makes it easy for spammers to forge

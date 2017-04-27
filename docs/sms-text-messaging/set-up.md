@@ -1,12 +1,10 @@
-Set-up
-======
+# Set-up
 
 In this chapter, the steps required to set up an SMS gateway will be
 explored. Once configured, you will be able to send text messages to
 individual contacts and mass mailing lists within CiviCRM.
 
-Configuring a Clickatell SMS Gateway
-------------------------------------
+## Configuring a Clickatell SMS Gateway
 
 ### Registering for a Clickatell account
 

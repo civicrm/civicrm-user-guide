@@ -1,5 +1,4 @@
-Postal mail communications
-==========================
+# Postal mail communications
 
 This chapter discusses the different ways that CiviCRM helps with postal
 mail and postal mail campaigns. It will help if you already have a
@@ -7,8 +6,7 @@ strong understanding of CiviCRM's search features as well as custom
 fields, activities, profiles, and how to perform mail merges using word
 processing software.
 
-Planning Your Mailing
----------------------
+## Planning Your Mailing
 
 Before beginning any communication activity, take the time to identify
 your goals and plan the steps. For our purposes, there are a few key
@@ -37,8 +35,7 @@ your organisation, it is recommended that you create your mailing labels
 using a word processor where you can control the sort order, rather than
 in CiviCRM. You can reuse the same spreadsheet for your mail merge.
 
-Greetings and salutations
--------------------------
+## Greetings and salutations
 
 You can set a specific postal greeting format for each contact. There
 are several options from the friendly "Dear John", to more formal "Dear
@@ -51,8 +48,7 @@ in this section, and to the documentation on the wiki at:
 [http://wiki.civicrm.org/confluence/display/CRMDOC/Update+Greetings+and+Address+Data+for+Contacts](http://wiki.civicrm.org/confluence/display/CRMDOC/Update+Greetings+and+Address+Data+for+Contacts)
 
 
-Print PDF letters
------------------
+## Print PDF letters
 
 The workflow is to first select the contacts you want to target, then
 choose to print letter as a batch action. The letters will then be
@@ -99,8 +95,7 @@ You can use this feature for any kind of document, not only letters. For
 example, you could use it to print attendance certificates for a
 workshop.
 
-Generate mailing labels
------------------------
+## Generate mailing labels
 
 Generating mailing labels is a very easy and useful function.
 

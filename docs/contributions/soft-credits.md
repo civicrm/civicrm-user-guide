@@ -1,13 +1,11 @@
-Soft credits
-============
+# Soft credits
 
 Soft credits are a familiar concept to many fundraisers, and are useful
 for a better understanding of the sources of contributions received by
 your organisation. They allow you to assign credit for a donation to
 one or more people who are not the donor.
 
-Soft Credit Types
------------------
+## Soft Credit Types
 
 CiviCRM's soft crediting allows users to assign soft credit types to
 contributions. Assigning an appropriate reserved or custom soft credit
@@ -62,8 +60,7 @@ can be used to view soft credit information.
 
 
 
-Honoree information and profiles
----------------------------------
+## Honoree information and profiles
 
 When creating a contribution page you will have the option to allow your
 end users to make a contribution on behalf of an honoree. To do so you
@@ -83,8 +80,7 @@ honoree.
 
 ![image](../img/soft-credit-honoree-info.png)
 
-Soft credits and personal campaign pages
-----------------------------------------
+## Soft credits and personal campaign pages
 
 The concept of soft credits is closely related to
 [personal campaign page](../contributions/personal-campaign-pages). When someone donates by a

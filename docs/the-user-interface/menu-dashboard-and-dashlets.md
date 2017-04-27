@@ -1,11 +1,9 @@
-Menu, Dashboard and Dashlets
-============================
+# Menu, Dashboard and Dashlets
 
 This chapter gives an overview of CiviCRM's dashboard (it's 'home page')
 and the navigation menu available for people working in CiviCRM.
 
-The navigation menu
--------------------
+## The navigation menu
 
 The navigation menu is a small bar at the top of every "back office"
 page of CiviCRM.
@@ -29,8 +27,7 @@ navigation menu.
 To the left of the navigation menu is the Quick search field. See the
 chapter on Searching for more details. 
 
-The home dashboard & dashlets 
--------------------------------
+## The home dashboard & dashlets 
 
 When you first log into CiviCRM, the first page that you will see is the
 dashboard (CiviCRM Home). The dashboard allows you to see important

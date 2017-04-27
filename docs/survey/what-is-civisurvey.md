@@ -1,5 +1,4 @@
-What is CiviSurvey?
-===============
+# What is CiviSurvey?
 
 CiviCampaign has a feature that enables offline surveys by providing a
 standardised way to record survey responses and to then generate reports
@@ -15,8 +14,7 @@ For Drupal sites only, CiviCampaign interacts with the Drupal module
 CiviEngage to automatically provide additional options for your surveys;
 see the section Civic Engagement for more information.
 
-Scenario: Public housing survey
--------------------------------
+## Scenario: Public housing survey
 
 Toft Organisation For Tenants (TOFT) focuses on protecting tenants'
 rights and lobbying for affordable housing. The organisation wanted to

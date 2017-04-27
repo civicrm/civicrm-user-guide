@@ -1,5 +1,4 @@
-Mapping your data
-=================
+# Mapping your data
 
 Your existing data may be coming from multiple sources, some electronic,
 some paper based and some residing in people's memory. "Mapping" refers
@@ -29,8 +28,7 @@ using "flat" spreadsheets, **relationships** will tie your data
 together. Using relationships, you will be able to create a more
 complete picture of the community that supports your organization. 
 
-Basic information about your constituents
------------------------------------------
+## Basic information about your constituents
 
 CiviCRM comes with default fields to store constituent names, addresses,
 phone numbers, emails, notes and other contact information.
@@ -58,8 +56,7 @@ subtypes.
 To read more on built-in CiviCRM basic constituents fields and how to
 use them, please see the *Contacts* chapter in *Organising Your Data*.
 
-Information about your constituents that is specific to your organization (basic introduction to Custom Fields)
----------------------------------------------------------------------------------------------------------------
+## Information about your constituents that is specific to your organization (basic introduction to Custom Fields)
 
 Many organizations collect data specific to their mission or structure.
 Even though CiviCRM comes with fields to store basic data that all
@@ -74,8 +71,7 @@ individual, organization, or household. Additional information like
 can create custom fields, please see the *Custom fields* chapter in
 *Organising Your Data*.
 
-Relationships between constituents
-----------------------------------
+## Relationships between constituents
 
 Relationships capture current and historical information about how two
 records connect to each other.
@@ -107,8 +103,7 @@ to address the parent and not the child.
 To read more about configuring and using relationships, please see the
 the *Relationships*chapter in *Organising Your Data*. 
 
-Activities
-----------
+## Activities
 
 It is important to know how and when constituents engage with your
 organization. Knowing that someone gives monthly or volunteers
@@ -129,8 +124,7 @@ those provide, such as training, review, exam, support etc.
 To read more about configuring and using activities, please see the
 *Activites* chapter in *Organising Your Data*.
 
-Webinars, events, performances, and meetings (CiviEvents)
----------------------------------------------------------
+## Webinars, events, performances, and meetings (CiviEvents)
 
 CiviCRM helps manage and track any occasion in which you bring community
 members together at a certain place and time. Webinars, events,
@@ -149,8 +143,7 @@ whether someone prefers one kind of event over another.
 To read more about configuring and using relationships, please see the
 *Events* section later in this book.
 
-Memberships
------------
+## Memberships
 
 Many organizations offer a structured program in which community members
 can sign up to receive certain benefits for a pre-defined period of
@@ -193,8 +186,7 @@ years a given constituent has been a member based on the
 To read more about configuring and managing memberships, please see the
 *Memberships*section later in this book.  
 
-Contributions
--------------
+## Contributions
 
 Contribution in CiviCRM refers to money, goods, or services coming in to
 your organization. Money is still money whether someone buys an event
@@ -217,8 +209,7 @@ that someone donated 5 dollars 10 years ago may no longer be relevant.
 To read more about configuring and using relationships, please see the
 *Contributions* section later in this book. 
 
-Campaigns
----------
+## Campaigns
 
 Sometimes organizations host a fundraising gala, send an email appeal,
 and record contributions all to support one goal. E.g., raise $50,000
@@ -233,8 +224,7 @@ Organizations often send several email appeals encouraging donors to
 support a particular project or fundraiser, such as a 'final notice' and
 one or more 'countdown' appeals.
 
-Grouping and tagging constituents
----------------------------------
+## Grouping and tagging constituents
 
 Development directors, volunteer coordinators, and program managers
 store a wealth of information in their heads. They often make decisions
@@ -282,8 +272,7 @@ record.  You can easily add or remove tags, but there is no easy way to
 see the history of changes. Relationships are a much better tool for
 seeing information history.
 
-Profiles
---------
+## Profiles
 
 CiviCRM allows you to pull together sets of fields for different
 purposes, and help you reduce the amount of time staff spends on
@@ -295,8 +284,7 @@ other groups of users, not how your data is stored.
 Read the *Profiles* chapter in this section for detailed information
 about how to make use of profiles.
 
-Where next?
------------
+## Where next?
 
 In the sections above we've tried to describe how your existing data may
 be mapped into CiviCRM. We've only touched on basic CiviCRM

@@ -1,5 +1,4 @@
-Set-up
-======
+# Set-up
 
 Within your online CiviContribute donation form, you may let your
 constituents make pledges for future donations. By allowing pledges,
@@ -17,8 +16,7 @@ For further information on pledges, and creating pledges internally on
 behalf of constituents (i.e. not through an online form), see the
 chapter 'Pledges'.
 
-Enabling pledges
-----------------
+## Enabling pledges
 
 Setting up pledges for online forms is a simple check-box affair. Once a
 contribution page has been created (see the chapter 'Setup'), while

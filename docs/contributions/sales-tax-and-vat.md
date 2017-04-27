@@ -1,5 +1,4 @@
-Sales tax and VAT
-=================
+# Sales tax and VAT
 
 If your organization charges Sales Tax or VAT you should enable
 this feature.
@@ -22,8 +21,7 @@ tax/VAT
 
 ![image](../img/enable_tax_fields.png)
 
-Adding a Financial Account for Sales Tax/VAT
----------------------------------------------
+## Adding a Financial Account for Sales Tax/VAT
 
 Once Sales Tax/VAT is enabled you need to create one or more Financial
 Accounts for Tax/VAT at **Administer > CiviContribute > Financial

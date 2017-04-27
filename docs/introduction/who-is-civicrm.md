@@ -1,5 +1,4 @@
-Who is CiviCRM?
-===============
+# Who is CiviCRM?
 
 CiviCRM has a unique and diverse community centred around developing,
 using, and documenting the software. Our community includes the CiviCRM
@@ -23,8 +22,7 @@ as a collection of very kind, generous and clever people, then you are
 probably not going to get much of a response. Treat people well and you
 can find the CiviCRM community fun and rewarding.
 
-History
--------
+## History
 
 CiviCRM started in 2004 by Dave Greenberg, Donald Lobo and Michal Mach.
 The founders had a lot of previous experience working with non-profit
@@ -49,8 +47,7 @@ Amnesty International, Creative Commons, Electronic Frontier
 Foundation, Free Software Foundation, Mozilla, and Wikimedia Foundation
 use CiviCRM.
 
-It's good to talk
------------------
+## It's good to talk
 
 CiviCRM is an open and learning community, and people are ready to hear
 your ideas. If you have a good idea, there's nothing to stop you
@@ -72,8 +69,7 @@ wiki ([http://wiki.civicrm.org/](http://wiki.civicrm.org/)), a
 teleconference or a meeting up with another community member in real
 life, yes that's right, REAL LIFE!
 
-Be the change
--------------
+## Be the change
 
 So you have a great idea. Now you need an equally great action plan to
 accompany this idea and then you'll need to implement it. Although the
@@ -84,8 +80,7 @@ fit it in with your day job? Finding a way to simultaneously achieve
 your own objectives and benefiting the CiviCRM community is the best way
 of getting things done.
 
-And finally...
---------------
+## And finally...
 
 If you're a CiviCRM user who has an ongoing relationship with a
 consultant, there's nothing to stop you from also being an active member

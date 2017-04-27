@@ -57,8 +57,7 @@ CiviCRM. For example you can setup Access Control in CiviCRM to restrict
 access to contacts but if the Drupal permission 'Access All Contacts' is
 set anyone with that role will be able to see all contacts regardless.
 
-Drupal Taxonomies, Content Access, or other Role-based User Access Modules
----------------------------------------------------------------------------
+## Drupal Taxonomies, Content Access, or other Role-based User Access Modules
 
 There are several Drupal Modules that determine what
 Drupal **Roles** have access to which types of content in your Drupal
@@ -75,8 +74,7 @@ based on Drupal **Roles** are:
 - [Content Access](http://drupal.org/project/content_access)
 - [Taxonomy Access Control](http://drupal.org/project/taxonomy_access)
 
-Drupal Views
---------------
+## Drupal Views
 
 [Views](http://drupal.org/project/views) is a powerful Drupal module
 that allows you to display website content e.g. a list of latest news
@@ -149,8 +147,7 @@ examples to get started with.
 -   A list of current members
 -   ...and more!
 
-Webform CiviCRM Integration
----------------------------
+## Webform CiviCRM Integration
 
 Just as Views can *output* data in virtually any way imaginable, this
 module allows you to have data *input* exactly the way you want. The
@@ -172,8 +169,7 @@ functionality.
 For more information see:
 <http://wiki.civicrm.org/confluence/display/CRMDOC/Webform+CiviCRM+Integration>.
 
-CiviCRM Organic Groups Sync
----------------------------
+## CiviCRM Organic Groups Sync
 
 The [Organic Groups CiviCRM module](http://drupal.org/project/og_civicrm)
 integrates Organic Groups from a Drupal site with CiviCRM groups. This
@@ -207,8 +203,7 @@ Drupal Organic Group, and if you delete the CiviCRM group, the Drupal
 Organic Group will still remain. Therefore, this integration is meant to
 be used when you administer the group from the Drupal side.
 
-CiviGroup Roles Sync
---------------------
+## CiviGroup Roles Sync
 
 The CiviGroup Roles Sync module allows administrators of Drupal Websites
 to streamline the user experience for donors and staff. The CiviGroup
@@ -265,8 +260,7 @@ screen.
 You can always edit or delete existing association rules from the same
 configuration screen.
 
-CiviMember Roles Sync
----------------------
+## CiviMember Roles Sync
 
 The CiviMember Roles Sync module allows administrators of Drupal
 Websites to streamline the user experience for organization members. The

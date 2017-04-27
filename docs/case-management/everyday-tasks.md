@@ -1,11 +1,9 @@
-Everyday Tasks
-==============
+# Everyday Tasks
 
 This chapter describes a list of everyday tasks that you might perform
 using CiviCase, and how to go about them.
 
-Viewing the Case Dashboard
---------------------------
+## Viewing the Case Dashboard
 
 The Case Dashboard gives you an easy way to keep track of case-related
 tasks. It provides:
@@ -44,8 +42,7 @@ status of the case, print a case report, or view case roles.
 To add a new case from the Case Dashboard, click the **Add Case** button
 at the top left of the content area.
 
-Finding cases
--------------
+## Finding cases
 
 If you know the Case ID, you can quickly find the case by using
 full-text search, either from **Search > Custom Search > Fulltext
@@ -77,8 +74,7 @@ that the returned results fulfill *at least one* of the selections in
 the criteria set (in this example, cases must match at least one of the
 case types). 
 
-Opening a new case
-------------------
+## Opening a new case
 
 You can open a new case with either an existing contact or a new contact
 not yet in your system.
@@ -175,8 +171,7 @@ steps:
     **Cancel** discards the case data you have entered and sends you
     back to the CiviCRM dashboard.
 
-Manage Case Page
-----------------
+## Manage Case Page
 
 The manage case page gives users the ability to manage all aspects of a
 particular case on a single screen, including:
@@ -191,8 +186,7 @@ particular case on a single screen, including:
 
 ![image](../img/z-CiviCrm-4.5-mange-case-new.png)
 
-Assigning case roles
---------------------
+## Assigning case roles
 
 You can assign case roles to contacts who are working on the case or
 need to stay informed about case activities. Users who have access to
@@ -235,8 +229,7 @@ the list of case activities in the proper sequence. This provides an
 audit trail of case-related communications, and ensures that the case
 story is complete. 
 
-Finding activities within a case
---------------------------------
+## Finding activities within a case
 
 You may need to find a specific activity within a case, for reference or
 modification. To view the activities in the case, scroll down to the
@@ -267,8 +260,7 @@ activities not matching your criteria.
 
 ![image](../img/z-CiviCrm-4.5-mange-activity.png) 
 
-Adding and managing activities
-------------------------------
+## Adding and managing activities
 
 Several tasks are commonly performed on activities. After performing the
 necessary work, click the **Save** button to save the activity and be
@@ -328,8 +320,7 @@ The set of activities will be added to case.
 The attachment will not be saved into CiviCRM until you have saved the
 activity.
 
-Editing an activity in a case
------------------------------
+## Editing an activity in a case
 
 To edit an activity in a case:
 
@@ -353,8 +344,7 @@ You can assign multiple contacts to an activity. If you accidentally
 select the wrong contact, click the X by the contact's name to remove
 him from the list. 
 
-Updating the status of case activities
---------------------------------------
+## Updating the status of case activities
 
 You can quickly update the status of an activity from the Activities
 table (without opening the activity edit form):
@@ -367,8 +357,7 @@ table (without opening the activity edit form):
 3.  This brings up a pop-up form where you can select a new status.
     Click Ok to save your update. 
 
-Changing the status of a case
------------------------------
+## Changing the status of a case
 
 The case status lets you quickly determine how a case is progressing.
 Sample status values include Ongoing, Resolved, Not Assigned, and

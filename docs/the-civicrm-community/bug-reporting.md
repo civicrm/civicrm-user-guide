@@ -1,5 +1,4 @@
-Bug Reporting
-=============
+# Bug Reporting
 
 As with all software, there may be times when CiviCRM
 doesn't work the way you expect it to.
@@ -18,8 +17,7 @@ trying to do it. For example letting people know the url you are using
 you are configuring the wrong page. Unclear posts are less likely to get
 good replies.
 
-Using older versions of CiviCRM
--------------------------------
+## Using older versions of CiviCRM
 
 If you are using an older version and the problem you are experiencing
 is a bug that has been fixed in the lastest release, be prepared for the
@@ -28,8 +26,7 @@ CiviCRM community tries to be as helpful as possible, and we recognize
 that upgrading puts a burden on your organisation, it is difficult to
 support multiple versions simultaneously.
 
-What causes problems with CiviCRM?
-----------------------------------
+## What causes problems with CiviCRM?
 
 Check the following possible sources of problems before you report
 something on a forum. You can save yourself and a lot of people trouble
@@ -71,8 +68,7 @@ first.
     a bug. In fact, we appreciate you doing this, because you are making
     CiviCRM better for everyone.
 
-Recreating your problem on the demo site
-----------------------------------------
+## Recreating your problem on the demo site
 
 Recreating your bug on one of the demo sites
 ([http://demo.civicrm.org](http://demo.civicrm.org) and select the demo
@@ -100,8 +96,7 @@ If the forum suggests you discovered a bug in CiviCRM, you can report it
 to the CiviCRM issue tracker
 [](http://issues.civicrm.org/jira/browse/CRM)[http://issues.civicrm.org/jira/browse/CRM](http://issues.civicrm.org/jira/browse/CRM).
 
-Writing good bug reports
-------------------------
+## Writing good bug reports
 
 The best bug reports give lots of background and context. Don't forget
 that the way you are using CiviCRM is most likely very specific to your
@@ -122,8 +117,7 @@ The best bug reports clearly state:
     reported by some but can't recreate it or not consistently, bug
     happens when using this browser but not another browser, etc.)
 
-Fixing bugs
------------
+## Fixing bugs
 
 The amount of time taken for the bug to be fixed depends on the severity
 and complexity of the bug. It could be as quick as the same day, but it

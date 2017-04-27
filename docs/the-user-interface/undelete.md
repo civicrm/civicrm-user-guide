@@ -1,5 +1,4 @@
-Undelete
-========
+# Undelete
 
 By default, deleted contacts are sent to the trash, and may be recovered
 at a later date by an administrator (or anyone holding the "access

@@ -1,5 +1,4 @@
-What You Need To Know
-=====================
+# What You Need To Know
 
 CiviEngage is designed to manage interactions with constituents that
 happen as part of an organisation's civic engagement and base-building
@@ -13,8 +12,7 @@ using CiviEngage.
 CiviEngage enhances the use of CiviCampaign, and they are designed to be
 used together. Read more about CiviCampaign in the Campaign section. 
 
-Key Concepts
-------------
+## Key Concepts
 
 Understanding the following concepts will enable you to use CiviEngage
 effectively.
@@ -173,8 +171,7 @@ These subtypes allow you to track specific contacts such as funders and foundati
 See the next chapter, Set-up, for information about how to tailor
 subtypes.
 
-Key Questions
--------------
+## Key Questions
 
 The following questions are designed to help you make best use of
 CiviEngage.

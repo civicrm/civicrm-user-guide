@@ -1,5 +1,4 @@
-Logging
-=======
+# Logging
 
 ![Screenshot of default logging](../img/configuration-default-logging.png)
 
@@ -13,8 +12,7 @@ One key missing piece, however, is information about *what* was
 changed. Detailed logging adds information on what has changed and
 provides many other features.
 
-Detailed logging
-----------------
+## Detailed logging
 
 When enabled, detailed logging tracks all changes made to data in
 CiviCRM. Each time something is updated, CiviCRM keeps a note of:
@@ -47,8 +45,7 @@ in CiviCRM and let people turn it on if they require it. Before you
 decide whether you want to turn on logging, you might want to have a
 look at other ways in which time based logging happens in CiviCRM.
 
-Activities vs. logging
-----------------------
+## Activities vs. logging
 
 The use of activities to record data in CiviCRM is often useful as an
 alternative to logging. Since each activity happens at a specific point
@@ -60,8 +57,7 @@ activity log provides a good enough log of changes to contacts over
 time, and supplementing that with a couple of manually recorded
 activities may cater adequately enough for your logging needs.
 
-Membership logs
----------------
+## Membership logs
 
 In a similar way to activities, over time a membership will grow into a
 historical record of the membership, with a record of any contributions
@@ -69,8 +65,7 @@ that went toward that membership and any renewals, up-sells, etc. It
 might be that this out-of-the-box logging meets your needs and means
 that you don't need to turn on detailed logging.
 
-Reverting changes
------------------
+## Reverting changes
 
 One of the great benefits of turning on detailed logging is the ability
 to revert any changes that you make to you data. For a lot of contact

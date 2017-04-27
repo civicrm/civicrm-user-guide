@@ -1,13 +1,11 @@
-What You Need To Know
-=====================
+# What You Need To Know
 
 Before you create a campaign, it's a good idea to review the concepts in
 this chapter to understand how CiviCampaign can best help you manage
 your work, and consider the key questions in relation to your
 organisation's specific needs.
 
-Key Concepts
-------------
+## Key Concepts
 
 Your organisation will likely have its own campaign strategies and
 processes. CiviCampaign is a tool that you can use in conjunction with
@@ -30,8 +28,7 @@ individuals' activities related to the campaign. This allows you to to
 make periodic and overall evaluations of the effectiveness of your
 activities, strategies and outreach efforts.
 
-Key Questions
---------------
+## Key Questions
 
 Answer these questions in the context of your organisation or a specific
 campaign:
@@ -50,8 +47,7 @@ campaign:
 -   What kind of reports will be useful for monitoring progress and
     evaluating the campaign at its conclusion?
 
-CiviEngage and CiviCampaign
----------------------------
+## CiviEngage and CiviCampaign
 
 CiviEngage is a Drupal only feature that enhances CiviCampaign with more
 functionality for surveys and pre-configures your installation of

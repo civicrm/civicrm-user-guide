@@ -1,5 +1,4 @@
-Extensions
-==========
+# Extensions
 
 Extensions provide additional functionality to core CiviCRM. Extensions
 are the recommended way to create new features and change the way that
@@ -12,8 +11,7 @@ extensions* that are useful for multiple organizations. Extensions that
 are useful to multiple organisations can be published in the CiviCRM
 extensions directory. 
 
-The extensions directory
-------------------------
+## The extensions directory
 
 The extensions directory is available at
 [https://civicrm.org/extensions](https://civicrm.org/extensions). It
@@ -36,8 +34,7 @@ called **Drupal Modules** and Wordpress specific extensions are called
 Extensions that have been approved for automated distribution can be
 easily installed directly from your CiviCRM installation. 
 
-Installing extensions
----------------------
+## Installing extensions
 
 When configured correctly, extensions can be installed directly into
 CiviCRM via the user interface. Go to **Administer > System Settings >
@@ -52,8 +49,7 @@ If you do not see a list of extensions here, it may be that your system
 is not properly configured to manage extensions. You should consult your
 system administrator if this is the case. 
 
-Writing extensions 
---------------------
+## Writing extensions 
 
 Anyone is free to write an extension to enhance their CiviCRM
 installation (or commission someone to do so). Writing an extension is

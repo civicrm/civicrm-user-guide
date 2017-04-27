@@ -1,11 +1,9 @@
-Reports and analysis
-====================
+# Reports and analysis
 
 You can use CiviReport or CiviCRM's search features for reporting on and
 analysing contributions.
 
-Contribution reports
---------------------
+## Contribution reports
 
 Out of the box, CiviCRM comes with thirteen contribution reports
 designed to help you analyse your contributions.
@@ -64,8 +62,7 @@ The **bookkeeping transactions report** provides transaction details for
 all payments, including financial type and accounts, transaction number,
 invoice ID, payment instrument and check number.
 
-More analysis
--------------
+## More analysis
 
 These standard reports has been configured to display particular information
 and they may not provide what you need. You can

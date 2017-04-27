@@ -1,5 +1,4 @@
-Invoicing
-=========
+# Invoicing
 
 Invoicing works for all Financial Types and Completed and Pending
 Contribution Statuses and has to be enabled. To enable invoicing go
@@ -15,8 +14,7 @@ In this screen you can set certain settings for invoices as well:
 
 ![image](../img/civicontribute_comp_settings.png)
 
-Creating an Invoice
---------------------
+## Creating an Invoice
 
 Once Invoicing has been enabled, you can easily email or print invoices
 for Complete or Pending Contributions from a contact's **Contribution**
@@ -46,8 +44,7 @@ Here is an example of a printed invoice. Invoices can be customized.
 
 ![image](../img/invoice.png)
 
-Invoice Customization
------------------------
+## Invoice Customization
 
 The out of the box template code populates the Company Name, Address,
 and Website Information listed on the top right of invoices come

@@ -1,5 +1,4 @@
-Repeating Events
-================
+# Repeating Events
 
 You can set an Event to repeat on a certain day and time with a specific
 end date and include dates to exclude from the repetition.

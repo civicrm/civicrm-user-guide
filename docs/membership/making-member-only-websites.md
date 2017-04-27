@@ -1,5 +1,4 @@
-Making member only websites
-===========================
+# Making member only websites
 
 CiviMember can be used in conjunction with your CMS to create a
 members-only section of your website. Each CMS has it's own integration

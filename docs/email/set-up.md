@@ -1,5 +1,4 @@
-Set-up
-======
+# Set-up
 
 This chapter describes how to set up information such as From email
 addresses, Mailing List Groups and email templates. It assumes that the
@@ -7,8 +6,7 @@ basic functionality necessary for your server to send and process emails
 in the first place has already been configured. See *Email System
 Configuration* in *Advanced configuration* for details.
 
-Configuring your organisation's contact information
----------------------------------------------------
+## Configuring your organisation's contact information
 
 In order to send mass emails you must fill in some basic information:
 your organisation's name, a short description, your email address, and
@@ -21,8 +19,7 @@ mail sent with CiviMail.
 To configure this information, go to: **Administer > Communications >
 Organization Address and Contact Info**.
 
-Mailing groups
---------------
+## Mailing groups
 
 CiviMail uses Groups to organise recipients of mass mailings. To create
 a group, go to **Contacts > New Group**. When you create and configure
@@ -62,8 +59,7 @@ You cannot create smart groups based on Membership, Contributions or
 Pledge searches, or based on results of an Advanced Search if the
 "Display results as" option is set to anything but Contacts.
 
-Allow people to sign up for your mailing lists online
--------------------------------------------------------
+## Allow people to sign up for your mailing lists online
 
 CiviCRM makes it possible for people to sign themselves up for your
 mailing lists online.
@@ -163,8 +159,7 @@ will be sent a welcome message. (Note: When users subscribe to multiple
 groups at once, a confirmation email is sent for each group
 separately.)
 
-Scheduled jobs and cron jobs
-----------------------------
+## Scheduled jobs and cron jobs
 
 After people have signed up on your mailing list(s), you will want to be able to send them mass mailings. You will also want to automatically handle any bounced email messages. These topics are dealt with in detail in the **Everyday tasks** and **Maintaining Healthy Email Lists** parts of this book, respectively. Here in this section we are going to look at some backend and server options that enable the sending of mass mailings and the bounce handling to happen.
 
@@ -172,8 +167,7 @@ Go to **Administer > System Settings > Scheduled Jobs** and you will see all sch
 
 Now, CiviCRM's scheduled jobs cannot self-trigger themselves. Something on your server has to trigger them. The most common option for this is to set up a cron job on your server. This cron job can trigger one or more (or all) of the scheduled jobs. For more detailed explanations and examples of how to do this, see the [Managing Scheduled Jobs](http://wiki.civicrm.org/confluence/display/CRMDOC/Managing+Scheduled+Jobs) wiki page.
 
-Automated Messages and mailing list management
-------------------------------------------------
+## Automated Messages and mailing list management
 
 CiviCRM sends emails automatically when your participants take certain
 actions:
@@ -195,8 +189,7 @@ For more information on email list management see the chapter entitled
 **Maintaining Healthy Email Lists** which explores how CiviCRM handles
 unsubscribes, bounces and email holds.
 
-Creating and maintaining message templates
-------------------------------------------
+## Creating and maintaining message templates
 
 Message templates help to streamline your communications by allowing you
 to reuse entire emails or parts of emails in both mass mailings and when
@@ -305,8 +298,7 @@ To create a plain text version of a message from HTML:
 3.  If the HTML version contained tables, modify the layout of your text
     manually to ensure the text version is readable.
 
-Creating headers and footers
-----------------------------
+## Creating headers and footers
 
 Headers and footers can be used only in mass mailings using CiviMail.
 They are not available unless CiviMail is enabled.
@@ -339,8 +331,7 @@ creation pages do not offer a WYGIWYG editor. You will need to write
 header and footer HTML directly or use another HTML editor to produce
 the HTML code.
 
-Testing templates
------------------
+## Testing templates
 
 Once your templates are ready, we strongly recommend that you test them
 in various email clients, such as Mozilla Thunderbird, MS Outlook, Mac
@@ -355,8 +346,7 @@ layout as possible in the templates so that each new mailing will not
 require too much reviewing, since the template will have already been
 tested.
 
-Auto-filing email conversations in CiviCRM
-------------------------------------------
+## Auto-filing email conversations in CiviCRM
 
 It is possible to have emails sent to and from your regular email client
 automatically filed in CiviCRM. This is done by including a designated

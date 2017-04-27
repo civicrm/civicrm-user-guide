@@ -1,5 +1,4 @@
-Credits
-=======
+# Credits
 
 About this book 
  

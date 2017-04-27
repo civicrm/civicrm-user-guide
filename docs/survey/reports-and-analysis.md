@@ -1,11 +1,9 @@
-REPORTS AND ANALYSIS
-====================
+# REPORTS AND ANALYSIS
 
 You can use the Survey Report (Detail) to analyse the results of your
 surveys
 
-Review Survey Results in a Report
----------------------------------
+## Review Survey Results in a Report
 
 1.  Go to **Administer > CiviReport > Create New Report from
     Template.**

@@ -1,12 +1,10 @@
-Everyday tasks
-==============
+# Everyday tasks
 
 This chapter contains step-by-step instructions for performing some important
 everyday tasks with email. Sending a mass mailing through CiviMail is covered
 in [Mass mailings using CiviMail](../email/mass-mailings-using-civimail)
 
-Send an email to one person (with CC and BCC)
------------------------------------------------
+## Send an email to one person (with CC and BCC)
 
 You can use CiviCRM to send an email to individuals. Using CiviCRM for
 this purpose is useful if you want other people at your organisation to
@@ -39,8 +37,7 @@ template.
 To see the activity that was just recorded of the email sent, click the
 Activities tab of the contact.
 
-Sending a quick email to less than 50 contacts
-----------------------------------------------
+## Sending a quick email to less than 50 contacts
 
 In the results from a search, CiviCRM makes "Send Email to Contacts"
 available from the actions dropdown menu. This allows you to send an
@@ -69,8 +66,7 @@ recipients don't see who else received the email, you might want to
 mention whom you are sending it to in the text of your mail (for
 instance: "TO: Members of the board, staff")
 
-Inserting an image in an email
-------------------------------
+## Inserting an image in an email
 
 Click the **image button** in the WYSIWYG editor.
 

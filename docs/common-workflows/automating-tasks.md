@@ -1,5 +1,4 @@
-Automating tasks
-================
+# Automating tasks
 
 If you find yourself making the same set of decisions regularly, more
 often than not, CiviCRM can free you from having to make them again.

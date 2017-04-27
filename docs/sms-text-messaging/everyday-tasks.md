@@ -1,13 +1,11 @@
-Everyday tasks
-==============
+# Everyday tasks
 
 Here we assume that you have already configured an SMS provider in
 CiviCRM, and are now ready to either test sending an SMS, or engage with
 your contacts. If you have yet to set up an SMS gateway, please read
 "Set-up" first.
 
-Sending text messages
-----------------------
+## Sending text messages
 
 SMS messages can be sent to mailing lists or the results of an advanced
 search for bulk SMS blasting, or a selection of individuals chosen

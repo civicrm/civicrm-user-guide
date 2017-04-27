@@ -1,5 +1,4 @@
-Online membership sign up
-=========================
+# Online membership sign up
 
 This chapter explains how to allow visitors to your website to sign up
 as members of your organisation. It looks at the steps necessary to
@@ -11,8 +10,7 @@ Before reading this chapter, you may wish to read the chapter *Defining
 memberships* which gives useful background to many concepts (like
 membership types, membership statuses, and so on).
 
-About membership sign up pages
---------------------------------
+## About membership sign up pages
 
 Membership sign up pages are created in the same way as online
 contribution pages. In essence, you create an online contribution page
@@ -217,8 +215,7 @@ details.
 
 ![image](../img/membership-profiles.png)
 
-Testing membership sign up pages
---------------------------------
+## Testing membership sign up pages
 
 Once you finish configuring and setting up your membership page, you are
 advised to test drive the process to make sure everything is working
@@ -253,8 +250,7 @@ feedback from people who have recently become members to see how easy it
 was for them to become a member and ask their opinions on ways in which
 you could improve your form.
 
-Adding membership sign up pages to your website
------------------------------------------------
+## Adding membership sign up pages to your website
 
 Once you've made your contribution page, you need to make it visible on
 your website. The method for this depends on the CMS. Instructions for
@@ -301,8 +297,7 @@ front of your website in Joomla is by creating a menu item.
 -   Save the menu item and view the website to confirm the page's
     functionality.
 
-Permissions needed for online membership sign up/renewal.
----------------------------------------------------------
+## Permissions needed for online membership sign up/renewal.
 
 Anonymous and Authenticated roles need the following CMS permissions to
 be able to join or renew online:

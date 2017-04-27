@@ -1,5 +1,4 @@
-Tokens and mail merge
-=====================
+# Tokens and mail merge
 
 You can use data in your CiviCRM database to set up mail merge
 communications both for emails and printed materials such as letters and
@@ -8,8 +7,7 @@ represent items in your database. This chapter explains how tokens work
 and how to use them in generating printing materials. Using tokens in
 emails is further addressed in the Email section of this book.
 
-Tokens
-------
+## Tokens
 
 Tokens are the equivalent of mail merge fields in CiviCRM. This means
 that it is possible to insert information from the database into an

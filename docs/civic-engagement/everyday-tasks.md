@@ -1,11 +1,9 @@
-Everyday Tasks
-==============
+# Everyday Tasks
 
 This chapter provides instructions on how to do some of the common tasks
 using CiviEngage.
 
-Conducting a door-knock canvass
--------------------------------
+## Conducting a door-knock canvass
 
 CiviEngage allows you to easily print walk lists for your volunteers or
 staff who are doing door-knocking activities and want to conduct a
@@ -101,8 +99,7 @@ At the end of the canvass, a program lead may want to review the results
 of the survey. Refer to the chapter Reports and Analysis to learn how to
 view this report.
 
-Conducting a PhoneBank
-----------------------
+## Conducting a PhoneBank
 
 CiviEngage allows you to easily to enter responses from constituents
 during a PhoneBank directly into CiviCRM.
@@ -169,8 +166,7 @@ At the end of the phone bank, a program lead may want to review the
 results of the survey. Refer to the chapter Reports and Analysis to
 learn how to view this report.
 
-Mobilising Individuals to a Direct Action Event
------------------------------------------------
+## Mobilising Individuals to a Direct Action Event
 
 The Participant Info custom data group that comes with CiviEngage
 contains fields that hold information about prospective event
@@ -212,8 +208,7 @@ be used to mobilise individuals:
 -   **Update Participant Info** - to record general information about
     participants, such as if they need childcare or rides to the event.
 
-Using the Engagement Index
---------------------------
+## Using the Engagement Index
 
 You can record the level of interest or engagement in a specific
 activity by of an individual contact. This allows you to then review an
@@ -233,8 +228,7 @@ actions: **Phone Call, Meeting** or **Interview**.
 
 ![image](../img/engagement%20index.jpg)
 
-Manage Voter Information
-------------------------
+## Manage Voter Information
 
 CiviEngage enables you to manage voter history and other voter
 information collected during a voter engagement, voter education or

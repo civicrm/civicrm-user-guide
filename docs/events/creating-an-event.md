@@ -1,5 +1,4 @@
-Creating an event
-=================
+# Creating an event
 
 This chapter covers how to create a new event, describing each of the
 set up options available in the event creation screen. If you going to
@@ -12,8 +11,7 @@ from the menu. (If you can't see the events menu, make sure that you
 have enabled the Events component. You can do this in **Administer >
 System Settings > Components**.)
 
-Event Information and Settings
-------------------------------
+## Event Information and Settings
 
 The first page you see when creating an event requests basic information
 about the event. You can click on any of the blue question marks to
@@ -96,8 +94,7 @@ return later to review and modify any of the settings.
 To return to a saved event, navigate to **Events > Manage Events** and
 click **Configure** to continue working on the event.
 
-Event Location
---------------
+## Event Location
 
 The next step is to complete the location and contact details for the
 event.
@@ -115,8 +112,7 @@ organizers directly. If the event is being held off-site from your
 organization's primary location, you may also want to provide contact
 information for the meeting location.
 
-Fees
-----
+## Fees
 
 If the event is free, set the **Paid Event** radio button to **No**,
 then click **Save** and skip to Online Registration.
@@ -156,8 +152,7 @@ options or additional add-ons, you may wish to use **price sets** or
 **discounts**. For more information about this, see the *Complex event
 fees* chapter in this section.
 
-Online registration
---------------------
+## Online registration
 
 Allowing people to register online (self-service) through your web site
 offers many benefits. Online registration is convenient for your
@@ -167,8 +162,7 @@ Registration** and move onto the next step. If you do want to allow
 online registration, please see the *Online event registration* chapter
 in this section.
 
-Scheduled reminders
--------------------
+## Scheduled reminders
 
 Scheduled reminders can be used to automatically send event registrants
 emails at certain times before or after events, for example
@@ -199,8 +193,7 @@ templates.  The idea is basically the same as above, but you can access
 this functionality from **Administer > Communications > Scheduled
 reminders**.
 
-Tell-A-Friend
--------------
+## Tell-A-Friend
 
 CiviEvent makes it easy to leverage the social networking power of your committed
 constituents by empowering them to quickly and easily share details
@@ -218,8 +211,7 @@ to track your most active supporters and engage them further. The people
 who are emailed using this feature are also automatically added to
 CiviCRM as contacts.
 
-Registration confirmation and receipting
-----------------------------------------
+## Registration confirmation and receipting
 
 You can send automated confirmation and receipt emails to participants
 who register for an event, whether they register online or are registered

@@ -1,5 +1,4 @@
-What is CiviPetition?
-===================
+# What is CiviPetition?
 
 CiviCampaign includes a function that lets you create a petition to
 publicly gather responses and information online.
@@ -14,8 +13,7 @@ best used as an online survey when you don't know who will be
 responding, e.g. you may put your petition on your website, so anyone
 can submit responses. 
 
-Scenario: City Council petition
--------------------------------
+## Scenario: City Council petition
 
 Townsville Organisation for Tenants (TOFT) wanted to demonstrate to the
 Townsville City Council the public's dissatisfaction or satisfaction

@@ -1,5 +1,4 @@
-The CiviCRM Community
-=====================
+# The CiviCRM Community
 
 Like many open source projects, CiviCRM is shaped, guided, and driven by
 its community, a far-flung ecosystem of users, developers, and
@@ -11,8 +10,7 @@ the public stream of discussion and collaboration. This chapter is a
 guide to finding and engaging in the community of people who are working
 together to make CiviCRM what it is and what it will become.
 
-Finding the Community Online
-----------------------------
+## Finding the Community Online
 
 As might be expected of a web-based software project, much of the
 CiviCRM community's activity occurs online. This means that if you have
@@ -95,8 +93,7 @@ publicize them through Twitter. To keep abreast of the stream of
 comments, follow @civicrm and find CiviCRM tweets and tag your own
 tweets with the #civicrm hashtag.
 
-Finding the Community Offline
------------------------------
+## Finding the Community Offline
 
 Though the online community is both accessible and active, participating
 in the CiviCRM community offline can be even more rewarding and can help
@@ -127,8 +124,7 @@ globe. Check out [http://civicrm.org](http://civicrm.org) for info about
 upcoming trainings and contact CiviCRM if you'd like to host trainings
 in your own area.
 
-Open Source = Community Sourced
--------------------------------
+## Open Source = Community Sourced
 
 Here are some additional ways that you can participate in and contribute
 to the CiviCRM community.

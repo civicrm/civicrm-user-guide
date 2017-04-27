@@ -1,5 +1,4 @@
-Groups and tags
-===============
+# Groups and tags
 
 Groups and tags are two key methods of organising data in CiviCRM. When
 used properly, both allow for powerful segmentation and searching of
@@ -22,8 +21,7 @@ could categorise contacts while *Volunteer Committee, Allied
 Organisations Coalition, Vegetarian Newsletter*, and *This Awesome Band
 With A Bad Name* would be groups to which you could add contacts.
 
-Groups
-------
+## Groups
 
 Groups are an incredibly important feature within CiviCRM. In addition
 to their fundamental use as collections of contacts that have something
@@ -110,8 +108,7 @@ be used for a variety of operations. For example, the group ID can be
 used to define a URL for group sign-ups. You can find a group's ID by
 checking the ID column in the tabled list of groups at **Navigation Menu > Contacts > Manage Groups**.
 
-Tags
-----
+## Tags
 
 **Tags** are used to categorise contacts, activities and cases in
 CiviCRM. You can create as many tags as needed to classify the contacts
@@ -120,8 +117,7 @@ tags or adding too many tags that aren't really necessary. It can be
 useful to create a standard process for creating and using tags within
 your organisation to avoid these problems.
 
-Groups versus tags {#groups-vs-tags}
-------------------
+## Groups versus tags {#groups-vs-tags}
 
 This is a common question on any project, and the philosophy described
 in the introduction of this chapter is a guideline, but rules might need
@@ -218,8 +214,7 @@ Group option at the top of the screen.
 Contacts can also be added to a group as a result of filling out a
 Profile (see below).
 
-Managing Groups
----------------
+## Managing Groups
 
 To view and manage all groups, go to: Navigation Menu > Contacts >
 Manage Groups.
@@ -241,8 +236,7 @@ You can:
     menu.
 -   see how many contacts are currently in each group.
 
-Finding contacts in a group
----------------------------
+## Finding contacts in a group
 
 The Contacts page for each group includes a form for finding contacts
 within the group. You can search contacts within a group by name, email
@@ -251,8 +245,7 @@ tags.
 
 ![Groups_searchwithin](../img/CiviCRM_update-CiviCore-Groups_searchwithin-en.jpg "Groups_searchwithin")
 
-Groups and ACL
---------------
+## Groups and ACL
 
 Access Control Lists (ACL) provide finer grained permissioning than what
 is available through Drupal's Permissions and Roles. Setting up ACLs
@@ -267,8 +260,7 @@ before you can use them in ACL.
 
 Note that ACL support for Joomla was introduced in Joomla version 1.6.
 
-Working with tags
------------------
+## Working with tags
 
 To view tags, go to: **Contacts > Manage Tags (Categories)** in the
 navigation menu.
@@ -304,8 +296,7 @@ ways:
 
 You can also use the first two methods to remove tags.
 
-Tag sets
---------
+## Tag sets
 
 Tag sets are a free-form way of tagging contacts and are similar to
 regular tags, but they differ from regular tags in a few key ways:

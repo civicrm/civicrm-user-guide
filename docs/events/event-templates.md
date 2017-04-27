@@ -1,5 +1,4 @@
-Event templates
-===============
+# Event templates
 
 If you need to set up a number of events with similar configurations,
 you can streamline the process using event templates.

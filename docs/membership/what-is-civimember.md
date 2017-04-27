@@ -1,5 +1,4 @@
-What is CiviMember
-==================
+# What is CiviMember
 
 CiviMember is the CiviCRM component that provides functionality to
 support and automate the management of memberships. CiviMember allows
@@ -43,8 +42,7 @@ one or more memberships. The contact may be an individual, a household,
 an organisation, or some other contact sub-type, but it is always a
 contact to which a membership is applied.
 
-Scenario: Driving membership forward
-------------------------------------
+## Scenario: Driving membership forward
 
 The Atlantic Region Public Transit Association (ARPTA) has a complex
 requirement with four membership categories:

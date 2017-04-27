@@ -1,5 +1,4 @@
-Searching
-=========
+# Searching
 
 This chapter covers different ways to find information you've stored in
 CiviCRM. Two of the techniques in this chapter - finding contacts and
@@ -31,8 +30,7 @@ limitations. For example, you can't group results by particular
 criteria, summarize, or easily produce graphs of the results. For more
 advanced reporting, see the *CiviReport* section.
 
-Quick search
---------------
+## Quick search
 
 ![Quicksearch](../img/quicksearch.png)
 
@@ -54,8 +52,7 @@ letters.
 
 Note: If you search by **phone** then you will need to enter the digits of the phone number without any formatting. The **phone** search is done against a field that consists only of digits with all non-numeric characters stripped out.
 
-Advanced search
----------------
+## Advanced search
 ![Screen shot of advanced search](../img/user-interface-advanced-search-main-screen.png)
 
 Advanced search allows you to search across all the information you have
@@ -180,8 +177,7 @@ that live in Alaska or in Arizona.
 
 ![Screen shot of combining search criteria](../img/user-interface-searching-states.png)
 
-Search Builder
---------------
+## Search Builder
 
 Advanced search lets you choose from a wide range of criteria in a
 user-friendly panel, but this has limitations. Search builder allows you
@@ -230,8 +226,7 @@ exported by default in addition to those you select.
 You can also save your Search Builder search as a Smart Group. For more
 information on Smart Groups, see the *Groups and Tags* chapter.
 
-Full-text Search
-----------------
+## Full-text Search
 
 You can use this to search for text values all fields of the database.
 This is particularly useful, for example, if you can remember specific
@@ -241,8 +236,7 @@ specific words to the description but have now forgot the contact's
 name. You can use Full text search to find the contact and activity by
 words that you remember from the description.
 
-Component searches
-------------------
+## Component searches
 
 Most CiviCRM components offer a search on the data they maintain, such
 as **Find contributions**, **Find members**, etc. These forms work in a similar
@@ -259,8 +253,7 @@ Note that you can also use the Advanced search in conjunction with
 available in advanced search. For example, you could find all event
 attendances from contacts that are also members.
 
-Custom searches
----------------
+## Custom searches
 
 Custom searches are designed to answer specific questions that can't be
 easily answered using **Advanced Search** or **Search Builder.**
@@ -402,8 +395,7 @@ for more information about how to do this. If you create a custom search
 that you think could be useful for others, consider contributing it back
 to the community.
 
-The 'search-action' workflow
-----------------------------
+## The 'search-action' workflow
 
 After you retrieve your search results, you can perform a number of
 actions. An Actions box appears above the results. You can select either
@@ -423,8 +415,7 @@ For example, to send email to a selected number of contacts, mark the
 contacts you are interested in and then select **Send Email to Contacts** in
 the dropdown list of actions.
 
-The contact summary pop-up
---------------------------
+## The contact summary pop-up
 
 You can see a pop-up box with detailed information for any contact
 listed in your search results by hovering over the contact icon in the
@@ -435,8 +426,7 @@ profile (**Administer** > **Customize Data and Screens** >
 
 ![Screen shot of Contact Summary pop-up](../img/user-interface-searching-summary-overlay.png)
 
-The wildcard (%)
-----------------
+## The wildcard (%)
 
 Understanding wildcards greatly expands your search options. A wildcard
 represents any character (letter, numeral or punctuation mark). In
@@ -453,8 +443,7 @@ used before, after, or even within words. For example, searching on
 'Mich%el' will exclude "Michał" and "Micheal" but still find "Michelle"
 and "Michael".  
 
-Case sensitivity
-------------------
+## Case sensitivity
 
 Note that when you search for character strings, the search is not
 case-sensitive. For example, if you search for 'brooklyn', the search

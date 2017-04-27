@@ -1,5 +1,4 @@
-What is SMS?
-============
+# What is SMS?
 
 SMS stands for Short Message, or Short Messaging Service, and is simply
 the text messages your mobile phone may send and receive on a daily

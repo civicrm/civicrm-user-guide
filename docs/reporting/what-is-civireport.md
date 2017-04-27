@@ -1,5 +1,4 @@
-What is CiviReport?
-===================
+# What is CiviReport?
 
 Reporting helps your organisation to evaluate its impact and achieve its
 mission. Sometimes this is a requirement for funders or other
@@ -12,8 +11,7 @@ available in a report template. Reports can be delivered on the page
 when you run them, as a dashlet on the dashboard or a scheduled email
 which can include a CSV file or PDF.
 
-Scenario: a simple report to help with fundraising
---------------------------------------------------
+## Scenario: a simple report to help with fundraising
 
 1two3, a support organisation for street workers, has launched a capital
 campaign to raise money for a new shelter. Anne, the development
@@ -33,8 +31,7 @@ they will no longer meet the criteria, and the list remaining in the
 dashlet can be used as the basis for follow up phone calls or
 other personalised contact.
 
-Scenario: a regular financial report
--------------------------------------
+## Scenario: a regular financial report
 
 WAM is an academic membership organisation with about 1,500 members.
 Their members renew their membership online and pay either online by
@@ -61,8 +58,7 @@ These email reports save Mark several hours a month and allow him to
 focus on issues that contribute more to the effective management of
 WAM's financial resources.
 
-Scenario: determining total contributions for a household
----------------------------------------------------------
+## Scenario: determining total contributions for a household
 
 A non-profit organisation in Ohio keeps records of individuals organised
 by households. A common situation is that the husband in the household

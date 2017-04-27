@@ -1,27 +1,23 @@
-History of this book
-====================
+# History of this book
 
 This book is the result of the collaborative effort of many people. A
 lot of the content was written during two book sprints held in 2009 and
 2010 in Tahoe, USA. Many contributions have also been made by
 individuals in the times between and following these sprints.
 
-Fifth edition
--------------
+## Fifth edition
 
 The fifth edition was written at the Woolman Sierra Friends Centre
 (woolman.org) in April 2012. Woolman use and contribute to CiviCRM. We
 are grateful for their hospitality.
 
-Fourth edition
----------------
+## Fourth edition
 
 The forth edition was written in Bourne, Lincolnshire, UK in September
 2011. We were too busy writing this edition to say much about how it was
 put together.
 
-Third edition
--------------
+## Third edition
 
 This edition includes minor updates to reflect changes in CiviCRM 3.3
 which was released in December 2010. It is being published on the eve of
@@ -29,8 +25,7 @@ the second annual CiviCon conference. Thanks to the generous
 contributions of our CiviCon Sponsors (listed in the front of the book)
 - a copy has been provided to each conference participant.
 
-Second edition
---------------
+## Second edition
 
 The second edition of the CiviCRM manual was published after a four-day
 Book Sprint organised by CiviCRM and led by Adam Hyde (FLOSS Manuals).
@@ -68,8 +63,7 @@ Josue Guillen (DC, USA). The front row from the left is Jack Aponte (NY,
 USA), Mari Tilos (San Francisco, USA), Sarah Gladstone (Chicago, USA),
 and Alice Aguilar (NY, USA).
 
-First edition
--------------
+## First edition
 
 The first edition of this manual was written during a five-day book
 sprint organised by CiviCRM and led by FLOSS Manuals. The sprint was

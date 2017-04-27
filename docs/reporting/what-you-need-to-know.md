@@ -1,5 +1,4 @@
-What You Need To Know
-=====================
+# What You Need To Know
 
 This chapter explains key ideas that are useful when planning your use
 of CiviReport. It should be read by system administrators before they
@@ -19,8 +18,7 @@ problem is to aim to cater for 90% of the scenarios and allow the system
 to be easily extendible by administrators and developers to cover the
 last 10%.
 
-Key Concepts
-------------
+## Key Concepts
 
 ### Report templates
 
@@ -82,8 +80,7 @@ the detail. These reports can be linked, allowing users to see
 information at a glance with the option to drill down in a certain
 report for more detail.
 
-Key Questions
--------------
+## Key Questions
 
 -   Should you use CiviReport for a particular task, or could it be
     better achieved with a search?

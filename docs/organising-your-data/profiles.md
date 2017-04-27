@@ -671,8 +671,7 @@ participant records (for event registration forms) and contributions
 pages, event registration pages, and membership sign-up pages in the
 *Set-up* chapter of *Contributions*, *Events*, and *Memberships.*
 
-Other sources of information about Profiles
--------------------------------------------
+## Other sources of information about Profiles
 
 Read more about Profiles in the following chapters:
 
@@ -682,8 +681,7 @@ Read more about Profiles in the following chapters:
 -   In the *Set-up* chapter of *Events*
 -   In the *Set-up* chapter of *Memberships*
 
-Alternatives to Profiles
-------------------------
+## Alternatives to Profiles
 
 As you have seen, profiles can be put to a lot of different uses. It is
 worth bearing in mind that there are alternative approaches for many of

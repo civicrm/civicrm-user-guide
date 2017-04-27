@@ -1,12 +1,10 @@
-Set-up
-======
+# Set-up
 
 Now that you've gone through the planning process and determined the
 types of cases, activities and case roles that you need, you're ready to
 configure your CiviCase installation.
 
-Enable the CiviCase component
------------------------------
+## Enable the CiviCase component
 
 The CiviCase component is included in CiviCRM downloads, but it is NOT
 enabled by default. To enable the component:
@@ -18,8 +16,7 @@ enabled by default. To enable the component:
 
 You will now see **Cases** in the navigation menu.
 
-Define Case Types
------------------
+## Define Case Types
 
 You can create one or more new case types.
 
@@ -222,8 +219,7 @@ component. These can be useful either as a point of reference to see
 what a complete case type looks like, or even as a start point for your
 own case types.
 
-Custom fields
--------------
+## Custom fields
 
 It is likely that you will want to collect structured data in the case.
 You can collect data in custom fields connected to a specific activity
@@ -263,8 +259,7 @@ type, consider breaking them up into sets of related fields. Group the
 fields into logically related sets that will make sense to the users,
 and avoid the form looking like an endless tunnel of fields.
 
-Filing Emails on Cases
-----------------------
+## Filing Emails on Cases
 
 Some organizations find it useful to record case-related emails in
 CiviCase. For example, the case coordinator for a work disability case
@@ -285,8 +280,7 @@ Additionally, when email activities are sent from the Manage Case
 screen, if the Email Processor has been set up then replies will
 automatically be filed directly onto the case.
 
-CiviCase permissions
---------------------
+## CiviCase permissions
 
 You will need to create a contact record for each staff member or
 service provider who will be using CiviCase to enter or view case

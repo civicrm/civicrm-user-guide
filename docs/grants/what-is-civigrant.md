@@ -1,5 +1,4 @@
-What is CiviGrant?
-==================
+# What is CiviGrant?
 
 CiviGrant is designed to be used by organisations that distribute funds
 to others, for example foundations, grant givers, etc.
@@ -14,8 +13,7 @@ If you have a more complicated grant application process with multiple
 pathways, you may wish to consider using CiviGrant in conjunction with
 CiviCase. 
 
-Scenario: Wookie Hole
----------------------
+## Scenario: Wookie Hole
 
 Wookie Hole Community Action is a small umbrella organisation that
 distributes funds to support the annual Wookie Hole Community Festival

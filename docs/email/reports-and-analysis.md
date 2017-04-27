@@ -1,11 +1,9 @@
-Reports and analysis
-====================
+# Reports and analysis
 
 CiviMail has a number of tools for reporting and analysis; indeed
 reporting is one of the key reasons to use CiviMail.
 
-Individual mail reports
-------------------------
+## Individual mail reports
 
 You can view a report for each individual mailing from the **Mailings >
 Scheduled and Sent Mailings**. These reports are based on live
@@ -63,8 +61,7 @@ successfully delivered to *if you have enabled bounce processing*.
 **Unsubscribe requests** shows the amount of people that have clicked on
 any unsubscribe links that you include in your email. 
 
-Managing bounces and contacts with invalid emails
--------------------------------------------------
+## Managing bounces and contacts with invalid emails
 
 If your server is set up to process bounces, contacts will be marked as
 **On Hold** when their email bounces. Further messages to those
@@ -84,8 +81,7 @@ bounce type.
 
 ![image](../img/advanced_search_mailing_bounce_type.png) 
 
-Click-through summary
----------------------
+## Click-through summary
 
 In this section, click-through statistics are shown for each link.
 There are two statistics, **Clicks** (i.e., the number of times that a
@@ -94,8 +90,7 @@ that have clicked on links).
 
 ![image](../img/Screen%20shot%202011-08-27%20at%2016.28.28.png)
 
-Mailing reports with CiviReport
--------------------------------
+## Mailing reports with CiviReport
 
 CiviReport has four reports, Mail Bounce Report, Mail Summary Report,
 Mail Clickthrough Report and Mail Opened Report, which offer similar

@@ -1,5 +1,4 @@
-What is GOTV (Voter Tracking)?
-==============================
+# What is GOTV (Voter Tracking)?
 
 CiviCampaign includes a "Get Out the Vote" GOTV (Voter Tracking) feature
 so you can indicate the contacts (who you have or plan to survey) who
@@ -9,8 +8,7 @@ You will need to enable the CiviCampaign component to be able to use
 GOTV (Voter Tracking). See the *Campaign* section for more information
 about CiviCampaign.
 
-Tracking Contacts Who Voted at the Polls
-----------------------------------------
+## Tracking Contacts Who Voted at the Polls
 
 Before you can use the GOTV (Voter Tracking) feature, you will need to
 have created a survey, create the group of contacts you plan on

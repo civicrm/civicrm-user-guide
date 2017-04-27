@@ -1,5 +1,4 @@
-Renewals
-========
+# Renewals
 
 This chapter will discuss the various ways your contacts can renew their
 memberships. These include automatic renewals, online renewals and
@@ -8,8 +7,7 @@ in bulk via Batch Update of Memberships Via Profile. First though we
 will discuss the ways of letting your members know that their membership
 is due to be renewed. 
 
-Renewal Concepts
-----------------
+## Renewal Concepts
 
 There is an important distinction between adding a new membership and
 renewing an existing membership. If someone is approaching their
@@ -55,8 +53,7 @@ If you are using CiviCRM to manage memberships for more than one
 organisation, note that a contact's membership type cannot be changed or
 up-sold to a type from another membership organization.
 
-Renewal reminders
------------------
+## Renewal reminders
 
 Letting a member know that their membership is about to end is the first
 step in the process of getting them to renew. CiviCRM facilitates
@@ -125,8 +122,7 @@ who have opted out of bulk or all emails. Refer to *Postal mail
 communications* in the *Common workflows* section for ways to generate
 those letters. 
 
-Automatically renewed memberships
----------------------------------
+## Automatically renewed memberships
 
 For members who have chosen this option when they first joined, on their
 renewal date the payment will be taken automatically from their
@@ -136,8 +132,7 @@ and they will receive appropriate thank-you and receipts from CiviCRM.
 entry of memberships* chapters on details of how to set up auto-renewing
 memberships.) 
 
-Online renewals
----------------
+## Online renewals
 
 CiviCRM uses the same page for new memberships as it does for renewals.
 The only difference is that the page title and introductory message will
@@ -185,8 +180,7 @@ Contact Dashboard for any memberships which were manually entered.
 
 ![image](../img/z_sprint14_renewalpage.png)
 
-Manually renewing a membership for a single contact
----------------------------------------------------
+## Manually renewing a membership for a single contact
 
 1.  Go to the contact's summary page. 
 2.  Click on the **Memberships** tab
@@ -197,8 +191,7 @@ Manually renewing a membership for a single contact
 
 ![image](../img/z_sprint14_renewmembership_1.png)
 
-Batch Update Members Via Profile 
-----------------------------------
+## Batch Update Members Via Profile 
 
 You can use the **Batch Update Members Via Profile** feature to update
 multiple*existing* membership records (don't confuse this with the

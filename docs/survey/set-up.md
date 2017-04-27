@@ -1,5 +1,4 @@
-Set-up
-======
+# Set-up
 
 This chapter describes the steps to set up a survey. If you are
 connecting a survey to a specific campaign, you will want to review the
@@ -27,8 +26,7 @@ organize your questions the way you want them to appear on the survey.
     custom profiles to pull in in the questions that are particular to a
     survey. 
 
-Survey Types
-------------
+## Survey Types
 
 You can create new survey types to describe the type of activity you are
 conducting. Survey responses will be recorded in an activity record for
@@ -43,8 +41,7 @@ To create or edit survey types:
 
 2.  Click on **Add Survey Type** and complete the form.
 
-Creating the survey fields
---------------------------
+## Creating the survey fields
 
 Once you have determined your survey questions and responses, the next
 step is to create the custom data fields:
@@ -73,8 +70,7 @@ step is to create the custom data fields:
     main profile screen, or you can create the profile when you add your
     new survey.
 
-Create a new survey
--------------------
+## Create a new survey
 
 1.  Go to **Campaigns > New Survey**.
 2.  Enter a Title for your survey and if the survey is part of a

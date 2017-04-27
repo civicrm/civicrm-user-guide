@@ -1,5 +1,4 @@
-What is CiviPledge?
-===================
+# What is CiviPledge?
 
 A pledge is the promise to give a donation at a pre-arranged time in the
 future, either in full, or at regular intervals until a total goal is

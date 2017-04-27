@@ -1,8 +1,6 @@
-Deduping and Merging
-====================
+# Deduping and Merging
 
-What is deduping?
------------------
+## What is deduping?
 
 Duplicate contacts can turn up in your data for many reasons, such as
 mistakes by users who don't realise they're creating a contact for
@@ -21,8 +19,7 @@ database:
     the user has done this with another email address or name.
 -   When contacts are imported to the database.
 
-CiviCRM Features for deduplicating contacts
--------------------------------------------
+## CiviCRM Features for deduplicating contacts
 
 CiviCRM is equipped with several features for dealing with duplicate
 contacts. Some attempt to avoid the duplicate contact from being
@@ -46,8 +43,7 @@ These features include:
     Contributions and Profile pages.
 -   Automatically merging a person's details when importing contacts.
 
-Dedupe rules
-------------
+## Dedupe rules
 
 Dedupe rules are a way of specifying to these features whether CiviCRM
 should consider contacts to be duplicated. For example a rule could
@@ -71,8 +67,7 @@ unsupervised rule is set for each contact type. The default rules are
 used when CiviCRM invokes automatic checking, in ways we'll explain in
 detail shortly.
 
-Understanding dedupe rules: Supervised, Unsupervised and General
-----------------------------------------------------------------
+## Understanding dedupe rules: Supervised, Unsupervised and General
 
 CiviCRM now includes three categories of dedupe rules:
 
@@ -97,8 +92,7 @@ decide whether to act on the rule or not.
 number of additional 'General' rules to provide other criteria to scan
 for possible duplicates.
 
-Configuring rules
------------------
+## Configuring rules
 
 To determine whether two contacts are duplicates, CiviCRM checks up to
 five fields that you can specify. You can also set a length value which
@@ -117,8 +111,7 @@ rule. After each field is checked, if the total weight is equal to or
 greater than the numerical threshold set for the rule, the contacts
 being compared are flagged as suspected duplicates.
 
-Using rules and merging duplicate contacts manually
-------------------------------------------
+## Using rules and merging duplicate contacts manually
 
 1.  Go to **Contacts > Find and Merge Duplicate Contacts**.
 2.  Click the **Use Rule** link to scan for duplicate contacts using the
@@ -172,8 +165,7 @@ Using rules and merging duplicate contacts manually
 8.  When marked as 'not a duplicate', those contacts will be excluded from
     all dedupe results listings.
 
-Merging multiple contacts simultaneously
-----------------------------------------
+## Merging multiple contacts simultaneously
 Sometime it is appropriate to merge multiple pairs of duplicates at the same time.
 This can be done from the possible duplicates screen where you can display up to 100 rows.
 

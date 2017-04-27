@@ -1,13 +1,11 @@
-What You Need To Know
-=====================
+# What You Need To Know
 
 CiviGrant is designed to help grant-giving organisations to manage this
 process. CiviGrant is one of the simpler CiviCRM components so if you
 are familiar with other CiviCRM components, you will probably find
 CiviGrant quite straightforward.
 
-Key Concepts
-------------
+## Key Concepts
 
 An understanding of the following key concepts will help you to make the
 best use of CiviGrant.
@@ -39,8 +37,7 @@ CiviGrant, using CiviCRM's custom data fields. Think about what fields
 should be attached to the *contact* who has applied for the grant, and
 what fields should be attached to the *grant*.
 
-Key questions
--------------
+## Key questions
 
 Once you've familiarised youself with the concepts outlined above, and
 before you begin to work with CiviGrant, answer the following questions:

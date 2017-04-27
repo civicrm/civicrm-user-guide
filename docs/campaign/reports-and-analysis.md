@@ -1,11 +1,9 @@
-Reports and analysis
-====================
+# Reports and analysis
 
 There a few searching and reporting tools at your disposal to report and
 analyse your campaigns.
 
-Campaign searches
------------------
+## Campaign searches
 
 All searches for components that can be part of a campaign have a
 campaign filter so that you can search for events, contributions, etc.
@@ -13,8 +11,7 @@ based on campaign. Similarly the tabs for components in advanced search
 also have a campaign filter so you can search for contacts based on
 their participation in campaigns. 
 
-Campaign reports
-----------------
+## Campaign reports
 
 As campaigns can be made up of many components there is no specific
 campaign report. Instead, once CiviCampaign has been enabled you will be

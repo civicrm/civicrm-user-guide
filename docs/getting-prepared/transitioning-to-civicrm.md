@@ -1,5 +1,4 @@
-Transitioning to CiviCRM
-========================
+# Transitioning to CiviCRM
 
 This chapter outlines the parts that typically make up a CiviCRM project
 and should be read by people about to embark on such a project. Some of
@@ -30,8 +29,7 @@ thinking about:
 -   training and documentation
 -   change management
 
-People and the project team
----------------------------
+## People and the project team
 
 Including a wide range of people that represent the different parts of
 your organisation will help with delivery of your project. A mixture of
@@ -53,8 +51,7 @@ information to relevant people. It's not something that can be tacked on
 to the end of an already busy schedule and this should be taken into
 consideration.
 
-Goals
------
+## Goals
 
 You should have a good idea of the goals for implementing CiviCRM. This
 could be something like: reduce administrative work in managing events
@@ -67,8 +64,7 @@ requires budget and effort, your business goals will help you decide one
 way or the other. The business goals will help you to focus on why you
 are implementing CiviCRM and what you want to achieve in the long run.
 
-Development
------------
+## Development
 
 It often makes sense to break development up into smaller more
 manageable sections, which can be implemented in discrete stages or
@@ -102,8 +98,7 @@ infrastructure to CiviCRM, run one pilot event using CiviCRM and
 evaluate it. You can then incorporate the learning back into the
 development process.
 
-Ongoing support and development
--------------------------------
+## Ongoing support and development
 
 It is a mistake to think about a CiviCRM project as a one-off
 development that will meet the needs of your organisation for the
@@ -127,8 +122,7 @@ support implications, including:
 -   upgrading the CMS 
 -   hosting
 
-Training
---------
+## Training
 
 Training is a significant aspect of most CiviCRM projects. Your training
 could take many shapes and sizes depending on your users, but it often
@@ -158,8 +152,7 @@ upgrades or new functionality added. If you plan to use CiviCRM for any
 large or mission-critical events, allow adequate time for additional
 staff training and testing.
 
-Hosting and infrastructure
---------------------------
+## Hosting and infrastructure
 
 Hosting is a key aspect of any CiviCRM project. You will need to provide
 maintenance of the server on which CiviCRM is stored, and have someone
@@ -176,8 +169,7 @@ well on poor hosting, and under-budgeting for hosting may lead to other
 problems. Similarly, make sure that the computers your staff are using
 are powerful enough to provide a good experience with CiviCRM.
 
-Change management
------------------
+## Change management
 
 Introducing a new (or the first) CRM will cause changes in work flow and
 processes at your organisation. These changes may be "political",

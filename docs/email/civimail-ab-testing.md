@@ -1,5 +1,4 @@
-CiviMail A/B Testing
-====================
+# CiviMail A/B Testing
 
 CiviMail A/B Testing allows you to send two test e-mails to two random
 samples of your recipients. After the test mailings are complete, you

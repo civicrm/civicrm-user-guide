@@ -1,5 +1,4 @@
-Integrating with WordPress
-==========================
+# Integrating with WordPress
 
 CiviCRM integrates with WordPress as a plugin starting with WordPress version 3.3.1 (those using earlier versions of WordPress will need to upgrade prior to installing CiviCRM).
 
@@ -9,8 +8,7 @@ CiviCRM public forms such as online contribution pages and event registration pa
 
 CiviCRM offers a function to Synchronize Users to Contacts: CiviCRM will check each user record for a contact record. A new contact record will be created for each user where one does not already exist. To perform this function go to **Administer -> Users and Permissions -> Synchronize Users to Contacts**
 
-Using Shortcodes to Publish CiviCRM Content in WordPress
---------------------------------------------------------
+## Using Shortcodes to Publish CiviCRM Content in WordPress
 
 WordPress shortcodes enable a user to be able to very easily display dynamic content within a WordPress Page or Post with the use of just one line of text. For more information about WordPress shortcodes [check here](http://en.support.wordpress.com/category/shortcodes/). After installing CiviCRM within your WordPress environment, you can immediately take advantage of CiviCRM specific shortcodes that enable you to display content that relates to:
 

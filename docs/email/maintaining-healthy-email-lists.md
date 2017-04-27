@@ -1,5 +1,4 @@
-Maintaining Healthy Email Lists
-===============================
+# Maintaining Healthy Email Lists
 
 In the setup chapter we discussed setting up and configuring Email
 lists. In this chapter we are going to delve a bit further into list
@@ -12,8 +11,7 @@ same. However, the reality is high bounce rates and unsubscribes
 typically represent a deeper organization issue... and that's really
 scary.
 
-Understanding Email Bounces
----------------------------
+## Understanding Email Bounces
 
 Each time you send a bulk email from CiviMail it's possible that some of
 the emails will bounce. Hopefully, only a few. Bounces happen for many

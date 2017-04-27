@@ -1,5 +1,4 @@
-Importing Data into CiviCRM
-===========================
+# Importing Data into CiviCRM
 
 Most organisations have data in sources outside CiviCRM, such as
 previously used database platforms, spreadsheets created on the fly for
@@ -11,15 +10,13 @@ common format such as a Comma Separated Version (CSV) file.
 Imports can also be used to update existing data. This will be covered
 in the final section of this chapter.
 
-Considerations before importing
--------------------------------
+## Considerations before importing
 
 For more details on how to think about your data before importing into
 CiviCRM, please read the section on "Organizing your data", especially
 "Mapping your data into CiviCRM".
 
-Preparing to import data
-------------------------
+## Preparing to import data
 
 Importing data requires considerable attention and care, so we'll
 present some concepts here that you should know before you start your
@@ -147,8 +144,7 @@ with minimal problems:
     how to use this special field is available in the
     Wiki](http://wiki.civicrm.org/confluence/display/CRMDOC/Importing+Data+-+Notes "CiviCRM Wiki - Importing Data").
 
-Required Fields for Contact Imports
------------------------------------
+## Required Fields for Contact Imports
 
 When preparing your data import it is helpful to know what fields are
 required for Import. You'll want to be sure that these fields are
@@ -164,8 +160,7 @@ required for deduplication purposes.
 -   **First Name**
 -   **Last Name**
 
-Setting up a CSV file for importing
------------------------------------
+## Setting up a CSV file for importing
 
 Example of spreadsheet .csv format
 
@@ -184,8 +179,7 @@ you can link their related data during later imports. If you have
 unique ID, you would map the ID to CiviCRM's External Identifier on
 import.
 
-Running an import
------------------
+## Running an import
 
 The import process has four steps.
 
@@ -301,8 +295,7 @@ At this point it makes sense to check to make sure that your import has
 worked as expected. Search for the contacts that you just imported and
 examine their fields and custom data to make sure all is as expected.
 
-Importing relational data
--------------------------
+## Importing relational data
 
 We have just described the process of importing one data file. But what
 about if you want to import related data, like organizational addresses
@@ -344,8 +337,7 @@ relationship linking them to the child.
 You can then repeat this process for the mother, and also for other
 relationships as necessary.
 
-Address standardisation
-------------------------
+## Address standardisation
 
 For many organisations, an important element of cleaning your data is
 standardising addresses. In the US, this means conform to conventions
@@ -359,8 +351,7 @@ When adding or editing contacts, you will enter and edit such address
 elements as street number, street name, and Apt/Unit/Suite number
 according to these standards.
 
-Import Activities
------------------
+## Import Activities
 
 When preparing your data import it is helpful to know what fields are
 required for Import. You'll want to be sure that these fields are
@@ -387,8 +378,7 @@ Remember, CSV files must be less than 2MB in size. If the file size
 exceeds this, create multiple CSV files and distribute the data between
 them.
 
-Import Contributions
---------------------
+## Import Contributions
 
 You can insert new contributions or update existing ones.
 
@@ -416,8 +406,7 @@ contribution and the Financial Type and Total Amount fields in you CSV
 file, even if the values you import for those fields are no different
 from the values already in your database.
 
-Import Memberships
-------------------
+## Import Memberships
 
 You can insert new memberships or update existing memberships.
 
@@ -444,8 +433,7 @@ existing membership, and the Membership Type and Membership Start Date
 fields in you CSV file, even if the values you import for those fields
 are no different from the values already in your database.
 
-Import Participants
--------------------
+## Import Participants
 
 In each import session you can either insert new registrations or update
 existing participant records.
@@ -478,8 +466,7 @@ registration, and the Event ID or Event Title and Participant Status
 fields in you CSV file, even if the values you import for those fields
 are no different from the values already in your database.
 
-Import Tags
-------------
+## Import Tags
 
 There is currently no inbuilt way of importing tags or tag sets. You can
 use [this advanced

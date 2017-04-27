@@ -1,5 +1,4 @@
-Complex event fees
-==================
+# Complex event fees
 
 The regular fees layout form outlined in *Creating an event* chapter of
 this section is a very simple structure that allows the registrant to
@@ -8,8 +7,7 @@ does not meet the complex demands of your event registration structure.
 This chapter describes how **price sets** and **discounts** can be used
 in CiviEvent to compose more complex pricing options.
 
-Price sets
------------
+## Price sets
 
 Price Sets allow you to break event fees into smaller pieces, and set a
 fee for each piece. Using a price set, you can offer optional programmes
@@ -116,8 +114,7 @@ To manage and administer existing CiviEvent price sets:
 -   navigating to **CiviEvent > Manage Price Sets** and
     choose **Administer**
 
-Discounts
------------
+## Discounts
 
 CiviEvent also lets you offer early bird discounts (discounts determined
 by sign-up date), if you use a simple fee structure. These will override

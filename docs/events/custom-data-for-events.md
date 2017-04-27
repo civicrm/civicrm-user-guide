@@ -1,5 +1,4 @@
-Custom data for events
-======================
+# Custom data for events
 
 You may want to collect extra information about events and their
 participants as part of the event management process. This chapter
