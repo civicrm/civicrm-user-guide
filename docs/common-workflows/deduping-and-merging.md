@@ -163,7 +163,7 @@ being compared are flagged as suspected duplicates.
 7.  Click **Merge...** to complete the merge, or **Mark this pair as not
     a duplicate** if you believe the two contacts are not the same.
 8.  When marked as 'not a duplicate', those contacts will be excluded from
-    all dedupe results listings.
+    all dedupe results listings. To review the list of contacts marked 'not a duplicate', click the "View the Dedupe Exceptions" button on the main "Find and Merge Duplicate Contacts" screen.
 
 ## Merging multiple contacts simultaneously
 Sometime it is appropriate to merge multiple pairs of duplicates at the same time.
