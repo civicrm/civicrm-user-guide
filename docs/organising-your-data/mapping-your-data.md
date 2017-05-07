@@ -1,7 +1,7 @@
 # Mapping your data
 
 Your existing data may be coming from multiple sources, some electronic,
-some paper based and some residing in people's memory. "Mapping" refers
+some paper-based and some residing in people's memory. "Mapping" refers
 to the activity of taking existing data that was labeled in a certain
 way and "slotting" it into a CiviCRM structure. This is a very important
 step and skipping it may cause undesired consequences in the future. For
