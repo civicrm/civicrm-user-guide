@@ -4,16 +4,17 @@ Note: This repository contains _source files_ for the CiviCRM user guide. These 
 ](https://docs.civicrm.org/user/en/stable/)**
 
 
-## Contributing to a single changes
+##Style guide 
+When proposing changes pease follow the [Documentation style guide](https://docs.civicrm.org/dev/en/master/best-practices/documentation-style-guide/).  
 
-To edit this manual:
+## Contributing to a single changes
 
 1. [Sign up for a github account](https://github.com/join) (if you don't already have one) and [login](https://github.com/login).
 2. Visit the [CiviCRM user guide repository](https://github.com/civicrm/civicrm-user-guide) and find the page you want to edit, e.g. [Is CiviCRM for You?](https://github.com/civicrm/civicrm-user-guide/blob/master/docs/getting-prepared/is-civicrm-for-you.md).
 3. Click on the edit button to create a fork of the manual and make your changes.
 4. Submit your changes for review and include a message to let us know what you changed.
 
-Your edits will be published as soon as they are reviewed by someone on our documentation team.
+This will create a pull request (PR) for your changes.  Edit will be published as soon as they are reviewed by someone on our documentation team.
 
 ##Contributing multiple changes 
 
@@ -27,10 +28,14 @@ Your edits will be published as soon as they are reviewed by someone on our docu
 4. Locate the Markdown file (.md) in your file system that you want to edit by matching it to the file that that you want to change. For example, if you want to edit [Is CiviCRM for You?](https://github.com/civicrm/civicrm-user-guide/blob/master/docs/getting-prepared/is-civicrm-for-you.md) you would find [your file system]/docs/getting-prepared/is-civicrm-for-you.md. 
 5. Make one ore more related changes and commit them in your git client.  
 4. Push your changes from your git client to your fork.
-5. 
+5. In github.com click *New pull request* to create the new pull request (PR). 
 
-Your edits will be published as soon as they are reviewed by someone on our documentation team.
+![New PR in Github Interface](./images/new_pr.png)
 
+6. Click *Create pull request*. 
+7. Leave a descriptive message and then click *Create pull request *. 
+
+Your PR will be reviewed by someone on the documentation team and published once they are approved.  
 
 ## Versioning (which version should I edit?)
 
