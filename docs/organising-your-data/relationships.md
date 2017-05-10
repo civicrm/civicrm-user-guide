@@ -171,6 +171,11 @@ CiviCRM comes with a set of common relationship types that can be
     the list below.
 
 
+Creating custom fields on relationships
+---------------------------------------
+
+CiviCRM provides a number of standard relationship fields, described above. You may decide there is other information you want to store, either on all relationships, or just on given relationship types. Additionally, custom fields can be used as a tool to further distinguish relationships without creating inordinate numbers of types (e.g. you could track which department an employee works in using a custom field, rather than creating a new relationship type for each). You can add custom fields that display on the relationship types of your choosing. See [creating custom fields](/organising-your-data/creating-custom-fields.md) for detailed instructions.
+
 Disabling or deleting unneeded relationship types
 -------------------------------------------------
 
