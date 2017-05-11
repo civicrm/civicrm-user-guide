@@ -3,8 +3,7 @@
 As with all software, there may be times when CiviCRM
 doesn't work the way you expect it to.
 
-A good first step is to search the question & answer site
-([https://civicrm.stackexchange.com](https://civicrm.stackexchange.com/)) for similar
+A good first step is to search the question & answer site, [Stack Exchange](https://civicrm.stackexchange.com/), for similar
 problems and follow advice given there. If your problem hasn't been
 addressed, posting a question about it probably the right thing to do.
 
@@ -70,8 +69,7 @@ first.
 
 ## Recreating your problem on the demo site
 
-Recreating your bug on one of the demo sites
-([http://demo.civicrm.org](http://demo.civicrm.org) and select the demo
+Recreating your bug on one of the [demo sites](http://demo.civicrm.org) (select the demo
 site that matches your CiviCRM version) helps determine whether your
 problem is a result of a bug in the source code, or as a result of
 changes on your site. If you can show us that the code on the demo site
@@ -93,8 +91,7 @@ valuable, but be careful to not including sensitive information such as
 your database log-in.
 
 If the forum suggests you discovered a bug in CiviCRM, you can report it
-to the CiviCRM issue tracker
-[](http://issues.civicrm.org/jira/browse/CRM)[http://issues.civicrm.org/jira/browse/CRM](http://issues.civicrm.org/jira/browse/CRM).
+to the [CiviCRM issue tracker](http://issues.civicrm.org/jira/browse/CRM).
 
 ## Writing good bug reports
 
@@ -107,7 +104,7 @@ The best bug reports clearly state:
 -   What you did
 -   What you expected to happen
 -   What actually happened
--   Version of CiviCRM (must be included) 
+-   Version of CiviCRM (must be included)
 -   Which CMS platform and CMS version (must be included)
 -   Which browser and browser version (must be included)
 -   Version of PHP and MySQL
