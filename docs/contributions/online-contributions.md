@@ -86,6 +86,7 @@ processors. You can do this by setting up multiple processors, and checking the
 -  Select a pre-defined **Price Set** (for more complex payment
     options), OR enter up to 10 fixed contribution amounts in the table at the bottom of the page.)
 -  You can check **Recurring contributions** if you payment processor and its integration with CiviCRM support recurring billing and you want to allow this feature. (There are restrictions on recurring payments when [membership fees](../membership/defining-memberships) are being paid.) If you check **Recurring contributions** further settings become visible.
+  - You can either set one frequency (e.g. a user can donate their chosen amount monthly) or allow for more user flexibility, where they can decide their own interval and/or number of installations (e.g. a user can donate their chosen amount once every three months for 12 installments).
 -  Check the **Pledges** box to give users the opportunity to [pledge
     future payments](../pledges/what-is-civipledge).
 -  Decide on the label for the Contribution amount area on your page.
@@ -136,12 +137,12 @@ regardless of whether you include any other fields in your profile(s).
 
 Note: If you include a profile with a Home Address at the top of the
 page, CiviCRM automatically generates a checkbox on the front end form
-which allows the user to indicate that their Billing Address and Home 
+which allows the user to indicate that their Billing Address and Home
 Address are the same. (If the Home Address profile is included at the
 bottom of the page, this checkbox will not be generated).
 ![image](../img/Profiles-HomeAddress.jpg)
 
-It is highly recommended that Contribution Pages include a CPATCHA (reCAPTCHA in the case of CiviCRM).  You can add reCAPTCHA to a profile you include and it will be included on the Contribution Page. 
+It is highly recommended that Contribution Pages include a CPATCHA (reCAPTCHA in the case of CiviCRM).  You can add reCAPTCHA to a profile you include and it will be included on the Contribution Page.
 
 For more information read [Profiles](../organising-your-data/profiles).
 
