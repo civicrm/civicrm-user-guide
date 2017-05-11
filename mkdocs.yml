@@ -175,7 +175,7 @@ pages:
     - 'The CiviCRM Community': 'the-civicrm-community/the-civicrm-community.md'
     - 'Bug Reporting': 'the-civicrm-community/bug-reporting.md'
     - 'Localising CiviCRM': 'the-civicrm-community/localising-civicrm.md'
-    - 'Contributing to this manual': 'the-civicrm-community/contributing-to-this-manual.md'
+    - 'Contributing to this guide': 'the-civicrm-community/contributing-to-this-manual.md'
 - Appendices:
     - 'History of this book': 'appendices/history-of-this-book.md'
     - 'Free Software?': 'appendices/free-software.md'
