@@ -44,8 +44,8 @@ available to assign to your new campaign.
 
 ## Campaign status
 
-Assigning a status to your campaign makes it possible to update campaign
-activities in the database and track how the campaign is proceeding.
+Assigning a status to your campaign allows you to internally track which 
+stage a given campaign is in.
 
 1.  Go to **Administer > CiviCampaign > Campaign Status**. 
     The default statuses are Planned, In Progress, Completed, and
