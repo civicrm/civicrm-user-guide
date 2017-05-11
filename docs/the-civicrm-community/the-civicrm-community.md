@@ -18,54 +18,23 @@ access to the Internet you also have access to and can participate in
 the CiviCRM community regardless of where you live or work. English is
 the predominant language for discussion and contributions.
 
-The CiviCRM website itself ([http://civicrm.org](http://civicrm.org)) is
+The [CiviCRM website](https://civicrm.org) itself is
 a good starting point for exploring and participating in the community.
 In addition to general information about getting and using CiviCRM,
 you'll find blog posts from community members, announcements about
-upcoming events, and a Participate section
-([http://civicrm.org/participate](http://civicrm.org/participate)) that
+upcoming events, and a [Get Involved](https://civicrm.org/get-involved) section that
 lists and links to many of the resources described below.
 
-The CiviCRM Stack Exchange site ([http://civicrm.stackexchange.com](http://civicrm.stackexchange.com/))
-This is a fairly new site specfically designed for asking and answering questions about CiviCRM.  This is now the primary site for getting answers to questions on installing, upgrading, configuring, using and customizing CiviCRM.  
+The [CiviCRM Stack Exchange](http://civicrm.stackexchange.com/) site is specifically designed for asking and answering questions about CiviCRM.  This is now the primary site for getting answers to questions on installing, upgrading, configuring, using and customizing CiviCRM. It is a great place to find answers to the millions of questions that have already been asked about CiviCRM, and to ask ones that haven't been asked already.
 
-The CiviCRM Forums
-[(](http://forum.civicrm.org)[http://forum.civicrm.org](http://forum.civicrm.org))
-are a central location for CiviCRM discussion and support. The forums
-are divided into topical boards for:
+[Mattermost](https://chat.civicrm.org) offers live discussion in chat rooms and direct messages. It's a great place to go for any technical questions. Here, with a bit of luck, you'll often find an instant answer to your question or a pointer in the right direction.
 
--   Asking general questions
--   Getting technical support for installing, upgrading, configuring,
-    using, and customizing CiviCRM
--   Discussing and providing feedback on documentation
--   Feature requests and suggestions
--   Projects in internationalisation and localisation
--   Showcasing success stories and case studies
--   Conversations around modifying and extending CiviCRM
--   Coordination of testing
--   Obtaining or providing professional services
+The [CiviCRM Forums](http://forum.civicrm.org) are a location for language and locality based CiviCRM discussion and support.
 
-Registration for the forums is completely free and most of the boards
-are very active with frequent new posts and responses.
-
-Another great source of support and discussion is Internet Relay Chat
-(IRC). The #civicrm IRC channel is hosted by Freenode at
-[http://irc.civicrm.org/](http://irc.civicrm.org/) You can access the
-channel using an IRC client (a program that you run on your computer) or
-through the web interface at
-[http://webchat.freenode.net](http://webchat.freenode.net). Enter
-\#civicrm in the Channels field and a nickname of your choosing in the
-Nickname field. For more information on using IRC, check out the IRC
-section of the Drupal website
-([http://drupal.org/irc](http://drupal.org/irc)). Although the
-information is targeted to the Drupal community it can also be useful
-for CiviCRM users, especially because the Drupal IRC channels are also
-hosted on Freenode.
-
-You'll hopefully find that both the forums and the IRC channel are great
+You'll hopefully find that both Stack Exchange and Mattermost are great
 sources for help, support, and good ideas. That's all attributable to
 the good will and generous efforts of people like you! Everyone who
-visits the forums and the channel is encouraged to give back to the
+visits these sites is encouraged to give back to the
 community by responding to questions and requests for help and
 contributing their own ideas and feedback to the conversations. And
 simply asking your own questions is also a significant contribution to
@@ -73,7 +42,7 @@ the community. It's likely that someone else is having the same problems
 or wondering the same thing, and the responses you solicit help build
 the community's knowledge base.
 
-The CiviCRM blog ([http://civicrm.org/blog](http://civicrm.org/blog)) is
+The [CiviCRM blog](https://civicrm.org/blog) is
 another good source of information and discussion. Blog posts are
 written by both the CiviCRM core team and other community members and
 cover a wide range of topics, including general news and announcements,
@@ -102,27 +71,16 @@ and using CiviCRM.
 
 Many cities and regions hold CiviCRM meetups where people gather to
 learn about CiviCRM, share new ideas, developments, and use cases, and
-meet other folks involved with the community. You can find out more
-about meetups at [http://civicrm.org](http://civicrm.org). Some meetup
-and local user groups (or LUGs) also maintain discussion boards at
-[http://forum.civicrm.org/index.php/board,73.0.html](http://forum.civicrm.org/index.php/board,73.0.html).
-Contact the CiviCRM crew if you'd like a discussion board for your own
-group on the site.
+meet other folks involved with the community. CiviCRM also conducts user and developer training in cities around the world. Stay abreast of local events, whether meetups, trainings, or sprints [here](https://civicrm.org/local-events).
 
-CiviCRM held the first CiviCon conference in April 2010 in San
-Francisco. These have now settled into a pattern of two CiviCons per
-year - one in the USA in April/May and one in London in
-September/October. Stay tuned to CiviCRM.org for announcements of future
-CiviCons.
+There are also more formal gatherings for CiviCRM users and developers. CiviCRM held the first CiviCon conference in April 2010 in San
+Francisco. [CiviCon](https://civicrm.org/civicon) brings together prospective and current end-users, administrators and developers of CiviCRM for content-rich discussions, lectures and networking. The number of CiviCons hosted around the world each year is growing.
+
+CiviCamps are one-day, action packed meetups where you can learn about CiviCRM, connect with other users, ask questions, share tips, and more. See if there are any upcoming [CiviCamps](https://civicrm.org/civicamp) near you.
 
 CiviCRM core developers and community members also make appearances at
 other conferences, including DrupalCon, the NonProfit Technology
 Conference, Joomla! events, and Aspiration Tech events.
-
-CiviCRM also conducts user and developer training in cities around the
-globe. Check out [http://civicrm.org](http://civicrm.org) for info about
-upcoming trainings and contact CiviCRM if you'd like to host trainings
-in your own area.
 
 ## Open Source = Community Sourced
 
@@ -130,45 +88,35 @@ Here are some additional ways that you can participate in and contribute
 to the CiviCRM community.
 
 -   Contribute to CiviCRM documentation. This book was written by
-    community members; you can contribute to it by going to
-    [http://booki.flossmanuals.net/civicrm/_edit/](http://booki.flossmanuals.net/civicrm/_edit/),
-    registering, and clicking "Edit this page" on the page you want to
-    edit. You can also find and contribute to the CiviCRM documentation
-    wiki at
-    [http://wiki.civicrm.org/confluence/display/CRMDOC/CiviCRM+Documentation](http://wiki.civicrm.org/confluence/display/CRMDOC/CiviCRM+Documentation).
--   Share use cases and case studies that describe how your organization
-    uses CiviCRM and the solutions and processes you've developed around
-    the software. You can post your case studies to the CiviCRM.org
-    website by clicking **Add Case Study** from the Case Studies page:
-    [http://civicrm.org/what/casestudies](http://civicrm.org/what/casestudies)
--   You can also share your successes, experiences at Civi-related
-    events, interesting customizations, etc. on the CiviCRM.org blog:
-    [http://civicrm.org/blog](http://civicrm.org/blog) 
+    community members; you can contribute to it by
+    [following the instructions here](/the-civicrm-community/contributing-to-this-manual/).
+-   Contribute content to CiviCRM's website. You can share use cases and case studies that describe how your organization uses CiviCRM and the solutions and processes you've developed around
+    the software. See existing case studies  [here](https://civicrm.org/case-studies). You can also share your successes, experiences at Civi-related
+    events, interesting customizations, etc. on the
+    [CiviCRM blog](https://civicrm.org/blog). You can add content by [becoming a member](https://civicrm.org/become-a-member) or emailing [info@civicrm.org](mailto:info@civicrm.org) with a request to post.
 -   Share your training resources and materials with the rest of the
-    community through the wiki, the forums, or blog posts on the CiviCRM
-    blog or your own sites.
+    community through posts on the CiviCRM
+    blog or on your own sites.
+-   [Register your organization](https://civicrm.org/register-a-site) on CiviCRM's website. This will add your site to a publicly searchable directory and map of CiviCRM installations, supporting CiviCRM's marketing efforts.
 -   Contribute code you've written to extend CiviCRM, because it's
     likely that someone else out there needs the same functionality.
     Check out the recommended steps for developing and contributing to
-    the CiviCRM core codebase
-    at [http://wiki.civicrm.org/confluence/x/kADNAQ](http://wiki.civicrm.org/confluence/x/kADNAQ)[.](http://wiki.civicrm.org/confluence/display/CRM/Recommended+Steps+for+Developing+and+Contributing+to+CiviCRM+Core+Codebase.)
+    the CiviCRM how you can help contribute to the core codebase
+    in the [Developer Guide](https://docs.civicrm.org/dev/en/latest/).
     If you've developed a Drupal module, you should contribute it to
     Drupal.org; see
-    [http://drupal.org/node/7765](http://drupal.org/node/7765) for more
+    [their site](http://drupal.org/node/7765) for more
     information on contributing modules. Joomla! extensions can be
-    posted on [http://forge.joomla.org/](http://forge.joomla.org).
-    Finally, you can post your code on the CiviCRM Forums or wiki as
-    attachments.
+    posted [here](http://forge.joomla.org).
 -   Sponsor development of new features. If your organization needs
     certain features or functionality that doesn't yet exist for CiviCRM
     and can't develop those features in-house, you can sponsor their
     development by outside coders and developers. This can be a solo
     effort on the part of one organization or a coordinated effort
     sponsored by multiple organizations in need of the same set of
-    functionality. Refer to the wiki at
-    [http://wiki.civicrm.org/confluence/display/CRM/Developing+with+the+CiviCRM+team](http://wiki.civicrm.org/confluence/display/CRM/Developing+with+the+CiviCRM+team)
+    functionality. Find out more on
+    [CiviCRM's website](https://civicrm.org/work-with-the-core-team)
     or write to [info@civicrm.org](mailto:info@civicrm.org) for more
     information on sponsoring development.
 -   Report any bugs that you find in CiviCRM. See the *Bug Reporting*
     chapter of this book for more information.
-
