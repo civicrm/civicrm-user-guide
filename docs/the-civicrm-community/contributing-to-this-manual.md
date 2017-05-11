@@ -42,7 +42,7 @@ Your PR will be reviewed by someone on the documentation team and published once
 
 Additional resources on how CiviCRM does documentation and Markdown can be found in the [developer docs](https://docs.civicrm.org/dev/en/latest/documentation/#resources). 
 
-## Versioning (which version should I edit?){:#versioning}
+## Versioning (which version should I edit?) {:#versioning}
 
 If you're improving current documentation, please edits the master branch (available at http://docs.civicrm.org/user/en/latest).
 
