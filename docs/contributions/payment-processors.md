@@ -84,9 +84,27 @@ merchant accounts.
 
 Support for recurring contributions and auto-renewing memberships is an
 important feature for many organizations. However not all of the payment
-processors available for CiviCRM support this feature, and a few like
-Moneris have "incomplete" support. Check the wiki for the latest
-information.
+processors available for CiviCRM support this feature. iATS is the only processor that allows you to manage recurring contributions from within CiviCRM. PayPal and Authorize.net will support recurring donations through their respective sites for an additional monthly fee. A few others like Moneris have "incomplete" support.
+
+If you have configured a payment processor that includes recurring payments as a feature, you can enable recurring contributions your Contribution Page. For more details on page-specific configuration, refer to the [Online Contributions](../online-contributions/#setting-up-a-contribution-page-full-details) chapter.
+
+
+### Managing recurring contributions
+
+PayPal and Authorize.net allow users to set up a recurring contribution, which is then managed through the payment processor site. Each time a payment is made, the processor creates a contribution record in CiviCRM. You must log onto the processor's site to make changes to the payment amount, frequency, etc.
+
+If you have iATS configured, you will manage the recurring contributions directly in CiviCRM. The payment is triggered from within CiviCRM, which sends a request to iATS, and returns a completed contribution record to CiviCRM if it's successful.
+
+You can manage a recurring contribution by going to the **Contributions** tab on a contact record. At the bottom of the page, there is a separate section for Recurring Contributions.
+
+![image](/img/RecurringContributions.png)
+
+You have the option to **View**, **Edit**, or **Cancel** the recurring contribution here. You can edit the Recurring Contribution Amount, Number of Installments, Next Scheduled Contribution Date, Financial Type, Status, Start Date, and whether or not the donor receives an email notification on each payment installation. The donation frequency (e.g. weekly, monthly) cannot be changed from within CiviCRM.
+
+If you **View** the recurring contribution, you will also be able to **View**, **Edit**, or **Process** the card on file. Viewing or editing will bring up the customer and card information from the iATS website.
+
+Finally, there is an administrative page where you can view recent iATS transactions. On the menu, navigate to **Contributions > iATS Payments Administration** to see the report.
+
 
 ### Cost
 
