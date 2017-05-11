@@ -44,11 +44,6 @@ Additional resources on how CiviCRM does documentation and Markdown can be found
 
 ## Versioning (which version should I edit?) {:#versioning}
 
-If you're improving current documentation, please edits the master branch (available at http://docs.civicrm.org/user/en/latest).
+All edits based on the current version of CiviCRM should be committed against the master branch.  The [Developer guide](https://docs.civicrm.org/dev/en/latest/documentation/#versions) has more detailed information. 
 
-Master is periodically merged into 4.7 and made available at http://docs.civicrm.org/user/en/stable.
-
-If you want to make an update in the 4.6 documentation, please edit the 4.6 branch.
-
-More information on contributing to CiviCRM documentation is available in the [developer guide](https://docs.civicrm.org/dev/en/latest/documentation/). 
 
