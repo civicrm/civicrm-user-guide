@@ -2,10 +2,10 @@
 
 The documentation on this page is a starting point for contributing to the CiviCRM user guide.  There is also more advanced documentation for contributing in the [developer guide](https://docs.civicrm.org/dev/en/latest/documentation/).
 
-## Style guide 
+## Style guide {:#style_guide}
 When proposing changes pease follow the [Documentation style guide](https://docs.civicrm.org/dev/en/master/best-practices/documentation-style-guide/).  
 
-## Contributing to a single changes
+## Contributing to a single changes {:#single_changes}
 
 1. [Sign up for a github account](https://github.com/join) (if you don't already have one) and [login](https://github.com/login).
 2. Find the page in the manual that you want to edit.  For example, [Menu, Dashboard and Dashlets](https://docs.civicrm.org/user/en/latest/the-user-interface/menu-dashboard-and-dashlets/)
@@ -17,7 +17,7 @@ When proposing changes pease follow the [Documentation style guide](https://docs
 
 This will create a pull request (PR) for your changes.  Edit will be published as soon as they are reviewed by someone on our documentation team.
 
-## Contributing multiple changes 
+## Contributing multiple changes {:#multiple_changes}
 
 1. [Sign up for a github account](https://github.com/join) (if you don't already have one) and [login](https://github.com/login).
 2. Create a *Fork* with the fork button on the top right of the page.  
@@ -38,9 +38,11 @@ This will create a pull request (PR) for your changes.  Edit will be published a
 
 Your PR will be reviewed by someone on the documentation team and published once they are approved.  
 
-## Additional resources 
+## Additional resources {:#additional_resources}
 
-## Versioning (which version should I edit?)
+Additional resources on how CiviCRM does documentation and Markdown can be found in the [developer docs](https://docs.civicrm.org/dev/en/latest/documentation/#resources). 
+
+## Versioning (which version should I edit?){:#versioning}
 
 If you're improving current documentation, please edits the master branch (available at http://docs.civicrm.org/user/en/latest).
 
