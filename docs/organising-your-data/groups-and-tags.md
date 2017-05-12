@@ -260,6 +260,18 @@ before you can use them in ACL.
 
 Note that ACL support for Joomla was introduced in Joomla version 1.6.
 
+## Removing versus deleting contacts from groups
+
+One of the advantages to using groups over tags is that CiviCRM maintains a historical record of group membership. If you **Remove** a contact from a group, you can see when they were removed and by whom. This can be useful in a number of use cases (e.g. you can track former members of a volunteer group, or if an email subscriber asks why they are no longer receiving your newsletter, you can provide details on when they opted out).
+
+![img](/img/GroupRemove.png)
+
+If a contact was removed in error, there is an option to **Rejoin Group** and the contact will be added again. Every group record has a status attached to it: **Added**, **Removed**, or **Pending**. You can search for all of the members of a group by status. Navigate to **Contacts > Manage Groups**. Identify the group that you want to search within and select **Contacts** on the right-hand column. From there you can expand the search criteria and you are given an option to search by status. This could be used, for example, if you want to generate a list of all of your former Advisory Board members.
+
+![img](/img/GroupStatusSearch.png)
+
+You can also **Delete** a contact from a group. That will eliminate any record of the contact being in the group.
+
 ## Working with tags
 
 To view tags, go to: **Contacts > Manage Tags (Categories)** in the
