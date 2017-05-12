@@ -104,6 +104,12 @@ choose **Update Smart Group** from the Actions list.
 
 Your smart group is now based on the new criteria.
 
+## Adding and removing smart group members manually
+
+By default, smart group membership is determined by the criteria outlined in the smart group settings. However, you can override the criteria by manually adding or removing contacts from the group. You can manually add contacts to a smart group using the same workflows you would use to add contacts to a standard group. If you navigate to the **Groups** tab on an individual's contact record, you won't have the option to **Remove** via a button the same way you would for a standard group. However, you can manually remove someone from a smart group by going to **Contacts > Manage Groups**. Select **Contacts** on the right-hand column of the chosen group to view all of the contacts currently within the group. Find and check the box next to the contact you want to remove. Use the **Actions** dropdown and select **Group - remove contacts**. Confirm the removal and the group record will now show up under **Past Groups** for that contact. CiviCRM will override the smart group criteria based on manual adds or removals, even if there is a change in a contact's eligibility for inclusion based on that criteria.
+
+Once a contact has been removed from a smart group, there will be an option to **Delete** their smart group record under the **Groups** tab on their contact record. If you **Delete** the record, they will again be subject to smart group inclusion based on the set criteria.
+
 ## Smart group caching
 
 For performance reasons, smart groups are often cached, i.e. the
