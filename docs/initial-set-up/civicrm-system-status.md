@@ -8,7 +8,7 @@ Items in *Red* need to be addressed as soon as possible. An item in red generall
 
 Items in *Orange* should be addressed as soon as you can and may stop you from completing key CiviCRM tasks.  
 
-Items in *Green* are setup correctly and are on the screen for information only.  
+Items in *Green* are set up correctly and are on the screen for information only.  
 
 ## Fixing issues
-If you have an issue that needs to be addressed there is a link provided or a question mark icon providing additional support.  
+If you have an issue that needs to be addressed, click the link provided or the question mark icon for additional support.  
