@@ -173,11 +173,9 @@ to you. In this example we have chosen *return*, so the email address we
 need to set up on a mail server for example.org is *return@example.org*.
 
 For each email sent via CiviMail's mass mailing feature, a new unique
-"invisible" sender address is created using the [variable envelope
-return path or
-[VERP](http://en.wikipedia.org/wiki/Variable_envelope_return_path). When
-CiviCRM receives a bounce, it looks at the invisible sender address to
-decide which email bounced.
+sender address is created using the [variable envelope return path (VERP)](http://en.wikipedia.org/wiki/Variable_envelope_return_path).
+When a message bounces back to CiviCRM, this unique sender address can be
+used to identify the contact it was originally sent to.
 
 CiviCRM then looks at the bounce pattern and type to decide what action
 to take. Bounce types fall into two basic categories: permanent failures
@@ -188,7 +186,7 @@ setting the contact's email On Hold.
 
 The specific [threshold for each bounce
 type](http://wiki.civicrm.org/confluence/display/CRMDOC43/Bounce+Handling)
-can be found in the civcirm_mailing_bounce_pattern and
+can be found in the civicrm_mailing_bounce_pattern and
 civicrm_mailing_bounce_type. Multiple different bounce reply patterns
 are linked to a given type and threshold.
 
