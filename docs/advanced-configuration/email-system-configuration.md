@@ -192,6 +192,18 @@ can be found in the civcirm_mailing_bounce_pattern and
 civicrm_mailing_bounce_type. Multiple different bounce reply patterns
 are linked to a given type and threshold.
 
+#### VERP support
+
+If your mail delivery system does not support sending via VERP addresses, you
+may see an "Invalid address" error when sending mails. Either switch to a mail
+provider which does support this, or disable VERP.
+
+-   There are plenty of [mail services which fully support CiviCRM features](https://wiki.civicrm.org/confluence/display/CRM/Mailing+providers) -
+    consider using one!
+-   VERP can be disabled via the option **Track replies using VERP in Reply-To
+    header** at **Administer > CiviMail > CiviMail Component Settings**. This
+    will reduce CiviCRM's ability to correctly match bounced messages.
+
 ### **Email-to-Activity processing**
 
 CiviCRM can automatically retrieve email from a specified inbox and file
