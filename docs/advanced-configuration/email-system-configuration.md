@@ -46,7 +46,9 @@ Configuring outbound email service
 
 Outbound email settings are configured at: **Administer > System
 Settings > Outbound Email (SMTP/Sendmail)**. The choices here are:
-![Screen shot of mail choices](../img/Administer-System Settings-Outbound Email.png)
+
+![Screen shot of mail choices](../img/Administer-System_Settings-Outbound_Email.png)
+
 -   **mail()**: This is the default option and if it works for you, you
     should use it.
 -   **SMTP**: If you have a dedicated external mail server, specify its
@@ -57,8 +59,11 @@ Settings > Outbound Email (SMTP/Sendmail)**. The choices here are:
     versions.
 -   **Disable Outbound Email**: Works as expected.
 -   **Redirect to Database**: All emails will be recorded as archived mailings
-instead of being sent out. They can be found in the civicrm\_mailing_spool
-table in the CiviCRM database.
+    instead of being sent out. They can be found in the civicrm\_mailing_spool
+    table in the CiviCRM database.
+-   Other options can appear here by installing extensions to support additional
+    mail providers - check the [CiviCRM Extensions Directory](https://civicrm.org/extensions/)
+    for providers you can use.
 
 After making a choice, send a test email to your account on Gmail and
 verify that you receive it.
