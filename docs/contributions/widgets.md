@@ -34,5 +34,5 @@ A designer that you have worked with on your website may have specific standards
 
 Click **Save and Preview** when you are ready to see how your changes look.  
 
-## Widgets With WordPress
+## Using widgets with WordPress
 WordPress has a plugin that is installed in WordPress [*CiviCRM Contribution Page Widget*](https://wordpress.org/plugins/civicrm-contribution-page-widget/) that lets you embed a Widget from CiviCRM anywhere at a WorderPress "widget" can go.  
