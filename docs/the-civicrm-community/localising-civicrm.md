@@ -33,7 +33,7 @@ the community to translate the text displayed.
 A number of languages have already been provided to a greater or lesser
 extent. Some have more than 90% of the text translated, others only 5%,
 and a number of languages have not been translated at all. Please check
-the online translation tool [Transifex](http://www.transifex.net/projects/p/civicrm/) to find out about your language of interest. Download and install it on
+the online translation tool [Transifex](https://www.transifex.com/civicrm/civicrm/dashboard/) to find out about your language of interest. Download and install it on
 your CiviCRM installation to find out how well it will suit your needs.
 
 You may find that although the translation is correct, you would want to
@@ -49,7 +49,7 @@ translation efforts, though some are still under development.
     translate strings of text and keep an overview on its progress.
     Register there, look for your language, join the team or, if your
     language is not available, start translating.
-2.  A [glossary](http://wiki.civicrm.org/confluence/display/CRM/Glossary+for+translations)
+2.  A [glossary](https://wiki.civicrm.org/confluence/display/CRM/Glossary+for+translations)
     on CiviCRM's wiki will help you maintain consistency in your
     translations. It will also help you get some insight on how much
     work it will be to translate those strings of text that your users
@@ -66,7 +66,7 @@ current translation? Here's how to do it (provided you have a bit of a
 technical background):
 
 1.  Go to transifex.net and create an account.
-2.  Look for your language [here](http://www.transifex.net/projects/p/civicrm/teams/)
+2.  Look for your language [here](https://www.transifex.com/civicrm/teams/)
     and either join a team, or request the creation of a new one if
     needed.
 3.  Start translating!
@@ -75,7 +75,7 @@ technical background):
 
 The CiviCRM translation work flow is still a work-in-progress and until
 the process becomes more mature, you should probably refer to
-[this page](https://wiki.civicrm.org/confluence/pages/viewpage.action?pageId=88408149)
+[this page](https://lab.civicrm.org/development-team/translations/wikis/home)
 for the most current instructions.
 
 The work flow is heavily based on teamwork. Hopefully, there is already
@@ -119,7 +119,7 @@ their work.
 
 The basic steps in online translation are:
 
-1.  Select a [component](http://www.transifex.net/projects/p/civicrm/).
+1.  Select a [component](https://www.transifex.com/civicrm/civicrm/dashboard/).
     This will display the list of language teams for this component.
 2.  Click on the icon in the Options column next to the language you are
     interested in. This brings you to the list of files for this
@@ -133,8 +133,9 @@ The basic steps in online translation are:
 
 ### Offline translation
 
-Most translation is usually done with an offline translation tool. One
-of the most common is [PoEdit](http://www.poedit.net/), which is free software
+If you do not have a reliable Internet connection, you can also download
+and translate the files locally on your computer. One
+of the most common editors is [PoEdit](https://poedit.net/), which is free software
 and has a big community of users. The exact steps in translation using
 an offline tool depend on your tool of choice, but should follow the
 following steps:
