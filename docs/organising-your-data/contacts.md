@@ -68,7 +68,7 @@ will find names, addresses and contact details as well as details of
 contact methods. 
 
 Some fields on this tab are just for individuals, for example, first
-name, last name, nick name, etc. Other fields are just for
+name, last name, nickname, etc. Other fields are just for
 organisations, for example organisation name.
 
 ![image](../img/ContactSummary.PNG)
