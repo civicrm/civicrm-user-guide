@@ -50,6 +50,10 @@ Search Preferences** entering "peter" will find:
 You don't need to type the full name of the person - just the first few
 letters.
 
+CiviCRM also for the collection of a nickname when entering new contacts.  For example Joe and Joseph or IBM and International Business Machines.  When you first install CiviCRM you will find Joseph searching for Joe or International Business Machines searching for IBM.  
+
+You can change this behavior from *Search Preferences* screen described above by changing the *Include Nickname* setting to *yes*.   
+
 Note: If you search by **phone** then you will need to enter the digits of the phone number without any formatting. The **phone** search is done against a field that consists only of digits with all non-numeric characters stripped out.
 
 ## Advanced search
