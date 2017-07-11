@@ -123,19 +123,19 @@ listing on the wiki:
 
 ## Configuration/Conflicts with Common Extensions
 
-For the most part, CiviCRM is fairly self-contained inside Joomla, and doesn't interact with other extensions except for those that are specifically intended to integrate (for example the 3rd party extensions list noted earlier) or occassionally system plugins that globally impact the site. However, the list below details some common Joomla extensions where you may need to adjust configuration or address conflicts to ensure CiviCRM is working properly.
+For the most part, CiviCRM is fairly self-contained inside Joomla and doesn't interact with other extensions except for those that are specifically intended to integrate with it (for example the 3rd party extensions list noted earlier) or occasionally system plugins that globally impact the entire site. However, there are times when specific extensions may require configuration adjustments to ensure CiviCRM is working properly. The list below details some common Joomla extensions you may want to review.
 
 ### AdminTools (https://extensions.joomla.org/extension/admin-tools/)
 
-AdminTools is a popular site security extension which includes a web application firewall and .htaccess builder, among other things. The .htaccess builder (available in the Pro version) provides extensive options through the user interface to build an .htaccess file that can significantly improve and harden your site security. However, some of the standard hardening options need adjustment in order to work well with CiviCRM. In particular, the .htaccess file includes directives to prevent direct access to all files and folders in your site, except the root index.php, administrator/index.php, and certain folders where allowable file types are permitted (primarily image files). In a standard Joomla+CiviCRM installation, a number of files are stored in the /media/civicrm/ directory which may require direct access. To permit access when using AdminTools to generate your .htaccess file, you must add several exclusions to the .htaccess builder.
+AdminTools is a popular site security extension which includes a web application firewall and .htaccess builder, among other things. The .htaccess builder (available in the Pro version) provides extensive options through the user interface to build an .htaccess file that can significantly improve and harden your site security. However, some of the standard hardening options need adjustments in order to work well with CiviCRM. In particular, the .htaccess file includes directives to prevent direct access to all files and folders in your site, except the root index.php, administrator/index.php, and certain folders where allowable file types are permitted (primarily image files). In a standard Joomla+CiviCRM installation, a number of files are stored in the /media/civicrm/ directory which may require direct access. To permit access you must add several exclusions to the .htaccess builder.
 
 Open the AdminTools .htaccess Maker and scroll down to the Exceptions section. Add the following exceptions to these fields:
 
-- Allow direct access, except .php files, to these directories
--- media/civicrm/persist/contribute/dyn/
-- Allow direct access, including .php files, to these directories
--- administrator/components/com_civicrm/civicrm/extern/
--- administrator/components/com_civicrm/civicrm/bin/
--- administrator/components/com_civicrm/civicrm/packages/kcfinder/
+* Allow direct access, except .php files, to these directories
+    * media/civicrm/persist/contribute/dyn/
+* Allow direct access, including .php files, to these directories
+    * administrator/components/com_civicrm/civicrm/extern/
+    * administrator/components/com_civicrm/civicrm/bin/
+    * administrator/components/com_civicrm/civicrm/packages/kcfinder/
 
 Note, the above represents the standard directory paths where you will need to add exceptions. Depending on your configuration and use of the system, you may need to adjust the paths or add additional paths.
