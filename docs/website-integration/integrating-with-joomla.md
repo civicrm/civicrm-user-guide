@@ -95,7 +95,11 @@ and you have a **Profile View Form** specified to have the access level
 of Public, CiviCRM will be completely unaware that John Smith is on your
 site and thus not have the ability to display John Smith's personal
 information back to him. In this scenario CiviCRM would present the
-following error:![image](../img/z_sprint14_wordpress_error.png)Every Joomla!
+following error:
+
+![image](../img/z_sprint14_wordpress_error.png)
+
+Every Joomla!
 user that is created has a corresponding contact within CiviCRM. So when
 someone logs in with their Joomla! credentials, CiviCRM can guarantee
 which contact's information to display. The following CiviCRM Menu Item
@@ -113,10 +117,25 @@ to the CiviCRM API's and hook system, and there are a number of 3rd
 party tools designed to solve specific problems and make customizations
 easier. 
 
-For more information, developers can refer to the 3rd party module
-listing on the wiki: 
-[http://wiki.civicrm.org/confluence/display/CRMDOC/Joomla!+Extensions+for+CiviCRM+(3rd+party)](http://wiki.civicrm.org/confluence/display/CRMDOC/Joomla!+Extensions+for+CiviCRM+%283rd+party%29)
+For more information, developers can refer to the [3rd party module
+listing](http://wiki.civicrm.org/confluence/display/CRMDOC/Joomla!+Extensions+for+CiviCRM+%283rd+party%29) as well as the [Developer Guide](https://docs.civicrm.org/dev/en/latest).
 
- 
-… as well as the online Developer Guide: 
-[http://wiki.civicrm.org/confluence/display/CRMDOC/Develop](http://wiki.civicrm.org/confluence/display/CRMDOC/Develop)
+## Configuration/Conflicts with Common Extensions
+
+For the most part, CiviCRM is fairly self-contained inside Joomla and doesn't interact with other extensions except for those that are specifically intended to integrate with it (for example the 3rd party extensions list noted earlier) or occasionally system plugins that globally impact the entire site. However, there are times when specific extensions may require configuration adjustments to ensure CiviCRM is working properly. The list below details some common Joomla extensions you may want to review.
+
+### AdminTools
+
+[AdminTools]((https://extensions.joomla.org/extension/admin-tools/)) is a popular site security extension which includes a web application firewall and .htaccess builder, among other things. The .htaccess builder (available in the Pro version) provides extensive options through the user interface to build an .htaccess file that can significantly improve and harden your site security. However, some of the standard hardening options need adjustments in order to work well with CiviCRM. In particular, the .htaccess file includes directives to prevent direct access to all files and folders in your site, except the root `index.php`, `administrator/index.php`, and certain folders where allowable file types are permitted (primarily image files). In a standard Joomla+CiviCRM installation, a number of files are stored in the `/media/civicrm/ directory` which may require direct access. To permit access you must add several exclusions to the .htaccess builder.
+
+Open the AdminTools .htaccess Maker and scroll down to the Exceptions section. Add the following exceptions to these fields:
+
+* Allow direct access, except .php files, to these directories
+    * `media/civicrm/persist/contribute/dyn/`
+* Allow direct access, including .php files, to these directories
+    * `administrator/components/com_civicrm/civicrm/extern/`
+    * `administrator/components/com_civicrm/civicrm/bin/`
+    * `administrator/components/com_civicrm/civicrm/packages/kcfinder/`
+
+!!! note
+    The above represents the standard directory paths where you will need to add exceptions. Depending on your configuration and use of the system, you may need to adjust the paths or add additional paths.
