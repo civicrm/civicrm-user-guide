@@ -41,14 +41,16 @@ update their data.
 
 ## Upgrades
 
-New versions of CiviCRM are released approximately twice a year (once in
-the Spring and once in the Autumn). You will need to apply upgrades to
-your CiviCRM site periodically if you want to take advantage of new
-features and improvements, and also to keep your site secure. Some
+New versions of CiviCRM are released every month. Although 
+[extensions](../introduction/extensions) are the way that you will typically 
+add major new features to CiviCRM, you will need to apply upgrades to your 
+CiviCRM core software periodically to keep your site secure, and also if you
+want to take advantage of smaller new features and improvements. Some
 upgrades contain security fixes and it is crucial that these are applied
 in a timely manner. It's important that you plan for the resources
-(people and time) required to apply upgrades to your site. You need to
-plan on testing upgrades on a copy of your live site to make sure the
+(people and time) required to apply upgrades to your site. Read release notes
+thoroughly to understand how an upgrade may change your site. Plan on 
+testing upgrades on a copy of your live site to make sure the
 process runs smoothly. It's also critical to make backups of your site
 and database prior to running an upgrade on your live site even if you
 had tested the process on a test site.
