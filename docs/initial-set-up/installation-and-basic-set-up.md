@@ -42,7 +42,7 @@ update their data.
 ## Upgrades
 
 New versions of CiviCRM are released every month. Although 
-[extensions](../introduction/extensions) are the way that you will typically 
+[extensions](/introduction/extensions.md) are the way that you will typically 
 add major new features to CiviCRM, you will need to apply upgrades to your 
 CiviCRM core software periodically to keep your site secure, and also if you
 want to take advantage of smaller new features and improvements. Some
