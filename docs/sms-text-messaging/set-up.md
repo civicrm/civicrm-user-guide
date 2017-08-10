@@ -114,3 +114,110 @@ Primary Callback:  Reply Path, choose "HTTP Get" from the dropdown.  In the targ
 address, enter the same address as used before:
 Drupal: http://www.example.com/civicrm/sms/callback?provider=org.civicrm.sms.clickatell
 Wordpress: https://www.example.org/?page=CiviCRM&q=civicrm%2Fsms%2Fcallback&provider=org.civicrm.sms.clickatell
+
+## Configuring a Twilio SMS Gateway
+
+### Registering for a Twilio account
+
+Twilio offer a wide range of communications and telephony services in
+most countries. CiviSMS uses the "Programmable SMS" feature. You can
+register a free trial account, which will allow you to test the service.
+
+To sign up, visit:
+
+[https://www.twilio.com/try-twilio](https://www.twilio.com/try-twilio)
+
+Once you have registered for an account, you will be asked to verify
+your phone number via SMS or call. You will then be taken to the Console.
+
+### Getting a phone number
+
+Your trial account entitles you to a free rented Twilio phone number,
+which you can use to send SMS. However, free accounts must verify
+a phone number before it can receive SMS. For the purposes of this
+guide, we will send a message to the same phone number you verified
+in the registration step.
+
+1. From the [Console homepage](https://www.twilio.com/console), click the
+"Programmable SMS" product.
+
+![Programmable SMS](../img/twilio-programmable-sms.png)
+
+2. Click the red "Get Started" button.
+
+3. Click the "Get a number" button, near the top of the page. A phone
+number will be suggested to you. If the country of the number is
+not accurate, use "Search for a different number". Otherwise, click
+"Choose this number", and "Done", after noting down the number.
+
+You now have a rented phone number that can send and receive SMS messages.
+
+### Setting up your new phone number in Twilio
+
+1. Click the "All Products & Services" icon, in the far left navigation bar.
+
+2. Choose "Phone Numbers".
+
+3. Click your new number from the list to set it up.
+
+4. Under the "Messaging" section, change the "A message comes in webhook" to the
+following, replacing example.com with your CiviCRM installation.
+
+`https://example.com/civicrm/sms/callback?provider=org.civicrm.sms.twilio`
+
+This will send any replies that your messages receive back to CiviCRM.
+
+![Messaging](../img/twilio-number-callback.png)
+
+5. Click "Save".
+
+### Getting your Twilio provider settings
+
+1. In the Twilio Console, go back to the [Console homepage](https://www.twilio.com/console).
+
+2. Copy down your "Account SID" and "Auth Token" (you will need to click the token to reveal it).
+
+You now have all of the information needed to configure SMS in CiviCRM.
+
+### Setting up your new SMS Provider in CiviCRM
+
+Now that you have a Twilio account with a phone number, it needs to be set up in CiviCRM.
+
+1. Go to CiviCRM and go to: **Administer** > **System
+Settings**> **SMS Providers**. Click "Add New Provider".
+
+![image](../img/CiviCRM_SMS_adding-a-provider-twilio.png)
+
+2. Set up the provider as follows:
+
+* Name: select "Twilio"
+* Title: give the SMS provider a title user's will see (e.g. "Twilio SMS")
+* Username: enter your "Account SID" from the previous step
+* Password: enter your "Auth Token" from the previous step
+* API type: leave as "http"
+* API URL: leave as "https://api.twilio.com/"
+* API Parameters: enter "From:" followed by your Twilio phone number from the
+previous step, in international format with no spaces. On a second line, enter "mo=1".
+
+Click Save to create your provider.
+
+### Testing CiviSMS
+
+You can now use CiviSMS to send an SMS message to your phone number
+(the one you verified in earlier steps).
+
+See the Everyday Tasks section for some ways you can send messages.
+
+If you reply to an SMS message, it will be created as an activity on your CiviCRM record.
+
+### Upgrading Twilio
+
+To properly use Twilio as an SMS gateway, you will need a paid account.
+
+You can upgrade your account to a full account by clicking "Upgrade" in
+the top right corner from the Twilio console.
+
+Once you have upgraded, your rented phone number will be available for full use,
+and charged against your Twilio credit. 
+
+You will now be able to send SMS to any phone number.
