@@ -139,22 +139,22 @@ guide, we will send a message to the same phone number you verified
 in the registration step.
 
 1. From the [Console homepage](https://www.twilio.com/console), click the
-"Programmable SMS" product.
+**Programmable SMS** product.
 
 ![Programmable SMS](../img/twilio-programmable-sms.png)
 
-2. Click the red "Get Started" button.
+2. Click the red **Get Started** button.
 
-3. Click the "Get a number" button, near the top of the page. A phone
+3. Click the **Get a number** button, near the top of the page. A phone
 number will be suggested to you. If the country of the number is
 not accurate, use "Search for a different number". Otherwise, click
-"Choose this number", and "Done", after noting down the number.
+**Choose this number**, and **Done**, after noting down the number.
 
 You now have a rented phone number that can send and receive SMS messages.
 
 ### Setting up your new phone number in Twilio
 
-1. Click the "All Products & Services" icon, in the far left navigation bar.
+1. Click the **All Products & Services** icon, in the far left navigation bar.
 
 2. Choose "Phone Numbers".
 
@@ -184,7 +184,7 @@ You now have all of the information needed to configure SMS in CiviCRM.
 Now that you have a Twilio account with a phone number, it needs to be set up in CiviCRM.
 
 1. Go to CiviCRM and go to: **Administer** > **System
-Settings**> **SMS Providers**. Click "Add New Provider".
+Settings**> **SMS Providers**. Click **Add New Provider**.
 
 ![image](../img/CiviCRM_SMS_adding-a-provider-twilio.png)
 
