@@ -289,7 +289,7 @@ created membership will be assigned the status "New" by default. If your
 membership statuses are not updating automatically, make sure that
 the **Update Membership Statuses** scheduled job is enabled and runs at
 least once a day. Refer to the [Scheduled
-Jobs](http://booki.flossmanuals.net/initial-set-up/scheduled-jobs)
+Jobs](/initial-set-up/scheduled-jobs.md)
 chapter for configuration details and consult your system administrator
 if appropriate. 
 
