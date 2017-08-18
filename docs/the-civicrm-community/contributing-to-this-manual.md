@@ -8,7 +8,7 @@ When proposing changes pease follow the [Documentation style guide](https://docs
 ## Contributing to a single changes {:#single_changes}
 
 1. [Sign up for a github account](https://github.com/join) (if you don't already have one) and [login](https://github.com/login).
-2. Find the page in the manual that you want to edit.  For example, [Menu, Dashboard and Dashlets](https://docs.civicrm.org/user/en/latest/the-user-interface/menu-dashboard-and-dashlets/)
+2. Find the page in the manual that you want to edit.  For example, [Menu, Dashboard and Dashlets](/the-user-interface/menu-dashboard-and-dashlets.md)
 3.  Click the pencil icon next to the page title.
 
 ![Image of the pencil icon](../img/contributing_to_this_manual.png)
@@ -26,7 +26,7 @@ This will create a pull request (PR) for your changes.  Edit will be published a
 
 
 3. In your [git client](https://git-scm.com/download/gui/linux) clone the CiviCRM user guide repository to your computer.  
-4. Locate the Markdown file (.md) in your file system that you want to edit by matching it to the file that that you want to change. For example, if you want to edit [Is CiviCRM for You?](https://docs.civicrm.org/user/en/latest/getting-prepared/is-civicrm-for-you/) you would find [your file system]/docs/getting-prepared/is-civicrm-for-you.md. 
+4. Locate the Markdown file (.md) in your file system that you want to edit by matching it to the file that that you want to change. For example, if you want to edit [Is CiviCRM for You?](/getting-prepared/is-civicrm-for-you.md) you would find [your file system]/docs/getting-prepared/is-civicrm-for-you.md. 
 5. Make one ore more related changes and commit them in your git client.  
 4. Push your changes from your git client to your fork.
 5. In github.com click *New pull request* to create the new pull request (PR). 

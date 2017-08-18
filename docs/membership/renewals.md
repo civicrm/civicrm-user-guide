@@ -66,7 +66,7 @@ Schedule Reminders feature (**Administer > Communications > Schedule
 Reminders**). This is particularly helpful for rolling membership types,
 where memberships could be ending at any time during the year. Refer to
 the [Schedule
-Reminders](https://docs.civicrm.org/user/en/stable/email/scheduled-reminders/) chapter
+Reminders](/email/scheduled-reminders.md) chapter
 in the *Email* section of this book for the steps involved in sending
 out a scheduled reminder once you have composed your message.
 
