@@ -118,5 +118,5 @@ to the CiviCRM community.
     [CiviCRM's website](https://civicrm.org/work-with-the-core-team)
     or write to [info@civicrm.org](mailto:info@civicrm.org) for more
     information on sponsoring development.
--   Report any bugs that you find in CiviCRM. See the *Bug Reporting*
+-   Report any bugs that you find in CiviCRM. See the [*Bug Reporting*](https://docs.civicrm.org/user/en/stable/the-civicrm-community/bug-reporting/)
     chapter of this book for more information.
