@@ -109,6 +109,10 @@ with minimal problems:
     Primary Location. You may also need to split your import so that
     some records have one type of record as their Primary Location,
     while others have a different one.
+-   If you choose the location type 'Primary' for an address field then
+    it will update the existing primary address, if there is one, for an
+    existing contact. If it is a new contact or they do not have an
+    existing address the location type will be your site's default.
 -   If you are importing data into multi-choice (e.g. check-box or radio
     button) custom fields, your data source can use either the label
     (what's visible to the user in the CiviCRM front end) or the value
@@ -121,6 +125,8 @@ with minimal problems:
     field to be "orange" for a contact that currently has Colors set to
     "blue", the result will be that Colors is set to orange, not orange
     and blue.
+-   To import multiple values into a multiple choice field use the "|" (pipe) 
+    character as a separator.
 -   Make sure your data source uses an accepted date format and that you
     select the same date format on the Choose Data Source screen of the
     import wizard.
