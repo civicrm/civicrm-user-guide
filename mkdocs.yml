@@ -165,7 +165,7 @@ pages:
     - 'What You Need To Know': 'grants/what-you-need-to-know.md'
     - 'Set-up': 'grants/set-up.md'
     - 'Everyday tasks': 'grants/every-day-tasks.md'
-    - 'Reports and analyis': 'grants/reports-and-analysis.md'
+    - 'Reports and analysis': 'grants/reports-and-analysis.md'
 - Website integration:
     - 'Choosing your CMS': 'website-integration/choosing-your-cms.md'
     - 'Integrating with Drupal': 'website-integration/integrating-with-drupal.md'
