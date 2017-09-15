@@ -196,8 +196,8 @@ Settings**> **SMS Providers**. Click **Add New Provider**.
 * Password: enter your "Auth Token" from the previous step
 * API type: leave as "http"
 * API URL: leave as "https://api.twilio.com/"
-* API Parameters: enter "From:" followed by your Twilio phone number from the
-previous step, in international format with no spaces. On a second line, enter "mo=1".
+* API Parameters: enter "From=" followed by your Twilio phone number from the
+previous step, in international format with no spaces.
 
 Click Save to create your provider.
 
