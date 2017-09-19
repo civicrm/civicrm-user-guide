@@ -47,14 +47,18 @@ Search Preferences** entering "peter" will find:
 -   organisations with Peter in their name, e.g. Al**peter**
     Community Centre.
 
-You don't need to type the full name of the person - just the first few
-letters.
+You often don't need to type the full name of the person - just the first few
+letters.  However, if you don't see the contact you are looking for, either refine the search by typing more characters, or hit the 'Return' key to convert your search into an Advanced search.
+
+Quick search displays up to 10 results (by default). You can change the number of results returned from the *Search Preferences* screen described above by changing the *Autocomplete Results* setting.
 
 CiviCRM also allows for the collection of a nickname when entering new contacts.  For example, "Joe" can be a nickname for "Joseph" and "IBM" can be a nickname for "International Business Machines".  When you first install CiviCRM you will find "Joseph" when searching for "Joe" and you'll find "International Business Machines" when searching for "IBM".
 
 You can change this behavior from the *Search Preferences* screen described above by changing the *Include Nickname* setting to *yes*.
 
 Note: If you search by **phone** then you will need to enter the digits of the phone number without any formatting. The **phone** search is done against a field that consists only of digits with all non-numeric characters stripped out.
+
+Note: If you want to search by **first** and **last** name, use the format "Lastname, Firstname", not "Firstname Lastname".  For example, "Peterson, Mary" not "Mary Peterson".
 
 ## Advanced search
 ![Screen shot of advanced search](../img/user-interface-advanced-search-main-screen.png)
