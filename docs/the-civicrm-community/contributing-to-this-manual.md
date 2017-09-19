@@ -3,7 +3,7 @@
 The documentation on this page is a starting point for contributing to the CiviCRM user guide.  There is also more advanced documentation for contributing in the [developer guide](https://docs.civicrm.org/dev/en/latest/documentation/).
 
 ## Style guide {:#style_guide}
-When proposing changes pease follow the [Documentation style guide](https://docs.civicrm.org/dev/en/master/best-practices/documentation-style-guide/).  
+When proposing changes please follow the [Documentation style guide](https://docs.civicrm.org/dev/en/master/best-practices/documentation-style-guide/).  
 
 ## Contributing to a single changes {:#single_changes}
 
