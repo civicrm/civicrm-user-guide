@@ -61,10 +61,7 @@ The Scheduled Jobs page (**Administer**> **System Settings** >
 and to monitor when they were last run. It shows a list of all available scheduled
 jobs. You can edit each one and set its frequency (hourly, daily, weekly, monthly, quarterly, yearly or every time cron is run which is typically every 5-10 minutes), any relevant parameters, and the earliest date/time for the first/next execution of the job.
 
-You can find an up-to-date list of all scheduled jobs and the parameters
-that can be sent to them on the [Managing Scheduled
-Jobs](http://wiki.civicrm.org/confluence/display/CRMDOC/Managing+Scheduled+Jobs)
-wiki page.
+This documentation includes an up-to-date [list of all scheduled jobs](scheduled-jobs).
 
 Some jobs perform special data update tasks and are not designed to be
 run automatically or repeatedly. These are: "Update Greetings and

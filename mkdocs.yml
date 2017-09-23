@@ -33,6 +33,7 @@ pages:
 - Initial set up:
     - 'Installation and basic set-up': 'initial-set-up/installation-and-basic-set-up.md'
     - 'Scheduled jobs': 'initial-set-up/scheduled-jobs.md'
+    - 'Core jobs': 'initial-set-up/scheduled-jobs-core.md'
     - 'Customizing the user interface': 'initial-set-up/customizing-the-user-interface.md'
     - 'Permissions and access control': 'initial-set-up/permissions-and-access-control.md'
     - 'Security': 'initial-set-up/security.md'
