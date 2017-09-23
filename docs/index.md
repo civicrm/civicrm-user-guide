@@ -20,4 +20,4 @@ or technical staff) who understand them.
 This book is freely available to read online. It is collaboratively written by the CiviCRM community (see the
 *History of this book* chapter for more details). You can help write this
 book and help with other documentation efforts. See
-https://civicrm.org/participate/documentation for more information. 
+https://docs.civicrm.org/user/en/latest/the-civicrm-community/contributing-to-this-manual/ for more information. 
