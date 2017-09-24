@@ -42,7 +42,7 @@ Do you want users to see a list of participants, and how much
 information about the participants do you want to reveal? **Participant
 Listings** demonstrate support for an event and can help to generate
 interest within your constituent community. Note that the options you
-define in this section only *enable* participant listings — to display
+define in this section only *enable* participant listings - to display
 one, you will need to create a menu item or link to the listing
 somewhere on your website. Once you've created the event, the
 participant listing link is displayed on the event configuration page.
