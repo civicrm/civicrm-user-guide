@@ -288,8 +288,8 @@ automatically set based on your status rules. For example, a newly
 created membership will be assigned the status "New" by default. If your
 membership statuses are not updating automatically, make sure that
 the **Update Membership Statuses** scheduled job is enabled and runs at
-least once a day. Refer to the [Scheduled
-Jobs](/initial-set-up/scheduled-jobs.md)
+least once a day. Refer to the 
+[Scheduled Jobs](https://docs.civicrm.org/sysadmin/en/latest/setup/jobs/)
 chapter for configuration details and consult your system administrator
 if appropriate. 
 

@@ -89,7 +89,7 @@ Communications > Schedule Reminders**.
 
 IMPORTANT: Your system administrator will need to ensure that the Send
 Scheduled Reminders scheduled job is enabled and runs at least once a
-day. Refer to the [Scheduled Jobs](../initial-set-up/scheduled-jobs)
+day. Refer to the [Scheduled Jobs](https://docs.civicrm.org/sysadmin/en/latest/setup/jobs/)
 section for configuration details.  
 
 ## Using scheduled reminders for contacts
