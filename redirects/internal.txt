@@ -1,2 +1,15 @@
 the-user-interface/profiles organising-your-data/profiles
-
+website-integration/choosing-your-cms https://docs.civicrm.org/sysadmin/en/latest/planning/cms
+website-integration/integrating-with-drupal https://docs.civicrm.org/sysadmin/en/latest/integration/drupal
+website-integration/integrating-with-joomla https://docs.civicrm.org/sysadmin/en/latest/integration/joomla
+website-integration/integrating-with-wordpress https://docs.civicrm.org/sysadmin/en/latest/integration/wordpress
+getting-prepared/hosting https://docs.civicrm.org/sysadmin/en/latest/planning/hosting
+getting-prepared/identifying-your-needs https://docs.civicrm.org/sysadmin/en/latest/planning
+getting-prepared/test-it-out https://docs.civicrm.org/sysadmin/en/latest/planning/demo
+getting-prepared/transitioning-to-civicrm https://docs.civicrm.org/sysadmin/en/latest/planning/transition
+advanced-configuration/email-system-configuration https://docs.civicrm.org/sysadmin/en/latest/setup/civimail
+initial-set-up/civicrm-system-status https://docs.civicrm.org/sysadmin/en/latest/setup
+initial-set-up/scheduled-jobs https://docs.civicrm.org/sysadmin/en/latest/setup/jobs
+initial-set-up/security https://docs.civicrm.org/sysadmin/en/latest/setup/security
+getting-prepared/is-civicrm-for-you introduction/is-civicrm-for-you
+advanced-configuration/change-logging initial-set-up/change-logging
