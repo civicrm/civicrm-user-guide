@@ -149,8 +149,8 @@ Option B: Go to the profile settings. In the Advanced Settings section, select y
 
 For this to work, first make sure that you have put a tick on the desired **Enable Double Opt-in** options in **Administer > Administration Console > CiviMail Component Settings**.
 
-After people subscribe to mailing list groups-via the subscribe link or
-a profile-CiviCRM will automatically send them an email asking them to
+After people subscribe to mailing list groups &mdash; via the subscribe link or
+a profile &mdash; CiviCRM will automatically send them an email asking them to
 confirm their subscription. Until they click the confirmation link in
 the email, their contact information will appear in CiviCRM with their
 group subscription set to Pending. When they confirm, CiviCRM will
