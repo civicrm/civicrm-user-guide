@@ -4,7 +4,7 @@ CiviCRM is highly flexible and customizable. This chapter gives
 information on the many ways you can change the interface to suit your
 needs and make it easier for your users.
 
-How to customize your data itself-what you collect and track-is covered
+How to customize your data itself &mdash; what you collect and track &mdash; is covered
 in *Organising Your Data* and in the *What you need to know*and *Set-up*
 chapters in the sections on the different CiviCRM components (e.g.,
 learn about customizing event types in the *Events* section).
@@ -34,8 +34,8 @@ Postal Mail, SMS) in the contact edit/entry form can also be modified;
 go to **Administer > Communications > Preferred Communications
 Methods**.
 
-Modifying dropdown options that define data-such as Activity Type,
-Relationship, etc.-is outside the scope of this chapter; see *Organising
+Modifying dropdown options that define data &mdash; such as Activity Type,
+Relationship, etc. &mdash; is outside the scope of this chapter; see *Organising
 Your Data* and the sections on the different CiviCRM components.
 
 ## Changing display preferences
