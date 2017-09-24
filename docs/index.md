@@ -1,22 +1,23 @@
-
 # CiviCRM User Guide
 
-This book is a guide for users of CiviCRM and covers
-everything they need to know
-to work with CiviCRM on a day to day basis. Our aim is to cover all
-functionality that is available via CiviCRM's user interface.
+## Scope of this guide
 
-Although we do not cover system administrator or developer topics,
-CiviCRM developers and system administrators will also find this book
-useful as a guide to everything you can do with an 'out of the box'
-CiviCRM.
+This guide is for [CiviCRM](https://civicrm.org) users and covers all the functionality available through CiviCRM's web-based interface.
 
-Some aspects of CiviCRM (such as installation, or custom development)
-are technical and outside the scope of this book. Although they are not
-covered here, we do point to other relevant sources of technical
-document which should be useful for people (like your service provider,
-or technical staff) who understand them.
+### User Guide vs System Administrator Guide
 
-This guide is freely available to read online. It is collaboratively written by the CiviCRM community (see the
-[History of this book](/appendices/history-of-this-book.md) chapter for more details). You can help write this
-guide and help with other documentation efforts by learning more about [contributing to this guide](/the-civicrm-community/contributing-to-this-manual.md).
+We also have a [System Administrator Guide](https://docs.civicrm.org/sysadmin/en/latest) which covers installation, upgrades, and some of the more complicated setup tasks.
+
+The two guides have some overlapping scope when it comes to setup and configuration. In general, we try to cover actions in the User Guide which the user can perform from within CiviCRM's user interface. Actions that require work outside of the CiviCRM interface (e.g. file-system or shell access) are covered in the System Administrator Guide. 
+
+## Editing this guide
+
+* This guide is made with MkDocs and stored in a [GitHub repository](https://github.com/civicrm/civicrm-user-guide).
+* For simple editing instructions, see the page in this guide on [contributing to this guide](/the-civicrm-community/contributing-to-this-manual.md).
+* For a more in-depth editing tutorial, see our page in the Developer Guide on [writing documentation](https://docs.civicrm.org/dev/en/latest/documentation).
+
+## Credits
+
+This guide is collaboratively written by the CiviCRM community, with facilitation from the [Documentation Working Group](https://civicrm.org/working-groups/documentation).
+
+See the [History of this book](/appendices/history-of-this-book.md) chapter for more details.
