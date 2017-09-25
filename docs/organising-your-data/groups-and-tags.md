@@ -30,7 +30,7 @@ be used to set up advanced access rights (on Drupal). Well-defined
 groups are one of the most important tools available when segmenting
 your CiviCRM contact database.
 
-There are two kinds of Groups – (Regular) **Groups** and **Smart Groups**.
+There are two kinds of Groups &mdash; (Regular) **Groups** and **Smart Groups**.
 
 -   Regular groups are just called **Groups**.  You manually place contacts into and remove contacts from a (regular) group. For example, you can manually assign your organisation's
     board members to a Board of Directors group. You can then
