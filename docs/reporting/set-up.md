@@ -37,7 +37,7 @@ There are two steps to configuring a report:
 ## Select report criteria
 
 When you create a new report you will be presented with two or more tabs
-that will let you define the information the will be displayed in your
+that will let you define the information that will be displayed in your
 report. The tabs available will depend on the template you have selected
 with the most common being:
 
@@ -148,7 +148,7 @@ be run again. (You will need to preview the report to make the settings tabs vis
     actual report title replace "CiviCRM Report" between < title> and < /title>.
     You can include a logo be adding an < img> tag. You can also modify
     the look and feel of the printed report by including a custom CSS
-    file (instead ofnprint.css)
+    file (instead of print.css)
 ![image](../img/Report-Title-and-Format.png)
 2.  The **Email Delivery** tab contains the fields that will let you have
     report emailed to yourself or someone else on a regular basis. Fill
