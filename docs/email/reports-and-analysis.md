@@ -28,7 +28,7 @@ opened the email *if you have chosen to track opens*.
 
 **Note:** In the world of email, there is no 100% reliable way of
 knowing when someone has opened an email. CiviCRM uses a trick that is
-common amongst mass mailers—it embeds a small image with a unique name
+common amongst mass mailers &mdash; it embeds a small image with a unique name
 in each email. When a client views the email and downloads the image,
 CiviCRM knows that they have read the email. Because this technique is
 common, to protect people's privacy, most email clients ask users to

@@ -127,7 +127,7 @@ Details about using Profiles to manage email lists are found in the
 Because Profiles can be used for so many different purposes, there are a
 lot of choices to make and settings to configure when setting them up.
 There are settings for the Profile as a whole and settings for each
-field you add—and the choice of what those fields are. Choices you make
+field you add &mdash; and the choice of what those fields are. Choices you make
 about one aspect will affect choices you can make about others. For
 example, some types of Profiles limit the kinds of fields you can
 include, and some combinations of fields are not allowed in any type of
@@ -149,7 +149,7 @@ Here are some guidelines on which fields can be added to a Profile:
     specific type. The Organization field menu, for example, contains
     only those fields that do not also apply to other Contact types.
 -   Except in Search Results Profiles, you can combine Contact fields
-    with fields from one—and only one—of the other record types:
+    with fields from one and only one of the other record types:
     Activity, Participants, Contributions, and Membership.
 -   If you try to combine fields with an unsupported combination of
     record types, you'll get an error when you try to save the field.
@@ -449,7 +449,7 @@ On the popup form, select Profile as the desired frontend element.
 ![image](../img/2013-09-04_15-15-35.png)
 
 Use the second select widget to specify the profile you would like to
-use. Finally, select the purpose of the form — create, edit or view —
+use. Finally, select the purpose of the form &mdash; create, edit or view
 and click Insert Form.
 
 ![image](../img/2013-09-04_15-16-45.png)
