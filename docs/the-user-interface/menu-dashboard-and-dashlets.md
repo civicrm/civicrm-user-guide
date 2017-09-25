@@ -8,7 +8,7 @@ and the navigation menu available for people working in CiviCRM.
 The navigation menu is a small bar at the top of every "back office"
 page of CiviCRM.
 
-![image](../img/4.5%20Menubar.png)... 
+![image](../img/4.5%20Menubar.png)
 
 It provides access to nearly every function of CiviCRM and is broadly
 organised into headings by individual CiviComponents (such as
@@ -19,7 +19,25 @@ and Administer, both of which cover all of the enabled CiviComponents.
 
 You can modify the navigation menu by going to: **Administer** >
 **Customize** > **Navigation Menu** and then adding or rearranging menu
-items on the screen. Remember that changes you make to the navigation
+items on the screen.
+ 
+You can also add icons to the navigation menu items, by editing the 
+navigation menu item you will see a text input called (Icon):
+
+![NavMenu_EditItem_IconField](../img/47NavMenu_EditItem_IconField-en.png)
+
+In the (Icon) Field text box you can add a CSS class for the icon you
+want to show, by default CiviCRM is shipped with [Font-Awesome Icons](http://fontawesome.io)
+which you can use out of the box, for example you can set the icon field
+for (Search) navigation item to **"fa fa-search"** (without quotes) and it will appear like this:
+
+![NavMenu_SearchMenuIcon](../img/47SearchMenuIcon-en.png)
+
+If you are planning to use custom icons then a CiviCRM extension
+should be created to add the necessary resources (Fonts, CSS files ..etc)
+of your custom icons before using them.
+
+Remember that changes you make to the navigation
 menu will be seen by everyone who has the appropriate permissions to see
 the menu, for better or for worse, so be careful when modifying the
 navigation menu.
