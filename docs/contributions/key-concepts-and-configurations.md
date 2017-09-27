@@ -30,7 +30,7 @@ required as shown for the four default financial types in the following image.
 The **financial accounts** should be based on your organisation's
 Chart of Accounts. In CiviCRM each contribution must be assigned a financial type.
 When the contribution is saved the appropriate debits and credits are
-automatically recorded for the financial accounts linked ot that financial type.
+automatically recorded for the financial accounts linked to that financial type.
 (If you are using
 price sets, each option in the price set could be linked to a different
 financial type and CiviCRM will still record the appropriate debits and
