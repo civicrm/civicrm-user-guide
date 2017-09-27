@@ -100,7 +100,7 @@ created by one of these opt-out tokens: **{action.optOut}
 
 You can include these tokens directly in the body of your mailing or in
 a footer message. (For more on tokens, see here:
-[http://wiki.civicrm.org/confluence/display/CRMDOC/Tokens.](http://wiki.civicrm.org/confluence/display/CRMDOC/Tokens.)
+[https://docs.civicrm.org/dev/en/master/framework/civimail/tokens/](https://docs.civicrm.org/dev/en/master/framework/civimail/tokens/).
 For more on footers, see the previous section in this chapter, *Set up > Creating headers and footers.*)
 
 ### What does the privacy option 'Do not email' mean?
