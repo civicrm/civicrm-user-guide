@@ -32,7 +32,7 @@ advanced reporting, see the *CiviReport* section.
 
 ## Quick search
 
-![Quicksearch](../img/quicksearch.png)
+![Quicksearch](../img/the-user-interface/searching/quicksearch.png)
 
 The easiest way to find a specific contact is to use the Quick search
 box that appears in the navigation menu at the top left of the screen. You may choose to search by one of several criteria. Once you click in the box you can start typing immediately to use the default Name/Email search or you can click again to expose several other criteria in a dropdown selection list. Contacts that match the phrase you enter will appear in a dropdown list below the box. For example, if you are searching with Name/Email and you have left
@@ -61,7 +61,7 @@ Note: If you search by **phone** then you will need to enter the digits of the p
 Note: If you want to search by **first** and **last** name, use the format "Lastname, Firstname", not "Firstname Lastname".  For example, "Peterson, Mary" not "Mary Peterson".
 
 ## Advanced search
-![Screen shot of advanced search](../img/user-interface-advanced-search-main-screen.png)
+![Screen shot of advanced search](../img/the-user-interface/searching/user-interface-advanced-search-main-screen.png)
 
 Advanced search allows you to search across all the information you have
 about your contacts. For example, you could find "all contacts in
@@ -84,7 +84,7 @@ in.
 
 #### Display Settings For Results
 
-![Screen shot of Display Results As](../img/user-interface-display-results-as.png)
+![Screen shot of Display Results As](../img/the-user-interface/searching/user-interface-display-results-as.png)
 
 Advanced Search returns your results as Contact records by default.
 However, you may want to get another record type instead. For example,
@@ -96,7 +96,7 @@ contacts. Simply select the record type you want from the **Display Results As**
 
 #### Views for Display Contacts
 
-![Screen shot of Display Contacts](../img/user-interface-new-contact-view-profile.png)
+![Screen shot of Display Contacts](../img/the-user-interface/searching/user-interface-new-contact-view-profile.png)
 
 Advanced search allows you to change the columns displayed in your
 search results. The default columns are Name, Street Address, City,
@@ -111,11 +111,11 @@ detail in the Profiles chapter in the Configuration section.)
 For example you may want to include columns for Gender and Date of Birth, while eliminating Country.
 Create a profile that includes birth date, gender and address fields.
 
-![Screen shot of Search View setting in a profile](../img/user-interface-profile-search-view-setting.png)
+![Screen shot of Search View setting in a profile](../img/the-user-interface/searching/user-interface-profile-search-view-setting.png)
 
-![Screen shot of Visibility setting in a profile](../img/user-interface-profile-search-view-setting-2.png)
+![Screen shot of Visibility setting in a profile](../img/the-user-interface/searching/user-interface-profile-search-view-setting-2.png)
 
-![Screen shot of a profile](../img/user-interface-new-contact-view-profile.png)
+![Screen shot of a profile](../img/the-user-interface/searching/user-interface-new-contact-view-profile.png)
 
 Read more about creating profiles in the Profiles section of the chapter
 on *Organising Your Data*.
@@ -129,11 +129,11 @@ The Search Operator determines whether your criteria are combined with AND state
 
 The Search in Trash allows you to search contacts that have been deleted but not deleted permanently. When a contact is deleted, the contact and all related data are moved to trash. Only users with the relevant permission will be able to search in trash and will be able to restore the contact from trash.
 
-![Screen shot of Search in Trash](../img/user-interface-search-in-trash.png)
+![Screen shot of Search in Trash](../img/the-user-interface/searching/user-interface-search-in-trash.png)
 
 ### The Date Range Filter
 
-![Screen shot of Date Range Filter](../img/user-interface-date-filter.png)
+![Screen shot of Date Range Filter](../img/the-user-interface/searching/user-interface-date-filter.png)
 
 Most component searches include a date range filter. The images below
 show examples of both:
@@ -148,7 +148,7 @@ are configured to include contacts that share a certain set of
 characteristics or activities). For more information see the *Groups and
 tags* chapter.
 
-![Screen shot of Relative Date Range Filter](../img/user-interface-date-filter-relative.png)
+![Screen shot of Relative Date Range Filter](../img/the-user-interface/searching/user-interface-date-filter-relative.png)
 
 For example you may want to use a relative date range search to find:
 
@@ -161,7 +161,7 @@ For example you may want to use a relative date range search to find:
 
 Relative dates filters based on the time interval "week" assume that Sunday is the first day of the week.   This is not true in all countries, for example Europe and many countries in Asia/Pacific region consider Monday to be the first day of the week. To set which day is the first day of the week, you need to go to **Administer >> Localization >> Date Format**.
 
-![Screen shot of how to change the first day of the week](../img/user-interface-searching-week-begins.png)
+![Screen shot of how to change the first day of the week](../img/the-user-interface/searching/user-interface-searching-week-begins.png)
 
 
 #### **Combining search criteria**
@@ -183,7 +183,7 @@ With fields that allow you to select more than one value from a dropdown list,
 the values are always combined with "OR". For example, you could find contacts
 that live in Alaska or in Arizona.
 
-![Screen shot of combining search criteria](../img/user-interface-searching-states.png)
+![Screen shot of combining search criteria](../img/the-user-interface/searching/user-interface-searching-states.png)
 
 ## Search Builder
 
@@ -220,7 +220,7 @@ include contacts where.** The following example will search for females
 born after Jan 1 2000 OR members of the Administrators or Advisory Board
 groups:
 
-![Search Builder](../img/Search%20Builder.png)
+![Search Builder](../img/the-user-interface/searching/Search%20Builder.png)
 
 Your search results will contain each contact's name, plus a column for
 each search criteria you've defined. If you export search results, the
@@ -294,7 +294,7 @@ Contacts in a Group/Tag", that enables you to find contacts who are in
 one group but not in another, which you can find by going to **Search >
 Custom Searches** in the navigation menu.
 
-![Include/Exclude Search](../img/IncludeExclude.png)
+![Include/Exclude Search](../img/the-user-interface/searching/IncludeExclude.png)
 
 By combining Include and Exclude options, you can find contacts who are
 in one group but remove just the group members who fit another
@@ -411,7 +411,7 @@ all records or specific records, then carry out an action with the
 selected records. Different actions are covered in more detail in the
 chapter on Everyday Tasks.
 
-![Screen shot of Action Dropdown](../img/user-interface-searching-actions-dropdown.png)
+![Screen shot of Action Dropdown](../img/the-user-interface/searching/user-interface-searching-actions-dropdown.png)
 
 Some of the most commonly used actions are Add Contacts to Group, Export
 Contacts, Map Contacts, and creating and printing Mailing Labels. (To
@@ -432,7 +432,7 @@ left column, as shown below. You can adjust the fields shown in this
 profile (**Administer** > **Customize Data and Screens** >
 **Profiles**).
 
-![Screen shot of Contact Summary pop-up](../img/user-interface-searching-summary-overlay.png)
+![Screen shot of Contact Summary pop-up](../img/the-user-interface/searching/user-interface-searching-summary-overlay.png)
 
 ## The wildcard (%)
 
