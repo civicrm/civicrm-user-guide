@@ -190,16 +190,22 @@ Settings**> **SMS Providers**. Click **Add New Provider**.
 
 2. Set up the provider as follows:
 
-* Name: select "Twilio"
-* Title: give the SMS provider a title user's will see (e.g. "Twilio SMS")
-* Username: enter your "Account SID" from the previous step
-* Password: enter your "Auth Token" from the previous step
-* API type: leave as "http"
-* API URL: leave as "https://api.twilio.com/"
-* API Parameters: enter "From=" followed by your Twilio phone number from the
-previous step, in international format with no spaces.
+    * Name: select "Twilio"
+    * Title: give the SMS provider a title user's will see (e.g. "Twilio SMS")
+    * Username: enter your "Account SID" from the previous step
+    * Password: enter your "Auth Token" from the previous step
+    * API type: leave as "http"
+    * API URL: leave as "https://api.twilio.com/"
+    * API Parameters: enter "From=" followed by your Twilio phone number from the
+    previous step, in international format with no spaces. On a second line, enter "mo=1".
+    * NOTE: Twilio will only allow you to send around 200 messages per day from each long
+    number. If you want to send more messages per day and you cannot afford a short code,
+    you can get additional long numbers from Twilio. Include those additional numbers by 
+    listing them, separated by a `|` (the "pipe" character). For example: 
+    `From=12345051212|19875052323|15675052345`. When you incude multiple long numbers, one
+    number is chosen at random each time an SMS message is sent.
 
-Click Save to create your provider.
+3. Click Save to create your provider.
 
 ### Testing CiviSMS
 
