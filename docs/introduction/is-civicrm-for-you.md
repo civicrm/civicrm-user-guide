@@ -25,15 +25,17 @@ CiviCRM, contact a CiviCRM Ambassador
 have a look on the CiviCRM forums, at case studies on the community
 site, or try your local non-profit technology mailing list.
 
-The CiviCRM forums
-([http://forum.civicrm.org](http://forum.civicrm.org)) have a few boards
-for people who are new to CiviCRM, such as "Pre-installation Questions"
-([http://forum.civicrm.org/index.php/board,5.0.html](http://forum.civicrm.org/index.php/board,5.0.html)).
-Remember that the forums are staffed mainly by volunteers so you will
-get a better response if you spend some time formulating an easily
-answerable question. You can also search the forums and browse for
-questions that others have asked. If you wish to ask questions or
-contribute to the discussions you must register first.
+The CiviCRM StackExchange forums
+([https://civicrm.stackexchange.com/](https://civicrm.stackexchange.com/)) 
+is a very good place to both ask and get answers to questions.
+Try to formulate your question separately before posting and submit it 
+as concisely as possible - trying as much as possible to use the names 
+and terms used within CiviCRM (as opposed to those used by your business
+model). This can improve the service you receive from the forums 
+considerably!. 
+Forums are staffed mainly by volunteers, so the easier it is for them to understand, the more quickly the answers will come.
+If you wish to ask questions or contribute to the discussions you must 
+register first.
 
 ## Talking to CiviCRM Consultants
 
