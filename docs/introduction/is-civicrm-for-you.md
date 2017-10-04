@@ -20,29 +20,26 @@ CiviCRM is right for your organisation:
 If you know of another organisation that uses CiviCRM, talk to them
 about their experience. Obviously the more similar they are to your
 organisation, the better. If you don't know anyone that is using
-CiviCRM, contact a CiviCRM Ambassador
-([https://civicrm.org/ambassadors](https://civicrm.org/ambassadors)),
+CiviCRM, contact a [CiviCRM Ambassador](https://civicrm.org/ambassadors),
 have a look on the CiviCRM forums, at case studies on the community
 site, or try your local non-profit technology mailing list.
 
-The CiviCRM StackExchange forums
-([https://civicrm.stackexchange.com/](https://civicrm.stackexchange.com/)) 
+The [CiviCRM StackExchange](https://civicrm.stackexchange.com/)
 is a very good place to both ask and get answers to questions.
 Try to formulate your question separately before posting and submit it 
 as concisely as possible - trying as much as possible to use the names 
 and terms used within CiviCRM (as opposed to those used by your business
 model). This can improve the service you receive from the forums 
-considerably!. 
-Forums are staffed mainly by volunteers, so the easier it is for them to understand, the more quickly the answers will come.
+considerably! 
+Stack Exchange questions are answered by volunteers, so the easier it is for them to understand, the more quickly the answers will come.
 If you wish to ask questions or contribute to the discussions you must 
 register first.
 
 ## Talking to CiviCRM Consultants
 
 Another option to help you understand CiviCRM is to make use of a
-professional. The CiviCRM website lists professional vendors and
-consultants that can walk you through CiviCRM
-([http://civicrm.org/providers](http://civicrm.org/providers)), and
+professional. The CiviCRM website lists [professional vendors and
+consultants](http://civicrm.org/providers) that can walk you through CiviCRM, and
 there are many others; you may find a local website company who has
 experience with CiviCRM. Consider hiring a consultant for a day to
 discuss with you how CiviCRM could help your organisation.
