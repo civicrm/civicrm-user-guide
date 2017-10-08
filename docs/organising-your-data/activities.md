@@ -20,8 +20,8 @@ You can record an activity between a given contact and multiple other
 contacts by adding as many contacts as you like in the With Contact
 field on the Add Activity form.
 
-Several types of activities are included by default, but your administrator can
-create additional types to define specific things that your organisation does.
+Several types of activities are included by default, but administrators can
+[create additional activity types](#types) to define specific things that your organisation does.
 
 Activities have the following attributes by default:
 
@@ -64,7 +64,7 @@ The default set of status options is
 -   Unreachable
 -   Not Required
 
-Your administrator can create additional status options.
+Administrators can [create additional status options](#statuses).
 
 ## Repeating Activities
 
@@ -99,7 +99,7 @@ Activities.
 
 ## Administering Activities
 
-### Creating new Activity Types
+### Creating new Activity Types {:#types}
 
 You can define these at **Administer > Customize Data and Screens >
 Activity Types**. You can also add custom fields to activity types to
@@ -125,7 +125,7 @@ to be available from the Actions button when viewing a contact record.
 Assign it to "CiviCase" if these activities are only for use inside a
 case.
 
-### Setting up Custom Field Sets for Activities
+### Setting up Custom Field Sets for Activities {:#custom-fields}
 
 When setting up custom data sets, you will need to specify what the
 custom data will be used for. One of the options here is Activity and if
@@ -135,7 +135,7 @@ activities.
 
 ![image](../img/activity%20cf.png)
 
-### Creating new Activity Statuses
+### Creating new Activity Statuses {:#statuses}
 
 If you need to add more options, you can do so from **Administer >
 System Settings > Option Groups**.
