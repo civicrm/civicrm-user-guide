@@ -118,7 +118,7 @@ There are two ways to display the profile publicly:
     contents of the box into a page on your website. Website visitors
     will be able to sign up to your mailing lists on this page.
 
-Alternatively, for WordPress you can display the form publicly by using a shortcode. On any Wordpress Page, click the **CiviCRM** button above the editor. For **Page Type** select **Profile**. On the next drop-down that appears, select the name of the profile that you have created. Select **Edit** on the radio button option just below the drop-downs, so that you give users access to edit data in your database (i.e. to add their email address and name to your database). Click **Insert Form** and the shortcode will be added to the editor.
+Alternatively, for WordPress you can display the form publicly by using a shortcode. On any WordPress Page, click the **CiviCRM** button above the editor. For **Page Type** select **Profile**. On the next drop-down that appears, select the name of the profile that you have created. Select **Edit** on the radio button option just below the drop-downs, so that you give users access to edit data in your database (i.e. to add their email address and name to your database). Click **Insert Form** and the shortcode will be added to the editor.
 
 ### Using a Webform (Drupal)
 

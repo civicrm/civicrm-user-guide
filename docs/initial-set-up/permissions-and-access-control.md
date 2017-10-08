@@ -126,7 +126,7 @@ between:
 -   **Denied**: users in this user group cannot perform the action
 
 Note that Joomla! has two additional permissions not used by Drupal or
-Wordpress: **Configure Joomla! ACL** (user can configure Joomla! ACLs and
+WordPress: **Configure Joomla! ACL** (user can configure Joomla! ACLs and
 is assigned all CiviCRM permissions) and **Show CiviCRM
 Component** (user can see CiviCRM in the Components list).
 
@@ -146,12 +146,12 @@ do one of the following:
 
 
 
-### Access Control (Permissions) in Wordpress 
+### Access Control (Permissions) in WordPress 
 
 In CiviCRM go to **Administer** > **User and Permissions** >
-**Permissions (Access Control)**. Select the **Wordpress Access
+**Permissions (Access Control)**. Select the **WordPress Access
 Control**link. Here you can adjust the CiviCRM settings for each of the
-predefined User Roles from Wordpress.
+predefined User Roles from WordPress.
 
 ![image](../img/z_sprint14_wordpressacl_menu.png)
 

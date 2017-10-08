@@ -28,8 +28,8 @@ which work with any CMS, and CMS specific extensions that add
 integration between CiviCRM and the CMS and hence are CMS specific. If
 you are familiar with your CMS, you may know CMS specific extensions by
 another name, for example Drupal specific extensions are typically
-called **Drupal Modules** and Wordpress specific extensions are called
-**Wordpress Plugins**.
+called **Drupal Modules** and WordPress specific extensions are called
+**WordPress Plugins**.
 
 Extensions that have been approved for automated distribution can be
 easily installed directly from your CiviCRM installation. 

@@ -283,7 +283,7 @@ user account as part of becoming a member or registering for an event.
 
 #### **WordPress user account registration option**
 
-Like Drupal, Wordpress allows CiviCRM Profiles to create accounts as
+Like Drupal, WordPress allows CiviCRM Profiles to create accounts as
 described above. Within WordPress **Settings > General** "Membership [
 ] Anyone can register" must be clicked.
 
@@ -565,7 +565,7 @@ You have several options to link to your directory:
     After creating a new menu item, select CiviCRM and choose the
     profile search option. In the parameters pane, choose the specific
     profile to use.
--   **Wordpress:** this feature is not yet implemented.
+-   **WordPress:** this feature is not yet implemented.
 -   You can also prepopulate any search criteria in the URL. These
     options are described here:
     [http://wiki.civicrm.org/confluence/display/CRMDOC/Linking+Profiles](http://wiki.civicrm.org/confluence/display/CRMDOC/Linking+Profiles)
