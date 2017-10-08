@@ -53,6 +53,39 @@ custom mail merge tokens in the Hooks chapter of the Extending CiviCRM
 section of this book and look at the wiki:
 [http://wiki.civicrm.org/confluence/display/CRMDOC/Tokens](http://wiki.civicrm.org/confluence/display/CRMDOC/Tokens).
 
+### Smarty in mail templates
+
+Mail templates use Smarty to include variables, tokens & functions. A more thorough tutorial can be found at [http://www.smarty.net/manual](http://www.smarty.net/manual).
+Notice: For Smarty to work you must add (or modify) a line to your civicrm.settings.php file located under sites/default/ for Drupal and administrator/components/com_civicrm for Joomla.
+
+Place the following below the line define( 'CIVICRM_MEMCACHE_PREFIX', '' ); Or if these lines exist in your settings file, change the 0 (false) to 1 (true).
+````
+/**
+ * Enable this constant, if you want to send your email through the smarty
+ * templating engine(allows you to do conditional and more complex logic)
+ *
+ */
+define( 'CIVICRM_MAIL_SMARTY', 1 );==
+````
+Tips
+
+To make CiviCRM tokens available to Smarty functions, one must use the {capture} function:
+tokens-for-smarty.txt
+````
+{capture assign=first_name}{contact.first_name}{/capture}
+Dear {$first_name|default:Friend},
+{if $first_name}
+  Hello, {$first_name}, how are you?
+{/if}
+````
+This also applies to custom fields. If {contact.custom_16} is a Yes/No field designating a membership as a gift or not and the name of the gift giver is in {contact.custom_17} then the following will print a line to that effect in a PDF letter:
+````
+{capture assign=gift}{contact.custom_16}{/capture}
+
+{if $gift == Yes}
+  This membership is a gift from {contact.custom_17}.
+{/if}
+````
 Another task for a developer is to create if/then logic for your mail
 merge. This is done using the smarty template language as described here
 [http://www.smarty.net/docs/en/language.function.if.tpl](http://www.smarty.net/docs/en/language.function.if.tpl).
