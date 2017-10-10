@@ -30,7 +30,7 @@ pop-up window by clicking directly on the title. If you're ready to work
 on that activity, click the edit pencil to the right of the activity
 title. 
 
-![image](../img/z-CiviCrm-4.5-case-activit-row.png)
+![](../img/z-CiviCrm-4.5-case-activit-row.png)
 
 
 Click on the triangular expand icon (►) to the left of the client name
@@ -103,7 +103,7 @@ steps:
     will see a list of potential matches (as illustrated by the
     following screenshot).
 
-    ![image](../img/z-CiviCrm-4.5-case-newclient.png) 
+    ![](../img/z-CiviCrm-4.5-case-newclient.png) 
 
 3.  If you don't find the contact, you can create it immediately by
     selecting the type of contact from the **create new contact** list.
@@ -120,7 +120,7 @@ steps:
     Gala** for Location. You can manage Encounter Mediums by selecting
     the edit icon.
 
-    ![image](../img/z-4.5-civicase-medium.png)
+    ![the edit icon shows a pencil](../img/z-4.5-civicase-medium.png)
 
     Use the **Details** text area to add information pertaining to the
     overall case, but not to a specific *activity* of the case. An
@@ -184,7 +184,7 @@ particular case on a single screen, including:
 -   Identify/manage client relationships
 -   Run case audits (reports)
 
-![image](../img/z-CiviCrm-4.5-mange-case-new.png)
+![Manage case page](../img/z-CiviCrm-4.5-mange-case-new.png)
 
 ## Assigning case roles
 
@@ -195,7 +195,7 @@ their My Cases view. The phone number and email address of each person
 with a case role will be displayed on the case, making it easy to
 communicate with them (see screenshot).
 
-![image](../img/z-CiviCrm-4.5-mange-roles.png)
+![List of case roles with the button 'add new role' on top.](../img/z-CiviCrm-4.5-mange-roles.png)
 
 Within a case, you can assign a case role to a contact:
 
@@ -258,7 +258,7 @@ Once you have selected your search criteria, click the **Search** button
 to the right and the table will automatically filter out all of the
 activities not matching your criteria.
 
-![image](../img/z-CiviCrm-4.5-mange-activity.png) 
+![List of search reslults.](../img/z-CiviCrm-4.5-mange-activity.png) 
 
 ## Adding and managing activities
 
