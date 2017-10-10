@@ -272,7 +272,7 @@ Go to **Contributions** > **Manage Contribution Pages** > click
 Page** to view the finished page. You can then copy the URL and include
 it in a content page or assign it to a menu item.
 
-### In Wordpress
+### In WordPress
 
 Go to **Contributions** > **Manage Contribution Pages** > click
 **Links** next to your membership sign-up/renewal page > click **Live
@@ -280,10 +280,10 @@ Page. **Copy the URL and insert it into an HTML link or menu.
 
 *Or* use a plugin such as Page Links To create a URL 'slug'.
 
-*Or* click the Wordpress shortcode icon to insert a form into any page
+*Or* click the WordPress shortcode icon to insert a form into any page
 or post.
 
-![image](../img/Wordpress-Shortcodes-small.png)
+![image](../img/WordPress-Shortcodes-small.png)
 
 ### In Joomla!
 

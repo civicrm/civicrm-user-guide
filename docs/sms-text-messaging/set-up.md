@@ -46,7 +46,7 @@ Four optional settings will appear, including:
     -   Enable your app to receive message delivery notifications (New option?)
         Enter the correct URL for your site. Example:
         Drupal: http://www.example.com/civicrm/sms/callback?provider=org.civicrm.sms.clickatell
-        Wordpress: https://www.example.org/?page=CiviCRM&q=civicrm%2Fsms%2Fcallback&provider=org.civicrm.sms.clickatell
+        WordPress: https://www.example.org/?page=CiviCRM&q=civicrm%2Fsms%2Fcallback&provider=org.civicrm.sms.clickatell
 
 
 
@@ -113,7 +113,7 @@ tab, then click Manage next to the phone number you are working with.  For the
 Primary Callback:  Reply Path, choose "HTTP Get" from the dropdown.  In the target
 address, enter the same address as used before:
 Drupal: http://www.example.com/civicrm/sms/callback?provider=org.civicrm.sms.clickatell
-Wordpress: https://www.example.org/?page=CiviCRM&q=civicrm%2Fsms%2Fcallback&provider=org.civicrm.sms.clickatell
+WordPress: https://www.example.org/?page=CiviCRM&q=civicrm%2Fsms%2Fcallback&provider=org.civicrm.sms.clickatell
 
 ## Configuring a Twilio SMS Gateway
 

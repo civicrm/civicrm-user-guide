@@ -25,7 +25,7 @@ respectively).
 Before you can begin installation, you need to decide which CMS (Content
 Management System; used for building and managing websites) you wish to
 integrate with, choosing between the open-source options: Drupal,
-Wordpress or Joomla!.
+WordPress or Joomla!.
 
 You can find full instructions on installing CiviCRM here:[
 http://wiki.civicrm.org/confluence/display/CRMDOC/Installation+and+Upgrades](http://wiki.civicrm.org/confluence/display/CRMDOC/Installation+and+Upgrades%20)[](http://wiki.civicrm.org/confluence/display/CRMDOC/Installation+and+Upgrades%20)
@@ -375,7 +375,7 @@ following behaviors:
     also reported anonymously to the CiviCRM team to assist in
     prioritizing ongoing development efforts. The following information
     is gathered: CiviCRM version, versions of PHP, MySQL and framework
-    (Drupal/Joomla!/Wordpress), and default language. Record counts (but
+    (Drupal/Joomla!/WordPress), and default language. Record counts (but
     no actual data) are also reported. You can set this field to No if
     you are not comfortable with having this information reported for
     your site.
