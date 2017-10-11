@@ -126,7 +126,7 @@ regardless of whether you include any other fields in your profile(s).
     When you edit or create a new profile you will use the profile drag
     and drop interface pictured here.
 
-    ![image](../img/Contribution-page-edit-profile2.gif)
+    ![screenshot](../img/Contribution-page-edit-profile2.gif)
 
     WARNING: If you modify an existing profile whilst configuring your
     Contribution page, the changes you make will apply everywhere that
@@ -140,9 +140,9 @@ page, CiviCRM automatically generates a checkbox on the front end form
 which allows the user to indicate that their Billing Address and Home
 Address are the same. (If the Home Address profile is included at the
 bottom of the page, this checkbox will not be generated).
-![image](../img/Profiles-HomeAddress.jpg)
+![Include profile top of page listbox, and include profile bottom of page listbox.](../img/Profiles-HomeAddress.jpg)
 
-It is highly recommended that Contribution Pages include a CPATCHA (reCAPTCHA in the case of CiviCRM).  You can add reCAPTCHA to a profile you include and it will be included on the Contribution Page.
+It is highly recommended that Contribution Pages include a CAPTCHA (reCAPTCHA in the case of CiviCRM).  You can add reCAPTCHA to a profile you include and it will be included on the Contribution Page.
 
 For more information read [Profiles](../organising-your-data/profiles).
 

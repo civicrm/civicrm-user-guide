@@ -97,7 +97,7 @@ If you have iATS configured, you will manage the recurring contributions directl
 
 You can manage a recurring contribution by going to the **Contributions** tab on a contact record. At the bottom of the page, there is a separate section for Recurring Contributions.
 
-![image](/img/RecurringContributions.png)
+![screenshot](/img/RecurringContributions.png)
 
 You have the option to **View**, **Edit**, or **Cancel** the recurring contribution here. You can edit the Recurring Contribution Amount, Number of Installments, Next Scheduled Contribution Date, Financial Type, Status, Start Date, and whether or not the donor receives an email notification on each payment installation. The donation frequency (e.g. weekly, monthly) cannot be changed from within CiviCRM.
 
