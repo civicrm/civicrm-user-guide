@@ -79,7 +79,7 @@ Select Recipients screen of the re-used mailing setup.
 In the Mailings area of **Search>Advanced search** you can search by
 bounce type.
 
-![image](../img/advanced_search_mailing_bounce_type.png) 
+![List of bounce types: AOL, Away, DNS, Host...](../img/advanced_search_mailing_bounce_type.png) 
 
 ## Click-through summary
 
@@ -88,7 +88,7 @@ There are two statistics, **Clicks** (i.e., the number of times that a
 link has been clicked) and **Unique clicks** (i.e., the number of people
 that have clicked on links).
 
-![image](../img/Screen%20shot%202011-08-27%20at%2016.28.28.png)
+![screenshot](../img/click_through_summary.png)
 
 ## Mailing reports with CiviReport
 
