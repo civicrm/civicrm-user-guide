@@ -24,7 +24,7 @@ emails, such as a link to an opt-out page or link to choose mail
 formats. Some tokens are only available for mass mailings, such as the
 token to provide a link to a message stored online.
 
-![image](../img/Tokens-4.5.png)
+![New email screen with the token list expanded.](../img/Tokens-4.5.png)
 
 ### Checksum token
 
