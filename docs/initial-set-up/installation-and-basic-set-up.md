@@ -77,7 +77,7 @@ red. After you have visited a page, the links will display in green
 (although you may still need to revisit the page to complete or update
 the settings).
 
-![image](../img/Configuration_Checklist_4_4.png)
+![Cheklist with several setions. The first section, site configuration, contains the items: localization, organization address and contact info, and enable components.](../img/Configuration_Checklist_4_4.png)
 
 ### Localization
 
@@ -108,7 +108,13 @@ For more info, have a look here:
 
 Under Localization you will also find the **Advanced Date Input Settings**.
 By default, CiviCRM provides ranges for input on specific date fields. For instance,
- the default range for Activity Dates are 20 years prior to the current year all the way through to 10 years beyond the current year. If you would like to track activities that have occurred, say, 25 years ago then you would need to update this range to enable your end users to log these activities. To update these settings to the appropriate range go to **Administer > Localization > Date Formats > Advanced Date Input Settings**. If you were to leave these settings as the default you will see an error such as this:
+the default range for Activity Dates are 20 years prior to the current year
+all the way through to 10 years beyond the current year. If you would like to track
+activities that have occurred, say, 25 years ago then you would need to update this
+range to enable your end users to log these activities. To update these settings to
+the appropriate range go to **Administer > Localization > Date Formats > Advanced Date Input Settings**.
+If you were to leave these settings as the default you will see an error such as this:
+Please enter a date between 01/01/1994 and 21/31/2024. 
 
 ![Advanced Date Input Settings](../img/configure-localization-advanced-date-input-settings.png)
 
@@ -235,7 +241,7 @@ Settings screen and make changes as needed.
         the Street Address Parsing function. When address parsing is turned on you can edit and or view
         the parsed address by clicking on Edit Address Elements when you are editing a address.
 
-    ![Configuration Address Parsing](../img/basic-set-up-address-parsing.png)  
+    ![The link "Edit address elements" is next to the street address field.](../img/basic-set-up-address-parsing.png)  
 
    You can learn more about USPS' Postal Addressing Standards at          [http://pe.usps.com/text/pub28/welcome.htm](http://pe.usps.com/text/pub28/welcome.htm).
 -   **Address Standardization** - CiviCRM includes an optional feature
@@ -434,7 +440,7 @@ screenshot). An email will be sent to the email address associated with
 your user login account. The From email address will be the default From
 address you've configured in the previous section.
 
-![Picture_11](../img/CiviCRM-Configuring-Picture_11-en.png "Save and Send Test Email")
+![Three buttons: save, cancel, save and send test email.](../img/CiviCRM-Configuring-Picture_11-en.png "Save and Send Test Email")
 
 If CiviCRM is unable to send the test email, you will see a message on
 your screen with the specific error and some suggestions for
@@ -462,7 +468,7 @@ automated emails. If you've already entered an email address in the
 Domain Information screen, that address will be listed here (as
 illustrated on the leftmost field of the following screenshot).
 
-![image](../img/From%20email.PNG)
+![screenshot](../img/from_email.png)
 
 When users send an email using CiviCRM, their primary email address is
 used as the From address by default. However, they can also select one
