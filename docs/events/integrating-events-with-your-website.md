@@ -15,8 +15,6 @@ page. You can then link to this page from anywhere in your website.
 Note that in Joomla! you can link to your event by following these
 steps:
 
-### 
-
 1.  Go into the Joomla! control panel
 2.  Choose **Menu Manager > *Your menu name***
 3.  Click **New**
@@ -29,7 +27,7 @@ steps:
 In WordPress you can also use the CiviCRM icon 'shortcode' to insert the
 event registration form into the Page or Post
 
-![image](../img/WordPress-Shortcodes-small.png)
+![Icon with the CiviCRM logo above the toolbar.](../img/Wordpress-Shortcodes-small.png)
 
 In Drupal, the **views** module gives many options for displaying lists
 of content, including the ability to create an automatically updating
