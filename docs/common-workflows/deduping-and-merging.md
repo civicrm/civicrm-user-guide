@@ -199,7 +199,7 @@ page will not refresh automatically, just in case your database is very
 large, and searching for duplicates would cause a significant delay. You
 may then continue to assess and merge the remaining duplicates manually.
 
-![image](../img/CiviCRM_dedupe_batchmerge.PNG)
+![screenshot](../img/CiviCRM_dedupe_batchmerge.PNG)
 
 **WARNING:** before you begin to consider using batch dedupe, please
 take note of the following:

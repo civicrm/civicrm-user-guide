@@ -18,13 +18,13 @@ To create a New A/B Test, navigate to **Mailings > New A/B Test**. At
 the Setup screen you can define the campaign that corresponds with the
 mailing and select the type of testing you want to conduct.
 
-There are three different type of tests you can perform, these are:
+There are three different types of test you can perform, these are:
 
 -   Different **Subject** lines
 -   Different **From** lines
 -   Testing entirely different emails 
 
-![image](../img/AB%20Testing.png)
+![screenshot](../img/ab_testing.png)
 
 At the Target screen you can define your recipients and the distribution
 percentage. You can modify the percentage of test mailing by dragging
@@ -32,7 +32,7 @@ the blue percentage bar, which in turn controls the percentage of final
 mailings that will be sent to the remaining participants. The total of
 the test mailings and the final mailing will sum up to 100%. 
 
-![image](../img/AB%20Testing%20Targeting.png)
+![screenshot](../img/ab_testing_targeting.png)
 
 The Compose screen will change dependent on the type of A/B Test you are
 performing. For example, if you chose to conduct a test on "different
@@ -41,19 +41,19 @@ From lines," the compose screen will contain two **From** fields.
 When you test using the **From** field, you will have the option to
 enter From (A) and From(B) 
 
-![image](../img/AB%20Testing%20Compose%20Screen1.png)
+![screenshot](../img/ab_testing_compose_screen1.png)
 
 
 When you test using the **Subject** field, you will have the option to
 enter Subject(A) and Subject(B)
 
-![image](../img/AB%20Testing%20by%20Subject1.png)
+![screenshot](../img/ab_testing_by_subject1.png)
 
 
 When you test using entirely different emails, you will add a **From** and
 **Subject** for each mailing:
 
-![image](../img/AB%20Testing%20by%20email1.png)
+![screenshot](../img/ab_testing_by_email1.png)
 
 Choose an email template that you have previously composed. Once you
 have selected your email template and specified the From and Subject
@@ -68,8 +68,8 @@ selecting **Results**. On the A/B Test Results screen you can
 monitor your test results and select which mailings should be submitted
 as the Final mailing. 
 
-![image](../img/AB%20Testing%20Results%20Page_1.png)
+![screenshot](../img/ab_testing_results_page1.png)
 
 
 
-![image](../img/AB%20Testing%20Metrics.png)
+![screenshot](../img/ab_testing_metrics.png)

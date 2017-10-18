@@ -20,7 +20,7 @@ search. After selecting the contacts you wish to send a receipt to, choose
 You will be given the option to email the receipts or make PDF receipts
 to post out to contributors.
 
-![image](../img/Print%20contribution%20receipt%20options.PNG)
+![Contributions search result with the action menu expanded.](../img/Print%20contribution%20receipt%20options.PNG)
 
 By default emailing or creating PDF receipts will update the receipt
 date for each contribution, but you can keep the existing receipt dates
@@ -99,11 +99,11 @@ $100.00, $150.00, $325.00 received on 1 January 2015, 5 March 2015,
 If you choose **Table Cell** as the **Separator** then each contribution
 instance will be placed in its own table column. For example:
 
-![image](../img/Thank-you%20letters%20as%20table%20template.PNG)
+![Thank you letter with tokens.](../img/thank_you_letters_as_table_template.png)
 
 will result in:
 
-![image](../img/Thank-you%20letters%20as%20table_1.PNG)
+![Thank you letter with expanded tokens.](../img/thank_you_letters_as_table_1.png)
 
 This format works well if only a few contributions have been received
 during the year, but the table will be wider than the page for monthly,
@@ -153,4 +153,4 @@ For example, if the HTML source for your letter is:
 ```
 then your letters will look like:
 
-![image](../img/Thank-you%20letters%20as%20with%20smarty%20enabled_2.PNG)
+![Thank you letter with expanded tokens.](../img/thank_you_letters_as_with_smarty_enabled_2.png)

@@ -85,7 +85,7 @@ You may create new roles and edit all existing ones. To edit roles,
 while in the **Permissions** tab click the button **Roles** toward the
 top right of the page.
 
-![image](../img/CiviCRM_Drupal_Roles.png) 
+![Drupal roles.](../img/CiviCRM_Drupal_Roles.png) 
 
 Roles can be assigned to users in the following ways:
 
@@ -130,7 +130,7 @@ WordPress: **Configure Joomla! ACL** (user can configure Joomla! ACLs and
 is assigned all CiviCRM permissions) and **Show CiviCRM
 Component** (user can see CiviCRM in the Components list).
 
-![image](../img/joomla%20permissions_1.PNG)
+![screenshot](../img/joomla_permissions.png)
 
 Finally, to assign one of these user groups to a user, or change their
 existing user group, ensure you are logged in as an administrator then
