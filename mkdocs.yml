@@ -36,6 +36,7 @@ pages:
     - 'Resource urls': 'initial-set-up/resource-urls.md'
     - 'Logging': 'initial-set-up/change-logging.md'
     - 'Error handling': 'initial-set-up/error-handling.md'
+    - 'Scheduled Jobs': 'initial-set-up/scheduled-jobs.md'
 - The user interface:
     - 'Menu, dashboard and dashlets': 'the-user-interface/menu-dashboard-and-dashlets.md'
     - 'Searching': 'the-user-interface/searching.md'
