@@ -28,8 +28,14 @@ pages:
 - Initial set up:
     - 'Installation and basic set-up': 'initial-set-up/installation-and-basic-set-up.md'
     - 'Customizing the user interface': 'initial-set-up/customizing-the-user-interface.md'
+    - 'Dates': 'initial-set-up/dates.md'
+    - 'Addresses': 'initial-set-up/addresses.md'
+    - 'Mapping': 'initial-set-up/mapping.md'
+    - 'Users contacts': 'initial-set-up/users-contacts.md'
     - 'Permissions and access control': 'initial-set-up/permissions-and-access-control.md'
+    - 'Resource urls': 'initial-set-up/resource-urls.md'
     - 'Logging': 'initial-set-up/change-logging.md'
+    - 'Error handling': 'initial-set-up/error-handling.md'
 - The user interface:
     - 'Menu, dashboard and dashlets': 'the-user-interface/menu-dashboard-and-dashlets.md'
     - 'Searching': 'the-user-interface/searching.md'
