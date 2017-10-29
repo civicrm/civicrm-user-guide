@@ -53,9 +53,39 @@ custom mail merge tokens in the Hooks chapter of the Extending CiviCRM
 section of this book and look at the wiki:
 [http://wiki.civicrm.org/confluence/display/CRMDOC/Tokens](http://wiki.civicrm.org/confluence/display/CRMDOC/Tokens).
 
-Another task for a developer is to create if/then logic for your mail
+### Smarty in mail templates
+
+Mail templates use Smarty to include variables, tokens & functions. A more thorough tutorial can be found at [http://www.smarty.net/manual](http://www.smarty.net/manual).
+
+!!! warning "System administrator required"
+    For Smarty to work you must add (or modify) the following line to your `civicrm.settings.php` file located under `sites/default/` for Drupal and `administrator/components/com_civicrm` for Joomla.
+
+    ```php
+    define('CIVICRM_MAIL_SMARTY', 1);
+    ```
+
+Tips
+
+* To make CiviCRM tokens available to Smarty functions, you'll need to use the `{capture}` function as follows:
+
+    ```smarty
+    {capture assign=first_name}{contact.first_name}{/capture}
+    Dear {$first_name|default:Friend},
+    {if $first_name}
+      Hello, {$first_name}, how are you?
+    {/if}
+    ```
+
+* You also need to use `{capture}` for custom fields. For example, if `{contact.custom_16}` is a Yes/No field designating a membership as a gift, and `{contact.custom_17}` is a text field with the name of the gift giver, then the following will print a line to that effect in a PDF letter:
+
+    ```smarty
+    {capture assign=gift}{contact.custom_16}{/capture}
+    
+    {if $gift == Yes}
+      This membership is a gift from {contact.custom_17}.
+    {/if}
+    ```
+
+* Another possibility is to create if/then logic for your mail
 merge. This is done using the smarty template language as described here
 [http://www.smarty.net/docs/en/language.function.if.tpl](http://www.smarty.net/docs/en/language.function.if.tpl).
-
-
--
