@@ -65,9 +65,7 @@ One or more renewal reminder emails can be sent automatically using the
 Schedule Reminders feature (**Administer > Communications > Schedule
 Reminders**). This is particularly helpful for rolling membership types,
 where memberships could be ending at any time during the year. Refer to
-the [Schedule
-Reminders](/email/scheduled-reminders.md) chapter
-in the *Email* section of this book for the steps involved in sending
+the [Schedule Reminders](/email/scheduled-reminders.md) page for the steps involved in sending
 out a scheduled reminder once you have composed your message.
 
 Exactly what you want to say in your reminder email(s) will depend on
@@ -78,31 +76,8 @@ organisations (to give them enough time to arrange for a purchase order
 and payment through their accounts department)) would be different from
 those sent one week after an individual's membership has ended.
 
-In addition to the core tokens available to include in your reminder 
-emails, you may wish to provide additional information, such as the 
-membership expiration date associated with the renewal reminder. 
-Associating additional membership information to the contact for the 
-reminder may require an extension such as 
-https://github.com/eileenmcnaughton/nz.co.fuzion.civitoken.
-
-However, if members are able to renew online, all renewal email
-reminders should contain a checksum token link. This is a "special"
-link ( in this case to the membership renewal page) in the CiviMail
-message that includes the checksum token {contact.checksum}. When a
-person clicks on the special link, it will look them up in the database
-and prefill the renewal form with any data that exists in their record.
-The special link lasts for seven days from the time it was sent out
-(although this can be changed at **Administer > System Settings > Misc
-(Undelete, PDFs, Limits, Logging, Captcha, etc.)**As membership pages
-are a type of contribution pages, the checksum link to use in renewal
-emails where **N** is the ID of your renewal page is:
-
--   Drupal:
-    http://www.myorganization.org/civicrm/contribute/transact?reset=1&id=N&{contact.checksum}&cid={contact.contact_id}
--   Joomla!:
-    http://www.myorganization.org/index.php?option=com_civicrm&task=civicrm/contribute/transact&reset=1&id=N&{contact.checksum}&cid={contact.contact_id}
--   WordPress:
-    http://www.myorganization.org/?page=CiviCRM&q=civicrm/contribute/transact&reset=1&id=N&{contact.checksum}&cid={contact.contact_id}
+!!! tip "Tip: Pre-filling the renewal form"
+    If members are able to renew online, all renewal email reminders should contain a [checksum token](/common-workflows/tokens-and-mail-merge.md#checksum) link to prefill the renewal form with any data that exists in their record.
 
 As with all emails you send out you need to allow time to test renewal
 reminder templates, especially if you have complex membership structures
@@ -151,7 +126,7 @@ will be renewed. If CiviCRM can't find their existing contact record
 (perhaps they have changed their email address) then a new contact
 record and membership will be created. This is one source of duplicates
 in your database and you need to minimise the chances that this will
-happen. Two ways to do this are to always include a checksum token in
+happen. Two ways to do this are to always include a [checksum token](/common-workflows/tokens-and-mail-merge.md#checksum) in
 renewal reminder emails and add text to the new member introductory
 message to remind people that they should log in before they renew.
 

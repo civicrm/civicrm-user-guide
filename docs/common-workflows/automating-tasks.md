@@ -19,7 +19,7 @@ example:
 > add? Where do I find information that needs to be added? What CiviCRM
 > features can help accomplish this task?
 >
-> *Strategy*: Create custom tokens and Print/Merge Document function in CiviCRM
+> *Strategy*: Create custom [tokens](/common-workflows/tokens-and-mail-merge.md) and Print/Merge Document function in CiviCRM
 >
 > *Custom Fields*: Fund Name, Tag “Works with Organization,” Tax Receipt
 > Pull-Down (No Tax Receipt, Extra Tax Receipt to Soft Credit, Tax

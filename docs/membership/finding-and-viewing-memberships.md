@@ -69,9 +69,7 @@ selecting **Create.**
 ## Sending email to members
 
 After searching your records, you may want to send an email to selected
-contacts and include data field tokens to personalize the email message.
-To learn more about emailing and tokens in CiviCRM, see the section
-called "Email".
+contacts and include data field [tokens](/common-workflows/tokens-and-mail-merge.md) to personalize the email message.
 
 To send email to members:
 

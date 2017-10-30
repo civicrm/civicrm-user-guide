@@ -1,84 +1,109 @@
 # Tokens and mail merge
 
-You can use data in your CiviCRM database to set up mail merge
-communications both for emails and printed materials such as letters and
-mailing labels. The mail merging functionality relies on Tokens, which
-represent items in your database. This chapter explains how tokens work
-and how to use them in generating printing materials. Using tokens in
-emails is further addressed in the Email section of this book.
+## Overview
 
-Tokens are the equivalent of mail merge fields in CiviCRM. This means
-that it is possible to insert information from the database into an
-email or a letter that is different for every recipient. For example,
-use the Postal Greeting token to include a customized greeting for each
-recipient in your PDF letters. Most contact fields, including custom
-fields you've created, are available as mail merge tokens. You can view
-available tokens by clicking the **Insert Token** link in the top right
-corner of the message editing area.
+You can use data in your CiviCRM database to set up mail merged communications both for emails and printed materials such as letters and mailing labels. The mail merging functionality relies on "tokens", which represent fields in your database. For example, use the Postal Greeting token to include a customized greeting for each recipient in your PDF letters. Most contact fields, including custom fields you've created, are available as mail merge tokens.
 
-Most of the tokens contain information that is in the database fields.
-However, there are some special tokens that accomplish specific tasks in
-emails, such as a link to an opt-out page or link to choose mail
-formats. Some tokens are only available for mass mailings, such as the
+## Basic contact data tokens {:#contact-data}
+
+If you want each email to address the person by first name after "Dear,"
+you would type a space and then click on **Insert Tokens** at the top
+right of the HTML Format field.
+
+![Screenshot of the New Email screen with the token list expanded.](../img/Tokens-4.5.png)
+
+The popup that appears enables you to
+find the appropriate token by typing "First name" in the box and choose
+the token that corresponds. Click Close and you will see that your
+message now reads "Dear {firstname}." When the email is sent, the
+appropriate first name will be inserted into each message. Browse the
+Inset Tokens pop-up for a complete list of contact data tokens,
+including any of the custom fields that have been created for your site.
+
+## Organizational tokens {:#organization}
+
+In addition to basic contact data, 
+you can also insert standard organization information, such as "Domain
+(organizational) address," which displays the address of your
+organization as defined at **Administer > Communications >
+Organization Address and Contact Info**.
+
+## Special tokens available for emails {:#email}
+
+Some additional tokens are available for use in emails.
+
+!!! note
+    In the HTML format editing area, tokens that generate URLs (links) need to be placed in the URL field of the Link creation screen. Otherwise, they will display as text and not a clickable link in the email client of the recipient.
+
+### Action tokens {:#actions}
+
+You can also insert action tokens, such as opt-out, unsubscribe and
+forwarding tokens. These tokens insert links to take the specified
+action; in order to display the links properly in HTML messages, you'll
+need to add the proper link tags using the Source icon in the editor.
+
+### Required opt-out tokens for mass emails {:#opt-out}
+
+You are required to include a token for either opt-out OR
+unsubscribe, as well as the organizational (domain) address token in
+every CiviMail mailing. These can be placed directly in the body of your
+mailing body, or you can put them in the mailing header or footer. If
+your organization has developed a standard mailing footer, just include
+these tokens in the footer so that folks don't have to think about them
+each time they create a new mailing.
+
+In general, including click-able unsubscribe and opt-out links are a bit
+friendlier for recipients (as opposed to the reply-to via email method).
+You can also provide both options.
+
+Additionally, some tokens are only available for mass mailings, such as the
 token to provide a link to a message stored online.
 
-![New email screen with the token list expanded.](../img/Tokens-4.5.png)
-
-CiviMail uses a number of **action** and **mail-merge tokens** and which can be placed in mailing labels, PDF letters, email messages and message templates, mailing headers and footers, and system-workflow (automated) messages. These tokens are converted dynamically to text, reply-to email addresses, and URLs.
-
-## Checksum token
+### Checksum tokens {:#checksum}
 
 A particularly useful token is the checksum. The checksum allows you to
 give people links to contribution forms, profiles, petitions, and event
-registration forms that are prefilled with information that is already
-in their contact record. The image above shows an example of this.
+registration forms that are pre-filled with information that is already
+in their contact record. This saves your constituents the hassle of filling out forms and
+increases the chances they will take action (e.g., donate, sign up for
+an event, sign the petition). It can also be a simple way to keep your
+data current by asking people to review and update their contact
+information.
 
-Only contact fields and actions can be inserted in your email as tokens.
-Related records, such as the name of the event for which the contacts
-have pending enrollments, cannot be included. However, you could provide
-a link to the person's contact dashboard so that they can review their
-registration details for themselves (once logged in), or you could use a
-checksum token to allow access to a profile through which they can
-modify their information without having to log in.
+!!! caution
+    For security purposes, checksum links only last for seven days, starting from the time the email is sent. To change this duration, go to **Administer > System Settings > Misc (Undelete, PDFs, Limits, Logging, Captcha, etc.)**.
 
-There is a very powerful feature to allow you to send an email with CiviMail to your constituents with a link to the contribution form, profile, or event registration form with all of their contact information already filled in! This saves them the hassle of filling it out and increasing the chances they would ultimately donate.  Or it can be a simple way to periodically allow people to review their contact info and update it if applicable.
+Create a link in the CiviMail message that includes the checksum token `{contact.checksum}`. When people click on the special link, CiviCRM looks them up in the database and prefills any information on the contribution form or profile with any data that exists in their record.
 
-The way it works is you create a "special" link in the CiviMail message that includes the checksum token `{contact.checksum}`. When people click on the special link, it looks them up in the database and prefills any information on the contribution form or profile with any data that exists in their record. The special link lasts for seven days from the time it was sent out.
+**Checksum for Contribution Pages**: To send people to a contribution page use this path where `IDNUMBER` is the ID of your contribution page:
 
-**Checksum for Contribution Pages**: To send people to a contribution page use this path where **IDNUMBER** is the ID of your contribution page:
+-   Drupal: `http://example.org/civicrm/contribute/transact?reset=1&id=IDNUMBER&{contact.checksum}&cid={contact.contact_id}`
+-   Joomla!: `http://example.org/index.php?option=com_civicrm&task=civicrm/contribute/transact&reset=1&id=IDNUMBER&{contact.checksum}&cid={contact.contact_id}`
+-   WordPress: `http://wexample.org/?page=CiviCRM&q=civicrm/contribute/transact&reset=1&id=IDNUMBER&{contact.checksum}&cid={contact.contact_id}`
 
--   Drupal: `http://www.myorganization.org/civicrm/contribute/transact?reset=1&id=IDNUMBER&{contact.checksum}&cid={contact.contact_id}`
--   Joomla!: `http://www.myorganization.org/index.php?option=com_civicrm&task=civicrm/contribute/transact&reset=1&id=IDNUMBER&{contact.checksum}&cid={contact.contact_id}`
--   WordPress: `http://wwww.myorganization.org/?page=CiviCRM&q=civicrm/contribute/transact&reset=1&id=IDNUMBER&{contact.checksum}&cid={contact.contact_id}`
+**Checksum for standard Profiles** (edit mode): To send people to a profile use this path where `IDNUMBER` is the ID of the Profile you want to send them to:
 
-**Checksum for standard Profiles** (edit mode): To send people to a profile use this path where **IDNUMBER** is the ID of the Profile you want to send them to:
+-   Drupal: `http://example.org/civicrm/profile/edit?reset=1&gid=IDNUMBER&{contact.checksum}&id={contact.contact_id}`
+-   Joomla!: `http://example.org/index.php?option=com_civicrm&task=civicrm/profile/edit&reset=1&gid=IDNUMBER&{contact.checksum}&id={contact.contact_id}`
+-   WordPress:`http://example.org/?page=CiviCRM&q=civicrm/profile/edit&reset=1&gid=IDNUMBER&{contact.checksum}&id={contact.contact_id}`
 
--   Drupal: `http://www.myorganization.org/civicrm/profile/edit?reset=1&gid=IDNUMBER&{contact.checksum}&id={contact.contact_id}`
--   Joomla!: `http://www.myorganization.org/index.php?option=com_civicrm&task=civicrm/profile/edit&reset=1&gid=IDNUMBER&{contact.checksum}&id={contact.contact_id}`
--   WordPress:`http://www.myorganization.org/?page=CiviCRM&q=civicrm/profile/edit&reset=1&gid=IDNUMBER&{contact.checksum}&id={contact.contact_id}`
+**Checksum for Event Registration Pages**: To send people to an event registration page use this path where `IDNUMBER` is the ID of your event:
 
-**Checksum for Event Registration Pages**: To send people to an event registration page use this path where **IDNUMBER** is the ID of your event:
+-   Drupal: `http://example.org/civicrm/event/register?reset=1&id=IDNUMBER&{contact.checksum}&cid={contact.contact_id}`
+-   Joomla!: `http://example.org/index.php?option=com_civicrm&task=civicrm/event/register&reset=1&id=IDNUMBER&{contact.checksum}&cid={contact.contact_id}`
+-   WordPress: `http://example.org/?page=CiviCRM&q=civicrm/event/register&reset=1&id=IDNUMBER&{contact.checksum}&cid={contact.contact_id}`
 
--   Drupal: `http://www.myorganization.org/civicrm/event/register?reset=1&id=IDNUMBER&{contact.checksum}&cid={contact.contact_id}`
--   Joomla!: `http://www.myorganization.org/index.php?option=com_civicrm&task=civicrm/event/register&reset=1&id=IDNUMBER&{contact.checksum}&cid={contact.contact_id}`
--   WordPress: `http://wordpress.demo.civicrm.org/?page=CiviCRM&q=civicrm/event/register&reset=1&id=IDNUMBER&{contact.checksum}&cid={contact.contact_id}`
+**Checksum for Petition Signature Pages**: To send people to sign a Petition, use this path where `IDNUMBER` is the ID of your petition:
 
-**Checksum for Petition Signature Pages**: To send people to sign a Petition, use this path where **IDNUMBER** is the ID of your petition:
+-   Drupal: `http://example.org/civicrm/petition/sign?reset=1&sid=IDNUMBER&{contact.checksum}&cid={contact.contact_id}`
+-   Joomla!: `http://example.org/index.php?option=com_civicrm&task=civicrm/petition/sign&reset=1&sid=IDNUMBER&{contact.checksum}&cid={contact.contact_id}`
+-   WordPress: `http://example.org/?page=CiviCRM&q=civicrm/petition/sign&sid=IDNUMBER&reset=1&{contact.checksum}&cid={contact.contact_id}`
 
--   Drupal: `http://www.myorganization.org/civicrm/petition/sign?reset=1&sid=IDNUMBER&{contact.checksum}&cid={contact.contact_id}`
--   Joomla!: `http://www.myorganization.org/index.php?option=com_civicrm&task=civicrm/petition/sign&reset=1&sid=IDNUMBER&{contact.checksum}&cid={contact.contact_id}`
--   WordPress: `http://www.myorganization.org/?page=CiviCRM&q=civicrm/petition/sign&sid=IDNUMBER&reset=1&{contact.checksum}&cid={contact.contact_id}`
+## Custom tokens {:#custom}
 
-## Custom tokens
+Developers can create custom tokens which can, for example, display the total amount of contributions from a contact. See the Developer Guide for more info about [custom tokens](https://docs.civicrm.org/dev/en/latest/framework/civimail/#tokens). 
 
-It is also possible to have custom tokens created by a developer. For
-instance, the total amount of contributions from a contact. To find out
-more about working with custom tokens, refer to the discussion about
-custom mail merge tokens in the Hooks chapter of the Extending CiviCRM
-section of this book and look at the wiki:
-[http://wiki.civicrm.org/confluence/display/CRMDOC/Tokens](http://wiki.civicrm.org/confluence/display/CRMDOC/Tokens).
-
-## Smarty in mail templates
+## Smarty in mail templates {:#smarty}
 
 Mail templates use Smarty to include variables, tokens & functions. A more thorough tutorial can be found at [http://www.smarty.net/manual](http://www.smarty.net/manual).
 

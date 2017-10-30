@@ -24,8 +24,7 @@ configuration pages.
 
 ### Tokens available to scheduled reminders
 
-In addition to the standard tokens (see *Tokens and mail merge* in
-*Common workflows* for a full explanation of tokens) that are available
+In addition to the standard [tokens](/common-workflows/tokens-and-mail-merge.md) that are available
 in CiviMail, messages sent via scheduled reminders can also contain
 tokens representing information about events, activities, contributions
 and memberships that the scheduled reminder pertains to. This allows you to use

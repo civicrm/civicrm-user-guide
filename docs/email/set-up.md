@@ -308,8 +308,7 @@ elements that you want to be displayed before the main content body,
 such as the logo of your organization and the title of the newsletter.
 
 The footer is always the last thing in the email. The footer is an ideal
-place for the compulsory unsubscribe tokens (see **What You Need to
-Know** for more information).
+place for the compulsory [unsubscribe tokens](/common-workflows/tokens-and-mail-merge.md#opt-out).
 
 You can manage the content of headers and footers in **Mailings >
 Headers, Footers, and Automated Messages**. You can create different

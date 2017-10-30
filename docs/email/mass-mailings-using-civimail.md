@@ -154,13 +154,14 @@ addresses with the specified location type.
 chosen carefully. It may help to read through the example of a search-based
 mailing in [Choosing recipients: Groups versus search results](#Choosing recipients: Groups versus search results).
 
-**Subject**: is the subject in your sent emails. You can include tokens
+**Subject**: is the subject in your sent emails. You can include
+[tokens](/common-workflows/tokens-and-mail-merge.md)
 in the subject. The **Subject** (not the Mailing Name) is used when creating an
 activity or mailing record for each contact.
 
 **HTML** (expanding section): This is where you can compose content
 for your mailing. Remember that CiviCRM lets you personalize each email using
-tokens. See "*Using tokens in emails*" later in this chapter. If you only
+[tokens](/common-workflows/tokens-and-mail-merge.md). If you only
 want to send a plain text email ignore the HTML section. Click on
 **Plain Text** to open that accordion and enter your message in the box.
 

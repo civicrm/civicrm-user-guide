@@ -73,7 +73,7 @@ To create the letter:
     editor. You can also insert image files such as your organisation's
     logo, or a signature. Click in the body of the letter where you want
     the image to appear and click the Image icon. 
-7.  You can personalise the letter by using tokens; for example, Postal
+7.  You can personalise the letter by using [tokens](/common-workflows/tokens-and-mail-merge.md); for example, Postal
     Greeting is a commonly used token in this situation. Click in the
     body of the letter where you want to enter the token. Then click on
     "Insert Tokens" located above the letter at the top right and select

@@ -237,7 +237,7 @@ If you have a standalone profile in an online form used to search for
 and edit data in CiviCRM (e.g. not part of an event registration page),
 only authenticated users may edit. The permission "profile edit" can be
 given to the anonymous role, but visitors who are not logged in will
-still be unable to edit the data unless they have a checksum (a unique
+still be unable to edit the data unless they have a [checksum](/common-workflows/tokens-and-mail-merge.md#checksum) (a unique
 URL to one page where they may edit their own data; read "Everyday
 tasks" in the email section for more information). For checksum tokens
 to work, anonymous users must have the "profile edit" permission.
@@ -282,7 +282,7 @@ listings and forms" is not enabled for the "anonymous" and
 "authenticated" roles by default.
 
 Note that if this role were given to anonymous users, in order to edit
-data, the visitor must either be logged in or using a checksum token
+data, the visitor must either be logged in or using a [checksum token](/common-workflows/tokens-and-mail-merge.md#checksum)
 (see "Everyday tasks" in the section on email). 
 
 #### Accessing custom data
