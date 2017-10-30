@@ -6,3 +6,4 @@ How+are+Drupal+or+Joomla+Users+Linked+to+CiviCRM+Contact+Records initial-set-up/
 Synchronize+Users-to-Contacts initial-set-up/users-contacts
 Resource+URLs initial-set-up/resource-urls
 Error+handling initial-set-up/error-handling
+Message+Templates email/message-templates

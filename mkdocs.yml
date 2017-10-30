@@ -115,6 +115,7 @@ pages:
     - 'Reports and analysis': 'email/reports-and-analysis.md'
     - 'Scheduled reminders': 'email/scheduled-reminders.md'
     - 'CiviMail A/B Testing': 'email/civimail-ab-testing.md'
+    - 'Message templates': 'email/message-templates.md'
 - SMS (text messaging):
     - 'What is SMS?': 'sms-text-messaging/what-is-sms.md'
     - 'Set-up': 'sms-text-messaging/set-up.md'
