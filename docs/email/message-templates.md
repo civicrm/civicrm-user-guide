@@ -22,7 +22,7 @@ templates by going to **Mailings > Message Templates** OR **Administer > Communi
 
 1.  Click on **Add Message Template**.
 2.  Enter a Message Title and a Message Subject. You can choose to use
-    tokens to personalize your subject line.
+    [tokens](/common-workflows/tokens-and-mail-merge.md) to personalize your subject line.
 3.  Scroll down to the HTML Format section and create your template.
     There are online resources, not specific to CiviCRM, that offer
     instructions on creating an HTML email templates. One suggestion is
@@ -155,11 +155,12 @@ You will be taken to the New Message Template page.
 
 Create a **Message Title** for the template. This title is used to organize your messages and will not appear in the email.
 
-**TOKENS** : The next three fields can all use "tokens". You insert a "token" into your message to help personalize your messages with things like names, dates and amounts of gifts, etc. When you send the email, CiviCRM will look at each contact record that is set to receive the message and replace the "token" with the actual value from the contact record. Rather than a generic, impersonal message that says "Dear Friend, Thank you for your recent contribution..", you can create personalized messages like "Dear Eleanor and Franklin, Thank you for your $50 gift on June 6th..."
+!!! tip "Tokens"
+    The next three fields can all use [tokens](/common-workflows/tokens-and-mail-merge.md) to help personalize your messages with things like names, dates and amounts of gifts, etc.
 
 Here is a list of the tokens you can use
 
-Create the **Message Subject** for your email. Use tokens if desired, i.e., "We need your help, Alice", where you have used the token {contact.first_name} to put recipients first names into the message subject.
+Create the **Message Subject** for your email. Use tokens if desired.
 
 Create your **Text Message** and **HTML Message**. Include tokens to personalize your messages.
 
