@@ -49,7 +49,7 @@ see what works best for your constituents.
 clicked links in your email *if you have enabled click tracking*.
 
 **Forwards** show the number of times people have forwarded the email
-using the forward link (which is a token that you can include in your
+using the forward link (which is a [token](/common-workflows/tokens-and-mail-merge.md) that you can include in your
 mailing).
 
 **Replies** shows the number of times that people have replied to the

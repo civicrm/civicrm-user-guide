@@ -77,8 +77,8 @@ bad emails, then:
 Emails that have been held are different from emails that have been
 unsubscribed. Unsubscribers have clicked the linked text in an email
 that said “unsubscribe from this mailing”. This link is created by one
-of these tokens in an email: **{action.unsubscribe}** or
-**{action.unsubscribeUrl}**
+of these [tokens](/common-workflows/tokens-and-mail-merge.md)
+in an email: `{action.unsubscribe}` or `{action.unsubscribeUrl}`
 
 Email recipients who unsubscribe from a single mailing list will simply
 be removed from the group you used as a mailing list to send to.
@@ -95,13 +95,10 @@ out. You should be very careful about the emails you send to someone who
 has opted out if you do not want to be accused of sending spam. 
 
 To opt out, an email recipient can click the linked text in an email
-created by one of these opt-out tokens: **{action.optOut}
-{action.optOutUrl}**
+created by one of these opt-out [tokens](/common-workflows/tokens-and-mail-merge.md): `{action.optOut}` or `{action.optOutUrl}` 
 
 You can include these tokens directly in the body of your mailing or in
-a footer message. (For more on tokens, see here:
-[https://docs.civicrm.org/dev/en/master/framework/civimail/tokens/](https://docs.civicrm.org/dev/en/master/framework/civimail/tokens/).
-For more on footers, see the previous section in this chapter, *Set up > Creating headers and footers.*)
+a footer message.
 
 ### What does the privacy option 'Do not email' mean?
 

@@ -13,3 +13,4 @@ initial-set-up/scheduled-jobs https://docs.civicrm.org/sysadmin/en/latest/setup/
 initial-set-up/security https://docs.civicrm.org/sysadmin/en/latest/setup/security
 getting-prepared/is-civicrm-for-you introduction/is-civicrm-for-you
 advanced-configuration/change-logging initial-set-up/change-logging
+email/using-tokens-in-emails common-workflows/tokens-and-mail-merge

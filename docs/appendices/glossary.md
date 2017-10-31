@@ -763,7 +763,7 @@ ready for general use.
 
 ## Token
 
-Tokens are used in **CiviCRM** to insert elements such as a
+[Tokens](/common-workflows/tokens-and-mail-merge.md) are used in **CiviCRM** to insert elements such as a
 **contact**'s name or a standard greeting into emails being sent from
 the system. In an email sent to a group of people, the token
 {first.name} will be replaced with actual name of each message

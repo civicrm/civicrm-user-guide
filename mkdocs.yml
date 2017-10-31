@@ -111,10 +111,10 @@ pages:
     - 'Maintaining Healthy Email Lists': 'email/maintaining-healthy-email-lists.md'
     - 'Everyday tasks': 'email/everyday-tasks.md'
     - 'Mass mailings using CiviMail': 'email/mass-mailings-using-civimail.md'
-    - 'Using tokens in emails': 'email/using-tokens-in-emails.md'
     - 'Reports and analysis': 'email/reports-and-analysis.md'
     - 'Scheduled reminders': 'email/scheduled-reminders.md'
     - 'CiviMail A/B Testing': 'email/civimail-ab-testing.md'
+    - 'Message templates': 'email/message-templates.md'
 - SMS (text messaging):
     - 'What is SMS?': 'sms-text-messaging/what-is-sms.md'
     - 'Set-up': 'sms-text-messaging/set-up.md'

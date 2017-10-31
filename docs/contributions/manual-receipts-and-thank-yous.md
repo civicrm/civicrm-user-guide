@@ -72,8 +72,8 @@ contributions (rather than contacts). The steps involved are:
 8.  Make sure to check the **Page Format** settings.
 9.  You can use an existing template, create a new letter for one-off
     use, or create a new letter and save it as a new template.
-    [Tokens and mail merge](.../common-workflows/tokens-and-mail-merge) and
-    [Postal mail communications](.../common-workflows/postal-mail-communications)
+    [Tokens and mail merge](/common-workflows/tokens-and-mail-merge.md) and
+    [Postal mail communications](/common-workflows/postal-mail-communications.md)
     provide more information on creating letter templates.
 10. When you click on **Make Thank-you Letters** the letters will be
     generated and a "Print/Merge Document" activity will be created for each
@@ -119,7 +119,7 @@ functionality for you emails
 ([http://wiki.civicrm.org/confluence/display/CRMDOC/Smarty+in+mail+templates](http://wiki.civicrm.org/confluence/display/CRMDOC/Smarty+in+mail+templates)).
 
 Once that has been done the total yearly contribution amount can be
-included in the letter using the token {$contribution_aggregate}.
+included in the letter using the token `{$contribution_aggregate}`.
 
 For example, if the HTML source for your letter is:
 

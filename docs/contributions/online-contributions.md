@@ -247,19 +247,9 @@ CiviMail message you can include links to the contribution form and use
 CiviMail's tracking capability to see how many people click on that
 link.
 
-One time-tested way to increase contributions is to send each targeted
-constituent a personalized email with a link to the contribution form
+One time-tested way to increase contributions is to use
+[checksum tokens](/common-workflows/tokens-and-mail-merge.md#checksum)
+to send each constituent a personalized email with a link to the contribution form
 that has all of their contact information already filled in. This saves
 them the hassle of filling it out and raises the chances that they
-donate. Using CiviMail, you can use this feature by creating a special
-link in the body of your CiviMail message that includes a *checksum
-token*. A checksum is a unique and pseudo-random number assigned to each
-recipient of the mailing that points back to their contact information,
-securely stored in your database.
-
-When people click on the special link, CiviCRM looks them up in the
-database and pre-fills fields on the contribution form (core fields or
-fields exposed via a profile) with any information in their contact
-record. To read more on how to do this and what the link path must be,
-visit:
-[http://wiki.civicrm.org/confluence/display/CRMDOC/Tokens](http://wiki.civicrm.org/confluence/display/CRMDOC/Tokens)
+donate.

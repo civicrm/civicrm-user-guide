@@ -1,23 +1,25 @@
 # Address Settings
 
-
 ## Mailing Labels
 
 **Individual Name Format** - The order and the specific fields for Individual Contact names **when they are included in mailing labels**.
 
-Default is: {individual_prefix}{ }{first_name}{ }{middle_name}{ }{last_name}
+Default is: `{individual_prefix}{ }{first_name}{ }{middle_name}{ }{last_name}`
 
-**Mailing Label Format** - Use tokens to show how you want addresses formatted for mailing labels. **You must include the {contact_name} token if you want to include the contact name in your labels.**
+**Mailing Label Format** - Use [tokens](/common-workflows/tokens-and-mail-merge.md) to show how you want addresses formatted for mailing labels. **You must include the {contact_name} token if you want to include the contact name in your labels.**
 
 Use "state_province" if you prefer to use the state/province abbreviation or "state_province_name" if you prefer to use the full state/province name.
 
 The standard format is:
- {contact_name}
- {street_address}
- {supplemental_address_1}
- {supplemental_address_2}
- {city}{, }{state_province}{ }{postal_code}
- {country}
+
+```
+{contact_name}
+{street_address}
+{supplemental_address_1}
+{supplemental_address_2}
+{city}{, }{state_province}{ }{postal_code}
+{country}
+```
 
 Address Formatting
 
@@ -26,11 +28,14 @@ Address Formatting
 Use "state_province" if you prefer to use the state/province abbreviation or "state_province_name" if you prefer to use the full state/province name.
 
 The standard format is:
- {street_address}
- {supplemental_address_1}
- {supplemental_address_2}
- {city}{, }{state_province}{ }{postal_code}
- {country}
+
+```
+{street_address}
+{supplemental_address_1}
+{supplemental_address_2}
+{city}{, }{state_province}{ }{postal_code}
+{country}
+```
 
 **Maximum Locations** - Type in the maximum number of different locations/addresses that you want to allow for contacts.
 
@@ -39,7 +44,6 @@ The standard format is:
 ## Address Standardization
 
 !!! note
-
     CiviCRM includes an optional plugin for interfacing the the United States Postal Services (USPS) Address Standardization web service. You must register to use the USPS service at [https://www.usps.com/business/webtools.htm](https://www.usps.com/business/webtools.htm). If you are approved, they will provide you with a User ID and the URL for the service.
 
 
@@ -51,15 +55,12 @@ The standard format is:
 Click **Save** to save your action or **Cancel** to cancel it.
 
 !!! note
-
     There is a [how-to guide on integrating with USPS for address standardization](https://wiki.civicrm.org/confluence/display/CRMDOC/Configuring+Address+Standardization+to+work+with+USPS).
     
 ## Configuring Address Standardization to work with USPS
 
 !!! note
-
-    ![](https://wiki.civicrm.org/confluence/download/thumbnails/22904945/American_Flag_3.gif?version=1&modificationDate=1252275467000&api=v2) Address Standardization is currently only available for The United States Postal Service API.
-
+    Address Standardization is currently only available for The United States Postal Service API.
 
 ### Register for USPS Web Tools ID
 

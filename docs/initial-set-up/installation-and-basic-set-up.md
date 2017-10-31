@@ -123,7 +123,7 @@ Please enter a date between 01/01/1994 and 21/31/2024.
 Use this screen to enter identifying information for the organization or
 entity which "owns" this CiviCRM installation. The organization name and
 address are used to identify your organization in CiviMail mailings when
-you include the domain.name and domain.address tokens.
+you include the `{domain.name}` and `{domain.address}` [tokens](/common-workflows/tokens-and-mail-merge.md).
 
 You should also enter a valid email address belonging to your
 organization, which will be used as the From field in system-generated
@@ -195,33 +195,41 @@ search using the Find Contacts menu option).
 After reviewing the default fields and layouts, review the Address
 Settings screen and make changes as needed.
 
+!!! tip
+    CiviCRM uses [tokens](/common-workflows/tokens-and-mail-merge.md) (e.g. `{contact.street_address}`) to reference specific fields in the database.
+
 -   **Mailing Labels** - Controls formatting of mailing labels here. The
     default format is:
-
-    *{contact.addressee}
+    
+    ```
+    {contact.addressee}
     {contact.street_address}
     {contact.supplemental_address_1}
     {contact.supplemental_address_2}
     {contact.city}{, }{contact.state_province}{ }{contact.postal_code}
-    {contact.country}*  
-
-  You must include the *{contact.addressee}* token here in order to
+    {contact.country}  
+    ```
+    
+    You must include the `{contact.addressee}` token here in order to
     include the name of the addressee in your labels. Users will be able
     to select from a variety of label types corresponding to the label
     manufacturer code when they generate the labels from a list of
     contacts. It's a good idea to test your format with the type of
     label and printer you plan on using to verify spacing.
+    
 -   **Address Display** - Controls the layout of contact and event
     location addresses displayed on CiviCRM screens. The default format
     is:
-
-    *{contact.address_name}
+    
+    ```
+    {contact.address_name}
     {contact.street_address}
     {contact.supplemental_address_1}
     {contact.supplemental_address_2}
     {contact.city}{, }{contact.state_province}{ }{contact.postal_code}
-    {contact.country}*
-
+    {contact.country}
+    ```
+    
     This format also applies to event locations, despite the use of the
     *contact* record type in the layout. The *{contact.address_name}*
     token is particularly useful for events where you need to include a

@@ -38,10 +38,8 @@ A new page will now appear in which to write your message:
     you may insert it here to save time (for more information, see
     "Set-up" in the "Email" chapter).
 -   **Plain-Text Format**: here you may enter up to 160 characters of
-    text for the message content. As with emails, tokens can also be
+    text for the message content. As with emails, [tokens](/common-workflows/tokens-and-mail-merge.md) can also be
     inserted to pull information about the contact into the message
-    (e.g. first and last name, or contribution amount; see "Tokens and
-    mail merge").
 -   **Save as New Template**: message written, if you wish to re-use the
     text regularly at a later date, you can save it as a template to
     save time later.
@@ -94,9 +92,9 @@ will three steps to complete:
     The message content can either be written manually in the "Compose
     On-Screen" section, or uploaded from a text file, however, bear in
     mind that the character limit for both is 160 (this is the length of
-    one text message). You may also insert tokens to personalise the SMS
-    by 'pulling' information about each contact into the message (see
-    "Tokens and mail merge" to learn more). Once written, if you think
+    one text message). You may also insert [tokens](/common-workflows/tokens-and-mail-merge.md) to personalise the SMS
+    by 'pulling' information about each contact into the message.
+    Once written, if you think
     you would like to reuse the message later, tick the check box "Save
     as New Template" before going to the next screen.
     
