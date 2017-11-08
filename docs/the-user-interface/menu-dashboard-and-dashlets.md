@@ -108,7 +108,8 @@ To create a dashlet, do the following:
 
 Now add the dashlet to your dashboard: 
 
--   Click **Home** to get to your dashboard.
+-   Click in the menu on the CiviCRM logo and then on **CiviCRM Home**
+    to get to your dashboard.
 -   Click **Configure Dashboard**. Drag the dashlet from the "Available
     Dashlets" box to the column where you'd like it to appear.
 -   Click **Done**. 
