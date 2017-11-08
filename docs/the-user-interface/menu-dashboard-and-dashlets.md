@@ -94,13 +94,13 @@ To create a dashlet, do the following:
 -   Click **Reports** > **My Reports** and subsequently on the button
     **New Report**.
 -   Select the report template that you want to use.
--   While here, configure the report via the tabs Columns, Sorting, and Filters.
-    For example, you may want the report to always show data for "This Quarter"
-    or "This Year". That is what the filter "Date Received" is for.
+-   While here, configure the report via the tabs **Columns**, **Sorting**, and
+    **Filters**. For example, you may want the report to always show data for
+    "This Quarter" or "This Year". That is what the filter "Date Received" is for.
 -   Click **View results**.
 -   Choose between Tabular, Bar Chart, or Pie Chart via the dropdown box to the
     right of the Actions dropdown.
--   At the bottom of the Access tab, select the box that says
+-   At the bottom of the **Access** tab, select the box that says
     **Available for Dashboard?**. Users with permissions to see that
     information will be able to add that dashlet. (See the section on
     permissions for more information).
