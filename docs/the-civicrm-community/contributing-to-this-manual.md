@@ -27,7 +27,7 @@ This will create a pull request (PR) for your changes.  Edit will be published a
 
 3. In your [git client](https://git-scm.com/download/gui/linux) clone the CiviCRM user guide repository to your computer.  
 4. Locate the Markdown file (`.md`) in your file system that you want to edit by matching it to the file that that you want to change. For example, if you want to edit ["What is CiviCRM?"](/introduction/what-is-civicrm.md) you would find `<your_file_system>/docs/getting-prepared/is-civicrm-for-you.md`. 
-5. Make one ore more related changes and commit them in your git client.  
+5. Make one or more related changes and commit them in your git client.  
 4. Push your changes from your git client to your fork.
 5. In github.com click *New pull request* to create the new pull request (PR). 
 
