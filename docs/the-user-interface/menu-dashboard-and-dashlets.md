@@ -79,15 +79,19 @@ see updates to the status of your dashlets every time you log in (if
 you'd like to check and see any changes that have occurred more
 recently, you can always click **Refresh Dashboard Data** - this will reload
 each dashlet and pull in any new information). For performance reasons, dashlets
-are cached. You can change how often the dashboard refreshes by visiting
-**Administer** > **System Settings** > **Misc** and editing **Dashboard cache timeout**.
+are cached. You can change how often a dashlet refreshes by editing its report.
+For example for the Contribution Summary report go to **Reports** >
+**Contribution Reports** and click on **Contribution Summary**. Under the tab
+**Access** you will find the **Dashboard cache timeout** option. If that option
+is not available, first select the box that says **Available for Dashboard?**.
 
 
 Almost any CiviCRM report can be made available as a dashlet.
 
 To create a dashlet, do the following: 
 
--   Click **Reports > Create Reports from Templates**.
+-   Click **Reports** > **My reports** and subsequently on the button
+    **New Contribution Report**.
 -   Select the report template that you want to use.
 -   Choose the criteria you want to display in your dashlet. For
     example, you may want the dashboard version of the report to always
