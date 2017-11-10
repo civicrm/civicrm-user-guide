@@ -436,6 +436,27 @@ If desired, you can also mark one of the choices as the default option.
 
 Inactive options are hidden when the field is presented.
 
+### Multiple choice options headings
+
+You can also create headings in your multiple choice option lists by prefixing the "value" of the option with the text "crm_optgroup_"
+For example you may wish to make a list as follows:
+
+Heading: Cats
+Lion
+Tiger
+Heading: Dogs
+Wolf
+Alsation
+Poodle
+
+By typing the value as:
+crm_optgroup_cats for the Cats option 
+
+and 
+crm_optgroup_dogs for the dogs option
+
+your list will show a heading for this item in that order.
+
 ### Managing custom field sets. 
 
 You can view a listing of all the custom fields in a custom field set at
