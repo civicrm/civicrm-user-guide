@@ -114,24 +114,21 @@ To create a plain text version of a message from HTML:
 
 ## Modifying System Workflow Message Templates
 
-The content and layout of these messages are pre-configured and include program logic to display all the data being sent to your constituents (e.g. contribution amount, payment method, event fees, etc.). Navigate to Administer > Communication > Message Templates (shown in the following screenshot) and click the System Workflow Message tab to see the list of messages you can modify.
+The content and layout of these messages are pre-configured and include program logic to display all the data being sent to your constituents (e.g. contribution amount, payment method, event fees, etc.). Navigate to **Administer > Communication > Message Templates** and click the **System Workflow Message** tab to see the list of messages you can modify. Both HTML and Text formats are provided. Your organization may want to modify or add text to these emails, or add branding such as a logo to the HTML versions. 
 
-Both HTML and Text formats are provided. Your organization may want to modify or add text to these emails, or add branding such as a logo to the HTML versions. Use caution when editing so as not to modify the program logic. Be sure to test the workflow and review the emails sent after making any changes. In most cases, you can restrict your changes to the the top row in the HTML layout. If you find that your changes have caused problems, errors or missing information, you can always revert to the system default for that workflow.
+!!! caution "Your changes here can complicate CiviCRM upgrades"
 
-### Upgrades and Customized System Workflow Templates
+    Occasionally, CiviCRM also makes changes to these system workflow message templates during version upgrades. If you customize a template, CiviCRM will stop applying updates to it. This is good because it preserves your customizations but bad because you might miss out on important template updates as new functionality becomes available.
+    
+    The System Administrator Guide provides [instructions for merging conflicting edits to these templates](https://docs.civicrm.org/sysadmin/en/latest/upgrade/#updating-system-workflow-message-templates) (for cases where you have customized the templates *and* a CiviCRM upgrade _would_ have also made changes to the same template) &mdash; but the process is not that easy! So you can save yourself (or your system administrator) some time by avoiding the temptation to edit these templates.
 
-When your site is upgraded to a new version of CiviCRM there may be changes needed in the message template program logic to support new features. You will be notified during the upgrade that changes are required. **However, you will need to apply these changes manually for any workflow templates which you have modified previously**. Follow these steps:
+!!! danger "Don't break anything"
 
-* Navigate to Administer > Communication > Message Templates (shown in the following screenshot) and click the System Workflow Message tab
-* Click the 'Edit' link
-* Open 2 new blank documents in a text editor
-* Copy and paste your customized HTML message into one of the blank documents, and your customized TEXT message into the other
-* Click 'Cancel' to return to the listing of message templates
-* Click 'Revert to Default' for the message template you're updating. This will replace your customized version with the upgraded version included all program logic - but NOT including your customizations.
-* Click 'Edit' again to review the new message versions, and compare to the customized versions saved in your text editor.
-* Copy / paste your customized changes from your text editor copies back into the new version in the CiviCRM screen. If you've only made changes to the header / introductory section of the message - this should be pretty straightforward. Otherwise you may need to use a command line tool like 'diff' to make sure you've caught all the changes needed.
-* Save your newly customized version of the messages.
+    Don't modify the program logic within these templates. Be sure to test the workflow and review the emails sent after making any changes. In most cases, you can restrict your changes to the the top row in the HTML layout. If you find that your changes have caused problems, errors or missing information, you can always revert to the system default for that workflow.
 
+After you have customized system workflow message templates, you can always revert to CiviCRM's version of the template by clicking the "Revert to Default" link which appears next to the template.
+
+![Screenshot of the System Workflow Message Template list showing that some templates have been customized because they have "Revert to Default" links next to them](/img/TemplatesToUpdate.jpg)
 
 ## Configure Message Templates
 
