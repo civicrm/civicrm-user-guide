@@ -84,6 +84,7 @@ For example for the Contribution Summary report go to **Reports** >
 **Contribution Reports** and click on **Contribution Summary**. Under the tab
 **Access** you will find the **Cache dashlet for** option. If that option
 is not available, first select the box that says **Available for Dashboard?**.
+To save click on **Actions** > **Save**.
 
 
 Almost any CiviCRM report can be made available as a dashlet.
@@ -93,21 +94,22 @@ To create a dashlet, do the following:
 -   Click **Reports** > **My Reports** and subsequently on the button
     **New Report**.
 -   Select the report template that you want to use.
--   Choose the criteria you want to display in your dashlet. For
-    example, you may want the dashboard version of the report to always
-    show data for "This Quarter" or "This Year". You can also choose to
-    display the report as a table, or as a bar or pie chart. 
--   Click **Preview Report**.
--   Once there, click **Create Report**.
--   At the bottom of the Create Report section, select the box that says
+-   While here, configure the report via the tabs **Columns**, **Sorting**, and
+    **Filters**. For example, you may want the report to always show data for
+    "This Quarter" or "This Year". That is what the filter "Date Received" is for.
+-   Click **View results**.
+-   Choose between Tabular, Bar Chart, or Pie Chart via the dropdown box to the
+    right of the Actions dropdown.
+-   At the bottom of the **Access** tab, select the box that says
     **Available for Dashboard?**. Users with permissions to see that
     information will be able to add that dashlet. (See the section on
     permissions for more information).
--   Click **Create Report**.
+-   Click **Actions** > **Create Report**.
 
 Now add the dashlet to your dashboard: 
 
--   Click **Home** to get to your dashboard.
+-   Click in the menu on the CiviCRM logo and then on **CiviCRM Home**
+    to get to your dashboard.
 -   Click **Configure Dashboard**. Drag the dashlet from the "Available
     Dashlets" box to the column where you'd like it to appear.
 -   Click **Done**. 
