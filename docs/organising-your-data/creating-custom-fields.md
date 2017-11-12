@@ -451,6 +451,31 @@ move custom fields between sets used for all contacts or for contact
 sub-types but otherwise you can only move fields between data sets of
 the same type.
 
+### Multiple choice options headings
+
+![image](../img/option_list_headings_2.PNG)
+
+You can also create headings in your multiple choice option lists by prefixing the "value" of the option with the text "crm_optgroup_"
+For example you may wish to make a list as follows:
+
+Heading: Cats
+Lion
+Tiger
+Heading: Dogs
+Wolf
+Alsation
+Poodle
+
+By typing the value as:
+crm_optgroup_cats for the Cats option 
+
+and 
+crm_optgroup_dogs for the dogs option
+
+your list will show a heading for this item in that order.
+
+![image](../img/option_list_headings_1.PNG)
+
 ## Choosing between fields, groups and tags
 
 Data fields, groups and tags are three major ways to associate
