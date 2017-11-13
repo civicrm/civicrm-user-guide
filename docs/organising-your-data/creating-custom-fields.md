@@ -453,28 +453,13 @@ the same type.
 
 ### Multiple choice options headings
 
-![image](../img/option_list_headings_2.PNG)
+You can also create headings in your multiple choice option lists. For example you may wish to make a list as follows:
 
-You can also create headings in your multiple choice option lists by prefixing the "value" of the option with the text "crm_optgroup_"
-For example you may wish to make a list as follows:
+![Screenshot of select element open with "Cats" and "Dogs" displaying headings and other options displaying beneath them](/img/option_list_headings_2.png)
 
-Heading: Cats
-Lion
-Tiger
-Heading: Dogs
-Wolf
-Alsation
-Poodle
+You can make an option list with these headings by prefixing the "value" of the option with the text "crm_optgroup_" as shown below.
 
-By typing the value as:
-crm_optgroup_cats for the Cats option 
-
-and 
-crm_optgroup_dogs for the dogs option
-
-your list will show a heading for this item in that order.
-
-![image](../img/option_list_headings_1.PNG)
+![Screenshot of configuring select options by prefixing the "value" field in the heading options with "crm_optgroup_"](/img/option_list_headings_1.png)
 
 ## Choosing between fields, groups and tags
 
