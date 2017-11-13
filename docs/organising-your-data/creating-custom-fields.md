@@ -457,9 +457,18 @@ You can also create headings in your multiple choice option lists. For example y
 
 ![Screenshot of select element open with "Cats" and "Dogs" displaying headings and other options displaying beneath them](/img/option_list_headings_2.png)
 
-You can make an option list with these headings by prefixing the "value" of the option with the text "crm_optgroup_" as shown below.
+To put headings in your options, follow these steps:
 
-![Screenshot of configuring select options by prefixing the "value" field in the heading options with "crm_optgroup_"](/img/option_list_headings_1.png)
+1. When configuring the field, choose "Select" or "Multi-Select" as the input type.
+
+    ![Screenshot of configuring input field type for a custom field, with the "Select" type chosen](/img/input-type-field-select.png)
+    
+1. When configuring the options for the field, add your headings as follows:
+
+    * Set the "Label" for your heading to be the text displayed to the user
+    * Set the "Value" for your heading to be some piece of text prefixed by "crm_optgroup_".
+
+    ![Screenshot of configuring select options by prefixing the "value" field in the heading options with "crm_optgroup_"](/img/option_list_headings_1.png)
 
 ## Choosing between fields, groups and tags
 
