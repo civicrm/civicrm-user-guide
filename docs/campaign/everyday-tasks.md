@@ -54,7 +54,7 @@ To create a Campaign:
     Progress, Planned, etc. To add more options to the Campaign
     Status drop-down list, see the previous chapter on setting up
    CiviCampaign.
-    -   **Campaign Goals**: enter text the describes the goals and/or
+    -   **Campaign Goals**: enter text that describes the goals and/or
     objectives of your campaign. You may also want to describe the
     activities you plan on conducting to meet those goals.
     -   **Revenue Goals**: if applicable, enter a number that indicates the
