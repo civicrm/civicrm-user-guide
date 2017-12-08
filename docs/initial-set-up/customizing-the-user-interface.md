@@ -87,6 +87,16 @@ the browser.
 
 ![Display Preferences Disabling Popup Forms](../img/Contact%20Dashboard.png)
 
+### Disabling Activity Assignee Notifications
+
+When an activity is created, CiviCRM sends notifications to all activity
+assignees by default. You can disable this feature by deselecting the
+checkbox **Notify Activity Assignees** in **Administer > Customize Data and
+Screens > Display Preferences**. You can also selectively disable email
+notifications for specific activity types by selecting them in the field below.
+
+![Display Preferences Disabling Activity Assignee Notifications](../img/activity_notif_setting.png)
+
 ## Customizing search preferences
 
 You can change CiviCRM's default search behavior at **Administer >
