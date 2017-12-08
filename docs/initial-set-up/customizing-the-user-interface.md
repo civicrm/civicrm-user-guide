@@ -92,9 +92,8 @@ the browser.
 When an activity is created, CiviCRM sends notifications to all activity
 assignees by default. You can disable this feature by deselecting the
 checkbox **Notify Activity Assignees** in **Administer > Customize Data and
-Screens > Display Preferences**. You can also block certain activity types from
-sending emails to activity assignees by selecting them in **Blocked Activity
-Types** field.
+Screens > Display Preferences**. You can also selectively disable email
+notifications for specific activity types by selecting them in the field below.
 
 ![Display Preferences Disabling Activity Assignee Notifications](../img/activity_notif_setting.png)
 
