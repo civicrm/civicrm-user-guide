@@ -260,5 +260,13 @@ more details).
 Activities created by CiviCRM as a result of email-to-activity processing 
 are not editable by users, as there is a restriction enforced on the Inbound 
 Email activity type. To allow users to be able to edit these activities, an
-administrator can enable the **Allow to Edit Inbound E-mails** option found on 
-**Administer > CiviMail > CiviMail Component Settings**
+administrator can enable the **CiviCRM: edit inbound email basic information** 
+or the **CiviCRM: edit inbound email basic information and content** permissions
+for the roles that require it.
+
+**CiviCRM: edit inbound email basic information** will allow users to edit every
+field of the activity, except the original message, stored int the activity's 
+details.
+
+**CiviCRM: edit inbound email basic information and content** will allow users
+to edit every field of the activity, including the original message's content.
