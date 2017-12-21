@@ -110,7 +110,7 @@ memberships.)
 ## Online renewals
 
 CiviCRM uses the same page for new memberships as it does for renewals.
-The only difference is that the page title and introductory message will
+The only difference is that the page title and introductory message with
 the text you entered into the renewal fields on the memberships tab
 when you were configuring your online membership page. The renewal page
 is automatically displayed at the same URL as the membership join page
@@ -142,7 +142,7 @@ configure a **Default Online Membership Renewal Page** as follows:
 1.  If it does not already exist, create a membership page that includes
     all currently available memberships. (You may need to use a price
     set for this if the membership fees need to be allocated to more
-    than on financial type. Refer to *Membership price sets* for more
+    than one financial type. Refer to *Membership price sets* for more
     details.)
 
 2.  Navigate to **Administer > CiviMember > CiviMember Component
