@@ -229,6 +229,20 @@ the list of case activities in the proper sequence. This provides an
 audit trail of case-related communications, and ensures that the case
 story is complete. 
 
+## Bulk add contacts to a case with a specific role
+
+On some occasions it might be useful to add several contacts to a case with
+a specific role. To do this, an action is available on contacts search results
+views. To add multiple contacts to a case in bulk:
+
+1. Perform a search on Contacts.
+2. Select the contacts that need to be added to a case from the search results.
+3. Choose the **Add to case as role** action.
+4. Use the shown form to choose the case to which contacts have to be assigned 
+and the role the contacts will have in the case.
+5. Click **Submit** to add the contacts to the case, or **Cancel** to go back 
+to search results.
+
 ## Finding activities within a case
 
 You may need to find a specific activity within a case, for reference or
