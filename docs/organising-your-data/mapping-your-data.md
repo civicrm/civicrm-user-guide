@@ -101,7 +101,7 @@ organizations know who the letter should address. For example, you want
 to address the parent and not the child.
 
 To read more about configuring and using relationships, please see the
-the *Relationships*chapter in *Organising Your Data*. 
+the *Relationships* chapter in *Organising Your Data*. 
 
 ## Activities
 
@@ -140,7 +140,7 @@ types of events your organization hosts. This is helpful for evaluating
 how many people have participated in a similar series of events or
 whether someone prefers one kind of event over another.
 
-To read more about configuring and using relationships, please see the
+To read more about configuring and using events , please see the
 *Events* section later in this book.
 
 ## Memberships
@@ -184,7 +184,7 @@ years a given constituent has been a member based on the
 "Membership since" date.
 
 To read more about configuring and managing memberships, please see the
-*Memberships*section later in this book.  
+*Memberships* section later in this book.  
 
 ## Contributions
 
