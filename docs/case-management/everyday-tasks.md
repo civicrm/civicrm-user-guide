@@ -387,13 +387,18 @@ To change the status of a case:
 4.  This will open the **Change Case Status** form (an activity with an
     additional field called Case Status).
 5.  Set the case status to the new status.
-6.  Modify the other the fields as you would when editing an activity in
+6.  If the case has any linked cases, the list of linked cases will be shown on 
+    a table within the form. If you need to update the status of linked cases too, 
+    you can click the checkbox for **Update Linked Cases Status**.
+7.  Modify the other the fields as you would when editing an activity in
     a case. Make sure to set the **Status** field. It is required, but
     not set by default. 
-7.  Click **Save** to return to the case page, with a message stating
+8.  Click **Save** to return to the case page, with a message stating
     that the Change Case Status Activity has been created.
 
 An activity is recorded because when a case status changes, it changed
 because something happened. It is usually equally as important to record
 the *who* and the *why* as well as the *what*. This behaviour is
-consistent throughout CiviCase.
+consistent throughout CiviCase. This will also happen for linked cases, if the
+**Update Linked Cases Status** checkbox was checked and the linked case's status
+was different to the new status of the parent case.
