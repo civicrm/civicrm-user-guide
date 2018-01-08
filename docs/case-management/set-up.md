@@ -280,6 +280,12 @@ Additionally, when email activities are sent from the Manage Case
 screen, if the Email Processor has been set up then replies will
 automatically be filed directly onto the case.
 
+You can also record an email or an activity on the case by adding a string 
+"case" to the subject field followed by a space and the #id of the 
+case(enclosed in square braces). For eg. A normal activity or an e-mail 
+whose subject value is **"[case #123] Any subject"** would be recorded under 
+case id = 123.
+
 ## CiviCase permissions
 
 You will need to create a contact record for each staff member or
