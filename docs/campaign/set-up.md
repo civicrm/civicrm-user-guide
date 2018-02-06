@@ -8,8 +8,7 @@ part of a particular campaign or project.
 
 First, you need to enable the CiviCampaign component.
 
-1.  Go to **Administer > System Settings > Enable CiviCRM
-    Components**.
+1.  Go to **Administer > System Settings > Components**.
 2.  Select **CiviCampaign** and click **Enable** then **Save** 
 
 Once CiviCampaign is enabled, it will show up as the new menu item
