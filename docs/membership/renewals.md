@@ -47,7 +47,7 @@ by the duration of the new membership type. If this is not what you want
 then you will need to link your membership types to different
 organisations. (One can be a dummy organisation created purely for this
 purpose and invisible to the user. See the
-[Membership types](https://docs.civicrm.org/user/en/latest/membership/defining-memberships/#membership-types)
+[Membership types](/membership/defining-memberships.md#membership-types)
 section of the **Defining Memberships** chapter
 for a more detailed explanation.) 
 

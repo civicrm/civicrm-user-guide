@@ -71,7 +71,7 @@ choose the default organisation.
     includes a peer-reviewed journal and discounts at training events.
     Parents who are health professionals may want both memberships. A
     challenge to supporting this use case is that CiviCRM's
-    [Membership Up-Sell feature](https://docs.civicrm.org/user/en/latest/membership/renewals/#membership-up-sell)
+    [Membership Up-Sell feature](/membership/renewals.md#membership-up-sell)
     expects a contact to have only one active membership with a single
     organization at any given time. A
     'workaround' for this is to create 'dummy' organisations for each of the
