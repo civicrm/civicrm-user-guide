@@ -46,7 +46,9 @@ contributions, will be preserved. The existing end date will be extended
 by the duration of the new membership type. If this is not what you want
 then you will need to link your membership types to different
 organisations. (One can be a dummy organisation created purely for this
-purpose and invisible to the user. See **Defining Memberships** chapter
+purpose and invisible to the user. See the
+[Membership types](/membership/defining-memberships.md#membership-types)
+section of the **Defining Memberships** chapter
 for a more detailed explanation.) 
 
 If you are using CiviCRM to manage memberships for more than one

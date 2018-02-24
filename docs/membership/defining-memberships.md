@@ -63,20 +63,22 @@ organisations are only interested in modelling the memberships of one
 organisation (their own organisation). In this instance you can just
 choose the default organisation.
 
-    If you wish to enable online sign ups or renewals, the CiviCRM data
-    model requires that a contact can only have one active membership with a
-    single organisation at any given time. However, some organisations may
+    Some organisations may
     want people to have two or more memberships of the same organisation
     that run concurrently. For example, an organisation focused on child
     health might want to offer a membership for parents that includes a
     parenting magazine and a membership for health professionals that
     includes a peer-reviewed journal and discounts at training events.
     Parents who are health professionals may want both memberships. A
+    challenge to supporting this use case is that CiviCRM's
+    [Membership Up-Sell feature](/membership/renewals.md#membership-up-sell)
+    expects a contact to have only one active membership with a single
+    organization at any given time. A
     'workaround' for this is to create 'dummy' organisations for each of the
     possible concurrent memberships. For the situation just described, we
     would need to create an extra organisation for health professionals.
     Note that you don't have to expose the dummy organisation to your
-    members on the website, it is only for administrative purposes. 
+    members on the website; it is for administrative purposes only.
 
 -   **Minimum fee**: If your memberships are free you should enter 0 (zero) in this field.
 Otherwise you should enter the minimum amount that must be paid for this
