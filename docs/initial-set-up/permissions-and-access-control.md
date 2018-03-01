@@ -6,7 +6,7 @@ system. In essence, you create roles for your site, give these roles
 permissions to do certain things, and assign the roles to certain
 people.
 
-Permissions and ACLs allow you to grant access to: 
+Permissions and ACLs allow you to grant access to:
 
 -   Different areas of CiviCRM (e.g. CiviContribute, CiviCase and
     CiviMail) to reflect the tasks the user is responsible for
@@ -18,14 +18,14 @@ Since permissions define who can see and do what on your site, it is
 important, from a security perspective, that you understand them well.
 It is very easy to check a permissions box without fully understanding
 what it does. A site with badly configured permissions may inadvertently
-expose your contacts' data. 
+expose your contacts' data.
 
 ## The difference between CMS permissions and CiviCRM ACLs
 
 Permissions and ACLs are defined in two separate places: in the content
 management system (CMS) and in CiviCRM itself. Many organisations are
 able to do what they need to do with just CMS permissioning. Others need
-to use CiviCRM ACLs to provide more fine grained access control. 
+to use CiviCRM ACLs to provide more fine grained access control.
 
 CMS permissions allow you to grant (or not grant) access to entire
 sections of CiviCRM to user roles, such as CiviMail, CiviEvent, etc.
@@ -85,7 +85,7 @@ You may create new roles and edit all existing ones. To edit roles,
 while in the **Permissions** tab click the button **Roles** toward the
 top right of the page.
 
-![Drupal roles.](../img/CiviCRM_Drupal_Roles.png) 
+![Drupal roles.](../img/CiviCRM_Drupal_Roles.png)
 
 Roles can be assigned to users in the following ways:
 
@@ -146,7 +146,7 @@ do one of the following:
 
 
 
-### Access Control (Permissions) in WordPress 
+### Access Control (Permissions) in WordPress
 
 In CiviCRM go to **Administer** > **User and Permissions** >
 **Permissions (Access Control)**. Select the **WordPress Access
@@ -168,10 +168,6 @@ Roles can be assigned to users in the following ways:
     User** screen where you can change their **Role** to change their
     level of access.
 
-
-
-### 
-
 ### Anonymous and Authenticated roles
 
 You will encounter both these role types as you work with the access
@@ -186,15 +182,15 @@ are:
 -   make online contributions/donations
 -   view event information
 -   register for events through online forms
--   vew event participants
+-   view event participants
 -   subscribe and unsubscribe from mailing lists
 -   access all custom data (ie see/enter information in custom data
     fields in forms)
--   access uploaded files ( ie view/print content of uploaded files)
--   view, create and edit profiles ( or profile listings and forms) 
+-   access uploaded files (ie view/print content of uploaded files)
+-   view, create and edit profiles (or profile listings and forms)
 
 The **authenticated** role (**registered** in Joomla, **subscriber** in
-WordPress) is applied to all visitors to the site that have logged in .
+WordPress) is applied to all visitors to the site that have logged in.
 This is the default role for all new user accounts, and cannot be
 deleted. By default CiviCRM permissions for this role are the same as
 those for the **anonymous** role.
@@ -205,26 +201,26 @@ you need to as the following common scenarios show.
 #### Taking online contributions
 
 If you only want contributions from logged in users you would remove
-the**make online contributions** permission from the "anonymous" or
+the **make online contributions** permission from the "anonymous" or
 "public" role.
 
 #### Viewing event info and registering for events
 
-If "view event info" and "register for events" are enabled for the
+If **view event info** and **register for events** are enabled for the
 anonymous and authenticated roles then all visitors to your site will
 be able to register for any event. If you wish to give only
 specific users the ability to view or register for *some* events, you
 must use a CiviCRM ACL, allowing a role "view" access to events if they
 should only be able to view event information, and the "edit" permission
-if they can register. However for this to function, the CMS "register
-for events" ACL must be disabled, as it will override these settings.
+if they can register. However for this to function, the CMS **register
+for events** permission must be disabled, as it will override these settings.
 
 e.g. A charity holds occasional fundraising events for the public and
 separate evening dinners for some of its corporate donors. Any visitor
 to the website can register and participate in a fundraising event,
 however the dinners are private and must only be available to some of
 their donors. In this instance, CiviCRM ACLs should be used instead of
-the CMS rule "register for events" as they can specify the specific
+the CMS permission **register for events** as they can specify the specific
 events each group of users can access.
 
 #### Editing profile data in online forms
@@ -235,36 +231,36 @@ build searchable directories (see "Profiles").
 
 If you have a standalone profile in an online form used to search for
 and edit data in CiviCRM (e.g. not part of an event registration page),
-only authenticated users may edit. The permission "profile edit" can be
+only authenticated users may edit. The permission **profile edit** can be
 given to the anonymous role, but visitors who are not logged in will
 still be unable to edit the data unless they have a [checksum](/common-workflows/tokens-and-mail-merge.md#checksum) (a unique
 URL to one page where they may edit their own data; read "Everyday
 tasks" in the email section for more information). For checksum tokens
-to work, anonymous users must have the "profile edit" permission.
+to work, anonymous users must have the **profile edit** permission.
 
-#### Collecting data from anonymous visitors using profiles 
+#### Collecting data from anonymous visitors using profiles
 
 If you have built profiles to collect data from anonymous visitors
 through online forms (e.g. event registration pages, contribution pages
-and standalone profile forms), the permission "profile create" will need
+and standalone profile forms), the permission **profile create** will need
 to be given to the "anonymous" role. Furthermore, should the profile
 contain any custom fields, an additional permission will need to be
 given, depending on the circumstances. Read "Accessing custom data"
-below. 
+below.
 
-#### Creating searchable directories for the public 
+#### Creating searchable directories for the public
 
 Profiles can be used to build searchable directories; a form of search
 criteria able to gather a list of results from the database (e.g.
 finding organisations held in the database by location). If you would
 like to give a group of users access to search pages published on the
-website, check the "profile listings" option for that role/user group.
+website, check the **profile listings** permission for that role/user group.
 
 #### Profile view
 
 Where profiles have been embedded within online pages (e.g. to display
 an organisation's name, description and contact details from the
-database), the visitor must have the permission"profile view" to see it.
+database), the visitor must have the permission **profile view** to see it.
 
 #### Using the "Profile listings and forms" permission
 
@@ -283,7 +279,7 @@ listings and forms" is not enabled for the "anonymous" and
 
 Note that if this role were given to anonymous users, in order to edit
 data, the visitor must either be logged in or using a [checksum token](/common-workflows/tokens-and-mail-merge.md#checksum)
-(see "Everyday tasks" in the section on email). 
+(see "Everyday tasks" in the section on email).
 
 #### Accessing custom data
 
@@ -292,25 +288,25 @@ profiles, the user will not be able to interact with it unless they have
 been given permission to view and/or edit custom data. There are two
 ways of assigning this ability:
 
-1.  Enable the "access all custom data" permission against the roles you
+1.  Enable the **access all custom data** permission against the roles you
     wish to give both view and edit access. If this were given to the
     "anonymous" role, for example, they would be able to view and edit
     all custom fields in online forms (e.g. custom data fields within a
     profile that has been incorporated into an event registration page).
     However, this is an 'all or nothing' approach.
 2.  Alternatively, CiviCRM ACLs can be created to give roles access to
-    only *specific*sets of custom data fields. Use this option when you
+    only *specific* sets of custom data fields. Use this option when you
     want to give groups of users access to different sets of data, e.g.
     a team in Amsterdam may only have access to custom volunteer fields,
     while the head office in Scotland has access access to both custom
     volunteer fields and custom donor fields. Note that these ACLs will
-    not function if the "access all custom data" permission is used in
+    not function if the **access all custom data** permission is used in
     the CMS; that permission in Drupal or Joomla! will override these
     settings in CiviCRM.
 
 #### Accessing uploaded files
 
-Enable the "access uploaded files" permission for any role that needs to
+Enable the **access uploaded files** permission for any role that needs to
 view images, photos and files attached to CiviCRM records and pages. Be
 sure to assign this permission to the "anonymous" role if you want
 visitors to see photos attached to contact records, personal campaign
@@ -321,11 +317,11 @@ pages, documents intended for public consumption, etc.
 You can provide authenticated (logged in) users with access to a screen
 where they can review the mailing groups they have subscribed to, their
 contributions, memberships and event registrations (where applicable).
-Assign the "access contact dashboard" permission to roles whose users
+Assign the **access contact dashboard** permission to roles whose users
 are to be given access to this feature. **Do not** enable this for the
 "anonymous" role.
 
-### Other CMS Roles 
+### Other CMS Roles
 
 Each CMS also has other predefined roles giving varying amounts of
 access to CiviCRM. Again you can change the permissions granted to
@@ -356,9 +352,9 @@ record types. For example:
 > give its fundraising staff the ability to create and edit contact
 > records for prospective donors. They have decided that the fundraising
 > department in each office can only have access to its local contacts.
-> While the permission "add contacts" can be granted to authenticated
-> users in the CMS (Drupal, Joomla! or WordPress), if "view all
-> contacts" and "edit all contacts" were also assigned in this way,
+> While the permission **add contacts** can be granted to authenticated
+> users in the CMS (Drupal, Joomla! or WordPress), if **view all
+> contacts** and **edit all contacts** were also assigned in this way,
 > there would be no way to differentiate between the three groups of
 > donors (locations). This could only be achieved with a CiviCRM ACL.
 
@@ -408,9 +404,9 @@ Roles") and hit "Add Role Assignment". Complete the following:
 -   **Assigned To**: choose a contact group to assign to the role
 -   **Enabled?**: is this assignment active or not?
 
-![image](../img/CiviCRM_ACL_civicrm-assign-users.png) 
+![image](../img/CiviCRM_ACL_civicrm-assign-users.png)
 
-### Manage ACLs 
+### Manage ACLs
 
 The third step is where the ACLs are finally created. They can be broken
 down into the following questions:
@@ -447,7 +443,3 @@ group of contacts, profile, custom data or event for this ACL
 - **Enabled?**: is the ACL active?
 
 ![image](../img/CiviCRM_ACL_civicrm-create-ACL.png)
-
-
-
-
