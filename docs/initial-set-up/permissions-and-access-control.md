@@ -168,6 +168,18 @@ Roles can be assigned to users in the following ways:
     User** screen where you can change their **Role** to change their
     level of access.
 
+### Financial Permissions
+
+By default, access to Contribution data is controlled by the **access CiviContribute**, **edit contributions** and **delete in CiviContribute** permissions.
+
+Sometimes a more fine-grained approach is needed to control access to contributions by financial type.  For example, a user may need to deal with event payments but should not have access to donations.
+
+This enable this, go to **Administer** > **CiviContribute** > **CiviContribute Component Settings** and tick the box **Enable Access Control by Financial Type**
+
+This setting adds a 'view', 'edit' and 'delete' permission for every financial type to the CMS permissions which can be assigned to the appropriate CMS roles.
+
+[At the time of writing, this does not work in Joomla!]
+
 ### Anonymous and Authenticated roles
 
 You will encounter both these role types as you work with the access
