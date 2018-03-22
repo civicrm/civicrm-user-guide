@@ -96,7 +96,7 @@ processors. You can do this by setting up multiple processors, and checking the
 
 ### Memberships tab
 
-This is covered in detail in  [Memberships](../memberships/online-membership-sign-up).
+This is covered in detail in  [Memberships](/membership/online-membership-sign-up).
 
 ### Profile tab
 

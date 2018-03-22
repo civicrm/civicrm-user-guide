@@ -78,7 +78,7 @@ general process is:
 8.  Choose to send your reminder as an email, an SMS or either depending
     on the preferred method(s) of communications for the contact.
     NOTE: The SMS option will only be available if you have
-    [set up an SMS Gateway](.../sms-text-messaging/set-up)
+    [set up an SMS Gateway](../sms-text-messaging/set-up)
 9.  Compose your message. You can use Message Templates or write the
     message from scratch.
 10. Click **Save** when you are are done.
