@@ -69,6 +69,8 @@ simplify the common use case where an organisation has only one each of
 Deposit Bank Account, Accounts Receivable and Accounts Payable, but provide
 flexibility for more sophisticated setups.
 
+Note that you can use CiviCRM's roles-based permission system to control user access to Contribution data by setting [Financial Type permissions](/initial-set-up/permissions-and-access-control.md/#financial-type-permissions).
+
 ![Editing accounts linked to financial type](../img/civicontribute-financial-types-linked-accounts.png)
 
 ### Financial Accounts
