@@ -122,8 +122,8 @@ without leaving the Online Registration configuration page. The drag and
 drop profile interface also allows you to create custom fields to
 include in the profile if you have not already done so. Custom fields
 can be created for all events or all participants, or only specific
-Event Types or Participant Roles (see the chapter [*Custom data on
-events*](/events/custom-data-for-events.md) in this section for more details on where you should store what
+Event Types or Participant Roles (see the chapter [Custom data on
+events](/events/custom-data-for-events.md) in this section for more details on where you should store what
 custom data).
 
 ![New custom field set form on top of the edit profile form.](../img/Drag_and_drop_profile_for_event.PNG)
