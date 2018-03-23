@@ -103,6 +103,12 @@ beyond the essential fields required to make a contribution, you can include
 existing [CiviCRM Profiles](/organising-your-data/profiles) at the beginning or
 end of a contribution page. You can also create new profiles.
 
+Each profile appears on the contribution page as a fieldset with a legend
+header.  The legend will be the profile Public Title if that is set, or else the
+Profile Name.  A good practice is to give profiles names that are useful for
+identifying profiles in a list and to give profiles public titles that make a
+good header for the form section.
+
 Profiles used in a contribution page can ONLY contain fields which
 belong to:
 
@@ -112,9 +118,11 @@ belong to:
 Profiles which include fields associated with any other record types
 will not be available for this purpose.
 
-Contribution pages will always include a required email address field.  If do
-not include any profile with an email address field, an email address field will
-be added near the top of the form.
+Contribution pages will always include a required email address field.  If you
+do not include any profile with an email address field, an email address field
+will be added near the top of the form.
+
+To add a profile to a contribution form:
 
 1.  Navigate to Manage Contribution Pages then for the page you wish to
     configure, click on **Configure > Include Profiles**.
@@ -123,7 +131,7 @@ be added near the top of the form.
     You can then preview your selection(s), edit an existing profile,
     copy an existing profile or create a new profile.
     When you edit or create a new profile you will use the profile drag
-    and drop interface pictured here.
+    and drop interface pictured here.  You may
     ![screenshot](../img/Contribution-page-edit-profile.png)
 
     !!! warning
@@ -135,7 +143,10 @@ be added near the top of the form.
 
 3.  Click **Save** or **Save and Done** or **Save and Next**.
 
-!!! note "Home Address vs Billing Address"
+!!! note "Multiple address blocks"
+    Most payment processors add a set of address fields along with the payment
+    details.  These fields will be used to save a billing address.
+
     If you include a profile with address fields at the top of the page, CiviCRM
     automatically generates a checkbox on the contribution form which allows the
     user to indicate that their Billing Address is the same as the address
@@ -146,7 +157,9 @@ be added near the top of the form.
 
 A number of the [Advanced
 Settings](../organising-your-data/profiles/#advanced-settings) for profiles take
-effect when a profile is included in a contribution page:
+effect when a profile is included in a contribution page.  You cannot edit these
+from the editing interface within the contribution page settings; you must go to
+the main profile settings form to make changes.
 
 -   **Adding contacts to a group.**  Note that many donors do not wish to join a
     mailing list merely because they have made a donation.
@@ -155,6 +168,9 @@ effect when a profile is included in a contribution page:
     contribution.
 -   **Including ReCAPTCHA.**  A CAPTCHA can be added to make it more difficult
     for bots and donors to submit the form.
+
+Other advanced settings, such as what to do upon duplicate match, are ignored on
+contribution pages.
 
 For more information read [Profiles](../organising-your-data/profiles).
 
