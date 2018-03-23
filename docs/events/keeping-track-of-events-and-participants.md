@@ -116,7 +116,7 @@ them. Available **Actions** include:
     you wish to edit multiple fields for multiple participants in a
     table grid layout. Note that you must create the profile set you
     wish to use before implementing this action. If you are not familiar
-    with how Profiles work, please see the *Profiles* chapter in
+    with how Profiles work, please see the [*Profiles*](/organising-your-data/profiles.md) chapter in
     the *Organising your Data* section.
 
 
