@@ -37,7 +37,7 @@ To create or edit survey types:
 
 1.  Go to **Administer > CiviCampaign > Survey Types**. 
 
-    ![image](../img/survey_config_types.png)
+    ![image](/img/survey_config_types.png)
 
 2.  Click on **Add Survey Type** and complete the form.
 
@@ -46,23 +46,9 @@ To create or edit survey types:
 Once you have determined your survey questions and responses, the next
 step is to create the custom data fields:
 
-1.  Create a custom data field set by going to **Administer > Customize > Custom Data** and clicking on **Add a Set of Custom Fields.** To
-    learn more about how to create custom field sets (including adding
-    fields with multiple answers), see the chapter called Creating
-    Custom Fields in Your Data and CiviCRM.
-2.  Create the custom data set(s) so that they are used
-    for **Activities.** The Activity type must be either/or; Canvas,
-    PhoneBank, Survey, Walklist. 
-    **Hint:** If you plan on doing a PhoneBank and want to do the data
-    entry directly into CiviCRM, then you may want to add the phone
-    number in the profile, and set it to view only, so that you can see
-    the phone numbers when you're interviewing the respondents. 
-    **Hint:** If you are adding a Walklist survey, for each field you
-    might want to add the field label in full but add shorter values.
-    These values are then used in the printed list of Walklist addresses
-    used by the survey collectors. This might make for easier question
-    response recording. So a full question response (the label) might be
-    'Wrong address' and the value might be 'WA'. See the chapter **Survey > Everyday Tasks** for more information.
+1.  Create a custom data field set by going to **Administer > Customize > Custom Data** and clicking on **Add a Set of Custom Fields.** To learn more about how to create custom field sets (including adding fields with multiple answers), see [Creating
+    Custom Fields](/organising-your-data/creating-custom-fields.md).
+2.  Create the custom data set(s) so that they are used for **Activities.** The Activity type must be either/or; Canvas, PhoneBank, Survey, Walklist. **Hint:** If you plan on doing a PhoneBank and want to do the data entry directly into CiviCRM, then you may want to add the phone number in the profile, and set it to view only, so that you can see the phone numbers when you're interviewing the respondents. **Hint:** If you are adding a Walklist survey, for each field you might want to add the field label in full but add shorter values. These values are then used in the printed list of Walklist addresses used by the survey collectors. This might make for easier question response recording. So a full question response (the label) might be 'Wrong address' and the value might be 'WA'. See [Everyday Tasks](/survey/everyday-tasks.md) for more information.
 3.  Add the questions to the field set and any help text that you wish
     to provide and click **Save** to create the field set for the
     responses.
@@ -104,11 +90,4 @@ and you can also name the profile.)
     want to track for responses to the survey, for example: 'Completed,
     Not Home, Moved, Wrong Address, Deceased'.
 
-    **Hint:** The Drupal CiviEngage module creates Survey Default Result
-    Set Options to help you track the status of the responses to the
-    survey if appropriate (e.g. Completed, Moved, Wrong Number, Wrong
-    Address, etc.). See the Setup chapter in the Civic Engagement
-    section of this book. 
-
-
-
+    **Hint:** The Drupal CiviEngage module creates Survey Default Result Set Options to help you track the status of the responses to the survey if appropriate (e.g. Completed, Moved, Wrong Number, Wrong Address, etc.). See the [Setup](/civic-engagement/set-up.md) chapter in the Civic Engagement section of this book. 
