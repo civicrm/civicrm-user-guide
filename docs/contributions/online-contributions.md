@@ -144,7 +144,17 @@ be added near the top of the form.
 
     ![Include profile top of page listbox, and include profile bottom of page listbox.](../img/Profiles-HomeAddress.jpg)
 
-It is highly recommended that Contribution Pages include a CAPTCHA (reCAPTCHA in the case of CiviCRM).  You can add reCAPTCHA to a profile you include and it will be included on the Contribution Page.
+A number of the [Advanced
+Settings](../organising-your-data/profiles/#advanced-settings) for profiles take
+effect when a profile is included in a contribution page:
+
+-   **Adding contacts to a group.**  Note that many donors do not wish to join a
+    mailing list merely because they have made a donation.
+-   **CMS User account registration options.**  A donor can be presented with
+    the option or requirement to log in or create a user account while making a
+    contribution.
+-   **Including ReCAPTCHA.**  A CAPTCHA can be added to make it more difficult
+    for bots and donors to submit the form.
 
 For more information read [Profiles](../organising-your-data/profiles).
 
