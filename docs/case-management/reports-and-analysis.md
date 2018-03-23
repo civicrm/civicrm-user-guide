@@ -22,7 +22,8 @@ select **Redact (hide) Client and Service Provider Data** then contact
 numbers rather than names will be include in the report as shown
 here.
 
-![screenshot](../img/qu_audit_screen.png) 
+![screenshot](../img/qa_audit_screen.png)
+
 The onscreen report displays
 information for one activity at a time. Click on the description in the
 table on the left to display the information for that activity.

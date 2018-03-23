@@ -283,7 +283,7 @@ Page. **Copy the URL and insert it into an HTML link or menu.
 *Or* click the WordPress shortcode icon to insert a form into any page
 or post.
 
-![image](../img/WordPress-Shortcodes-small.png)
+![WordPress shortcodes button](../img/wordpress-shortcodes-small.png)
 
 ### In Joomla!
 

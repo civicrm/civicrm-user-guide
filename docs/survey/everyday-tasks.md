@@ -54,11 +54,11 @@ contacts to be reserved for interviewing:
 
 *![image](../img/survey_reserve_findrespondents_results.png)*
 
- 
 
-On the Reserve Respondents screen, click **Reserve**. 
 
-*![image](../img/survey_reserverespondents.png)* 
+On the Reserve Respondents screen, click **Reserve**.
+
+*![image](../img/survey_reserverespondents.png)*
 
 ## Interview Respondents
 
@@ -93,7 +93,7 @@ On the Reserve Respondents screen, click **Reserve**.
  -   Click **Reserve More Respondents** to find more contacts to be
      interviewed.
 
-![image](../img/record%20survey%20responses.jpg) 
+![image](../img/record_survey_responses.jpg)
 
 ### **Reviewing Results of the Survey**
 
