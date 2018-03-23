@@ -26,19 +26,20 @@ intended to be sent to.
 **Tracked Opens** shows the number of people that CiviCRM thinks have
 opened the email *if you have chosen to track opens*.
 
-**Note:** In the world of email, there is no 100% reliable way of
-knowing when someone has opened an email. CiviCRM uses a trick that is
-common amongst mass mailers &mdash; it embeds a small image with a unique name
-in each email. When a client views the email and downloads the image,
-CiviCRM knows that they have read the email. Because this technique is
-common, to protect people's privacy, most email clients ask users to
-confirm whether they want to download images in emails. Hence your
-report really tells you the number of people who downloaded the images;
-the actual number of readers is higher than the number reported. Tracked
-opens statistics should be taken as indicative, rather than accurate. In
-our experience, a 30% reported opening rate can be considered good. This
-is obviously different for each organisation and each group you send
-emails to.
+!!! info
+    In the world of email, there is no 100% reliable way of
+    knowing when someone has opened an email. CiviCRM uses a trick that is
+    common amongst mass mailers &mdash; it embeds a small image with a unique name
+    in each email. When a client views the email and downloads the image,
+    CiviCRM knows that they have read the email. Because this technique is
+    common, to protect people's privacy, most email clients ask users to
+    confirm whether they want to download images in emails. Hence your
+    report really tells you the number of people who downloaded the images;
+    the actual number of readers is higher than the number reported. Tracked
+    opens statistics should be taken as indicative, rather than accurate. In
+    our experience, a 30% reported opening rate can be considered good. This
+    is obviously different for each organisation and each group you send
+    emails to.
 
 Don't focus too much on the absolute numbers, but rather use them as a
 way of comparing different mailings you send. You might want to use them

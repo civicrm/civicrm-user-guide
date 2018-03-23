@@ -215,9 +215,10 @@ usage.
 **Reserved?:** Select this option if you want to ensure that admin users
 do not accidentally delete the badge layout.
 
-Note: You will not be able to preview the badge layout unless at least
-one event has been created and at least one participant has been
-registered.
+!!! note
+    You will not be able to preview the badge layout unless at least
+    one event has been created and at least one participant has been
+    registered.
 
 **Printing Name Badges**
 

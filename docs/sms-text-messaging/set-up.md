@@ -198,12 +198,16 @@ Settings**> **SMS Providers**. Click **Add New Provider**.
     * API URL: leave as "https://api.twilio.com/"
     * API Parameters: enter "From=" followed by your Twilio phone number from the
     previous step, in international format with no spaces. On a second line, enter "mo=1".
-    * NOTE: Twilio will only allow you to send around 200 messages per day from each long
-    number. If you want to send more messages per day and you cannot afford a short code,
-    you can get additional long numbers from Twilio. Include those additional numbers by 
-    listing them, separated by a `|` (the "pipe" character). For example: 
-    `From=12345051212|19875052323|15675052345`. When you incude multiple long numbers, one
-    number is chosen at random each time an SMS message is sent.
+    
+    !!! note
+        Twilio will only allow you to send around 200 messages per day from 
+        each long number. If you want to send more messages per day and you 
+        cannot afford a short code, you can get additional long numbers from 
+        Twilio. Include those additional numbers by listing them, separated by 
+        a `|` (the "pipe" character). For example: 
+        `From=12345051212|19875052323|15675052345`. When you include multiple
+         long numbers, one number is chosen at random each time an SMS message 
+         is sent.
 
 3. Click Save to create your provider.
 

@@ -258,7 +258,8 @@ the parts before you try to join them together. In this case, you must
 set up the required Groups, Custom Data Groups, Profiles and Roles
 before you can use them in ACL.
 
-Note that ACL support for Joomla was introduced in Joomla version 1.6.
+!!! note
+    ACL support for Joomla was introduced in Joomla version 1.6.
 
 ## Removing versus deleting contacts from groups
 

@@ -172,8 +172,8 @@ is displayed whichever tab is selected. Within this panel are the options to:
       useful to ensure things like font consistency, basic layout and
       color.
 
-  -  Send a test email to a single email address (Note: If the email address
-    does not already exist in CiviCRM a new contact record will be created.)
+  -  Send a test email to a single email address. If the email address
+    does not already exist in CiviCRM a new contact record will be created.
   -  Send a test email to a an existing group in CiviCRM.
 
       The test mailing will fill in all the Tokens and include any attachments you are planning to send.
@@ -247,18 +247,19 @@ has unsubscribed from one of the mailing lists.
     means that all links will be overwritten with custom links
     containing your domain name.
 
-    **Note for HTML mail:** Some phishing filters may mark links that are
-    displayed differently in HTML code and in the text as unsafe. It is
-    therefore best not to use something like ```
-    <a href="http://google.com">http://Google.com</a>```
-     but rather use    ```
-     <a href="http://google.com">click here to go to Google</a>```
-     instead.
+    !!! note "Note for HTML mail"
+        Some phishing filters may mark links that are displayed 
+        differently in HTML code and in the text as unsafe. It is therefore 
+        best not to use something like  
+        `<a href="http://google.com">http://Google.com</a>`
+        but rather use  
+        ` <a href="http://google.com">click here to go to Google</a>` instead.
 
-    **Note for Plain Text email:** If you use short, user-friendly URLs
-    in your email, they will all be overwritten with long links
-    containing the name of your site and a long code looking like this
-    http://yoursite.com/sites/all/modules/civicrm/extern/url.php?u=529&qid=29011.
+    !!! note "Note for Plain Text Email"
+        If you use short, user-friendly URLs, they will all be overwritten 
+        with long links containing the name of your site and a long code 
+        looking like this 
+        http://yoursite.com/sites/all/modules/civicrm/extern/url.php?u=529&qid=29011.
 
 -   **Track Opens:** This option allows you to track how many people
     opened the email you received. However, there are limitations to the
@@ -340,8 +341,10 @@ Mass mailings can be found in one of three areas accessible via the
  **Save & Continue Later** or simply abandon a message after some
  steps, you can continue working on it by clicking on the
  **Continue** link next to the message listed here.
- (**Note:** Mailings started based on search results will not have the
- Continue link listed.)
+
+!!! note
+    Mailings started based on search results will not have the continue link 
+    listed
 
  You can also **Delete** draft messages here.
 

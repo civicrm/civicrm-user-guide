@@ -201,8 +201,9 @@ may then continue to assess and merge the remaining duplicates manually.
 
 ![screenshot](../img/CiviCRM_dedupe_batchmerge.PNG)
 
-**WARNING:** before you begin to consider using batch dedupe, please
-take note of the following:
+!!! warning
+    before you begin to consider using batch dedupe, please take note of 
+    points below
 
 1.  This feature is intended for use with large data sets that have
     strictly managed field structures. If you have a small database with

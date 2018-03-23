@@ -172,7 +172,10 @@ staffed from 7:00AM to 11:00PM Eastern Time
 
 > This unique User ID cannot be shared with others outside your organization, nor is it to be packaged and distributed or sold to other individuals, businesses or e-commerce web site entities.> If the U.S. Postal Service discovers use of the same User ID from more than one web site, all users will be subject to loss of access to the USPS production server
 
-**Warning: CiviCRM invokes the address standardization API even when doing contact imports. Be careful to either turn off the standardization feature when doing imports, or to limit yourself to imports containing only a addresses.**
+!!! warning
+    CiviCRM invokes the address standardization API even when doing contact 
+    imports. Be careful to either turn off the standardization feature when 
+    doing imports, or to limit yourself to imports containing only a addresses
 
 What some may be viewing as technical problems may just be the result of being caught violating the terms of service.
 

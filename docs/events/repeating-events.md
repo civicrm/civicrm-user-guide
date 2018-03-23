@@ -17,11 +17,12 @@ the Repetition Start Date and Excluded Dates.
 
 ![screenshot](../img/repeating_event_page.png)
 
-**Note:** If you would like your Scheduled Reminders to repeat, make
-sure you have setup Scheduled Reminders on the Event that you are
-repeating, you can edit this later. It is also recommend that you do not
-setup your reminders to repeat on specific days, but rather have them
-sent two weeks or a few days before the Event.
+!!! note
+    If you would like your Scheduled Reminders to repeat, make
+    sure you have setup Scheduled Reminders on the Event that you are
+    repeating, you can edit this later. It is also recommend that you do not
+    setup your reminders to repeat on specific days, but rather have them
+    sent two weeks or a few days before the Event.
 
 Once you have filled out all the appropriate fields click
 **Save,**to save your selection**.**You will have a popup window that
