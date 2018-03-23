@@ -56,11 +56,11 @@ Checking **same email address** provides the same capabilities, but
 without requiring distinct email addresses for each registrant. In
 either case, CiviCRM uses a separate contact record (an existing one if
 the contact is already in the system, otherwise a new one is created)
-for each individual registered. 
+for each individual registered.
 
 Information on the **Duplicate matching rule** is provided in the
 *Contact matching and duplicate management* sub-section of this chapter
-(below). 
+(below).
 
 
 **Pending participant expiration (hours)** is the time for
@@ -75,6 +75,13 @@ reminders for automatically managing **Pending from pay later**
 registrations if you have allowed that payment option on your online
 registration page. (See the *Email* section for more details on
 scheduled reminders)
+
+**Allow self-service cancellation or transfer**: When selected, event participants will receive a "self-service" link in their confirmation email.  By clicking this link, they can opt to transfer and/or cancel their event registration.
+
+![image](../img/event_online_selfservice.png)
+
+
+**Cancellation or transfer time limit (hours)**: When set, self-service cancellations and transfers will be disabled the selected number of hours prior to the start time of the event.
 
 The next step is to define the text and the fields for collecting
 information that will be displayed on your online registration page.
@@ -108,7 +115,7 @@ the bottom!
     Online Registration page, the changes you make will apply everywhere
     that profile is being used. So unless an existing profile **exactly**
     matches your requirements you should copy the profile, then rename and
-    edit the copy as required. 
+    edit the copy as required.
 
 If the profile you require does not already exist, you can create it
 without leaving the Online Registration configuration page. The drag and
@@ -129,10 +136,10 @@ For more information read [Profiles](../organising-your-data/profiles).
 
 Once you registration page is configured you need to enter the text to
 be displayed on the Confirmation page, Thank-you page, and emailed
-confirmations/receipts (if enabled). 
+confirmations/receipts (if enabled).
 
 For free events, the Confirmation step is skipped. For paid events the
-payment is processed between the Confirmation and Thank you pages. 
+payment is processed between the Confirmation and Thank you pages.
 
 For most events you'll want to enable the Send Confirmation Email
 feature (see following screenshot). For paid events, the confirmation
@@ -140,7 +147,7 @@ email also acts as a receipt. Make sure that the **Confirm From Email**
 address entered is a valid email account on your mail server. Add one or
 more staff emails (separating multiple email addresses with commas) to
 the **CC Confirmation To** field if you want real-time updates on who is
-registering for your event. 
+registering for your event.
 
 ![screenshot](../img/CiviCRM_update-CiviEvent-OnlineRegEmail-en.png "OnlineRegEmail")
 
@@ -151,7 +158,7 @@ including HTML tags / formatting here.
 ## Optional event registration features
 
 The following features may be useful to enhance your online event
-registration process. 
+registration process.
 
 ### Waitlists
 
@@ -174,7 +181,7 @@ The waiting list works in the following way:
     any).
 -   People will remain pending for a certain amount of time defined in
     Pending participant expiration (hours). This gives them a window of
-    opportunity to register. 
+    opportunity to register.
     You can set the amount of time, measured in hours, that you set on
     the **Online registration** tab under Pending participant expiration
     hours. If you want, you can set this to 0 for no limit.
@@ -213,7 +220,7 @@ message you want displayed in the approval message. You can also limit
 the amount of time participants have to complete their registration
 after approval by entering the time in hours in the Pending participant
 expiration field. For example, if you want to give participants 3 days
-to complete their registration, enter "72" in that field. 
+to complete their registration, enter "72" in that field.
 
 Now, when a person registers for the event, they will get a reply that
 says, "Your registration has been submitted. Once your registration has
@@ -245,7 +252,7 @@ For more information see **Contributions > Personal Campaign Pages** in
 this book. This is the last step in creating an event. Click **Save and
 Done.**
 
-## Contact matching and duplicate management 
+## Contact matching and duplicate management
 
 Whenever we allow people to interact with our database from 'the
 outside' we run the risk of creating duplicate contacts. There are
@@ -278,8 +285,8 @@ By default, CiviEvent uses the Unsupervised rule to do matching. When
 you configure an event for online registration, you can override the
 default by selecting a different duplicate matching rule for matching
 participants for this particular event. The rule you select takes effect
-for the primary participant and any additional participants. 
- 
+for the primary participant and any additional participants.
+
 The Online Registration tab checks for whether the included profiles
 have enough fields to have a chance at matching participants to existing
 contacts. It reviews the possible combinations of matching fields that
@@ -300,7 +307,7 @@ to **Administer > Users > Permissions**.
 Most organizations allow anonymous users (users who have not logged in)
 to view and register for events. If you want to allow this, you must
 assign the following CiviCRM module permissions for the anonymous user
-role: 
+role:
 
 -   access all custom data - required if you are collecting information
     in custom fields from registrants
@@ -309,7 +316,7 @@ role:
 -   register for events
 -   view event info
 -   view event participants - required if you want to display a listing
-    of registered participants. 
+    of registered participants.
 
 If you want to exclude anonymous visitors from viewing or registering
 online for events, assign these permissions to an authenticated user
@@ -318,7 +325,7 @@ role.
 CiviCRM has an additional permissioning system known as Access Control
 Lists (ACLs) ACLs allow you control access to CiviCRM data. Note that a
 CiviCRM ACL Role is not related to the Drupal Role. Refer to the
-*Permissions and access control* chapter for more information. 
+*Permissions and access control* chapter for more information.
 
 If you need to limit access control for specific events, you can use the
 Manage Access Control feature to assign access to specific groups of
