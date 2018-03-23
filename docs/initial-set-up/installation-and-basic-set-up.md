@@ -22,6 +22,8 @@ an Apache web server, PHP and MySQL. (The first two packages are for
 Windows and the second two are for the Macintosh and Linux
 respectively).
 
+It is important to consider where you host your CiviCRM instance. You may want to discuss this with your System Administartor and review the [Hosting information](https://docs.civicrm.org/sysadmin/en/latest/planning/hosting/) in the System Admin guide.
+
 Before you can begin installation, you need to decide which CMS (Content
 Management System; used for building and managing websites) you wish to
 integrate with, choosing between the open-source options: Drupal,
