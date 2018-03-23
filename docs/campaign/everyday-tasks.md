@@ -7,8 +7,8 @@ CiviCampaign.
 
 The Campaign Dashboard allows you to create, configure, manage and view
 your campaigns. You can also manage surveys and petitions via the
-Campaign Dashboard (refer to the following chapters on [*Surveys*](/survey/everyday-tasks.md#managing-your-surveys) and
-[*Petitions*](/petition/everyday-tasks.md#manage-your-petitions) for specific information).
+Campaign Dashboard (refer to the following chapters on [Surveys](/survey/everyday-tasks.md#managing-your-surveys) and
+[Petitions](/petition/everyday-tasks.md#manage-your-petitions) for specific information).
 
 To view the Campaign Dashboard, go to **Campaigns > Dashboard >
 Campaigns.**
@@ -79,7 +79,7 @@ how to create a group.
 A mass mailing to your target audience can generate interest and
 participation, and also be used to call for donations.
 
-1.  Create the email using CiviMail. See the []*Email*](/email/mass-mailings-using-civimail.md) section of this book
+1.  Create the email using CiviMail. See the [Email](/email/mass-mailings-using-civimail.md) section of this book
     to learn more about configuring and using CiviMail.
 2.  Select the appropriate campaign from the drop-down list when setting
     up the mailing.
@@ -106,7 +106,7 @@ associated with a campaign; simply select the appropriate campaign from
 the drop-down menu when recording the contribution.
 
 To find out more about configuring and using CiviContribute, see the
-[*Contributions*](/contributions/key-concepts-and-configurations.md/) section.
+[Contributions](/contributions/key-concepts-and-configurations.md/) section.
 
 ## Record event participation
 
@@ -119,4 +119,4 @@ they arrive, or if you have an internet connection at the event venue
 you may be able to enter participants directly into the database.
 
 Find out more about how to record participant information for an
-event, see the [*Events*](/events/manual-event-registration.md) section.
+event, see the [Events](/events/manual-event-registration.md) section.
