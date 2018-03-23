@@ -131,7 +131,8 @@ To add a profile to a contribution form:
     You can then preview your selection(s), edit an existing profile,
     copy an existing profile or create a new profile.
     When you edit or create a new profile you will use the profile drag
-    and drop interface pictured here.  You may
+    and drop interface pictured here.  You may click the pencil icon to edit the
+    profile name, public title, and pre- and post-form help text.
     ![screenshot](../img/Contribution-page-edit-profile.png)
 
     !!! warning
