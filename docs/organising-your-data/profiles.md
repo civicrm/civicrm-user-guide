@@ -642,8 +642,8 @@ To create a profile for this purpose:
 4.  Add the fields you want people to be able to edit from their Drupal
     My Account page.
 
-Note: the profile must include only fields related to the Individual
-contact type.
+!!! warning
+    The profile must include only fields related to the Individual contact type.
 
 **New account creation during profile sign-up**
 

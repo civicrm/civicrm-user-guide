@@ -93,7 +93,8 @@ accounting software package you will need the accounting code (without
 extra or missing spaces).  If you are using Quickbooks you will also need the
 account type code.
 
-NOTE: Changing the financial account name will also change the financial type name.
+!!! note
+    Changing the financial account name will also change the financial type name.
 
 ## **Payment processors**
 
@@ -121,10 +122,10 @@ Navigate to **Administer > CiviContribute > Accepted Credit Cards** to
 edit existing acceptable credit cards or define a new option through
 **Add Accepted Credit Card**.
 
-Note: If billing information is collected on the payment processor's website
-then you will need to configure accepted credit cards/payment methods on that
-site.
-
+!!! note
+    If billing information is collected on the payment processor's website
+    then you will need to configure accepted credit cards/payment methods on 
+    that site.
 
 ## Data needs and fields
 

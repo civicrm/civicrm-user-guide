@@ -311,8 +311,9 @@ was changed.
 
 ![Contact_ChangeLog](../img/CiviCRM_update-CiviCore-Contact_ChangeLog-en.jpg "Contact_ChangeLog")
 
-Note: Administrators can use the Contact Logging Report to get detailed
-information on changes to contact records (who, what and when).
+!!! tip
+    Administrators can use the Contact Logging Report to get detailed
+    information on changes to contact records (who, what and when).
 
 ## Adding contacts
 

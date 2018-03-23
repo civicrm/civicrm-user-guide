@@ -31,13 +31,16 @@ To reserve a group of respondents:
     the contacts to be interviewed.
 4.  You can enter additional criteria to limit your search to a
     geographic area, such as Street Address, Street Name, Street Unit,
-    Street Number, City, Zip/Postal Code. (Note: CiviCRM will parse a
-    street address into Street Name, Street Unit, Street Number - which
-    is extremely useful if you're planning a large door-to-door canvass
-    - only if you turn on address parsing by clicking on **Administer >
-    Administration Console> Configuration Checklist > Address
-    Settings**, then in the **Address Editing** area, check the box for
-    **Street Address Parsing**.)
+    Street Number, City, Zip/Postal Code.
+    
+    !!! note
+        CiviCRM will parse a street address into Street Name, Street Unit, 
+        Street Number - which is extremely useful if you're planning a large 
+        door-to-door canvass - only if you turn on address parsing by clicking 
+        on **Administer > Administration Console> Configuration Checklist > 
+        Address Settings**, then in the **Address Editing** area, check the box 
+        for **Street Address Parsing**.)
+        
 5.  Click **Search.**
 
 *![image](/img/survey_reserve_findrespondents_search.png)*

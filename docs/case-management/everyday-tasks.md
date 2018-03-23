@@ -290,8 +290,9 @@ sent back to the case page, or **Cancel** to discard your work.
 4.  Fill out the activity form. The Client field will be pre-populated
     with the case's client data.
 
-Note: the drop-down list of activities is configurable. Refer to the
-instructions for Activity Lists in the set-up chapter
+!!! note
+    The drop-down list of activities is configurable. Refer to the
+    instructions for Activity Lists in the set-up chapter
 
 ### Adding a set of activities
 

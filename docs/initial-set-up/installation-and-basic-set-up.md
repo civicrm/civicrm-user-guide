@@ -337,13 +337,16 @@ House" or "Volunteering Opportunities").
     box on the navigation menu. The contact name is always included.
 -   **Contact Reference Options** - Selected fields will be displayed in
     autocomplete dropdown search results for 'Contact Reference' custom
-    fields. Contact Name is always included. Note: You must assign
-    'access contact reference fields' permission to the anonymous role
-    if you want to use custom contact reference fields in profiles on
-    public pages. For most situations, you should use the 'Limit List to
-    Group' setting when configuring a contact reference field which will
-    be used in public forms to prevent exposing your entire contact
-    list.
+    fields. Contact Name is always included. 
+    
+    !!! note
+        You must assign 'access contact reference fields' permission to the 
+        anonymous role if you want to use custom contact reference fields in 
+        profiles on public pages. For most situations, you should use the 
+        'Limit List to Group' setting when configuring a contact reference 
+        field which will be used in public forms to prevent exposing your 
+        entire contact list.
+        
 -   **Autocomplete Results**- This specifies the maximum number of
     contacts to show at a time when typing in an autocomplete field. The
     default is 10.

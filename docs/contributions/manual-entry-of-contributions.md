@@ -82,9 +82,9 @@ The details for each step are listed below.
 
 ### 1. Create a new batch for data entry
 
-  Create a new batch to hold the multiple payments you want to record:
+Create a new batch to hold the multiple payments you want to record:
 
-  From the menu, click on **Contributions > Batch Data Entry** or
+From the menu, click on **Contributions > Batch Data Entry** or
 **Membership > Batch Data Entry**.
 
 ![screenshot](../img/New%20Data%20Entry.png)
@@ -97,12 +97,14 @@ Enter the following information:
     view in the batch entry grid screen (Contribution Batch Entry
     profile, Membership Batch Entry profile or Pledge Payment Batch
     Entry profile)
--   **Status**: the default will be “Open” (note: once a batch has a
-    “closed status”, the batch will no longer be editable)
+-   **Status**: the default will be “Open”
 -   **Number of items**: total of payment items in the batch (required
     field)
 -   **Total amount**: total amount of all the payment items in the batch
     (required field)
+
+!!! note
+    Once a batch has a “closed status”, the batch will no longer be editable
 
 You can edit or delete Batch information later on by going back to the
 **Bulk Data Entry** screen, then clicking on **Edit** or **Delete** next to
@@ -121,15 +123,18 @@ line.
 There are eight fields that appear for all batches:
 
 -  **Contact**. In this column you can:
-    -   start entering the name of an existing contact and CiviCRM will
+    -   Start entering the name of an existing contact and CiviCRM will
     return a list of potential contact names for you to select, OR
-    -   create a new contact by clicking the drop-down box for “-create new
+    -   Create a new contact by clicking the drop-down box for “-create new
     contact-“ and selecting the type of contact you want to create: **New
     Individual**, **New Organization**, or **New Household** and enter the
     information about the contact here.
-    Note: If contact information such as phone number or email address
-are included in the grid profile, those values will be populated for
-an existing contact and can be updated as needed.
+    
+    !!! note
+        If contact information such as phone number or email address
+        are included in the grid profile, those values will be populated for
+        an existing contact and can be updated as needed.
+
 -   **Financial Type**
 -   **Amount**
 -   **(Payment) Status**
@@ -253,11 +258,12 @@ information you want to collect for these contacts:
   use profiles, see the chapter called “Profiles” in the “User
   Interface” section*.
 
-**TIP:** Reserved profiles for **New Individual, New Organization**,
-and **New Household**, are used in other areas of CiviCRM. Be aware
-that if you alter these profiles for use with **Batches**, these same
-changes you’ve made will also appear on other screens where you have the
-option to create a new contact inline.
+!!! tip
+    Reserved profiles for **New Individual, New Organization**,
+    and **New Household**, are used in other areas of CiviCRM. Be aware
+    that if you alter these profiles for use with **Batches**, these same
+    changes you’ve made will also appear on other screens where you have the
+    option to create a new contact inline.
 
   ![screenshot](../img/CiviCRM-Contributions-SetUp-new-individual-profile.jpg)
 

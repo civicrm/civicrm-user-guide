@@ -103,11 +103,12 @@ new profile with fewer fields. If you choose not to collect email
 addresses, be sure to uncheck the option "Send confirmation email?" at
 the bottom!
 
-WARNING: If you modify an existing profile whilst configuring your
-Online Registration page, the changes you make will apply everywhere
-that profile is being used. So unless an existing profile **exactly**
-matches your requirements you should copy the profile, then rename and
-edit the copy as required. 
+!!! warning
+    If you modify an existing profile whilst configuring your
+    Online Registration page, the changes you make will apply everywhere
+    that profile is being used. So unless an existing profile **exactly**
+    matches your requirements you should copy the profile, then rename and
+    edit the copy as required. 
 
 If the profile you require does not already exist, you can create it
 without leaving the Online Registration configuration page. The drag and

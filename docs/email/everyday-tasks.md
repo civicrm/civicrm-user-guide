@@ -60,11 +60,12 @@ sender. The activity record will also list all the other message
 recipients. Unlike with mass mailing (see below) there is no one place
 where all emails sent via the Send Email function are listed.
 
-**Note:** If a message is sent to multiple recipients, each recipient
-will see only their own email address in the To field. Because the
-recipients don't see who else received the email, you might want to
-mention whom you are sending it to in the text of your mail (for
-instance: "TO: Members of the board, staff")
+!!! note
+    If a message is sent to multiple recipients, each recipient
+    will see only their own email address in the To field. Because the
+    recipients don't see who else received the email, you might want to
+    mention whom you are sending it to in the text of your mail (for
+    instance: "TO: Members of the board, staff")
 
 ## Inserting an image in an email
 
