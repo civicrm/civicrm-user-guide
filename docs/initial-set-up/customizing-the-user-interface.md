@@ -52,7 +52,7 @@ You can change which tabs are available when you are viewing contact
 records by checking and un-checking the appropriate boxes next to
 **Viewing Contacts**.
 
-![Display Preferences Viewing Contacts](../img/Viewing%20Contacts.png)
+![Display Preferences Viewing Contacts](/img/Viewing%20Contacts.png)
 
 For example, if your organization is not using Cases or Grants, you
 could uncheck those boxes and those tabs would no longer show up in the
@@ -66,7 +66,7 @@ You can change which blocks of information appear when you are editing a
 contact by checking and unchecking the appropriate boxes next
 to **Editing Contacts**:
 
-![Display Preferences Editing Contacts](../img/Editing%20Contacts.png)
+![Display Preferences Editing Contacts](/img/Editing%20Contacts.png)
 
 For example, if your organization doesn't collect information
 Demographics or Communication Preferences, you could uncheck those boxes
@@ -85,7 +85,7 @@ screens > display preferences**. Note that CiviCRM will be slower with
 this feature disabled as every form will require a complete page load in
 the browser.
 
-![Display Preferences Disabling Popup Forms](../img/Contact%20Dashboard.png)
+![Display Preferences Disabling Popup Forms](/img/Contact%20Dashboard.png)
 
 ### Disabling Activity Assignee Notifications
 
@@ -95,7 +95,7 @@ checkbox **Notify Activity Assignees** in **Administer > Customize Data and
 Screens > Display Preferences**. You can also selectively disable email
 notifications for specific activity types by selecting them in the field below.
 
-![Display Preferences Disabling Activity Assignee Notifications](../img/activity_notif_setting.png)
+![Display Preferences Disabling Activity Assignee Notifications](/img/activity_notif_setting.png)
 
 ## Customizing search preferences
 
@@ -138,7 +138,7 @@ There is one more place to customize search search settings:
 **Administer > Customize Data and Screens > Display Preferences** has
 a block of **Contact Search** settings:
 
-![Display Preferences Contact Search](../img/Contact%20Search.png)
+![Display Preferences Contact Search](/img/Contact%20Search.png)
 
 These check boxes modify the **Search > Find Contacts** and **Search >
 Advanced Search** screens. Uncheck the boxes to remove the corresponding
@@ -230,11 +230,7 @@ only the fields they need. This can speed up data entry considerably.
     higher numbers.
 12. Click on **Save and New** to add more fields, and **Save** when are
     finished.
-13. You'll be taken to a screen listing all your fields and their
-    settings. Click **Preview (all fields)** to make sure your form
-    looks the way you want it to. Click **Use (create mode)** to go to
-    the page containing your form. Copy the link and use it to create a
-    navigation menu item (see the previous section for instructions).
+13. You'll be taken to a screen listing all your fields and their settings. Click **Preview (all fields)** to make sure your form looks the way you want it to. Click **Use (create mode)** to go to the page containing your form. Copy the link and use it to create a navigation menu item (see [Customizing the navigation menu](#customizing-the-navigation-menu)).
 
 ## Customizing search views
 
@@ -249,7 +245,7 @@ When conducting your advanced search, use the **Search Views** dropdown
 menu in the top right of the page to select your Profile (see image
 below).
 
-![Customize Search Views](../img/configure-customize-search-views.png)
+![Customize Search Views](/img/configure-customize-search-views.png)
 
 ## Using Word Replacement to change terminology
 

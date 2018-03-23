@@ -68,7 +68,7 @@ in order to be returned, so the more criteria you enter, the narrower the search
  contributions and updating their status to canceled provides a better audit
  trail, but there may be situations where you do want to delete, such as a
  contribution entered on the wrong contact's record.
- - **Export contributions**: NOTE: This is an export of contributions.  If you
+ - **Export contributions**: This is an export of contributions.  If you
  choose to export multiple contributions from the same contact you will end up
  with one row for each contribution in your export file. If you want to do
  searches that return one result per contact, use the contact advanced search.

@@ -6,9 +6,7 @@ workflow for creating a report from a template through to making these
 reports available for users. It also assumes that the report you require
 can be achieved using the report templates supplied with CiviCRM.
 
-If the report template you need does not exist you (or your developer)
-should refer to the Custom Reports chapter in the Extensions section of
-the Developer Guide for information about creating new templates.
+If the report template you need does not exist you (or your developer) should refer to the documentation on [creating custom reports](https://docs.civicrm.org/dev/en/latest/framework/civireport/) in the Developer Guide for information about creating new templates.
 
 ## Report templates
 
@@ -22,7 +20,7 @@ templates are grouped by component, and each has a brief description of
 its intended scenario. If there are already report instances for a given
 template, you'll see a link to view **Existing Reports**.
 
-![image](../img/CiviReport_existing_report.PNG)
+![image](/img/CiviReport_existing_report.PNG)
 
 Clicking on the report template name will bring up a screen where the
 report can be configured.
@@ -56,9 +54,11 @@ These check boxes allow you to select the data to be displayed for each
 record in your report. In most reports, at least one display column is
 *required* and cannot be unselected. For example in the membership
 detail report **Contact Name** and **Membership Type** are required
-fileds
+fields.
 
-### ![image](../img/CiviReport_required%20fields.PNG)**Grouping**
+![image](/img/CiviReport_required%20fields.PNG)
+
+### Grouping
 
 This is not available in all reports, but it is useful when creating a
 report which summarises data, rather than displaying each individual
@@ -66,9 +66,9 @@ row, and for reports that compare different types of data.
 
 For example you can choose to compare donations per year.
 
-![image](../img/Contribution%20Summary%20report%20grouping.PNG)
+![image](/img/Contribution%20Summary%20report%20grouping.PNG)
 
-![image](../img/Contribution%20Summary%20report%20grouping%20view.PNG)
+![image](/img/Contribution%20Summary%20report%20grouping%20view.PNG)
 
 You can specify more than one grouping criteria. When you do this,
 results will be nested based on both groupings. Not all combinations of
@@ -85,7 +85,7 @@ make an invalid selection.
 This is not available in all reports, but can be useful in "detail"
 reports as shown below.
 
-![image](../img/membership%20detail%20report%20sorting%20criteria.PNG) ![image](../img/membership%20detail%20report%20sorting%20view.PNG)
+![image](/img/membership%20detail%20report%20sorting%20criteria.PNG) ![image](/img/membership%20detail%20report%20sorting%20view.PNG)
 
 
 ### Filters
@@ -106,7 +106,7 @@ two ways:
     2010"
 -   by using a relative date range, e.g. "Previous Year".
 
-![image](../img/Report-Filter.png)
+![image](/img/Report-Filter.png)
 
 Relative date ranges are very useful for reports that you want to run on
 an ongoing basis for example:
@@ -124,7 +124,7 @@ The report below shows the total amount of contributions received in the
 past 12 months, as well as each month's
 total.
 
-![past_12_months_income](../img/CiviCRM_update-CiviReport-past_12_months_income-en.png "past_12_months_income")
+![past_12_months_income](/img/CiviCRM_update-CiviReport-past_12_months_income-en.png "past_12_months_income")
 
 Once you have selected your report criteria, click **Preview Report**.
 (You will see that the tabs that define the report settings are now
@@ -149,23 +149,15 @@ be run again. (You will need to preview the report to make the settings tabs vis
     You can include a logo be adding an < img> tag. You can also modify
     the look and feel of the printed report by including a custom CSS
     file (instead of print.css)
-![image](../img/Report-Title-and-Format.png)
-2.  The **Email Delivery** tab contains the fields that will let you have
-    report emailed to yourself or someone else on a regular basis. Fill
-    in the Subject, To and CC fields in the Email Delivery Settings. You
-    can enter one or more email addresses in the To and CC fields;
-    multiple email addresses should be separated by commas.
-  ![image](../img/Report-email-settings.png)
-    As well as entering the email delivery settings described above,
-    the **Mail Reports (mail_report)** scheduled job must be enabled to
-    send report emails. Alternatively a cron job can be scheduled to run
-    this specific task apart from other scheduled jobs. The specific report
-    instance and, optionally, format are specified as part of the scheduled
-    job configuration. Refer to the *Scheduled Jobs* chapter for more
-    information.
+![image](/img/Report-Title-and-Format.png)
+2.  The **Email Delivery** tab contains the fields that will let you have report emailed to yourself or someone else on a regular basis. Fill in the Subject, To and CC fields in the Email Delivery Settings. You can enter one or more email addresses in the To and CC fields; multiple email addresses should be separated by commas.
+ 
+    ![image](/img/Report-email-settings.png)
+ 
+    As well as entering the email delivery settings described above, the **Mail Reports (mail_report)** scheduled job must be enabled to send report emails. Alternatively a cron job can be scheduled to run this specific task apart from other scheduled jobs. The specific report instance and, optionally, format are specified as part of the scheduled job configuration. Refer to [Scheduled Jobs](/initial-set-up/scheduled-jobs.md) for more information.
 
 3.  All reports are included in **Report > Report listing**. On the **Access** tab, you can set if and where the report will appear elsewhere in the navigation menu. When you check **Include Report in Navigation Menu?** the Parent Menu field appears letting you select the parent menu for this second link to the report. The link to the report can either be to "View Results" or to "Show Criteria".  "View Results" will open the report to the results page and would be the appropriate choice for, say, a report that uses a relative date filter such as "Number of new contributors last calendar month".  "Show Criteria" will allow you to alter the report criteria before it is run.
-    ![image](../img/Report-Access.png)
+    ![image](/img/Report-Access.png)
 
     On the **Access** tab, you can also set up permissions to view or edit
     reports on a report-by-report basis. This allows you to simplify the
@@ -191,7 +183,7 @@ Once the report criteria and settings are correct click **Create Report**. The r
 ### Editing or copying an existing report
 
 Sometimes you need to permanently alter the criteria for an existing report. Open the report, make the required changes and then click **Update Report** to save them.
-![image](../img/Report-edit-or-save-copy.png)
+![image](/img/Report-edit-or-save-copy.png)
 
 At other times you may want two or more reports displaying the same columns of information but using different filters.  For example you may want an Event Income Summary report showing the income for all events for the events manager, but may only want the fundraising manager to have access to a report showing income from Fundraiser events. Once you have created the initial report you can open it, change the filtering criteria and click on **Save a Copy...**.  You will be prompted to enter a new title and description for the new report.
 

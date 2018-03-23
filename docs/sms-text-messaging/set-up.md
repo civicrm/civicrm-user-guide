@@ -26,7 +26,7 @@ sign-in and follow the steps below (when logging in you must select
 In the Central Home dashboard, click "Create a new Connection" under
 "Connection Status" (New language is "Get another API". Page looks also changed.)
 
-![Clickatell settings screen](../img/clickatell-settings.png)
+![Clickatell settings screen](/img/clickatell-settings.png)
 
 1.
 Select "HTTP/S" as the connection type (New language: HTTP API)
@@ -60,7 +60,7 @@ You now have all of the information needed to configure SMS in CiviCRM.
 To continue, return to CiviCRM and go to: **Administer** > **System
 Settings**> **SMS Providers**. Click "Add New Provider".
 
-![image](../img/CiviCRM_SMS_adding-a-provider.png)
+![image](/img/CiviCRM_SMS_adding-a-provider.png)
 
 Complete the following settings:
 
@@ -141,7 +141,7 @@ in the registration step.
 1. From the [Console homepage](https://www.twilio.com/console), click the
 **Programmable SMS** product.
 
-![Programmable SMS](../img/twilio-programmable-sms.png)
+![Programmable SMS](/img/twilio-programmable-sms.png)
 
 2. Click the red **Get Started** button.
 
@@ -167,7 +167,7 @@ following, replacing example.com with your CiviCRM installation.
 
 This will send any replies that your messages receive back to CiviCRM.
 
-![Messaging](../img/twilio-number-callback.png)
+![Messaging](/img/twilio-number-callback.png)
 
 5. Click "Save".
 
@@ -186,7 +186,7 @@ Now that you have a Twilio account with a phone number, it needs to be set up in
 1. Go to CiviCRM and go to: **Administer** > **System
 Settings**> **SMS Providers**. Click **Add New Provider**.
 
-![image](../img/CiviCRM_SMS_adding-a-provider-twilio.png)
+![image](/img/CiviCRM_SMS_adding-a-provider-twilio.png)
 
 2. Set up the provider as follows:
 
@@ -198,12 +198,16 @@ Settings**> **SMS Providers**. Click **Add New Provider**.
     * API URL: leave as "https://api.twilio.com/"
     * API Parameters: enter "From=" followed by your Twilio phone number from the
     previous step, in international format with no spaces. On a second line, enter "mo=1".
-    * NOTE: Twilio will only allow you to send around 200 messages per day from each long
-    number. If you want to send more messages per day and you cannot afford a short code,
-    you can get additional long numbers from Twilio. Include those additional numbers by 
-    listing them, separated by a `|` (the "pipe" character). For example: 
-    `From=12345051212|19875052323|15675052345`. When you incude multiple long numbers, one
-    number is chosen at random each time an SMS message is sent.
+    
+    !!! note
+        Twilio will only allow you to send around 200 messages per day from 
+        each long number. If you want to send more messages per day and you 
+        cannot afford a short code, you can get additional long numbers from 
+        Twilio. Include those additional numbers by listing them, separated by 
+        a `|` (the "pipe" character). For example: 
+        `From=12345051212|19875052323|15675052345`. When you include multiple
+         long numbers, one number is chosen at random each time an SMS message 
+         is sent.
 
 3. Click Save to create your provider.
 
@@ -212,7 +216,7 @@ Settings**> **SMS Providers**. Click **Add New Provider**.
 You can now use CiviSMS to send an SMS message to your phone number
 (the one you verified in earlier steps).
 
-See the Everyday Tasks section for some ways you can send messages.
+See [Everyday Tasks](/sms-text-messaging/everyday-tasks.md) for some ways you can send messages.
 
 If you reply to an SMS message, it will be created as an activity on your CiviCRM record.
 

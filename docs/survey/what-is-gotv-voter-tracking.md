@@ -4,17 +4,11 @@ CiviCampaign includes a "Get Out the Vote" GOTV (Voter Tracking) feature
 so you can indicate the contacts (who you have or plan to survey) who
 have voted at the polls.
 
-You will need to enable the CiviCampaign component to be able to use
-GOTV (Voter Tracking). See the *Campaign* section for more information
-about CiviCampaign.
+You will need to enable the CiviCampaign component to be able to use GOTV (Voter Tracking). See [CiviCampaign](/campaign/what-is-civicampaign.md) for more information.
 
 ## Tracking Contacts Who Voted at the Polls
 
-Before you can use the GOTV (Voter Tracking) feature, you will need to
-have created a survey, create the group of contacts you plan on
-interviewing, and reserve respondents (reserve the contacts you want to
-interview) for that survey. To learn more about surveys and reserving
-respondents, refer to the section Surveys in this book. 
+Before you can use the GOTV (Voter Tracking) feature, you will need to have created a survey, create the group of contacts you plan on interviewing, and reserve respondents (reserve the contacts you want to interview) for that survey. To learn more about surveys and reserving respondents, refer to [What is CiviSurvey](/survey/what-is-civisurvey.md). 
 
 To use the GOTV (Voter Tracking) feature:
 
@@ -35,5 +29,4 @@ On the GOTV (Voter Tracking) screen:
 -   You can float your cursor over the "individual contact" icon next to
     a person's name to find out more information about that individual
 
-![image](../img/GOTV%20tracking.jpg) 
-
+![image](/img/GOTV%20tracking.jpg) 

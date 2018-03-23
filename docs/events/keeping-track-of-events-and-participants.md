@@ -116,7 +116,7 @@ them. Available **Actions** include:
     you wish to edit multiple fields for multiple participants in a
     table grid layout. Note that you must create the profile set you
     wish to use before implementing this action. If you are not familiar
-    with how Profiles work, please see the *Profiles* chapter in
+    with how Profiles work, please see the [*Profiles*](/organising-your-data/profiles.md) chapter in
     the *Organising your Data* section.
 
 
@@ -215,9 +215,10 @@ usage.
 **Reserved?:** Select this option if you want to ensure that admin users
 do not accidentally delete the badge layout.
 
-Note: You will not be able to preview the badge layout unless at least
-one event has been created and at least one participant has been
-registered.
+!!! note
+    You will not be able to preview the badge layout unless at least
+    one event has been created and at least one participant has been
+    registered.
 
 **Printing Name Badges**
 

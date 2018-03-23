@@ -13,8 +13,9 @@ in the final section of this chapter.
 ## Considerations before importing
 
 For more details on how to think about your data before importing into
-CiviCRM, please read the section on "Organizing your data", especially
-"Mapping your data into CiviCRM".
+CiviCRM, please read the section on 
+["Organizing your data"](/organising-your-data/overview.md), especially
+["Mapping your data into CiviCRM"](/organising-your-data/mapping-your-data/).
 
 ## Preparing to import data
 

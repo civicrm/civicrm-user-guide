@@ -31,7 +31,7 @@ for each individual who signs the petition.
     a profile with fields for the contact information you want to
     collect, such as First Name, Last Name, and Email. You may want to
     make some of these fields required so you capture enough information
-    to communicate with signers at a later date. Note: you must collect
+    to communicate with signers at a later date. You must collect
     at minimum an email address in the contact profile, because the
     Petition feature will send an email to the signer of the petition to
     prompt them to verify their email address. Only those verified email

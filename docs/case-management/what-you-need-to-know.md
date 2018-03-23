@@ -189,11 +189,12 @@ completion of activities in your case are outside your control. However,
 as the activities are created progressively it will not provide the same
 at-a-glance overview of the case that a timeline does. 
  
-**NOTE:** If you want to use both a timeline and a sequence in the same
-case you must make sure that there is no overlap in activity types
-between the two. For example, you cannot include the activity type of
-"Meeting" in both a timeline and the sequence within the same case as
-this will create problems. 
+!!!note
+    If you want to use both a timeline and a sequence in the same
+    case you must make sure that there is no overlap in activity types
+    between the two. For example, you cannot include the activity type of
+    "Meeting" in both a timeline and the sequence within the same case as
+    this will create problems. 
 
 ## Case Roles and Relationships 
 

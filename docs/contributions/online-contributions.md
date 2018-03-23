@@ -125,22 +125,25 @@ regardless of whether you include any other fields in your profile(s).
     copy an existing profile or create a new profile.
     When you edit or create a new profile you will use the profile drag
     and drop interface pictured here.
-
     ![screenshot](../img/Contribution-page-edit-profile2.gif)
-
-    WARNING: If you modify an existing profile whilst configuring your
-    Contribution page, the changes you make will apply everywhere that
-    profile is being used. So unless an existing profile **exactly**
-    matches your requirements you should copy the profile, then rename
-    and edit the copy as required.
+    
+    !!! warning
+        If you modify an existing profile whilst configuring your
+        Contribution page, the changes you make will apply everywhere that
+        profile is being used. So unless an existing profile **exactly**
+        matches your requirements you should copy the profile, then rename
+        and edit the copy as required.
+        
 3.  Click **Save** or **Save and Done** or **Save and Next**.
 
-Note: If you include a profile with a Home Address at the top of the
-page, CiviCRM automatically generates a checkbox on the front end form
-which allows the user to indicate that their Billing Address and Home
-Address are the same. (If the Home Address profile is included at the
-bottom of the page, this checkbox will not be generated).
-![Include profile top of page listbox, and include profile bottom of page listbox.](../img/Profiles-HomeAddress.jpg)
+!!! note "Home Address vs Billing Address"
+    If you include a profile with a Home Address at the top of the
+    page, CiviCRM automatically generates a checkbox on the front end form
+    which allows the user to indicate that their Billing Address and Home
+    Address are the same. (If the Home Address profile is included at the
+    bottom of the page, this checkbox will not be generated).
+    
+    ![Include profile top of page listbox, and include profile bottom of page listbox.](../img/Profiles-HomeAddress.jpg)
 
 It is highly recommended that Contribution Pages include a CAPTCHA (reCAPTCHA in the case of CiviCRM).  You can add reCAPTCHA to a profile you include and it will be included on the Contribution Page.
 

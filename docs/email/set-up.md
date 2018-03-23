@@ -48,12 +48,13 @@ To create a **Smart Group**:
     description, and make the Smart Group a Mailing List.
 5.  Click **Save Smart Group**.
 
-**Note:** You can also create a Smart Group based on a Participant
-search. However, the Smart Group save page will not offer you the option
-to make this group a Mailing List. To make this Smart Group available to
-CiviMail, you must change its settings through **Contacts > Manage
-Groups**. This same thing happens if you use the Advanced Search and
-choose Event Participants under "Display results as."
+!!! info
+    You can also create a Smart Group based on a Participant
+    search. However, the Smart Group save page will not offer you the option
+    to make this group a Mailing List. To make this Smart Group available to
+    CiviMail, you must change its settings through **Contacts > Manage
+    Groups**. This same thing happens if you use the Advanced Search and
+    choose Event Participants under "Display results as."
 
 You cannot create smart groups based on Membership, Contributions or
 Pledge searches, or based on results of an Advanced Search if the
@@ -155,9 +156,11 @@ confirm their subscription. Until they click the confirmation link in
 the email, their contact information will appear in CiviCRM with their
 group subscription set to Pending. When they confirm, CiviCRM will
 automatically change their group subscription status to Added and they
-will be sent a welcome message. (Note: When users subscribe to multiple
-groups at once, a confirmation email is sent for each group
-separately.)
+will be sent a welcome message.
+
+!!! note
+    When users subscribe to multiple groups at once, a confirmation email is 
+    sent for each group separately.
 
 ## Scheduled jobs and cron jobs
 

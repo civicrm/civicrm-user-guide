@@ -201,21 +201,13 @@ may then continue to assess and merge the remaining duplicates manually.
 
 ![screenshot](../img/CiviCRM_dedupe_batchmerge.PNG)
 
-**WARNING:** before you begin to consider using batch dedupe, please
-take note of the following:
+!!! warning
+    Before you begin to consider using batch dedupe, please take note of 
+    points below.
 
-1.  This feature is intended for use with large data sets that have
-    strictly managed field structures. If you have a small database with
-    only a few duplicates, we recommend you merge them manually using
-    your own judgement.
-2.  Once merged, the links between the duplicate contact and records
-    elsewhere in the system will be transferred to the original contact
-    (e.g. event participant records, groups, tags, contributions,
-    activities, cases and memberships). You will NOT be able to reverse
-    this change.
-3.  Duplicate records, once merged, will be deleted and are not
-    recoverable. We strongly recommend backing up your data before
-    running a batch merge.
+    *  This feature is intended for use with large data sets that have strictly managed field structures. If you have a small database with only a few duplicates, we recommend you merge them manually using your own judgement.
+    *  Once merged, the links between the duplicate contact and records elsewhere in the system will be transferred to the original contact (e.g. event participant records, groups, tags, contributions, activities, cases and memberships). You will NOT be able to reverse this change.
+    *  Duplicate records, once merged, will be deleted and are not recoverable. We strongly recommend backing up your data before running a batch merge.
 
 ## A multi-stage deduping process
 
@@ -246,5 +238,5 @@ disruption.
 
 1.  Select the duplicate contacts from your search results by clicking
     the check box at the left side of each record.
-2.  Select **Merge Contacts** from the ** Actions** menu.
+2.  Select **Merge Contacts** from the **Actions** menu.
 3.  Follow the normal steps for merging duplicate contacts.

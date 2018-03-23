@@ -69,6 +69,8 @@ simplify the common use case where an organisation has only one each of
 Deposit Bank Account, Accounts Receivable and Accounts Payable, but provide
 flexibility for more sophisticated setups.
 
+Note that you can use CiviCRM's roles-based permission system to control user access to Contribution data by setting [Financial Type permissions](/initial-set-up/permissions-and-access-control.md#financial-type-permissions).
+
 ![Editing accounts linked to financial type](../img/civicontribute-financial-types-linked-accounts.png)
 
 ### Financial Accounts
@@ -91,7 +93,8 @@ accounting software package you will need the accounting code (without
 extra or missing spaces).  If you are using Quickbooks you will also need the
 account type code.
 
-NOTE: Changing the financial account name will also change the financial type name.
+!!! note
+    Changing the financial account name will also change the financial type name.
 
 ## **Payment processors**
 
@@ -119,10 +122,10 @@ Navigate to **Administer > CiviContribute > Accepted Credit Cards** to
 edit existing acceptable credit cards or define a new option through
 **Add Accepted Credit Card**.
 
-Note: If billing information is collected on the payment processor's website
-then you will need to configure accepted credit cards/payment methods on that
-site.
-
+!!! note
+    If billing information is collected on the payment processor's website
+    then you will need to configure accepted credit cards/payment methods on 
+    that site.
 
 ## Data needs and fields
 

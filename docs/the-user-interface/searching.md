@@ -56,9 +56,16 @@ CiviCRM also allows for the collection of a nickname when entering new contacts.
 
 You can change this behavior from the *Search Preferences* screen described above by changing the *Include Nickname* setting to *yes*.
 
-Note: If you search by **phone** then you will need to enter the digits of the phone number without any formatting. The **phone** search is done against a field that consists only of digits with all non-numeric characters stripped out.
-
-Note: If you want to search by **first** and **last** name, use the format "Lastname, Firstname", not "Firstname Lastname".  For example, "Peterson, Mary" not "Mary Peterson".
+!!! note
+    If you search by **phone** then you will need to enter the digits of 
+    the phone number without any formatting. The **phone** search is done 
+    against a field that consists only of digits with all non-numeric 
+    characters stripped out.
+    
+!!! tip 
+    If you want to search by **first** and **last** name, use the format 
+    "Lastname, Firstname", not "Firstname Lastname".  
+    For example, "Peterson, Mary" not "Mary Peterson".
 
 ## Advanced search
 ![Screen shot of advanced search](../img/the-user-interface/searching/user-interface-advanced-search-main-screen.png)
@@ -307,12 +314,13 @@ targeted at the most external circles of your constituents.
 
 Search households in a state or province.
 
-Note: which states or provinces are available in the search depends on
-your localization settings. Add additional countries by going to
-**Administer** > **Configure** > **Global Settings** >
-**Localization**. Add to the column of "Available States and Provinces",
-but note this change will also affect profile forms which include
-country or state/province fields.
+!!! note 
+    Which states or provinces are available in the search depends on
+    your localization settings. Add additional countries by going to
+    **Administer** > **Configure** > **Global Settings** >
+    **Localization**. Add to the column of "Available States and Provinces",
+    but note this change will also affect profile forms which include
+    country or state/province fields.
 
 ### **Contribution Aggregate**
 
@@ -336,8 +344,9 @@ geographical area.
 4.  Enter any other parameters you wish to give your search.
 5.  Click **Search**.
 
-**TIP:** You can also incorporate Proximity Searching in a profile which
-you've configured for use as a search form.
+!!! tip
+    You can also incorporate Proximity Searching in a profile which you've 
+    configured for use as a search form.
 
 ### **Event Aggregate**
 

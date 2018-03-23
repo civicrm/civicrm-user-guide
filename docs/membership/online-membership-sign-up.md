@@ -197,8 +197,10 @@ process.
 The profiles tab allows you to select an already existing profile to
 include on your membership page, and if you have permission, to edit an
 existing profile or create a new profile to be included on this page.
-**WARNING:** If you edit an existing profile here, it will be changed in
-all places where that profile is used.
+
+!!! warning
+    If you edit an existing profile here, it will be changed in all places 
+    where that profile is used.
 
 ###Premiums tab
 

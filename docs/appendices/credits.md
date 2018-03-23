@@ -1,5 +1,11 @@
 # Credits
 
+Since 2016 this book has been maintained in Github. Refer to https://github.com/civicrm/civicrm-user-guide/graphs/contributors for a list of contributors since then.
+
+Contributors prior to 2016 are listed below under the section headings in use at the time.
+
+* * * * *
+
 About this book 
  
  Modifications: 
