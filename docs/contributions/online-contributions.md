@@ -98,10 +98,10 @@ This is covered in detail in  [Memberships](/membership/online-membership-sign-u
 
 ### Profile tab
 
-If you want to collect information from contributors beyond the essential fields
-required to make a contribution, such as age, interests and skills,
-you can include existing CiviCRM Profiles at the beginning or end of a
-contribution page. You can also create new profiles.
+If you want to collect information such as age, interests and skills that goes
+beyond the essential fields required to make a contribution, you can include
+existing [CiviCRM Profiles](/organising-your-data/profiles) at the beginning or
+end of a contribution page. You can also create new profiles.
 
 Profiles used in a contribution page can ONLY contain fields which
 belong to:
@@ -112,8 +112,9 @@ belong to:
 Profiles which include fields associated with any other record types
 will not be available for this purpose.
 
-Contribution pages will always include a required email address field,
-regardless of whether you include any other fields in your profile(s).
+Contribution pages will always include a required email address field.  If do
+not include any profile with an email address field, an email address field will
+be added near the top of the form.
 
 1.  Navigate to Manage Contribution Pages then for the page you wish to
     configure, click on **Configure > Include Profiles**.
@@ -123,7 +124,7 @@ regardless of whether you include any other fields in your profile(s).
     copy an existing profile or create a new profile.
     When you edit or create a new profile you will use the profile drag
     and drop interface pictured here.
-    ![screenshot](../img/Contribution-page-edit-profile2.gif)
+    ![screenshot](../img/Contribution-page-edit-profile.png)
 
     !!! warning
         If you modify an existing profile whilst configuring your
@@ -135,11 +136,11 @@ regardless of whether you include any other fields in your profile(s).
 3.  Click **Save** or **Save and Done** or **Save and Next**.
 
 !!! note "Home Address vs Billing Address"
-    If you include a profile with a Home Address at the top of the
-    page, CiviCRM automatically generates a checkbox on the front end form
-    which allows the user to indicate that their Billing Address and Home
-    Address are the same. (If the Home Address profile is included at the
-    bottom of the page, this checkbox will not be generated).
+    If you include a profile with address fields at the top of the page, CiviCRM
+    automatically generates a checkbox on the contribution form which allows the
+    user to indicate that their Billing Address is the same as the address
+    entered in the profile. (If the profile is included at the bottom of the
+    page, this checkbox will not be generated).
 
     ![Include profile top of page listbox, and include profile bottom of page listbox.](../img/Profiles-HomeAddress.jpg)
 
