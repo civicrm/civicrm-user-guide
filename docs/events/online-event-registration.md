@@ -74,7 +74,7 @@ cancellation. This feature is very useful when combined with scheduled
 reminders for automatically managing **Pending from pay later**
 registrations if you have allowed that payment option on your online
 registration page. (See the *Email* section for more details on
-scheduled reminders)
+[scheduled reminders](/email/scheduled-reminders.md))
 
 **Allow self-service cancellation or transfer**: When selected, event participants will receive a "self-service" link in their confirmation email.  By clicking this link, they can opt to transfer and/or cancel their event registration.
 
@@ -122,8 +122,8 @@ without leaving the Online Registration configuration page. The drag and
 drop profile interface also allows you to create custom fields to
 include in the profile if you have not already done so. Custom fields
 can be created for all events or all participants, or only specific
-Event Types or Participant Roles (see the chapter *Custom data on
-events* in this section for more details on where you should store what
+Event Types or Participant Roles (see the chapter [Custom data on
+events](/events/custom-data-for-events.md) in this section for more details on where you should store what
 custom data).
 
 ![New custom field set form on top of the edit profile form.](../img/Drag_and_drop_profile_for_event.PNG)

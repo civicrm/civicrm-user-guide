@@ -29,7 +29,7 @@ scratch.
 **Event type** allows you to categorise the event.
 
 If you have **CiviCampaign** enabled, you can select a campaign for this
-to be a part of (see the *Campaign* section for more details).
+to be a part of (see the [Campaign](/campaign/everyday-tasks.md) section for more details).
 
 **Roles** distinguish different types of event participants, such as
 attendees, speakers and staff. What role should participants be assigned
@@ -46,8 +46,8 @@ define in this section only *enable* participant listings &mdash; to display
 one, you will need to create a menu item or link to the listing
 somewhere on your website. Once you've created the event, the
 participant listing link is displayed on the event configuration page.
-Refer to the chapter *Event management* for information on participant
-listings and other ways to promote your events.
+Refer to the chapter [Event management](/events/event-planning-and-management.md) for information on [participant
+listings](/events/keeping-track-of-events-and-participants.md#finding-and-administering-participants) and other ways to [promote your events](events/event-planning-and-management.md#promoting-your-events).
 
 What is your event called? The **Event Title** will appear on event
 information pages, registration pages, event listings, and in the Manage
@@ -159,7 +159,7 @@ offers many benefits. Online registration is convenient for your
 constituents and can save staff time and resources. If you do not need
 to offer online registration, do not check **Allow Online
 Registration** and move onto the next step. If you do want to allow
-online registration, please see the *Online event registration* chapter
+online registration, please see the [Online event registration](/events/online-event-registration.md) chapter
 in this section.
 
 ## Scheduled reminders

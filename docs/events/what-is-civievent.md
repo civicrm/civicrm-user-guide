@@ -12,9 +12,9 @@ processes. Some key features include:
 -   tracking sign-ups, cancellations, and attendance
 -   promotion of your events on your website
 -   streamline event set-up for similar, recurring events with event
-    templates and event copy functionality 
+    templates and event copy functionality
 -   participant check in on-site at the event from any computer with an
-    internet connection 
+    internet connection
 
 ## Scenario: Youth leadership workshop
 
@@ -63,7 +63,7 @@ of attendees, total event fees paid, and total amount still due. The
 event and mail templates can be updated if necessary and saved for the
 next event.
 
-## Some key concepts 
+## Some key concepts
 
 The chapters in this section take you through everything you need to
 know in order to get the most from CiviEvent. Below are a few concepts
@@ -75,7 +75,7 @@ step-by-step tasks in the next chapters of this section.
 
 First lets explain some basic concepts. CiviCRM allows you to create one
 or more **events** that your **contacts** can participate in. When a
-contact participates in an event, they are called a **participant**. 
+contact participates in an event, they are called a **participant**.
 
 ### Event types
 
@@ -115,16 +115,13 @@ with respect to the event, for the purpose of things like generating
 sign-in sheets, tracking how many people are likely to come to an event,
 and tailoring email communications to registrants.
 
-## Other parts of CiviCRM that work with CiviEvent 
+## Other parts of CiviCRM that work with CiviEvent
 
 CiviEvent is designed to work together with other parts of CiviCRM.  For
 example, you can promote the event to a targeted list and communicate
 with event participants via email before and after the event using
-CiviMail (see the *Email* section, particularly the *Set-up* and
-*Scheduled Reminders* chapters, for more information). CiviEvent works
+CiviMail (see the *Email* section, particularly the [Set-up](/email/set-up.md) and
+[Scheduled Reminders](/email/scheduled-reminders.md) chapters, for more information). CiviEvent works
 with CiviContribute to allow you to accept event payments online. To do
 this, you must enable CiviContribute and set up a payment processor; see
 the *Contributions* section for more information.
-
-
-
