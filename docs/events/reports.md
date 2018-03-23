@@ -58,7 +58,7 @@ custom data. All of these can also be used as filters.
 **Attendee List** provides a list of event attendees and can be filtered
 to provide provide a list for just one event. You add one blank column
 on the left of the list and tone, two or three at the right of the list
-and so create an event sign up sheet. 
+and so create an event sign up sheet.
 
 The **Event Income Detail** and **Event Income Summary** work
 together to show details of revenue from events. The summary report is
@@ -70,7 +70,7 @@ or Bar Chart.
 
 ### Create an event report from a template
 
-See the chapter *Reporting Set-up* for details. 
+See the chapter [Reporting Set-up](/reporting/set-up.md) for details. 
 
 ## More analysis
 
@@ -102,5 +102,3 @@ Once the report is available for the dashboard, you can then:
     latest updated information for your report as well as any other
     items you've included on your dashboard, click **Refresh Dashboard
     Data**.
-
-
