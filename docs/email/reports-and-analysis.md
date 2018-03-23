@@ -26,7 +26,7 @@ intended to be sent to.
 **Tracked Opens** shows the number of people that CiviCRM thinks have
 opened the email *if you have chosen to track opens*.
 
-!!! info
+!!! info "How Open Tracking works"
     In the world of email, there is no 100% reliable way of
     knowing when someone has opened an email. CiviCRM uses a trick that is
     common amongst mass mailers &mdash; it embeds a small image with a unique name

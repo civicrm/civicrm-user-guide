@@ -136,13 +136,14 @@ regardless of whether you include any other fields in your profile(s).
         
 3.  Click **Save** or **Save and Done** or **Save and Next**.
 
-!!! note
+!!! note "Home Address vs Billing Address"
     If you include a profile with a Home Address at the top of the
     page, CiviCRM automatically generates a checkbox on the front end form
     which allows the user to indicate that their Billing Address and Home
     Address are the same. (If the Home Address profile is included at the
     bottom of the page, this checkbox will not be generated).
-![Include profile top of page listbox, and include profile bottom of page listbox.](../img/Profiles-HomeAddress.jpg)
+    
+    ![Include profile top of page listbox, and include profile bottom of page listbox.](../img/Profiles-HomeAddress.jpg)
 
 It is highly recommended that Contribution Pages include a CAPTCHA (reCAPTCHA in the case of CiviCRM).  You can add reCAPTCHA to a profile you include and it will be included on the Contribution Page.
 

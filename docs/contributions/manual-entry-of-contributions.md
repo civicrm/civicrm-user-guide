@@ -82,9 +82,9 @@ The details for each step are listed below.
 
 ### 1. Create a new batch for data entry
 
-  Create a new batch to hold the multiple payments you want to record:
+Create a new batch to hold the multiple payments you want to record:
 
-  From the menu, click on **Contributions > Batch Data Entry** or
+From the menu, click on **Contributions > Batch Data Entry** or
 **Membership > Batch Data Entry**.
 
 ![screenshot](../img/New%20Data%20Entry.png)
@@ -103,7 +103,7 @@ Enter the following information:
 -   **Total amount**: total amount of all the payment items in the batch
     (required field)
 
-!!!note
+!!! note
     Once a batch has a “closed status”, the batch will no longer be editable
 
 You can edit or delete Batch information later on by going back to the
@@ -130,7 +130,7 @@ There are eight fields that appear for all batches:
     Individual**, **New Organization**, or **New Household** and enter the
     information about the contact here.
     
-    !!!note
+    !!! note
         If contact information such as phone number or email address
         are included in the grid profile, those values will be populated for
         an existing contact and can be updated as needed.
