@@ -27,8 +27,7 @@ Management System; used for building and managing websites) you wish to
 integrate with, choosing between the open-source options: Drupal,
 WordPress or Joomla!.
 
-You can find full instructions on installing CiviCRM here:[
-http://wiki.civicrm.org/confluence/display/CRMDOC/Installation+and+Upgrades](http://wiki.civicrm.org/confluence/display/CRMDOC/Installation+and+Upgrades%20)[](http://wiki.civicrm.org/confluence/display/CRMDOC/Installation+and+Upgrades%20)
+You can find full instructions on installing CiviCRM in the [System Administrator Guide](https://docs.civicrm.org/sysadmin/en/latest/requirements/)
 
 ## Internet vs. local installs
 
@@ -38,6 +37,10 @@ are security conscious, choose to install CiviCRM on an internal network
 and have it only accessible internally. The downside to an install that
 is not publicly available is that your contacts cannot 'self serve' to
 update their data.
+
+## Seucring your system.
+
+Once you have CiviCRM installed it is important that you ensure that you make sure you secure your system. Some important techniques on securing your server and website can be found in the [System Administartors guide](https://docs.civicrm.org/sysadmin/en/latest/setup/security/).
 
 ## Upgrades
 
