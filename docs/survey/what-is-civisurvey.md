@@ -5,14 +5,9 @@ standardised way to record survey responses and to then generate reports
 from the survey data. Survey responses are captured in an activity
 record (in an activity of the type Survey) for each individual.
 
-Note that the Survey feature is used to record responses from your
-existing contacts. If you want to gather responses from individuals who
-may not exist in your database, you should use CiviCampaign's Petition
-feature; see the Petition section for more information.
+Note that the Survey feature is used to record responses from your existing contacts. If you want to gather responses from individuals who may not exist in your database, you should use CiviCampaign's Petition feature. See [Petition](/petition/what-is-civipetition.md) for more information.
 
-For Drupal sites only, CiviCampaign interacts with the Drupal module
-CiviEngage to automatically provide additional options for your surveys;
-see the section Civic Engagement for more information.
+For Drupal sites only, CiviCampaign interacts with the Drupal module CiviEngage to automatically provide additional options for your surveys. See [Civic Engagement](/civic-engagement/what-is-civiengage.md) for more information.
 
 ## Scenario: Public housing survey
 

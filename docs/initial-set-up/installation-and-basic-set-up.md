@@ -77,7 +77,7 @@ red. After you have visited a page, the links will display in green
 (although you may still need to revisit the page to complete or update
 the settings).
 
-![Cheklist with several setions. The first section, site configuration, contains the items: localization, organization address and contact info, and enable components.](../img/Configuration_Checklist_4_4.png)
+![Cheklist with several sections. The first section, site configuration, contains the items: localization, organization address and contact info, and enable components.](/img/Configuration_Checklist_4_4.png)
 
 ### Localization
 
@@ -116,7 +116,7 @@ the appropriate range go to **Administer > Localization > Date Formats > Advance
 If you were to leave these settings as the default you will see an error such as this:
 Please enter a date between 01/01/1994 and 21/31/2024. 
 
-![Advanced Date Input Settings](../img/configure-localization-advanced-date-input-settings.png)
+![Advanced Date Input Settings](/img/configure-localization-advanced-date-input-settings.png)
 
 ### Organization Address and Contact Info
 
@@ -249,7 +249,7 @@ Settings screen and make changes as needed.
         the Street Address Parsing function. When address parsing is turned on you can edit and or view
         the parsed address by clicking on Edit Address Elements when you are editing a address.
 
-    ![The link "Edit address elements" is next to the street address field.](../img/basic-set-up-address-parsing.png)  
+    ![The link "Edit address elements" is next to the street address field.](/img/basic-set-up-address-parsing.png)  
 
    You can learn more about USPS' Postal Addressing Standards at          [http://pe.usps.com/text/pub28/welcome.htm](http://pe.usps.com/text/pub28/welcome.htm).
 -   **Address Standardization** - CiviCRM includes an optional feature
@@ -294,7 +294,7 @@ House" or "Volunteering Opportunities").
 
 -   **Automatic Wildcards** - By default, when users search for contacts
     by Name, the Search interface treats the text as if it was
-    surrounded by percent signes. EXAMPLE: Searching for 'ada' will
+    surrounded by percent signs. EXAMPLE: Searching for 'ada' will
     return any contact whose name includes those letters - 'Adams,
     Janet', 'Nadal, Jorge', etc. Disabling this feature will speed up
     searches significantly for large databases, but will make users
@@ -347,7 +347,7 @@ House" or "Volunteering Opportunities").
 -   **InnoDB Full Text Search -** If you are using MySQL 5.6+ you can
     enable InnoDB full-text search optimizations.
 
-### Miscellaneous (Undelete, PDFs, Limts, Logging, reCAPTCHA, etc.)
+### Miscellaneous (Undelete, PDFs, Limits, Logging, reCAPTCHA, etc.)
 
 Use the Miscellaneous Settings screen to configure and control the
 following behaviors:
@@ -372,7 +372,7 @@ following behaviors:
     records using the Contact Logging Report. Go to **Reports > Reports
     Listing > Contact Logging Report (Summary)**.
 -   **Attach PDF copy to receipts** - If enabled, CiviCRM sends PDF
-    receipt as an attachment during event signup or online contribution.
+    receipt as an attachment during event sign-up or online contribution.
 -   **Path to wkhtmltopdf executable -** wkhtmltopdf is an alternative
     utility for generating PDF's which may provide better performance
     especially if you are generating a large number of PDF letters or
@@ -418,7 +418,7 @@ following behaviors:
     Advanced Settings section in a Profile where you want it used.
 
     If you want to use reCAPTCHA protection for online contribution,
-    membership signup or event registration forms, you'll need to
+    membership sign-up or event registration forms, you'll need to
     configure a Profile with reCAPTCHA enabled, and then include it in
     those forms.
 
@@ -448,7 +448,7 @@ screenshot). An email will be sent to the email address associated with
 your user login account. The From email address will be the default From
 address you've configured in the previous section.
 
-![Three buttons: save, cancel, save and send test email.](../img/CiviCRM-Configuring-Picture_11-en.png "Save and Send Test Email")
+![Three buttons: save, cancel, save and send test email.](/img/CiviCRM-Configuring-Picture_11-en.png "Save and Send Test Email")
 
 If CiviCRM is unable to send the test email, you will see a message on
 your screen with the specific error and some suggestions for
@@ -476,7 +476,7 @@ automated emails. If you've already entered an email address in the
 Domain Information screen, that address will be listed here (as
 illustrated on the leftmost field of the following screenshot).
 
-![screenshot](../img/from_email.png)
+![screenshot](/img/from_email.png)
 
 When users send an email using CiviCRM, their primary email address is
 used as the From address by default. However, they can also select one
@@ -487,7 +487,7 @@ of the general email addresses defined here as an alternative.
 Payment processors are companies that handle credit card transactions
 for merchants and non-profit organizations and then transfer funds to
 the organization's bank account. If you plan on using CiviCRM to accept
-online contributions, online membership signup and renewal or online
+online contributions, online membership sign-up and renewal or online
 event registration, you will need to select and configure a payment
 processor for your site.
 
@@ -507,11 +507,11 @@ information, visit:
 ### Permissions for anonymous users
 
 This link is only present on Drupal sites. On Joomla! and WordPress
-(and Drupal) Sites permissions for anonymous and other users are set
+(and Drupal) sites permissions for anonymous and other users are set
 after navigating to **Administer > Users and Permissions >
 Permissions** > **Drupal (or Joomla! or WordPress) Access Control**.
-See the *Permissions and Access Control* chapter in this section for
-information on setting permissions.
+
+See [Permissions and access control](/initial-set-up/permissions-and-access-control.md) for information on setting permissions.
 
 ### System Workflow Templates
 
