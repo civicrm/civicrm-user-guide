@@ -105,12 +105,13 @@ This is covered in detail in  [Memberships](../memberships/online-membership-sig
 ![online contribution thank you and receipt set up](../img/civicontribute-online-thank-you-and-receipt.png)
 
 Here you can:
- -  Customise the Thank-you page that will be displayed to your
+
+* Customise the Thank-you page that will be displayed to your
 contributors. Contributors are sure to appreciate a title such as "Thanks
 for your contribution" with a re-statement of how their contribution will be
 used. (If you don't visit this tab the "Thank-you" page will just have the
 same title as the contribution page.)
- -  Decide whether or not to have a receipt automatically emailed at the time
+* Decide whether or not to have a receipt automatically emailed at the time
 of the contribution. If you do decide to send a receipt then the fields
 under "Email Receipt to Contributor" will appear. The receipt message is
 specifically for the contribution page you are creating and will be added to
