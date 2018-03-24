@@ -9,7 +9,7 @@ box on the right to enable it.
 To create a new pledge on behalf of a constituent, navigate to
 **Contributions** > **Pledges** > **New Pledge** (note that an
 individual may do this themselves through an online contribution form;
-see the 'contributions' section).
+see the [contributions](/contributions/what-is-civicontribute.md) section).
 
 The options available are as follows:
 
