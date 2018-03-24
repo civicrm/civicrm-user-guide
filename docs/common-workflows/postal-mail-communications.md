@@ -23,9 +23,7 @@ There are three ways you can use CiviCRM in postal mailings:
 1.  Generate labels: print out standard address labels when you don't
     need to personalise the content, for instance to send a printed
     brochure.
-2.  Export contacts and do a mail merge to an external tool (such as
-    OpenOffice or Microsoft Word). Refer to the chapter on Exporting
-    earlier in this section for detailed exporting instructions. 
+2.  Export contacts and do a mail merge to an external tool (such as OpenOffice or Microsoft Word). Refer to the chapter on [Exporting](/common-workflows/exporting-your-contacts.md) earlier in this section for detailed exporting instructions. 
 3.  Use CiviCRM's [Print/merge document](#print-merge-document) function to do the merge directly in
     CiviCRM (see below for details).
 
@@ -42,8 +40,7 @@ are several options from the friendly "Dear John", to more formal "Dear
 Mr. John Doe". You can also enter a *customized greeting* ("Your royal
 highness"). Postal greetings can be edited in the Communications
 Preferences section of the contact edit form. If you need to set or
-reset postal greetings en mass, refer to the chapter on *Scheduled Jobs*
-in this section, and to the documentation on the wiki at:
+reset postal greetings en mass, refer to the chapter on [Scheduled Jobs](/initial-set-up/scheduled-jobs.md) and to the documentation on the wiki at:
 
 [http://wiki.civicrm.org/confluence/display/CRMDOC/Update+Greetings+and+Address+Data+for+Contacts](http://wiki.civicrm.org/confluence/display/CRMDOC/Update+Greetings+and+Address+Data+for+Contacts)
 
