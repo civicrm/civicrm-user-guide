@@ -104,5 +104,4 @@ menu) are:
     including the ability to add reports to dashboards, get reports
     emailed, etc.
 
-Read the *Reporting* section of this book for more information.
-
+Read the [Reporting](/reporting/what-is-civireport.md) section of this book for more information.
