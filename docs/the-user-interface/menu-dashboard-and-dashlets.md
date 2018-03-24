@@ -8,7 +8,7 @@ and the navigation menu available for people working in CiviCRM.
 The navigation menu is a small bar at the top of every "back office"
 page of CiviCRM.
 
-![image](../img/the-user-interface/menu-dashboard-and-dashlets/4.5_Menubar.png)
+![image](/img/the-user-interface/menu-dashboard-and-dashlets/4.5_Menubar.png)
 
 It provides access to nearly every function of CiviCRM and is broadly
 organised into headings by individual CiviComponents (such as
@@ -24,16 +24,16 @@ items on the screen.
 You can also add icons to the navigation menu items, by editing the 
 navigation menu item you will see a text input called (Icon):
 
-![NavMenu_EditItem_IconField](../img/the-user-interface/menu-dashboard-and-dashlets/47NavMenu_EditItem_IconField-en.png)
+![NavMenu_EditItem_IconField](/img/the-user-interface/menu-dashboard-and-dashlets/47NavMenu_EditItem_IconField-en.png)
 
 You can click on the icon field and the icon-picker will appear allowing you to 
 choose a desired icon : 
 
-![NavMenu_EditItem_IconField](../img/the-user-interface/menu-dashboard-and-dashlets/47NavMenu_EditItem_IconField-en2.png)
+![NavMenu_EditItem_IconField](/img/the-user-interface/menu-dashboard-and-dashlets/47NavMenu_EditItem_IconField-en2.png)
 
 After refreshing the page, the icon will appear next to the navigation menu item:
 
-![NavMenu_SearchMenuIcon](../img/the-user-interface/menu-dashboard-and-dashlets/47SearchMenuIcon-en.png)
+![NavMenu_SearchMenuIcon](/img/the-user-interface/menu-dashboard-and-dashlets/47SearchMenuIcon-en.png)
 
 Remember that changes you make to the navigation
 menu will be seen by everyone who has the appropriate permissions to see

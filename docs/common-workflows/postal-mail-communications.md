@@ -79,7 +79,7 @@ To create the letter:
     "Insert Tokens" located above the letter at the top right and select
     the desired token.
 
-    ![PostalGreetingToken](../img/CiviCRM_update-CiviCore-PostalGreetingToken-en.png "PostalGreetingToken")
+    ![PostalGreetingToken](/img/CiviCRM_update-CiviCore-PostalGreetingToken-en.png "PostalGreetingToken")
 
 8.  Before you move to the next screen, decide whether the format of
     this letter could be used again. If so, check the Save As New

@@ -23,7 +23,7 @@ screenshot) lets an administrator select the right locale for the
 language and country of the organization using CiviCRM. Go to:
 Administer > Configure > Global Settings > Localization.
 
-![2](../img/CiviCRM_update-CiviCore-2-en.png "2")
+![2](/img/CiviCRM_update-CiviCore-2-en.png "2")
 
 ## Translations
 

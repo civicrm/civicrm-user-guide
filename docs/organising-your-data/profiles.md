@@ -18,7 +18,7 @@ By creating a Profile, you are able to pick and choose only those fields
 that are relevant for a specific purpose. The diagram below provides a
 visual explanation of how existing fields become part of a Profile.
 
-![Profiles](../img/CiviCRM-Icons-db1-en.png "Profiles")
+![Profiles](/img/CiviCRM-Icons-db1-en.png "Profiles")
 
 This section will outline how to use Profiles for both collecting and
 sharing data, and share several ways of using profiles that can save
@@ -51,7 +51,7 @@ Some examples:
 For example, this profile is being used to collect address information
 on a donation page.
 
-![image](../img/baykeeper-profile.png)
+![image](/img/baykeeper-profile.png)
 
 ### Displaying information on public pages
 
@@ -232,7 +232,7 @@ Note that by default contacts will not receive any confirmation that they have b
 be asked to validate their email address.
 To have contacts who complete the profile form receive an email, go to **Administer >> CiviMail >> CiviMail Component Settings** and check the checkbox **"Enable Double Opt-in for Profiles which use the "Add to Group" setting"**. They must respond (opt-in) before they are added to the group.
 
-![Screen shot of dobule opt-in setting](../img/organizing-data-double-opt-in.png)
+![Screen shot of dobule opt-in setting](/img/organizing-data-double-opt-in.png)
 
 Also note that if you want to offer more than one group, you might be better off using the groups profile field.
 
@@ -442,17 +442,17 @@ In WordPress, there is an additional third way. When creating or editing
 a post, click on the CiviCRM button to insert a CiviCRM shortcode into
 the post.
 
-![image](../img/2013-09-04_15-29-47_1.png)
+![image](/img/2013-09-04_15-29-47_1.png)
 
 On the popup form, select Profile as the desired frontend element.
 
-![image](../img/2013-09-04_15-15-35.png)
+![image](/img/2013-09-04_15-15-35.png)
 
 Use the second select widget to specify the profile you would like to
 use. Finally, select the purpose of the form &mdash; create, edit or view
 and click Insert Form.
 
-![image](../img/2013-09-04_15-16-45.png)
+![image](/img/2013-09-04_15-16-45.png)
 
 ### Multi-value fields in profiles
 
@@ -465,7 +465,7 @@ that the multi-value custom data appears slightly differently in the
 profile to facilitate adding, editing and deleting multiple instances of
 these records.
 
-![image](../img/multi-value-profile.png)
+![image](/img/multi-value-profile.png)
 
 ### Making directories with Profiles
 
@@ -539,7 +539,7 @@ Form](../img/CiviCRM-CapturingExposing-buildprofile-MemberDirSearchForm-en.png "
 Once you hit search you get this result set. Profile fields that have
 Results Column checked are shown in the listing.
 
-![MemberDirResults](../img/CiviCRM-CapturingExposing-buildprofile-MemberDirResults-en.png "MemberDirResults")
+![MemberDirResults](/img/CiviCRM-CapturingExposing-buildprofile-MemberDirResults-en.png "MemberDirResults")
 
 Clicking the view link gives you more details about the constituent,
 showing all profile fields.
@@ -588,13 +588,13 @@ Go to the Advanced Search screen and set the appropriate filters in the Event ac
 
 You will go to the "Update multiple contacts" screen.
 
-  ![Update Multiple Records](../img/update-multiple-records.PNG)
+  ![Update Multiple Records](/img/update-multiple-records.PNG)
 
 From the drop-down list, choose the Profile you want to use and click **Continue**.
 
 The next screen will contain a grid. Each row shows the contact's name and the fields in your profile. You should update the field values for each contact as needed.
 
-![Update Multiple Records Profile View](../img/update-multiple-records-profile.PNG)
+![Update Multiple Records Profile View](/img/update-multiple-records-profile.PNG)
 
 
 To set a field to the same value for all rows, enter that value for the first contact and then click the Copy icon (the image of two documents that is next to each column title). The value will automatically be copied into all the records displayed.

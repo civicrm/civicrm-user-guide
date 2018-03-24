@@ -81,7 +81,7 @@ difficult, challenge.
 
 The following photo shows the people who wrote this book. 
  
-![team](../img/Blog-CiviCRM-team-en.png "team")
+![team](/img/Blog-CiviCRM-team-en.png "team")
 
 In the back row you are looking at Michael McAndrew (London, UK), Tony
 Guzman (Salt Lake City, USA), Brian Shaughnessy (Albany, NY, USA), Dave
@@ -124,14 +124,14 @@ Sprint. They include Robert Santiago, Xavier Dutoit, Joe Murray,
 Sarmeesha Reddy, Jay Maechtlen, Dream Gomez, Leila Johnson, Duncan
 Hutty, and Kurund Jalmi.
 
-![pteam](../img/Blog-CiviCRM-pteam-en.png "pteam")
+![pteam](/img/Blog-CiviCRM-pteam-en.png "pteam")
 
 Our office for the week was Dave and Bob's house.
 
-![civi1](../img/Blog-CiviCRM-civi1-en.png "civi1")
+![civi1](/img/Blog-CiviCRM-civi1-en.png "civi1")
 
 We mitigated the hardship of late-night work with some tasty beverages.
 
-![log](../img/Blog-CiviCRM-log-en.png "log")
+![log](/img/Blog-CiviCRM-log-en.png "log")
 
 And occasionally they let us out for a bit....

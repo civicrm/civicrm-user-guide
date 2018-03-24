@@ -31,7 +31,7 @@ grouped together into tabs. Once you have given your contribution page a
 name, these tabs are displayed at the top of the page as you work
 through the rest of the set up process.
 
-![image](../img/membership-tabs.png)
+![image](/img/membership-tabs.png)
 
 In this chapter, we concentrate on the tabs and options of contribution
 pages that are most useful for memberships. A couple of tabs that are
@@ -110,7 +110,7 @@ box.
 After the text boxes, are a few options that you can use to configure
 the membership types available on the membership form.
 
-![image](../img/MembershipTabOnlineCintribConfiguration.PNG)
+![image](/img/MembershipTabOnlineCintribConfiguration.PNG)
 
 Looking at the simple use cases first, you select which membership types
 should be available on the page, which should be the default, and which
@@ -192,7 +192,7 @@ available. Don't add a membership profile. Collection of that
 information occurs automatically during the online membership sign up
 process.
 
-![image](../img/membership-profiles.png)
+![image](/img/membership-profiles.png)
 
 The profiles tab allows you to select an already existing profile to
 include on your membership page, and if you have permission, to edit an
@@ -215,7 +215,7 @@ The Premiums tab of the contribution page wizard controls the
 introductory text, contact information, and other premium-related
 details.
 
-![image](../img/membership-profiles.png)
+![image](/img/membership-profiles.png)
 
 ## Testing membership sign up pages
 
@@ -285,7 +285,7 @@ Page. **Copy the URL and insert it into an HTML link or menu.
 *Or* click the WordPress shortcode icon to insert a form into any page
 or post.
 
-![WordPress shortcodes button](../img/wordpress-shortcodes-small.png)
+![WordPress shortcodes button](/img/wordpress-shortcodes-small.png)
 
 ### In Joomla!
 

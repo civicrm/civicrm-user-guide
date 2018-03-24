@@ -34,7 +34,7 @@ To offer online registration, check **Allow Online Registration** in the
 Online Registration step of event creation and use the options on this
 form to configure this feature.
 
-![The forth tab of the event form contains the online registration settings.](../img/event_online_rego_part_1.PNG)
+![The forth tab of the event form contains the online registration settings.](/img/event_online_rego_part_1.PNG)
 
 Define the text to be used as the **link** from the event information
 page to the registration form, and set the starting and ending dates for
@@ -78,7 +78,7 @@ registration page. (See the *Email* section for more details on
 
 **Allow self-service cancellation or transfer**: When selected, event participants will receive a "self-service" link in their confirmation email.  By clicking this link, they can opt to transfer and/or cancel their event registration.
 
-![image](../img/event_online_selfservice.png)
+![image](/img/event_online_selfservice.png)
 
 
 **Cancellation or transfer time limit (hours)**: When set, self-service cancellations and transfers will be disabled the selected number of hours prior to the start time of the event.
@@ -86,7 +86,7 @@ registration page. (See the *Email* section for more details on
 The next step is to define the text and the fields for collecting
 information that will be displayed on your online registration page.
 
-![screenshot](../img/event_online_rego_part_2.PNG)
+![screenshot](/img/event_online_rego_part_2.PNG)
 
 The introductory text comes at the top of the page and the footer text
 at the bottom. In between will come some, or all, of: profile, fee
@@ -126,7 +126,7 @@ Event Types or Participant Roles (see the chapter [Custom data on
 events](/events/custom-data-for-events.md) in this section for more details on where you should store what
 custom data).
 
-![New custom field set form on top of the edit profile form.](../img/Drag_and_drop_profile_for_event.PNG)
+![New custom field set form on top of the edit profile form.](/img/Drag_and_drop_profile_for_event.PNG)
 
 It is highly recommended that if you are charging for your event that you include a CPATCHA (reCAPTCHA in the case of CiviCRM).  You can add reCAPTCHA to a profile you include and it will be included on the Online Registration page.  
 
@@ -149,7 +149,7 @@ more staff emails (separating multiple email addresses with commas) to
 the **CC Confirmation To** field if you want real-time updates on who is
 registering for your event.
 
-![screenshot](../img/CiviCRM_update-CiviEvent-OnlineRegEmail-en.png "OnlineRegEmail")
+![screenshot](/img/CiviCRM_update-CiviEvent-OnlineRegEmail-en.png "OnlineRegEmail")
 
 Please note that the contents of the **Text** field will be included in
 both TEXT and HTML versions of receipt emails so we do not recommend
@@ -195,7 +195,7 @@ statuses**. You can then check the **Offer Waitlist** checkbox on
 the **Info and settings** tab, and set the message you want displayed on
 the event information page when the event is full.
 
-![screenshot](../img/CiviCRM_update-CiviEvent-EventInfo2-en.png "EventInfo2")
+![screenshot](/img/CiviCRM_update-CiviEvent-EventInfo2-en.png "EventInfo2")
 
 Note that in order for the status processing to happen, you need to have
 the **Update Participant Statuses** scheduled job
@@ -279,7 +279,7 @@ you get familiar with that chapter at some point. This section just
 covers contact matching and duplicate management in the context of
 CiviEvent.
 
-![Expanded list of matching rules.](../img/event-duplicate-matching.png)
+![Expanded list of matching rules.](/img/event-duplicate-matching.png)
 
 By default, CiviEvent uses the Unsupervised rule to do matching. When
 you configure an event for online registration, you can override the

@@ -19,7 +19,7 @@ tax/VAT
     -   Shows as inclusive price- $120 (includes $20 tax)
     -   Shows as exclusive price - $100 + $20 tax  
 
-![CiviContribute Component settings with the tax term listbox at the bottom.](../img/enable_tax_fields.png)
+![CiviContribute Component settings with the tax term listbox at the bottom.](/img/enable_tax_fields.png)
 
 ## Adding a Financial Account for Sales Tax/VAT
 
@@ -47,7 +47,7 @@ For the **Financial Account Relationship** choose **Sales Tax Account is**
 and in the **Financial Account** field select your sales tax account.
 Click **Save.**
 
-![screenshot](../img/civicontribute-sales-tax-add-account.png)
+![screenshot](/img/civicontribute-sales-tax-add-account.png)
 
 Once the sales tax Financial Account has been added, you will see it
 listed with the other Financial Accounts for that specific Financial
