@@ -17,7 +17,7 @@ will also want to review the previous chapter called Set-Up in this
 section to learn more about setting the custom data sets and profiles to
 be used in your Walklist survey.
 
-### **Create the campaign and survey for the walk list**
+### Create the campaign and survey for the walk list
 
 1.  Create a new group of contacts that you will be targeting during
     your door-knock canvass. You may do this by searching for contacts
@@ -39,7 +39,7 @@ be used in your Walklist survey.
 ![screenshot](../img/create_walklist_survey.jpg)
 ![screenshot part 2](../img/create_walklist_survey_p2.jpg)
 
-### **Reserve the target group you want to survey**
+### Reserve the target group you want to survey
 
 Next, you'll need to reserve the target group of contacts you will be
 surveying during the door-knock canvass:
@@ -52,7 +52,7 @@ surveying during the door-knock canvass:
 4.  Click **Go** to Reserve Respondents.
 5.  On the Reserve Respondents screen, click **Reserve**.
 
-### **Create your WalkList report**
+### Create your WalkList report
 
 1.  Go to **Reports > Create Templates from Reports > Survey Report
     (Detail)**.
@@ -72,12 +72,12 @@ surveying during the door-knock canvass:
 ![walklist report](../img/walklist_report.jpg)
 
 
-### **Conduct your door-knock canvass**
+### Conduct your door-knock canvass
 
 Your organisers and volunteers are now ready to door-knock and collect
 responses on their WalkList report sheets.
 
-### **Recording responses from the canvass**
+### Recording responses from the canvass
 
 At the end of each day or evening of canvassing, each organiser or
 volunteer can record the responses directly into CiviCRM.
@@ -93,7 +93,7 @@ volunteer can record the responses directly into CiviCRM.
 5.  Enter the responses and results according to your WalkList sheet
     responses, then click **Record Response**.
 
-### **Reviewing Results of the Survey**
+### Reviewing Results of the Survey
 
 At the end of the canvass, a program lead may want to review the results
 of the survey. Refer to the chapter Reports and Analysis to learn how to
@@ -112,7 +112,7 @@ review the previous chapter called Set-Up in this section to learn more
 about setting the custom data sets and profiles to be used in your
 PhoneBank survey.
 
-### **Create the campaign and survey for the PhoneBank**
+### Create the campaign and survey for the PhoneBank
 
 Creating a survey for phonebanking is the same process as creating a
 survey for walklists.
@@ -132,7 +132,7 @@ survey for walklists.
     set, **Survey Default Results Set Options**.
 6.  Click**Save**.
 
-### **Reserve the target group you want to survey**
+### Reserve the target group you want to survey
 
 Next, you'll need to reserve the target group of contacts you will be
 surveying during the phone bank:
@@ -145,7 +145,7 @@ surveying during the phone bank:
     you want to survey, then click **Go** to **Reserve Respondents**.
 5.  On the **Reserve Respondents** screen, click **Reserve**.
 
-### **Conduct your phone bank and record responses**
+### Conduct your phone bank and record responses
 
 During the phone bank, organisers and volunteers can search for the
 group of contacts they will be calling and enter the responses directly
@@ -160,7 +160,7 @@ into CiviCRM.
 
 ![Editable table with "name" and questions as column headers. Each row allows you to record the responses of a specific contact.](../img/phonebank_record_responses.jpg)
 
-### **Reviewing Results of the Survey**
+### Reviewing Results of the Survey
 
 At the end of the phone bank, a program lead may want to review the
 results of the survey. Refer to the chapter Reports and Analysis to

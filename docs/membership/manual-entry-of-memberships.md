@@ -145,7 +145,7 @@ the contact that their membership is confirmed
         message to the member. If you don't enter text, the default
         confirmation and receipt message will be used.
 
-### **Auto-renew Memberships via Back end**
+### Auto-renew Memberships via Back end
 
 To manually create a membership that will auto-renew go to the contact's
 summary screen, select the **Memberships**tab and click on **Submit

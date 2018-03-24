@@ -97,7 +97,7 @@ On the Reserve Respondents screen, click **Reserve**.
 
 ![image](/img/record_survey_responses.jpg)
 
-### **Reviewing Results of the Survey**
+### Reviewing Results of the Survey
 
 At the end of the canvass, a program lead may want to review the results of the survey. Refer to [Reports and Analysis](/survey/reports-and-analysis.md) to learn how to view this report.
 
@@ -127,12 +127,12 @@ haven't done so already.
 
 ![image](/img/walklist_cover_sheet.jpg)
 
-### **Conduct your door-knock canvass**
+### Conduct your door-knock canvass
 
 Your organisers and volunteers are now ready to door-knock and collect
 responses on their WalkList report sheets. 
 
-### **Recording responses from the canvass**
+### Recording responses from the canvass
 
 At the end of each day or evening of canvassing, each organiser or
 volunteer can record the responses directly into CiviCRM.

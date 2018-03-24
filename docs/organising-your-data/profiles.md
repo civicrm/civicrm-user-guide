@@ -203,7 +203,7 @@ uses. You can skip over any settings that do not apply to the way you
 will use your Profile. To access advanced settings click on the gray
 advanced settings bar and a set of fields will appear
 
-#### **Limit listings to a specific group**
+#### Limit listings to a specific group
 
 This is important only for Profiles that will be used to display
 information on your website (e.g., if you will be allowing web visitors
@@ -223,7 +223,7 @@ to search your data, as in a membership directory).
     don't want anyone who comes to your website to know who is in your
     whole database.
 
-#### **Add new contacts to a group**
+#### Add new contacts to a group
 
 Any *new* contacts that fill out this Profile will be added to the
 Group. You can use this, for example, to add anyone who fills out your
@@ -236,7 +236,7 @@ To have contacts who complete the profile form receive an email, go to **Adminis
 
 Also note that if you want to offer more than one group, you might be better off using the groups profile field.
 
-#### **Notify when profile form is submitted**
+#### Notify when profile form is submitted
 
 This setting, which is is also applicable only when using a Profile
 as a sign-up form, allows you to send an email automatically whenever
@@ -245,7 +245,7 @@ wants to get an email whenever anyone fills out the volunteer sign-up
 form. Simply enter the email address in the field; if you want to send
 email to multiple addresses, separate them with a comma.
 
-#### **Redirect URL**
+#### Redirect URL
 
 This applies only to Profiles that are being used as standalone
 forms; it will not apply when the Profile is embedded in an event
@@ -255,12 +255,12 @@ you may want to create a web page that thanks people for submitting
 their information. If this field is left blank, people will be directed
 to a page which displays the information they've just entered.
 
-#### **Cancel redirect URL**
+#### Cancel redirect URL
 
 Performs exactly the same way as Redirect URL, except that it
 applies when people cancel their form submission.
 
-#### **Include reCAPTCHA?**
+#### Include reCAPTCHA?
 
 This applies when profiles are being filled in by anonymous
 users. CAPTCHA is a type of spam-blocking software that requires the
@@ -273,7 +273,7 @@ information in CiviCRM to use this feature. Go to **Administer > System
 Settings > Undelete, Logging and ReCAPTCHA** to configure your account;
 instructions for signing up are included on that page.
 
-#### **Drupal user account registration option**
+#### Drupal user account registration option
 
 This setting applies to Profiles that are used in public pages and
 determines whether people can or must use your form to sign up for an
@@ -281,13 +281,13 @@ account with your website in addition to submitting the information on
 the form. This can be useful for ensuring people have to sign up for a
 user account as part of becoming a member or registering for an event.
 
-#### **WordPress user account registration option**
+#### WordPress user account registration option
 
 Like Drupal, WordPress allows CiviCRM Profiles to create accounts as
 described above. Within WordPress **Settings > General** "Membership [
 ] Anyone can register" must be clicked.
 
-#### **What to do upon duplicate match**
+#### What to do upon duplicate match
 
 This setting applies to Profiles that are used in public pages.
 It controls what happens when the contact data submitted from the
@@ -319,7 +319,7 @@ Here are the options and their effects how your form works:
     that will need to be deduped later (see the *Deduping and Merging*
     chapter in the *Working with Your Data* section).
 
-#### **Proximity search**
+#### Proximity search
 
 This applies if you are using the Profile for a searchable
 directory; it adds a proximity search block to the search criteria. This
@@ -330,19 +330,19 @@ directory, Optional if you want to offer proximity search to your users,
 and Required if you want to force the user to enter a start address and
 a search radius.
 
-#### **Enable mapping for this profile?**
+#### Enable mapping for this profile?
 
 This applies only if you are using the Profile for a searchable
 directory; it adds a map to the search results.
 
-#### **Include profile edit links in search results?**
+#### Include profile edit links in search results?
 
 This applies only if you are using the Profile for a searchable
 directory; it adds a link in the results listings to edit the Profile
 fields in the returned contact records. Only users with permission to
 edit the result contacts will see this link.
 
-#### **Include Drupal user account information links in search results?**
+#### Include Drupal user account information links in search results?
 
 This applies only if you are using the Profile for a searchable
 directory; it includes a link in the results to the resulting contacts'
@@ -550,7 +550,7 @@ View](../img/CiviCRM-CapturingExposing-buildprofile-MemberView-en.png "MemberVie
 As we've seen, building a directory for your website can provide a
 valuable tool for your constituents.
 
-### **Linking to your directory**
+### Linking to your directory
 
 You have several options to link to your directory:
 

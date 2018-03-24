@@ -171,7 +171,7 @@ Relative dates filters based on the time interval "week" assume that Sunday is t
 ![Screen shot of how to change the first day of the week](../img/the-user-interface/searching/user-interface-searching-week-begins.png)
 
 
-#### **Combining search criteria**
+#### Combining search criteria
 
 Different criteria are combined by "ANDing" them. For example, if you
 select the tag "major donor" and the country "Mexico", the search will
@@ -310,7 +310,7 @@ Newsletter Subscribers or volunteers, but exclude members of Advisory
 Board, perhaps to create a new mailing list to receive a message
 targeted at the most external circles of your constituents.
 
-### **Household Name and State**
+### Household Name and State
 
 Search households in a state or province.
 
@@ -322,18 +322,18 @@ Search households in a state or province.
     but note this change will also affect profile forms which include
     country or state/province fields.
 
-### **Contribution Aggregate**
+### Contribution Aggregate
 
 Find aggregate totals of contributions from contacts within a range of
 dates.
 
-### **Postal Mailing**
+### Postal Mailing
 
 Search for contacts in a given group and display results with mailing
 information. Use this search to batch update contact information, send
 an email, export contacts, or other actions.
 
-### **Proximity Search**
+### Proximity Search
 
 Search for contacts located within x miles/kilometres of a specific
 geographical area.
@@ -348,30 +348,30 @@ geographical area.
     You can also incorporate Proximity Searching in a profile which you've 
     configured for use as a search form.
 
-### **Event Aggregate**
+### Event Aggregate
 
 Search on event-related payments for a given event or event type in a
 given date range. You may also limit results to show credit card
 payments only or payees only. See also event reports for more useful
 event search options.
 
-### **Activity Search**
+### Activity Search
 
 Find activities using any or all of the activity-related criteria. This
 is also possible in Advanced Search by using Display results as.
 
-### **Price Set Details for Event Participants**
+### Price Set Details for Event Participants
 
 Get detailed information about which participants opted for which
 different paid options related to an event. For example, see who paid
 just the event fee, who paid for the additional workshop and who paid
 for dinner.
 
-### **Find Contribution Amounts by Tag**
+### Find Contribution Amounts by Tag
 
 Search on any tag for contributions within a range of dates.
 
-### **Zip Code Range**
+### Zip Code Range
 
 Find contacts in a specified zip code or postal code range. This is
 useful for targeted mailings or conducting surveys in a particular
@@ -383,18 +383,18 @@ geographical area.
 
 3.  Click **Search**.
 
-### **Date Added to CiviCRM**
+### Date Added to CiviCRM
 
 Search for contacts that have been added within a particular time
 period. Including a group displays just those added within the specified
 time frame who are also in that group. Excluding a group removes those
 group members from the results.
 
-### **Custom Group Multiple Values Listing**
+### Custom Group Multiple Values Listing
 
 A search for multi-value custom data.
 
-### **Contributions made in Year X and not Year Y**
+### Contributions made in Year X and not Year Y
 
 Search for contributions that have been made in one year but not
 another. This is useful for following up semi-regular donors and

@@ -34,7 +34,7 @@ of content, including the ability to create an automatically updating
 lists of upcoming events. Have a look at *Integrating with Drupal* in
 the *Website integration* chapter for more details. 
 
-## **RSS feed for all upcoming events**
+## RSS feed for all upcoming events
 
 This lets visitors subscribe to all your events in the RSS feed reader
 of their choice. Many website management systems also allow a website to

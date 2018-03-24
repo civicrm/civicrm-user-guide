@@ -78,7 +78,7 @@ If you can't do what you want with a built in report or search, consider
 commissioning a new report or custom search. Read the *CiviReport*
 section for more information.
 
-## **Displaying an event report on CiviCRM 's home dashboard**
+## Displaying an event report on CiviCRM 's home dashboard
 
 If you haven't already created any Event Reports, see the following
 chapter Reports and Analysis for instructions on how to create reports.

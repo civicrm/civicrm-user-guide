@@ -96,7 +96,7 @@ account type code.
 !!! note
     Changing the financial account name will also change the financial type name.
 
-## **Payment processors**
+## Payment processors
 
 CiviCRM provides you with the ability to take payments online on your
 website. You can take payments for a variety of reasons including
@@ -106,7 +106,7 @@ To start taking payments online you need to [configure a payment processor](../c
 which will connect your website to the credit card and banking
 infrastructure that actually processes the payment.
 
-## **Payment Methods**
+## Payment Methods
 
 Navigate to **Administer > CiviContribute > Payment Methods** to
 edit existing options that can be used for contributions or to add a new
@@ -116,7 +116,7 @@ get your accountant or bookkeeper to confirm that each payment method is linked
 to the correct Asset account.
 
 
-## **Accepted Credit Cards**
+## Accepted Credit Cards
 
 Navigate to **Administer > CiviContribute > Accepted Credit Cards** to
 edit existing acceptable credit cards or define a new option through
