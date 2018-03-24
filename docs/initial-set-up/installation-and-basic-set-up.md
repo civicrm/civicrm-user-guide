@@ -210,7 +210,7 @@ When users send an email using CiviCRM, their primary email address is used as t
 
 Payment processors are companies that handle credit card transactions for merchants and non-profit organizations and then transfer funds to the organization's bank account. If you plan on using CiviCRM to accept online contributions, online membership sign-up and renewal or online event registration, you will need to select and configure a payment processor for your site. 
 
-CiviCRM includes support for several different processors, and provides a way for third-party developers to add support for additional processors based on their clients' needs. Each processor has their own pricing structure and features, and you will want to investigate each available option to determine the best fit for your organization. Refer to the "Contributions" section for a list of factors to consider in selecting a processor.
+CiviCRM includes support for several different processors, and provides a way for third-party developers to add support for additional processors based on their clients' needs. Each processor has their own pricing structure and features, and you will want to investigate each available option to determine the best fit for your organization. Refer to the [Contributions section](/contributions/payment-processors.md) for a list of factors to consider in selecting a processor.
 
 The actual steps involved in configuring and testing your payment processor connection are different for each processor. For more information, visit: [http://wiki.civicrm.org/confluence/display/CRMDOC/Payment+Processors](http://wiki.civicrm.org/confluence/display/CRMDOC/Payment+Processors). 
 
