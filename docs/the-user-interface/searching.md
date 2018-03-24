@@ -28,14 +28,13 @@ There are three main reasons to search:
 As a form of ad-hoc reporting, searching is often useful but does have
 limitations. For example, you can't group results by particular
 criteria, summarize, or easily produce graphs of the results. For more
-advanced reporting, see the *CiviReport* section.
+advanced reporting, see the [/reporting/what-is-civireport.md](*CiviReport*) section.
 
 ## Quick search
 
 ![Quicksearch](../img/the-user-interface/searching/quicksearch.png)
 
-The easiest way to find a specific contact is to use the Quick search
-box that appears in the navigation menu at the top left of the screen. You may choose to search by one of several criteria. Once you click in the box you can start typing immediately to use the default Name/Email search or you can click again to expose several other criteria in a dropdown selection list. Contacts that match the phrase you enter will appear in a dropdown list below the box. For example, if you are searching with Name/Email and you have left
+The easiest way to find a specific contact is to use the Quick search box that appears in the navigation menu at the top left of the screen. You may choose to search by one of several criteria. Once you click in the box you can start typing immediately to use the default Name/Email search or you can click again to expose several other criteria in a dropdown selection list. Contacts that match the phrase you enter will appear in a dropdown list below the box. For example, if you are searching with Name/Email and you have left
 automatic wildcard enabled then going to **Administer > Customize Data and Screens >
 Search Preferences** entering "peter" will find:
 
@@ -239,7 +238,7 @@ fields for export. Note that the fields you searched on will get
 exported by default in addition to those you select.
 
 You can also save your Search Builder search as a Smart Group. For more
-information on Smart Groups, see the *Groups and Tags* chapter.
+information on Smart Groups, see the [/organising-your-data/groups-and-tags.md](*Groups and Tags*) chapter.
 
 ## Full-text Search
 
