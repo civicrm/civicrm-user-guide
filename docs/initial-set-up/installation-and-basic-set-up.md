@@ -65,7 +65,7 @@ This is where you can turn on or turn off the components for your CiviCRM system
 
 When you first install CiviCRM the most frequently used components (CiviContribute, CiviEvent, CiviMail, CiviMember, CiviReport) are already enabled. If you do not need those components you can disable them. You can also enable any or all of CiviCampaign, CiviCase, CiviGrant and CiviPledge. You can revisit this page at any time to enable more components.
 
-You can also disable a component you have already used. The information in the component is retained and will still be there if you re-enable it. It would be unusual to disable a component you have already used. If you want to simplify the administration menu and advanced search page then a better approach may be to use permissions (see the Permissions and access control chapter).
+You can also disable a component you have already used. The information in the component is retained and will still be there if you re-enable it. It would be unusual to disable a component you have already used. If you want to simplify the administration menu and advanced search page then a better approach may be to use permissions [see the Permissions and access control chapter](/initial-set-up/permissions-and-access-control.md).
 
 ### Display Preferences
 
