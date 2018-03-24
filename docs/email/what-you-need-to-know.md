@@ -36,7 +36,7 @@ CiviCRM offers two options for sending email to contacts:
     mailings or scheduled emails to small groups.
 
 In order to send mass emails, the CiviMail component must be enabled and
-set up (see the Set-up chapter in this section for details). The Send
+set up [Go to Set Up](/email/set-up.md). The Send
 Email action is available even when the CiviMail component is disabled.
 
 There are crucial differences between the Send Email action and the
