@@ -20,7 +20,7 @@ months of a given year and across years by clicking on the Chart Layout tab.
 Finally, you can add any number of contribution report instances to your
 personal CiviCRM Dashboard. These might include a bar chart summary of
 year-to-date contributions by Financial Type or month, a list of the top 10
-donors, etc. Refer to the _Reports_ section for details on adding reports
+donors, etc. Refer to the [Reports section](/the-user-interface/menu-dashboard-and-dashlets.md) for details on adding reports
 ("dashlets") to your personal dashboard
 
 # Finding contributions
