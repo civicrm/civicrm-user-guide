@@ -38,7 +38,7 @@ Navigate to **Contribution > New Contribution Page**.
 (**Contribution > Manage Contribution Pages > Add Contribution Page** takes
   you to the same screen.)  
 
-![New Contribution Page](../img/civicontribute-new-contribution-page.png)
+![New Contribution Page](/img/civicontribute-new-contribution-page.png)
 
 -  The page title and financial type are the only compulsory fields. CiviCRM
 comes with four standard financial types, but you can
@@ -67,7 +67,7 @@ feature tabs for contribution pages will now be visible at the top
 of the page.  We will deal with them one by ne
 
 ### Amounts tab
-![Contributions Amounts Page](../img/civicontribute-online-contribution-amounts.png)
+![Contributions Amounts Page](/img/civicontribute-online-contribution-amounts.png)
 
 -  The **Execute real-time monetary transactions** box is checked by default.
 You would uncheck this box if you are using this contribution page for free
@@ -133,7 +133,7 @@ To add a profile to a contribution form:
     When you edit or create a new profile you will use the profile drag
     and drop interface pictured here.  You may click the pencil icon to edit the
     profile name, public title, and pre- and post-form help text.
-    ![screenshot](../img/Contribution-page-edit-profile.png)
+    ![screenshot](/img/Contribution-page-edit-profile.png)
 
     !!! warning
         If you modify an existing profile whilst configuring your

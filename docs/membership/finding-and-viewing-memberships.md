@@ -57,7 +57,7 @@ If you are looking at the primary member contact record for a
 membership type that has inherited membership you will see a list of the
 contacta who have inherited the membership.
 
-![image](../img/membership_everyday_for_limited_inherited.png)
+![image](/img/membership_everyday_for_limited_inherited.png)
 
 In this case a maximum of two inherited memberships are allowed for
 people who are employees of the primary membership organisation. If one
@@ -66,7 +66,7 @@ employee then you can click on **Delete** for that contact. This will
 free up an inherited membership for you to assign appropriately by
 selecting **Create.**
 
-### ![image](../img/membership_everyday_for_limited_inheritedp2.png)
+### ![image](/img/membership_everyday_for_limited_inheritedp2.png)
 
 ## Sending email to members
 
@@ -115,7 +115,7 @@ more about using Advanced Search, refer to the "Searching" chapter.
      Click the **Search** button.
 
 
-![image](../img/z_sprint14_display_Results_as_1.png)
+![image](/img/z_sprint14_display_Results_as_1.png)
 
 Once you have found the membership information based on your criteria your search results will allow you to view some membership details. You then can perform further
 actions on your search results or a smaller subset of selected records,

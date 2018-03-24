@@ -219,7 +219,7 @@ Profile (see below).
 To view and manage all groups, go to: Navigation Menu > Contacts >
 Manage Groups.
 
-![image](../img/ManageGroups.png)
+![image](/img/ManageGroups.png)
 
 You can use the Find Groups form at the top of the Manage Groups screen
 to search for groups by name, type, visibility and whether the group is
@@ -283,7 +283,7 @@ New tags can be created by clicking the Add Tag button on the Manage
 Tags (Categories) screen or by going to Contacts > New Tag in the
 navigation menu.
 
-![admin_tags](../img/CiviCRM_update-CiviCore-resized_600x158_admin_tags-en.png "admin_tags")
+![admin_tags](/img/CiviCRM_update-CiviCore-resized_600x158_admin_tags-en.png "admin_tags")
 
 Each tag should have a clear and unique name and an explanatory
 description to help users understand the tag's purpose. Tags can be
@@ -327,7 +327,7 @@ Tag sets are created by going to: **Contacts > Manage Tags
 button. Give the tag set a name, a description, and indicate whether the
 tag set will apply to contacts, activities, or cases.
 
-![image](../img/Tag_Set_-_Create.png)
+![image](/img/Tag_Set_-_Create.png)
 
 Clicking the Reserved checkbox makes a tag set more permanent - this
 will prevent a tag set from being deleted by someone without
@@ -343,7 +343,7 @@ contacts. For example, if you create a tag set called "Issues Folks Care
 About" an associate it with Contacts, you will see the tag set next time
 you go to the Tags tab of a contact's record.
 
-![image](../img/Tag_Set_-_Creating_tags_on_the_fly.png)
+![image](/img/Tag_Set_-_Creating_tags_on_the_fly.png)
 
 
 This is an autocomplete field: as you begin to type, CiviCRM looks for

@@ -21,7 +21,7 @@ You can cancel or manually expire a membership record by:
     appropriate **Membership Status**you wish to change to. i.e.
     Cancelled or Expired
 
-![image](../img/z_sprint14_Membership_Status_Override_8.png)
+![image](/img/z_sprint14_Membership_Status_Override_8.png)
 
 Keep in mind that manually Expiring memberships may not be needed.
 Dependent upon how you have your Membership status rules setup within
@@ -47,4 +47,4 @@ You can delete membership records by:
     from the "Find Members" results screen, select the membership
     records and click **Delete**.
 
-![image](../img/z_sprint14_Deleting_memberships.png)
+![image](/img/z_sprint14_Deleting_memberships.png)

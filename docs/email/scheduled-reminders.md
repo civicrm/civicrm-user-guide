@@ -52,7 +52,7 @@ Schedule Reminders.** The exact options that are visible depend on the
 **Entity** chosen but all scheduled reminders are fairly similar. The
 general process is:
 
-![screenshot](../img/civimail-scheduled-reminders-setup.png)
+![screenshot](/img/civimail-scheduled-reminders-setup.png)
 
 1.  Give your reminder a name that will help you or others identify it.
 
@@ -269,7 +269,7 @@ It is important to remember that groups or manual recipients selected
 will only receive the scheduled reminder if they meet the all other
 criteria for that reminder.
 
-![Form with the fields: from name, from email, and receipients.](../img/scheduled_reminders_activities.PNG)
+![Form with the fields: from name, from email, and receipients.](/img/scheduled_reminders_activities.PNG)
 
 For Event, Contact and Membership scheduled reminders you can limit
 recipients to members of a group, to a particular participant role
@@ -280,7 +280,7 @@ recipient(s)** or **Participant Role** (Event reminders only) from the
 adjacent option list. You could use this feature to, say, only send
 birthday greetings to your members who are less than 12 years old.
 
-![screenshot](../img/scheduled_reminders_other_three.png)
+![screenshot](/img/scheduled_reminders_other_three.png)
 
 As with activity reminders, it is important to remember that groups,
 manual recipients or roles selected with the **Limit to** option will

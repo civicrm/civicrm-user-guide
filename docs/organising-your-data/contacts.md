@@ -59,7 +59,7 @@ the **Actions** button which is a handy shortcut to carrying out actions
 with this contact. For example, you could add a note to this contact, or
 record a new contribution, meeting or other activity.
 
-![image](../img/ActionRibbon.PNG)
+![image](/img/ActionRibbon.PNG)
 
 ### Summary tab
 
@@ -71,7 +71,7 @@ Some fields on this tab are just for individuals, for example, first
 name, last name, nickname, etc. Other fields are just for
 organisations, for example organisation name.
 
-![image](../img/ContactSummary.PNG)
+![image](/img/ContactSummary.PNG)
 
 #### Individual fields
 
@@ -172,7 +172,7 @@ and a contact may have many relationships to other contacts in the
 database. In the example below you can see a list of Current
 Relationships as well as a list of Inactive relationships.
 
-![Contact-RelatoinshipTab_1](../img/CiviCRM_update-CiviCore-Contact-RelatoinshipTab_1-en.png)
+![Contact-RelatoinshipTab_1](/img/CiviCRM_update-CiviCore-Contact-RelatoinshipTab_1-en.png)
 
 You can read more about when it makes sense to use relationships in the
 *relationships* chapter of the*organising your data* section. 
@@ -394,7 +394,7 @@ If you need to edit a lot information for one particular contact, an
 alternative is to open the entire contact for editing by clicking on the
 edit button above the tabs.
 
-![image](../img/contact_Screen_-inline_edit.png) 
+![image](/img/contact_Screen_-inline_edit.png) 
 
 Note that on the rare occasions that two separate admin users edit a
 contact at the same time (specifically that they both open the edit

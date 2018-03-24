@@ -21,7 +21,7 @@ organizations. Extensions are by default listed in order of popularity
 (which is calculated by the number of sites that report using the
 module).
 
-![image](../img/z-extensions-website_1.png) 
+![image](/img/z-extensions-website_1.png) 
 
 Extensions are organized into two broad categories: 'native' extensions
 which work with any CMS, and CMS specific extensions that add
@@ -43,7 +43,7 @@ compatible with your version of CiviCRM. Note that you may not see all
 the extensions that were listed in the extensions directory as they may
 not be compatible.
 
-![image](../img/z-extensions-ui.png)
+![image](/img/z-extensions-ui.png)
 
 If you do not see a list of extensions here, it may be that your system
 is not properly configured to manage extensions. You should consult your

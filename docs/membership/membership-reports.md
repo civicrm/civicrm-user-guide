@@ -19,7 +19,7 @@ well as export membership information so you can do further analysis.
 Out-of-the-box, CiviCRM comes with several membership reports designed
 to tell you something specific about your membership:
 
-![image](../img/membership_report_list_1.png) 
+![image](/img/membership_report_list_1.png) 
 
 
 The **Membership Summary** report shows information about members
@@ -28,31 +28,31 @@ year. For example, you can look at the number of members that have
 joined each month over a date range, membership types, or any other
 custom data that you collect about them. 
 
-![image](../img/membership_summary_report.png)
+![image](/img/membership_summary_report.png)
 
 If you click on a highlighted field you will then see the corresponding
 **Membership Detail** report for that row. So clicking on **May 2015**
 for membership type **General** shows:
 
-![image](../img/membership_detail_from_summary_report.png)
+![image](/img/membership_detail_from_summary_report.png)
 
 The **Membership Detail** report shows information for each
 membership record based on your selected criteria. 
 
-![image](../img/membership_detail_report.png) 
+![image](/img/membership_detail_report.png) 
  
 
 The **Lapsed Memberships** report provides a list of memberships that
 lapsed or will lapse before the date you specify.
 
-![image](../img/membership_lapsed_report.png) 
+![image](/img/membership_lapsed_report.png) 
 
 
 The **Contribution and Membership Details** report will display
 information details of a contributions and those contributions connected
 to a membership records based on your report criteria.
 
-![image](../img/membership_contribution_report.png) 
+![image](/img/membership_contribution_report.png) 
 
 ## Creating New Membership Reports
 

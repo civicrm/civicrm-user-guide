@@ -76,7 +76,7 @@ To create the letter:
     **Insert Tokens** dropdown located above the letter at the top right and select
     the desired token.
 
-    ![PostalGreetingToken](../img/CiviCRM_update-CiviCore-PostalGreetingToken-en.png "PostalGreetingToken")
+    ![PostalGreetingToken](/img/CiviCRM_update-CiviCore-PostalGreetingToken-en.png "PostalGreetingToken")
 
 9.  Decide if this letter will be re-used in the future and should be saved as a new template. If the letter was based on a template you will have the option to update the existing template. The ability to save the letter as a template is a powerful way to streamline future workflows.
 10. Select your desired output format. CiviCRM currently supports four format options: PDF, HTML, MS Word (`.docx`), and Open Document (`.odt`). Depending on how complex your letter content is, you may find that some formats handle the layout and design better than others.

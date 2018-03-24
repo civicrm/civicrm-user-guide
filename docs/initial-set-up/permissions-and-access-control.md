@@ -85,7 +85,7 @@ You may create new roles and edit all existing ones. To edit roles,
 while in the **Permissions** tab click the button **Roles** toward the
 top right of the page.
 
-![Drupal roles.](../img/CiviCRM_Drupal_Roles.png)
+![Drupal roles.](/img/CiviCRM_Drupal_Roles.png)
 
 Roles can be assigned to users in the following ways:
 
@@ -130,7 +130,7 @@ WordPress: **Configure Joomla! ACL** (user can configure Joomla! ACLs and
 is assigned all CiviCRM permissions) and **Show CiviCRM
 Component** (user can see CiviCRM in the Components list).
 
-![screenshot](../img/joomla_permissions.png)
+![screenshot](/img/joomla_permissions.png)
 
 Finally, to assign one of these user groups to a user, or change their
 existing user group, ensure you are logged in as an administrator then
@@ -153,9 +153,9 @@ In CiviCRM go to **Administer** > **User and Permissions** >
 Control**link. Here you can adjust the CiviCRM settings for each of the
 predefined User Roles from WordPress.
 
-![image](../img/z_sprint14_wordpressacl_menu.png)
+![image](/img/z_sprint14_wordpressacl_menu.png)
 
-![image](../img/z_sprint14_wordpressACL.png)
+![image](/img/z_sprint14_wordpressACL.png)
 
 Roles can be assigned to users in the following ways:
 
@@ -396,7 +396,7 @@ with the following options:
 
 
 
-![image](../img/CiviCRM_ACL_civicrm-manage-roles.png)
+![image](/img/CiviCRM_ACL_civicrm-manage-roles.png)
 
 
 
@@ -417,7 +417,7 @@ Roles") and hit "Add Role Assignment". Complete the following:
 -   **Assigned To**: choose a contact group to assign to the role
 -   **Enabled?**: is this assignment active or not?
 
-![image](../img/CiviCRM_ACL_civicrm-assign-users.png)
+![image](/img/CiviCRM_ACL_civicrm-assign-users.png)
 
 ### Manage ACLs
 
@@ -455,4 +455,4 @@ group of contacts, profile, custom data or event for this ACL
 
 - **Enabled?**: is the ACL active?
 
-![image](../img/CiviCRM_ACL_civicrm-create-ACL.png)
+![image](/img/CiviCRM_ACL_civicrm-create-ACL.png)

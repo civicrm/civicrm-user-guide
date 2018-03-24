@@ -150,7 +150,7 @@ have been impossible or prohibitively expensive.
 
 ## Growing Satisfaction
 
-![nysnla](../img/CiviCRM-Icons-nysnla-en.png "nysnla")
+![nysnla](/img/CiviCRM-Icons-nysnla-en.png "nysnla")
 
 The New York State Nursery Landscape Association (NYSNLA) is a
 member-based association providing resources and advocacy support for

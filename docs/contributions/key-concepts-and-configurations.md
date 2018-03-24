@@ -24,7 +24,7 @@ can track income, assets, fees and premiums (if applicable) as
 required as shown for the four default financial types in the following image.
 
 
-![financial types and accounts](../img/civicontribute-financial-types-and-accounts.png)
+![financial types and accounts](/img/civicontribute-financial-types-and-accounts.png)
 
 
 The **financial accounts** should be based on your organisation's
@@ -56,7 +56,7 @@ Appeal" and yet another called "Recurring donations".
 To create a new financial type navigate to **Administer > CiviContribute >
 Financial Types**,  and click on **Add Financial Type**
 
-![Adding Financial Type](../img/civicontribute-financial-types-add-new.png)
+![Adding Financial Type](/img/civicontribute-financial-types-add-new.png)
 
 When you create a Financial Type of a specific name, CiviCRM automatically
 creates a similarly named revenue (income) account and assigns it and
@@ -71,7 +71,7 @@ flexibility for more sophisticated setups.
 
 Note that you can use CiviCRM's roles-based permission system to control user access to Contribution data by setting [Financial Type permissions](/initial-set-up/permissions-and-access-control.md#financial-type-permissions).
 
-![Editing accounts linked to financial type](../img/civicontribute-financial-types-linked-accounts.png)
+![Editing accounts linked to financial type](/img/civicontribute-financial-types-linked-accounts.png)
 
 ### Financial Accounts
 
@@ -85,7 +85,7 @@ You edit financial accounts at **Administer > CiviContribute > Financial Account
 The only required fields are Name and Financial Account Type. For revenue
 accounts these are set when you create the financial type.
 
-![Editing Financial Account](../img/civicontribute-financial-account-edit.png)
+![Editing Financial Account](/img/civicontribute-financial-account-edit.png)
 
 How many of the other fields you fill in will be determined by your workflow.
 If you plan to export financial transactions from CiviCRM to import into your
