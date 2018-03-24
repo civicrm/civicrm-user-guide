@@ -226,3 +226,7 @@ Workflow messages include text AND necessary program logic. Use caution when edi
 
 You should now have reviewed all the basic configuration tasks. The remaining tasks on the checklist involve an understanding of the ways in which you can record and use contact data and are best left until you have read more in this book.
 
+
+### System status
+
+CiviCRM has a system status screen at **Administer > Administration Console > System Status** (or `/civicrm/a/#/status`) which will inform you about a number of different potential problems with your installation, configuration, or server environment. See [System Status](https://docs.civicrm.org/sysadmin/en/latest/setup/#civicrm-system-status) in the System Administrator Guide for more information about how to interpret the results of this screen and what to do when it reports problems.  
