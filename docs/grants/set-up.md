@@ -32,5 +32,5 @@ Consider adding custom data fields to upload the original application
 form; these could be converted to PDF before uploading to make them read
 only and reasonably future compatible.
 
-See the custom data chapter for more information on setting up custom
+See the chapter on [custom data](/organising-your-data/creating-custom-fields.md) for more information about setting up custom
 data.
