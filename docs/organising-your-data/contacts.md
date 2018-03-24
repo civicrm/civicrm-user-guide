@@ -59,7 +59,7 @@ the **Actions** button which is a handy shortcut to carrying out actions
 with this contact. For example, you could add a note to this contact, or
 record a new contribution, meeting or other activity.
 
-![image](../img/ActionRibbon.PNG)
+![image](../img/ActionRibbon.png)
 
 ### Summary tab
 
@@ -71,7 +71,7 @@ Some fields on this tab are just for individuals, for example, first
 name, last name, nickname, etc. Other fields are just for
 organisations, for example organisation name.
 
-![image](../img/ContactSummary.PNG)
+![image](../img/ContactSummary.png)
 
 #### Individual fields
 

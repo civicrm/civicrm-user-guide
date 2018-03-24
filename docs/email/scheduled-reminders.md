@@ -269,7 +269,7 @@ It is important to remember that groups or manual recipients selected
 will only receive the scheduled reminder if they meet the all other
 criteria for that reminder.
 
-![Form with the fields: from name, from email, and receipients.](../img/scheduled_reminders_activities.PNG)
+![Form with the fields: from name, from email, and receipients.](../img/scheduled_reminders_activities.png)
 
 For Event, Contact and Membership scheduled reminders you can limit
 recipients to members of a group, to a particular participant role

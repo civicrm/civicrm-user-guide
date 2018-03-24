@@ -201,7 +201,7 @@ You can choose to use the "end date" of a case (i.e the final defined
 activity) as your reference and use negative offset values to schedule
 activities as the example below shows.
 
-![Example of a timeline for a single venue event: getting a quote should take place 21 days before the event date, the site visit 14 days beforehand, and the accreditation 7 days before the event date.](../img/timeline_advanced.PNG)
+![Example of a timeline for a single venue event: getting a quote should take place 21 days before the event date, the site visit 14 days beforehand, and the accreditation 7 days before the event date.](../img/timeline_advanced.png)
 
 You can rename additional timelines or a sequence using the fields
 available in the 'Advanced' section below the main Activities section of

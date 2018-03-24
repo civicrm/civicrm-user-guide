@@ -110,7 +110,7 @@ box.
 After the text boxes, are a few options that you can use to configure
 the membership types available on the membership form.
 
-![image](../img/MembershipTabOnlineCintribConfiguration.PNG)
+![image](../img/MembershipTabOnlineCintribConfiguration.png)
 
 Looking at the simple use cases first, you select which membership types
 should be available on the page, which should be the default, and which
