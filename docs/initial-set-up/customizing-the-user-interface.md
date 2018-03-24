@@ -52,7 +52,7 @@ You can change which tabs are available when you are viewing contact
 records by checking and un-checking the appropriate boxes next to
 **Viewing Contacts**.
 
-![Display Preferences Viewing Contacts](/img/Viewing%20Contacts.png)
+![Display Preferences Viewing Contacts](/img/Viewing_Contacts.png)
 
 For example, if your organization is not using Cases or Grants, you
 could uncheck those boxes and those tabs would no longer show up in the
@@ -66,7 +66,7 @@ You can change which blocks of information appear when you are editing a
 contact by checking and unchecking the appropriate boxes next
 to **Editing Contacts**:
 
-![Display Preferences Editing Contacts](/img/Editing%20Contacts.png)
+![Display Preferences Editing Contacts](/img/Editing_Contacts.png)
 
 For example, if your organization doesn't collect information
 Demographics or Communication Preferences, you could uncheck those boxes
@@ -85,7 +85,7 @@ screens > display preferences**. Note that CiviCRM will be slower with
 this feature disabled as every form will require a complete page load in
 the browser.
 
-![Display Preferences Disabling Popup Forms](/img/Contact%20Dashboard.png)
+![Display Preferences Disabling Popup Forms](/img/Contact_Dashboard.png)
 
 ### Disabling Activity Assignee Notifications
 
@@ -138,7 +138,7 @@ There is one more place to customize search search settings:
 **Administer > Customize Data and Screens > Display Preferences** has
 a block of **Contact Search** settings:
 
-![Display Preferences Contact Search](/img/Contact%20Search.png)
+![Display Preferences Contact Search](/img/Contact_Search.png)
 
 These check boxes modify the **Search > Find Contacts** and **Search >
 Advanced Search** screens. Uncheck the boxes to remove the corresponding

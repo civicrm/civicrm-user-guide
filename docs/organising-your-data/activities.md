@@ -133,7 +133,7 @@ you wish, you can further specify which type of activity. This means
 that these custom data fields will be available when recording
 activities.
 
-![image](../img/activity%20cf.png)
+![image](../img/activity_cf.png)
 
 ### Creating new Activity Statuses {:#statuses}
 

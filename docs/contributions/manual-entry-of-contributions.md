@@ -87,7 +87,7 @@ Create a new batch to hold the multiple payments you want to record:
 From the menu, click on **Contributions > Batch Data Entry** or
 **Membership > Batch Data Entry**.
 
-![screenshot](../img/New%20Data%20Entry.png)
+![screenshot](../img/New_Data_Entry.png)
 
 Enter the following information:
 

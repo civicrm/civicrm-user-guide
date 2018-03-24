@@ -71,7 +71,7 @@ page:
     default notification for the PCP owner when a donation is received
     is:
 
-![Message confirming the donation at your personal campaign page with the donor information and the donated amount.](../img/PCP%20owner%20notificationV2.PNG)
+![Message confirming the donation at your personal campaign page with the donor information and the donated amount.](../img/PCP_owner_notificationV2.png)
 
 **Set-up**
 

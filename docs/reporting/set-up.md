@@ -56,7 +56,7 @@ record in your report. In most reports, at least one display column is
 detail report **Contact Name** and **Membership Type** are required
 fields.
 
-![image](/img/CiviReport_required%20fields.PNG)
+![image](/img/CiviReport_required_fields.png)
 
 ### Grouping
 
@@ -66,9 +66,9 @@ row, and for reports that compare different types of data.
 
 For example you can choose to compare donations per year.
 
-![image](/img/Contribution%20Summary%20report%20grouping.PNG)
+![image](/img/Contribution_Summary_report_grouping.png)
 
-![image](/img/Contribution%20Summary%20report%20grouping%20view.PNG)
+![image](/img/Contribution_Summary_report_grouping_view.png)
 
 You can specify more than one grouping criteria. When you do this,
 results will be nested based on both groupings. Not all combinations of
@@ -85,7 +85,7 @@ make an invalid selection.
 This is not available in all reports, but can be useful in "detail"
 reports as shown below.
 
-![image](/img/membership%20detail%20report%20sorting%20criteria.PNG) ![image](/img/membership%20detail%20report%20sorting%20view.PNG)
+![image](/img/membership%20detail%20report%20sorting%20criteria.PNG) ![image](/img/membership_detail_report_sorting_view.png)
 
 
 ### Filters

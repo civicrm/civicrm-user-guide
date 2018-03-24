@@ -41,7 +41,7 @@ To start learning about membership types:
 1.  Go to **Administer > CiviMember > Membership Types**
 2.  Select **Add Membership Type** 
 
-![image](../img/z-sprint154%20-%20new_membership_type.png) 
+![image](../img/z-sprint154_-_new_membership_type.png) 
 -   **Name**:
 The name is displayed throughout the system, on both public and
 backend pages so spend some time thinking about a name that is
@@ -251,7 +251,7 @@ described above.
 At **Administer > CiviMember > Membership Status Rules** you will find a
 summary of the existing status rules.
 
-![image](../img/z-sprint14-membership%20status.png)
+![image](../img/z-sprint14-membership_status.png)
 
 To decide on which status should be applied, CiviCRM looks to see if the
 membership has a status override. If it does, it applies that status. If

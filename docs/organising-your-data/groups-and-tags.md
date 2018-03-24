@@ -327,7 +327,7 @@ Tag sets are created by going to: **Contacts > Manage Tags
 button. Give the tag set a name, a description, and indicate whether the
 tag set will apply to contacts, activities, or cases.
 
-![image](../img/Tag%20Set%20-%20Create.png)
+![image](../img/Tag_Set_-_Create.png)
 
 Clicking the Reserved checkbox makes a tag set more permanent - this
 will prevent a tag set from being deleted by someone without
@@ -343,7 +343,7 @@ contacts. For example, if you create a tag set called "Issues Folks Care
 About" an associate it with Contacts, you will see the tag set next time
 you go to the Tags tab of a contact's record.
 
-![image](../img/Tag%20Set%20-%20Creating%20tags%20on%20the%20fly.png)
+![image](../img/Tag_Set_-_Creating_tags_on_the_fly.png)
 
 
 This is an autocomplete field: as you begin to type, CiviCRM looks for

@@ -101,4 +101,4 @@ recorded over the current month and past year on the pledges dashboard.
 This can be reached through the Contributions menu: **Contributions >
 Pledges > Dashboard**.
 
-![image](../img/pledge%20table.png)
+![image](../img/pledge_table.png)

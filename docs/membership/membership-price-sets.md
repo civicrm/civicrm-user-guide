@@ -182,7 +182,7 @@ subscriptions or other non-membership options.
 offers a selection of club branded swimming gear. The **checkbox** field
 type lets people choose more than one item from the options offered.
 
-![image](../img/Membership%20Pricesets%20non-member%20field_1.PNG) 
+![image](../img/Membership_Pricesets_non-member_field_1.png) 
 
 As these are products rather than memberships the **Membership Type**
 and **Number of Terms** fields are left empty. You set the **Label**,
@@ -228,4 +228,4 @@ donations.
 For review, here again is how all of these fields look on the final
 screen:
 
-![image](../img/Membership%20priceset%20final.PNG) 
+![image](../img/Membership_priceset_final.png) 

@@ -197,7 +197,7 @@ source of the data. Data can come from either a CSV file, or an SQL
 query of a database on your server. A check-box lets you indicate
 whether the first row of your file contains column headers.
 
-![Import contacts form with with tab "1. Choose Data Source" highlighted.](../img/Screen%20Shot%202015-04-29%20at%203.54.21%20PM.png)
+![Import contacts form with with tab "1. Choose Data Source" highlighted.](../img/Screen_Shot_2015-04-29_at_3.54.21_PM.png)
 
 Note that imports use the default **unsupervised** rule to decide
 whether a contact record is a duplicate (refer to the *Deduping and
@@ -216,7 +216,7 @@ encounters a duplicate:
 -   **No Duplicate Checking**: this inserts all valid records without
     comparing them to existing contact records for possible duplicates.
 
-![screenshot](../img/Import%20Options.png)
+![screenshot](../img/Import_Options.png)
 
 **Import mappings** tell CiviCRM how the fields of data in your import
 file correspond to the fields in CiviCRM. The first time you import from

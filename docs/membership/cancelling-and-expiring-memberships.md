@@ -47,4 +47,4 @@ You can delete membership records by:
     from the "Find Members" results screen, select the membership
     records and click **Delete**.
 
-![image](../img/z_sprint14_Deleting%20memberships.png)
+![image](../img/z_sprint14_Deleting_memberships.png)

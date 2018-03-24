@@ -71,7 +71,7 @@ where all emails sent via the Send Email function are listed.
 
 Click the **image button** in the WYSIWYG editor.
 
-![](../img/Screen%20Shot%202015-04-25%20at%203.06.40%20PM.png)
+![](../img/Screen_Shot_2015-04-25_at_3.06.40_PM.png)
 
 The Image Properties window will appear. Click **Browse Server** to look
 for image files on your server.
