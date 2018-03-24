@@ -18,7 +18,7 @@ questions to ask before sending out postal mailings.
 -   How do you want to greet recipients (e.g. "Dear Jane" or "Dear Jane
     Doe")?
 
-There are three ways that you can use CiviCRM in postal mailings:
+There are three ways you can use CiviCRM in postal mailings:
 
 1.  Generate labels: print out standard address labels when you don't
     need to personalise the content, for instance to send a printed
@@ -26,7 +26,7 @@ There are three ways that you can use CiviCRM in postal mailings:
 2.  Export contacts and do a mail merge to an external tool (such as
     OpenOffice or Microsoft Word). Refer to the chapter on Exporting
     earlier in this section for detailed exporting instructions. 
-3.  Use CiviCRM's Print PDF Letters function to do the merge directly in
+3.  Use CiviCRM's **Print/merge document** function to do the merge directly in
     CiviCRM (see below for details).
 
 Many nonprofit organisations in the USA need to sort recipients of a
@@ -48,52 +48,47 @@ in this section, and to the documentation on the wiki at:
 [http://wiki.civicrm.org/confluence/display/CRMDOC/Update+Greetings+and+Address+Data+for+Contacts](http://wiki.civicrm.org/confluence/display/CRMDOC/Update+Greetings+and+Address+Data+for+Contacts)
 
 
-## Print PDF letters
+## Print/merge document
 
-The workflow is to first select the contacts you want to target, then
-choose to print letter as a batch action. The letters will then be
-outputted as a PDF, allowing you to easily print them.
+CiviCRM provides tools to create merge letters directly from the interface. You can insert tokens representing fields in the database into your letter, optionally save as a template, and output to PDF, HTML, Word (.docx), or Open Document (.odt) format. 
 
 To create the letter:
 
-1.  Go to **Search > Find Contacts or Find Contacts > Advanced
-    Search**; if you want to print letters for members of a Group, go
+1.  Conduct a search (for example **Search > Find Contacts, Find Contacts > Advanced
+    Search, or a Custom Search**. If you want to print letters for members of a Group, go
     to **Contacts > Manage Groups** and click "Contacts" next to the
     Group you want.
 2.  Enter your search criteria and click Search (not applicable if using
     a Group).
 3.  Select the contacts who will receive the letter.
 4.  From the Actions dropdown menu, choose "Print/merge document."
-    (In earlier versions of CiviCRM, this Action was called "Print PDF
-    Letter for Contacts.")
-5.  Review the selections under Page Format and make any desired
+5.  Optionally select a template to use as the basis for your letter. You may also optionally associate the letter with a Campaign.
+6.  Review the selections under Page Format and make any desired
     adjustments. This is where you set your paper size, margins, and
     page orientation. 
-6.  Enter your text and make formatting adjustments in the WYSIWYG
+7.  Enter your text and make formatting adjustments in the WYSIWYG
     editor. You can also insert image files such as your organisation's
-    logo, or a signature. Click in the body of the letter where you want
+    logo or a signature. Click in the body of the letter where you want
     the image to appear and click the Image icon. 
-7.  You can personalise the letter by using [tokens](/common-workflows/tokens-and-mail-merge.md); for example, Postal
+8.  You can personalise the letter by using [tokens](/common-workflows/tokens-and-mail-merge.md). Tokens are placeholders that will be replaced with the field value for each of the contacts selected. For example, Postal
     Greeting is a commonly used token in this situation. Click in the
     body of the letter where you want to enter the token. Then click on
-    "Insert Tokens" located above the letter at the top right and select
+    "Insert Tokens" dropdown located above the letter at the top right and select
     the desired token.
 
     ![PostalGreetingToken](../img/CiviCRM_update-CiviCore-PostalGreetingToken-en.png "PostalGreetingToken")
 
-8.  Before you move to the next screen, decide whether the format of
-    this letter could be used again. If so, check the Save As New
-    Template box and enter a name in the Template Title field.
-9.  When your letter is finished, scroll to the bottom and click Make
-    PDF Letters.
-10. A pop-up window will offer the option of opening or saving the PDF
-    (this is the same notification your browser will give you for any
-    download). Open the file, review your letters, and then print them,
-    or save the PDF and review it at your leisure.
+9.  Decide if this letter will be re-used in the future and should be saved as a new template. If the letter was based on a template you will have the option to update the existing template. The ability to save the letter as a template is a powerful way to streamline future workflows.
+10. Select your desired output format. CiviCRM currently supports four format options: PDF, HTML, MS Word (.docx), and Open Document (.odt). Depending on how complex your letter content is, you may find that some formats handle the layout and design better than others.
+11. Click **Download Document** to generate the letter(s). Depending on your browser configuration, a pop-up may open asking where you would like to save the file, or you may be prompted to open the file immediately. After the file download completes, review it to make sure it is formatted as desired. The window will remain open, allowing you to make follow-up adjustments to the letter content and regenerate it.
 
-You can use this feature for any kind of document, not only letters. For
+You can use this feature for other documents besides letters. For
 example, you could use it to print attendance certificates for a
 workshop.
+
+Note that the generation of a large number of letters can be resource intensive, particularly when using the PDF option. If you find this happening, consider implementing the wkhtmltopdf alternate PDF generation tool, which scales to higher volumes better than the default tool. Visit **Administer > Misc > Path to wkhtmltopdf executable** for details on how to implement that tool.
+
+The Print/merge document action is also available from the Actions dropdown in a contact record, and can be used for contributions by selecting the **Thank you letters** search result action after using **Find Contributions**.
 
 ## Generate mailing labels
 
