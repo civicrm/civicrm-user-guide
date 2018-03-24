@@ -288,7 +288,7 @@ and modifying to match the kinds of information you need to track for
 your work.
 
 To learn more about working with value options or multiple choice
-options, see the chapter called Creating Custom Fields.
+options, see the chapter called [Creating Custom Fields](/organising-your-data/creating-custom-fields.md).
 
 ### Value Options for Issue Interests
 
