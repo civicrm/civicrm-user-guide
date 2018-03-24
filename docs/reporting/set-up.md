@@ -85,7 +85,8 @@ make an invalid selection.
 This is not available in all reports, but can be useful in "detail"
 reports as shown below.
 
-![image](/img/membership%20detail%20report%20sorting%20criteria.PNG) ![image](/img/membership_detail_report_sorting_view.png)
+![image](/img/membership_detail_report_sorting_criteria.png) 
+![image](/img/membership_detail_report_sorting_view.png)
 
 
 ### Filters
