@@ -35,7 +35,7 @@ To create a new price set:
 6.  Press **Save**
 7.  A form appears for you to create the first field in your price set.
 
-#### **Creating a New Price Field**
+#### Creating a New Price Field
 
 Begin by entering a name for the event item in the Field Label**.**
 

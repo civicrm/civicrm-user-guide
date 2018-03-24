@@ -186,7 +186,7 @@ consider the following:
 -   Who should be the sender of the email? This could be a generic
     organisation address, or personalised with someone's name.
 
-### **Other considerations**
+### Other considerations
 
 ### 
 
