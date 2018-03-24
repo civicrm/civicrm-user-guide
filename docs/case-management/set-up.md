@@ -105,7 +105,7 @@ to the case.
     user **might** **choose** to add to the case. Activities that you
     include in a Timeline or Sequence do not need to be in this list.
 
-    ![List of case activities with three tabs: activity types, standard timeline, sequence.](../img/CiviCRM%204.5%20CiviCase%20Activities.png)
+    ![List of case activities with three tabs: activity types, standard timeline, sequence.](../img/CiviCRM_4.5_CiviCase_Activities.png)
 
     Select the activity types that you wish to be included in the case type
     from the "Add activity type" drop-down shown below the listing of
@@ -177,7 +177,7 @@ within the case type.
     from the (Add) menu. Currently you can only add one sequence to any
     given case type.
 
-![Standard timeline tab with list of activities.](../img/CiviCRM%204.5%20CiviCase%20Standard%20Timeline.png)
+![Standard timeline tab with list of activities.](../img/CiviCRM_4.5_CiviCase_Standard_Timeline.png)
 To add activities to a timeline, select the tab for the timeline you want
 to work with:
 

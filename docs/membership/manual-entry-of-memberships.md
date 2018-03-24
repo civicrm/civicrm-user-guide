@@ -185,7 +185,7 @@ on the gift recipient's record. The receipt will be sent to the gifter.
 You will need to send a separate email or letter to tell the gift
 recipient about their membership. 
 
-![image](../img/gift%20membership.PNG)
+![image](../img/gift_membership.png)
 
 ## Entering batches of membership payments
 

@@ -15,7 +15,7 @@ the pledge. To do this:
 5.  You can also edit the scheduled payment to alter either when the
     payment is due or the amount of the payment.
 
-![image](../img/Pledge%20including%20editing.PNG)
+![image](../img/Pledge_including_editing.png)
 
 ###Batch entry of pledges
 
@@ -38,7 +38,7 @@ Create a new batch to hold the multiple payments you want to record:
 From the menu, click on **Contributions > Batch Data Entry** then
 select **New Data Entry Batch**.
 
-![image](../img/new%20pledge%20batch_1.PNG) 
+![image](../img/new_pledge_batch_1.png) 
 
 
 Enter the following information:
@@ -59,12 +59,12 @@ You can edit or delete Batch information by going back to the **Bulk
 Data Entry** screen then clicking on **Edit** or **Delete** next to the
 batch you want.
 
-![image](../img/pledge%20batch%20edit.PNG) 
+![image](../img/pledge_batch_edit.png) 
 
 
 **2. Enter Pledge Payments (check, cash, EFT, etc.)**
 
-![image](../img/Pledge%20payments%20batch%20entry%20cropped.PNG)
+![image](../img/Pledge_payments_batch_entry_cropped.png)
 
 When you save information about the new batch, the batch data entry screen shown
 above will appear and you can begin entering payments on each line as

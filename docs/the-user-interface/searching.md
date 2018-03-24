@@ -227,7 +227,7 @@ include contacts where.** The following example will search for females
 born after Jan 1 2000 OR members of the Administrators or Advisory Board
 groups:
 
-![Search Builder](../img/the-user-interface/searching/Search%20Builder.png)
+![Search Builder](../img/the-user-interface/searching/Search_Builder.png)
 
 Your search results will contain each contact's name, plus a column for
 each search criteria you've defined. If you export search results, the

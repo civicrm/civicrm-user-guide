@@ -8,7 +8,7 @@ and the navigation menu available for people working in CiviCRM.
 The navigation menu is a small bar at the top of every "back office"
 page of CiviCRM.
 
-![image](../img/the-user-interface/menu-dashboard-and-dashlets/4.5%20Menubar.png)
+![image](../img/the-user-interface/menu-dashboard-and-dashlets/4.5_Menubar.png)
 
 It provides access to nearly every function of CiviCRM and is broadly
 organised into headings by individual CiviComponents (such as

@@ -20,7 +20,7 @@ search. After selecting the contacts you wish to send a receipt to, choose
 You will be given the option to email the receipts or make PDF receipts
 to post out to contributors.
 
-![Contributions search result with the action menu expanded.](../img/Print%20contribution%20receipt%20options.PNG)
+![Contributions search result with the action menu expanded.](../img/Print_contribution_receipt_options.png)
 
 By default emailing or creating PDF receipts will update the receipt
 date for each contribution, but you can keep the existing receipt dates
