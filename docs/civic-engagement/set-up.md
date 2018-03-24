@@ -349,7 +349,7 @@ CiviEngage creates several custom profiles for easier batch updating of
 individual or organisation information, such as voter demographics,
 issue interests, volunteer interests or event participant information.
 To learn more about profiles, please refer to the chapter called
-Profiles in the Core Functionality section.
+[Profiles](/civic-engagement/set-up/#custom-profiles) in the Core Functionality section.
 
 ## Setting up Surveys for Walklists and Phonebanking
 
