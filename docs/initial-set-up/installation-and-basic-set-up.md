@@ -159,60 +159,18 @@ For example, typing 'Volunteer%' as your Activity Subject will match any record 
 Use the Miscellaneous Settings screen to configure and control the following behaviors:
 
 -   **Dashboard Cache Timeout -** The number of minutes to cache dashlet content on the dashboard.
-
 -   **Checksum Lifespan -** The number of days before a personalized (hashed) link will expire.
-
--   **Contact Trash and Undelete** - If enabled, deleted contacts will
-    be moved to the trash (instead of being destroyed). Users with the
-    proper permission are able to search for the deleted contacts and
-    restore them (or delete them permanently).
+-   **Contact Trash and Undelete** - If enabled, deleted contacts will be moved to the trash (instead of being destroyed). Users with the proper permission are able to search for the deleted contacts and restore them (or delete them permanently).
 -   **Logging** - see the System Administrator Guide for more information [Logging Settings](https://docs.civicrm.org/sysadmin/en/latest/setup/logging/).
--   **Attach PDF copy to receipts** - If enabled, CiviCRM sends PDF
-    receipt as an attachment during event sign-up or online contribution.
--   **Path to wkhtmltopdf executable -** wkhtmltopdf is an alternative
-    utility for generating PDF's which may provide better performance
-    especially if you are generating a large number of PDF letters or
-    receipts. Your system administrator will need to download and
-    install this utility, and enter the executable path here.
--   **New Version Alerts** - If enabled on-screen alerts will be
-    displayed to users with "Administer CiviCRM" permissions when a new
-    version of CiviCRM is available. This setting will only work if the
-    "Version Check & Statistics Reporting" setting is enabled.
--   **Version Checking and Statistics Reporting** -This feature
-    automatically checks the availability of a newer stable version of
-    CiviCRM. New version alerts are displayed on the main CiviCRM
-    Administration page. Statistics about your CiviCRM installation are
-    also reported anonymously to the CiviCRM team to assist in
-    prioritizing ongoing development efforts. The following information
-    is gathered: CiviCRM version, versions of PHP, MySQL and framework
-    (Drupal/Joomla!/WordPress), and default language. Record counts (but
-    no actual data) are also reported. You can set this field to No if
-    you are not comfortable with having this information reported for
-    your site.
--   **Display "empowered by CiviCRM** - When enabled, "empowered by
-    CiviCRM" is displayed at the bottom of public forms. This will help
-    increase awareness of CiviCRM.
--   **Maximum Attachments** - You can increase or decrease the maximum
-    number of files (documents, images, etc.) that can be attached to
-    emails, activities, and grant records. The default value is 3.
--   **Maximum File Size (in MB)** - Maximum size of a file (documents,
-    images, etc.) which can attached to emails or activities. Note that
-    your PHP configuration files, *php.ini*, should support at least as
-    big a file size as the value specified here.
--   **Allow second-degree relationship permissions -** If enabled,
-    contacts with the permission to edit a related contact will inherit
-    that contact's permission to edit other related contacts. This can
-    be used, for example, to let the teacher of a class edited the
-    records for students in that class when they are both linked to the
-    class (set up as an organisation sub-type) via relationships.
--   **reCAPTCHA** - reCAPTCHA is a free service that helps prevent
-    automated abuse of your site by requiring users to read a random
-    pair of words and type them into the form. To use reCAPTCHA on
-    public-facing CiviCRM forms, sign up at
-    [recaptcha.net](http://recaptcha.net/), enter the provided public
-    and private reCAPTCHA keys here, then enable reCAPTCHA under the
-    Advanced Settings section in a Profile where you want it used.
-    In the **Recaptcha Options** Your able to specify the theme and language and other options on the display of reCAPTCHA
+-   **Attach PDF copy to receipts** - If enabled, CiviCRM sends PDF receipt as an attachment during event sign-up or online contribution.
+-   **Path to wkhtmltopdf executable -** wkhtmltopdf is an alternative utility for generating PDF's which may provide better performance especially if you are generating a large number of PDF letters or receipts. Your system administrator will need to download and install this utility, and enter the executable path here.
+-   **New Version Alerts** - If enabled on-screen alerts will be displayed to users with "Administer CiviCRM" permissions when a new version of CiviCRM is available. This setting will only work if the "Version Check & Statistics Reporting" setting is enabled.
+-   **Version Checking and Statistics Reporting** -This feature automatically checks the availability of a newer stable version of CiviCRM. New version alerts are displayed on the main CiviCRM Administration page. Statistics about your CiviCRM installation are also reported anonymously to the CiviCRM team to assist in prioritizing ongoing development efforts. The following information is gathered: CiviCRM version, versions of PHP, MySQL and framework (Drupal/Joomla!/WordPress), and default language. Record counts (but no actual data) are also reported. You can set this field to No if you are not comfortable with having this information reported for your site.
+-   **Display "empowered by CiviCRM** - When enabled, "empowered by CiviCRM" is displayed at the bottom of public forms. This will help increase awareness of CiviCRM.
+-   **Maximum Attachments** - You can increase or decrease the maximum number of files (documents, images, etc.) that can be attached to emails, activities, and grant records. The default value is 3.
+-   **Maximum File Size (in MB)** - Maximum size of a file (documents, images, etc.) which can attached to emails or activities. Note that your PHP configuration files, *php.ini*, should support at least as big a file size as the value specified here.
+-   **Allow second-degree relationship permissions -** If enabled, contacts with the permission to edit a related contact will inherit that contact's permission to edit other related contacts. This can be used, for example, to let the teacher of a class edited the records for students in that class when they are both linked to the class (set up as an organisation sub-type) via relationships.
+-   **reCAPTCHA** - reCAPTCHA is a free service that helps prevent automated abuse of your site by requiring users to read a random pair of words and type them into the form. To use reCAPTCHA on public-facing CiviCRM forms, sign up at [recaptcha.net](http://recaptcha.net/), enter the provided public and private reCAPTCHA keys here, then enable reCAPTCHA under the Advanced Settings section in a Profile where you want it used. In the **Recaptcha Options** Your able to specify the theme and language and other options on the display of reCAPTCHA
 
     If you want to use reCAPTCHA protection for online contribution, membership sign-up or event registration forms, you'll need to     configure a Profile with reCAPTCHA enabled, and then include it in those forms.
 
