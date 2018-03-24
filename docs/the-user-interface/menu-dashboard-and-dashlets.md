@@ -102,8 +102,7 @@ To create a dashlet, do the following:
     right of the Actions dropdown.
 -   At the bottom of the **Access** tab, select the box that says
     **Available for Dashboard?**. Users with permissions to see that
-    information will be able to add that dashlet. (See the section on
-    permissions for more information).
+    information will be able to add that dashlet. (See the section on [permissions](/initial-set-up/permissions-and-access-control.md) for more information).
 -   Click **Actions** > **Create Report**.
 
 Now add the dashlet to your dashboard: 
@@ -114,5 +113,5 @@ Now add the dashlet to your dashboard:
     Dashlets" box to the column where you'd like it to appear.
 -   Click **Done**. 
 
-(Refer to the Reporting section for more details on working with
+(Refer to the section on [Reporting](/reporting/what-is-civireport.md) for more details on working with
 reports.)
