@@ -188,8 +188,7 @@ In CiviCRM, these are called Automated Messages, and you can edit them
 and add new ones at **Mailings > Headers, Footers, and Automated
 Messages**.
 
-For more information on email list management see the chapter entitled
-**Maintaining Healthy Email Lists** which explores how CiviCRM handles
+For more information on email list management see [Maintaining healthy email lists](/email/maintaining-healthy-email-lists.md) which explores how CiviCRM handles
 unsubscribes, bounces and email holds.
 
 ## Creating headers and footers
