@@ -36,7 +36,7 @@ CiviCRM offers two options for sending email to contacts:
     mailings or scheduled emails to small groups.
 
 In order to send mass emails, the CiviMail component must be enabled and
-set up [Go to Set Up](/email/set-up.md). The Send
+set up (see the Set-up chapter in this section for details). The Send
 Email action is available even when the CiviMail component is disabled.
 
 There are crucial differences between the Send Email action and the
@@ -160,7 +160,9 @@ matches the email address. If that email address does not exist in your
 database a new contact record will be created. See the **Email System
 Configuration** chapter of the **Intial Setup** section for details.
 
-## Key Questions
+## Other Considerations
+
+### Key Questions
 
 When planning your use of CiviCRM's email capabilities, it may be
 helpful to answer these questions to guide your setup and use:
@@ -186,9 +188,7 @@ consider the following:
 -   Who should be the sender of the email? This could be a generic
     organisation address, or personalised with someone's name.
 
-### Other considerations
-
-### 
+### Interaction with other tools
 
 Many CiviCRM components interact with email functionality and with
 CiviMail, for example to send confirmation, thank-you and receipt
@@ -197,7 +197,7 @@ include some information about customising these emails, and should be
 read in conjunction with this section in order to give you a full
 understanding of how email works in the broader context of CiviCRM.
 
-#### Privacy issues
+### Privacy issues
 
 We encourage you to consider privacy issues. Different countries have
 different laws relating to email privacy, including opt out/unsubscribe
@@ -205,7 +205,7 @@ options. There may also be issues related to CiviMail's tracking tools;
 for instance, you may wish to avoid tracking who has clicked on the "how
 to deal with drug issues*"* link on a specific mailing.
 
-#### Spam and email deliverability
+### Spam and email deliverability
 
 When sending mass emails, there is always a risk that your emails will
 be marked as spam. This affects both the delivery of your current email
@@ -215,6 +215,14 @@ your organisation does not have a system administrator, consultant, or
 email hosting service that is knowledgeable about these issues, you may
 want to seek the advice of an expert. 
 
+### Email and template design/layout
 
+The success of your email will depend in part on your design and layout, as much as your content. A well designed email will be clean, organized, and adapt well to the many different ways people read emails (smart phones, tablets, laptops, desktops, browsers, applications, etc.). The following are some tips and suggested best practices when designing your emails.
 
-
+-   Create well-designed base templates and encourage (or enforce) their use. These may be as simple as creating a single column table layout with a header image and text footer, or a series of progressively more structured layouts users can choose from. Creating a consistent look and feel for your emails is critical for organization and communication branding.
+-   Responsive email design can be very challenging -- in ways much more challenging than response web design -- as there are many more varieties of environments and applications used to read email. Email applications also lack a universally accepted set of standards for how the design should be rendered, making it very difficult to create a layout that is consistent across devices. Consider acquiring a responsive template to use as your base, rather than construct your own from scratch. There are a number of free email templates available that have been well-tested on the most commonly used devices and applications.
+-   Keep your layout relatively simple. The more complex your structure, the more likely it will begin to have problems on various devices. If you do develop more complex layouts, be sure to test thoroughly or make use of some of the email testing services available.
+-   Use tables for layouts. Unlike on websites, where div tags are more appropriate as a layout tool, tables are more universally and consistently rendered in email clients.
+-   Use inline CSS. This is admittedly one of the more frustrating aspects of email design. Many of the more commonly used email clients still do not support externally referenced CSS styles or those defined in style blocks. To ensure your styles are recognized, insert them inline with the element tags.
+-   Do some research. Because of discrepancies between email applications, you may find certain tags or CSS styles render in different ways from one environment to the next. You may need to do some research to understand why a certain style is ignored in various contexts.
+-   Understand and appreciate the interdependency between design and content. Too often organizations either spend all their effort on design, and neglect the content, or focus entirely on the content to the neglect of presentation. The two are closely interrrelated, and failure to invest time into either aspect may compromise your message.
