@@ -370,7 +370,7 @@ following behaviors:
     be moved to the trash (instead of being destroyed). Users with the
     proper permission are able to search for the deleted contacts and
     restore them (or delete them permanently).
--   **Logging** - More information on the logging setting can be found in the System Administrator Guide(https://docs.civicrm.org/sysadmin/en/latest/setup/logging/).
+-   **Logging** - see the System Administrator Guide for more information [Logging Settings](https://docs.civicrm.org/sysadmin/en/latest/setup/logging/).
 -   **Attach PDF copy to receipts** - If enabled, CiviCRM sends PDF
     receipt as an attachment during event sign-up or online contribution.
 -   **Path to wkhtmltopdf executable -** wkhtmltopdf is an alternative
