@@ -44,16 +44,11 @@ First, you will want prepare the custom fields to store any questions you would
 like to ask on the petitions.  Then, create the profiles, and finally, select
 the profiles when you create the petition.
 
-To learn more about how to create custom field sets, see the chapter on
-*Creating Custom Fields* in the section *Organising Your Data*. To learn how to
-create a custom profile, see *Profiles* in the section *Organising your
-Data*.
+To learn more about how to create custom field sets, see the chapter on [Creating Custom Fields](/organising-your-data/creating-custom-fields.md) in the section [Organising Your Data](/organising-your-data/overview.md). To learn how to create a custom profile, see [Profiles](/organising-your-data/profiles.md) in the section [Organising your Data](/organising-your-data/overview.md).
 
 ### CMS Permissions
 
-You need to set permissions to allow specific roles to Sign CiviCRM Petitions.
-Refer to the next chapter called Set-up in this section, to find out what
-permissions you'll need to allow.
+You need to set permissions to allow specific roles to Sign CiviCRM Petitions. Refer to the next chapter called [Set-up](/petition/set-up.md) in this section, to find out what permissions you'll need to allow.
 
 ## Key Questions
 
