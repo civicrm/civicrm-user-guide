@@ -19,7 +19,7 @@ chapter 'Pledges'.
 ## Enabling pledges
 
 Setting up pledges for online forms is a simple check-box affair. Once a
-contribution page has been created (see the chapter 'Setup'), while
+contribution page has been created (see the chapter [Creating Contribution Pages](/contributions/online-contributions.md)), while
 editing the page's settings go to the 'Amounts' tab and tick the option
 '**Pledges**'. Several options will appear, as below.
 
