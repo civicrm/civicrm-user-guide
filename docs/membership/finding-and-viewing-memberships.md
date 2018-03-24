@@ -109,7 +109,7 @@ The **Advanced search** allows you to search based on some limited
 membership information (combined with other contact information) and
 return contacts. You can also choose membership from the **Display
 Results As** column to show members rather than contacts. To find out
-more about using Advanced Search, refer to the "Searching" chapter.
+more about using Advanced Search, refer to the ["Searching" chapter](/the-user-interface/searching/).
 
 -   Click on **Search > Advanced Search** and in the **Display Settings For Resullts** accordion set **Display Results As** to **Memberships**, enter your criteria.
      Click the **Search** button.
