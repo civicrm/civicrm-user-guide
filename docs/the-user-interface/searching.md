@@ -28,7 +28,7 @@ There are three main reasons to search:
 As a form of ad-hoc reporting, searching is often useful but does have
 limitations. For example, you can't group results by particular
 criteria, summarize, or easily produce graphs of the results. For more
-advanced reporting, see the *CiviReport* section.
+advanced reporting, see the [CiviReport](/reporting/what-is-civireport.md) section.
 
 ## Quick search
 
@@ -239,7 +239,7 @@ fields for export. Note that the fields you searched on will get
 exported by default in addition to those you select.
 
 You can also save your Search Builder search as a Smart Group. For more
-information on Smart Groups, see the *Groups and Tags* chapter.
+information on Smart Groups, see the [Groups and Tags](/organising-your-data/groups-and-tags.md) chapter.
 
 ## Full-text Search
 
