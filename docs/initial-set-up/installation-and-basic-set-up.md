@@ -370,15 +370,7 @@ following behaviors:
     be moved to the trash (instead of being destroyed). Users with the
     proper permission are able to search for the deleted contacts and
     restore them (or delete them permanently).
--   **Logging** - If enabled, all actions performed on non-cache tables
-    will be logged (in the respective log_\* tables). By default, these
-    tables will be created in the same database. However you can
-    configure CiviCRM to write logging tables to a different database by
-    editing your site's *civicrm.settings.php* file. Specify
-    the separate logging database in the CIVICRM_LOGGING_DSN setting.
-    After enabling this feature you can review changes to contact
-    records using the Contact Logging Report. Go to **Reports > Reports
-    Listing > Contact Logging Report (Summary)**.
+-   **Logging** - see the System Administrator Guide for more information [Logging Settings](https://docs.civicrm.org/sysadmin/en/latest/setup/logging/).
 -   **Attach PDF copy to receipts** - If enabled, CiviCRM sends PDF
     receipt as an attachment during event sign-up or online contribution.
 -   **Path to wkhtmltopdf executable -** wkhtmltopdf is an alternative
@@ -424,6 +416,7 @@ following behaviors:
     [recaptcha.net](http://recaptcha.net/), enter the provided public
     and private reCAPTCHA keys here, then enable reCAPTCHA under the
     Advanced Settings section in a Profile where you want it used.
+    In the **Recaptcha Options** Your able to specify the theme and language and other options on the display of reCAPTCHA
 
     If you want to use reCAPTCHA protection for online contribution,
     membership sign-up or event registration forms, you'll need to
@@ -512,12 +505,7 @@ processor connection are different for each processor. For more
 information, visit:
 [http://wiki.civicrm.org/confluence/display/CRMDOC/Payment+Processors](http://wiki.civicrm.org/confluence/display/CRMDOC/Payment+Processors)
 
-### Permissions for anonymous users
-
-This link is only present on Drupal sites. On Joomla! and WordPress
-(and Drupal) sites permissions for anonymous and other users are set
-after navigating to **Administer > Users and Permissions >
-Permissions** > **Drupal (or Joomla! or WordPress) Access Control**.
+### Permissions
 
 See [Permissions and access control](/initial-set-up/permissions-and-access-control.md) for information on setting permissions.
 
