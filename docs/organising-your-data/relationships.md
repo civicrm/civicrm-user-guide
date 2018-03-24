@@ -160,7 +160,12 @@ CiviCRM comes with a set of common relationship types that can be
 9.  Leave the **Enabled** box checked unless you intend to create this
     relationship type but not allow users to utilise it until a future
     date.
-10. Click **Save**. You will see a message telling you that the relationship
+10. Optionally Enable **Bi-Directional?** box if this relationship can be 
+    created in both directions. For example, say Steve wants to favourite Mark, 
+    then Steve adds a relationship - Mark 'is favourite of' Steve. But Mark may also 
+    want to favour Steve, so we need a second relationship running in the 
+    opposite direction.
+11. Click **Save**. You will see a message telling you that the relationship
     type has been saved and you will see your new Relationship Type in
     the list below.
 
