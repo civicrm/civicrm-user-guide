@@ -6,7 +6,7 @@ CiviContribute widgets help you and your supporters to easily promote this fund-
 
 When you create a widget you are given the code to embed the widget on your website or another website. 
 
-To create a widget go to the configuration for your Contribution Page. From the tabs at the top of the page select **Widgets**.  Click **Enable Widget** to get started.  
+To create a widget go to the configuration for your Contribution Page (**Contribution > Manage Contribution Pages** to display a list of contribution pages, click on the **Configure** link for your Contribution Page to open it). From the tabs at the top of the page select **Widgets**.  Click **Enable Widget** to get started.  
 
 Enter a **Title** for your widget.  It will generally be the same name as your Contribution Page but it does not have to be.  
 
@@ -35,4 +35,4 @@ A designer that you have worked with on your website may have specific standards
 Click **Save and Preview** when you are ready to see how your changes look.  
 
 ## Using widgets with WordPress
-WordPress has a plugin that is installed in WordPress [*CiviCRM Contribution Page Widget*](https://wordpress.org/plugins/civicrm-contribution-page-widget/) that lets you embed a Widget from CiviCRM anywhere at a WorderPress "widget" can go.  
+WordPress has a plugin that is installed in WordPress [*CiviCRM Contribution Page Widget*](https://wordpress.org/plugins/civicrm-contribution-page-widget/) that lets you embed a Widget from CiviCRM anywhere that a WorderPress "widget" can go.  
