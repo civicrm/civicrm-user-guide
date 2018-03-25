@@ -52,6 +52,6 @@ campaign:
 CiviEngage is a Drupal only feature that enhances CiviCampaign with more
 functionality for surveys and pre-configures your installation of
 CiviCRM with custom data sets, profiles and enhancements to reports. See
-the section Civic Engagement for more details about CiviEngage.
+[Civic Engagement](/civic-engagement/what-is-civiengage.md) for more details about CiviEngage.
 
 

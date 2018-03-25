@@ -86,9 +86,7 @@ participation, and also be used to call for donations.
 
 ## A campaign event
 
-Events created using CiviEvent can be associated with a campaign. To
-find out more about configuring and using CiviEvent, see the *Events*
-section of this book.
+Events created using [CiviEvent](/events/what-is-civievent.md) can be associated with a campaign.
 
 1.  Create and configure the event.
 2.  Select the appropriate campaign from the drop-down list when setting

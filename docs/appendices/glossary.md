@@ -622,8 +622,7 @@ point of contact for mailings etc.
 
 ## Profiles
 
-A central concept in **CiviCRM**. In essence a subset of fields. See the
-chapter on **Collecting and Sharing Data** for a full explanation.
+A set of fields used for collecting, modifying, and sharing data. See [Profles](/organising-your-data/profiles.md) for more information.
 
 ## Proprietary software
 
