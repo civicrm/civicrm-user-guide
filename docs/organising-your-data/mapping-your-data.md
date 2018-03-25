@@ -53,8 +53,7 @@ gender only applies to individuals, not organisations or households, so
 the gender field is only available for Individual contact types and
 subtypes.
 
-To read more on built-in CiviCRM basic constituents fields and how to
-use them, please see the [Contacts](/organising-your-data/contacts.md) chapter in [Organising Your Data](/organising-your-data/overview.md).
+See [Contacts](/organising-your-data/contacts.md) to learn more about built-in CiviCRM basic constituents fields and how to use them.
 
 ## Information about your constituents that is specific to your organization (basic introduction to Custom Fields)
 
@@ -68,8 +67,7 @@ about constituent allergies (for individuals) or service area
 When mapping data into CiviCRM, decide if the information pertains to an
 individual, organization, or household. Additional information like
 "service area" only makes sense for Organizations. To find out how you
-can create custom fields, please see the [Creating Custom Fields](creating-custom-fields.md) chapter in
-[Organising Your Data](/organising-your-data/overview.md).
+can create custom fields, see the [Creating Custom Fields](/organising-your-data/creating-custom-fields.md).
 
 ## Relationships between constituents
 
@@ -276,13 +274,10 @@ seeing information history.
 
 CiviCRM allows you to pull together sets of fields for different
 purposes, and help you reduce the amount of time staff spends on
-administrative tasks. These sets of fields are known as profiles.
+administrative tasks. These sets of fields are known as [profiles](/organising-your-data/profiles.md).
 
 Profiles are about how your data is edited or displayed to your staff or
 other groups of users, not how your data is stored.
-
-Read the [Profiles](/organising-your-data/profiles.md) chapter in this section for detailed information
-about how to make use of profiles.
 
 ## Where next?
 

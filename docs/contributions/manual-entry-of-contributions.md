@@ -254,8 +254,7 @@ information you want to collect for these contacts:
     **Fields** next to called **New Individual, New Household**, or
     **New Organization**.
 -   You can then add, edit or rearrange the fields as you want to see
-  them in the batch entry input grid. *To find out more about how to
-  use profiles, see [the chapter called Profiles](/organising-your-data/profiles.md).
+  them in the batch entry input grid. See [Profiles](/organising-your-data/profiles.md) to learn more about profiles, generally.
 
 !!! tip
     Reserved profiles for **New Individual, New Organization**,
@@ -282,15 +281,13 @@ Profiles**, then click on **Reserved Profiles** tab. Click on
 -   You can then add, edit , or rearrange the fields in this profile,
     e.g. you may have other custom contribution fields you would like to
     display and collect information, and display in the batch entry
-    input grid. To find out more read [Profiles](../organising-your-data/profiles).
+    input grid. To find out more read [Profiles](/organising-your-data/profiles.md).
 
   ![screenshot](../img/CiviCRM-Contributions-SetUp-contribution-batch-entry-profile.jpg)
 
   Above is CiviCRM’s default configuration for the Contribution Batch
   Entry profile, which is used when you record information about a
   contact’s contribution or pledge payment.
-
-
 
   ![screenshot](../img/CiviCRM-Contributions-SetUp-membership-batch-entry-profile.jpg)
 
@@ -300,7 +297,7 @@ Profiles**, then click on **Reserved Profiles** tab. Click on
 
 ## Importing contributions
 
-If you have not imported data before, please read [Importing data into civicrm](../common-workflows/importing-data-into-civicrm).
+If you have not imported data before, please read [Importing data into civicrm](/common-workflows/importing-data-into-civicrm.md).
 
 When preparing your data import it is helpful to know what fields are
 required for Import. You'll want to be sure that these fields are

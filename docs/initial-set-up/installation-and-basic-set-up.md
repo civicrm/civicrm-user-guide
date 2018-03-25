@@ -4,11 +4,9 @@ Before reading further, please be aware that much of the information contained h
 
 ## Prerequisites
 
-Before exploring the installation of CiviCRM, ensure you have read the chapter [hosting](/planning/hosting.md)to confirm whether or not your host can support it. 
-
 CiviCRM must be installed on a computer that has been configured with a web server (such as Apache or ngnx), PHP and MySQL. Some people prefer to try out CiviCRM on their own local computer before installing it on a dedicated web-server. If you are doing this and don't have the prerequisites just mentioned, you can download packages from the Internet such as WAMP, XAMPP, MAMPP and LAMP, which will quickly install an Apache web server, PHP and MySQL. (The first two packages are for Windows and the second two are for the Macintosh and Linux respectively).
 
-It is important to consider where you host your CiviCRM instance. You may want to discuss this with your System Administartor and review the [Hosting information](/planning/hosting.md) in the System Admin guide.
+It is important to consider where you host your CiviCRM instance. You may want to discuss this with your System Administrator and review the [Hosting information](https://docs.civicrm.org/sysadmin/en/latest/planning/hosting/) in the System Admin guide.
 
 Before you can begin installation, you need to decide which CMS (Content Management System; used for building and managing websites) you wish to integrate with, choosing between the open-source options: Drupal, WordPress or Joomla!.
 
@@ -65,7 +63,7 @@ This is where you can turn on or turn off the components for your CiviCRM system
 
 When you first install CiviCRM the most frequently used components (CiviContribute, CiviEvent, CiviMail, CiviMember, CiviReport) are already enabled. If you do not need those components you can disable them. You can also enable any or all of CiviCampaign, CiviCase, CiviGrant and CiviPledge. You can revisit this page at any time to enable more components.
 
-You can also disable a component you have already used. The information in the component is retained and will still be there if you re-enable it. It would be unusual to disable a component you have already used. If you want to simplify the administration menu and advanced search page then a better approach may be to use permissions [see the Permissions and access control chapter](/initial-set-up/permissions-and-access-control.md).
+You can also disable a component you have already used. The information in the component is retained and will still be there if you re-enable it. It would be unusual to disable a component you have already used. If you want to simplify the administration menu and advanced search page then a better approach may be to use [permissions](/initial-set-up/permissions-and-access-control.md).
 
 ### Display Preferences
 
@@ -210,9 +208,9 @@ When users send an email using CiviCRM, their primary email address is used as t
 
 Payment processors are companies that handle credit card transactions for merchants and non-profit organizations and then transfer funds to the organization's bank account. If you plan on using CiviCRM to accept online contributions, online membership sign-up and renewal or online event registration, you will need to select and configure a payment processor for your site. 
 
-CiviCRM includes support for several different processors, and provides a way for third-party developers to add support for additional processors based on their clients' needs. Each processor has their own pricing structure and features, and you will want to investigate each available option to determine the best fit for your organization. Refer to the [Contributions section](/contributions/payment-processors.md) for a list of factors to consider in selecting a processor.
+CiviCRM includes support for several different processors, and provides a way for third-party developers to add support for additional processors based on their clients' needs. Each processor has their own pricing structure and features, and you will want to investigate each available option to determine the best fit for your organization. See [Payment Processors](/contributions/payment-processors.md) for a list of factors to consider in selecting a processor.
 
-The actual steps involved in configuring and testing your payment processor connection are different for each processor. For more information, visit: [http://wiki.civicrm.org/confluence/display/CRMDOC/Payment+Processors](http://wiki.civicrm.org/confluence/display/CRMDOC/Payment+Processors). 
+The actual steps involved in configuring and testing your payment processor connection are different for each processor. See the System Administrator Guide for information on [installing payment processors](https://docs.civicrm.org/sysadmin/en/latest/setup/payment-processors/)
 
 ### Permissions
 
@@ -226,3 +224,7 @@ Workflow messages include text AND necessary program logic. Use caution when edi
 
 You should now have reviewed all the basic configuration tasks. The remaining tasks on the checklist involve an understanding of the ways in which you can record and use contact data and are best left until you have read more in this book.
 
+
+### System status
+
+CiviCRM has a system status screen at **Administer > Administration Console > System Status** (or `/civicrm/a/#/status`) which will inform you about a number of different potential problems with your installation, configuration, or server environment. See [System Status](https://docs.civicrm.org/sysadmin/en/latest/setup/#civicrm-system-status) in the System Administrator Guide for more information about how to interpret the results of this screen and what to do when it reports problems.

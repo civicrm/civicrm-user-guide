@@ -2,10 +2,7 @@
 
 Reports and searches can be created with the default (or core) Report
 Templates and Searches in CiviCRM. This chapter will describe some of
-the reports that can be used with CiviEngage.
-
-To learn more about how to work with reports, see the section called
-[Reporting](/reporting/what-is-civireport.md).
+the reports that can be used with CiviEngage. See [Reporting](/reporting/what-is-civireport.md) to learn more about how to work with reports, generally.
 
 ## Analysing Results from a Door-Knock Canvass
 

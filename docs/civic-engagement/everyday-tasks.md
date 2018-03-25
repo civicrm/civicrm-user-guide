@@ -190,9 +190,9 @@ be used to mobilise individuals:
     event.
 2.  From the search results or Group Contacts screen, you can add the
     list of contacts to the event by selecting **Add Contacts to Events**
-    from the actions list. To find out more about how to add contacts to
-    events, refer to the [Mass Registrations](/events/manual-event-registration.md#mass-registrations) article in the [Events](/events/what-is-civievent.md) section in
-    this book.
+    from the actions list.
+    See [Mass Registrations](/events/manual-event-registration.md#mass-registrations)
+    to learn more about registering multiple contacts for an event.
 3.  Once you have added the contacts to the event, you can enter
     participant information or responses from multiple interactions in
     the **Participant Info** area in a contact's participant record. You
@@ -202,11 +202,11 @@ be used to mobilise individuals:
     your list by viewing the participant list from the event listing,
     you could use **Batch Update Participants Via Profile** and select
     one of the following custom profiles provided by CiviEngage:
-
--   **Update Event Invite Responses** - to record responses from
-    multiple contacts with the participant.
--   **Update Participant Info** - to record general information about
-    participants, such as if they need childcare or rides to the event.
+    
+    -   **Update Event Invite Responses** - to record responses from
+        multiple contacts with the participant.
+    -   **Update Participant Info** - to record general information about
+        participants, such as if they need childcare or rides to the event.
 
 ## Using the Engagement Index
 

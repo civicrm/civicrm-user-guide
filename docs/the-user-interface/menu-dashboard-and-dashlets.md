@@ -43,7 +43,7 @@ navigation menu.
 To the left of the navigation menu is the Quick search field. See the
 chapter on Searching for more details. 
 
-## The home dashboard & dashlets 
+## The home dashboard & dashlets {:#dashlets}
 
 When you first log into CiviCRM, the first page that you will see is the
 dashboard (CiviCRM Home). The dashboard allows you to see important

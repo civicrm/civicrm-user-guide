@@ -74,8 +74,7 @@ field sets. You should add, edit, or disable (we highly suggest that you
 do not delete) the available options for each custom field to make them
 better fit your organisation's needs.
 
-To learn more about using custom fields sets, see the chapter [Creating
-Custom Fields](/organising-your-data/creating-custom-fields.md)in the section Your Data and CiviCRM.
+See [Creating Custom Fields](/organising-your-data/creating-custom-fields.md) for more information about custom fields sets.
 
 ### Communications Details
 
@@ -345,11 +344,9 @@ for recording responses.
 
 ## Custom profiles
 
-CiviEngage creates several custom profiles for easier batch updating of
+CiviEngage creates several [custom Profiles](/organising-your-data/profiles.md) for easier batch updating of
 individual or organisation information, such as voter demographics,
 issue interests, volunteer interests or event participant information.
-To learn more about profiles, please refer to the chapter called
-[Profiles](/civic-engagement/set-up/#custom-profiles) in the Core Functionality section.
 
 ## Setting up Surveys for Walklists and Phonebanking
 
