@@ -588,13 +588,13 @@ Go to the Advanced Search screen and set the appropriate filters in the Event ac
 
 You will go to the "Update multiple contacts" screen.
 
-  ![Update Multiple Records](../img/update-multiple-records.PNG)
+  ![Update Multiple Records](../img/update-multiple-records.png)
 
 From the drop-down list, choose the Profile you want to use and click **Continue**.
 
 The next screen will contain a grid. Each row shows the contact's name and the fields in your profile. You should update the field values for each contact as needed.
 
-![Update Multiple Records Profile View](../img/update-multiple-records-profile.PNG)
+![Update Multiple Records Profile View](../img/update-multiple-records-profile.png)
 
 
 To set a field to the same value for all rows, enter that value for the first contact and then click the Copy icon (the image of two documents that is next to each column title). The value will automatically be copied into all the records displayed.

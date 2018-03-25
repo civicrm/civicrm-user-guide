@@ -213,7 +213,7 @@ If you choose to use the same set of options for several fields, you will be not
 
 When you create a new set, you have the option of initially entering up to ten multiple choice options in a table. If you need more than ten options, you can create an unlimited number of additional choices after saving this new field by using the 'Edit Multiple Choice Options' link. Go to: **Administer** > **Customize** > **Custom Data** > **View and Edit Custom Fields** > **Edit Multiple Choice Options**. You may go to this screen at a later date to modify the label, order and active status of any multiple choice option, or add more choices. 
 
-![CustomMultipleOptions](../img/CiviCRM-Configuring-CustomMultipleOptions-en.PNG "CustomMultipleOptions")
+![CustomMultipleOptions](../img/CiviCRM-Configuring-CustomMultipleOptions-en.png "CustomMultipleOptions")
 
 If desired, you can also mark one of the choices as the default option. 
 
@@ -223,7 +223,7 @@ Inactive options are hidden when the field is presented.
 
 You can view a listing of all the custom fields in a custom field set at any time by navigating to **Administer > Customize Data and Screens > Custom Data** and clicking 'View and Edit Custom Fields' for the relevant field set.
 
-![image](../img/Move_custom_fields.PNG) 
+![image](../img/Move_custom_fields.png) 
 
 As well as the expected options of edit field settings, edit multiple choice options (if applicable), preview, disable or delete, you also have the option to **Move** a custom field to another data set. You can move custom fields between sets used for all contacts or for contact sub-types but otherwise you can only move fields between data sets of the same type.
 

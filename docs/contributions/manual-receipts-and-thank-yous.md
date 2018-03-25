@@ -15,7 +15,7 @@ time through the [Find Contributions](../contributions/finding-and-viewing-contr
 search. After selecting the contacts you wish to send a receipt to, choose
 **Receipts - print or email** from the actions drop-down menu.
 
-![ContributionReceiptsManual](../img/civicontribute-receipts-manual.PNG)
+![ContributionReceiptsManual](../img/civicontribute-receipts-manual.png)
 
 You will be given the option to email the receipts or make PDF receipts
 to post out to contributors.
@@ -48,7 +48,7 @@ contributions (rather than contacts). The steps involved are:
     combined receipts.
 3.  Choose the action **Thank-you letters - print or email**. The
     following will be displayed:
-    ![ContributionThankyouLettersNogrouping](../img/civicontribute-thank-you-letters-no-grouping.PNG)
+    ![ContributionThankyouLettersNogrouping](../img/civicontribute-thank-you-letters-no-grouping.png)
 4.  Choose to **Update thank-you dates for these contributions** or
     **Update receipt dates for these contributions** as required. The
     current date will be entered into the appropriate field.

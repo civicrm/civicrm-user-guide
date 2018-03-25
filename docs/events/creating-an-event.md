@@ -20,7 +20,7 @@ will take you to a screen where you can edit the options available.
 Note, depending on your permissions, you may not be able to edit these
 options and therefore will not see the pencil.
 
-![screenshot](../img/4.5_new_event.PNG)
+![screenshot](../img/4.5_new_event.png)
 
 **From template** allows you to create an event from a template (see
 *Event templates* chapter in this section) rather than creating one from

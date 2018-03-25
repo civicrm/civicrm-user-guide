@@ -20,7 +20,7 @@ templates are grouped by component, and each has a brief description of
 its intended scenario. If there are already report instances for a given
 template, you'll see a link to view **Existing Reports**.
 
-![image](/img/CiviReport_existing_report.PNG)
+![image](/img/CiviReport_existing_report.png)
 
 Clicking on the report template name will bring up a screen where the
 report can be configured.

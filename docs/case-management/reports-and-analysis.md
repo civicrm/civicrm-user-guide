@@ -40,7 +40,7 @@ There are four report templates specifically for cases:
 3.  Contact Demographics Report
 4.  Case Detail Report
 
-![screenshot](/img/4.5_Case_report_templates.PNG) 
+![screenshot](/img/4.5_Case_report_templates.png) 
 
 In addition as cases are made up of activities, the Activity report
 template is particularly useful for providing a dashlet for each user
@@ -68,13 +68,13 @@ Status as well as by client name or email. This is a useful quick search
 to identify a few cases that may need specific input if the case
 dashboard is quite large and cluttered in your instance.
 
-![screenshot](/img/Case_Find_case_update.PNG) 
+![screenshot](/img/Case_Find_case_update.png) 
 
 The Advanced search provides these options combined with all the other
 normal search criteria so you can find case types filtered by location
 or custom fields applied to the contact.
 
-![Search options within advanced search.](/img/Case_advanced_search_update.PNG) 
+![Search options within advanced search.](/img/Case_advanced_search_update.png) 
 
 Also useful can be the Activity Search which is located under **Search > Custom Searches > Activity Search**.  Unlike Advanced
 search, this is just based on activities and not contacts.

@@ -34,7 +34,7 @@ To offer online registration, check **Allow Online Registration** in the
 Online Registration step of event creation and use the options on this
 form to configure this feature.
 
-![The forth tab of the event form contains the online registration settings.](../img/event_online_rego_part_1.PNG)
+![The forth tab of the event form contains the online registration settings.](../img/event_online_rego_part_1.png)
 
 Define the text to be used as the **link** from the event information
 page to the registration form, and set the starting and ending dates for
@@ -86,7 +86,7 @@ registration page. (See the *Email* section for more details on
 The next step is to define the text and the fields for collecting
 information that will be displayed on your online registration page.
 
-![screenshot](../img/event_online_rego_part_2.PNG)
+![screenshot](../img/event_online_rego_part_2.png)
 
 The introductory text comes at the top of the page and the footer text
 at the bottom. In between will come some, or all, of: profile, fee
@@ -126,7 +126,7 @@ Event Types or Participant Roles (see the chapter [Custom data on
 events](/events/custom-data-for-events.md) in this section for more details on where you should store what
 custom data).
 
-![New custom field set form on top of the edit profile form.](../img/Drag_and_drop_profile_for_event.PNG)
+![New custom field set form on top of the edit profile form.](../img/Drag_and_drop_profile_for_event.png)
 
 It is highly recommended that if you are charging for your event that you include a CPATCHA (reCAPTCHA in the case of CiviCRM).  You can add reCAPTCHA to a profile you include and it will be included on the Online Registration page.  
 
