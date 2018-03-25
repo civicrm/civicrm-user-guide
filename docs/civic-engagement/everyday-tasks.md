@@ -22,7 +22,7 @@ be used in your Walklist survey.
 1.  Create a new group of contacts that you will be targeting during
     your door-knock canvass. You may do this by searching for contacts
     who live in a particular geographic area or district. (To learn
-    about working with groups, see the chapter Tags and Groups.)
+    about working with groups, see the chapter [Tags and Groups](/organising-your-data/groups-and-tags.md).)
 2.  To create a new Campaign (if you haven't already) go to
 **Campaigns > New Campaign**. Refer to the section *Campaign* for detailed
     instructions on how to create a campaign and add the group of
