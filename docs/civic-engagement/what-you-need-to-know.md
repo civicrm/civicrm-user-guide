@@ -33,7 +33,7 @@ community organising activities. For example, you can:
     gauge their level of interest or potential to be a highly active
     member or be easily mobilised for direct actions.
 
-To learn more about CiviCampaign, refer to the Campaign section. There
+To learn more about CiviCampaign, refer to the [Campaign section](/campaign/what-is-civicampaign.md). There
 are also separate sections for Survey and Petition which should be read
 in conjunction with this section.
 
