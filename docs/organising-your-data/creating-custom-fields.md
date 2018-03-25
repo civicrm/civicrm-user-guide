@@ -27,7 +27,7 @@ Depending on how many custom fields you are creating, you should also consider g
 
 To create a custom field set and custom fields, go to: **Administer** > **Customize Data** **and Screens** > **Custom Data**. This screen lets you assign a title to the field set, specify what type of records it will be used for, select the display characteristics, and enter help text. The form appears in the following image, and we'll describe each field.
 
-![image](../img/Custom%20Field%20Set.png)
+![image](../img/Custom_Field_Set.png)
 
 ### Set Name
 
@@ -77,11 +77,11 @@ There are two options for displaying in a tab. **Tab with table** and **Tab**.
 
 **Tab with table** provides a concise overview of the data in the set.  New records can be added and existing records can be edited in pop-up windows. Under **more** there is the option to "copy a record". For consecutive records that have the same value in many fields this lets you edit just one or two fields and save the copy as a new record. 
 
-![image](../img/z-Sprint2014%20copy%20multli%20record.png)
+![image](../img/z-Sprint2014_copy_multli_record.png)
 
 **Tab** displays data in a similar format to the inline style.
 
-![image](../img/z-Sprint14%20multi%20record%20old%20style%20table.png) 
+![image](../img/z-Sprint14_multi_record_old_style_table.png)
 
 ### Is this Custom Field Set active?
 
