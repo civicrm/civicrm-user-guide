@@ -66,7 +66,7 @@ CiviEngage features.
 To review the custom field sets, go to **Administer > Customize >
 Custom Data** in the navigation menu. 
 
-![screenshot](../img/civiengage_custom_data_sets_small.jpg)
+![screenshot](/img/civiengage_custom_data_sets_small.jpg)
 
 The following list describes each of the custom field sets provided by
 CiviEngage; the bulleted items are custom fields within those custom
@@ -413,16 +413,16 @@ section of this book).
  -  For WalkList surveys: -   Create your custom data set for use with Activities of type Walklist 
 
  -  For PhoneBank surveys: -   Create your custom data set for use with Activities of type PhoneBank 
-![screenshot](../img/create_custom_data_sets.jpg) 
+![screenshot](/img/create_custom_data_sets.jpg) 
 
 2. Then for both Walklist or Phonebank surveys you can create the
 questions as the custom field labels and the responses you want to
 collect as the option values.
-![screenshot](../img/custom_data_for_walklists.jpg)
+![screenshot](/img/custom_data_for_walklists.jpg)
 
 3. Next, create the custom profile that will pull in the questions for
 your survey (to learn more about creating profiles, see the *Organising
 Your Data* section of this book). 
 
-![screenshot](../img/custom_profile_for_walklist.jpg) 
+![screenshot](/img/custom_profile_for_walklist.jpg) 
 

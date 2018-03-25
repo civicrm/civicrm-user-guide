@@ -13,7 +13,7 @@ Campaign Dashboard (refer to the following chapters on [Surveys](/survey/everyda
 To view the Campaign Dashboard, go to **Campaigns > Dashboard >
 Campaigns.**
 
-![Campaign dashboard showing a list of existing campaigns with the columns: title, description, start date, end date, type, status, active?](../img/campaign_everyday_dashboard.png)
+![Campaign dashboard showing a list of existing campaigns with the columns: title, description, start date, end date, type, status, active?](/img/campaign_everyday_dashboard.png)
 
 From the Campaign Dashboard, you can then Edit, Disable and Delete
 existing campaigns, and create new campaigns.
@@ -21,14 +21,14 @@ If you have a large number of campaigns you can open the campaign search
 accordion to set filters to display only the campaigns you want to see a
 t that time.  
 
-![Campaign Search Criteria: title, description, from date, to date, campaign type, campaign status, is active?](../img/civicampaign-dashboard-search-criteria.png)
+![Campaign Search Criteria: title, description, from date, to date, campaign type, campaign status, is active?](/img/civicampaign-dashboard-search-criteria.png)
 
 ## Create a New Campaign
 
 To create a Campaign:
 
 1.   Go to **Campaign > New Campaign**
-![Blank campaign form with all fields](../img/campaign_everyday_newcampaign.png)
+![Blank campaign form with all fields](/img/campaign_everyday_newcampaign.png)
 
 2.  Enter information about your campaign:
     -   **Title** (required): enter a unique name that describes your

@@ -18,7 +18,7 @@ contact's profile, click the "Actions" button and select the option
 "Send SMS". You can also create an SMS in the activities tab of a
 contact from the "- new activity -" drop-down menu.
 
-![image](../img/CiviCRM_SMS_actionmenu.png)
+![image](/img/CiviCRM_SMS_actionmenu.png)
 
 A new page will now appear in which to write your message:
 
@@ -44,7 +44,7 @@ A new page will now appear in which to write your message:
     text regularly at a later date, you can save it as a template to
     save time later.
 
-![image](../img/CIVICRM_SMS_sending-to-an-individual.png)
+![image](/img/CIVICRM_SMS_sending-to-an-individual.png)
 
 Finally, once the SMS has been sent, a confirmation message will appear
 and an SMS activity will be posted against the recipient's contact
@@ -63,7 +63,7 @@ into, select some or all of the contacts in the results list and choose
 "Send SMS to Contacts" in the "Actions" drop-down menu. Please note that
 the activity type this method creates will be "Text Message (SMS).
 
-![image](../img/CiviCRM_SMS_sending-by-advanced-search.png)
+![image](/img/CiviCRM_SMS_sending-by-advanced-search.png)
 
 Otherwise should you wish to send bulk text messages to the same group
 of contacts on a regular basis, you can use a mailing list. If you
@@ -84,7 +84,7 @@ will three steps to complete:
     (e.g. they may have already received a similar SMS under the group
     you have chosen not to include). Click Next.
     
-    ![image](../img/CiviCRM_Bulk-SMS_recipients.png)
+    ![image](/img/CiviCRM_Bulk-SMS_recipients.png)
 2.  **SMS Content**: before writing the message, select an available SMS
     Provider and decide whether to use an existing mailing template for
     the content of your SMS (see "Setup in the Email chapter).
@@ -98,7 +98,7 @@ will three steps to complete:
     you would like to reuse the message later, tick the check box "Save
     as New Template" before going to the next screen.
     
-    ![image](../img/CiviCRM_Bulk-SMS_write-message.png)
+    ![image](/img/CiviCRM_Bulk-SMS_write-message.png)
 3.  **Schedule or Send**: you now have the option to send the message
     immediately, or schedule it to be sent automatically at a future
     date and time. If you do not wish to do either at the moment, you
@@ -110,7 +110,7 @@ will three steps to complete:
     
     Finally, you can click on the "Preview SMS" banner at the bottom to
     check the content, or hit "Submit Mass SMS" to send your
-    message.![image](../img/CiviCRM_Bulk-SMS_schedule-or-send.png)
+    message.![image](/img/CiviCRM_Bulk-SMS_schedule-or-send.png)
 
 
 
