@@ -10,12 +10,12 @@ to date, and cumulatively since inception (i.e. all contribution records in
 Different layouts are available for viewing summaries. The following screenshot
 shows the most recent contribution to a campaign using the Table Layout tab:
 
-![ContactSummary1a](../img/CiviCRM-CiviContribute-EveryDayTasks-ContactSummary1a-en.png)
+![ContactSummary1a](/img/CiviCRM-CiviContribute-EveryDayTasks-ContactSummary1a-en.png)
 
 You can also view bar or pie charts to compare contribution totals across
 months of a given year and across years by clicking on the Chart Layout tab.
 
-![ContactSummary1b](../img/CiviCRM-CiviContribute-EveryDayTasks-ContactSummary1b-en.png "ContactSummary1b")
+![ContactSummary1b](/img/CiviCRM-CiviContribute-EveryDayTasks-ContactSummary1b-en.png "ContactSummary1b")
 
 Finally, you can add any number of contribution [Report Dashlets](/the-user-interface/menu-dashboard-and-dashlets.md#dashlets) to your
 personal CiviCRM Dashboard. These might include a bar chart summary of
@@ -38,7 +38,7 @@ The **Find contributions** search allows you to search based on contribution
 data and return contribution records. It is found at **Contributions > Find
 Contributions**.
 
-![Contribution Find Screenshot](../img/contributions-find-search.png)
+![Contribution Find Screenshot](/img/contributions-find-search.png)
 
 You can search based on a number of criteria, such as date range, contribution
 amount, contribution status etc. Contributions must match all specified criteria
@@ -52,7 +52,7 @@ in order to be returned, so the more criteria you enter, the narrower the search
  from a Find Contributions search displays the total amount, number of
  contributions, average contribution mean and mode for the search results.
 
- ![Screen shot batch update from search](../img/contributions-find-editcriteria.png)
+ ![Screen shot batch update from search](/img/contributions-find-editcriteria.png)
 
  You can select an action to perform from the **Actions** menu once you select
  all or a subset of the results. You can:

@@ -10,7 +10,7 @@ If you want each email to address the person by first name after "Dear,"
 you would type a space and then click on **Insert Tokens** at the top
 right of the HTML Format field.
 
-![Screenshot of the New Email screen with the token list expanded.](../img/Tokens-4.5.png)
+![Screenshot of the New Email screen with the token list expanded.](/img/Tokens-4.5.png)
 
 The popup that appears enables you to
 find the appropriate token by typing "First name" in the box and choose

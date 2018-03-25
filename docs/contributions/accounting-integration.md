@@ -20,7 +20,7 @@ listing with a status of Closed.
 Go to **Contributions > Accounting Batches** and select **New Batch.**
 This opens the batch creation screen where you define the batch parameters
 
-![New Accounting Batch](../img/civicontribute-accounting-integration-new-batch.png)
+![New Accounting Batch](/img/civicontribute-accounting-integration-new-batch.png)
 
 -  Enter the batch name (required). CiviCRM will create a default batch
 name ("Batch N" + open date), which you can edit.
@@ -46,7 +46,7 @@ remains open.
 
 After creating a new accounting batch or opening an one you will be on the transaction assignment screen.
 
-![Transaction Assignment Screen](../img/civicontribute-accounting-batches-transactions.png)
+![Transaction Assignment Screen](/img/civicontribute-accounting-batches-transactions.png)
 
 At the top of the screen the defined parameters of the batch are displayed:
 

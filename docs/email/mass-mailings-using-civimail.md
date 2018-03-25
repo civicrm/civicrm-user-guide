@@ -57,14 +57,14 @@ people who have unsubscribed are excluded from those future mailings.
 If you are sending mail to an existing Group, go to **Mailings > New
 Mailing**. You will see the following screen.
 
-![Bulk email based on existing groups](../img/email-compose-mailing.png)
+![Bulk email based on existing groups](/img/email-compose-mailing.png)
 
 If you are basing your mailing on search results, perform your search
 (for example, using **Search > Advanced Search**) and then choose
 **Email - Schedule/Send via CiviMail** from the **Actions** drop down.
 You will see the following screen.
 
-![Bulk email based on search results](../img/email-compose-search-based-mailing.png)
+![Bulk email based on search results](/img/email-compose-search-based-mailing.png)
 
 
 These are two screens are very similar, however, as described in
@@ -111,7 +111,7 @@ recipients (if mailing to search results). You can choose Groups to
 include (shown in green) and exclude (shown in red and struck through),
 by selecting them from the "Recipients" dropdown.
 Only groups of the type "Mailing List" will be available in the dropdown.
- ![Civimail Recipients include and exclude](../img/civimail-recipients-example.png)
+ ![Civimail Recipients include and exclude](/img/civimail-recipients-example.png)
  You can also refine your recipient list by including and excluding
 recipients of previous mailings. For instance, you may want to resend an
 email only to contacts that have been added to a Group since the last
@@ -127,7 +127,7 @@ did not receive the original mailing.
 field and to the left of the estimate of recipient numbers.  Click on it
 to access **Edit Options**.
 
-![Civimail Recipients Edit Options](../img/civimail-recipients-edit-options.png)
+![Civimail Recipients Edit Options](/img/civimail-recipients-edit-options.png)
 
   -   **Dedupe by email:** CiviCRM will always dedupe your mailing based on
  unique contact records. For example, if a contact is in three of the
@@ -273,7 +273,7 @@ Once you have defined all aspects of your mailing click on **Next >**
 
 **Step 2: Review and Schedule**
 
-![CiviMail Review and Schedule screen](../img/civimail-review-and-scheduling.png)
+![CiviMail Review and Schedule screen](/img/civimail-review-and-scheduling.png)
 
 ### Review panel
 
@@ -311,7 +311,7 @@ information on all of the tracked actions, including the number of
 opens, link click-throughs or the percentage of bounces (see "Managing
 bounces" below).
 
-![](../img/CiviCRM_mailing_basicstatistics_1.png)
+![](/img/CiviCRM_mailing_basicstatistics_1.png)
 
 To expand on this information, click the name of one of the statistics
 to display a list of the contacts to whom it applies, and various other
@@ -329,7 +329,7 @@ to look for all contacts who opened the email, ready for you to add
 extra criteria. For more information on advanced searches, see
 "Searching".
 
-![](../img/CiviCRM_mailing_advancedsearch.png)
+![](/img/CiviCRM_mailing_advancedsearch.png)
 
 ## Managing mass mailings
 

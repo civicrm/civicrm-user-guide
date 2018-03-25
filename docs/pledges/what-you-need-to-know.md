@@ -42,7 +42,7 @@ The options available are as follows:
 
 
 
-![image](../img/new_pledge2.png)
+![image](/img/new_pledge2.png)
 
 ## Payment reminders
 
@@ -92,7 +92,7 @@ options are available for each record at the end of the rows. If the
 status of a pledge is 'in progress', there is also an option to cancel
 the pledge.
 
-![image](../img/pledge_menu.png)
+![image](/img/pledge_menu.png)
 
 ## Dashboard
 
@@ -101,4 +101,4 @@ recorded over the current month and past year on the pledges dashboard.
 This can be reached through the Contributions menu: **Contributions >
 Pledges > Dashboard**.
 
-![image](../img/pledge_table.png)
+![image](/img/pledge_table.png)

@@ -16,7 +16,7 @@ blocks of information that display a summary or your recent memberships,
 categorised by type and date range, and a list of recent member
 activity.
 
-![image](../img/CiviCRM-CiviMember-Memebership-Summary_2.jpg)
+![image](/img/CiviCRM-CiviMember-Memebership-Summary_2.jpg)
 
 
 All of the summary numbers are hot-linked. Simply click on a number to
@@ -38,7 +38,7 @@ contact's record and looking at the Membership tab.
 After finding the contact you wish to manage, click the "Membership" tab to 
 view a summary of the contact's membership records.
 
-![image](../img/CiviCRM_update-CiviCore-Contact_MembershipTabs-en.jpg)
+![image](/img/CiviCRM_update-CiviCore-Contact_MembershipTabs-en.jpg)
 
 Membership records appear in a list with active memberships (those with
 a current status) first and followed by expired or canceled memberships.
@@ -57,7 +57,7 @@ If you are looking at the primary member contact record for a
 membership type that has inherited membership you will see a list of the
 contacta who have inherited the membership.
 
-![image](../img/membership_everyday_for_limited_inherited.png)
+![image](/img/membership_everyday_for_limited_inherited.png)
 
 In this case a maximum of two inherited memberships are allowed for
 people who are employees of the primary membership organisation. If one
@@ -66,7 +66,7 @@ employee then you can click on **Delete** for that contact. This will
 free up an inherited membership for you to assign appropriately by
 selecting **Create.**
 
-### ![image](../img/membership_everyday_for_limited_inheritedp2.png)
+### ![image](/img/membership_everyday_for_limited_inheritedp2.png)
 
 ## Sending email to members
 
@@ -103,7 +103,7 @@ data and return membership data.
 -   Click on **Memberships > Find Members >**, enter your criteria.
     Click the **Search** button.
 
-![image](../img/memberships%20find%20memberships.JPG)
+![image](/img/memberships%20find%20memberships.JPG)
 
 The **Advanced search** allows you to search based on some limited
 membership information (combined with other contact information) and
@@ -115,7 +115,7 @@ more about using Advanced Search, refer to the [Searching chapter](/the-user-int
      Click the **Search** button.
 
 
-![image](../img/z_sprint14_display_Results_as_1.png)
+![image](/img/z_sprint14_display_Results_as_1.png)
 
 Once you have found the membership information based on your criteria your search results will allow you to view some membership details. You then can perform further
 actions on your search results or a smaller subset of selected records,

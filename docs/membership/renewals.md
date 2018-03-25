@@ -155,7 +155,7 @@ configure a **Default Online Membership Renewal Page** as follows:
 A "renew" link pointing to that page will then be displayed on the
 Contact Dashboard for any memberships which were manually entered.
 
-![image](../img/z_sprint14_renewalpage.png)
+![image](/img/z_sprint14_renewalpage.png)
 
 ## Manually renewing a membership for a single contact
 
@@ -166,7 +166,7 @@ Contact Dashboard for any memberships which were manually entered.
     or **Renew-Credit Card** to process the renewal through your online
     payment processor.
 
-![image](../img/z_sprint14_renewmembership_1.png)
+![image](/img/z_sprint14_renewmembership_1.png)
 
 ## Batch Update Members Via Profile 
 
@@ -208,5 +208,5 @@ To use the **Batch Update Members Via Profile** feature:
     the **Membership Start Date** fields for use with the **Batch Update
     Members Via Profile**. 
 
-![image](../img/Memberships-Everydaytasks-batchupdateviaprofile-batchupdateformembers.jpg)
+![image](/img/Memberships-Everydaytasks-batchupdateviaprofile-batchupdateformembers.jpg)
 

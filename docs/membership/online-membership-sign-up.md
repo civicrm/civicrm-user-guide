@@ -31,7 +31,7 @@ grouped together into tabs. Once you have given your contribution page a
 name, these tabs are displayed at the top of the page as you work
 through the rest of the set up process.
 
-![image](../img/membership-tabs.png)
+![image](/img/membership-tabs.png)
 
 In this chapter, we concentrate on the tabs and options of contribution
 pages that are most useful for memberships. A couple of tabs that are
@@ -65,7 +65,7 @@ profile (see the profiles chapter for more information) that will be
 used to collect organisational information. Organisational sign up can
 either be optional or required.
 
-![image](../img/Title%20settings%201%20.jpg)
+![image](/img/Title%20settings%201%20.jpg)
 
 ### The Amounts tab
 
@@ -76,7 +76,7 @@ up a choice. For more information on setting up payment processors, and
 things to consider when choosing a payment processor see the chapter
 *Payment processors*.
 
-![image](../img/contribution%20amounts.jpg)
+![image](/img/contribution%20amounts.jpg)
 
 Note that the amounts tab *is not* the place where membership fees are
 configured - they are configured on the Memberships tab. If you want to
@@ -105,12 +105,12 @@ sign up page, CiviCRM automatically replaces the membership sign up page
 with a membership renewal page which contains the text from the renewals
 box.
 
-![image](../img/membership%20signup%201.jpg)
+![image](/img/membership%20signup%201.jpg)
 
 After the text boxes, are a few options that you can use to configure
 the membership types available on the membership form.
 
-![image](../img/MembershipTabOnlineCintribConfiguration.png)
+![image](/img/MembershipTabOnlineCintribConfiguration.png)
 
 Looking at the simple use cases first, you select which membership types
 should be available on the page, which should be the default, and which
@@ -162,9 +162,9 @@ You may also want to CC or BCC every membership receipt to a staff
 member so they are alerted immediately every time someone becomes a
 member.
 
-![image](../img/membership%20page%20receipt%201.jpg)
+![image](/img/membership%20page%20receipt%201.jpg)
 
-![image](../img/membership%20page%20receipt%202.jpg)
+![image](/img/membership%20page%20receipt%202.jpg)
 
 ###The Tell-A-Friend tab
 
@@ -176,7 +176,7 @@ that are told about the membership sign up will also be added to CiviCRM
 if they do not already exist and their source field will show that they
 were added via tell-a-friend.
 
-![image](../img/tell%20a%20friend.jpg)
+![image](/img/tell%20a%20friend.jpg)
 
 ###Collecting information as part of membership sign up (the Profiles tab)
 
@@ -192,7 +192,7 @@ available. Don't add a membership profile. Collection of that
 information occurs automatically during the online membership sign up
 process.
 
-![image](../img/membership-profiles.png)
+![image](/img/membership-profiles.png)
 
 The profiles tab allows you to select an already existing profile to
 include on your membership page, and if you have permission, to edit an
@@ -215,7 +215,7 @@ The Premiums tab of the contribution page wizard controls the
 introductory text, contact information, and other premium-related
 details.
 
-![image](../img/membership-profiles.png)
+![image](/img/membership-profiles.png)
 
 ## Testing membership sign up pages
 
@@ -285,7 +285,7 @@ Page. **Copy the URL and insert it into an HTML link or menu.
 *Or* click the WordPress shortcode icon to insert a form into any page
 or post.
 
-![WordPress shortcodes button](../img/wordpress-shortcodes-small.png)
+![WordPress shortcodes button](/img/wordpress-shortcodes-small.png)
 
 ### In Joomla!
 
