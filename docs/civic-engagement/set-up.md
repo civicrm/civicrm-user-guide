@@ -74,8 +74,8 @@ field sets. You should add, edit, or disable (we highly suggest that you
 do not delete) the available options for each custom field to make them
 better fit your organisation's needs.
 
-To learn more about using custom fields sets, see the chapter Creating
-Custom Fields in the section Your Data and CiviCRM.
+To learn more about using custom fields sets, see the chapter [Creating
+Custom Fields](/organising-your-data/creating-custom-fields.md)in the section Your Data and CiviCRM.
 
 ### Communications Details
 
