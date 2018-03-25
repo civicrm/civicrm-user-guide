@@ -4,11 +4,11 @@ Before reading further, please be aware that much of the information contained h
 
 ## Prerequisites
 
-Before exploring the installation of CiviCRM, ensure you have read the chapter 'hosting' to confirm whether or not your host can support it. 
+Before exploring the installation of CiviCRM, ensure you have read the chapter [hosting](/planning/hosting.md)to confirm whether or not your host can support it. 
 
 CiviCRM must be installed on a computer that has been configured with a web server (such as Apache or ngnx), PHP and MySQL. Some people prefer to try out CiviCRM on their own local computer before installing it on a dedicated web-server. If you are doing this and don't have the prerequisites just mentioned, you can download packages from the Internet such as WAMP, XAMPP, MAMPP and LAMP, which will quickly install an Apache web server, PHP and MySQL. (The first two packages are for Windows and the second two are for the Macintosh and Linux respectively).
 
-It is important to consider where you host your CiviCRM instance. You may want to discuss this with your System Administartor and review the [Hosting information](https://docs.civicrm.org/sysadmin/en/latest/planning/hosting/) in the System Admin guide.
+It is important to consider where you host your CiviCRM instance. You may want to discuss this with your System Administartor and review the [Hosting information](/planning/hosting.md) in the System Admin guide.
 
 Before you can begin installation, you need to decide which CMS (Content Management System; used for building and managing websites) you wish to integrate with, choosing between the open-source options: Drupal, WordPress or Joomla!.
 
@@ -226,7 +226,3 @@ Workflow messages include text AND necessary program logic. Use caution when edi
 
 You should now have reviewed all the basic configuration tasks. The remaining tasks on the checklist involve an understanding of the ways in which you can record and use contact data and are best left until you have read more in this book.
 
-
-### System status
-
-CiviCRM has a system status screen at **Administer > Administration Console > System Status** (or `/civicrm/a/#/status`) which will inform you about a number of different potential problems with your installation, configuration, or server environment. See [System Status](https://docs.civicrm.org/sysadmin/en/latest/setup/#civicrm-system-status) in the System Administrator Guide for more information about how to interpret the results of this screen and what to do when it reports problems.  
