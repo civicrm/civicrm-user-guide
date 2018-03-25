@@ -292,7 +292,7 @@ sent back to the case page, or **Cancel** to discard your work.
 
 !!! note
     The drop-down list of activities is configurable. Refer to the
-    [set-up chapter](case-management/set-up.md) for more information.
+    [set-up chapter](/case-management/set-up.md) for more information.
 
 ### Adding a set of activities
 
