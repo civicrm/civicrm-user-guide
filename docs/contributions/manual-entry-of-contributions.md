@@ -255,8 +255,7 @@ information you want to collect for these contacts:
     **New Organization**.
 -   You can then add, edit or rearrange the fields as you want to see
   them in the batch entry input grid. *To find out more about how to
-  use profiles, see the chapter called “Profiles” in the “User
-  Interface” section*.
+  use profiles, see [the chapter called Profiles](/organising-your-data/profiles.md).
 
 !!! tip
     Reserved profiles for **New Individual, New Organization**,
