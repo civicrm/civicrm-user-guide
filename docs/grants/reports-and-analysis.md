@@ -36,5 +36,5 @@ at the bottom for amount requested and granted.
 ## More analysis
 
 If you can't do what you want with a built in report or search, consider
-commissioning a new report or custom search. Read the CiviReport section
+commissioning a new report or custom search. Read the [CiviReport](/reporting/what-is-civireport.md) section
 for more information.
