@@ -122,7 +122,7 @@ email addresses can be explicitly marked as the address which receives
 all bulk mailings such as e-newsletters and announcements (e.g. these
 are emails your organisation would send using the CiviMail component).
 Any bouncing emails are automatically marked as being on hold when
-sending emails via CiviMail. See the Mail section for more information.
+sending emails via CiviMail. See the [Email](/email/what-is-civimail.md) section for more information.
 
 
 #### Communication preferences and privacy options 
@@ -190,7 +190,7 @@ defined.
 
 ![Contact_ActivityTab](../img/CiviCRM_update-CiviCore-Contact_ActivityTab-en.jpg)
 
-To find out more about activities please refer to the Activities section
+To find out more about activities please refer to the [Activities](/organising-your-data/activities.md) section
 in this chapter.
 
 ### Mailings tab
@@ -264,7 +264,7 @@ mailing list sign-ups covered in a later section.
 
 ![Contact_GroupsTab](../img/CiviCRM_update-CiviCore-Contact_GroupsTab-en.jpg)
 
-For more on this topic, please refer to the Tags and Groups section of
+For more on this topic, please refer to the [Groups and Tags](/organising-your-data/groups-and-tags.md) section of
 the book. 
 
 ### Notes tab
@@ -300,7 +300,7 @@ will also show up as a list from which you can select.
 
 ![Contact_TagTab](../img/CiviCRM_update-CiviCore-Contact_TagTab-en.jpg "Contact_TagTab")
 
-For more on this topic, please refer to the Tags and Groups section of
+For more on this topic, please refer to the [Groups and Tags](/organising-your-data/groups-and-tags.md) section of
 the book.
 
 ### Change Log tab
@@ -457,7 +457,7 @@ you cannot delete the inbuilt contact types but you can change their
 names and the images associated with them. 
 
 To add custom fields to specific contact subtypes, see the chapter on
-custom fields.
+[custom fields](/organising-your-data/creating-custom-fields.md).
 
 ## Customizing the view of contacts
 
