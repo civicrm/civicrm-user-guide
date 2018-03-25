@@ -96,7 +96,7 @@ volunteer can record the responses directly into CiviCRM.
 ### Reviewing Results of the Survey
 
 At the end of the canvass, a program lead may want to review the results
-of the survey. Refer to the chapter Reports and Analysis to learn how to
+of the survey. Refer to the [Reports and Analysis](/survey/reports-and-analysis.md) chapter to learn how to
 view this report.
 
 ## Conducting a PhoneBank
@@ -118,10 +118,10 @@ Creating a survey for phonebanking is the same process as creating a
 survey for walklists.
 
 1.  Create a new group of contacts that you will be targeting during
-    your phone bank. To learn about working with groups, see the chapter
-    Tags and Groups.
+    your phone bank. To learn about working with groups, see the
+    [Groups and Tags](/organising-your-data/groups-and-tags.md) chapter.
 2.  Create a new Campaign (if you haven't already) by going
-    to **Campaigns > New Campaign**. Refer to the section Campaign to
+    to **Campaigns > New Campaign**. Refer to the [Campaign](/campaign/what-is-civicampaign.md) section to
     find out how to create a campaign and add the group of contacts you
     created.
 3.  Go to **Campaigns > Create New Survey** and create a new survey of
@@ -163,7 +163,7 @@ into CiviCRM.
 ### Reviewing Results of the Survey
 
 At the end of the phone bank, a program lead may want to review the
-results of the survey. Refer to the chapter Reports and Analysis to
+results of the survey. Refer to the [Reports and Analysis](/reporting/what-is-civireport.md) chapter to
 learn how to view this report.
 
 ## Mobilising Individuals to a Direct Action Event
@@ -191,7 +191,7 @@ be used to mobilise individuals:
 2.  From the search results or Group Contacts screen, you can add the
     list of contacts to the event by selecting **Add Contacts to Events**
     from the actions list. To find out more about how to add contacts to
-    events, refer to the Everyday Tasks chapter in the Events section in
+    events, refer to the [Mass Registrations](/events/manual-event-registration.md#mass-registrations) article in the [Events](/events/what-is-civievent.md) section in
     this book.
 3.  Once you have added the contacts to the event, you can enter
     participant information or responses from multiple interactions in
@@ -224,7 +224,7 @@ actions: **Phone Call, Meeting** or **Interview**.
     an activity such as **Meeting**.
 2.  Fill out the information about the activity, then enter the
     **Engagement Index**. To find out how to create options for the
-    Engagement Index, see the section called Campaign.
+    Engagement Index, see the [Campaign](/campaign/what-is-civicampaign.md) section of this book.
 
 ![Screenshot of an activity of type meeting. The engagement list is a dropdown list with numbers.](../img/engagement_index.jpg)
 
