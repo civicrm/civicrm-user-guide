@@ -24,7 +24,7 @@ be used in your Walklist survey.
     who live in a particular geographic area or district. (To learn
     about working with groups, see the chapter Tags and Groups.)
 2.  To create a new Campaign (if you haven't already) go to
-**Campaigns > New Campaign**. Refer to the section *Campaign* for detailed
+**Campaigns > New Campaign**. Refer to the section [Campaign](/campaign/everyday-tasks.md) for detailed
     instructions on how to create a campaign and add the group of
     contacts you created.
 3.  Go to **Campaigns > New Survey**; give the survey a title and
