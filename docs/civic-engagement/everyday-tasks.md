@@ -12,7 +12,7 @@ survey at the door.
 Door-knocking canvass activities may be one strategic activity that's
 part of a larger campaign, so you may want to set up a Campaign if you
 haven't done so already. To learn more about working with campaigns and
-surveys, refer to the sections Campaign and Survey respectively. You
+surveys, refer to the sections [Campaign](/campaign/what-is-civicampaign.md) and [Survey](/survey/what-is-civisurvey.md) respectively. You
 will also want to review the previous chapter called Set-Up in this
 section to learn more about setting the custom data sets and profiles to
 be used in your Walklist survey.
