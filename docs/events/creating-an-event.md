@@ -3,8 +3,8 @@
 This chapter covers how to create a new event, describing each of the
 set up options available in the event creation screen. If you going to
 allow online registration for the event, you will also want to read the
-*online event registration* chapter. If not, you'll want to read the
-*manual event registration* chapter.
+[online event registration](/events/online-event-registration.md) chapter. If not, you'll want to read the
+[manual event registration](/events/manual-event-registration.md) chapter.
 
 To get started, create a new event by choosing **Events > New Event**
 from the menu. (If you can't see the events menu, make sure that you
@@ -13,7 +13,7 @@ System Settings > Components**.)
 
 ## Event Information and Settings
 
-The first page you see when creating an event requests basic information
+The first page you see when creating an event requests basic information online
 about the event. You can click on any of the blue question marks to
 show help for each of the fields. When you see a pencil, clicking on it
 will take you to a screen where you can edit the options available.
