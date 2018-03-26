@@ -13,7 +13,7 @@ The standard flow for registering for an event is as follows:
 1.  Confirmation
 1.  Thank you
 
-![schematical representation](/img/CiviCRM-CiviEvent-event_registrationflow_1-en.gif "event_registrationflow_1")
+![schematical representation](../img/CiviCRM-CiviEvent-event_registrationflow_1-en.gif "event_registrationflow_1")
 
 The **event information** lists the event date, the location, the map link,
 contact information, and description. It also includes a link to the
@@ -34,7 +34,7 @@ To offer online registration, check **Allow Online Registration** in the
 Online Registration step of event creation and use the options on this
 form to configure this feature.
 
-![The forth tab of the event form contains the online registration settings.](/img/event_online_rego_part_1.png)
+![The fourth tab of the event form contains the online registration settings.](../img/event_online_rego_part_1.png)
 
 Define the text to be used as the **link** from the event information
 page to the registration form, and set the starting and ending dates for
@@ -74,11 +74,11 @@ cancellation. This feature is very useful when combined with scheduled
 reminders for automatically managing **Pending from pay later**
 registrations if you have allowed that payment option on your online
 registration page. (See the *Email* section for more details on
-[scheduled reminders](/email/scheduled-reminders.md))
+[scheduled reminders](../email/scheduled-reminders.md))
 
 **Allow self-service cancellation or transfer**: When selected, event participants will receive a "self-service" link in their confirmation email.  By clicking this link, they can opt to transfer and/or cancel their event registration.
 
-![image](/img/event_online_selfservice.png)
+![image](../img/event_online_selfservice.png)
 
 
 **Cancellation or transfer time limit (hours)**: When set, self-service cancellations and transfers will be disabled the selected number of hours prior to the start time of the event.
@@ -86,7 +86,7 @@ registration page. (See the *Email* section for more details on
 The next step is to define the text and the fields for collecting
 information that will be displayed on your online registration page.
 
-![screenshot](/img/event_online_rego_part_2.png)
+![screenshot](../img/event_online_rego_part_2.png)
 
 The introductory text comes at the top of the page and the footer text
 at the bottom. In between will come some, or all, of: profile, fee
@@ -122,15 +122,42 @@ without leaving the Online Registration configuration page. The drag and
 drop profile interface also allows you to create custom fields to
 include in the profile if you have not already done so. Custom fields
 can be created for all events or all participants, or only specific
-Event Types or Participant Roles (see the chapter [Custom data on
-events](/events/custom-data-for-events.md) in this section for more details on where you should store what
-custom data).
+Event Types or Participant Roles (see the chapter [Custom data on events](../events/custom-data-for-events.md)
+in this section for more details on where you should store what custom data).
 
-![New custom field set form on top of the edit profile form.](/img/Drag_and_drop_profile_for_event.png)
+![New custom field set form on top of the edit profile form.](../img/Drag_and_drop_profile_for_event.png)
 
-It is highly recommended that if you are charging for your event that you include a CPATCHA (reCAPTCHA in the case of CiviCRM).  You can add reCAPTCHA to a profile you include and it will be included on the Online Registration page.  
+Each profile appears on the registration form as a fieldset with a legend
+header.  The legend will be the profile Public Title if that is set, or else the
+Profile Name.  A good practice is to give profiles names that are useful for
+identifying profiles in a list and to give profiles public titles that make a
+good header for the form section.
 
-For more information read [Profiles](../organising-your-data/profiles).
+For example, if you make a copy of the Your Registration Info profile to add
+fields specifically for workshops, you could name the profile "Workshop
+Registration" and give it a Public Title "Your Registration Info".  That way,
+you'll be able to easily identify it when setting up new workshop registration
+forms, but the form will have the same header as others.
+
+A number of the [Advanced
+Settings](../organising-your-data/profiles/#advanced-settings) for profiles take
+effect when a profile is included in event online registration.  You cannot edit
+these from the editing interface within the online registration settings; you
+must go to the main profile settings form to make changes.
+
+-   **Adding contacts to a group.**  Note that many registrants do not wish or
+    expect to join a mailing list merely because they have signed up for an
+    event.
+-   **CMS User account registration options.**  A participant can be presented
+    with the option or requirement to log in or create a user account while
+    registering for the event.
+-   **Including ReCAPTCHA.**  A CAPTCHA can be added to make it more difficult
+    for both bots and people to register for the event.
+
+Other advanced settings, such as what to do upon duplicate match, are ignored on
+contribution pages.
+
+For more information read [Profiles](../organising-your-data/profiles.md).
 
 ## Registration confirmation
 
@@ -149,7 +176,7 @@ more staff emails (separating multiple email addresses with commas) to
 the **CC Confirmation To** field if you want real-time updates on who is
 registering for your event.
 
-![screenshot](/img/CiviCRM_update-CiviEvent-OnlineRegEmail-en.png "OnlineRegEmail")
+![screenshot](../img/CiviCRM_update-CiviEvent-OnlineRegEmail-en.png "OnlineRegEmail")
 
 Please note that the contents of the **Text** field will be included in
 both TEXT and HTML versions of receipt emails so we do not recommend
@@ -195,7 +222,7 @@ statuses**. You can then check the **Offer Waitlist** checkbox on
 the **Info and settings** tab, and set the message you want displayed on
 the event information page when the event is full.
 
-![screenshot](/img/CiviCRM_update-CiviEvent-EventInfo2-en.png "EventInfo2")
+![screenshot](../img/CiviCRM_update-CiviEvent-EventInfo2-en.png "EventInfo2")
 
 Note that in order for the status processing to happen, you need to have
 the **Update Participant Statuses** scheduled job
@@ -279,7 +306,7 @@ you get familiar with that chapter at some point. This section just
 covers contact matching and duplicate management in the context of
 CiviEvent.
 
-![Expanded list of matching rules.](/img/event-duplicate-matching.png)
+![Expanded list of matching rules.](../img/event-duplicate-matching.png)
 
 By default, CiviEvent uses the Unsupervised rule to do matching. When
 you configure an event for online registration, you can override the
