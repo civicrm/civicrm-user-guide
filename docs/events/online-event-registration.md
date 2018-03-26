@@ -34,7 +34,7 @@ To offer online registration, check **Allow Online Registration** in the
 Online Registration step of event creation and use the options on this
 form to configure this feature.
 
-![The forth tab of the event form contains the online registration settings.](../img/event_online_rego_part_1.png)
+![The fourth tab of the event form contains the online registration settings.](../img/event_online_rego_part_1.png)
 
 Define the text to be used as the **link** from the event information
 page to the registration form, and set the starting and ending dates for
@@ -127,7 +127,23 @@ in this section for more details on where you should store what custom data).
 
 ![New custom field set form on top of the edit profile form.](../img/Drag_and_drop_profile_for_event.png)
 
-It is highly recommended that if you are charging for your event that you include a CPATCHA (reCAPTCHA in the case of CiviCRM).  You can add reCAPTCHA to a profile you include and it will be included on the Online Registration page.  
+A number of the [Advanced
+Settings](../organising-your-data/profiles/#advanced-settings) for profiles take
+effect when a profile is included in event online registration.  You cannot edit
+these from the editing interface within the online registration settings; you
+must go to the main profile settings form to make changes.
+
+-   **Adding contacts to a group.**  Note that many registrants do not wish or
+    expect to join a mailing list merely because they have signed up for an
+    event.
+-   **CMS User account registration options.**  A participant can be presented
+    with the option or requirement to log in or create a user account while
+    registering for the event.
+-   **Including ReCAPTCHA.**  A CAPTCHA can be added to make it more difficult
+    for both bots and people to register for the event.
+
+Other advanced settings, such as what to do upon duplicate match, are ignored on
+contribution pages.
 
 For more information read [Profiles](../organising-your-data/profiles.md).
 
