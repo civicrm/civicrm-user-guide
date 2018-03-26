@@ -140,8 +140,7 @@ Registration" and give it a Public Title "Your Registration Info".  That way,
 you'll be able to easily identify it when setting up new workshop registration
 forms, but the form will have the same header as others.
 
-A number of the [Advanced
-Settings](../organising-your-data/profiles/#advanced-settings) for profiles take
+A number of the [Advanced Settings](/organising-your-data/profiles.md#advanced-settings) for profiles take
 effect when a profile is included in event online registration.  You cannot edit
 these from the editing interface within the online registration settings; you
 must go to the main profile settings form to make changes.
@@ -158,7 +157,7 @@ must go to the main profile settings form to make changes.
 Other advanced settings, such as what to do upon duplicate match, are ignored on
 contribution pages.
 
-For more information read [Profiles](../organising-your-data/profiles).
+For more information read [Profiles](/organising-your-data/profiles.md).
 
 ## Registration confirmation
 
