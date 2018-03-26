@@ -127,6 +127,18 @@ in this section for more details on where you should store what custom data).
 
 ![New custom field set form on top of the edit profile form.](../img/Drag_and_drop_profile_for_event.png)
 
+Each profile appears on the registration form as a fieldset with a legend
+header.  The legend will be the profile Public Title if that is set, or else the
+Profile Name.  A good practice is to give profiles names that are useful for
+identifying profiles in a list and to give profiles public titles that make a
+good header for the form section.
+
+For example, if you make a copy of the Your Registration Info profile to add
+fields specifically for workshops, you could name the profile "Workshop
+Registration" and give it a Public Title "Your Registration Info".  That way,
+you'll be able to easily identify it when setting up new workshop registration
+forms, but the form will have the same header as others.
+
 A number of the [Advanced
 Settings](../organising-your-data/profiles/#advanced-settings) for profiles take
 effect when a profile is included in event online registration.  You cannot edit
