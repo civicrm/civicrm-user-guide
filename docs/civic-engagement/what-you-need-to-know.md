@@ -168,7 +168,7 @@ These subtypes allow you to track specific contacts such as funders and foundati
     custom field set; staffers and spokespeople for an elected official
     can also be entered with the Elected Official subtype.
 
-See the next chapter, [Set-up](/civic-engagement/set-up/#civiengage-contact-subtypes) for information about how to tailor
+See the next chapter, [Set-up](/civic-engagement/set-up.md#civiengage-contact-subtypes) for information about how to tailor
 subtypes.
 
 ## Key Questions

@@ -11,7 +11,7 @@ ticking the option **Send Receipt?**. The off-line contribution receipt will be
 sent when you click **Save**.
 
 You can send off-line contribution receipts to multiple contacts at the same
-time through the [Find Contributions](../contributions/finding-and-viewing-contributions)
+time through the [Find Contributions](/contributions/finding-and-viewing-contributions.md)
 search. After selecting the contacts you wish to send a receipt to, choose
 **Receipts - print or email** from the actions drop-down menu.
 

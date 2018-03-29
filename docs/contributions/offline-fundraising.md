@@ -7,7 +7,7 @@ ensure that final reporting is accurate.
 
 There are three steps within CiviCRM for offline fundraising: creating
 your lists, creating your mailings, and
-[manually entering contributions](../contributions/manual-entry-of-contributions).
+[manually entering contributions](/contributions/manual-entry-of-contributions.md).
 
 ## Creating your lists
 

@@ -11,7 +11,7 @@ accurate.
 ## Adding contributions manually one by one
 
 If the donor does not already exist in the database, you need to first
-create a new contact record for them; see [Contacts](../organising-your-data/contacts)
+create a new contact record for them; see [Contacts](/organising-your-data/contacts.md)
 for information on how to do this. Once the record is created, you can then
 enter the contribution.
 
