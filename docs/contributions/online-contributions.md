@@ -86,7 +86,7 @@ processors. You can do this by setting up multiple processors, and checking the
 -  You can check **Recurring contributions** if you payment processor and its integration with CiviCRM support recurring billing and you want to allow this feature. (There are restrictions on recurring payments when [membership fees](/membership/defining-memberships.md) are being paid.) If you check **Recurring contributions** further settings become visible.
   - You can either set one frequency (e.g. a user can donate their chosen amount monthly) or allow for more user flexibility, where they can decide their own interval and/or number of installations (e.g. a user can donate their chosen amount once every three months for 12 installments).
 -  Check the **Pledges** box to give users the opportunity to [pledge
-    future payments](/pledges/what-is-civipledge).
+    future payments](/pledges/what-is-civipledge.md).
 -  Decide on the label for the Contribution amount area on your page.
 -  Check **Allow other amounts** to give users the option to pay any
     amount they choose. You can set a minimum and a maximum amount for "Other Amount" contributions if you want to.
@@ -157,7 +157,7 @@ To add a profile to a contribution form:
     ![Include profile top of page listbox, and include profile bottom of page listbox.](/img/Profiles-HomeAddress.jpg)
 
 A number of the [Advanced
-Settings](/organising-your-data/profiles/#advanced-settings) for profiles take
+Settings](/organising-your-data/profiles.md#advanced-settings) for profiles take
 effect when a profile is included in a contribution page.  You cannot edit these
 from the editing interface within the contribution page settings; you must go to
 the main profile settings form to make changes.

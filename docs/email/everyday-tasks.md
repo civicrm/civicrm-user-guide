@@ -2,7 +2,7 @@
 
 This chapter contains step-by-step instructions for performing some important
 everyday tasks with email. Sending a mass mailing through CiviMail is covered
-in [Mass mailings using CiviMail](/email/mass-mailings-using-civimail)
+in [Mass mailings using CiviMail](/email/mass-mailings-using-civimail.md)
 
 ## Send an email to one person (with CC and BCC)
 

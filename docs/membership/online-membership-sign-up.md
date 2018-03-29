@@ -41,7 +41,7 @@ to collect information about the people or organisations that are
 filling out your membership form.
 
 We recommend you also review the chapters on creating [online
-contribution pages](/contributions/online-contributions) which will give you
+contribution pages](/contributions/online-contributions.md) which will give you
 a better understanding of all the
 tools you have at your disposal when creating membership pages.
 

@@ -80,7 +80,7 @@ general process is:
     
     !!! note
         The SMS option will only be available if you have 
-        [set up an SMS Gateway](/sms-text-messaging/set-up)
+        [set up an SMS Gateway](/sms-text-messaging/set-up.md)
     
 9.  Compose your message. You can use Message Templates or write the
     message from scratch.

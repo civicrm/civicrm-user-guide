@@ -104,7 +104,7 @@ associated with a campaign; simply select the appropriate campaign from
 the drop-down menu when recording the contribution.
 
 To find out more about configuring and using CiviContribute, see the
-[Contributions](/contributions/key-concepts-and-configurations.md/) section.
+[Contributions](/contributions/key-concepts-and-configurations.md) section.
 
 ## Record event participation
 
