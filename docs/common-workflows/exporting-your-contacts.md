@@ -26,7 +26,7 @@ Here's how you can export contact information:
 1.  Search for contacts. Carry out a search based on your desired
     criteria using one of the available search tools, e.g. Quick search,
     Find Contacts, Advanced search, Search Builder, or a custom search
-    (You can find out more about performing searches in [Searching](../the-user-interface/searching).
+    (You can find out more about performing searches in [Searching](/the-user-interface/searching).
 
 2.  Select contacts you wish to export. Select all records, or choose
     individual records for export using the check-boxes to the left of

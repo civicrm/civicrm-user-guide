@@ -534,7 +534,7 @@ purposes are shown below:
 The image below shows the search mode for our membership directory.
 
 ![Member Directory Search
-Form](../img/CiviCRM-CapturingExposing-buildprofile-MemberDirSearchForm-en.png "MemberDirSearchForm")
+Form](/img/CiviCRM-CapturingExposing-buildprofile-MemberDirSearchForm-en.png "MemberDirSearchForm")
 
 Once you hit search you get this result set. Profile fields that have
 Results Column checked are shown in the listing.
@@ -545,7 +545,7 @@ Clicking the view link gives you more details about the constituent,
 showing all profile fields.
 
 ![Profile Member
-View](../img/CiviCRM-CapturingExposing-buildprofile-MemberView-en.png "MemberView")
+View](/img/CiviCRM-CapturingExposing-buildprofile-MemberView-en.png "MemberView")
 
 As we've seen, building a directory for your website can provide a
 valuable tool for your constituents.
@@ -653,7 +653,7 @@ registration option" under **Customize Data and Screens > Profiles**  click **Se
 profile fields.
 
 ![Profile user registration
-options](../img/CiviCRM-CapturingExposing-buildprofile-CMS_user_reg-en.png "CMS_user_reg")
+options](/img/CiviCRM-CapturingExposing-buildprofile-CMS_user_reg-en.png "CMS_user_reg")
 
 You must include a Primary Email Address field in the profile for this
 feature to function properly. This feature also works when the profile

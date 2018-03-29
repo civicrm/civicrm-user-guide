@@ -59,7 +59,7 @@ in order to be returned, so the more criteria you enter, the narrower the search
 
  - **Update multiple contributions**: This is useful if you want to update a
  large number of contributions' thank-you date at once, for example. You need to
- [create the profile](../organising-your-data/profiles) you want to use *before*
+ [create the profile](/organising-your-data/profiles) you want to use *before*
  you perform the search and batch update.
 
  - **Delete contributions**: This removes contributions entirely from the

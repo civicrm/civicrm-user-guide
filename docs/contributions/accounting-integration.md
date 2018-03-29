@@ -8,7 +8,7 @@ batch data entry as an accounting batch.
 
 ## Use a batch created through Batch Data Entry
 
-Batch entry of transactions is covered in [Manual Entry of Contributions](../contributions/manual-entry-of-contributions)
+Batch entry of transactions is covered in [Manual Entry of Contributions](/contributions/manual-entry-of-contributions)
 
 After you validate and close a batch, it will appear in the accounting batch
 listing with a status of Closed.

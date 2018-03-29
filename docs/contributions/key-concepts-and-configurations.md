@@ -102,7 +102,7 @@ CiviCRM provides you with the ability to take payments online on your
 website. You can take payments for a variety of reasons including
 fundraising campaigns, membership dues and event attendance.
 
-To start taking payments online you need to [configure a payment processor](../contributions/payment-processors)
+To start taking payments online you need to [configure a payment processor](/contributions/payment-processors)
 which will connect your website to the credit card and banking
 infrastructure that actually processes the payment.
 
@@ -143,4 +143,4 @@ of useful functionality is built in to the core contribution fields so
 there's no point in duplicating them with custom fields, but your
 organisation may have specific needs that require custom fields.
 
-If you do need to create custom fields to meet your needs, read [Creating Custom Fields](../organising-your-data/creating-custom-fields).
+If you do need to create custom fields to meet your needs, read [Creating Custom Fields](/organising-your-data/creating-custom-fields).
