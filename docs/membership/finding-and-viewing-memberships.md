@@ -103,7 +103,7 @@ data and return membership data.
 -   Click on **Memberships > Find Members >**, enter your criteria.
     Click the **Search** button.
 
-![image](/img/memberships%20find%20memberships.JPG)
+![image](/img/memberships_find_memberships.jpg)
 
 The **Advanced search** allows you to search based on some limited
 membership information (combined with other contact information) and

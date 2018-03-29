@@ -65,7 +65,7 @@ offer , you can do so by using the membership templates.
 -   On the Create New Report Template screen, click on one of the
     membership report templates, and begin entering your criteria
 
-![image](/img/memberships%20create%20new%20membership%20report_1.JPG)
+![image](/img/memberships_create_new_membership_report_1.jpg)
 
 -   Once you've entered your criteria, click the **Preview Report**
     button to check your results
@@ -97,7 +97,7 @@ To export membership records:
 -   You can select **Export PRIMARY fields** or **Select fields for
     import ** and click the **CONTINUE** button
 
-![image](/img/memberships%20export%20memberships%20screen.JPG)
+![image](/img/memberships_export_memberships_screen.jpg)
 
 -   If you selected **Export PRIMARY fields**, a file called
     CiviCRM_Member_Search.csv will be created containing the
@@ -110,4 +110,4 @@ To export membership records:
     membership records based on your search criteria and the fields you
     selected to export.
 
-![image](/img/memberships%20select%20fields%20to%20export.JPG)
+![image](/img/memberships_select_fields_to_export.jpg)
