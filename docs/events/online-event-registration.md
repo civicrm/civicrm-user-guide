@@ -13,7 +13,7 @@ The standard flow for registering for an event is as follows:
 1.  Confirmation
 1.  Thank you
 
-![schematical representation](/img/CiviCRM-CiviEvent-event_registrationflow_1-en.gif "event_registrationflow_1")
+![schematical representation](/img/CiviCRM-CiviEvent-event_registrationflow_1-en.png "event_registrationflow_1")
 
 The **event information** lists the event date, the location, the map link,
 contact information, and description. It also includes a link to the

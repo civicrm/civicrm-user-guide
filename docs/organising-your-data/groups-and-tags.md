@@ -243,7 +243,7 @@ within the group. You can search contacts within a group by name, email
 address, contact type, group status (added, removed, or pending) and
 tags.
 
-![Groups_searchwithin](/img/CiviCRM_update-CiviCore-Groups_searchwithin-en.jpg "Groups_searchwithin")
+![Groups_searchwithin](/img/CiviCRM_update-CiviCore-Groups_searchwithin-en.png "Groups_searchwithin")
 
 ## Groups and ACL
 

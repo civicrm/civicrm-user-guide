@@ -16,7 +16,7 @@ blocks of information that display a summary or your recent memberships,
 categorised by type and date range, and a list of recent member
 activity.
 
-![image](/img/CiviCRM-CiviMember-Memebership-Summary_2.jpg)
+![image](/img/CiviCRM-CiviMember-Memebership-Summary_2.png)
 
 
 All of the summary numbers are hot-linked. Simply click on a number to
@@ -38,7 +38,7 @@ contact's record and looking at the Membership tab.
 After finding the contact you wish to manage, click the "Membership" tab to 
 view a summary of the contact's membership records.
 
-![image](/img/CiviCRM_update-CiviCore-Contact_MembershipTabs-en.jpg)
+![image](/img/CiviCRM_update-CiviCore-Contact_MembershipTabs-en.png)
 
 Membership records appear in a list with active memberships (those with
 a current status) first and followed by expired or canceled memberships.
@@ -103,7 +103,7 @@ data and return membership data.
 -   Click on **Memberships > Find Members >**, enter your criteria.
     Click the **Search** button.
 
-![image](/img/memberships_find_memberships.jpg)
+![image](/img/memberships_find_memberships.png)
 
 The **Advanced search** allows you to search based on some limited
 membership information (combined with other contact information) and

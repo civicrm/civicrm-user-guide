@@ -317,4 +317,4 @@ scheduled reminder you should:
 2.  Create a smart group from the search results.
 3.  Select this smart group as the **Recipients** of the scheduled reminder.
 
-![Search builder with the two criteria.](/img/do-not-email-search-builder.jpg)
+![Search builder with the two criteria.](/img/do-not-email-search-builder.png)

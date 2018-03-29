@@ -154,7 +154,7 @@ To add a profile to a contribution form:
     entered in the profile. (If the profile is included at the bottom of the
     page, this checkbox will not be generated).
 
-    ![Include profile top of page listbox, and include profile bottom of page listbox.](/img/Profiles-HomeAddress.jpg)
+    ![Include profile top of page listbox, and include profile bottom of page listbox.](/img/Profiles-HomeAddress.png)
 
 A number of the [Advanced
 Settings](../organising-your-data/profiles/#advanced-settings) for profiles take

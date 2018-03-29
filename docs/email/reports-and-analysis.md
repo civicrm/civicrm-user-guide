@@ -14,7 +14,7 @@ of the items when you set up your mailing.
 
 ### Delivery summary
 
-![report_email](/img/report_email-en.gif "report_email")
+![report_email](/img/report_email-en.png "report_email")
 
 The delivery summary shows some high-level statistics about the mailing.
 Clicking on the links in the Delivery Summary will show a list of the

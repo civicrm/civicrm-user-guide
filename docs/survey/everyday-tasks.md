@@ -95,7 +95,7 @@ On the Reserve Respondents screen, click **Reserve**.
  -   Click **Reserve More Respondents** to find more contacts to be
      interviewed.
 
-![image](/img/record_survey_responses.jpg)
+![image](/img/record_survey_responses.png)
 
 ### Reviewing Results of the Survey
 
@@ -125,7 +125,7 @@ haven't done so already.
 5.  Click **Preview Report**, then **Print Preview**.   
 6.  **Print your report.** You will see that the print out includes a cover sheet with the survey questions (both label and value) and and that the report is sorted by street name and odd and even street numbers. See [Set up](/survey/set-up.md) for more information. 
 
-![image](/img/walklist_cover_sheet.jpg)
+![image](/img/walklist_cover_sheet.png)
 
 ### Conduct your door-knock canvass
 

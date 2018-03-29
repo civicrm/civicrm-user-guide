@@ -167,12 +167,12 @@ cancel the auto-renewal.
 -   Navigate to **Memberships** **> New Membership**, then select the
     contact or create a new contact. 
 
-![image](/img/memberships_add_membership_new_contact.jpg)
+![image](/img/memberships_add_membership_new_contact.png)
 
 -   Fill out the New Member form with the appropriate membership and
     payment information as in *Via an existing contact record* above.
 
-![image](/img/memberships_add_membership_via_menu.jpg)
+![image](/img/memberships_add_membership_via_menu.png)
 
 ## Gift Memberships
 

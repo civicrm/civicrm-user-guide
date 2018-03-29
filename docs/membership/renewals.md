@@ -208,5 +208,5 @@ To use the **Batch Update Members Via Profile** feature:
     the **Membership Start Date** fields for use with the **Batch Update
     Members Via Profile**. 
 
-![image](/img/Memberships-Everydaytasks-batchupdateviaprofile-batchupdateformembers.jpg)
+![image](/img/Memberships-Everydaytasks-batchupdateviaprofile-batchupdateformembers.png)
 
