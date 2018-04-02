@@ -6,9 +6,9 @@ create membership sign up pages, some things to consider when doing so
 (including testing your membership pages), and the ways in which you can
 integrate membership sign up pages into your website.
 
-Before reading this chapter, you may wish to read the chapter *Defining
-memberships* which gives useful background to many concepts (like
-membership types, membership statuses, and so on).
+Before reading this chapter, you may wish to read the chapter [*Defining
+memberships*](https://docs.civicrm.org/user/en/latest/membership/defining-memberships) which gives useful background to many concepts (like
+membership types and membership statuses).
 
 ## About membership sign up pages
 
@@ -37,7 +37,7 @@ In this chapter, we concentrate on the tabs and options of contribution
 pages that are most useful for memberships. A couple of tabs that are
 worth highlighting include the Memberships tab, which contains the bulk
 of the membership configuration, and the Profiles tab, which allows you
-to collect information about the people or organisations that are
+to collect information about the people or organizations that are
 filling out your membership form.
 
 We recommend you also review the chapters on creating [online

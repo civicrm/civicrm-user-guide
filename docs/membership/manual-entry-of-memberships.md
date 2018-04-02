@@ -2,7 +2,7 @@
 
 Although CiviCRM provides a tool set allowing website contacts to
 self-serve and become members without intervention required on the part
-of office staff (which can be very powerful and save organizations a lot
+of office staff (which can be very powerful and save organisations a lot
 of administration time), there are many situations when memberships need
 to be processed manually. This chapter describes the various ways in
 which office staff (or any appropriately permissioned users) can
