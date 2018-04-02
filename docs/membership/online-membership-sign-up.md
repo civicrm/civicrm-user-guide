@@ -37,7 +37,7 @@ In this chapter, we concentrate on the tabs and options of contribution
 pages that are most useful for memberships. A couple of tabs that are
 worth highlighting include the Memberships tab, which contains the bulk
 of the membership configuration, and the Profiles tab, which allows you
-to collect information about the people or organizations that are
+to collect information about the people or organisations that are
 filling out your membership form.
 
 We recommend you also review the chapters on creating [online
@@ -61,7 +61,7 @@ simple HTML in this introductory text.
 The title tab contains a check box to allow people to become members *on
 behalf of* an organisation, which is the recommended way to offer
 organisational memberships. When enabled, you are prompted to select a
-profile (see the profiles chapter for more information) that will be
+[profile ](https://docs.civicrm.org/user/en/latest/organising-your-data/profiles/)that will be
 used to collect organisational information. Organisational sign up can
 either be optional or required.
 
@@ -74,7 +74,7 @@ the payment processor that is used on the page. Note that you can select
 more than one payment processor which will give people who are signing
 up a choice. For more information on setting up payment processors, and
 things to consider when choosing a payment processor see the chapter
-*Payment processors*.
+[*Payment processors*.](https://docs.civicrm.org/user/en/latest/contributions/payment-processors/)
 
 ![image](../img/contribution%20amounts.jpg)
 

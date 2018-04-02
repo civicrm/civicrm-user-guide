@@ -89,7 +89,7 @@ your mailing lists with the use of a profile that is then displayed on a
 public page. Guidelines on what you need to think about when using
 profiles for mailing list sign-ups are below; for more complete
 information about profiles, how they work, and how to set them up, see
-the **Profiles** chapter in the **Data in CiviCRM** section.
+the [**Profiles**](https://docs.civicrm.org/user/en/latest/organising-your-data/profiles/) chapter in the **Data in CiviCRM** section.
 
 For example, you could create a new Profile called Newsletter Sign-up.
 Add to this profile the fields that you'd like website visitors who want

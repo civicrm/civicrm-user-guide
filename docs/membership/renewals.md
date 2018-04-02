@@ -144,7 +144,7 @@ configure a **Default Online Membership Renewal Page** as follows:
 1.  If it does not already exist, create a membership page that includes
     all currently available memberships. (You may need to use a price
     set for this if the membership fees need to be allocated to more
-    than one financial type. Refer to *Membership price sets* for more
+    than one financial type. Refer to [*Membership price sets*](https://docs.civicrm.org/user/en/latest/membership/membership-price-sets/) for more
     details.)
 
 2.  Navigate to **Administer > CiviMember > CiviMember Component

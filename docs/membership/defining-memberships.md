@@ -90,9 +90,9 @@ a membership if they want to.
 This is appropriate for many organisations. However, if you have more
 complex accounting needs, you can specify different financial types that
 will allow you to account for different membership payments in different
-ways. For more details see the *Accounting Integration* chapter in the
+ways. For more details see the [*Financial Types*](https://docs.civicrm.org/user/en/latest/contributions/key-concepts-and-configurations/#financial-types)chapter in the
 *Contributions* section. If you need more fine grained control over
-financial types you may want to look at using *membership price sets*.
+financial types you may want to look at using [*Membership Price Sets*](https://docs.civicrm.org/user/en/latest/membership/membership-price-sets/).
 
     Note that the financial type can be overridden for specific public
     membership sign up pages, and also when recording a membership in the
