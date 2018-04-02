@@ -135,7 +135,6 @@ increase the cost of registration as the date of the event gets closer.
 
 Discount sets and discounts via price sets are out-of-the-box CiviCRM
 that allow you to do offer discounts based on sign up dates. If you want
-to get more sophisticated, you can install the CiviDiscount extension.
+to get more sophisticated, you can install the [CiviDiscount extension](https://civicrm.org/extensions/cividiscount).
 This allows you to give a variety of discounts, using things like
-Discount codes, discounts based on membership status, and so on. See
-*CiviDiscount* documentation for more detailed information.
+Discount codes, discounts based on membership status, and so on. 
