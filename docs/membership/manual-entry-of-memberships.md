@@ -2,7 +2,7 @@
 
 Although CiviCRM provides a tool set allowing website contacts to
 self-serve and become members without intervention required on the part
-of office staff (which can be very powerful and save organisations a lot
+of office staff (which can be very powerful and save organizations a lot
 of administration time), there are many situations when memberships need
 to be processed manually. This chapter describes the various ways in
 which office staff (or any appropriately permissioned users) can
@@ -69,7 +69,7 @@ membership ***OR***
 
 -   **Choose Price Set**: select Choose Price Set rather than Membership
 Organization and Type if you have various fee structures for different
-classes of memberships. (see the chapter *membership price sets* for more
+classes of memberships. (see [*membership price sets* ](https://docs.civicrm.org/user/en/latest/membership/membership-price-sets/)for more
 details) 
 
 -   **Number of Terms:** enter the number of membership periods or terms
@@ -106,8 +106,8 @@ the Membership.
 membership record. As indicated by the title, it overrides the status
 automatically provided. You should use caution with this field as
 setting it will stop the status from automatically updating based on the
-membership status rules you have set up (see the chapter *Defining
-memberships).*
+membership status rules you have set up ([*Defining
+memberships*](https://docs.civicrm.org/user/en/latest/membership/defining-memberships/)).
 
 -   **Record Membership Payment?**: by checking the box and completing the
 transaction fields displayed, you will record the money paid for the
@@ -220,10 +220,8 @@ set of membership records that comes from a source outside of CiviCRM.
 This feature can also be used to update large numbers of existing
 memberships with new information.
 
-You should read the *Importing Data* chapter in the *Common Workflows*
-section, before you begin importing memberships since this gives lots of
-relevant general information. Here are a few details specific to
-membership importing that you should be familiar with.
+You should read the [*Importing Data*](https://docs.civicrm.org/user/en/latest/common-workflows/importing-data-into-civicrm/) section under *Common Workflows*, before you begin importing memberships. This gives you lots of
+relevant general information on importing data in CiviCRM and specifically on [importing memberships](https://docs.civicrm.org/user/en/latest/common-workflows/importing-data-into-civicrm/#import-memberships). 
 
 -   Contact records must exist before you import membership data. If
     you want to import membership data for contacts that do not yet
