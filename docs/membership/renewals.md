@@ -142,10 +142,8 @@ members whose initial membership was entered manually unless you
 configure a **Default Online Membership Renewal Page** as follows:
 
 1.  If it does not already exist, create a membership page that includes
-    all currently available memberships. (You may need to use a price
-    set for this if the membership fees need to be allocated to more
-    than one financial type. Refer to *Membership price sets* for more
-    details.)
+    all currently available memberships. You may need to use a [Membership price set](/membership/membership-price-sets.md) for this if the membership fees need to be allocated to more
+    than one financial type.
 
 2.  Navigate to **Administer > CiviMember > CiviMember Component
     Settings.**

@@ -86,13 +86,12 @@ membership type. The reason we call this field the *minimum* amount is
 that we have an option to encourage people pay more than the minimum for
 a membership if they want to. 
 
--   **Financial type**: The default financial type for a membership type is **Member Dues**.
+-   **Financial type**: The default [financial type](/contributions/key-concepts-and-configurations.md#financial-types) for a membership type is **Member Dues**.
 This is appropriate for many organisations. However, if you have more
 complex accounting needs, you can specify different financial types that
 will allow you to account for different membership payments in different
-ways. For more details see the *Accounting Integration* chapter in the
-*Contributions* section. If you need more fine grained control over
-financial types you may want to look at using *membership price sets*.
+ways. If you need more fine grained control over
+financial types you can use [Membership Price Sets](/membership/membership-price-sets.md).
 
     Note that the financial type can be overridden for specific public
     membership sign up pages, and also when recording a membership in the

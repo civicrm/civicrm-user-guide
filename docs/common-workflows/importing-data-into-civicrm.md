@@ -440,6 +440,9 @@ existing membership, and the Membership Type and Membership Start Date
 fields in you CSV file, even if the values you import for those fields
 are no different from the values already in your database.
 
+!!! tip "See also"
+    [Importing memberships](/membership/manual-entry-of-memberships.md#importing-memberships) in the Memberships chapter. 
+
 ## Import Participants
 
 In each import session you can either insert new registrations or update

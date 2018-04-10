@@ -27,9 +27,8 @@ It offers two membership types:
 These membership types must be defined before you create the price set.
 (Refer to *Defining Memberships* chapter.) 
 
-You must also have defined all the financial types you will need before
-you can create the price set. (Refer to the *Contributions* section for
-information on financial types)
+You must also have defined all the [financial types](/contributions/key-concepts-and-configurations.md#financial-types) you will need before
+you can create the price set.
 
 Membership price sets can be used in online join up or renewal pages or
 for new member sign ups processed manually through the CiviCRM back
@@ -170,8 +169,7 @@ The combination of the two price fields described so far will let
 someone sign up for a minimum of 1 and a maximum of 2 memberships.
 Remember the two memberships will need to be linked to two different
 organisations as a contact can only have one active membership with a
-specific organisation. (See the *Defining memberships* chapter for more
-information.)
+specific organisation. See [Defining Memberships](/membership/defining-memberships.md) for more information.
 
 ## Non-membership Price fields 
 
