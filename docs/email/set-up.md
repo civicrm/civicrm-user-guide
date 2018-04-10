@@ -84,12 +84,8 @@ list groups.
 
 ### Using a profile
 
-Alternatively, you can collect more information when people sign up to
-your mailing lists with the use of a profile that is then displayed on a
-public page. Guidelines on what you need to think about when using
-profiles for mailing list sign-ups are below; for more complete
-information about profiles, how they work, and how to set them up, see
-the [**Profiles**](https://docs.civicrm.org/user/en/latest/organising-your-data/profiles/) chapter in the **Data in CiviCRM** section.
+Alternatively, you can use [profiles](/organising-your-data/profiles.md) to collect more information from people who sign up to
+your mailing list.
 
 For example, you could create a new Profile called Newsletter Sign-up.
 Add to this profile the fields that you'd like website visitors who want

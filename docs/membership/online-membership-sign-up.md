@@ -6,9 +6,9 @@ create membership sign up pages, some things to consider when doing so
 (including testing your membership pages), and the ways in which you can
 integrate membership sign up pages into your website.
 
-Before reading this chapter, you may wish to read the chapter [*Defining
-memberships*](https://docs.civicrm.org/user/en/latest/membership/defining-memberships) which gives useful background to many concepts (like
-membership types and membership statuses).
+Before reading this chapter, you may wish to read [Defining
+Memberships](/membership/defining-memberships.md), which gives useful background to many concepts (like
+membership types and membership statuses.
 
 ## About membership sign up pages
 
@@ -61,7 +61,7 @@ simple HTML in this introductory text.
 The title tab contains a check box to allow people to become members *on
 behalf of* an organisation, which is the recommended way to offer
 organisational memberships. When enabled, you are prompted to select a
-[profile ](https://docs.civicrm.org/user/en/latest/organising-your-data/profiles/)that will be
+[profile](/organising-your-data/profiles.md) that will be
 used to collect organisational information. Organisational sign up can
 either be optional or required.
 
@@ -71,10 +71,8 @@ either be optional or required.
 
 The amounts tab allows you to set various financial options, including
 the payment processor that is used on the page. Note that you can select
-more than one payment processor which will give people who are signing
-up a choice. For more information on setting up payment processors, and
-things to consider when choosing a payment processor see the chapter
-[*Payment processors*.](https://docs.civicrm.org/user/en/latest/contributions/payment-processors/)
+more than one [payment processor](/contributions/payment-processors.md) which will give people who are signing
+up a choice.
 
 ![image](../img/contribution%20amounts.jpg)
 

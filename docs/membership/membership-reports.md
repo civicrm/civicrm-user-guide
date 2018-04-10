@@ -6,10 +6,7 @@ memberships.
 The membership dashboard gives a quick summary of your current
 memberships, displaying information for each membership type such as
 current totals of members, and then a break down for last month, this
-month and current year to date totals. You can also search for specific
-membership details using **Advanced Search** or **Find Memberships**. To
-learn more about the membership dashboard and using the search features
-to find your memberships, refer to the[ *Finding and viewing memberships*](https://docs.civicrm.org/user/en/latest/membership/finding-and-viewing-memberships/) chapter.
+month and current year to date totals. You can also [search for specific membership details](/membership/finding-and-viewing-memberships.md#searching) using **Advanced Search** or **Find Memberships**.
 
 This chapter will show you how to view and create membership reports as
 well as export membership information so you can do further analysis. 
@@ -73,7 +70,7 @@ offer , you can do so by using the membership templates.
     membership report by clicking **Create Report**, then enter the
     information you want to save this as a new membership report.
 
-To learn more about working with reports, see the [*Reporting*](https://docs.civicrm.org/user/en/latest/reporting/what-you-need-to-know/) section.
+See [Reporting](/reporting/what-you-need-to-know.md) to learn more about working with reports, in general. 
 
 ## Exporting membership records
 
@@ -83,9 +80,8 @@ reports outside of CiviCRM. Exporting membership records allows you to
 select a default set of primary fields or choose fields that are
 specific to the membership record for export.
 
-You will need to first search for the specific membership records you
-would like to export. To learn more about how to search for membership
-records, refer to the [*Finding Memberships*](https://docs.civicrm.org/user/en/latest/membership/finding-and-viewing-memberships/) chapter.
+You will need to first [search for the specific membership records](/membership/finding-and-viewing-memberships.md#searching) you
+would like to export.
 
 To export membership records:
 

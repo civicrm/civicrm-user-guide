@@ -81,7 +81,7 @@ To send email to members:
     Email to Contacts**.
 
 
-## Searching based on membership data
+## Searching based on membership data {:#searching}
 
 CiviCRM makes an important distinction between contacts and memberships,
 which is blurred when we talking about 'members'. Consider the
