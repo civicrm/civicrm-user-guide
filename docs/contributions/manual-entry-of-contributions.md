@@ -110,7 +110,7 @@ You can edit or delete Batch information later on by going back to the
 **Bulk Data Entry** screen, then clicking on **Edit** or **Delete** next to
 the batch you want.
 
-![screenshot](/img/CiviCRM-Contributions-everydaytasks-batches-lists.jpg)
+![screenshot](/img/CiviCRM-Contributions-everydaytasks-batches-lists.png)
 
 ### 2. Enter Contribution, Membership or Pledge Payments (check, cash, EFT, etc.)
 
@@ -118,7 +118,7 @@ Once you enter information about the batch, you can begin entering
 payments on each
 line.
 
-![Editable table for contributions.](/img/CiviCRM-Contributions-everydaytasks-batchentrycontrib.jpg)
+![Editable table for contributions.](/img/CiviCRM-Contributions-everydaytasks-batchentrycontrib.png)
 
 There are eight fields that appear for all batches:
 
@@ -216,7 +216,7 @@ the count or total don't match. In this case, you either:
 -   You can continue entering or editing the payments for the batch,
     then **Validate & Process the Batch** again.
 
-![Batch entry form with validation errors.](/img/CiviCRM-Contributions-everydaytasks-ignoremismatchbatch.jpg)
+![Batch entry form with validation errors.](/img/CiviCRM-Contributions-everydaytasks-ignoremismatchbatch.png)
 
 ### Search for contribution, membership or pledge payments in verified and processed batches
 
@@ -263,7 +263,7 @@ information you want to collect for these contacts:
     changes you’ve made will also appear on other screens where you have the
     option to create a new contact inline.
 
-  ![screenshot](/img/CiviCRM-Contributions-SetUp-new-individual-profile.jpg)
+  ![screenshot](/img/CiviCRM-Contributions-SetUp-new-individual-profile.png)
 
 The screenshot above is CiviCRM’s default configuration of the New Individual profile,
 which is used when you select to create a new contact for an individual
@@ -283,13 +283,13 @@ Profiles**, then click on **Reserved Profiles** tab. Click on
     display and collect information, and display in the batch entry
     input grid. To find out more read [Profiles](/organising-your-data/profiles.md).
 
-  ![screenshot](/img/CiviCRM-Contributions-SetUp-contribution-batch-entry-profile.jpg)
+  ![screenshot](/img/CiviCRM-Contributions-SetUp-contribution-batch-entry-profile.png)
 
   Above is CiviCRM’s default configuration for the Contribution Batch
   Entry profile, which is used when you record information about a
   contact’s contribution or pledge payment.
 
-  ![screenshot](/img/CiviCRM-Contributions-SetUp-membership-batch-entry-profile.jpg)
+  ![screenshot](/img/CiviCRM-Contributions-SetUp-membership-batch-entry-profile.png)
 
   Above is CiviCRM’s default configuration for the Membership Batch Entry
   profile, which is used when you record information about a contact’s

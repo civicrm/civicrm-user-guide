@@ -76,13 +76,13 @@ Click the **image button** in the WYSIWYG editor.
 The Image Properties window will appear. Click **Browse Server** to look
 for image files on your server.
 
-![](/img/civimail_window%20to%20browse%20server%202.jpg)
+![](/img/civimail_window_to_browse_server_2.png)
 In the left sidebar, you will see a directory of files. If the image you
 need is already uploaded to your server, navigate to it in the directory
 and select it. If not, Click **Upload** to choose a file from your
 computer.
 
-![](/img/civimail_file%20directory%203.jpg)
+![](/img/civimail_file_directory_3.png)
 
 Your computer's file-browsing window will open. Find the image file you
 want,
@@ -103,4 +103,4 @@ images to make email accessible to all user communities.
 
 Click **OK** to insert the image.
 
-![](/img/civimail_Insert%20image%206.jpg)
+![](/img/civimail_Insert_image_6.png)

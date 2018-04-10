@@ -137,7 +137,7 @@ the count or total don't match. In this case, you either:
 -   You can continue entering or editing the payments for the batch,
     then **Validate & Process the Batch** again. 
 
-![image](/img/CiviCRM-Contributions-everydaytasks-ignoremismatchbatch.jpg)
+![image](/img/CiviCRM-Contributions-everydaytasks-ignoremismatchbatch.png)
 
 
 

@@ -127,7 +127,7 @@ page, duplicating the original fee table shown in the screenshot below.
 You can now edit the labels and fees to correspond to the discounts
 offered for each of the original fee options.
 
-![screenshot](/img/CiviCRM-CiviEvent-CDiscount-en.gif)
+![screenshot](/img/CiviCRM-CiviEvent-CDiscount-en.png)
 
 You can create multiple date-based discount sets for an event. This may
 be useful if you have a series of early bird dates that progressively

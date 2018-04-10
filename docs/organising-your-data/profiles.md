@@ -493,7 +493,7 @@ To put a directory onto your website:
      page). This link will only be included for contacts who have a
      user account on your website.
 
-    ![profile_adv_settings](/img/CiviCRM-CapturingExposing-buildprofile-profile_adv_settings-en.jpg "profile_adv_settings")
+    ![profile_adv_settings](/img/CiviCRM-CapturingExposing-buildprofile-profile_adv_settings-en.png "profile_adv_settings")
 
 Now it's time to include the fields that will make up the directory. For
 profiles used as directories you have total control over which fields:
@@ -505,7 +505,7 @@ profiles used as directories you have total control over which fields:
 The important options you must configure in the fields for directory
 purposes are shown below:
 
-![directory_fields](/img/CiviCRM-CapturingExposing-buildprofile-directory_fields-en.jpg "directory_fields")
+![directory_fields](/img/CiviCRM-CapturingExposing-buildprofile-directory_fields-en.png "directory_fields")
 
 -   Visibility for all fields in your directory must be set to **Public
     Pages** or **Public Pages and Listings**. The difference between these
@@ -622,7 +622,7 @@ To include a profile form during the user registration process:
 
 1.  Create a profile that is used for User Registration:
 
-    ![addprofile_usedfor_reg](/img/CiviCRM-CapturingExposing-buildprofile-addprofile_usedfor_reg-en.jpg "addprofile_usedfor_reg")
+    ![addprofile_usedfor_reg](/img/CiviCRM-CapturingExposing-buildprofile-addprofile_usedfor_reg-en.png "addprofile_usedfor_reg")
 2.  Add the fields you want people to fill out as they register, using
     the same process described above. Make sure the field visibility is
     set to Public User Pages.

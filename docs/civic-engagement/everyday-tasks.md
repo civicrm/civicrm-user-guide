@@ -36,8 +36,8 @@ be used in your Walklist survey.
     select **Survey Default Results Set Options**.
 7.  Click **Save**.
 
-![screenshot](/img/create_walklist_survey.jpg)
-![screenshot part 2](/img/create_walklist_survey_p2.jpg)
+![screenshot](/img/create_walklist_survey.png)
+![screenshot part 2](/img/create_walklist_survey_p2.png)
 
 ### Reserve the target group you want to survey
 
@@ -68,8 +68,8 @@ surveying during the door-knock canvass:
     sheet with the response codes and that the report is sorted by
     street name and odd and even street numbers.
 
-![cover sheet with response codes](/img/walklist_cover_sheet.jpg)
-![walklist report](/img/walklist_report.jpg)
+![cover sheet with response codes](/img/walklist_cover_sheet.png)
+![walklist report](/img/walklist_report.png)
 
 
 ### Conduct your door-knock canvass
@@ -158,7 +158,7 @@ into CiviCRM.
     whose responses you want to record, and click **Go**.
 4.  Enter the responses and results, then click **Record Response.**
 
-![Editable table with "name" and questions as column headers. Each row allows you to record the responses of a specific contact.](/img/phonebank_record_responses.jpg)
+![Editable table with "name" and questions as column headers. Each row allows you to record the responses of a specific contact.](/img/phonebank_record_responses.png)
 
 ### Reviewing Results of the Survey
 
@@ -226,7 +226,7 @@ actions: **Phone Call, Meeting** or **Interview**.
     **Engagement Index**. To find out how to create options for the
     Engagement Index, see the [Campaign](/campaign/what-is-civicampaign.md) section of this book.
 
-![Screenshot of an activity of type meeting. The engagement list is a dropdown list with numbers.](/img/engagement_index.jpg)
+![Screenshot of an activity of type meeting. The engagement list is a dropdown list with numbers.](/img/engagement_index.png)
 
 ## Manage Voter Information
 

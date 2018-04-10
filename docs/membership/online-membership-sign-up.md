@@ -65,7 +65,7 @@ profile (see the profiles chapter for more information) that will be
 used to collect organisational information. Organisational sign up can
 either be optional or required.
 
-![image](/img/Title%20settings%201%20.jpg)
+![image](/img/Title_settings_1_.png)
 
 ### The Amounts tab
 
@@ -76,7 +76,7 @@ up a choice. For more information on setting up payment processors, and
 things to consider when choosing a payment processor see the chapter
 *Payment processors*.
 
-![image](/img/contribution%20amounts.jpg)
+![image](/img/contribution_amounts.png)
 
 Note that the amounts tab *is not* the place where membership fees are
 configured - they are configured on the Memberships tab. If you want to
@@ -105,7 +105,7 @@ sign up page, CiviCRM automatically replaces the membership sign up page
 with a membership renewal page which contains the text from the renewals
 box.
 
-![image](/img/membership%20signup%201.jpg)
+![image](/img/membership_signup_1.png)
 
 After the text boxes, are a few options that you can use to configure
 the membership types available on the membership form.
@@ -162,9 +162,9 @@ You may also want to CC or BCC every membership receipt to a staff
 member so they are alerted immediately every time someone becomes a
 member.
 
-![image](/img/membership%20page%20receipt%201.jpg)
+![image](/img/membership_page_receipt_1.png)
 
-![image](/img/membership%20page%20receipt%202.jpg)
+![image](/img/membership_page_receipt_2.png)
 
 ###The Tell-A-Friend tab
 
@@ -176,7 +176,7 @@ that are told about the membership sign up will also be added to CiviCRM
 if they do not already exist and their source field will show that they
 were added via tell-a-friend.
 
-![image](/img/tell%20a%20friend.jpg)
+![image](/img/tell_a_friend.png)
 
 ###Collecting information as part of membership sign up (the Profiles tab)
 

@@ -188,7 +188,7 @@ Email, Meeting, Phone call) will bring up a screen where you can enter
 those details. This tab will also show any custom activities that you've
 defined.
 
-![Contact_ActivityTab](/img/CiviCRM_update-CiviCore-Contact_ActivityTab-en.jpg)
+![Contact_ActivityTab](/img/CiviCRM_update-CiviCore-Contact_ActivityTab-en.png)
 
 To find out more about activities please refer to the [Activities](/organising-your-data/activities.md) section
 in this chapter.
@@ -212,7 +212,7 @@ Both of these buttons lead to forms that allow you to select the
 Financial Type in addition to the normal contribution information
 collected from public contribution pages.
 
-![Contact_COntribTab](/img/CiviCRM_update-CiviCore-Contact_COntribTab-en.jpg )
+![Contact_COntribTab](/img/CiviCRM_update-CiviCore-Contact_COntribTab-en.png )
 
 Read more about Contributions, in the Contributions chapter of this
 book.
@@ -224,7 +224,7 @@ able to add memberships and submit credit card payments for memberships
 that require a fee. You can also renew or delete memberships from the
 "more" link on each membership in the contact's existing memberships.
 
-![Contact_MembershipTabs](/img/CiviCRM_update-CiviCore-Contact_MembershipTabs-en.jpg)
+![Contact_MembershipTabs](/img/CiviCRM_update-CiviCore-Contact_MembershipTabs-en.png)
 
 Read more about Memberships, in the Membership chapter of this book.
 
@@ -242,7 +242,7 @@ You can also modify the event information as it relates to the contact
 by clicking the Edit link. For example, you can change the contact's
 event status from "registered" to "attended."
 
-![Contact_Eventstab](/img/CiviCRM_update-CiviCore-Contact_Eventstab-en.jpg)
+![Contact_Eventstab](/img/CiviCRM_update-CiviCore-Contact_Eventstab-en.png)
 
 Read more about Events, in the Events chapter of this book.
 
@@ -262,7 +262,7 @@ to "Public Listings" users can join via **Profile** forms. You may want
 to familiarise yourself with the discussion on using Profiles for
 mailing list sign-ups covered in a later section.
 
-![Contact_GroupsTab](/img/CiviCRM_update-CiviCore-Contact_GroupsTab-en.jpg)
+![Contact_GroupsTab](/img/CiviCRM_update-CiviCore-Contact_GroupsTab-en.png)
 
 For more on this topic, please refer to the [Groups and Tags](/organising-your-data/groups-and-tags.md) section of
 the book. 
@@ -283,7 +283,7 @@ You can specify "Author Only" privacy for a note. This means that only
 the person who wrote the note, or someone with "view all notes"
 permission (via your CMS) can view or edit it.
 
-![Contact_NotesTab](/img/CiviCRM_update-CiviCore-Contact_NotesTab-en.jpg)
+![Contact_NotesTab](/img/CiviCRM_update-CiviCore-Contact_NotesTab-en.png)
 
 ### Tags tab
 
@@ -298,7 +298,7 @@ non-hierarchical, and you can create a new tag in a tagset simply by
 typing a new tag into the field. Existing tags that match what you type
 will also show up as a list from which you can select.
 
-![Contact_TagTab](/img/CiviCRM_update-CiviCore-Contact_TagTab-en.jpg "Contact_TagTab")
+![Contact_TagTab](/img/CiviCRM_update-CiviCore-Contact_TagTab-en.png "Contact_TagTab")
 
 For more on this topic, please refer to the [Groups and Tags](/organising-your-data/groups-and-tags.md) section of
 the book.
@@ -309,7 +309,7 @@ This tab gives limited information about changes made to a contact
 record. It shows the change date and who made the change, but not what
 was changed.
 
-![Contact_ChangeLog](/img/CiviCRM_update-CiviCore-Contact_ChangeLog-en.jpg "Contact_ChangeLog")
+![Contact_ChangeLog](/img/CiviCRM_update-CiviCore-Contact_ChangeLog-en.png "Contact_ChangeLog")
 
 !!! tip
     Administrators can use the Contact Logging Report to get detailed
@@ -321,7 +321,7 @@ The simplest way to add a single contact to CiviCRM is to use the
 navigation menu at the top of any non-public page. To create a new
 Individual, go to: Contacts > New Individual:
 
-![Contact_createIndividual](/img/CiviCRM_update-CiviCore-Contact_createIndividual-en.jpg "Contact_createIndividual")
+![Contact_createIndividual](/img/CiviCRM_update-CiviCore-Contact_createIndividual-en.png "Contact_createIndividual")
 
 Note that the Contacts menu item allows you to create every kind of
 contact and contact sub-type.

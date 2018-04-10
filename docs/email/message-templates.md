@@ -128,7 +128,7 @@ The content and layout of these messages are pre-configured and include program 
 
 After you have customized system workflow message templates, you can always revert to CiviCRM's version of the template by clicking the "Revert to Default" link which appears next to the template.
 
-![Screenshot of the System Workflow Message Template list showing that some templates have been customized because they have "Revert to Default" links next to them](/img/TemplatesToUpdate.jpg)
+![Screenshot of the System Workflow Message Template list showing that some templates have been customized because they have "Revert to Default" links next to them](/img/TemplatesToUpdate.png)
 
 ## Configure Message Templates
 

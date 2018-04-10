@@ -60,10 +60,10 @@ Report.
     the survey report information to a CSV file to do more detailed
     reporting of the results. 
 
-![image](/img/activity%20report%201.jpg) 
+![image](/img/activity_report_1.png)
 
 
-![image](/img/activity%20report%202.jpg) 
+![image](/img/activity_report_2.png)
 
 
 
