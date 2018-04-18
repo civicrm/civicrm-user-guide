@@ -150,7 +150,7 @@ do one of the following:
 
 In CiviCRM go to **Administer** > **User and Permissions** >
 **Permissions (Access Control)**. Select the **WordPress Access
-Control**link. Here you can adjust the CiviCRM settings for each of the
+Control** link. Here you can adjust the CiviCRM settings for each of the
 predefined User Roles from WordPress.
 
 ![image](/img/z_sprint14_wordpressacl_menu.png)
