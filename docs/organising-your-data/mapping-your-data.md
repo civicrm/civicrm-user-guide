@@ -192,7 +192,7 @@ ticket, signs up for a membership, or any other activity that requires
 payment. CiviCRM allows you to record all money coming into your
 organization as a Contribution with different Types to preserve
 information about where it came from. You will also be able to specify
-the date the contribution came in, it's status (you can record a
+the date the contribution came in, its status (you can record a
 contribution as pending before the money is deposited to your bank
 account) and the form it was delivered in (check, cash, etc.).
 

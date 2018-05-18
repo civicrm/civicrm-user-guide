@@ -574,7 +574,7 @@ You have several options to link to your directory:
 
 You can **Update multiple memberships** from the results of a **Find memberships** search or from the advanced search results when **Display results as** is set to **Memberships**. You will need a profile that contains only membership fields.
 
-Similarly you need contact, contribution, activity or participant search results and profiles containing only contact, only contribution, only activity or only participant fields to update multiple contacts, multiple contributions, muliple activities or multiple participants respectively.
+Similarly you need contact, contribution, activity or participant search results and profiles containing only contact, only contribution, only activity or only participant fields to update multiple contacts, multiple contributions, multiple activities or multiple participants respectively.
 
 You can update up to 100 records at one time using the **Update multiple ...**
 functions.
@@ -584,7 +584,7 @@ ____
 
 You have a custom contact field called "Diving Skill Level" and you have just run a Intermediate Diving course.  You want to set the "Diving Skill level" to "Intermediate" for all people who attended the course.
 
-Go to the Advanced Search screen and set the appropriate filters in the Event accordion. Leave **Display Results As** set to **Contacts** as you want to update a contact custom field. CLick on **Search**.
+Go to the Advanced Search screen and set the appropriate filters in the Event accordion. Leave **Display Results As** set to **Contacts** as you want to update a contact custom field. Click on **Search**.
 
 You will go to the "Update multiple contacts" screen.
 

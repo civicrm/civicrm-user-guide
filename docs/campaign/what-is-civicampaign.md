@@ -21,7 +21,7 @@ select which activities are part of of the overall campaign or goal.
 
 For Drupal sites, the CiviEngage module enhances CiviCampaign by
 providing a package of custom fields that enable the Survey and Petition
-features of CiviCampaign. Read more about CviEngage in the Civic
+features of CiviCampaign. Read more about CiviEngage in the Civic
 Engagement section.
 
 ## Scenario: Year-long mobilization campaign
