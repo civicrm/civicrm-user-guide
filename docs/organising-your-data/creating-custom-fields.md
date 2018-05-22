@@ -93,6 +93,10 @@ Though not visible to users, the field value is stored in the system and can be 
 
 Individual fields can be made inactive in the form defining those fields, once the custom field set is active.
 
+### Is this Custom Data Set public?
+
+Currently working for only events, i.e, if an event specific custom set is public, it will not be displayed on Event info page. Also, its fields will not be included in the e-mail receipt template sent to the participant after registration is done for the event.
+
 ### Pre-form Help and Post-form Help
 
 If you enter text in Pre-form Help, your help text appears above the form field, and if you enter text in Post-form Help it appears below the form field. Use help at this level to provide instructions related to the entire set of custom fields.
