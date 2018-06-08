@@ -363,6 +363,10 @@ Mass mailings can be found in one of three areas accessible via the
  **more** link. For mailings that are scheduled but not yet sent, a
  **Cancel** link is available instead of **Archive**.
 
+ **Pause** and **Resume** links are also available under *more* link.
+ The pause is gradual, not instantaneous. It can be used when you
+ want to send out a press release without waiting for the first job to end.
+
 **Archived Mailings:** This area lists all messages that were
  archived from the Scheduled and Sent mailings area. Mailings listed
  here are not available to be included or excluded from the recipient
