@@ -12,7 +12,7 @@ You can view the provider options at their respective websites:
 
 **Map Provider** - From the drop-down list, choose Google or Yahoo.
 
-**Provider Key** - Google no longer requires an API Key. If using Yahoo, enter the Application ID.
+**Provider Key** - Google requires an API Key (see [Google APIs Console license](https://developers.google.com/maps/documentation/javascript/usage#usage_limits). If using Yahoo, enter the Application ID.
 
 Click **Save** to save your action or **Cancel** to cancel it.
 
