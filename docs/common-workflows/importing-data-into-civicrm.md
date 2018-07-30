@@ -126,8 +126,8 @@ with minimal problems:
     field to be "orange" for a contact that currently has Colors set to
     "blue", the result will be that Colors is set to orange, not orange
     and blue.
--   To import multiple values into a multiple choice field use the "|" (pipe) 
-    character as a separator.
+-   To import multiple values into a multiple choice field use the "," (comma) 
+    character as a separator - using either the Label OR the Value of the required option(s) i.e.: "1, 2, 3" or "fred, red, yellow".
 -   Make sure your data source uses an accepted date format and that you
     select the same date format on the Choose Data Source screen of the
     import wizard.
