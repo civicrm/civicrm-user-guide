@@ -93,6 +93,14 @@ Though not visible to users, the field value is stored in the system and can be 
 
 Individual fields can be made inactive in the form defining those fields, once the custom field set is active.
 
+### Is this Custom Field Set public?
+
+If a custom field set is marked as public, its fields will be shown on public-facing pages.
+
+For example, custom fields that should be shown on an event information page should belong to a field set marked as public.  Custom fields that relate to administrative information about an event should be part of a field set that is not be marked as public.
+
+Note that the setting is at the Custom Field Set level and applies to all Custom Fields in the Set.  Individual fields cannot be marked as public or not.
+
 ### Pre-form Help and Post-form Help
 
 If you enter text in Pre-form Help, your help text appears above the form field, and if you enter text in Post-form Help it appears below the form field. Use help at this level to provide instructions related to the entire set of custom fields.
