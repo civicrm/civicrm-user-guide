@@ -1,9 +1,7 @@
 
 # Asking for help in chat.civicrm.org
 
-You might have been linked here because you've asked a question on CiviCRM chat and unfortunately you haven't provided enough information for an answer to be provided. 
-
-**Please don't be discouraged - we're very willing to help you resolve your issue but we require more detail to do this, keep reading for examples of how to ask questions which we can answer.**
+You might have been linked here because you've asked a question on CiviCRM chat. 
 
 ## Detail
 * Detailed questions are easier to answer than vague ones. People are more likely to reply if your question has enough information for them to know the answer. For example: "I can't install CiviCRM" is not a descriptive question; "When I try to install CiviCRM, I see _error XYZ_ on screen" is descriptive enough to be answered. Give details! Lots of details.
