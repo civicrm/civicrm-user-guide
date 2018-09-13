@@ -7,7 +7,7 @@ create membership sign up pages, some things to consider when doing so
 integrate membership sign up pages into your website.
 
 Before reading this chapter, you may wish to read [Defining
-Memberships](/membership/defining-memberships.md), which gives useful background to many concepts (like
+Memberships](/membership/defining-memberships.md), which gives useful background to many concepts like
 membership types and membership statuses.
 
 ## About membership sign up pages
@@ -134,8 +134,7 @@ membership fee payments.
 If you cannot accomplish what you need using the Membership Types table
 (for example if you want to offer sign up to two memberships at the same
 time, or offer sign ups with multiple membership terms), then you should
-use a membership price set (which is covered in its own chapter
-*Membership price sets*).
+use a [Membership price set](/membership/membership-price-sets.md).
 
 Some of the things you can do with price sets include:
 
@@ -197,7 +196,7 @@ include on your membership page, and if you have permission, to edit an
 existing profile or create a new profile to be included on this page.
 
 !!! warning
-    If you edit an existing profile here, it will be changed in all places 
+    If you edit an existing profile here, it will be changed in all places
     where that profile is used.
 
 ###Premiums tab
@@ -220,7 +219,7 @@ details.
 Once you finish configuring and setting up your membership page, you are
 advised to test drive the process to make sure everything is working
 according to your expectations. Test functionality is available on
-**Contributions** > **Manage Contribution Pages**, click **Links** next
+**Contributions > Manage Contribution Pages**, click **Links** next
 to your membership sign-up/renewal page and click **Test-drive**. Any
 membership data you send through the form in test mode will be added to
 CiviCRM as test data and not be included in any membership stats or when
@@ -237,7 +236,7 @@ friends from outside your organisation to test the process.
 
 When using the Test-drive Registration option, you see the same
 registration pages as a regular user, but the online payment isn't
-really debited from your card (see *Payment processors*for more
+really debited from your card (see *Payment processors* for more
 information on dummy processors and card details you can use for test
 transactions).
 
@@ -267,16 +266,16 @@ CiviCRM will be able to help.
 
 ### In Drupal
 
-Go to **Contributions** > **Manage Contribution Pages** > click
-**Links** next to your membership sign-up/renewal page > click **Live
+Go to **Contributions > Manage Contribution Pages**, click
+**Links** next to your membership sign-up/renewal page, click **Live
 Page** to view the finished page. You can then copy the URL and include
 it in a content page or assign it to a menu item.
 
 ### In WordPress
 
-Go to **Contributions** > **Manage Contribution Pages** > click
-**Links** next to your membership sign-up/renewal page > click **Live
-Page. **Copy the URL and insert it into an HTML link or menu.
+Go to **Contributions > Manage Contribution Pages**, click
+**Links** next to your membership sign-up/renewal page, click **Live
+Page** Copy the URL and insert it into an HTML link or menu.
 
 *Or* use a plugin such as Page Links To create a URL 'slug'.
 

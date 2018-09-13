@@ -13,8 +13,8 @@ each of the different memberships that they offer. For the simplest
 membership structures, one membership type may be enough. For more
 complex membership structures, more membership types may be required.
 For example, an organisation may define three membership types for
-'regular', 'student', and 'honorary' members. 
-Or an organisation may choose to use membership types as subcriptions to 
+'regular', 'student', and 'honorary' members.
+Or an organisation may choose to use membership types as subcriptions to
 their different publications, either free or paying ones.
 
 There are a number of options that can be configured for a membership
@@ -28,20 +28,21 @@ types. Some organisations, with more complex membership structures, have
 requirements that go beyond what is available with membership types
 alone. These organisations may find that **membership price sets** give
 them the extra flexibility they need. Since membership price sets are
-an advanced topic, they are covered in their own chapter *Membership
-price sets.*
+an advanced topic, they are covered in their own chapter
+[Membership price sets](/membership/membership-price-sets.md).
 
 If you are having trouble modelling your membership structure in
-CiviCRM, ask in the forums about the problems you are having. There may
+CiviCRM, ask on Mattermost or Stack Exchange (see [Finding the Community Online](/the-civicrm-community/the-civicrm-community.md#finding-the-community-online) about the problems you are having. There may
 be other ways to model your data, or simple changes you can make to
 CiviCRM's behaviour to better fit your needs.
 
-To start learning about membership types: 
+To start learning about membership types:
 
 1.  Go to **Administer > CiviMember > Membership Types**
-2.  Select **Add Membership Type** 
+2.  Select **Add Membership Type**
 
-![image](/img/z-sprint154_-_new_membership_type.png) 
+![image](/img/z-sprint154_-_new_membership_type.png)
+
 -   **Name**:
 The name is displayed throughout the system, on both public and
 backend pages so spend some time thinking about a name that is
@@ -51,7 +52,7 @@ have been customised based on membership names)
 
 - **Description**:
 This is not required but you may wish to fill it in with a description
-of the membership, what type of contacts it is aimed at, etc. 
+of the membership, what type of contacts it is aimed at, etc.
 
 -   **Membership organisation**: CiviCRM is able to manage the memberships of more than one organisation,
 i.e. a local sports centre could use a single CiviCRM instance to manage
@@ -84,7 +85,7 @@ choose the default organisation.
 Otherwise you should enter the minimum amount that must be paid for this
 membership type. The reason we call this field the *minimum* amount is
 that we have an option to encourage people pay more than the minimum for
-a membership if they want to. 
+a membership if they want to.
 
 -   **Financial type**: The default [financial type](/contributions/key-concepts-and-configurations.md#financial-types) for a membership type is **Member Dues**.
 This is appropriate for many organisations. However, if you have more
@@ -96,14 +97,14 @@ financial types you can use [Membership Price Sets](/membership/membership-price
     Note that the financial type can be overridden for specific public
     membership sign up pages, and also when recording a membership in the
     back end.
-    
+
     CiviCRM handles paid memberships by linking membership records to
     contribution records. A membership record documents a contact's
     *relationship* with the organisation, while the corresponding financial
     transaction indicates the monetary value associated with that
     membership.
 
-![image](/img/membership_contribution.png)
+    ![image](/img/membership_contribution.png)
 
 
     CiviCRM respects this distinction by storing the membership record under
@@ -134,7 +135,7 @@ renews.
     depending on the duration you have specified.
 
     If the Duration is specified in **years** two extra fields will be
-    displayed: 
+    displayed:
 
     -       The **Fixed Period Start Date** is the calendar date that all
     memberships start on (eg January 1st or April 15th).
@@ -146,44 +147,44 @@ renews.
     Start Date** of January 1 and a **Fixed Period Rollover Date** of
     September 1
 
-         *      Anyone signing up between 1 January 2014 and 31 August 2014 will
-        have a membership end date of 31 December 2014. 
-         -   Anyone signing up on or after 1 September 2014 will have a
-        membership end date of 31 December 2015.( ie they will receive
+         -   Anyone signing up between 1 January 2018 and 31 August 2018 will
+        have a membership end date of 31 December 2018.
+         -   Anyone signing up on or after 1 September 2018 will have a
+        membership end date of 31 December 2019. (i.e. they will receive
         up to 15 months membership for the 1 year price.)
 
     If the Duration is specified in **months** one extra field will be
     displayed:
-    
+
     -   The **Fixed Period Rollover Date** determines if the membership
         duration starts at the beginning of the current calendar month or
         the beginning of the next calendar month. Consider a 6 month
         membership type with **Fixed Period Rollover Date** set to 15:
-    
+
         -   Someone signing up on days 1-14 January will have a membership
-            end date of 30 June. 
+            end date of 30 June.
         -   Someone signing up on days 15-31 January would have a membership
             end date of 31 July.
 
     Example: If **Duration =** 12 months, **Period type** = Fixed, and **Fixed
-    Period Rollover Date** = 1, then anyone joining during August 2014 will
-    have an expiry date of 31 August 2015. 
+    Period Rollover Date** = 1, then anyone joining during August 2018 will
+    have an expiry date of 31 August 2019.
 
 -   **Relationship Type**: Memberships can be **inherited** from one contact to another. An example of this would be a professional trade organisation that signs up
 a company as the (primary) member and wants employees of the company
 receive the benefits of membership.
 
     In order to support this feature we define a **relationship type** along
-    which the membership inherits. 
-    
+    which the membership inherits.
+
     The pop-up help screen gives examples of the relationship types to
     select for this feature. Once you have selected a relationship type, you
     enter a number in **Max related** to set a maximum for the number of
     inherited memberships linked to each primary member. This would be
     useful, in the example above, to limit the number of employees that can
-    become a member by virtue of their employment to 10 maximum. 
+    become a member by virtue of their employment to 10 maximum.
 
- ![image](/img/Membership_relationship_type.png) 
+    ![image](/img/Membership_relationship_type.png)
 
     With inherited memberships, we distinguish between the primary member
     and the members that inherit their membership due to their relationship with the primary member.
@@ -192,7 +193,7 @@ receive the benefits of membership.
 -   **Visibility**: Choosing **Public** means that this membership type will be able to be selected for inclusion on online membership sign up forms. If certain
 membership types are only to be handled by an administrator manually
 (e.g., honorary and lifetime memberships) you should choose **Admin**
-here. 
+here.
 
 -   **Order**: This determines where this membership type appears in a drop down
 options list of membership types, and on membership sign up pages.
@@ -202,7 +203,7 @@ available you may wish to untick this box. This will remove these
 memberships from the user interface. It will not delete the membership
 data and the membership can be re-enabled at a later date.
 
-## Membership status rules 
+## Membership status rules
 
 Membership status rules allow you to define a journey that contacts take
 through their membership. These rules are defined in terms of the join,
@@ -225,27 +226,27 @@ By default the journey through membership statuses is as follows:
     later option enabled for membership and Joe Smith signs up for your
     membership and chooses the pay later option, the status of his
     membership will not be changed to new until you change the
-    contribution status of his related payment to Completed. 
+    contribution status of his related payment to Completed.
 -   **New**: member has just signed up for a membership or a pending
     payment has arrived. By default this lasts until 3 months after the
-    membership start date. 
+    membership start date.
 -   **Current**: new members move to this status after the new period
     has finished. As might be expected, the current status lasts until
     the membership end date.
 -   **Grace**: when the end of the membership period is reached, someone
     who has not renewed membership enters this status for a period of
-    time. They are still counted as a member. 
+    time. They are still counted as a member.
 -   **Expired**: when the grace period expires, the member moves to this
     status and is no longer counted as a member.
 -   **Deceased**: this status keeps a deceased contact's record in the
     system but removes the contact from all further communications. This
-    status is set automatically based on a contact's deceased flag). 
+    status is set automatically based on a contact's deceased flag).
 
 You can force a membership to have its status overridden by selecting
 **membership override** on a membership record and choosing a status. As
 might be expected, a membership with status override will remain at that
 status, and not be updated according to the membership status rules
-described above. 
+described above.
 
 At **Administer > CiviMember > Membership Status Rules** you will find a
 summary of the existing status rules.
@@ -263,7 +264,7 @@ status that matches.
 
 When you edit or add a new membership status the following form appears.
 
-![image](/img/membership_status_rules.png) 
+![image](/img/membership_status_rules.png)
 
 You can add new statuses and edit existing statuses (except for Pending
 and Deceased) using this form. To create a new status, you need to
@@ -289,18 +290,18 @@ automatically set based on your status rules. For example, a newly
 created membership will be assigned the status "New" by default. If your
 membership statuses are not updating automatically, make sure that
 the **Update Membership Statuses** scheduled job is enabled and runs at
-least once a day. Refer to the 
+least once a day. Refer to the
 [Scheduled Jobs](https://docs.civicrm.org/sysadmin/en/latest/setup/jobs/)
 chapter for configuration details and consult your system administrator
-if appropriate. 
+if appropriate.
 
-## Collecting additional information about your members 
+## Collecting additional information about your members
 
 Sometimes you want to collect additional information about your
 members. You can create one or more custom field sets for this
 purpose. Custom field sets can be created for either all memberships or
 specific membership types. If the information you want to collect
 varies according to the membership type then you should set up more than
-one custom field set linking it to the specific membership type(s). 
-(Refer to *Custom Fields* chapter in the *Organising Your Data* section
-for more details.) 
+one custom field set linking it to the specific membership type(s).
+(Refer to [Creating Custom Fields](/organising-your-data/creating-custom-fields.md)
+for more details.)

@@ -18,7 +18,7 @@ You can cancel or manually expire a membership record by:
     **Edit** next to the membership record.
 -   One you are in the edit screen of the membership record you will
     need to check the **Status Override box** and then select the
-    appropriate **Membership Status**you wish to change to. i.e.
+    appropriate **Membership Status** you wish to change to. i.e.
     Cancelled or Expired
 
 ![image](/img/z_sprint14_Membership_Status_Override_8.png)
@@ -26,7 +26,7 @@ You can cancel or manually expire a membership record by:
 Keep in mind that manually Expiring memberships may not be needed.
 Dependent upon how you have your Membership status rules setup within
 **Administer > CiviMember > Membership Status Rules** memberships will
-automatically expire based on a certain timeline criteria.
+automatically expire based on timeline criteria.
 
 ## Deleting memberships
 
@@ -36,13 +36,16 @@ Joe Smith, you would want to remove the incorrect membership and any
 linked contribution record for Jo Smith. When a membership is deleted
 it is completely removed from the database and so are any linked
 contributions.  **This action cannot be undone** so you should only give
-permission to delete memberships to trusted staff. 
+permission to delete memberships to trusted staff.
 
 You can delete membership records by:
 
 -   Searching for a particular contact, then click on the "Membership"
     tab > click **More** next to the membership record > click
-    **Delete**, OR
+    **Delete**
+
+or
+
 -   Click on **Memberships > Find Members >** enter your criteria and
     from the "Find Members" results screen, select the membership
     records and click **Delete**.
