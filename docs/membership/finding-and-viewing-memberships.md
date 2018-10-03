@@ -29,13 +29,13 @@ as Delete, Edit, Export, Send Email to Contacts.
 ### Viewing A Contact's Membership Records
 
 Another way to view membership records is by viewing a specific
-contact's record and looking at the Membership tab. 
+contact's record and looking at the Membership tab.
 
 !!! note
-    If a contact's membership is "pending", the membership will show up when 
+    If a contact's membership is "pending", the membership will show up when
     the tab is clicked but it will NOT be counted in the number on the tab.
 
-After finding the contact you wish to manage, click the "Membership" tab to 
+After finding the contact you wish to manage, click the "Membership" tab to
 view a summary of the contact's membership records.
 
 ![image](/img/CiviCRM_update-CiviCore-Contact_MembershipTabs-en.png)
@@ -75,11 +75,10 @@ contacts and include data field [tokens](/common-workflows/tokens-and-mail-merge
 
 To send email to members:
 
--   Click on **Memberships > Find Members >**enter your criteria,
+-   Click on **Memberships > Find Members**, enter your criteria,
 -   then on the "Find Members" search results screen, select the records
     you want to import and in **-actions-** drop down, select **Send
     Email to Contacts**.
-
 
 ## Searching based on membership data {:#searching}
 
@@ -100,7 +99,7 @@ search.
 The **Find members** search allows you to search based on membership
 data and return membership data.
 
--   Click on **Memberships > Find Members >**, enter your criteria.
+-   Click on **Memberships > Find Members**, enter your criteria.
     Click the **Search** button.
 
 ![image](/img/memberships_find_memberships.png)
