@@ -23,8 +23,8 @@ You can cancel or manually expire a membership record by:
 
 ![image](/img/z_sprint14_Membership_Status_Override_8.png)
 
-Keep in mind that manually Expiring memberships may not be needed.
-Dependent upon how you have your Membership status rules setup within
+Keep in mind that manually expiring memberships may not be needed.
+Dependent upon how you have your membership status rules setup within
 **Administer > CiviMember > Membership Status Rules** memberships will
 automatically expire based on timeline criteria.
 
