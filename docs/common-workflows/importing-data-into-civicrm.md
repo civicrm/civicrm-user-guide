@@ -199,10 +199,10 @@ whether the first row of your file contains column headers.
 
 ![Import contacts form with with tab "1. Choose Data Source" highlighted.](/img/Screen_Shot_2015-04-29_at_3.54.21_PM.png)
 
-Note that imports use the default **unsupervised** rule to decide
-whether a contact record is a duplicate (refer to the *Deduping and
+Note that imports use the default **unsupervised** Dedupe Rule to decide
+whether a contact record is a duplicate, unless you select another Dedupe Rule during this step.  Refer to the *Deduping and
 Merging* chapter in this section for information on duplicate matching
-rules in CiviCRM). You can specify what action to take when an import
+rules in CiviCRM. You can specify what action to take when an import
 encounters a duplicate:
 
 -   **Skip**: skip the duplicate contact, i.e. leave the original record
