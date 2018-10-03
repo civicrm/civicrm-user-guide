@@ -3,8 +3,9 @@
 This chapter describes how to set up information such as From email
 addresses, Mailing List Groups and email templates. It assumes that the
 basic functionality necessary for your server to send and process emails
-in the first place has already been configured. See *Email System
-Configuration* in *Advanced configuration* for details.
+in the first place has already been configured. See *CiviMail Setup* in 
+the [System Administrator Guide](https://docs.civicrm.org/sysadmin/en/latest)
+for details.
 
 ## Configuring your organisation's contact information
 
