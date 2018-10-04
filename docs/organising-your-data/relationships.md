@@ -19,7 +19,7 @@ organisation to the individual.
 1.  Navigate to one of the records that you want to relate.
 2.  Click on **Add Relationship** from the **Actions** button on the
     contact summary, or from the Relationships tab
-3.  Select the Relationship Type. In this case it would be either "Sibling
+3.  Select the Relationship Type. In this case it would be "Sibling
     of".
 4.  Begin to type the last name of the related person(s). If you
     discover that a contact you want to connect is not yet in the
