@@ -14,24 +14,37 @@ organisation to the individual.
 
 ## Creating relationships between contacts
 
-![image](/img/4.5_Add_Relationship.png)
+![image](/img/5.5_Add_Relationship.png)
 
 1.  Navigate to one of the records that you want to relate.
 2.  Click on **Add Relationship** from the **Actions** button on the
     contact summary, or from the Relationships tab
-3.  Select the Relationship Type. In this case it would be either "Child
-    of" or "Parent of".
+3.  Select the Relationship Type. In this case it would be "Sibling
+    of".
 4.  Begin to type the last name of the related person(s). If you
     discover that a contact you want to connect is not yet in the
     database, you can create a new contact from this screen.
-5.  Optionally enter further information, which includes Start Date and
-    End Date (in case the relationship is time limited), Description and
-    Notes. There are also two permission-related options, which allow
-    users of the database to edit this record. Finally there is an
-    Enabled box to indicate that the relationship is active, which is
-    checked by default.
+5.  Optionally enter further information:
+    1. **Start Date** and **End Date** if the relationship is time limited.
+    2. **Description** - short text that shows on the relationship summary screen.
+    3. **Notes** - longer text shown when viewing the relationship.
+    4. **Permissions** - allows other users of the database to view or
+    update the related contact.
+    5. **Enabled** - shows the relationship is active.
 6.  When you have made the changes you want, click **Save
     Relationship**.
+
+### Relationship permissions
+
+If a relationship is created between two contacts User 1 and User 2 and
+the **Permissions** box is set to allow User 1 'View' access to User 2,
+then when User 1 is logged in they can view details about User 2 using
+a [profile](/organising-your-data/profiles.md) in View mode. If the
+permission is set to 'View and Update' then User 1 can also update
+details about User 2 with a profile in Edit mode.
+
+This functionality can be extended using the [Related Permissions
+extension.](https://github.com/eileenmcnaughton/nz.co.fuzion.relatedpermissions)
 
 ## Connecting employees and employers
 
