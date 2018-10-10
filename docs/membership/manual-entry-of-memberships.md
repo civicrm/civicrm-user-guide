@@ -12,7 +12,6 @@ manually create and process memberships, including:
 -   Creating new membership records one by one (including gift
     memberships where the payment comes from a different contact) 
 -   Batch data entry of members 
--   Importing Memberships
 
 CiviMember Access Control
 -------------------------
