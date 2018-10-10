@@ -45,7 +45,7 @@ contribution pages](/contributions/online-contributions.md) which will give you
 a better understanding of all the
 tools you have at your disposal when creating membership pages.
 
-###The Title tab
+### The Title tab
 
 The title tab (which is also the first page that you see when you create
 a new membership page) allows you to set the title for the membership
@@ -56,7 +56,7 @@ This tab also has space for you to include an introductory message to be
 displayed on your membership page. You can include images and other
 simple HTML in this introductory text.
 
-###Organisational memberships
+### Organisational memberships
 
 The title tab contains a check box to allow people to become members *on
 behalf of* an organisation, which is the recommended way to offer
@@ -144,7 +144,7 @@ Some of the things you can do with price sets include:
 -   offer other options such as a paid subscription in addition to
     membership signup.
 
-###The Receipt tab
+### The Receipt tab
 
 
 After the site visitor completes the membership signup or renewal form,
@@ -163,7 +163,7 @@ member.
 
 ![image](/img/membership_page_receipt_2.png)
 
-###The Tell-A-Friend tab
+### The Tell-A-Friend tab
 
 
 CiviCRM allows you to add a tell-a-friend feature to the thank-you page.
@@ -175,7 +175,7 @@ were added via tell-a-friend.
 
 ![image](/img/tell_a_friend.png)
 
-###Collecting information as part of membership sign up (the Profiles tab)
+### Collecting information as part of membership sign up (the Profiles tab)
 
 You can use profiles to collect information about your members as they
 fill in the sign up form. By default, contribution pages will include
@@ -199,7 +199,7 @@ existing profile or create a new profile to be included on this page.
     If you edit an existing profile here, it will be changed in all places
     where that profile is used.
 
-###Premiums tab
+### Premiums tab
 
 Premiums are thank you gifts and incentives offered to people that
 donate to your organisation. They are most commonly associated with
@@ -212,7 +212,7 @@ The Premiums tab of the contribution page wizard controls the
 introductory text, contact information, and other premium-related
 details.
 
-![image](/img/membership-profiles.png)
+![image](/img/membership-premiums.png)
 
 ## Testing membership sign up pages
 
