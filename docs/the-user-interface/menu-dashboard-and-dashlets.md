@@ -54,7 +54,7 @@ administrator can create additional dashlets that are specific to your
 organization's needs. Some examples of dashlets that come with CiviCRM
 include:
 
--   Donor Report: a bar graph of the total amount of contributions per
+-   Donor Report: a bar graph of the amount of total contributions per
     month for the last five months.
 -   Activities: a list of recent activities that have been recorded by
     CiviCRM (this could include emails sent to constituents, donations
