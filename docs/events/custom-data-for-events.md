@@ -48,11 +48,11 @@ itself, not its participants.
 There are a few different options when adding custom data to
 participants. 
 
--   **Participants:**This will add the field to all participant records.
+-   **Participants:** This will add the field to all participant records.
 Useful if you are interested in collecting information that applies to
 all participants.
 
--   **Participants (Event Name):**This is identical to the Participants
+-   **Participants (Event Name):** This is identical to the Participants
 type, with the exception that it allows you to assign a group of custom
 fields to a specific event. Useful for adding complex registration data
 for a single event without cluttering up all events. 

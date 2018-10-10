@@ -25,8 +25,8 @@ the Repetition Start Date and Excluded Dates.
     sent two weeks or a few days before the Event.
 
 Once you have filled out all the appropriate fields click
-**Save,**to save your selection**.**You will have a popup window that
-will prompt you to **Continue** with your selection. 
+**Save**, to save your selection. You will have a popup window that
+will prompt you to Continue with your selection. 
 
 !["Repeat" tab of an event. The event is set to end after 7 occurences. The section "Connected Repeated Events" lists the 7 occurences with their respective event id, start date, end date...](/img/repeated_event.png)
 
