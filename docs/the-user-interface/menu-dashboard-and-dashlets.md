@@ -1,6 +1,6 @@
 # Menu, Dashboard and Dashlets
 
-This chapter gives an overview of CiviCRM's dashboard (it's 'home page')
+This chapter gives an overview of CiviCRM's dashboard (its 'home page')
 and the navigation menu available for people working in CiviCRM.
 
 ## The navigation menu
@@ -21,7 +21,7 @@ You can modify the navigation menu by going to: **Administer** >
 **Customize** > **Navigation Menu** and then adding or rearranging menu
 items on the screen.
  
-You can also add icons to the navigation menu items, by editing the 
+You can also add icons to the navigation menu items. By editing the 
 navigation menu item you will see a text input called (Icon):
 
 ![NavMenu_EditItem_IconField](/img/the-user-interface/menu-dashboard-and-dashlets/47NavMenu_EditItem_IconField-en.png)
@@ -54,7 +54,7 @@ administrator can create additional dashlets that are specific to your
 organization's needs. Some examples of dashlets that come with CiviCRM
 include:
 
--   Donor Report: a bar graph of the amount of total contributions per
+-   Donor Report: a bar graph of the total amount of contributions per
     month for the last five months.
 -   Activities: a list of recent activities that have been recorded by
     CiviCRM (this could include emails sent to constituents, donations
@@ -62,7 +62,7 @@ include:
     CiviCRM).
 -   Membership Report: a table summarising information about Members
     tracked by CiviCRM and broken out by month. This includes the number
-    of Members of each type total amounts of payments made and the
+    of Members of each type, total amounts of payments made and the
     number of contributions made, among other things.
 
 ![Dashboard_homescreen](/img/the-user-interface/menu-dashboard-and-dashlets/CiviCRM_update-CiviCore-Dashboard_homescreen-en.png "Dashboard_homescreen")
