@@ -15,7 +15,8 @@ each of the different memberships that they offer. For the simplest
 membership structures, one membership type may be enough. For more
 complex membership structures, more membership types may be required.
 For example, an organisation may define three membership types for
-'regular', 'student', and 'honorary' members. 
+'regular', 'student', and 'honorary' members.
+
 Or an organisation may choose to use membership types as subcriptions to 
 their different publications, either free or paying ones.
 
