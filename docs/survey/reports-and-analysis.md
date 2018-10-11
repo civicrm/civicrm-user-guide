@@ -9,10 +9,10 @@ surveys
     Template.**
 2.  Under **Campaign Report Templates** select **Survey Report
     (Detail)** or click on a survey name on the survey dashboard. 
-3.  On the**Columns** tab, check the boxes for **Survey Responses** and
+3.  On the **Columns** tab, check the boxes for **Survey Responses** and
     anything else you want to view in the report, such as Street Number
     and Street Name.
-4.  On the**Filters** tab, by Survey select the name of your survey, and
+4.  On the **Filters** tab, by Survey select the name of your survey, and
     in **Respondent Status** select **Interviewed**.
 
     ![image](/img/survey_set_filters.png)
