@@ -53,7 +53,7 @@ edits to this information, you can access it at **Administer Console >
 Configuration Checklist > Organization Address and Contact Info**.
 
 The look of the invoice and invoice image can be edited and customized
-in **Administer > CiviCRM > Message Templates > System Workflow Messages > Contributions-Invoice.**
+in **Administer > Communications > Message Templates > System Workflow Messages > Contributions-Invoice.**
 
 To change the image on the invoice you will need to modify the code on
 line 10, replacing the image source (img src).
