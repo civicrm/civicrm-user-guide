@@ -56,7 +56,7 @@ Report.
     view on the report, such as Target Contact Email.
 3.  Expand the **Petition Questions** area and select the criteria you
     want to see, such as specific responses to a petition question.
-4.  Click **Preview Repor**t to view the results. You can also export
+4.  Click **Preview Report** to view the results. You can also export
     the survey report information to a CSV file to do more detailed
     reporting of the results. 
 
