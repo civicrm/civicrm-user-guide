@@ -17,7 +17,7 @@ the pledge. To do this:
 
 ![image](/img/Pledge_including_editing.png)
 
-###Batch entry of pledges
+### Batch entry of pledges
 
 The **Batch Data Entry** feature speeds up data entry when you have a
 lot of pledge payments to record at one time. You enter payments using a
@@ -68,15 +68,15 @@ batch you want.
 
 When you save information about the new batch, the batch data entry screen shown
 above will appear and you can begin entering payments on each line as
-follows;
+follows:
 
--   **Contact.** You can:
+-   **Contact** You can:
 
     - Start entering the name of an existing contact and CiviCRM will
     return a list of potential contact names for you to select, OR 
     - Create a new contact by clicking the drop-down box for “-create new
-    contact-“ and selecting the type of contact you want to create:**New
-    Individual, New Organization**, or **New Household** and enter the
+    contact-“ and selecting the type of contact you want to create: **New
+    Individual**, **New Organization**, or **New Household** and enter the
     information about the contact here. 
 
     !!! note
@@ -84,24 +84,24 @@ follows;
         are included in the grid profile, those values will be populated for
         an existing contact and can be updated as needed. 
 
--   **Open Pledges:** Click on the down arrow to see all open pledges
+-   **Open Pledges**: Click on the down arrow to see all open pledges
     for the contact. You can assign the payment to any of the
     open(pending) pledges. 
 
--   **Type:**This is the Financial Type and pre-fills when an open
+-   **Type**: This is the Financial Type and pre-fills when an open
     pledge is selected.
--   **Amount:** This will pre-fill when you select an open pledge.  If
+-   **Amount**: This will pre-fill when you select an open pledge.  If
     you have the appropriate permissions, you can also alter the amount
     or schedule for the pledge payment. (Click on **adjust payment
     amount** next to the **Amount** field.) 
--   **(Payment) Status.**This defaults to**Completed**. 
--   **Received – Date and Time**  This pre-fills with the current date
+-   **(Payment) Status**: This defaults to **Completed**. 
+-   **Received – Date and Time**: This pre-fills with the current date
     but can be edited. 
 -   **Source**: Enter text that describes the source of the payment.
 -   **Paid by**: Enter the payment instrument, e.g. cash, check, EFT,
     etc. This is a required field. 
 -   **Check Number**: fill in if paid by check 
--   **Send Receipt: **check the box if you want to send a receipt via
+-   **Send Receipt**: check the box if you want to send a receipt via
     email
 -   **Invoice ID**
 -   **Soft Credit**
@@ -130,7 +130,7 @@ If the total amount or count of items do not match the values you
 entered when you created the Batch, you will be alerted when closing if
 the count or total don't match. In this case, you either:
 
--   You can override the entered count and total by clicking**Ignore
+-   You can override the entered count and total by clicking **Ignore
     Mismatch & Process the Batch?** button, in which case the batch
     values are updated to match the transactions in the batch, and then
     the status of the batch will be set to “Closed”, OR
@@ -141,10 +141,10 @@ the count or total don't match. In this case, you either:
 
 
 
-##Canceling pledges
+## Canceling pledges
 
 Sadly, some pledges will not come to fruition. To cancel a pledge, find
-it through a contact or the 'find pledges' search tool, use the 'more'
+it through a contact or the 'Find Pledges' search tool, use the 'more'
 link to the right side of the pledge and click 'Cancel'.
 
 ![image](/img/pledge-cancel.png)
