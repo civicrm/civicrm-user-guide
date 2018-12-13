@@ -34,10 +34,10 @@ advanced reporting, see the [CiviReport](/reporting/what-is-civireport.md) secti
 
 ![Quicksearch](/img/the-user-interface/searching/quicksearch.png)
 
-The easiest way to find a specific contact is to use the Quick search
-box that appears in the navigation menu at the top left of the screen. You may choose to search by one of several criteria. Once you click in the box you can start typing immediately to use the default Name/Email search or you can click again to expose several other criteria in a dropdown selection list. Contacts that match the phrase you enter will appear in a dropdown list below the box. For example, if you are searching with Name/Email and you have left
-automatic wildcard enabled then going to **Administer > Customize Data and Screens >
-Search Preferences** entering "peter" will find:
+The easiest way to find a specific contact is to use the Quick search box that appears in the navigation menu at the top left of the screen. You may choose to search by one of several criteria. The criteria can be modified by going to **Administer > Customize Data and Screens > Search Preferences**. On the *Search Preferences* page, options are available to customize CiviCRM's QuickSearch to hide contact's basic fields that are not normally used in a quicksearch and to add custom field options.
+
+Once you click in the Quicksearch box, you can start typing immediately to use the default Name/Email search or you can click again to expose several other criteria in a dropdown selection list. Contacts that match the phrase you enter will appear in a dropdown list below the box. For example, if you are searching with Name/Email and you have left
+automatic wildcard enabled via *Search Preferences*, entering "peter" will find:
 
 -   people who's first or last name is **Peter**
 -   people who have Peter appearing as part of their name, e.g. Mary
@@ -47,8 +47,7 @@ Search Preferences** entering "peter" will find:
 -   organisations with Peter in their name, e.g. Al**peter**
     Community Centre.
 
-You often don't need to type the full name of the person - just the first few
-letters.  However, if you don't see the contact you are looking for, either refine the search by typing more characters, or hit the 'Return' key to convert your search into an Advanced search.
+You often don't need to type the full name of the person - just the first few letters.  However, if you don't see the contact you are looking for, either refine the search by typing more characters, or hit the 'Return' key to convert your search into an Advanced search.
 
 Quick search displays up to 10 results (by default). You can change the number of results returned from the *Search Preferences* screen described above by changing the *Autocomplete Results* setting.
 
