@@ -40,6 +40,22 @@ You may find that although the translation is correct, you would want to
 use different terms in your situation. You are very much encouraged to
 take part in the translation of your language.
 
+## Mapping Languages to Specific Regional Translations
+
+In some cases, you might want to properly map the language you have added
+to CiviCRM to a more localized version. A common example is that of
+Canadian French being much different then that of French from France.
+
+To use fr_CA instead of fr_FR (for France French), which is the default
+you can modify your civicrm.settings.php file with the following code.
+
+```
+  define('CIVICRM_LANGUAGE_MAPPING_FR', 'fr_CA');
+```
+
+See [CRM-9558](https://issues.civicrm.org/jira/browse/CRM-9558) for more information.
+
+
 ## Facilities
 
 A number of facilities in CiviCRM support the community in its
