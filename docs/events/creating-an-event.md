@@ -1,7 +1,7 @@
 # Creating an event
 
 This chapter covers how to create a new event, describing each of the
-set up options available in the event creation screen. If you going to
+set up options available in the event creation screen. If you're going to
 allow online registration for the event, you will also want to read the
 [online event registration](/events/online-event-registration.md) chapter. If not, you'll want to read the
 [manual event registration](/events/manual-event-registration.md) chapter.
