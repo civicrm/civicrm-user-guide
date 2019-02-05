@@ -299,16 +299,20 @@ Profiles**, then click on **Reserved Profiles** tab. Click on
 
 If you have not imported data before, please read [Importing data into civicrm](/common-workflows/importing-data-into-civicrm.md).
 
+### Required fields
+
 When preparing your data import it is helpful to know what fields are
 required for Import. You'll want to be sure that these fields are
-included in your CSV import file. Below is a list of the required
-fields. Please note that you only need one of the fields marked **(Match to
-  Contact)**
-  -   **Contact ID (Match to Contact)**
-  -   **Email (Match to Contact)**
-  -   **External Identifier (Match to Contact)**
-  -   **Financial Type**
-  -   **Total Amount**
+included in your CSV import file. The required fields are:
+
+- Financial Type
+- Total Amount
+- One of the following:
+    - Contact ID (Match to Contact) OR
+    - Email (Match to Contact) OR
+    - External Identifier (Match to Contact)
+
+### Matching contributions to contacts
 
 The import tool for contributions is similar to that of contacts, but
 contributions cannot be imported unless the
@@ -329,5 +333,7 @@ contact:
     file. If a contact matches these three fields, the contribution will
     be assigned to it.
 
-Remember, CSV files must be less than 2MB in size. If the file size
+### Things to remember
+
+CSV files must be less than 2MB in size. If the file size
 exceeds this, create multiple CSV files and distribute the data between them.
