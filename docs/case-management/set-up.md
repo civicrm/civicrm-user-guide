@@ -31,8 +31,15 @@ To add a case type:
     will autofill the name field. (The default name is usually fine, but
     advanced user may unlock and change the name. Once the case type is
     created, the name should not be changed.)
+    
+3. You can optionally choose to restrict **Case Activity Assignment** to selected groups.
 
-3. Include **Case Roles**.
+    The setting is set allow all a user assign case activities to all contacts 
+    by default. However you can click on "Restricted by group" to select the 
+    groups such that a user will only be able to assign a case activity
+    to contacts within the selected groups.
+    
+4. Include **Case Roles**.
 This section lists the types of people who are involved in the case in
 some way. Roles listed here will be automatically included in each case
 when a new case is opened.
@@ -69,7 +76,7 @@ when a new case is opened.
     roles/relationships if you need to.
 ![List of roles, and checkboxes to assign a role to the manager of the case, and/or to the creator.](/img/CiviCase_Roles.png)
 
-4. Include **Activities**
+5. Include **Activities**
 When working on a case, the user has access to a drop-down menu in the
 case summary enabling them to quickly record a new activity as part of
 the case. For example, if the case manager looks at a case and decides
@@ -135,7 +142,7 @@ to the case.
     CiviCase you can change the 'Component' setting from 'Cases only' to
     Contacts AND Cases'.
 
-5. Having defined all of the Case Roles and the Activity Types that
+6. Having defined all of the Case Roles and the Activity Types that
 will be available for user selection in your new Case Type, you next
 need to define the **Standard Timeline**, any
 additional **Timelines** and/or a **Sequence** that you want to use
