@@ -238,6 +238,8 @@ By default the journey through membership statuses is as follows:
     time. They are still counted as a member.
 -   **Expired**: when the grace period expires, the member moves to this
     status and is no longer counted as a member.
+-   **Cancelled**: when an administrator manually cancels a membership, 
+    perhaps due to misbehaviour.
 -   **Deceased**: this status keeps a deceased contact's record in the
     system but removes the contact from all further communications. This
     status is set automatically based on a contact's deceased flag).
