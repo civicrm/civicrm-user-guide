@@ -32,12 +32,11 @@ To add a case type:
     advanced user may unlock and change the name. Once the case type is
     created, the name should not be changed.)
     
-3. You can optionally choose to restrict **Case Activity Assignment** to selected groups.
+3. Optionally choose to restrict **Activity Assignment**.
 
-    The setting is set allow all a user assign case activities to all contacts 
-    by default. However you can click on "Restricted by group" to select the 
-    groups such that a user will only be able to assign a case activity
-    to contacts within the selected groups.
+    By default any contact can be selected as the assignee for case activities.
+    You can optionally restrict this by group or by contacts with a user
+    account on your website.
     
 4. Include **Case Roles**.
 This section lists the types of people who are involved in the case in
