@@ -157,7 +157,7 @@ This section documents the available action tokens, their purpose and the place(
 * Used in: Mailing Body, Header, Footer,unsubscribe,resubscribe
 * Example:
 
-    > To opt-out of all future mailings from us, click `<a href="{action.optOutUrl}" >here</a>`.
+    > You can also `<a href="{action.optOutUrl}" >opt-out of all future mailings from us</a>`.
 
 ### `{action.optOut}`
 * Purpose: Provides an opt-out email address for each recipient.
@@ -178,7 +178,7 @@ This section documents the available action tokens, their purpose and the place(
 * Used in: Mailing Body, Header, Footer,unsubscribe,resubscribe
 * Example:
 
-    > To resubscribe to this mailing, click `<a href="{action.resubscribeUrl}" >here</a>`.
+    > You may `<a href="{action.resubscribeUrl}" >resubscribe to this mailing</a>` at any time.
 
 ### `{action.resubscribe}`
 * Purpose: Provides a re-subscribe email address for each recipient.
@@ -199,21 +199,21 @@ This section documents the available action tokens, their purpose and the place(
 * Used in: Mailing Body, Header, Footer
 * Example:
 
-    > To subscribe to our Monthly Newsletter, click `<a href="{action.subscribeUrl.2}" >here</a>`.
+    > You can `<a href="{action.subscribeUrl.2}" >subscribe to our Monthly Newsletter</a>`.
 
 ### `{action.subscribeUrl}`
 * Purpose: Provides a link to view and subscribe to any public mailing lists.
 * Used in: Mailing Body, Header, Footer
 * Example:
 
-    > To see our mailing lists and join the ones you're interested in, click `<a href="{action.subscribeUrl}" >here</a>`.
+    > If you're interested, `<a href="{action.subscribeUrl}" >view all our mailing lists and sign up!</a>`.
 
 ### `{action.unsubscribeUrl}`
 * Purpose: Provides an unsubscribe link for each recipient.
 * Used in: Mailing Body, Header, Footer,unsubscribe,resubscribe
 * Example:
 
-    > To unsubscribe from this mailing, click `<a href="{action.unsubscribeUrl}" >here</a>`.
+    > You can `<a href="{action.unsubscribeUrl}" >unsubscribe from this mailing</a>` at any time.
 
 ### `{action.unsubscribe}`
 * Purpose: Provides an unsubscribe email address for each recipient
