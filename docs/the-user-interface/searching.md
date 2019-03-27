@@ -123,7 +123,7 @@ Create a profile that includes birth date, gender and address fields.
 
 ![Screen shot of a profile](/img/the-user-interface/searching/user-interface-new-contact-view-profile.png)
 
-Read more about creating profiles in the Profiles section of the chapter
+Read more about creating profiles in the [Profiles](/organising-your-data/profiles.md) section of the chapter
 on *Organising Your Data*.
 
 Combining this feature with the "Batch Update via Profile" action
@@ -151,8 +151,8 @@ show examples of both:
 Relative date ranges are especially useful for searches that you would
 like to then save as Smart Groups (automatically populated groups that
 are configured to include contacts that share a certain set of
-characteristics or activities). For more information see the *Groups and
-tags* chapter.
+characteristics or activities). For more information see the [Groups and
+tags](/organising-your-data/groups-and-tags.md) section in the *Organising your data* chapter.
 
 ![Screen shot of Relative Date Range Filter](/img/the-user-interface/searching/user-interface-date-filter-relative.png)
 
@@ -165,7 +165,7 @@ For example you may want to use a relative date range search to find:
 -   Contacts who are a certain age
 
 
-Relative dates filters based on the time interval "week" assume that Sunday is the first day of the week.   This is not true in all countries, for example Europe and many countries in Asia/Pacific region consider Monday to be the first day of the week. To set which day is the first day of the week, you need to go to **Administer >> Localization >> Date Format**.
+Relative dates filters based on the time interval "week" assume that Sunday is the first day of the week.   This is not true in all countries, for example Europe and many countries in Asia/Pacific region consider Monday to be the first day of the week. To set which day is the first day of the week, you need to go to **Administer > Localization > Date Format**.
 
 ![Screen shot of how to change the first day of the week](/img/the-user-interface/searching/user-interface-searching-week-begins.png)
 
@@ -181,7 +181,7 @@ major donors.
 You can change the default search operator from AND to OR in the Search Settings.
 
 Within criteria groups that allow you to check boxes for more than one
-value, these options are also combined by "ANDing". For example, if you
+value, these options are also combined by "ANDing". For example, you
 can search for contacts whose Preferred Communication Method is both
 Email *AND* SMS.
 
@@ -229,7 +229,7 @@ groups:
 ![Search Builder](/img/the-user-interface/searching/Search_Builder.png)
 
 Your search results will contain each contact's name, plus a column for
-each search criteria you've defined. If you export search results, the
+each search criterion you've defined. If you export search results, the
 export file will contain those same columns.
 
 Just like other searches, you can choose from a list of actions to apply
@@ -238,7 +238,7 @@ fields for export. Note that the fields you searched on will get
 exported by default in addition to those you select.
 
 You can also save your Search Builder search as a Smart Group. For more
-information on Smart Groups, see the [Groups and Tags](/organising-your-data/groups-and-tags.md) chapter.
+information on Smart Groups, see the [Groups and Tags](/organising-your-data/groups-and-tags.md) section.
 
 ## Full-text Search
 
@@ -260,11 +260,11 @@ memberships, **Find Participants** shows event registrations, **Find
 Contributions** returns contributions and so on.
 
 Each component search has its own Action list. See the *Component*
-sections for more details.
+chapters for more details.
 
-Note that you can also use the Advanced search in conjunction with
+Note that you can also use the Advanced Search in conjunction with
 **Display Results As** to search for component objects based on criteria
-available in advanced search. For example, you could find all event
+available in Advanced earch. For example, you could find all event
 attendances from contacts that are also members.
 
 ## Custom searches

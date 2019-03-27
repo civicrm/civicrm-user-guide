@@ -18,7 +18,7 @@ Most organisations access CiviCRM over the internet. However, some organizations
 
 ## Securing your system.
 
-Once you have CiviCRM installed it is important that you ensure that you make sure you secure your system. Some important techniques on securing your server and website can be found in the [System Administartors guide](https://docs.civicrm.org/sysadmin/en/latest/setup/security/).
+Once you have CiviCRM installed it is important that you ensure that you make sure you secure your system. Some important techniques on securing your server and website can be found in the [System Administrator Guide](https://docs.civicrm.org/sysadmin/en/latest/setup/security/).
 
 ## Upgrades
 
