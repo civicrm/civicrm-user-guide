@@ -40,7 +40,7 @@ interacting via your website - either maliciously or accidentally.
 
 As you can imagine, logging all changes to the database can result in
 the collection of quite a lot of data and will have a small performance
-impact on your database. For this reason, we turn of logging by default
+impact on your database. For this reason, we turn off logging by default
 in CiviCRM and let people turn it on if they require it. Before you
 decide whether you want to turn on logging, you might want to have a
 look at other ways in which time based logging happens in CiviCRM.
