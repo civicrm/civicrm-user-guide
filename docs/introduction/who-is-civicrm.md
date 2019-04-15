@@ -42,7 +42,7 @@ added more components to the software (there are now 8 core modules and
 additional third party components), and has broadened its integration with 
 other popular CMS's including Backdrop, Joomla! and WordPress.
 
-CiviCRM includes a large ecology of free software contributors
+CiviCRM includes a large ecosystem of free software contributors
 around the project and high-profile non-profit organisations such as
 Amnesty International, Creative Commons, Electronic Frontier
 Foundation, Free Software Foundation, Mozilla, and Wikimedia Foundation
