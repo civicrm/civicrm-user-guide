@@ -35,17 +35,22 @@ necessary to make a great CRM.
 
 In 2005 the first version of CiviCRM was released with two of the core
 modules in place: CiviMail and CiviContribute (you can read more about
-these later).
+these later). Since those early days CiviCRM has become the leading open 
+source CRM for nonprofits. It has built a large community of users and
+contributors (as of early 2019, there were over 11,000 installed sites), has 
+added more components to the software (there are now 8 core modules and
+additional third party components), and has broadened its integration with 
+other popular CMS's including Backdrop, Joomla! and WordPress.
 
-Since those early days CiviCRM has built a large community of users and
-contributors (there are now over 8000 installed sites), the software has
-gone from strength to strength (there are now 8 core modules and
-additional third party components), and the core team has expanded to 8
-members. There is also a large ecology of free software contributors
+CiviCRM includes a large ecology of free software contributors
 around the project and high-profile non-profit organisations such as
 Amnesty International, Creative Commons, Electronic Frontier
 Foundation, Free Software Foundation, Mozilla, and Wikimedia Foundation
 use CiviCRM.
+
+Currently, CiviCRM operates using a [group based structure](https://civicrm.org/core-team) 
+focused on various aspects of the project including development, maintenance, 
+marketing, etc. CiviCRM continues to be coordinated by a [Core Team](https://civicrm.org/core-team).
 
 ## It's good to talk
 
