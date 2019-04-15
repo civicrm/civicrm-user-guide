@@ -18,6 +18,6 @@ The two guides have some overlapping scope when it comes to setup and configurat
 
 ## Credits
 
-This guide is collaboratively written by the CiviCRM community, with facilitation from the [Documentation Working Group](https://civicrm.org/working-groups/documentation).
+This guide is collaboratively written by the CiviCRM community, with facilitation from the [Documentation Working Group](https://lab.civicrm.org/documentation).
 
 See the [History of this book](/appendices/history-of-this-book.md) chapter for more details.
