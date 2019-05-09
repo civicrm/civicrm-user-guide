@@ -311,6 +311,7 @@ included in your CSV import file. The required fields are:
     - Contact ID (Match to Contact) OR
     - Email (Match to Contact) OR
     - External Identifier (Match to Contact)
+Note: Financial Type is the full text of the Financial Type Name, not the Financial Type ID.
 
 ### Matching contributions to contacts
 
