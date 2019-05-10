@@ -22,8 +22,7 @@ If you know of another organisation that uses CiviCRM, talk to them
 about their experience. Obviously the more similar they are to your
 organisation, the better. If you don't know anyone that is using
 CiviCRM, contact a [CiviCRM Ambassador](https://civicrm.org/ambassadors),
-have a look on the CiviCRM forums, at case studies on the community
-site, or try your local non-profit technology mailing list.
+have a look at [case studies on CiviCRM.org](https://civicrm.org/case-studies/), or try your local non-profit technology mailing list.
 
 The [CiviCRM StackExchange](https://civicrm.stackexchange.com/)
 is a very good place to both ask and get answers to questions.
