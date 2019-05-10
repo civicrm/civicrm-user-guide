@@ -57,8 +57,8 @@ channels. Using your favorite engine to search for CiviCRM will turn up
 many articles and posts from other folks' websites and blogs. The
 CiviCRM team is good at keeping an eye out for these posts and often
 publicize them through Twitter. To keep abreast of the stream of
-comments, follow @civicrm and find CiviCRM tweets and tag your own
-tweets with the #civicrm hashtag.
+comments, follow [@civicrm](https://twitter.com/civicrm) and find CiviCRM tweets and tag your own
+tweets with the [#civicrm hashtag](https://twitter.com/hashtag/CiviCRM?src=hash).
 
 ## Finding the Community Offline
 
