@@ -33,7 +33,7 @@ model). This can improve the service you receive from the forums
 considerably! 
 Stack Exchange questions are answered by volunteers, so the easier it is for them to understand, the more quickly the answers will come.
 If you wish to ask questions or contribute to the discussions you must 
-register first.
+register a Stack Exchange account first.
 
 ## Talking to CiviCRM Consultants
 
