@@ -59,18 +59,16 @@ your ideas. If you have a good idea, there's nothing to stop you
 carrying it out - but the best way to start is to start talking about
 it.
 
-If you're not sure where to start, the best place is probably the
-community forum
-([http://forum.civicrm.org/](http://forum.civicrm.org/)). Ask people
+If you're not sure where to start, the best place is probably CiviCRM's
+[Mattermost](https://chat.civicrm.org), which offers live discussion in chat rooms and direct messages. Ask people
 what they think about your idea. There's a wealth of experience on the
-forum, and someone will, very possibly, have tried something similar
+channels, and someone will, very possibly, have tried something similar
 before. CiviCRM people are a friendly bunch and their guiding philosophy
 is collaboration.
 
 Depending on your idea, you'll be directed to the next best place; maybe
 an article on the blog
-([http://civicrm.org/blog/](http://civicrm.org/blog/)), a page on the
-wiki ([http://wiki.civicrm.org/](http://wiki.civicrm.org/)), a
+([http://civicrm.org/blog/](http://civicrm.org/blog/)), CiviCRM's [GitLab](https://lab.civicrm.org), a
 teleconference or a meeting up with another community member in real
 life, yes that's right, REAL LIFE!
 
