@@ -9,13 +9,13 @@ every organisation. Here are some ways that you can find out whether
 CiviCRM is right for your organisation:
 
 -   identify your organisation's needs
--   talk to others who use CiviCRM
 -   check out [the CiviCRM Statistics page](https://stats.civicrm.org/?tab=sites)
 -   read [case studies about how similar organizations use CiviCRM](https://civicrm.org/case-studies/)
--   talk to [a CiviCRM consultant](https://civicrm.org/partners-contributors)
 -   play with [one of many free CiviCRM demonstration sites](https://civicrm.org/demo)
+-   talk to others who use CiviCRM
+-   talk to [a CiviCRM consultant](https://civicrm.org/partners-contributors)
+-   Try [CiviCRM Spark](https://civicrm.org/spark) and easily get your own installation of CiviCRM up-and-running in minutes on SAS hosting, starting from $9.50 a month. You can cancel at any time. CiviCRM Spark is ideal for testing and trialing CiviCRM, or for on-going use by smaller organizations and activities with up to 2,000 contacts.
 -   download and install [a test CiviCRM database](https://civicrm.org/download) for free
--   Try [CiviCRM Spark](https://civicrm.org/spark) and easily get your own installation of CiviCRM up-and-running in minutes, starting from $9.50 a month. You can cancel at any time. CiviCRM Spark is ideal for testing and trialing CiviCRM, or for on-going use by smaller organizations and activities with up to 2,000 contacts.
 
 ## Talking to others who use CiviCRM
 
