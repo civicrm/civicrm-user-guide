@@ -38,8 +38,7 @@ register first.
 ## Talking to CiviCRM Consultants
 
 Another option to help you understand CiviCRM is to make use of a
-professional. The CiviCRM website lists [professional vendors and
-consultants](http://civicrm.org/providers) that can walk you through CiviCRM, and
+professional. The CiviCRM website lists [contributors, partners and sponsors](https://civicrm.org/partners-contributors) that can walk you through CiviCRM, and
 there are many others; you may find a local website company who has
 experience with CiviCRM. Consider hiring a consultant for a day to
 discuss with you how CiviCRM could help your organisation.
