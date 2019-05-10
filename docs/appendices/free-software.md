@@ -22,8 +22,8 @@ But the ability to change the software protects you in many ways:
     organisation can hire someone to create it. Of course, the
     organisation can also submit a feature request to the CiviCRM team
     as with any software product.
--   Similarly, anyone can fix a **bug** (error in the software) if he or
-    she has the skills to do so. Because the source code is available,
+-   Similarly, anyone can fix a **bug** (error in the software) if they have
+    the skills to do so. Because the source code is available,
     clients can also find bugs more easily.
 -   Members of the community have much more input into how CiviCRM
     develops than is traditionally available via closed
