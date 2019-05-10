@@ -10,6 +10,7 @@ CiviCRM is right for your organisation:
 
 -   identify your organisation's needs
 -   talk to others who use CiviCRM
+-   check out [the CiviCRM Statistics page](https://stats.civicrm.org/?tab=sites)
 -   read [case studies about how similar organizations use CiviCRM](https://civicrm.org/case-studies/)
 -   talk to [a CiviCRM consultant](https://civicrm.org/partners-contributors)
 -   play with [one of many free CiviCRM demonstration sites](https://civicrm.org/demo)
