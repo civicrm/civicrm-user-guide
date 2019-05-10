@@ -6,7 +6,7 @@ might have several hundred. Their needs range from very simple to fairly
 complex. In this chapter, we will have a look at real world examples of
 how organizations are using CiviCRM.
 
-In addition to the detailed examples below, many [case studies are available on CiviCRM.org](https://civicrm.org/case-studies/), and may help you explore more uses of CiviCRM. The [CiviCRM Statistics](https://stats.civicrm.org/?tab=sites) site can also give you an overview of current usage.
+In addition to the detailed examples below, many [case studies are available on CiviCRM.org](https://civicrm.org/case-studies/), and will help you explore more uses of CiviCRM. The [CiviCRM Statistics](https://stats.civicrm.org/?tab=sites) site can also give you an overview of current usage.
 
 Throughout this chapter you will see references to CiviCRM features such
 as CiviEmail, CiviMember, CiviPledge, CiviCRM Profiles and others. These
