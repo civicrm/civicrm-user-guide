@@ -21,7 +21,7 @@ organizations. Extensions are by default listed in order of popularity
 (which is calculated by the number of sites that report using the
 module).
 
-![image](/img/z-extensions-website_1.png) 
+![screenshot of CiviCRM.org Extensions page](/img/CiviCRM-extensions-website-May2019.png) 
 
 Extensions are organized into two broad categories: 'native' extensions
 which work with any CMS, and CMS specific extensions that add
