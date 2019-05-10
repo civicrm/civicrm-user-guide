@@ -8,7 +8,7 @@ organisation reach its goals - but it won't be the right choice for
 every organisation. Here are some ways that you can find out whether
 CiviCRM is right for your organisation:
 
--   identify your organisation needs
+-   identify your organisation's needs
 -   talk to others who use CiviCRM
 -   read [case studies about how similar organizations use CiviCRM](https://civicrm.org/case-studies/)
 -   talk to [a CiviCRM consultant](https://civicrm.org/partners-contributors)
