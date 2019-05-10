@@ -10,7 +10,7 @@ in a single system that integrates tightly with popular open source content mana
 CiviCRM focuses on the needs of non-profits, NGO's and civic sector organizations, empowering communications, community engagement, activism,
 outreach, donor management, and much more.
 
-CiviCRM is **Free/Open Source** software, which means there are no
+CiviCRM is [**Free/Open Source** software](https://en.wikipedia.org/wiki/Free_and_open-source_software), which means there are no
 license costs or user fees associated with downloading, installing, or
 using the software. Being Free/Open Source also ensures that you have
 the freedom to view and modify the source code and to distribute copies
