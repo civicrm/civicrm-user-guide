@@ -37,8 +37,8 @@ register a Stack Exchange account first.
 
 ## Talking to CiviCRM Consultants
 
-Another option to help you understand CiviCRM is to make use of a
+Another option to help you understand CiviCRM is to talk with a
 professional. The CiviCRM website lists [contributors, partners and sponsors](https://civicrm.org/partners-contributors) that can walk you through CiviCRM, and
 there are many others; you may find a local website company who has
 experience with CiviCRM. Consider contacting a consultant for a meeting to
-discuss with you how CiviCRM could help your organisation.
+discuss how CiviCRM could help your organisation.
