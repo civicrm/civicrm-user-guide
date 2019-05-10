@@ -29,8 +29,6 @@ The [CiviCRM Stack Exchange](http://civicrm.stackexchange.com/) site is specific
 
 [Mattermost](https://chat.civicrm.org) offers live discussion in chat rooms and direct messages. It's a great place to go for any technical questions. Here, with a bit of luck, you'll often find an instant answer to your question or a pointer in the right direction.
 
-The [CiviCRM Forums](http://forum.civicrm.org) are a location for language and locality based CiviCRM discussion and support.
-
 You'll hopefully find that both Stack Exchange and Mattermost are great
 sources for help, support, and good ideas. That's all attributable to
 the good will and generous efforts of people like you! Everyone who
