@@ -14,7 +14,7 @@ CiviCRM is right for your organisation:
 -   talk to a CiviCRM consultant
 -   play with [one of many free CiviCRM demonstration sites](https://civicrm.org/demo)
 -   download and install [a test CiviCRM database ](https://civicrm.org/download) for free
--   Try [CiviCRM Spark](https://civicrm.org/spark) and easily get your own installation of CiviCRM up-and-running in minutes, starting from $9.50 a month. CiviCRM Spark ideal for testing and trialing CiviCRM, or for on-going use by smaller organizations and activities with up to 2000 contacts.
+-   Try [CiviCRM Spark](https://civicrm.org/spark) and easily get your own installation of CiviCRM up-and-running in minutes, starting from $9.50 a month. CiviCRM Spark is ideal for testing and trialing CiviCRM, or for on-going use by smaller organizations and activities with up to 2,000 contacts.
 
 ## Talking to others who use CiviCRM
 
