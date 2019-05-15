@@ -476,7 +476,7 @@ Site Preferences. Using an account with Administer CiviCRM privileges.
 You can also use this screen to rearrange the order that the information
 is displayed in. 
 
-For further details see [Customizing the user interface](/customizing-the-user-interface.md#changing-display-preferences)
+For further details see [Customizing the user interface](/initial-set-up/customizing-the-user-interface.md/#changing-display-preferences)
 
 Similarly, if you want to remove (or add) fields in the postal address
 section:
