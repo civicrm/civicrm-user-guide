@@ -34,7 +34,7 @@ example, based on the results of Advanced Search you can create a Smart
 Group of contacts who have active memberships, or a Smart Group of
 contacts in a given city. As people become members or move to the city
 you've searched on, they will be automatically added to the Smart Group.
-This makes it possible to to send mailings without having to first
+This makes it possible to send mailings without having to first
 update the contacts in a group.
 
 To create a **Smart Group**:
