@@ -32,7 +32,7 @@ an advanced topic, they are covered in their own chapter
 [Membership price sets](/membership/membership-price-sets.md).
 
 If you are having trouble modelling your membership structure in
-CiviCRM, ask on Mattermost or Stack Exchange (see [Finding the Community Online](/the-civicrm-community/the-civicrm-community.md#finding-the-community-online) about the problems you are having. There may
+CiviCRM, ask on Mattermost or Stack Exchange (see [Finding the Community Online](/the-civicrm-community/the-civicrm-community.md#finding-the-community-online)) about the problems you are having. There may
 be other ways to model your data, or simple changes you can make to
 CiviCRM's behaviour to better fit your needs.
 
@@ -137,7 +137,7 @@ renews.
     If the Duration is specified in **years** two extra fields will be
     displayed:
 
-    -       The **Fixed Period Start Date** is the calendar date that all
+    -   The **Fixed Period Start Date** is the calendar date that all
     memberships start on (eg January 1st or April 15th).
 
     -   The **Fixed Period Rollover Date** determines the end date for the
@@ -242,7 +242,7 @@ By default the journey through membership statuses is as follows:
     perhaps due to misbehaviour.
 -   **Deceased**: this status keeps a deceased contact's record in the
     system but removes the contact from all further communications. This
-    status is set automatically based on a contact's deceased flag).
+    status is set automatically based on a contact's deceased flag.
 
 You can force a membership to have its status overridden by selecting
 **membership override** on a membership record and choosing a status. As
