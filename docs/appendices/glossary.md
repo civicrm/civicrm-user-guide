@@ -48,14 +48,14 @@ the **source code** will always protect your rights in this way.
 
 ## Alpha Version
 
-A **software**version that contains very new **source code** with new
+A **software** version that contains very new **source code** with new
 functionality and bug fixes. An alpha version is released for testing
 purposes, and for people who want to follow its development, but it is
 not considered to be anywhere near ready for general release or use.
 
 ## Apache
 
-The most popular web**server software**. Apache is free and **open
+The most popular web **server software**. Apache is free and **open
 source** (see also **FLOSS**).
 
 ## API (Application Programming Interface)
@@ -95,15 +95,14 @@ expect.
 ## Bug Reporting / Bug Fixing
 
 The process of reporting **bugs** to the **software** **developer**(s),
-and then fixing the bugs so the software operates as intended.**
-**
+and then fixing the bugs so the software operates as intended.
 
 ## Bug Tracker
 
 An official repository for recording **bugs**. The **CiviCRM** bug
-tracker can be found here:
-[http://issues.civicrm.org/](http://issues.civicrm.org) (click on Issue
-Tracker).[](http://issues.civicrm.org/jira/browse/CRM.)
+trackers can be found here:
+[https://lab.civicrm.org/](http://lab.civicrm.org) with the main core
+tracker at [https://lab.civicrm.org/dev/core/issues](https://lab.civicrm.org/dev/core/issues)
 
 ## Cache
 
@@ -176,7 +175,7 @@ CiviMail is a mass-mailing **component** which allows you to engage
 
 ## CiviPledge
 
-CiviPledge is a component that allows the flexibility to create various
+CiviPledge is a **component** that allows the flexibility to create various
 types of fundraisers. Allows to individuals to donate daily, weekly,
 monthly or yearly.
 
@@ -209,7 +208,7 @@ is integrated with a CMS (currently **WordPress**, **Drupal** or
 
 A part of a **CMS** or other application that can be enabled or
 disabled, according to the needs of the user. Examples include
-**CiviEvent** or **CiviCase**. See also **module.**
+**CiviEvent** or **CiviCase**. See also **module**.
 
 ## Community Advisory Group
 
@@ -227,7 +226,7 @@ computer to accept and store cookies.
 A constituency is usually defined as a group of people bound by shared
 identity, goals, or loyalty. In **CiviCRM**, "constituents" is used to a
 describe all supporters, current or potential, of a given organisation.
-See also **contact**and**client.**
+See also **contact** and **client**.
 
 ## Contact
 
@@ -326,12 +325,12 @@ be accessed, managed, and updated. In one view, databases can be
 classified according to types of content: bibliographic, full-text,
 numeric, and images.
 
-Demo Site
+## Demo Site
 
-A website that allows you to test and explore the functionality of a
-piece of software. **CiviCRM** maintains three demos sites: one
-integrated with **Drupal**, one integrated with **Joomla!** and one in
-standalone mode. 
+A website that allows you to test and explore the functionality of a 
+piece of software. **CiviCRM** maintains three demos sites: one 
+integrated with **Drupal**, one integrated with **Joomla!** and one 
+integrated with **WordPress**. 
 
 ## Dedupe
 
@@ -383,7 +382,7 @@ A **RSS feed** containing the list of events defined in **CiviEvent**.
 ## Firefox
 
 A popular free and **open source** web browser, developed by the Mozilla
-Foundation ([http://www.mozilla.com](http://www.mozilla.com))
+Foundation ([http://www.mozilla.org](http://www.mozilla.org))
 
 ## FLOSS (Free/Libre Open Source Software)
 
@@ -453,16 +452,16 @@ own server in so that it is connected to the internet.
 
 Acronym for Information and Communication Technology. 
 
-## Internationalisation: i8n
+## Internationalisation: i18n
 
 The process of making **software** ready for adoption in different
 countries and different cultures, without the need to modify it
-technically. This is done by the **developer**(software engineer) when
+technically. This is done by the **developer** (software engineer) when
 writing the software. See also **Localisation**. 
 
 ## Internet Service Provider (ISP)
 
-A business that provides services such as internet access, email,****and
+A business that provides services such as internet access, email and
 website hosting. 
 
 ## Intranet
@@ -470,8 +469,7 @@ website hosting.
 A network of computers that are connected within a home or office but
 not accessible from outside the local network. 
 
-IT
---
+## IT
 
 Acronym for Information Technology.
 
@@ -498,7 +496,7 @@ principal components to build a viable general purpose web server.
 A type of operating system (other common operating systems are Windows
 and Mac OS). Linux has been popular as a web **server** for a long time
 and is now gaining popularity on personal laptops and desktop computers.
-Linux is **free software**and**open source.**
+Linux is **free software** and **open source**.
 
 ## Local Computer
 
@@ -540,11 +538,11 @@ MySQL is **free software**. ([http://mysql.com](http://mysql.com))
 A legally constituted non-business organisation with no participation or
 representation from government. In the United States, this type of
 organisation is more often referred to as a **Non-profit**. They may be
-also called civil society organisations or not-for-profits*.*
+also called civil society organisations or not-for-profits.
 
 ## Non-Profit
 
-see **NGO.**
+See **NGO**
 
 ## Online Contribution Page
 
@@ -617,7 +615,7 @@ For example, you can charge for different elements of an event.
 
 ## Primary Location
 
-The information that a **constinutent** wants to be used as their main
+The information that a **constitutent** wants to be used as their main
 point of contact for mailings etc.
 
 ## Profiles
@@ -773,7 +771,7 @@ recipient, in the email that each individual receives.
 The process of replacing **software** with a newer **version** of the
 same software. An upgrade may fix bugs, improve security, enable the
 software to continue to work with upgraded operating systems, or provide
-new features and other enhancements.****
+new features and other enhancements.
 
 ## URL
 
@@ -842,8 +840,8 @@ browser. Wikipedia is the best known example of a wiki.
 ## Wildcard
 
 A character that can match an any number and collection of characters,
-normally represented by **. For example, when used in searches, ab**
-finds ab, abba and abracadabra but not fabulous; **ab** finds fabulous.
+normally represented by \*. For example, when used in searches, ab\*
+finds ab, abba and abracadabra but not fabulous; \*ab\* finds fabulous.
 
 ## WordPress
 
