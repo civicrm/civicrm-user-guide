@@ -35,7 +35,7 @@ go to **Administer > Communications > Preferred Communications
 Methods**.
 
 Modifying dropdown options that define data &mdash; such as Activity Type,
-Relationship, etc. &mdash; is outside the scope of this chapter; see *Organising
+Relationship Type, Contribution Status, etc. &mdash; is outside the scope of this chapter; see *Organising
 Your Data* and the sections on the different CiviCRM components.
 
 ## Changing display preferences
