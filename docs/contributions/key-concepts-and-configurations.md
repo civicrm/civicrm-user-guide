@@ -139,7 +139,7 @@ All Contributions have one Status, the most common are:
 
 **Completed** entered into CiviCRM and payment processed and response received successfully.
 
-Other status such as In Progress, Overdue, Partially Paid are used by  optional features for partial payments and automatic recurring payments.
+Other status such as In Progress, Overdue, Partially Paid are used by  optional features for partial payments and automatic recurring payments.  Changing the labels of Contribution Status is possible at  **Administer > System Settings > Option Groups** but adding additional status is not recommended as it may interfere with the accounting validation of CiviCRM.
 
 ## Data needs and fields
 
