@@ -14,8 +14,8 @@ provides many other features.
 
 ## Detailed logging
 
-When enabled, detailed logging tracks all changes made to data in
-CiviCRM. Each time something is updated, CiviCRM keeps a note of:
+When enabled, detailed logging tracks  changes made to data in
+CiviCRM. Each time Contact data (e.g. name, address, email, etc.) is updated, CiviCRM keeps a note of:
 
 -   what the value was before
 -   what the value is after
@@ -28,12 +28,12 @@ of the change.
 
 ![Change log image](/img/change-log.png)
 
-This logging extends to almost all data that exists in CiviCRM,
-including your contact, membership, event, etc., and also all of
+This logging extends to almost all other data that exists in CiviCRM
+including membership, event, etc. but specific change information beyond the Contact varies.  For example, Contributions show only Insert and Delete (not Updated) and there is no comparison feature.  However, all of
 the 'meta data' in your install, such as Activity Types, Case types,
-Contribution Types, etc.
+Contribution Types, etc. are also logged.  
 
-With detailed logging turned on, any changes made to your data can be
+With detailed logging turned on, changes made to Contact data can be
 reverted, which means you can worry less about unwanted changes to the
 data, and whether they are done by administrative staff or by contacts
 interacting via your website - either maliciously or accidentally.
@@ -43,7 +43,7 @@ the collection of quite a lot of data and will have a small performance
 impact on your database. For this reason, we turn off logging by default
 in CiviCRM and let people turn it on if they require it. Before you
 decide whether you want to turn on logging, you might want to have a
-look at other ways in which time based logging happens in CiviCRM.
+look at other ways in which time based logging happens in CiviCRM.  It is a best practice to fully examine the features and technical overhead of Detailed Logging on a 'dev' site before implementing on production.
 
 ## Activities vs. logging
 
