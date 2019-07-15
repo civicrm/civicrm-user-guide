@@ -83,7 +83,9 @@ directing them to:
 
 - Drupal: www<i>.yourdomain.org</i>/civicrm/mailing/subscribe
 - Backdrop: www<i>.yourdomain.org</i>/civicrm/mailing/subscribe
-- WordPress: www<i>.yourdomain.org</i>/civicrm?page=CiviCRM&q=civicrm/mailing/subscribe&reset=1
+- WordPress with [clean URLs](https://docs.civicrm.org/sysadmin/en/latest/install/wordpress/#enabling-cleaner-urls-for-wordpress): www<i>.yourdomain.org</i>/civicrm/mailing/subscribe?reset=1
+- WordPress without clean URLs (the default for CiviCRM instances installed before version 5.13): www<i>.yourdomain.org</i>/civicrm?page=CiviCRM&q=civicrm/mailing/subscribe&reset=1
+- Joomla: www<i>.yourdomain.org</i>/administrator/index2.php?option=com_civicrm&task=civicrm/mailing/subscribe&reset=1
 
 You and anyone who accesses this link can subscribe to the available mailing
 list groups.
