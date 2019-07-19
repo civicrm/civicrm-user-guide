@@ -195,18 +195,19 @@ Retrieves geocodes (lat and long) and / or parses street addresses (populates st
 
 ### Job.group_cache_flush {:#job_group_cache_flush}
 
-This job purges aged smart group cache data (based on the timeout value). Sites can decide whether they want this job and / or the [group cache rebuild](#job.group_rebuild) job to run. In some cases performance is better when old caches are cleared out prior to any attempt to rebuild them. Also, many sites are very happy to have caches built on demand, provided the user is not having to wait for deadlocks to clear when invalidating them.
+This job purges aged smart group cache data (based on the timeout value). Sites can decide whether they want this job and / or the [group cache rebuild](#job.group_rebuild) job to run. Generally performance is better when old caches are cleared out prior to any attempt to rebuild them (whether on demand or otherwise)
 
 * Name of scheduled job created by default: *(none)*
-* Recommended frequency: 
+* Recommended frequency: always
 * Parameters: *(none)*
 
 ### Job.group_rebuild {:#job_group_rebuild}
 
-Rebuilds the smart group cache. 
+Rebuilds the smart group cache. This builds the cache for any smart groups for whom it is empty. If you do not run this it
+will build groups on demand. Building on demand is more efficient except for 2 operations; viewing the count on manage groups page for all groups and being able to expand the smart groups tab on an individual contact record. If these are important to you then enable this job but expect it to have performance impacts unless you have only a few small smart groups. Note that  you can disable the ability to expand the smart group tab on the contact record and this is recommended for medium sized site (e.g 50k contacts) and larger.
 
 * Name of scheduled job created by default: Rebuild Smart Group Cache
-* Recommended frequency: every time cron job is run
+* Recommended frequency: never
 * Parameters: 
     * `limit` (optional): specify a number to limit the number of smart groups that will be rebuilt
 
