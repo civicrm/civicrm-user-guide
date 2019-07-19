@@ -1,8 +1,11 @@
 # What is CiviCRM?
 
 CiviCRM is a powerful, web-based constituent relationship management (CRM)
-system built by and for nonprofit organizations and NGO's. It allows organisations to record 
-and manage information about the various people and organizations they interacts with. CiviCRM is more
+system built by and for nonprofit organizations and NGO's. As of 2019, over 
+[11,000 non-profits use CiviCRM](https://stats.civicrm.org/?tab=sites). CiviCRM currently manages over 303,000,000 
+contacts, 265,000,000 donations, and 42,000,000 event registrations. 
+CiviCRM allows organisations to record and manage all this information about the 
+various people and organizations they interact with. CiviCRM is more
 than just an address book, it is a flexible platform that allows users to manage a range of interactions 
 including donations, events, memberships, activities, cases, campaigns, mailings and more, all located 
 in a single system that integrates tightly with popular open source content management systems (CMS).
@@ -10,7 +13,7 @@ in a single system that integrates tightly with popular open source content mana
 CiviCRM focuses on the needs of non-profits, NGO's and civic sector organizations, empowering communications, community engagement, activism,
 outreach, donor management, and much more.
 
-CiviCRM is **Free/Open Source** software, which means there are no
+CiviCRM is [**Free/Open Source** software](https://en.wikipedia.org/wiki/Free_and_open-source_software), which means there are no
 license costs or user fees associated with downloading, installing, or
 using the software. Being Free/Open Source also ensures that you have
 the freedom to view and modify the source code and to distribute copies

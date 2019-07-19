@@ -4,9 +4,9 @@ CiviCRM is **Free Software** - this means it is developed by a community
 and licensed in a generous way so you can use it for free for whatever
 you want.
 
-Free Software (sometimes also referred to as **Free and Open Source
+Free Software (sometimes also referred to as [**Free and Open Source
 Software**, **FLOSS**, **FOSS**, **Software Libre**, or **Open
-Source**) is software that anyone can download, share, and --
+Source**](https://en.wikipedia.org/wiki/Free_and_open-source_software) is software that anyone can download, share, and --
 significantly -- change in any way they want. Practically speaking, you
 might never want to change the software, or even have a staff person who
 can read the **source code** (the instructions written by programmers).
@@ -22,8 +22,8 @@ But the ability to change the software protects you in many ways:
     organisation can hire someone to create it. Of course, the
     organisation can also submit a feature request to the CiviCRM team
     as with any software product.
--   Similarly, anyone can fix a **bug** (error in the software) if he or
-    she has the skills to do so. Because the source code is available,
+-   Similarly, anyone can fix a **bug** (error in the software) if they have
+    the skills to do so. Because the source code is available,
     clients can also find bugs more easily.
 -   Members of the community have much more input into how CiviCRM
     develops than is traditionally available via closed
