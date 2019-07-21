@@ -207,7 +207,7 @@ Rebuilds the smart group cache. This builds the cache for any smart groups for w
 will build groups on demand. Building on demand is more efficient except for 2 operations; viewing the count on manage groups page for all groups and being able to expand the smart groups tab on an individual contact record. If these are important to you then enable this job but expect it to have performance impacts unless you have only a few small smart groups. 
 
 !!! note 
-You can [disable the ability to expand the smart group tab on the contact record](/initial-set-up/customizing-the-user-interface/#changing-display-preferences) and this is recommended for medium sized site (e.g 50k contacts) and larger.
+    You can [disable the ability to expand the smart group tab on the contact record](/initial-set-up/customizing-the-user-interface/#changing-display-preferences) and this is recommended for medium sized site (e.g 50k contacts) and larger.
 
 * Name of scheduled job created by default: Rebuild Smart Group Cache
 * Recommended frequency: never
