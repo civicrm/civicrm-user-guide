@@ -58,6 +58,10 @@ either case, CiviCRM uses a separate contact record (an existing one if
 the contact is already in the system, otherwise a new one is created)
 for each individual registered.
 
+This setting also allows administrators to register the same contact
+multiple times to the same event. For example, if the person purchased
+a ticket to a concert, then wanted to purchase another ticket later on.
+
 Information on the **Duplicate matching rule** is provided in the
 *Contact matching and duplicate management* sub-section of this chapter
 (below).
