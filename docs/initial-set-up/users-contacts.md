@@ -1,5 +1,9 @@
 # How are Drupal or Joomla Users Linked to CiviCRM Contact Records
 
+Every CiviCRM instance sits within a "User Framework" — a [CMS (Backdrop, Drupal, Drupal or WordPress)](/appendices/glossary.md#cms-content-management-system) that handles user authentication (logging in) and gives users various levels of access to CiviCRM features (permissions).
+
+[Contacts](/organising-your-data/contacts.md) are the individuals, organizations and households in CiviCRM. Users, on the other hand, are defined in this context as people who have a username and password to log into CiviCRM via the User Framework/CMS. You probably won't have a User account for every Contact in your CiviCRM instance.
+
 ## Drupal behavior:
 
 Whenever a new user **registers** , CiviCRM checks for an existing contact with the same email address.
