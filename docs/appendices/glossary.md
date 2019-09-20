@@ -200,8 +200,8 @@ opposed to **open source software**. See also **proprietary software**.
 An application used to create, edit, manage, search and publish various
 kinds of digital content (text and other media such as images and
 videos). Web-based CMS allow organisations to add and manage content on
-their website without requiring advanced technical skills. **CiviCRM**
-is integrated with a CMS (currently **WordPress**, **Drupal** or
+their website without requiring advanced technical skills. Every instance of **CiviCRM**
+must be integrated with a CMS (currently **WordPress**, **Drupal**, **Backdrop** or
 **Joomla!**) which helps to facilitate **client** interaction.
 
 ## Component
