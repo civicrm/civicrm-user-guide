@@ -5,7 +5,7 @@ The documentation on this page is a starting point for contributing to the CiviC
 ## Style guide {:#style_guide}
 When proposing changes please follow the [Documentation style guide](https://docs.civicrm.org/dev/en/master/best-practices/documentation-style-guide/).  
 
-## Contributing to a single changes {:#single_changes}
+## Contributing a single change {:#single_changes}
 
 1. [Sign up for a github account](https://github.com/join) (if you don't already have one) and [login](https://github.com/login).
 2. Find the page in the manual that you want to edit.  For example, [Menu, Dashboard and Dashlets](/the-user-interface/menu-dashboard-and-dashlets.md)

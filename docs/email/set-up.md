@@ -79,8 +79,15 @@ checked: "Access CiviMail subscribe/unsubscribe pages."
 ### Using the subscribe link
 
 One way to allow users to subscribe to an email list online is by
-directing them to www.*yourdomain.org*/civicrm/mailing/subscribe. You
-and anyone who accesses this link can subscribe to the available mailing
+directing them to:
+
+- Drupal: <i>example.org</i>/civicrm/mailing/subscribe
+- Backdrop: <i>example.org</i>/civicrm/mailing/subscribe
+- WordPress with [clean URLs](https://docs.civicrm.org/sysadmin/en/latest/install/wordpress/#enabling-cleaner-urls-for-wordpress): <i>example.org</i>/civicrm/mailing/subscribe?reset=1
+- WordPress without clean URLs (the default for CiviCRM instances installed before version 5.13): <i>example.org</i>/civicrm?page=CiviCRM&q=civicrm/mailing/subscribe&reset=1
+- Joomla: <i>example.org</i>/administrator/index2.php?option=com_civicrm&task=civicrm/mailing/subscribe&reset=1
+
+You and anyone who accesses this link can subscribe to the available mailing
 list groups.
 
 ### Using a profile
