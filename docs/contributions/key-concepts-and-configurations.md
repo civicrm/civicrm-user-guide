@@ -127,6 +127,20 @@ edit existing acceptable credit cards or define a new option through
     then you will need to configure accepted credit cards/payment methods on 
     that site.
 
+## Status
+
+All Contributions have one Status, the most common are:
+
+**Pending (Pay Later)** indicates a contribution that has been entered but payment is not yet received.  This is usually by paper or electronic check.
+
+**Pending (Incomplete)** was entered into CiviCRM and sent to online processing.  However, either payment was not completed at the processor, or a response from the processor was not yet received.  Contributions perpetually stuck in this status in CiviCRM yet completed at the processor warrant investigation of the communications between the two systems.
+
+**Failed** was entered into CiviCRM and forwarded for processing.  However, the process declined, rejected or received an error and returned this result to CiviCRM..
+
+**Completed** entered into CiviCRM and payment processed and response received successfully.
+
+Other status such as In Progress, Overdue, Partially Paid are used by  optional features for partial payments and automatic recurring payments.  Changing the labels of Contribution Status is possible at  **Administer > System Settings > Option Groups** but adding additional status is not recommended as it may interfere with the accounting validation of CiviCRM.
+
 ## Data needs and fields
 
 CiviContribute has a set of predefined fields to track contribution
