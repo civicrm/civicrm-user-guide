@@ -190,7 +190,7 @@ at-a-glance overview of the case that a timeline does.
     "Meeting" in both a timeline and the sequence within the same case as
     this will create problems. 
 
-## Case Roles and Relationships 
+### Case Roles and Relationships 
 
 CiviCase provides three mechanisms for relating people to cases and
 clients:
@@ -222,7 +222,7 @@ Make a list of the expected case roles for each type of case you've
 listed, then determine which role will normally be considered the case
 manager for that case type.
 
-**Key Questions**
+## Key Questions
 
 Think about these questions with regard to your organisation's use of
 CiviCase:
@@ -244,7 +244,7 @@ CiviCase:
 -   What roles are involved? Are existing relationships adequate, or do
     you need to create some case specific ones?
 
-**Assumptions**
+## Assumptions
 
 Although CiviCase is quite flexible, there are a number
 of case-management assumptions built-in to the component. These
