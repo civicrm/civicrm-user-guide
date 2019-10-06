@@ -1,9 +1,15 @@
 # CiviCRM user guide
 
-Note: This repository contains _source files_ for the CiviCRM user guide. These files should be used for contributing to the documentation. **[You can read the doc here.  
-](https://docs.civicrm.org/user/en/stable/)**
+A documentation guide for people who use [CiviCRM](https://www.civicrm.org).
 
-## Contributing to this guide
-This guide grows through contributions by community members. [Here](https://docs.civicrm.org/user/en/latest/the-civicrm-community/contributing-to-this-manual/) is the information on how to contribute.    
+-   [Read published version](http://docs.civicrm.org/user/en/latest)
+-   [Learn how to edit](https://docs.civicrm.org/dev/en/master/documentation/#how-to-edit)
+
+# Docs Infrastructure Links
+
+-   [Docs Publisher system and issue queue](https://lab.civicrm.org/documentation/docs-publisher)
+-   [Docs Book definitions for the Docs Publisher](https://lab.civicrm.org/documentation/docs-books)
+-   [Docs Working Group meta issue queue](https://lab.civicrm.org/documentation/meta)
+
 
 
