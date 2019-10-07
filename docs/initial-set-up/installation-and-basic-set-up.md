@@ -34,7 +34,7 @@ Log in to your CiviCRM site and navigate to **Administer > Administration Consol
 
 Use this checklist to review and complete configuration tasks for your site. You will be redirected back to this checklist after saving each setting. Settings which you have not yet reviewed will be displayed in red. After you have visited a page, the links will display in green (although you may still need to revisit the page to complete or update the settings).
 
-![Cheklist with several sections. The first section, site configuration, contains the items: localization, organization address and contact info, and enable components.](/img/Configuration_Checklist_4_4.png)
+![Cheklist with several sections. The first section, site configuration, contains the items: localization, organization address and contact info, and enable components.](/img/Configuration_Checklist.png)
 
 ### Localization
 
