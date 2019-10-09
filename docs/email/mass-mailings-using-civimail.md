@@ -66,9 +66,8 @@ You will see the following screen.
 
 ![Bulk email based on search results](/img/email-compose-search-based-mailing.png)
 
-
 These are two screens are very similar, however, as described in
-[Choosing recipients: Groups versus search results](#Choosing recipients: Groups versus search results),
+[Choosing recipients: Groups versus search results](#choosing-recipients-groups-versus-search-results),
 for the search-based mailing you must choose an Unsubscribe Group and
 the "Search Results" group is included in (and cannot be removed from) the Recipients list. (Also, the HTML
 pane is open by default. It was closed to fit the bottom buttons into these images.)
@@ -78,7 +77,7 @@ Remember you can save your mailing at any stage by clicking on the
 
 **Step 1: Define Mailing**
 
-### Mailing tab
+### Mailing Tab
 Here you will find:
 
 **Mailing Name**: Enter a name for this mailing. Select a name
@@ -112,7 +111,7 @@ include (shown in green) and exclude (shown in red and struck through),
 by selecting them from the "Recipients" dropdown.
 Only groups of the type "Mailing List" will be available in the dropdown.
  ![Civimail Recipients include and exclude](/img/civimail-recipients-example.png)
- You can also refine your recipient list by including and excluding
+You can also refine your recipient list by including and excluding
 recipients of previous mailings. For instance, you may want to resend an
 email only to contacts that have been added to a Group since the last
 time you sent them email, to avoid sending the same email twice to some
@@ -120,7 +119,7 @@ people. Choose the original mailing in the "Exclude Past Recipients From".
 This will then send the message only to those members of the group who
 did not receive the original mailing.
 
-  The estimated final number of recipients to displayed to the right of the
+The estimated final number of recipients to displayed to the right of the
 "Recipients" field and highlighted in yellow.
 
 **The "wrench"**: The is located to the right of the Recipients
@@ -130,25 +129,24 @@ to access **Edit Options**.
 ![Civimail Recipients Edit Options](/img/civimail-recipients-edit-options.png)
 
   -   **Dedupe by email:** CiviCRM will always dedupe your mailing based on
- unique contact records. For example, if a contact is in three of the
- groups you are including in your mailing, they will only be sent one copy
- of the email. However, if the same email address is used by multiple
- contacts, how many emails are sent is determined by this box. If it
- is unticked then multiple copies of the email will be sent - one for
- each contact using that address. If it is ticked then only one
- email is sent to each address. You set the default for this box at
- **Administer > CiviMail > CiviMail Component Settings** by ticking
- or unticking "CiviMail dedupes e-mail addresses by default" but you can
- override the default for any email if needed.
+  unique contact records. For example, if a contact is in three of the
+  groups you are including in your mailing, they will only be sent one copy
+  of the email. However, if the same email address is used by multiple
+  contacts, how many emails are sent is determined by this box. If it
+  is unticked then multiple copies of the email will be sent - one for
+  each contact using that address. If it is ticked then only one
+  email is sent to each address. You set the default for this box at
+  **Administer > CiviMail > CiviMail Component Settings** by ticking
+  or unticking "CiviMail dedupes e-mail addresses by default" but you can
+  override the default for any email if needed.
 
   -   **Location Type:** By default emails created through CiviMail are sent to
- the address location(s) set as being for "Bulk Mailings" or, if no location type
- has that setting, to the address location set as "Is Primary". You can change
- the Location Type and the Selection
- Method on the Edit Options screen.
-You can filter on the Location Type and only send the mailing to email
-addresses with the specified location type or exclude the email
-addresses with the specified location type.
+  the address location(s) set as being for "Bulk Mailings" or, if no location type
+  has that setting, to the address location set as "Is Primary". You can change
+  the Location Type and the Selection Method on the Edit Options screen.  
+  You can filter on the Location Type and only send the mailing to email
+  addresses with the specified location type or exclude the email
+  addresses with the specified location type.
 
 **Unsubscribe Group** (for search-based mailings only): This should be
 chosen carefully. It may help to read through the example of a search-based
@@ -173,18 +171,19 @@ is displayed whichever tab is selected. Within this panel are the options to:
       color.
 
   -  Send a test email to a single email address. If the email address
-    does not already exist in CiviCRM a new contact record will be created.
+      does not already exist in CiviCRM a new contact record will be created.
+
   -  Send a test email to a an existing group in CiviCRM.
 
       The test mailing will fill in all the Tokens and include any attachments you are planning to send.
 
-     It is a good idea to test your email by sending it to yourself and
-  viewing it in your email client to make sure it looks as you expect.
-  If you are sending a mail with a complex layout, send it to your
-  test group and verify it from various mail clients (see *Testing
-  templates* in the *Set-up* section for more tips on this). It is
-  preferable to have more than one person receive your test email and
-  give you feedback.
+      It is a good idea to test your email by sending it to yourself and
+      viewing it in your email client to make sure it looks as you expect.
+      If you are sending a mail with a complex layout, send it to your
+      test group and verify it from various mail clients (see *Testing
+      templates* in the *Set-up* section for more tips on this). It is
+      preferable to have more than one person receive your test email and
+      give you feedback.
 
 The **Mailing** tab may be the only tab you need to visit when you are creating
 your mailing. It contains all the compulsory fields that need to be defined for
@@ -195,10 +194,10 @@ This is where you upload files to send as attachments with your email.
 
 ### Header and Footer tab
 Each new mailing you create will include the
-  default Header and default Footer as defined at
-  **Mailings > Headers, Footers, and Automated Messages**. If you don't want
-  to use these defaults, this tab is where you select the header and/or
-  footer you do want to use for this mailing. You define additional Headers
+default Header and default Footer as defined at
+**Mailings > Headers, Footers, and Automated Messages**. If you don't want
+to use these defaults, this tab is where you select the header and/or
+footer you do want to use for this mailing. You define additional Headers
 and Footers via **Mailings > Headers, Footers, and Automated
 Messages** (See *Set-Up* for details).
 
@@ -212,8 +211,8 @@ content viewable as a web page by everyone who has the permission of
 or administrators can view the content of this email as a web page;
 the recipients will have to log in to be able to view the message.
 
- To link to the web version of your email, you need to have inserted the
- **Mailing permalink** token in your email message. This token generates
+To link to the web version of your email, you need to have inserted the
+**Mailing permalink** token in your email message. This token generates
 a URL on which the message can be viewed; in order to display it
 properly in HTML messages, you'll need to add the proper link tags using
 the Source icon in the editor.
@@ -232,13 +231,13 @@ two options described next.
     Headers, Footers, and Automated Messages**.
 
 - **Opt-Out Message:** This message will be sent to a recipient who has
-opted-out from all the mailing lists
+  opted-out from all the mailing lists
 - **Resubscribe Message:** This message will be sent to a recipient who
-has resubscribed to one of the mailing lists
+  has resubscribed to one of the mailing lists
 - **Unsubscribe Message:** This message will be sent to a recipient who
-has unsubscribed from one of the mailing lists.
+  has unsubscribed from one of the mailing lists.
 
-    You can edit these three messages at **Mailings >> Headers, Footers, and Automated Messages**.
+  You can edit these three messages at **Mailings >> Headers, Footers, and Automated Messages**.
 
 ### Tracking tab
 -  **Track Click-Throughs**: This option will keep track of how many
@@ -251,15 +250,14 @@ has unsubscribed from one of the mailing lists.
         Some phishing filters may mark links that are displayed 
         differently in HTML code and in the text as unsafe. It is therefore 
         best not to use something like  
-        `<a href="http://google.com">http://Google.com</a>`
+        `<a href="http://example.com">http://Example.com</a>`
         but rather use  
-        ` <a href="http://google.com">click here to go to Google</a>` instead.
+        ` <a href="http://example.com">click here to go to Example</a>` instead.
 
     !!! note "Note for Plain Text Email"
         If you use short, user-friendly URLs, they will all be overwritten 
         with long links containing the name of your site and a long code 
-        looking like this 
-        http://yoursite.com/sites/all/modules/civicrm/extern/url.php?u=529&qid=29011.
+        looking like this http://example.com/sites/all/modules/civicrm/extern/url.php?u=529&qid=29011.
 
 -   **Track Opens:** This option allows you to track how many people
     opened the email you received. However, there are limitations to the
@@ -275,7 +273,7 @@ Once you have defined all aspects of your mailing click on **Next >**
 
 ![CiviMail Review and Schedule screen](/img/civimail-review-and-scheduling.png)
 
-### Review panel
+### Review Panel
 
 Thie is a summary of all the details of your email. The blue words are
 actually buttons. Clicking on **~XX recipients** will show
@@ -301,7 +299,7 @@ Therefore, the actual sending of your mass mailing can take several hours
 depending on your server configuration.
 
 
-## Tracking sent mass mailings
+## Tracking Sent Mass Mailings
 
 To review key statistics about mailings sent in the past, go to
 **Mailings > Scheduled and Sent Mailings**. Once you have found your
@@ -331,7 +329,7 @@ extra criteria. For more information on advanced searches, see
 
 ![](/img/CiviCRM_mailing_advancedsearch.png)
 
-## Managing mass mailings
+## Managing Mass Mailings
 
 Mass mailings can be found in one of three areas accessible via the
 **Mailings** menu:
@@ -362,6 +360,10 @@ Mass mailings can be found in one of three areas accessible via the
  The **Archive** and **Delete** links are available under the
  **more** link. For mailings that are scheduled but not yet sent, a
  **Cancel** link is available instead of **Archive**.
+
+ **Pause** and **Resume** links are also available under *more* link.
+ The pause is gradual, not instantaneous. It can be used when you
+ want another scheduled/pending mailing to send before the mailing you pause.
 
 **Archived Mailings:** This area lists all messages that were
  archived from the Scheduled and Sent mailings area. Mailings listed
