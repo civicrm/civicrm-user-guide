@@ -222,6 +222,45 @@ Make a list of the expected case roles for each type of case you've
 listed, then determine which role will normally be considered the case
 manager for that case type.
 
+#### System Status Warnings
+
+CiviCase may, in unusual situations, cause some status warnings related to Relationship Types. Some general principles applicable to all of these warnings are:
+  * If you haven't created any relationships yet between contacts you can delete the relationship type and recreate it.
+  * If you have created relationships between contacts, but not many, you may consider deleting those relationships, then deleting the relationship type, recreating the type, and then recreating the relationships between the contacts.
+
+##### Relationship Type Internal Name Duplicates
+
+This situation can come up if you get confused about A/B directions when setting up relationship types, which is quite easy if you're new to it. For example:
+  * Create a type called "Candy maker is" (A to B) / "Candy maker for" (B to A).
+  * Thinking that you need to create another type to have both directions appear properly, create another type called "Candy maker for" (A to B) / "Candy maker is" (B to A).
+  * Realize that you don't need that, so rename the second to something else you were planning to add, such as "Gum maker is"/"Gum maker for".
+  * This will cause problems when assigning roles of type Gum maker.
+  
+##### Relationship Type Display Label Duplicates
+
+Somehow you have two different relationship types with the same display label. The simplest solution is to change the label for one of them or delete the duplicate. If they really are the same relationship it's a bad idea to have two anyway.
+
+##### Relationship Type Cross-Duplication
+
+This situation can come up if you change your mind several times when setting up relationship types and you make those changes in a specific order. For example:
+  * Create a type called "Candy maker".
+  * Create a type called "Gum maker".
+  * Create a type called "Sweets maker".
+  * Later, decide you don't need Gum so delete Gum.
+  * Later still, decide you don't need both Candy and Sweets but you wanted Gum, so you rename Sweets to Gum.
+  * Then you decide you like the word Sweets better than Candy so you rename Candy to Sweets.
+  * At this point the system will get confused about what means what.
+
+##### Relationship Type Ambiguity
+
+This situation can come up if you do something like create a new Relationship Type that is bidirectional, like "Spouse of", and then change your mind and edit it so that direction matters. The system will still function but you may find some relationships of that type appear backwards.
+
+The reverse is also possible, where you initially created it as unidirectional and then later edited it so that it's bidirectional.
+
+##### Missing Roles
+
+One way this situation can come up is if you are using external XML files and you have made a typo in the file so that the relationship type doesn't match any existing type. Another way is if you deleted a relationship type referenced in the file but have not updated the file, so it still references it.
+
 ## Key Questions
 
 Think about these questions with regard to your organisation's use of
