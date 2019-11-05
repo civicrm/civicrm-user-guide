@@ -99,6 +99,12 @@ Create a link in the CiviMail message that includes the checksum token `{contact
 -   Joomla!: `http://example.org/index.php?option=com_civicrm&task=civicrm/petition/sign&reset=1&sid=IDNUMBER&{contact.checksum}&cid={contact.contact_id}`
 -   WordPress: `http://example.org/?page=CiviCRM&q=civicrm/petition/sign&sid=IDNUMBER&reset=1&{contact.checksum}&cid={contact.contact_id}`
 
+**Checksum for mail 'view in browser' links**: In CiviMail you can use a special link to allow contacts to view the email content in their browser, including the content personalised with tokens.
+
+-   Drupal: `http://example.org/civicrm/mailing/view?reset=1&id={mailing.key}&cid={contact.contact_id}&{contact.checksum}`
+-   Joomla!: `http://example.org/index.php?option=com_civicrm&task=civicrm/mailing/view&id={mailing.key}&{contact.checksum}&cid={contact.contact_id}`
+-   WordPress: `http://example.org/?page=CiviCRM&q=civicrm/mailing/view&id={mailing.key}&{contact.checksum}&cid={contact.contact_id}`
+
 ## Custom tokens {:#custom}
 
 Developers can create custom tokens which can, for example, display the total amount of contributions from a contact. See the Developer Guide for more info about [custom tokens](https://docs.civicrm.org/dev/en/latest/framework/civimail/#tokens). 
