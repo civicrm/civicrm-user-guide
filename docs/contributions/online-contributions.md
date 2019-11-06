@@ -175,6 +175,39 @@ contribution pages.
 
 For more information read [Profiles](/organising-your-data/profiles.md).
 
+#### Pre-filling fields by passing values in the URL
+
+Custom fields on Contribution Pages can be assigned a default value on the fly
+by adding a parameter to the URL. This might be useful, for example, if you want
+to pre-fill fields differently depending on whether someone arrives at the
+Contribution Page via a link from an email or a link on your website.
+
+To construct the URL parameter:
+
+1. Load the contribution page (both "live mode" and "test-drive mode" should
+work for this purpose).
+
+2. Locate the field you want to pre-fill, and use your browser's "inspect
+element" funtion on the field's label. Look for HTML similar to `<label
+for="custom_xx">`. The "xx" will be a number representing the custom field's ID.
+
+3. At the end of the page URL, add `&custom_xx=yyyy`, where `xx` is the field
+ID, and `yyyy` is the value that you want to insert into the field.
+
+Note:
+
+- For this to work, as of CiviCRM 5.18,
+
+    - if your field is a "Select", "Radio" or "Yes/No" type, its option values 
+    must be exactly the same as their corresponding labels.
+
+    - your custom field group can't be restricted to a Contact sub-type or a 
+    Financial Type. It must apply to all Contacts or all Contributions.
+
+- Contribution Page fields other than custom fields generally can't be
+pre-filled via the URL. The one exception is price set fields related to a
+membership.
+
 ## Automatic Contribution Recording
 
 Regardless of how donors get to your contribution page, CiviCRM
