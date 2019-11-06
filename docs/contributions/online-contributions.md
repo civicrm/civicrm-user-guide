@@ -194,19 +194,17 @@ for="custom_xx">`. The "xx" will be a number representing the custom field's ID.
 3. At the end of the page URL, add `&custom_xx=yyyy`, where `xx` is the field
 ID, and `yyyy` is the value that you want to insert into the field.
 
-Note:
-
-- For this to work, as of CiviCRM 5.18,
-
-    - if your field is a "Select", "Radio" or "Yes/No" type, its option values 
-    must be exactly the same as their corresponding labels.
-
-    - your custom field group can't be restricted to a Contact sub-type or a 
-    Financial Type. It must apply to all Contacts or all Contributions.
-
-- Contribution Page fields other than custom fields generally can't be
-pre-filled via the URL. The one exception is price set fields related to a
-membership.
+!!! note "Notes"
+    For this to work, as of CiviCRM 5.18:
+    
+      * If your field is a "Select", "Radio" or "Yes/No" type, its option values 
+        must be exactly the same as their corresponding labels.
+      * Your custom field group cannot be restricted to a Contact sub-type or a 
+        Financial Type. It must apply to all Contacts or all Contributions.
+    
+    Contribution page fields other than custom fields generally can't be
+    pre-filled via the URL. The one exception is price set fields related to a
+    membership.
 
 ## Automatic Contribution Recording
 
