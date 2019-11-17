@@ -1,26 +1,26 @@
-# URL filter support in searches
+# URL Filter Support In Searches
 
-In some cases it is possible to bookmark search urls with parameters in them in order to quickly re-access searches.
+In some cases it is possible to bookmark search URLs with parameters in them in order to quickly re-access searches.
 
 The parameters that are accepted by CiviCRM has been changing across versions. However, we have been standardising our approach and the parameters documented here have been added in a 
-standardised manner and can be expected to work going forwards. Testing is done on 5.20 & 5.21 but some are available in earlier versions.
+standardised manner and can be expected to work going forwards. Testing has been done on 5.20 & 5.21 but some of these parameters are available in earlier versions.
 
 To construct a parameterised url you need to 
-1) ensure the url contains 'reset=1&force=1' (after the question mark)
+1) ensure the URL contains 'reset=1&force=1' (after the question mark)
 2) add additional supported parameters.
 
-So, for example, in 5.20 the following url works on drupal to find contributions made by a person with a name like 'Bob', a contribution source like dad made on or before 01 Jan 2018
+So, for example, in 5.20 the following URL works on Drupal *(with Clean URL support)* to find contributions made by a person with a name like `Bob`, a contribution source like `dad` made on or before `01 Jan 2018`
 `civicrm/contribute/search?reset=1&reset=1&force=1&sort_name=bob&receive_date_high=20180101&contribution_source=dad`
 
-The following parameters work in a supported way on contribution search:
+The following parameters work in a standardised way for contribution searches:
 
 |Field|Example|Comments|Min version (where known)|
 |-----|-------|-------|-------|
-|sort_name|sort_name=bob|Sort name is like 'bob%' or '%bob% depending on your site config*|
-|contribution_source|contribution_source=dad|Contribution source like '%dad%' or 'dad%'|
-|cancel_reason|cancel_reason=dunno|Contribution source like '%dunno%' or 'dunno%'
-|invoice_number|invoice_number_reason=xyz|Invoice Number like '%xyz%' or 'xyz%'
-|contribution_page_id|contribution_page_id=1||5.21 PR https://github.com/civicrm/civicrm-core/pull/15785|
+|sort_name|sort_name=bob|Sort name is like `bob%` or `%bob%` depending on your site config \*|
+|contribution_source|contribution_source=dad|Contribution source like `%dad%` or 'dad%' \*|
+|cancel_reason|cancel_reason=dunno|Contribution source like `%dunno%` or `dunno%` \*|
+|invoice_number|invoice_number_reason=xyz|Invoice Number like `%xyz%` or `xyz%` \*|
+|contribution_page_id|contribution_page_id=1||5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15785)|
 |receive_date_high|receive_date_high=20180101132323|Contribution received on or before 01 Jan 2018, 1.23 pm|
 |receive_date_low|receive_date_low=20161001|Contribution received on or after 01 Oct 2016|
 |receive_date_relative|receive_date_relative=this.year|Contribution received this year|
@@ -37,19 +37,20 @@ The following parameters work in a supported way on contribution search:
 |participant_role_id|participant_role_id=1,2|Participant Role IN (Attendee, Host)|5.12 [PR](https://github.com/civicrm/civicrm-core/pull/15791)|
 
 
-* Whether text fields search for LIKE '%dad%' or LIKE 'dad%' depends on the site wide setting
-'Automatic Wildcard' under Administer CiviCRM->Customize data and screens -> search preferences
-For large sites turning this off gives a significant performance improvement but it means
+* Whether text fields search for LIKE `%dad%` or LIKE `dad%` depends on the site wide setting
+'Automatic Wildcard' under **Administer CiviCRM -> Customize Data and Screens -> Search Preferences**
+ For large sites turning this off gives a significant performance improvement but it means
 that searching for 'dad' will return 'daddy' but not 'grandad'.
 
 ## Date Formats
 
-In general there are 2 types of date formats to use
-1) _high or _low fields take an 8 or 14 digit number representing Year,month, day and optionally
-hour, minute and second - eg. 20180921235959 means 21 Septembers 2018 at 23 hours, 59 minutes and 59 seconds.
-You could leave off 235959 and it would mean at zero o'clock - ie midnight
+In general there are two types of date formats to use
 
-2) Relative date fields.  The available options are somewhat configurable by site but
+1. \_high or \_low fields take an 8 or 14 digit number representing Year, Month, Day and optionally
+Hour, Minute and Second - eg. 20180921235959 means 21 September 2018 at 23 hours, 59 minutes and 59 seconds.
+You could leave off 235959 and it would mean at zero o'clock - ie midnight.
+
+2) Relative date fields. The available options are somewhat configurable by site but
 most sites should have the following
 
 | value | Means |
