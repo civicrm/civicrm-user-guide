@@ -45,7 +45,7 @@ The following parameters work in a standardised way for contribution searches:
 |case_status_id|case_status_id=1|Case Status in Opened|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15920)|
 |case_subject|case_subject=test|Case subject like `%test%`|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15920)|
 |case_deleted|case_deleted=1|Case is deleted|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15920)|
-|case_id|case_id=1|Case id IN (1)|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15920)|
+|case_id|case_id=1|Case id = 1|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15920)|
 |case_owner|case_owner=2|Only My Cases|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15920)|
 |case_tags|case_tags=1,2|Case Tags in (1,2)|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15920)|
 
