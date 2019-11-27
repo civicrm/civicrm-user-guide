@@ -27,14 +27,14 @@ The following parameters work in a standardised way for contribution searches:
 |contribution_cancel_date_high|contribution_cancel_date_high=20180101132323|Contribution cancelled on or before 01 Jan 2018, 1.23 pm|
 |contribution_cancel_date_low|contribution_cancel_date_low=20161001|Contribution cancelled on or after 01 Oct 2016|
 |contribution_cancel_date_relative|contribution_cancel_date_relative=this.year|Contribution cancelled this year|
-|event_high|event_high=201901010000|Event end date on or before 1 January 2019|5.12 [PR](https://github.com/civicrm/civicrm-core/pull/15791)|
-|event_low|event_low=201901010000|Event Start date on or after 1 January 2019|5.12 [PR](https://github.com/civicrm/civicrm-core/pull/15791)|
-|event_relative|event_relative=this.year|Event Start Date on or after ths start of this year and the event end date on or before the end of the year|5.12 [PR](https://github.com/civicrm/civicrm-core/pull/15791)|
-|participant_registration_date_high|participant_registration_date_high=201901010000|Participant Registration Date on or before 1 January 2019|5.12 [PR](https://github.com/civicrm/civicrm-core/pull/15791)|
-|participant_registration_date_low|participant_registration_date_low=201901010000|Participant Registration date on or after 1 January 2019|5.12 [PR](https://github.com/civicrm/civicrm-core/pull/15791)|
-|participant_registration_date_relative|participant_registration__date_relative=this.year|Participant Registration Date on or after ths start of this year and the event end date on or before the end of the year|5.12 [PR](https://github.com/civicrm/civicrm-core/pull/15791)|
-|participant_status_id|participant_status_id=1,2|Participant Status in Registered and Pending Pay Later|5.12 [PR](https://github.com/civicrm/civicrm-core/pull/15791)|
-|participant_role_id|participant_role_id=1,2|Participant Role IN (Attendee, Host)|5.12 [PR](https://github.com/civicrm/civicrm-core/pull/15791)|
+|event_high|event_high=201901010000|Event end date on or before 1 January 2019|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15791)|
+|event_low|event_low=201901010000|Event Start date on or after 1 January 2019|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15791)|
+|event_relative|event_relative=this.year|Event Start Date on or after ths start of this year and the event end date on or before the end of the year|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15791)|
+|participant_registration_date_high|participant_registration_date_high=201901010000|Participant Registration Date on or before 1 January 2019|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15791)|
+|participant_registration_date_low|participant_registration_date_low=201901010000|Participant Registration date on or after 1 January 2019|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15791)|
+|participant_registration_date_relative|participant_registration__date_relative=this.year|Participant Registration Date on or after ths start of this year and the event end date on or before the end of the year|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15791)|
+|participant_status_id|participant_status_id=1,2|Participant Status in Registered and Pending Pay Later|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15791)|
+|participant_role_id|participant_role_id=1,2|Participant Role IN (Attendee, Host)|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15791)|
 
 
 * Whether text fields search for LIKE `%dad%` or LIKE `dad%` depends on the site wide setting
