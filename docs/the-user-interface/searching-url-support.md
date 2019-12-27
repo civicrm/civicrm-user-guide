@@ -50,7 +50,6 @@ The following parameters work in a standardised way for contribution searches:
 |case_tags|case_tags=1,2|Case Tags in (1,2)|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15920)|
 
 
-
 * Whether text fields search for LIKE `%dad%` or LIKE `dad%` depends on the site wide setting
 'Automatic Wildcard' under **Administer CiviCRM -> Customize Data and Screens -> Search Preferences**
  For large sites turning this off gives a significant performance improvement but it means
