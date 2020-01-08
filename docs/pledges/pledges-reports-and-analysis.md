@@ -5,7 +5,7 @@
 CiviCRM comes with two pledge reports that are useful when analysing
 pledges. The **Pledge summary report** includes per contact information
 on amount pledged, pledge status, next payment date, balance due, total
-amount paid etc. It is based on the**Pledge Report** template. 
+amount paid etc. It is based on the **Pledge Report** template. 
 
 The **Pledged but not paid** report lists pledges which are not
 completed and have a due date in the past. The report is based on the
