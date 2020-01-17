@@ -112,6 +112,9 @@ organizers directly. If the event is being held off-site from your
 organization's primary location, you may also want to provide contact
 information for the meeting location.
 
+You can also select whether or not the event location is showed
+on the registration and event information screens.
+
 ## Fees
 
 If the event is free, set the **Paid Event** radio button to **No**,
