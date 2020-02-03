@@ -1,27 +1,12 @@
 # Payment processors
 
-CiviCRM connects to a variety of different payment processors.
-Out-of-the-box, it comes with support for approximately 15 payment
-processors. Many other community contributed processors are available to
-download from the CiviCRM.org Extensions Directory:
+CiviCRM connects to a variety of different payment processors. Out-of-the-box, it comes with support for approximately 15 payment processors. Many other community contributed processors are available to download from the CiviCRM [Extensions Directory](https://civicrm.org/extensions).
 
-[http://civicrm.org/extensions](http://civicrm.org/extensions "CiviCRM.org Extensions Directory")
+Additional payment processors may also be available from third-party sites.
 
+Community contributed processors are not supported by CiviCRM but there is no reason why they should not be just as reliable as the out-of-the-box processors. If you do use a community contributed processor, be sure that you have access to adequate technical support for that processor, either in house, from the author of the payment processor, or from a trusted third party.
 
-Additional payment processors may also be available from third party
-sites.
-
-Community contributed processors are not supported by CiviCRM but there
-is no reason why they should not be just as reliable as the
-out-of-the-box processors. If you do use a community contributed
-processor, be sure that you have access to adequate technical support
-for that processor, either in house, from the author of the payment
-processor, or from a trusted third party.
-
-You can browse an up-to-date comparison of many of the available payment
-processors at
-
-[http://wiki.civicrm.org/confluence/display/CRMDOC/Payment+Processors](http://wiki.civicrm.org/confluence/display/CRMDOC/Payment+Processors%20)
+Browse a [comparison of the available payment processors](https://docs.civicrm.org/sysadmin/en/latest/setup/payment-processors/#comparison) in the System Administrator Guide.
 
 ## Selecting a payment processor
 
