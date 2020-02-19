@@ -40,6 +40,10 @@ Tab.
 
 ![E-mail message.](/img/email_invoice.png)
 
+!!! note
+    When you send an invoice by email it is not possible to add CC / BCC. 
+    If you do want to have the possibility to CC/BCC (although with explicit fields, not implicit), there is an extension for       that: [invoicehelper](https://lab.civicrm.org/extensions/invoicehelper).
+
 Here is an example of a printed invoice. Invoices can be customized.
 
 ![Invoice example.](/img/invoice.png)
