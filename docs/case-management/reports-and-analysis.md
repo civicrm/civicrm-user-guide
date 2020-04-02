@@ -16,20 +16,14 @@ CiviCRM's search features and CiviReport.
 ## QA Audit / Redact
 
 This report is run from the contact's case management screen. It
-provides details for the activities in the case. You can chose to report
-on all activities or to exclude those with 'Completed' status. If you
-select **Redact (hide) Client and Service Provider Data** then contact
-numbers rather than names will be include in the report as shown
-here.
+is similar to the Print Report link on that screen, but will only include activities that are defined in a selected timeline. You can chose to include activities with any status or to exclude those with 'Completed' status.
 
-![screenshot](/img/qa_audit_screen.png)
+![screenshot](/img/case_audit_dropdown.png)
+![screenshot](/img/case_audit_parameters.png)
 
-The onscreen report displays
-information for one activity at a time. Click on the description in the
-table on the left to display the information for that activity.
+If you select **Redact (hide) Client and Service Provider Data** then randomly assigned numbers rather than names will be used in the report as shown here. The same contact will have the same number throughout the report.
 
-If you print the report it will include the Case Summary and the Case
-Roles as well as the Case Activities. 
+![screenshot](/img/case_audit_redact.png)
 
 ## CiviCase Reports
 
