@@ -3,7 +3,8 @@ site_url: https://docs.civicrm.org/user/en/stable/
 repo_url: https://github.com/civicrm/civicrm-user-guide
 site_description: 'A guide for CiviCRM users.'
 site_author: 'The CiviCRM community'
-theme: material
+theme: 
+  name: material
 markdown_extensions:
   - attr_list
   - admonition
@@ -18,7 +19,7 @@ markdown_extensions:
   - pymdownx.betterem
   - pymdownx.mark
 
-pages:
+nav:
 - Home: 'index.md'
 - Introduction:
     - 'What is CiviCRM?': 'introduction/what-is-civicrm.md'
