@@ -87,7 +87,7 @@ to the CiviCRM community.
 
 -   Contribute to CiviCRM documentation. This book was written by
     community members; you can contribute to it by
-    [following the instructions here](the-civicrm-community/contributing-to-this-manual.md).
+    [following the instructions here](contributing-to-this-manual.md).
 -   Contribute content to CiviCRM's website. You can share use cases and case studies that describe how your organization uses CiviCRM and the solutions and processes you've developed around
     the software. See existing case studies  [here](https://civicrm.org/case-studies). You can also share your successes, experiences at Civi-related
     events, interesting customizations, etc. on the
@@ -116,5 +116,5 @@ to the CiviCRM community.
     [CiviCRM's website](https://civicrm.org/work-with-the-core-team)
     or write to [info@civicrm.org](mailto:info@civicrm.org) for more
     information on sponsoring development.
--   Report any bugs that you find in CiviCRM. See the [*Bug Reporting*](the-civicrm-community/bug-reporting.md)
+-   Report any bugs that you find in CiviCRM. See the [*Bug Reporting*](bug-reporting.md)
     chapter of this book for more information.
