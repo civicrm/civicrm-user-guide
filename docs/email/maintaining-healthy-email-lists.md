@@ -49,7 +49,7 @@ To release a hold:
 1.  Go to **Advanced Search**
 2.  In the **Basic Search Criteria** check the box to search for
     **Emails On Hold** 
-![The checkbox is on the right-hand-side of the screen.](img/mailing_basic_search.png)
+![The checkbox is on the right-hand-side of the screen.](../img/mailing_basic_search.png)
 3.  Once you have the list of contacts with held email addresses, select
     them and choose the action **Unhold Emails** from the dropdown list
     and click **Go.**
@@ -77,7 +77,7 @@ bad emails, then:
 Emails that have been held are different from emails that have been
 unsubscribed. Unsubscribers have clicked the linked text in an email
 that said “unsubscribe from this mailing”. This link is created by one
-of these [tokens](common-workflows/tokens-and-mail-merge.md)
+of these [tokens](../common-workflows/tokens-and-mail-merge.md)
 in an email: `{action.unsubscribe}` or `{action.unsubscribeUrl}`
 
 Email recipients who unsubscribe from a single mailing list will simply
@@ -95,7 +95,7 @@ out. You should be very careful about the emails you send to someone who
 has opted out if you do not want to be accused of sending spam. 
 
 To opt out, an email recipient can click the linked text in an email
-created by one of these opt-out [tokens](common-workflows/tokens-and-mail-merge.md): `{action.optOut}` or `{action.optOutUrl}` 
+created by one of these opt-out [tokens](../common-workflows/tokens-and-mail-merge.md): `{action.optOut}` or `{action.optOutUrl}` 
 
 You can include these tokens directly in the body of your mailing or in
 a footer message.

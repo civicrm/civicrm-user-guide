@@ -26,7 +26,7 @@ Here's how you can export contact information:
 1.  Search for contacts. Carry out a search based on your desired
     criteria using one of the available search tools, e.g. Quick search,
     Find Contacts, Advanced search, Search Builder, or a custom search
-    (You can find out more about performing searches in [Searching](the-user-interface/searching.md).
+    (You can find out more about performing searches in [Searching](../the-user-interface/searching.md).
 
 2.  Select contacts you wish to export. Select all records, or choose
     individual records for export using the check-boxes to the left of
@@ -34,7 +34,7 @@ Here's how you can export contact information:
 3.  From the **- actions -** dropdown menu, choose **Export Contacts**
     as shown in the following figure. This takes you to the export wizard.
 
-    ![ExportFromSearch](img/CiviCRM_update-CiviCore-ExportFromSearch-en.png "ExportFromSearch")
+    ![ExportFromSearch](../img/CiviCRM_update-CiviCore-ExportFromSearch-en.png "ExportFromSearch")
 
 4.  **Export all or selected fields**.  
 
@@ -42,7 +42,7 @@ Here's how you can export contact information:
     exporting the primary fields or selecting your own set of fields for
     export. 
 
-    ![ContactExportOptions](img/contact-export-options.png "ContactExportOptions")
+    ![ContactExportOptions](../img/contact-export-options.png "ContactExportOptions")
 
     There are 80 fields in a primary fields export (core contact fields with primary email, phone, and address data). Often it is best to specifically select which fields to export as this lets you include non-primary email, phone and address data, custom contact fields and data from related contacts. You can also choose to use a previously saved export mapping (if you have any).  
 
@@ -56,7 +56,7 @@ Here's how you can export contact information:
 
 6.  **Select Fields to Export**
 
-    ![ContactExportFieldSelection](img/contact-export-field-selection.png "ContactExportFieldSelection")  
+    ![ContactExportFieldSelection](../img/contact-export-field-selection.png "ContactExportFieldSelection")  
 
     -  If you have chosen to use a saved export mapping, the fields in that mapping will be displayed.  You can use the mapping as is or modify it.  If you modify it you can update the existing field mapping or save the changes as a new field mapping.
 

@@ -27,7 +27,7 @@ Depending on how many custom fields you are creating, you should also consider g
 
 To create a custom field set and custom fields, go to: **Administer** > **Customize Data** **and Screens** > **Custom Data**. This screen lets you assign a title to the field set, specify what type of records it will be used for, select the display characteristics, and enter help text. The form appears in the following image, and we'll describe each field.
 
-![image](img/Custom_Field_Set.png)
+![image](../img/Custom_Field_Set.png)
 
 ### Set Name
 
@@ -77,11 +77,11 @@ There are two options for displaying in a tab. **Tab with table** and **Tab**.
 
 **Tab with table** provides a concise overview of the data in the set.  New records can be added and existing records can be edited in pop-up windows. Under **more** there is the option to "copy a record". For consecutive records that have the same value in many fields this lets you edit just one or two fields and save the copy as a new record. 
 
-![image](img/z-Sprint2014_copy_multli_record.png)
+![image](../img/z-Sprint2014_copy_multli_record.png)
 
 **Tab** displays data in a similar format to the inline style.
 
-![image](img/z-Sprint14_multi_record_old_style_table.png)
+![image](../img/z-Sprint14_multi_record_old_style_table.png)
 
 ### Is this Custom Field Set active?
 
@@ -113,7 +113,7 @@ After completing the field configuration options, click 'Save' to record the fie
 
 With the exception of the data and input field type selection, all of the configuration options may be modified after your initial creation of the field. You may also find it useful to preview your custom fields, as well as the whole set of custom fields, as you are defining them. This is particularly useful for checking the layout of radio button and check-box fields with a large number of choices.
 
-![customdatafield.png](img/CiviCRM-DataBasic-customdatafield-en.png "newcustomfield")
+![customdatafield.png](../img/CiviCRM-DataBasic-customdatafield-en.png "newcustomfield")
 
 ### Field label
 
@@ -123,7 +123,7 @@ The text next to the field when displayed to the user. Text entered here is also
 
 Custom fields can be of many different types, many of which you've probably encountered when filling out forms on websites. When you create a custom field, CiviCRM presents a dropdown list of data types from which you can select that which best represents the data you plan to store. The menu on the left (shown open in the following figure) indicates the format of data you wish to store, whereas the menu on the right indicates the way you want to interact with the user.
 
-![datainputfieldtype.png](img/CiviCRM-DataBasic-datainputfieldtype-en.png "datainputtype")
+![datainputfieldtype.png](../img/CiviCRM-DataBasic-datainputfieldtype-en.png "datainputtype")
 
 The types of fields are:
 
@@ -168,11 +168,11 @@ We suggest you experiment with creating different field types to get an idea of 
 
 This check box only appears when you are creating a field in a multi-record field set that you have elected to display as **tab with table**. It is checked by default. If you unselect this then the field will not be displayed in the table. You might want to do this for less important fields if you have a large dataset that is too wide for your screen. 
 
-![image](img/z_sprint14_MultirowCustom3.png) 
+![image](../img/z_sprint14_MultirowCustom3.png) 
 
 Fields hidden in the table view will still be available when adding a new record or viewing, editing or copying a particular row.
 
-![image](img/z_sprint14_MultirowCustom2.png) 
+![image](../img/z_sprint14_MultirowCustom2.png) 
 
 ### Database Field Length
 
@@ -221,7 +221,7 @@ If you choose to use the same set of options for several fields, you will be not
 
 When you create a new set, you have the option of initially entering up to ten multiple choice options in a table. If you need more than ten options, you can create an unlimited number of additional choices after saving this new field by using the 'Edit Multiple Choice Options' link. Go to: **Administer** > **Customize** > **Custom Data** > **View and Edit Custom Fields** > **Edit Multiple Choice Options**. You may go to this screen at a later date to modify the label, order and active status of any multiple choice option, or add more choices. 
 
-![CustomMultipleOptions](img/CiviCRM-Configuring-CustomMultipleOptions-en.png "CustomMultipleOptions")
+![CustomMultipleOptions](../img/CiviCRM-Configuring-CustomMultipleOptions-en.png "CustomMultipleOptions")
 
 If desired, you can also mark one of the choices as the default option. 
 
@@ -231,7 +231,7 @@ Inactive options are hidden when the field is presented.
 
 You can view a listing of all the custom fields in a custom field set at any time by navigating to **Administer > Customize Data and Screens > Custom Data** and clicking 'View and Edit Custom Fields' for the relevant field set.
 
-![image](img/Move_custom_fields.png) 
+![image](../img/Move_custom_fields.png) 
 
 As well as the expected options of edit field settings, edit multiple choice options (if applicable), preview, disable or delete, you also have the option to **Move** a custom field to another data set. You can move custom fields between sets used for all contacts or for contact sub-types but otherwise you can only move fields between data sets of the same type.
 
@@ -239,20 +239,20 @@ As well as the expected options of edit field settings, edit multiple choice opt
 
 You can also create headings in your multiple choice option lists. For example you may wish to make a list as follows:
 
-![Screenshot of select element open with "Cats" and "Dogs" displaying headings and other options displaying beneath them](img/option_list_headings_2.png)
+![Screenshot of select element open with "Cats" and "Dogs" displaying headings and other options displaying beneath them](../img/option_list_headings_2.png)
 
 To put headings in your options, follow these steps:
 
 1. When configuring the field, choose "Select" or "Multi-Select" as the input type.
 
-    ![Screenshot of configuring input field type for a custom field, with the "Select" type chosen](img/input-type-field-select.png)
+    ![Screenshot of configuring input field type for a custom field, with the "Select" type chosen](../img/input-type-field-select.png)
     
 1. When configuring the options for the field, add your headings as follows:
 
     * Set the "Label" for your heading to be the text displayed to the user
     * Set the "Value" for your heading to be some piece of text prefixed by "crm_optgroup_".
 
-    ![Screenshot of configuring select options by prefixing the "value" field in the heading options with "crm_optgroup_"](img/option_list_headings_1.png)
+    ![Screenshot of configuring select options by prefixing the "value" field in the heading options with "crm_optgroup_"](../img/option_list_headings_1.png)
 
 ## Choosing between fields, groups and tags
 

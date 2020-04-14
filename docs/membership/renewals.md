@@ -47,7 +47,7 @@ by the duration of the new membership type. If this is not what you want
 then you will need to link your membership types to different
 organisations. (One can be a dummy organisation created purely for this
 purpose and invisible to the user. See the
-[Membership types](membership/defining-memberships.md#membership-types)
+[Membership types](defining-memberships.md#membership-types)
 section of the **Defining Memberships** chapter
 for a more detailed explanation.)
 
@@ -67,7 +67,7 @@ One or more renewal reminder emails can be sent automatically using the
 Schedule Reminders feature (**Administer > Communications > Schedule
 Reminders**). This is particularly helpful for rolling membership types,
 where memberships could be ending at any time during the year. Refer to
-the [Schedule Reminders](email/scheduled-reminders.md) page for the steps involved in sending
+the [Schedule Reminders](../email/scheduled-reminders.md) page for the steps involved in sending
 out a scheduled reminder once you have composed your message.
 
 Exactly what you want to say in your reminder email(s) will depend on
@@ -79,7 +79,7 @@ and payment through their accounts department) would be different from
 those sent one week after an individual's membership has ended.
 
 !!! tip "Tip: Pre-filling the renewal form"
-    If members are able to renew online, all renewal email reminders should contain a [checksum token](common-workflows/tokens-and-mail-merge.md#checksum) link to prefill the renewal form with any data that exists in their record.
+    If members are able to renew online, all renewal email reminders should contain a [checksum token](../common-workflows/tokens-and-mail-merge.md#checksum) link to prefill the renewal form with any data that exists in their record.
 
 As with all emails you send out you need to allow time to test renewal
 reminder templates, especially if you have complex membership structures
@@ -96,7 +96,7 @@ scheduled reminders.
 You may also want to post out letters to all your members who are due to
 renew or just post letters to those without an email address and those
 who have opted out of bulk or all emails. Refer to [Postal mail
-communications](common-workflows/postal-mail-communications.md) for ways to generate
+communications](../common-workflows/postal-mail-communications.md) for ways to generate
 those letters.
 
 ## Automatically renewed memberships
@@ -105,8 +105,8 @@ For members who have chosen this option when they first joined, on their
 renewal date the payment will be taken automatically from their
 pre-authorised credit card, their membership end date will be updated
 and they will receive appropriate thank-you and receipts from CiviCRM.
-(See [Defining memberships](membership/defining-memberships.md), [Online memberships sign up](membership/online-membership-sign-up.md) and
-[Manual entry of memberships](membership/manual-entry-of-memberships.md) for details of how to set up auto-renewing
+(See [Defining memberships](defining-memberships.md), [Online memberships sign up](online-membership-sign-up.md) and
+[Manual entry of memberships](manual-entry-of-memberships.md) for details of how to set up auto-renewing
 memberships.)
 
 ## Online renewals
@@ -128,7 +128,7 @@ will be renewed. If CiviCRM can't find their existing contact record
 (perhaps they have changed their email address) then a new contact
 record and membership will be created. This is one source of duplicates
 in your database and you need to minimise the chances that this will
-happen. Two ways to do this are to always include a [checksum token](common-workflows/tokens-and-mail-merge.md#checksum) in
+happen. Two ways to do this are to always include a [checksum token](../common-workflows/tokens-and-mail-merge.md#checksum) in
 renewal reminder emails and add text to the new member introductory
 message to remind people that they should log in before they renew.
 
@@ -142,7 +142,7 @@ members whose initial membership was entered manually unless you
 configure a **Default Online Membership Renewal Page** as follows:
 
 1.  If it does not already exist, create a membership page that includes
-    all currently available memberships. You may need to use a [Membership price set](membership/membership-price-sets.md) for this if the membership fees need to be allocated to more
+    all currently available memberships. You may need to use a [Membership price set](membership-price-sets.md) for this if the membership fees need to be allocated to more
     than one financial type.
 
 2.  Navigate to **Administer > CiviMember > CiviMember Component
@@ -153,7 +153,7 @@ configure a **Default Online Membership Renewal Page** as follows:
 A "renew" link pointing to that page will then be displayed on the
 Contact Dashboard for any memberships which were manually entered.
 
-![image](img/z_sprint14_renewalpage.png)
+![image](../img/z_sprint14_renewalpage.png)
 
 ## Manually renewing a membership for a single contact
 
@@ -164,7 +164,7 @@ Contact Dashboard for any memberships which were manually entered.
     or **Renew-Credit Card** to process the renewal through your online
     payment processor.
 
-![image](img/z_sprint14_renewmembership_1.png)
+![image](../img/z_sprint14_renewmembership_1.png)
 
 ## Update multiple memberships
 
@@ -174,7 +174,7 @@ multiple *existing* membership records (don't confuse this with the
 and member payments).
 
 To update multiple memberships, create and
-configure a [Profile](organising-your-data/profiles.md) that contains fields
+configure a [Profile](../organising-your-data/profiles.md) that contains fields
 pertaining to membership information that you want to display and update.
 
 To use the **Update multiple memberships** feature:
@@ -199,4 +199,4 @@ To use the **Update multiple memberships** feature:
     a membership profile configured to display the **Membership Type** and
     the **Membership Start Date** fields for use with **Update multiple memberships**.
 
-![image](img/Memberships-Everydaytasks-batchupdateviaprofile-batchupdateformembers.png)
+![image](../img/Memberships-Everydaytasks-batchupdateviaprofile-batchupdateformembers.png)

@@ -30,7 +30,7 @@ To add a new campaign type:
 1.  Go to **Administer > CiviCampaign > Campaign Types**. 
 2.  This will display a list of existing campaign types: 
      
-    ![column headers are: label, value (unique number), description, order, reserved, enabled (yes or no)](img/campaign_configuration_typeoptions_1.png)
+    ![column headers are: label, value (unique number), description, order, reserved, enabled (yes or no)](../img/campaign_configuration_typeoptions_1.png)
 3.  Click on **Add Campaign Type**, and give the new type a label and a
     description (optional).
 4.  Optionally, change the default weight: this affects the order in
@@ -56,7 +56,7 @@ stage a given campaign is in.
 4.  Click **Save** and the new status will then be available to assign
     to campaigns.
 
-![overview of campaign statuses. Column headers are: label, value, description, order, reserved (yes or no), enabled (yes or no)](img/campaign_configuration_statuses.png)
+![overview of campaign statuses. Column headers are: label, value, description, order, reserved (yes or no), enabled (yes or no)](../img/campaign_configuration_statuses.png)
 
 ## Engagement index 
 
@@ -77,4 +77,4 @@ To configure the Engagement Index:
 This information can supplement your outreach employees' or organizers'
 assessment of member engagement/interest in your organization.
 
-![overview of engagement index options. Columns headers are: label, value, description, order, reserved (yes or no), enabled (yes or no). Each option can be edited, disabled, or deleted.](img/campaign_configuration_engageoptions.png)
+![overview of engagement index options. Columns headers are: label, value, description, order, reserved (yes or no), enabled (yes or no). Each option can be edited, disabled, or deleted.](../img/campaign_configuration_engageoptions.png)

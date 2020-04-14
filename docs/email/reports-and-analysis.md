@@ -14,7 +14,7 @@ of the items when you set up your mailing.
 
 ### Delivery summary
 
-![report_email](img/report_email-en.png "report_email")
+![report_email](../img/report_email-en.png "report_email")
 
 The delivery summary shows some high-level statistics about the mailing.
 Clicking on the links in the Delivery Summary will show a list of the
@@ -50,7 +50,7 @@ see what works best for your constituents.
 clicked links in your email *if you have enabled click tracking*.
 
 **Forwards** show the number of times people have forwarded the email
-using the forward link (which is a [token](common-workflows/tokens-and-mail-merge.md) that you can include in your
+using the forward link (which is a [token](../common-workflows/tokens-and-mail-merge.md) that you can include in your
 mailing).
 
 **Replies** shows the number of times that people have replied to the
@@ -80,7 +80,7 @@ Select Recipients screen of the re-used mailing setup.
 In the Mailings area of **Search>Advanced search** you can search by
 bounce type.
 
-![List of bounce types: AOL, Away, DNS, Host...](img/advanced_search_mailing_bounce_type.png) 
+![List of bounce types: AOL, Away, DNS, Host...](../img/advanced_search_mailing_bounce_type.png) 
 
 ## Click-through summary
 
@@ -89,7 +89,7 @@ There are two statistics, **Clicks** (i.e., the number of times that a
 link has been clicked) and **Unique clicks** (i.e., the number of people
 that have clicked on links).
 
-![screenshot](img/click_through_summary.png)
+![screenshot](../img/click_through_summary.png)
 
 ## Mailing reports with CiviReport
 
@@ -104,4 +104,4 @@ menu) are:
     including the ability to add reports to dashboards, get reports
     emailed, etc.
 
-Read the [Reporting](reporting/what-is-civireport.md) section of this book for more information.
+Read the [Reporting](../reporting/what-is-civireport.md) section of this book for more information.

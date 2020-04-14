@@ -23,7 +23,7 @@ screenshot) lets an administrator select the right locale for the
 language and country of the organization using CiviCRM. Go to:
 Administer > Configure > Global Settings > Localization.
 
-![2](img/CiviCRM_update-CiviCore-2-en.png "2")
+![2](../img/CiviCRM_update-CiviCore-2-en.png "2")
 
 ## Translations
 
@@ -33,7 +33,8 @@ the community to translate the text displayed.
 A number of languages have already been provided to a greater or lesser
 extent. Some have more than 90% of the text translated, others only 5%,
 and a number of languages have not been translated at all. Please check
-the online translation tool [Transifex](https://www.transifex.com/civicrm/civicrm/dashboard/) to find out about your language of interest. Download and install it on
+the online translation tool [Transifex
+https://www.transifex.com/civicrm/civicrm/dashboard/) to find out about your language of interest. Download and install it on
 your CiviCRM installation to find out how well it will suit your needs.
 
 You may find that although the translation is correct, you would want to

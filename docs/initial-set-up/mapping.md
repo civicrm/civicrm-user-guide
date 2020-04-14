@@ -24,7 +24,7 @@ If successful you will see the message "Your changes have been saved."
 !!! note "Internal Server and/or Firewall Issues"
     If CiviCRM is installed on a server which does not have access to the public internet or there is a firewall which prevents CiviCRM from communicating with your chosen web services - you will see one or more fatal errors when attempting to add or edit contact records. You will need to either disable Mapping and Geocoding - or resolve the connectivity issue to resolve this.
 
-After enabling the mapping provider, you should configure the [job.geocode](initial-set-up/scheduled-jobs/#job_geocode) scheduled job which will geocode addresses without a latitude and longditude according to the configured options.
+After enabling the mapping provider, you should configure the [job.geocode](scheduled-jobs.md#job_geocode) scheduled job which will geocode addresses without a latitude and longditude according to the configured options.
 
 !!! note "Usage Limits"
     Some providers have usage limits on their Mapping and Geocoding APIs. If you go over the limits you may receive a overlimit error when trying to save an address.

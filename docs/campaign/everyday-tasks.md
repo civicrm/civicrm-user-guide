@@ -7,13 +7,13 @@ CiviCampaign.
 
 The Campaign Dashboard allows you to create, configure, manage and view
 your campaigns. You can also manage surveys and petitions via the
-Campaign Dashboard (refer to the following chapters on [Surveys](survey/everyday-tasks.md#managing-your-surveys) and
-[Petitions](petition/everyday-tasks.md#manage-your-petitions) for specific information).
+Campaign Dashboard (refer to the following chapters on [Surveys](../survey/everyday-tasks.md#managing-your-surveys) and
+[Petitions](../petition/everyday-tasks.md#manage-your-petitions) for specific information).
 
 To view the Campaign Dashboard, go to **Campaigns > Dashboard >
 Campaigns.**
 
-![Campaign dashboard showing a list of existing campaigns with the columns: title, description, start date, end date, type, status, active?](img/campaign_everyday_dashboard.png)
+![Campaign dashboard showing a list of existing campaigns with the columns: title, description, start date, end date, type, status, active?](../img/campaign_everyday_dashboard.png)
 
 From the Campaign Dashboard, you can then Edit, Disable and Delete
 existing campaigns, and create new campaigns.
@@ -21,14 +21,14 @@ If you have a large number of campaigns you can open the campaign search
 accordion to set filters to display only the campaigns you want to see a
 t that time.  
 
-![Campaign Search Criteria: title, description, from date, to date, campaign type, campaign status, is active?](img/civicampaign-dashboard-search-criteria.png)
+![Campaign Search Criteria: title, description, from date, to date, campaign type, campaign status, is active?](../img/civicampaign-dashboard-search-criteria.png)
 
 ## Create a New Campaign
 
 To create a Campaign:
 
 1.   Go to **Campaign > New Campaign**
-![Blank campaign form with all fields](img/campaign_everyday_newcampaign.png)
+![Blank campaign form with all fields](../img/campaign_everyday_newcampaign.png)
 
 2.  Enter information about your campaign:
     -   **Title** (required): enter a unique name that describes your
@@ -39,12 +39,12 @@ To create a Campaign:
     -   **Campaign Type** (required): select the type of campaign, e.g.
     Constituent Engagement. To add more options to the Campaign Type
     drop-down list, see the previous chapter on [setting up
-    CiviCampaign](campaign/set-up.md#add-a-new-campaign-type).
+    CiviCampaign](set-up.md#add-a-new-campaign-type).
     -   **Description**: enter text that describes your campaign.
     -   **Include group(s)**: if appropriate, select the group that
     contains the individuals you are targeting for this campaign. To
     find out more about creating groups, see the chapter on [Tags and
-    Groups.](organising-your-data/groups-and-tags.md)
+    Groups.](../organising-your-data/groups-and-tags.md)
     -   **Start Date & Time** (required): enter the start date and time of
     the campaign
     -   **End Date & Time**: enter the end date and time of the campaign.
@@ -53,7 +53,7 @@ To create a Campaign:
     -   **Campaign Status**: select the status of the campaign, e.g. In
     Progress, Planned, etc. To add more options to the Campaign
     Status drop-down list, see the previous chapter on [setting up
-   CiviCampaign.](campaign/set-up.md#campaign-status)
+   CiviCampaign.](set-up.md#campaign-status)
     -   **Campaign Goals**: enter text that describes the goals and/or
     objectives of your campaign. You may also want to describe the
     activities you plan on conducting to meet those goals.
@@ -71,7 +71,7 @@ Click **Save**, to save the campaign.
 
 You may want to target a specific group of individuals for all campaign
 activities. This is done by creating a group to target these
-individuals. See the chapter [Tags and Groups](organising-your-data/groups-and-tags.md) for more information about
+individuals. See the chapter [Tags and Groups](../organising-your-data/groups-and-tags.md) for more information about
 how to create a group.
 
 ## Send a mass mailing
@@ -79,14 +79,14 @@ how to create a group.
 A mass mailing to your target audience can generate interest and
 participation, and also be used to call for donations.
 
-1.  Create the email using CiviMail. See the [Email](email/mass-mailings-using-civimail.md) section of this book
+1.  Create the email using CiviMail. See the [Email](../email/mass-mailings-using-civimail.md) section of this book
     to learn more about configuring and using CiviMail.
 2.  Select the appropriate campaign from the drop-down list when setting
     up the mailing.
 
 ## A campaign event
 
-Events created using [CiviEvent](events/what-is-civievent.md) can be associated with a campaign.
+Events created using [CiviEvent](../events/what-is-civievent.md) can be associated with a campaign.
 
 1.  Create and configure the event.
 2.  Select the appropriate campaign from the drop-down list when setting
@@ -104,7 +104,7 @@ associated with a campaign; simply select the appropriate campaign from
 the drop-down menu when recording the contribution.
 
 To find out more about configuring and using CiviContribute, see the
-[Contributions](contributions/key-concepts-and-configurations.md) section.
+[Contributions](../contributions/key-concepts-and-configurations.md) section.
 
 ## Record event participation
 
@@ -117,4 +117,4 @@ they arrive, or if you have an internet connection at the event venue
 you may be able to enter participants directly into the database.
 
 Find out more about how to record participant information for an
-event, see the [Events](events/manual-event-registration.md) section.
+event, see the [Events](../events/manual-event-registration.md) section.

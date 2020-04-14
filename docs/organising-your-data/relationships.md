@@ -14,7 +14,7 @@ organisation to the individual.
 
 ## Creating relationships between contacts
 
-![image](img/5.5_Add_Relationship.png)
+![image](../img/5.5_Add_Relationship.png)
 
 1.  Navigate to one of the records that you want to relate.
 2.  Click on **Add Relationship** from the **Actions** button on the
@@ -39,7 +39,7 @@ organisation to the individual.
 If a relationship is created between two contacts User 1 and User 2 and
 the **Permissions** box is set to allow User 1 'View' access to User 2,
 then when User 1 is logged in they can view details about User 2 using
-a [profile](organising-your-data/profiles.md) in View mode. If the
+a [profile](profiles.md) in View mode. If the
 permission is set to 'View and Update' then User 1 can also update
 details about User 2 with a profile in Edit mode.
 
@@ -180,7 +180,7 @@ CiviCRM comes with a set of common relationship types that can be
 
 ## Creating custom fields on relationships
 
-CiviCRM provides a number of standard relationship fields, described above. You may decide there is other information you want to store, either on all relationships, or just on given relationship types. Additionally, custom fields can be used as a tool to further distinguish relationships without creating inordinate numbers of types (e.g. you could track which department an employee works in using a custom field, rather than creating a new relationship type for each). You can add custom fields that display on the relationship types of your choosing. See [creating custom fields](organising-your-data/creating-custom-fields.md) for detailed instructions.
+CiviCRM provides a number of standard relationship fields, described above. You may decide there is other information you want to store, either on all relationships, or just on given relationship types. Additionally, custom fields can be used as a tool to further distinguish relationships without creating inordinate numbers of types (e.g. you could track which department an employee works in using a custom field, rather than creating a new relationship type for each). You can add custom fields that display on the relationship types of your choosing. See [creating custom fields](creating-custom-fields.md) for detailed instructions.
 
 
 ## Disabling or deleting unneeded relationship types

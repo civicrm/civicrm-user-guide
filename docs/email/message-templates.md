@@ -22,7 +22,7 @@ templates by going to **Mailings > Message Templates** OR **Administer > Communi
 
 1.  Click on **Add Message Template**.
 2.  Enter a Message Title and a Message Subject. You can choose to use
-    [tokens](common-workflows/tokens-and-mail-merge.md) to personalize your subject line.
+    [tokens](../common-workflows/tokens-and-mail-merge.md) to personalize your subject line.
 3.  Scroll down to the HTML Format section and create your template.
     There are online resources, not specific to CiviCRM, that offer
     instructions on creating an HTML email templates. One suggestion is
@@ -128,7 +128,7 @@ The content and layout of these messages are pre-configured and include program 
 
 After you have customized system workflow message templates, you can always revert to CiviCRM's version of the template by clicking the "Revert to Default" link which appears next to the template.
 
-![Screenshot of the System Workflow Message Template list showing that some templates have been customized because they have "Revert to Default" links next to them](img/TemplatesToUpdate.png)
+![Screenshot of the System Workflow Message Template list showing that some templates have been customized because they have "Revert to Default" links next to them](../img/TemplatesToUpdate.png)
 
 ## Configure Message Templates
 
@@ -153,7 +153,7 @@ You will be taken to the New Message Template page.
 Create a **Message Title** for the template. This title is used to organize your messages and will not appear in the email.
 
 !!! tip "Tokens"
-    The next three fields can all use [tokens](common-workflows/tokens-and-mail-merge.md) to help personalize your messages with things like names, dates and amounts of gifts, etc.
+    The next three fields can all use [tokens](../common-workflows/tokens-and-mail-merge.md) to help personalize your messages with things like names, dates and amounts of gifts, etc.
 
 Here is a list of the tokens you can use
 

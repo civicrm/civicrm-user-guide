@@ -120,8 +120,8 @@ and tailoring email communications to registrants.
 CiviEvent is designed to work together with other parts of CiviCRM.  For
 example, you can promote the event to a targeted list and communicate
 with event participants via email before and after the event using
-CiviMail (see the *Email* section, particularly the [Set-up](email/set-up.md) and
-[Scheduled Reminders](email/scheduled-reminders.md) chapters, for more information). CiviEvent works
+CiviMail (see the *Email* section, particularly the [Set-up](../email/set-up.md) and
+[Scheduled Reminders](../email/scheduled-reminders.md) chapters, for more information). CiviEvent works
 with CiviContribute to allow you to accept event payments online. To do
 this, you must enable CiviContribute and set up a payment processor; see
 the *Contributions* section for more information.
