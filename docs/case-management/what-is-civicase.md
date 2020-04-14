@@ -16,7 +16,7 @@ processes. A case can be used to:
 -   automate the task of remembering and scheduling follow-up
     activities.
 
-CiviCase relies heavily on [Activities](/organising-your-data/activities.md), and a solid understanding of activities will help you understand CiviCase more easily.
+CiviCase relies heavily on [Activities](organising-your-data/activities.md), and a solid understanding of activities will help you understand CiviCase more easily.
 
 Organisations have employed CiviCase in a wide variety of situations.
 Here are a couple of examples of different types of organisations that
@@ -113,4 +113,4 @@ Coordinator is both the creator and manager of these cases. In addition,
 a Health Services Coordinator and a Benefits Specialist role are created
 when the case is opened.
 
-![Screenshot of the case.](/img/simple_housing_case.png)
+![Screenshot of the case.](img/simple_housing_case.png)
