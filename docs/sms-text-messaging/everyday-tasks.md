@@ -38,7 +38,7 @@ A new page will now appear in which to write your message:
     you may insert it here to save time (for more information, see
     "Set-up" in the "Email" chapter).
 -   **Plain-Text Format**: here you may enter up to 160 characters of
-    text for the message content. As with emails, [tokens](,,.common-workflows/tokens-and-mail-merge.md) can also be
+    text for the message content. As with emails, [tokens](..common-workflows/tokens-and-mail-merge.md) can also be
     inserted to pull information about the contact into the message
 -   **Save as New Template**: message written, if you wish to re-use the
     text regularly at a later date, you can save it as a template to

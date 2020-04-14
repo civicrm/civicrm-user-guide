@@ -130,7 +130,7 @@ WordPress: **Configure Joomla! ACL** (user can configure Joomla! ACLs and
 is assigned all CiviCRM permissions) and **Show CiviCRM
 Component** (user can see CiviCRM in the Components list).
 
-![screenshot](..img/joomla_permissions.png)
+![screenshot](../img/joomla_permissions.png)
 
 Finally, to assign one of these user groups to a user, or change their
 existing user group, ensure you are logged in as an administrator then

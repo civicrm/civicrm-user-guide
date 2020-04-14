@@ -309,7 +309,7 @@ about the students.
 
 ### The Results
 
-![QuestBridge](img/CiviCRM-Examples-QuestBridge-en.png "QuestBridge")
+![QuestBridge](../img/CiviCRM-Examples-QuestBridge-en.png "QuestBridge")
 
 In the 2008-9 school year, QuestBridge helped more than 1200 students
 get accepted and pay for college at its 25 partner schools. They
