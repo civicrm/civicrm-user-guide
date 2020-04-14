@@ -19,11 +19,11 @@ chapter 'Pledges'.
 ## Enabling pledges
 
 Setting up pledges for online forms is a simple check-box affair. Once a
-contribution page has been created (see the chapter [Creating Contribution Pages](contributions/online-contributions.md)), while
+contribution page has been created (see the chapter [Creating Contribution Pages](../contributions/online-contributions.md)), while
 editing the page's settings go to the 'Amounts' tab and tick the option
 '**Pledges**'. Several options will appear, as below.
 
-![image](img/pledge-setup.png)
+![image](../img/pledge-setup.png)
 
 -   **Supported pledge frequencies**: choose whether the donor can
     pledge a daily, weekly, monthly or annual donation.
@@ -47,7 +47,7 @@ form. To check and monitor the current pledges, several reports and a
 dashboard are available. To access the dashboard, go to:
 **Contributions** > **Pledges** > **Dashboard.**
 
-![image](img/selectpledge_contributeform_1.png)
+![image](../img/selectpledge_contributeform_1.png)
 
 
 

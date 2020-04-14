@@ -118,7 +118,7 @@ recorded in CiviCase:
 This is sufficient for some types of activities; however, it is often
 useful to collect additional structured data. The Open Case (intake)
 activity is a common example where you may want to include a set of
-specific questions about the client and their situation. If need be, you can use [Custom Fields](organising-your-data/creating-custom-fields.md) to associate additional data with each activity.
+specific questions about the client and their situation. If need be, you can use [Custom Fields](../organising-your-data/creating-custom-fields.md) to associate additional data with each activity.
 
 ### Timelines and the standard timeline
 

@@ -71,7 +71,7 @@ page:
     default notification for the PCP owner when a donation is received
     is:
 
-![Message confirming the donation at your personal campaign page with the donor information and the donated amount.](img/PCP_owner_notificationV2.png)
+![Message confirming the donation at your personal campaign page with the donor information and the donated amount.](../img/PCP_owner_notificationV2.png)
 
 **Set-up**
 
@@ -123,11 +123,11 @@ After PCP creation has been enabled, there are two ways to create a PCP:
 
 **The invitation button:**
 
-![Button "Create your own fundraising page".](img/pcp-contribute-thank-you.png)
+![Button "Create your own fundraising page".](../img/pcp-contribute-thank-you.png)
 
 **The invitation link:**
 
-http://*YOUR-SITE.ORG*/civicrm/contribute/campaign?action=add&reset=1&pageId=*CONTRIBUTION_OR_EVENT_ID*&component=*EVENT_OR_CONTRIBUTE*
+`http://<EXAMPLE.ORG>/civicrm/contribute/campaign?action=add&reset=1&pageId=<CONTRIBUTION_OR_EVENT_ID>&component=<EVENT_OR_CONTRIBUTE>`
 
 To use this link, replace the following:
 

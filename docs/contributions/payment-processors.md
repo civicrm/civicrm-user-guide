@@ -71,7 +71,7 @@ Support for recurring contributions and auto-renewing memberships is an
 important feature for many organizations. However not all of the payment
 processors available for CiviCRM support this feature. iATS is the only processor that allows you to manage recurring contributions from within CiviCRM. PayPal and Authorize.net will support recurring donations through their respective sites for an additional monthly fee. A few others like Moneris have "incomplete" support.
 
-If you have configured a payment processor that includes recurring payments as a feature, you can enable recurring contributions your Contribution Page. For more details on page-specific configuration, refer to the [Online Contributions](contributions/online-contributions.md#setting-up-a-contribution-page-full-details) chapter.
+If you have configured a payment processor that includes recurring payments as a feature, you can enable recurring contributions your Contribution Page. For more details on page-specific configuration, refer to the [Online Contributions](online-contributions.md#setting-up-a-contribution-page-full-details) chapter.
 
 
 ### Managing recurring contributions
@@ -82,7 +82,7 @@ If you have iATS configured, you will manage the recurring contributions directl
 
 You can manage a recurring contribution by going to the **Contributions** tab on a contact record. At the bottom of the page, there is a separate section for Recurring Contributions.
 
-![screenshot](img/RecurringContributions.png)
+![screenshot](../img/RecurringContributions.png)
 
 You have the option to **View**, **Edit**, or **Cancel** the recurring contribution here. You can edit the Recurring Contribution Amount, Number of Installments, Next Scheduled Contribution Date, Financial Type, Status, Start Date, and whether or not the donor receives an email notification on each payment installation. The donation frequency (e.g. weekly, monthly) cannot be changed from within CiviCRM.
 

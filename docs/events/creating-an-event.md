@@ -3,8 +3,8 @@
 This chapter covers how to create a new event, describing each of the
 set up options available in the event creation screen. If you're going to
 allow online registration for the event, you will also want to read the
-[online event registration](events/online-event-registration.md) chapter. If not, you'll want to read the
-[manual event registration](events/manual-event-registration.md) chapter.
+[online event registration](online-event-registration.md) chapter. If not, you'll want to read the
+[manual event registration](manual-event-registration.md) chapter.
 
 To get started, create a new event by choosing **Events > New Event**
 from the menu. (If you can't see the events menu, make sure that you
@@ -20,7 +20,7 @@ will take you to a screen where you can edit the options available.
 Note, depending on your permissions, you may not be able to edit these
 options and therefore will not see the pencil.
 
-![screenshot](img/4.5_new_event.png)
+![screenshot](../img/4.5_new_event.png)
 
 **From template** allows you to create an event from a template (see
 *Event templates* chapter in this section) rather than creating one from
@@ -29,7 +29,7 @@ scratch.
 **Event type** allows you to categorise the event.
 
 If you have **CiviCampaign** enabled, you can select a campaign for this
-to be a part of (see the [Campaign](campaign/everyday-tasks.md) section for more details).
+to be a part of (see the [Campaign](../campaign/everyday-tasks.md) section for more details).
 
 **Roles** distinguish different types of event participants, such as
 attendees, speakers and staff. What role should participants be assigned
@@ -46,8 +46,8 @@ define in this section only *enable* participant listings &mdash; to display
 one, you will need to create a menu item or link to the listing
 somewhere on your website. Once you've created the event, the
 participant listing link is displayed on the event configuration page.
-Refer to the chapter [Event management](events/event-planning-and-management.md) for information on [participant
-listings](events/keeping-track-of-events-and-participants.md#finding-and-administering-participants) and other ways to [promote your events](events/event-planning-and-management.md#promoting-your-events).
+Refer to the chapter [Event management](event-planning-and-management.md) for information on [participant
+listings](keeping-track-of-events-and-participants.md#finding-and-administering-participants) and other ways to [promote your events](event-planning-and-management.md#promoting-your-events).
 
 What is your event called? The **Event Title** will appear on event
 information pages, registration pages, event listings, and in the Manage
@@ -104,7 +104,7 @@ events by clicking **Use existing location** and selecting it from the
 dropdown list. Note that if you choose an existing location and edit it,
 it will update that location for all events that use it.
 
-![Configure event form. The second tab is the event location.](img/event_location_with_warning.png)
+![Configure event form. The second tab is the event location.](../img/event_location_with_warning.png)
 
 You can also list phone numbers and email addresses on the event
 information page if you want to give registrants a way to contact event
@@ -140,7 +140,7 @@ method? If so, you can enable the **Pay Later option** and define a
 label and payment instructions. If you keep this unchecked, registrants
 will be required to pay by credit card.
 
-![On the third tab of the configure event form, you can specify if it's a paid event.](img/CiviCRM_update-CiviEvent-EventFeesPayLater-en.png "EventFeesPayLater")
+![On the third tab of the configure event form, you can specify if it's a paid event.](../img/CiviCRM_update-CiviEvent-EventFeesPayLater-en.png "EventFeesPayLater")
 
 **Regular Fees** provide a set of price levels from which the registrant
 must select a single level (e.g. an individual registration for $50 or
@@ -148,7 +148,7 @@ a family registration for $100). Each fee amount has a label assigned
 and you can set a default fee. This approach works well for many events
 and is easy to set up. Here's a simple example:
 
-![The example shows three different fees: one for members, one for non-member students, and one for regular non-members.](img/CiviCRM_update-CiviEvent-EventRegFees-en.png "EventRegFees")
+![The example shows three different fees: one for members, one for non-member students, and one for regular non-members.](../img/CiviCRM_update-CiviEvent-EventRegFees-en.png "EventRegFees")
 
 If your event requires a more complex pricing structure, with more
 options or additional add-ons, you may wish to use **price sets** or
@@ -162,7 +162,7 @@ offers many benefits. Online registration is convenient for your
 constituents and can save staff time and resources. If you do not need
 to offer online registration, do not check **Allow Online
 Registration** and move onto the next step. If you do want to allow
-online registration, please see the [Online event registration](events/online-event-registration.md) chapter
+online registration, please see the [Online event registration](online-event-registration.md) chapter
 in this section.
 
 ## Scheduled reminders
@@ -181,7 +181,7 @@ To set up a scheduled reminder for a specific event, click on the
 scheduled reminders tab, which will show you already existing scheduled
 reminders for this event (if any) and click on **Add Reminder**.
 
-![The sixth tab is scheduled reminders.](img/scheduled-reminder-events.png)
+![The sixth tab is scheduled reminders.](../img/scheduled-reminder-events.png)
 
 Fill in the details on
 this form to send, for example, an email to all registered speakers 3
@@ -190,7 +190,7 @@ status (registered, attended, etc.) and also by role (speaker, attendee,
 volunteer, etc.).  You can either use a template or compose your own
 message in the HTML format box.
 
-![screenshot](img/scheduled-reminder-events-compose.png)
+![screenshot](../img/scheduled-reminder-events-compose.png)
 
 As well as setting up reminders on an event by event basis, you can also
 set them up for specific event types. and add them to specific event
@@ -208,7 +208,7 @@ final step in the event creation is a page where you can enable
 included on that page and in the email sent from the tool (see the
 following screenshot).
 
-![EventTellFriend](img/CiviCRM_update-CiviEvent-EventTellFriend-en.png "EventTellFriend")
+![EventTellFriend](../img/CiviCRM_update-CiviEvent-EventTellFriend-en.png "EventTellFriend")
 
 A "Tell a friend" activity record will be added to a participant's
 Activities tab each time she sends mail to her friends. This allows you
@@ -233,7 +233,7 @@ tab to see the list of messages you can modify. Click **Edit** next to
 "Events - Registration Confirmation and Receipt" rows to edit the
 content and layout.
 
-![List of message templates with two tabs. The second tab is for System Workflow Messages.](img/CiviCRM_update-CiviEvent-WorkflowMsgTpls-en.png "WorkflowMsgTpls")
+![List of message templates with two tabs. The second tab is for System Workflow Messages.](../img/CiviCRM_update-CiviEvent-WorkflowMsgTpls-en.png "WorkflowMsgTpls")
 
 
 The templates for these messages include both the text shown and

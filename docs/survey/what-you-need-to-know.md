@@ -18,7 +18,7 @@ responses. You can then either create a new profile from the main
 profile screen or create a new profile when you are creating a survey. A
 profile is used to display the survey questions.
 
-To learn more about how to create custom field sets, see [Creating Custom Fields](organising-your-data/creating-custom-fields.md). To learn how to create a custom profile, see [Profiles](organising-your-data/profiles.md).
+To learn more about how to create custom field sets, see [Creating Custom Fields](../organising-your-data/creating-custom-fields.md). To learn how to create a custom profile, see [Profiles](../organising-your-data/profiles.md).
 
 ### Reserving and releasing respondents
 
@@ -45,9 +45,9 @@ example, an organisation may wish to conduct a membership satisfaction
 service to assess the performance of their own service, without having
 it associated with a campaign.
 
-Read more about [CiviCampaign](campaign/what-is-civicampaign.md).
+Read more about [CiviCampaign](../campaign/what-is-civicampaign.md).
 
-Drupal sites with the module CiviEngage enabled, will have additional result set options profiles that configure surveys to allow you to track the status of responses to the survey. To find out more about how CiviEngage enhances the Survey feature, read the section on [Civic Engagement](civic-engagement/what-is-civiengage.md).
+Drupal sites with the module CiviEngage enabled, will have additional result set options profiles that configure surveys to allow you to track the status of responses to the survey. To find out more about how CiviEngage enhances the Survey feature, read the section on [Civic Engagement](../civic-engagement/what-is-civiengage.md).
 
 ### Drupal Permissions
 
@@ -55,7 +55,7 @@ If you are using Drupal, you need to set permissions to allow specific
 roles to Reserve Campaign Contacts and Release Campaign Contacts when
 conducting the surveys. To learn more about setting Drupal permissions,
 go to the Drupal documentation at
-[http://drupal.org/getting-started/6/admin/user/permissions](http://drupal.org/getting-started/6/admin/user/permissions).
+[http://drupal.org/getting-started/7/admin/user/permissions](http://drupal.org/getting-started/7/admin/user/permissions).
 
 ## Key Questions
 

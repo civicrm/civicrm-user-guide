@@ -23,7 +23,7 @@ There are three ways you can use CiviCRM in postal mailings:
 1.  Generate labels: print out standard address labels when you don't
     need to personalise the content, for instance to send a printed
     brochure.
-2.  Export contacts and do a mail merge to an external tool (such as OpenOffice or Microsoft Word). Refer to the chapter on [Exporting](common-workflows/exporting-your-contacts.md) earlier in this section for detailed exporting instructions. 
+2.  Export contacts and do a mail merge to an external tool (such as OpenOffice or Microsoft Word). Refer to the chapter on [Exporting](exporting-your-contacts.md) earlier in this section for detailed exporting instructions. 
 3.  Use CiviCRM's [Print/merge document](#print-merge-document) function to do the merge directly in
     CiviCRM (see below for details).
 
@@ -40,7 +40,7 @@ are several options from the friendly "Dear John", to more formal "Dear
 Mr. John Doe". You can also enter a *customized greeting* ("Your royal
 highness"). Postal greetings can be edited in the Communications
 Preferences section of the contact edit form. If you need to set or
-reset postal greetings en mass, refer to the chapter on [Scheduled Jobs](initial-set-up/scheduled-jobs.md) and to the documentation on the wiki at:
+reset postal greetings en mass, refer to the chapter on [Scheduled Jobs../initial-set-up/scheduled-jobs.md) and to the documentation on the wiki at:
 
 [http://wiki.civicrm.org/confluence/display/CRMDOC/Update+Greetings+and+Address+Data+for+Contacts](http://wiki.civicrm.org/confluence/display/CRMDOC/Update+Greetings+and+Address+Data+for+Contacts)
 
@@ -67,13 +67,13 @@ To create the letter:
     editor. You can also insert image files such as your organisation's
     logo or a signature. Click in the body of the letter where you want
     the image to appear and click the Image icon. 
-8.  You can personalise the letter by using [tokens](common-workflows/tokens-and-mail-merge.md). Tokens are placeholders that will be replaced with the field value for each of the contacts selected. For example, Postal
+8.  You can personalise the letter by using [tokens](tokens-and-mail-merge.md). Tokens are placeholders that will be replaced with the field value for each of the contacts selected. For example, Postal
     Greeting is a commonly used token in this situation. Click in the
     body of the letter where you want to enter the token. Then click on
     **Insert Tokens** dropdown located above the letter at the top right and select
     the desired token.
 
-    ![PostalGreetingToken](img/CiviCRM_update-CiviCore-PostalGreetingToken-en.png "PostalGreetingToken")
+    ![PostalGreetingToken](../img/CiviCRM_update-CiviCore-PostalGreetingToken-en.png "PostalGreetingToken")
 
 9.  Decide if this letter will be re-used in the future and should be saved as a new template. If the letter was based on a template you will have the option to update the existing template. The ability to save the letter as a template is a powerful way to streamline future workflows.
 10. Select your desired output format. CiviCRM currently supports four format options: PDF, HTML, MS Word (`.docx`), and Open Document (`.odt`). Depending on how complex your letter content is, you may find that some formats handle the layout and design better than others.

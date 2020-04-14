@@ -85,7 +85,7 @@ You may create new roles and edit all existing ones. To edit roles,
 while in the **Permissions** tab click the button **Roles** toward the
 top right of the page.
 
-![Drupal roles.](img/CiviCRM_Drupal_Roles.png)
+![Drupal roles.](../img/CiviCRM_Drupal_Roles.png)
 
 Roles can be assigned to users in the following ways:
 
@@ -130,7 +130,7 @@ WordPress: **Configure Joomla! ACL** (user can configure Joomla! ACLs and
 is assigned all CiviCRM permissions) and **Show CiviCRM
 Component** (user can see CiviCRM in the Components list).
 
-![screenshot](img/joomla_permissions.png)
+![screenshot](..img/joomla_permissions.png)
 
 Finally, to assign one of these user groups to a user, or change their
 existing user group, ensure you are logged in as an administrator then
@@ -153,9 +153,9 @@ In CiviCRM go to **Administer** > **User and Permissions** >
 Control** link. Here you can adjust the CiviCRM settings for each of the
 predefined User Roles from WordPress.
 
-![image](img/z_sprint14_wordpressacl_menu.png)
+![image](../img/z_sprint14_wordpressacl_menu.png)
 
-![image](img/z_sprint14_wordpressACL.png)
+![image](../img/z_sprint14_wordpressACL.png)
 
 Roles can be assigned to users in the following ways:
 
@@ -246,7 +246,7 @@ If you have a standalone profile in an online form used to search for
 and edit data in CiviCRM (e.g. not part of an event registration page),
 only authenticated users may edit. The permission **profile edit** can be
 given to the anonymous role, but visitors who are not logged in will
-still be unable to edit the data unless they have a [checksum](common-workflows/tokens-and-mail-merge.md#checksum) (a unique
+still be unable to edit the data unless they have a [checksum](../common-workflows/tokens-and-mail-merge.md#checksum) (a unique
 URL to one page where they may edit their own data; read "Everyday
 tasks" in the email section for more information). For checksum tokens
 to work, anonymous users must have the **profile edit** permission.
@@ -291,7 +291,7 @@ listings and forms" is not enabled for the "anonymous" and
 "authenticated" roles by default.
 
 Note that if this role were given to anonymous users, in order to edit
-data, the visitor must either be logged in or using a [checksum token](common-workflows/tokens-and-mail-merge.md#checksum)
+data, the visitor must either be logged in or using a [checksum token](../common-workflows/tokens-and-mail-merge.md#checksum)
 (see "Everyday tasks" in the section on email).
 
 #### Accessing custom data
@@ -396,7 +396,7 @@ with the following options:
 
 
 
-![image](img/CiviCRM_ACL_civicrm-manage-roles.png)
+![image](../img/CiviCRM_ACL_civicrm-manage-roles.png)
 
 
 
@@ -417,7 +417,7 @@ Roles") and hit "Add Role Assignment". Complete the following:
 -   **Assigned To**: choose a contact group to assign to the role
 -   **Enabled?**: is this assignment active or not?
 
-![image](img/CiviCRM_ACL_civicrm-assign-users.png)
+![image](../img/CiviCRM_ACL_civicrm-assign-users.png)
 
 ### Manage ACLs
 
@@ -455,4 +455,4 @@ group of contacts, profile, custom data or event for this ACL
 
 - **Enabled?**: is the ACL active?
 
-![image](img/CiviCRM_ACL_civicrm-create-ACL.png)
+![image](../img/CiviCRM_ACL_civicrm-create-ACL.png)

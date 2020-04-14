@@ -620,7 +620,7 @@ point of contact for mailings etc.
 
 ## Profiles
 
-A set of fields used for collecting, modifying, and sharing data. See [Profles](organising-your-data/profiles.md) for more information.
+A set of fields used for collecting, modifying, and sharing data. See [Profles](../organising-your-data/profiles.md) for more information.
 
 ## Proprietary software
 
@@ -760,7 +760,7 @@ ready for general use.
 
 ## Token
 
-[Tokens](common-workflows/tokens-and-mail-merge.md) are used in **CiviCRM** to insert elements such as a
+[Tokens](../common-workflows/tokens-and-mail-merge.md) are used in **CiviCRM** to insert elements such as a
 **contact**'s name or a standard greeting into emails being sent from
 the system. In an email sent to a group of people, the token
 {first.name} will be replaced with actual name of each message

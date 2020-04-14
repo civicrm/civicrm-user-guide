@@ -16,7 +16,7 @@ scheduled and recent Events. Click the **Event name** to view the event
 as it will be displayed to site visitors. Click the **Participants
 count** to see a list of participants.
 
-![Event Summary](img/CiviCRM-EverydayTasks-EventSummary-en.png "EventSummary")
+![Event Summary](../img/CiviCRM-EverydayTasks-EventSummary-en.png "EventSummary")
 
 To run your own customized searches, click ** Find more event
 participants** at the end of the page. Here you can search by
@@ -116,7 +116,7 @@ them. Available **Actions** include:
     you wish to edit multiple fields for multiple participants in a
     table grid layout. Note that you must create the profile set you
     wish to use before implementing this action. If you are not familiar
-    with how Profiles work, please see the [*Profiles*](organising-your-data/profiles.md) chapter in
+    with how Profiles work, please see the [*Profiles*](../organising-your-data/profiles.md) chapter in
     the *Organising your Data* section.
 
 
@@ -154,7 +154,7 @@ participant's event registration as follows:
     is via **Events > Find Participants**)
 2.  Select **View** or **Edit** (towards the right of the event record)
 
-    **![View participant form.](img/z_sprint14_PartiallyPaidRegistration.png)**
+    **![View participant form.](../img/z_sprint14_PartiallyPaidRegistration.png)**
 
 3.  Click on **Change Selections.**
 
@@ -165,7 +165,7 @@ participant's event registration as follows:
 
 
 
-**![Change registration selections form.](img/z_sprint14_ChangeRegistrationSelections.png)**
+**![Change registration selections form.](../img/z_sprint14_ChangeRegistrationSelections.png)**
 
 Additional payments (credit card or offline methods) or a refund
 (offline methods only) will need to be entered via the **record payment** link associated with the event registration record as
@@ -180,7 +180,7 @@ You can create custom name badges for your event.
 Navigate to **Administer > CiviEvent > Event Badge Layout > New Badge
 Layout** and you will see the following set-up screen.
 
-![screenshot](img/event_badgets_ui_v2.png)
+![screenshot](../img/event_badgets_ui_v2.png)
 
 Points to consider are:
 

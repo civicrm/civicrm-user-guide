@@ -29,10 +29,10 @@ requirements that go beyond what is available with membership types
 alone. These organisations may find that **membership price sets** give
 them the extra flexibility they need. Since membership price sets are
 an advanced topic, they are covered in their own chapter
-[Membership price sets](membership/membership-price-sets.md).
+[Membership price sets](membership-price-sets.md).
 
 If you are having trouble modelling your membership structure in
-CiviCRM, ask on Mattermost or Stack Exchange (see [Finding the Community Online](the-civicrm-community/the-civicrm-community.md#finding-the-community-online)) about the problems you are having. There may
+CiviCRM, ask on Mattermost or Stack Exchange (see [Finding the Community Online](../the-civicrm-community/the-civicrm-community.md#finding-the-community-online)) about the problems you are having. There may
 be other ways to model your data, or simple changes you can make to
 CiviCRM's behaviour to better fit your needs.
 
@@ -41,7 +41,7 @@ To start learning about membership types:
 1.  Go to **Administer > CiviMember > Membership Types**
 2.  Select **Add Membership Type**
 
-![image](img/z-sprint154_-_new_membership_type.png)
+![image](../img/z-sprint154_-_new_membership_type.png)
 
 -   **Name**:
 The name is displayed throughout the system, on both public and
@@ -72,7 +72,7 @@ choose the default organisation.
     includes a peer-reviewed journal and discounts at training events.
     Parents who are health professionals may want both memberships. A
     challenge to supporting this use case is that CiviCRM's
-    [Membership Up-Sell feature](membership/renewals.md#membership-up-sell)
+    [Membership Up-Sell feature](renewals.md#membership-up-sell)
     expects a contact to have only one active membership with a single
     organization at any given time. A
     'workaround' for this is to create 'dummy' organisations for each of the
@@ -87,12 +87,12 @@ membership type. The reason we call this field the *minimum* amount is
 that we have an option to encourage people pay more than the minimum for
 a membership if they want to.
 
--   **Financial type**: The default [financial type](contributions/key-concepts-and-configurations.md#financial-types) for a membership type is **Member Dues**.
+-   **Financial type**: The default [financial type](../contributions/key-concepts-and-configurations.md#financial-types) for a membership type is **Member Dues**.
 This is appropriate for many organisations. However, if you have more
 complex accounting needs, you can specify different financial types that
 will allow you to account for different membership payments in different
 ways. If you need more fine grained control over
-financial types you can use [Membership Price Sets](membership/membership-price-sets.md).
+financial types you can use [Membership Price Sets](membership-price-sets.md).
 
     Note that the financial type can be overridden for specific public
     membership sign up pages, and also when recording a membership in the
@@ -104,7 +104,7 @@ financial types you can use [Membership Price Sets](membership/membership-price-
     transaction indicates the monetary value associated with that
     membership.
 
-    ![image](img/membership_contribution.png)
+    ![image](../img/membership_contribution.png)
 
 
     CiviCRM respects this distinction by storing the membership record under
@@ -184,7 +184,7 @@ receive the benefits of membership.
     useful, in the example above, to limit the number of employees that can
     become a member by virtue of their employment to 10 maximum.
 
-    ![image](img/Membership_relationship_type.png)
+    ![image](../img/Membership_relationship_type.png)
 
     With inherited memberships, we distinguish between the primary member
     and the members that inherit their membership due to their relationship with the primary member.
@@ -253,7 +253,7 @@ described above.
 At **Administer > CiviMember > Membership Status Rules** you will find a
 summary of the existing status rules.
 
-![image](img/z-sprint14-membership_status.png)
+![image](../img/z-sprint14-membership_status.png)
 
 To decide on which status should be applied, CiviCRM looks to see if the
 membership has a status override. If it does, it applies that status. If
@@ -266,7 +266,7 @@ status that matches.
 
 When you edit or add a new membership status the following form appears.
 
-![image](img/membership_status_rules.png)
+![image](../img/membership_status_rules.png)
 
 You can add new statuses and edit existing statuses (except for Pending
 and Deceased) using this form. To create a new status, you need to
@@ -305,5 +305,5 @@ purpose. Custom field sets can be created for either all memberships or
 specific membership types. If the information you want to collect
 varies according to the membership type then you should set up more than
 one custom field set linking it to the specific membership type(s).
-(Refer to [Creating Custom Fields](organising-your-data/creating-custom-fields.md)
+(Refer to [Creating Custom Fields](../organising-your-data/creating-custom-fields.md)
 for more details.)
