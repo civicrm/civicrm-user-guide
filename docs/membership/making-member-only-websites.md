@@ -14,4 +14,4 @@ events that are only available to members.
 
 You can refer to the section
 on your CMS in the *Integration* chapter of the [**System Adminstrator Guide**](https://docs.civicrm.org/sysadmin/en/latest/) for more information or ask
-questions in the [CiviCRM Community](/the-civicrm-community/the-civicrm-community.md).
+questions in the [CiviCRM Community](the-civicrm-community/the-civicrm-community.md).

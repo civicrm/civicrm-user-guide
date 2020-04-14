@@ -19,7 +19,7 @@ tax/VAT
     -   Shows as inclusive price- $120 (includes $20 tax)
     -   Shows as exclusive price - $100 + $20 tax  
 
-![CiviContribute Component settings with the tax term listbox at the bottom.](/img/enable_tax_fields.png)
+![CiviContribute Component settings with the tax term listbox at the bottom.](img/enable_tax_fields.png)
 
 ## Adding a Financial Account for Sales Tax/VAT
 
@@ -34,26 +34,26 @@ set to **Liability**. Select **Enabled** and **Is Tax** and specify the
 should be set to **SALESTAX**. **Accounting Code** should be based on the
 organization's specific accounting codes.
 
-![screenshot](/img/salestaxaccount4.png)
+![screenshot](img/salestaxaccount4.png)
 
 After you create the Financial Account, you can assign it to the
 specific Financial Type by going to **Adminster > CiviContribute >
 Financial Types**.  Find the Financial Type this sales tax applies to,
 and click on **Accounts**. Click on **Assign Account**.
 
-![List of financial accounts.](/img/assignaccount2.png)
+![List of financial accounts.](img/assignaccount2.png)
 
 For the **Financial Account Relationship** choose **Sales Tax Account is**
 and in the **Financial Account** field select your sales tax account.
 Click **Save.**
 
-![screenshot](/img/civicontribute-sales-tax-add-account.png)
+![screenshot](img/civicontribute-sales-tax-add-account.png)
 
 Once the sales tax Financial Account has been added, you will see it
 listed with the other Financial Accounts for that specific Financial
 Type.
 
-![screenshot](/img/salestaxadded2.png)
+![screenshot](img/salestaxadded2.png)
 
 For more advanced configuration with accounting software packages like
 QuickBooks, you should involve your organization's bookkeeper or

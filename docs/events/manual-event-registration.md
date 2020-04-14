@@ -25,7 +25,7 @@ The Events tab on a contact record, shown in the following screenshot,
 displays a summary list of the contact's current and past event bookings and
 provides links for registering the contact for a new event.
 
-![screenshot](/img/EventsTab.png)
+![screenshot](img/EventsTab.png)
 
 There are two options for registering the contact:
 
@@ -41,9 +41,9 @@ There are two options for registering the contact:
 The interface for both options is very similar, with the exception of
 those fields that record payment details.
 
-![screenshot](/img/EventRegistration1.png)
+![screenshot](img/EventRegistration1.png)
 
-![screenshot](/img/EventRegistration2.png)
+![screenshot](img/EventRegistration2.png)
 
 As you work through this form, certain sections of the page change to
 reflect choices you have made. For example, when the event and
@@ -84,7 +84,7 @@ related contribution record at the bottom (see screenshot). If you do
 not select the Record Payment check box, only a registration record will
 be created.
 
-![screenshot](/img/EventContributionTab.png)
+![screenshot](img/EventContributionTab.png)
 
 ### Registering a participant paying only a deposit (partial payment)
 
@@ -96,7 +96,7 @@ During the manual registration you enter the the amount actually being
 paid at this time in the **Amount** field in the Payment Information
 section and set the **Participant Status** field to Partially paid.
 
-![screenshot](/img/EventIntialPartialPayment.png)
+![screenshot](img/EventIntialPartialPayment.png)
 
 The expectation is that additional payment(s) will be made until the
 full event fee has been paid, so a **Partially paid** registration is
@@ -112,9 +112,9 @@ To make an additional payment on this registration:
 4.  Select **Record Payment** or **Submit Credit Card
     payment**
 
-![screenshot](/img/EventPartialPayment.png)
+![screenshot](img/EventPartialPayment.png)
 
-![screenshot](/img/EventPartialPaymentCC.png)
+![screenshot](img/EventPartialPaymentCC.png)
 
 You can make more than one additional payment. When the event fee has
 been paid in full the **Participant status** will automatically change to
@@ -132,11 +132,11 @@ displayed amount will always be the full event fee. You can see how much
 is owing by choosing to **View** the event registration. Selecting **›› view payments** (under the **Total Paid** amount) will display a
 summary of each payment.
 
-![screenshot](/img/EventPaymentView.png)
+![screenshot](img/EventPaymentView.png)
 
 Alternatively, the payments can be seen by clicking the arrow next to the Contribution record at the bottom.
 
-![screenshot](/img/EventPaymentView2.png)
+![screenshot](img/EventPaymentView2.png)
 
 ## Mass Registrations
 
@@ -159,7 +159,7 @@ change the person's status from **Pending** to **Registered**.
     check mark next to each contact you are interested in. A sample
     search results page appears in the following screen-shot.
 
-![screenshot](/img/EventBatchRegistration.png)
+![screenshot](img/EventBatchRegistration.png)
 
 3.  From the actions list just above the search results, choose **Register participants for event** then click **Go.**
 4.  Choose the event you would like to register participants for. Note
@@ -243,4 +243,4 @@ Contact)**, you do not need all of them.
     **Save** this field mapping box.
 6.  **Preview** and **Save**.
 
-![screenshot](/img/EventImportParticipants.png)
+![screenshot](img/EventImportParticipants.png)

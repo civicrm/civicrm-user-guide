@@ -3,7 +3,7 @@
 This chapter describes the steps needed to set up a petition.
 
 The CiviCampaign component must be enabled before you can use Petition.
-See the section [Campaign](/campaign/what-is-civicampaign.md) for information about this.
+See the section [Campaign](campaign/what-is-civicampaign.md) for information about this.
 
 ## Set CMS permissions
 
@@ -56,7 +56,7 @@ For both profiles, you may want to select the following settings in the
     want anonymous users to update an existing contact record's
     information; you will then need to periodically dedupe records.
 
-To learn more about how to create custom field sets, see the chapter [Creating Custom Fields](/organising-your-data/creating-custom-fields.md) in the [Organising Your Data](/organising-your-data/overview.md) section. To learn about how to create a custom profile, see the [Profiles](/organising-your-data/profiles.md) chapter.
+To learn more about how to create custom field sets, see the chapter [Creating Custom Fields](organising-your-data/creating-custom-fields.md) in the [Organising Your Data](organising-your-data/overview.md) section. To learn about how to create a custom profile, see the [Profiles](organising-your-data/profiles.md) chapter.
 
 ## Create a New Petition
 
@@ -82,4 +82,4 @@ petition.
 1.
 Click **Save** to save the petition information.
 
-![image](/img/petition_new.png)
+![image](img/petition_new.png)

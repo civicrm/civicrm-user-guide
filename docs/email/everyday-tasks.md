@@ -2,7 +2,7 @@
 
 This chapter contains step-by-step instructions for performing some important
 everyday tasks with email. Sending a mass mailing through CiviMail is covered
-in [Mass mailings using CiviMail](/email/mass-mailings-using-civimail.md)
+in [Mass mailings using CiviMail](email/mass-mailings-using-civimail.md)
 
 ## Send an email to one person (with CC and BCC)
 
@@ -71,18 +71,18 @@ where all emails sent via the Send Email function are listed.
 
 Click the **image button** in the WYSIWYG editor.
 
-![](/img/Screen_Shot_2015-04-25_at_3.06.40_PM.png)
+![](img/Screen_Shot_2015-04-25_at_3.06.40_PM.png)
 
 The Image Properties window will appear. Click **Browse Server** to look
 for image files on your server.
 
-![](/img/civimail_window_to_browse_server_2.png)
+![](img/civimail_window_to_browse_server_2.png)
 In the left sidebar, you will see a directory of files. If the image you
 need is already uploaded to your server, navigate to it in the directory
 and select it. If not, Click **Upload** to choose a file from your
 computer.
 
-![](/img/civimail_file_directory_3.png)
+![](img/civimail_file_directory_3.png)
 
 Your computer's file-browsing window will open. Find the image file you
 want,
@@ -103,4 +103,4 @@ images to make email accessible to all user communities.
 
 Click **OK** to insert the image.
 
-![](/img/civimail_Insert_image_6.png)
+![](img/civimail_Insert_image_6.png)

@@ -8,14 +8,14 @@ and the navigation menu available for people working in CiviCRM.
 The navigation menu is a small bar at the top of every "back office"
 page of CiviCRM.
 
-![image](/img/the-user-interface/menu-dashboard-and-dashlets/4.5_Menubar.png)
+![image](img/the-user-interface/menu-dashboard-and-dashlets/4.5_Menubar.png)
 
 It provides access to nearly every function of CiviCRM and is broadly
 organised into headings by individual CiviComponents (such as
 Contributions, Events and Mailings), with a few exceptions for Search
 and Administer, both of which cover all of the enabled CiviComponents.
 
-![NavMenu_SearchPulldown](/img/the-user-interface/menu-dashboard-and-dashlets/CiviCRM_update-CiviCore-NavMenu_SearchPulldown-en.png "NavMenu_SearchPulldown")
+![NavMenu_SearchPulldown](img/the-user-interface/menu-dashboard-and-dashlets/CiviCRM_update-CiviCore-NavMenu_SearchPulldown-en.png "NavMenu_SearchPulldown")
 
 You can modify the navigation menu by going to: **Administer** >
 **Customize** > **Navigation Menu** and then adding or rearranging menu
@@ -24,16 +24,16 @@ items on the screen.
 You can also add icons to the navigation menu items. By editing the 
 navigation menu item you will see a text input called (Icon):
 
-![NavMenu_EditItem_IconField](/img/the-user-interface/menu-dashboard-and-dashlets/47NavMenu_EditItem_IconField-en.png)
+![NavMenu_EditItem_IconField](img/the-user-interface/menu-dashboard-and-dashlets/47NavMenu_EditItem_IconField-en.png)
 
 You can click on the icon field and the icon-picker will appear allowing you to 
 choose a desired icon : 
 
-![NavMenu_EditItem_IconField](/img/the-user-interface/menu-dashboard-and-dashlets/47NavMenu_EditItem_IconField-en2.png)
+![NavMenu_EditItem_IconField](img/the-user-interface/menu-dashboard-and-dashlets/47NavMenu_EditItem_IconField-en2.png)
 
 After refreshing the page, the icon will appear next to the navigation menu item:
 
-![NavMenu_SearchMenuIcon](/img/the-user-interface/menu-dashboard-and-dashlets/47SearchMenuIcon-en.png)
+![NavMenu_SearchMenuIcon](img/the-user-interface/menu-dashboard-and-dashlets/47SearchMenuIcon-en.png)
 
 Remember that changes you make to the navigation
 menu will be seen by everyone who has the appropriate permissions to see
@@ -65,14 +65,14 @@ include:
     of Members of each type, total amounts of payments made and the
     number of contributions made, among other things.
 
-![Dashboard_homescreen](/img/the-user-interface/menu-dashboard-and-dashlets/CiviCRM_update-CiviCore-Dashboard_homescreen-en.png "Dashboard_homescreen")
+![Dashboard_homescreen](img/the-user-interface/menu-dashboard-and-dashlets/CiviCRM_update-CiviCore-Dashboard_homescreen-en.png "Dashboard_homescreen")
 
 
 You can add these dashlets to your CiviCRM dashboard by clicking the
 **Configure Your Dashboard** button. You will see a list of dashlets that
 can be dragged into the right or left column of your dashboard.
 
-![Dasboard_editscreen](/img/the-user-interface/menu-dashboard-and-dashlets/CiviCRM_update-CiviCore-Dasboard_editscreen-en.png "Dasboard_editscreen")
+![Dasboard_editscreen](img/the-user-interface/menu-dashboard-and-dashlets/CiviCRM_update-CiviCore-Dasboard_editscreen-en.png "Dasboard_editscreen")
 
 Click **Done** to save the dashlets to your dashboard. From now on, you will
 see updates to the status of your dashlets every time you log in (if
@@ -102,7 +102,7 @@ To create a dashlet, do the following:
     right of the Actions dropdown.
 -   At the bottom of the **Access** tab, select the box that says
     **Available for Dashboard?**. Users with permissions to see that
-    information will be able to add that dashlet. (See the section on [permissions](/initial-set-up/permissions-and-access-control.md) for more information).
+    information will be able to add that dashlet. (See the section on [permissions](initial-set-up/permissions-and-access-control.md) for more information).
 -   Click **Actions** > **Create Report**.
 
 Now add the dashlet to your dashboard: 
@@ -113,5 +113,5 @@ Now add the dashlet to your dashboard:
     Dashlets" box to the column where you'd like it to appear.
 -   Click **Done**. 
 
-(Refer to the section on [Reporting](/reporting/what-is-civireport.md) for more details on working with
+(Refer to the section on [Reporting](reporting/what-is-civireport.md) for more details on working with
 reports.)

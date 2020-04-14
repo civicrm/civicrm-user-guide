@@ -8,7 +8,7 @@ Surveys**. Here you will find a summary of your surveys.
 Use the links at the right to manage existing surveys, or click **Add
 Survey** to create a new survey. 
 
-![image](/img/survey_everyday_dashboard.png)
+![image](img/survey_everyday_dashboard.png)
 
 **Reserving Respondents**
 
@@ -20,7 +20,7 @@ The reserved group can be divided into smaller subsets, as this may be a
 more manageable number of contacts to interview within available time
 periods.
 
-To learn more about how to create a group, see [Groups and Tags](/organising-your-data/groups-and-tags.md). 
+To learn more about how to create a group, see [Groups and Tags](organising-your-data/groups-and-tags.md). 
 
 To reserve a group of respondents:
 
@@ -43,7 +43,7 @@ To reserve a group of respondents:
         
 5.  Click **Search.**
 
-*![image](/img/survey_reserve_findrespondents_search.png)*
+*![image](img/survey_reserve_findrespondents_search.png)*
 
 On the Find Respondents to Reserve search results screen, select the
 contacts to be reserved for interviewing:
@@ -54,13 +54,13 @@ contacts to be reserved for interviewing:
     the number of contacts found in the reserve respondents search).
 2.  Click **Go** to reserve the respondents.
 
-*![image](/img/survey_reserve_findrespondents_results.png)*
+*![image](img/survey_reserve_findrespondents_results.png)*
 
 
 
 On the Reserve Respondents screen, click **Reserve**.
 
-*![image](/img/survey_reserverespondents.png)*
+*![image](img/survey_reserverespondents.png)*
 
 ## Interview Respondents
 
@@ -95,11 +95,11 @@ On the Reserve Respondents screen, click **Reserve**.
  -   Click **Reserve More Respondents** to find more contacts to be
      interviewed.
 
-![image](/img/record_survey_responses.png)
+![image](img/record_survey_responses.png)
 
 ### Reviewing Results of the Survey
 
-At the end of the canvass, a program lead may want to review the results of the survey. Refer to [Reports and Analysis](/survey/reports-and-analysis.md) to learn how to view this report.
+At the end of the canvass, a program lead may want to review the results of the survey. Refer to [Reports and Analysis](survey/reports-and-analysis.md) to learn how to view this report.
 
 ## How to create a list of addresses for Surveys of type Walklist
 
@@ -123,9 +123,9 @@ haven't done so already.
     and for **Respondent Status** select **Is Equal
     to** and **Reserved** from the dropdown menus.
 5.  Click **Preview Report**, then **Print Preview**.   
-6.  **Print your report.** You will see that the print out includes a cover sheet with the survey questions (both label and value) and and that the report is sorted by street name and odd and even street numbers. See [Set up](/survey/set-up.md) for more information. 
+6.  **Print your report.** You will see that the print out includes a cover sheet with the survey questions (both label and value) and and that the report is sorted by street name and odd and even street numbers. See [Set up](survey/set-up.md) for more information. 
 
-![image](/img/walklist_cover_sheet.png)
+![image](img/walklist_cover_sheet.png)
 
 ### Conduct your door-knock canvass
 
