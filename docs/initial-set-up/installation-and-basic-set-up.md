@@ -22,7 +22,7 @@ Once you have CiviCRM installed it is important that you ensure that you make su
 
 ## Upgrades
 
-New versions of CiviCRM are released every month. Although [extensions](/introduction/extensions.md) are the way that you will typically  add major new features to CiviCRM, you will need to apply upgrades to your CiviCRM core software periodically to keep your site secure, and also if you want to take advantage of smaller new features and improvements. Some upgrades contain security fixes and it is crucial that these are applied in a timely manner. It's important that you plan for the resources (people and time) required to apply upgrades to your site. Read release notes thoroughly to understand how an upgrade may change your site. Plan on testing upgrades on a copy of your live site to make sure the process runs smoothly. It's also critical to make backups of your site and database prior to running an upgrade on your live site even if you had tested the process on a test site.
+New versions of CiviCRM are released every month. Although [extensions](introduction/extensions.md) are the way that you will typically  add major new features to CiviCRM, you will need to apply upgrades to your CiviCRM core software periodically to keep your site secure, and also if you want to take advantage of smaller new features and improvements. Some upgrades contain security fixes and it is crucial that these are applied in a timely manner. It's important that you plan for the resources (people and time) required to apply upgrades to your site. Read release notes thoroughly to understand how an upgrade may change your site. Plan on testing upgrades on a copy of your live site to make sure the process runs smoothly. It's also critical to make backups of your site and database prior to running an upgrade on your live site even if you had tested the process on a test site.
 
 Since upgrades are an important and technical process, many organisations employ the services of a CiviCRM expert service provider to carry them out.
 
@@ -34,7 +34,7 @@ Log in to your CiviCRM site and navigate to **Administer > Administration Consol
 
 Use this checklist to review and complete configuration tasks for your site. You will be redirected back to this checklist after saving each setting. Settings which you have not yet reviewed will be displayed in red. After you have visited a page, the links will display in green (although you may still need to revisit the page to complete or update the settings).
 
-![Cheklist with several sections. The first section, site configuration, contains the items: localization, organization address and contact info, and enable components.](/img/Configuration_Checklist.png)
+![Cheklist with several sections. The first section, site configuration, contains the items: localization, organization address and contact info, and enable components.](img/Configuration_Checklist.png)
 
 ### Localization
 
@@ -57,7 +57,7 @@ For more info, have a look here:
 
 ### Organization Address and Contact Info
 
-Use this screen to enter identifying information for the organization or entity which "owns" this CiviCRM installation. The organization name and address are used to identify your organization in CiviMail mailings when you include the `{domain.name}` and `{domain.address}` [tokens](/common-workflows/tokens-and-mail-merge.md).
+Use this screen to enter identifying information for the organization or entity which "owns" this CiviCRM installation. The organization name and address are used to identify your organization in CiviMail mailings when you include the `{domain.name}` and `{domain.address}` [tokens](common-workflows/tokens-and-mail-merge.md).
 
 You should also enter a valid email address belonging to your organization, which will be used as the From field in system-generated (automated) emails.
 
@@ -67,7 +67,7 @@ This is where you can turn on or turn off the components for your CiviCRM system
 
 When you first install CiviCRM the most frequently used components (CiviContribute, CiviEvent, CiviMail, CiviMember, CiviReport) are already enabled. If you do not need those components you can disable them. You can also enable any or all of CiviCampaign, CiviCase, CiviGrant and CiviPledge. You can revisit this page at any time to enable more components.
 
-You can also disable a component you have already used. The information in the component is retained and will still be there if you re-enable it. It would be unusual to disable a component you have already used. If you want to simplify the administration menu and advanced search page then a better approach may be to use [permissions](/initial-set-up/permissions-and-access-control.md).
+You can also disable a component you have already used. The information in the component is retained and will still be there if you re-enable it. It would be unusual to disable a component you have already used. If you want to simplify the administration menu and advanced search page then a better approach may be to use [permissions](initial-set-up/permissions-and-access-control.md).
 
 ### Display Preferences
 
@@ -92,7 +92,7 @@ At **Localization > Address Settings** CiviCRM allows you to modify the default 
 After reviewing the default fields and layouts, review the Address Settings screen and make changes as needed.
 
 !!! tip
-    CiviCRM uses [tokens](/common-workflows/tokens-and-mail-merge.md) (e.g. `{contact.street_address}`) to reference specific fields in the database.
+    CiviCRM uses [tokens](common-workflows/tokens-and-mail-merge.md) (e.g. `{contact.street_address}`) to reference specific fields in the database.
 
 -   **Mailing Labels** - Controls formatting of mailing labels here. The default format is:
 
@@ -123,7 +123,7 @@ After reviewing the default fields and layouts, review the Address Settings scre
 -   **Address Editing Fields** - Modify the available address editing fields here. You can hide fields that you don't plan on using in order to simplify the forms. EXAMPLE: If you don't plan on recording latitude and longitude for contacts, you can deselect those field.
     -   **Street Address Parsing** - CiviCRM uses the US Postal Service's (USPS) Postal Addressing Standards to parse an address into fields to hold the address elements: Street Number, Street Name, and Apt/Unit/Suite. It's best to enter address information that conforms to the Postal Addressing Standards, not only for consistency in your data, but also to best take advantage of the the Street Address Parsing function. When address parsing is turned on you can edit and or view the parsed address by clicking on Edit Address Elements when you are editing a address.
 
-    ![The link "Edit address elements" is next to the street address field.](/img/basic-set-up-address-parsing.png)
+    ![The link "Edit address elements" is next to the street address field.](img/basic-set-up-address-parsing.png)
 
    You can learn more about USPS' Postal Addressing Standards at [http://pe.usps.com/text/pub28/welcome.htm](http://pe.usps.com/text/pub28/welcome.htm).
 -   **Address Standardization** - CiviCRM includes an optional feature for interfacing to the United States Postal Services (USPS) Address Standardization web service. You must register to use the USPS service at [https://www.usps.com/business/web-tools-apis/welcome.htm](https://www.usps.com/business/web-tools-apis/welcome.htm). If you are approved, they will provide you with a User ID and the URL for the service. The URL provided by USPS will not be prefixed with "http://". When entering this URL into the CiviCRM settings field, you must prefix it with "http://".
@@ -192,7 +192,7 @@ CiviCRM supports three different methods of connecting to a mail server: mail (t
 
 You should always send a test email after you enter or modify the settings. Simply click "Save and Send Test Email"(shown in the following screenshot). An email will be sent to the email address associated with your user login account. The From email address will be the default From address you've configured in the previous section.
 
-![Three buttons: save, cancel, save and send test email.](/img/CiviCRM-Configuring-Picture_11-en.png "Save and Send Test Email")
+![Three buttons: save, cancel, save and send test email.](img/CiviCRM-Configuring-Picture_11-en.png "Save and Send Test Email")
 
 If CiviCRM is unable to send the test email, you will see a message on your screen with the specific error and some suggestions for trouble-shooting the problem.
 
@@ -206,7 +206,7 @@ See [Email System Configuration](https://docs.civicrm.org/sysadmin/en/latest/set
 
 CiviCRM will use the default From address defined here when sending automated emails. If you've already entered an email address in the Domain Information screen, that address will be listed here (as illustrated on the leftmost field of the following screenshot).
 
-![screenshot](/img/from_email.png)
+![screenshot](img/from_email.png)
 
 When users send an email using CiviCRM, their primary email address is used as the From address by default. However, they can also select one of the general email addresses defined here as an alternative.
 
@@ -214,13 +214,13 @@ When users send an email using CiviCRM, their primary email address is used as t
 
 Payment processors are companies that handle credit card transactions for merchants and non-profit organizations and then transfer funds to the organization's bank account. If you plan on using CiviCRM to accept online contributions, online membership sign-up and renewal or online event registration, you will need to select and configure a payment processor for your site.
 
-CiviCRM includes support for several different processors, and provides a way for third-party developers to add support for additional processors based on their clients' needs. Each processor has their own pricing structure and features, and you will want to investigate each available option to determine the best fit for your organization. See [Payment Processors](/contributions/payment-processors.md) for a list of factors to consider in selecting a processor.
+CiviCRM includes support for several different processors, and provides a way for third-party developers to add support for additional processors based on their clients' needs. Each processor has their own pricing structure and features, and you will want to investigate each available option to determine the best fit for your organization. See [Payment Processors](contributions/payment-processors.md) for a list of factors to consider in selecting a processor.
 
 The actual steps involved in configuring and testing your payment processor connection are different for each processor. See the System Administrator Guide for information on [installing payment processors](https://docs.civicrm.org/sysadmin/en/latest/setup/payment-processors/)
 
 ### Permissions
 
-See [Permissions and access control](/initial-set-up/permissions-and-access-control.md) for information on setting permissions.
+See [Permissions and access control](initial-set-up/permissions-and-access-control.md) for information on setting permissions.
 
 ### System Workflow Templates
 

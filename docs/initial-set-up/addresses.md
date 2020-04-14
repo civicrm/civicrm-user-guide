@@ -6,7 +6,7 @@
 
 Default is: `{individual_prefix}{ }{first_name}{ }{middle_name}{ }{last_name}`
 
-**Mailing Label Format** - Use [tokens](/common-workflows/tokens-and-mail-merge.md) to show how you want addresses formatted for mailing labels. **You must include the {contact_name} token if you want to include the contact name in your labels.**
+**Mailing Label Format** - Use [tokens](common-workflows/tokens-and-mail-merge.md) to show how you want addresses formatted for mailing labels. **You must include the {contact_name} token if you want to include the contact name in your labels.**
 
 Use "state_province" if you prefer to use the state/province abbreviation or "state_province_name" if you prefer to use the full state/province name.
 

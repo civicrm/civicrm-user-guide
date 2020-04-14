@@ -33,7 +33,7 @@ community organising activities. For example, you can:
     gauge their level of interest or potential to be a highly active
     member or be easily mobilised for direct actions.
 
-To learn more about CiviCampaign, refer to the [Campaign section](/campaign/what-is-civicampaign.md). There
+To learn more about CiviCampaign, refer to the [Campaign section](campaign/what-is-civicampaign.md). There
 are also separate sections for Survey and Petition which should be read
 in conjunction with this section.
 
@@ -168,7 +168,7 @@ These subtypes allow you to track specific contacts such as funders and foundati
     custom field set; staffers and spokespeople for an elected official
     can also be entered with the Elected Official subtype.
 
-See the next chapter, [Set-up](/civic-engagement/set-up.md#civiengage-contact-subtypes) for information about how to tailor
+See the next chapter, [Set-up](civic-engagement/set-up.md#civiengage-contact-subtypes) for information about how to tailor
 subtypes.
 
 ## Key Questions

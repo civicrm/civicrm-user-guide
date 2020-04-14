@@ -70,7 +70,7 @@ or Bar Chart.
 
 ### Create an event report from a template
 
-See the chapter [Reporting Set-up](/reporting/set-up.md) for details. 
+See the chapter [Reporting Set-up](reporting/set-up.md) for details. 
 
 ## More analysis
 

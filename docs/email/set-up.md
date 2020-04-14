@@ -92,7 +92,7 @@ list groups.
 
 ### Using a profile
 
-Alternatively, you can use [profiles](/organising-your-data/profiles.md) to collect more information from people who sign up to
+Alternatively, you can use [profiles](organising-your-data/profiles.md) to collect more information from people who sign up to
 your mailing list.
 
 For example, you could create a new Profile called Newsletter Sign-up.
@@ -192,7 +192,7 @@ In CiviCRM, these are called Automated Messages, and you can edit them
 and add new ones at **Mailings > Headers, Footers, and Automated
 Messages**.
 
-For more information on email list management see [Maintaining healthy email lists](/email/maintaining-healthy-email-lists.md) which explores how CiviCRM handles
+For more information on email list management see [Maintaining healthy email lists](email/maintaining-healthy-email-lists.md) which explores how CiviCRM handles
 unsubscribes, bounces and email holds.
 
 ## Creating headers and footers
@@ -205,7 +205,7 @@ elements that you want to be displayed before the main content body,
 such as the logo of your organization and the title of the newsletter.
 
 The footer is always the last thing in the email. The footer is an ideal
-place for the compulsory [unsubscribe tokens](/common-workflows/tokens-and-mail-merge.md#opt-out).
+place for the compulsory [unsubscribe tokens](common-workflows/tokens-and-mail-merge.md#opt-out).
 
 You can manage the content of headers and footers in **Mailings >
 Headers, Footers, and Automated Messages**. You can create different

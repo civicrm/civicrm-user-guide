@@ -35,7 +35,7 @@ CiviCRM offers two options for sending email to contacts:
 -   Send a mailing to a group using CiviMail: this is ideal for mass
     mailings or scheduled emails to small groups.
 
-In order to send mass emails, you'll first need to [set up CiviMail](/email/set-up.md). The Send
+In order to send mass emails, you'll first need to [set up CiviMail](email/set-up.md). The Send
 Email action is available even when the CiviMail component is disabled.
 
 There are crucial differences between the Send Email action and the
@@ -110,7 +110,7 @@ so the unsubscription request can be recorded in CiviCRM.
 
 ### Personalisation with tokens 
 
-Emails sent with both Send Email and CiviMail can include personalised text, such as a person's name. This is done with [tokens](/common-workflows/tokens-and-mail-merge.md), which are placeholders that CiviCRM recognizes and replaces with an appropriate value when sending each message. Note that there are some tokens available in CiviMail that are not available in the Send Email activity. 
+Emails sent with both Send Email and CiviMail can include personalised text, such as a person's name. This is done with [tokens](common-workflows/tokens-and-mail-merge.md), which are placeholders that CiviCRM recognizes and replaces with an appropriate value when sending each message. Note that there are some tokens available in CiviMail that are not available in the Send Email activity. 
 
 ### From Email Addresses 
 

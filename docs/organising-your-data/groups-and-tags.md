@@ -219,7 +219,7 @@ Profile (see below).
 To view and manage all groups, go to: Navigation Menu > Contacts >
 Manage Groups.
 
-![image](/img/ManageGroups.png)
+![image](img/ManageGroups.png)
 
 You can use the Find Groups form at the top of the Manage Groups screen
 to search for groups by name, type, visibility and whether the group is
@@ -243,7 +243,7 @@ within the group. You can search contacts within a group by name, email
 address, contact type, group status (added, removed, or pending) and
 tags.
 
-![Groups_searchwithin](/img/CiviCRM_update-CiviCore-Groups_searchwithin-en.png "Groups_searchwithin")
+![Groups_searchwithin](img/CiviCRM_update-CiviCore-Groups_searchwithin-en.png "Groups_searchwithin")
 
 ## Groups and ACL
 
@@ -265,11 +265,11 @@ before you can use them in ACL.
 
 One of the advantages to using groups over tags is that CiviCRM maintains a historical record of group membership. If you **Remove** a contact from a group, you can see when they were removed and by whom. This can be useful in a number of use cases (e.g. you can track former members of a volunteer group, or if an email subscriber asks why they are no longer receiving your newsletter, you can provide details on when they opted out).
 
-![img](/img/GroupRemove.png)
+![img](img/GroupRemove.png)
 
 If a contact was removed in error, there is an option to **Rejoin Group** and the contact will be added again. Every group record has a status attached to it: **Added**, **Removed**, or **Pending**. You can search for all of the members of a group by status. Navigate to **Contacts > Manage Groups**. Identify the group that you want to search within and select **Contacts** on the right-hand column. From there you can expand the search criteria and you are given an option to search by status. This could be used, for example, if you want to generate a list of all of your former Advisory Board members.
 
-![img](/img/GroupStatusSearch.png)
+![img](img/GroupStatusSearch.png)
 
 You can also **Delete** a contact from a group. That will eliminate any record of the contact being in the group.
 
@@ -283,7 +283,7 @@ New tags can be created by clicking the Add Tag button on the Manage
 Tags (Categories) screen or by going to Contacts > New Tag in the
 navigation menu.
 
-![admin_tags](/img/CiviCRM_update-CiviCore-resized_600x158_admin_tags-en.png "admin_tags")
+![admin_tags](img/CiviCRM_update-CiviCore-resized_600x158_admin_tags-en.png "admin_tags")
 
 Each tag should have a clear and unique name and an explanatory
 description to help users understand the tag's purpose. Tags can be
@@ -327,7 +327,7 @@ Tag sets are created by going to: **Contacts > Manage Tags
 button. Give the tag set a name, a description, and indicate whether the
 tag set will apply to contacts, activities, or cases.
 
-![image](/img/Tag_Set_-_Create.png)
+![image](img/Tag_Set_-_Create.png)
 
 Clicking the Reserved checkbox makes a tag set more permanent - this
 will prevent a tag set from being deleted by someone without
@@ -343,7 +343,7 @@ contacts. For example, if you create a tag set called "Issues Folks Care
 About" an associate it with Contacts, you will see the tag set next time
 you go to the Tags tab of a contact's record.
 
-![image](/img/Tag_Set_-_Creating_tags_on_the_fly.png)
+![image](img/Tag_Set_-_Creating_tags_on_the_fly.png)
 
 
 This is an autocomplete field: as you begin to type, CiviCRM looks for

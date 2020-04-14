@@ -2,7 +2,7 @@
 
 CiviContribute widgets help you and your supporters to easily promote this fund-raising campaign by creating an automatically updated visual representation of the campaign.
 
-![Contribution Widget Example](/img/contribution_widget_example.png)
+![Contribution Widget Example](img/contribution_widget_example.png)
 
 When you create a widget you are given the code to embed the widget on your website or another website. 
 
@@ -21,7 +21,7 @@ When you create a widget you are given the code to embed the widget on your webs
 1. When you are ready to preview your Widget or when you are finished and want to update the code for the Widget click **Save and Preview**. 
 1. On the right, you will be able to see the code for the Widget to be embedded on a web page.  You may need help from your system administrator or the person who administers your website to make use of this code. 
 
-    ![Contribution Widget Code](/img/contribution_widget_code.png)
+    ![Contribution Widget Code](img/contribution_widget_code.png)
 
 1. When selecting the code use the **Select Code** link to make sure you have all of the necessary code.
 1. Copy and paste into the appropriate place on your website where you would like the widget to display.
@@ -30,7 +30,7 @@ When you create a widget you are given the code to embed the widget on your webs
 
 1. At the bottom of the configuration page, you can expand the **Edit Widget Colors** fieldset. 
 
-    ![Edit Widget Colors Fieldset](/img/contribution_widget_edit_widget_colors.png)
+    ![Edit Widget Colors Fieldset](img/contribution_widget_edit_widget_colors.png)
 
 1. The fields in this fieldset provide a way to modify the colors for each area of the Widget you are creating. You will need to get hexadecimal (or hex) codes for each color.  [W3schools](https://www.w3schools.com/colors/colors_picker.asp) provides a color picker that will give you the hex values for colors you select.
 

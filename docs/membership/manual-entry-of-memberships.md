@@ -58,7 +58,7 @@ have the option to record other types of payments like checks and cash.
     select the **Submit Credit Card Membership** option and process the
     payment immediately.
 
-![image](/img/manual-add-membership.png)
+![image](img/manual-add-membership.png)
 
 Many of the fields on "New Membership" form will be auto-completed if
 left blank. Fields include:
@@ -67,7 +67,7 @@ left blank. Fields include:
 organization that the contact has a membership with and the type of
 membership ***OR***
 
--   **Choose Price Set**: If you have various fee structures for different classes of memberships, you can use [Membership Price Sets](/membership/membership-price-sets.md) by selecting Choose Price Set (rather than Membership Organization and Type).
+-   **Choose Price Set**: If you have various fee structures for different classes of memberships, you can use [Membership Price Sets](membership/membership-price-sets.md) by selecting Choose Price Set (rather than Membership Organization and Type).
 
 -   **Number of Terms**: enter the number of membership periods or terms
 associated with this membership record. The membership end date will
@@ -104,7 +104,7 @@ membership record. As indicated by the title, it overrides the status
 automatically provided.
 
     !!! caution
-        This setting will stop the status from automatically updating based on the membership status rules you have set up when [defining your memberships](/membership/defining-memberships.md).
+        This setting will stop the status from automatically updating based on the membership status rules you have set up when [defining your memberships](membership/defining-memberships.md).
 
 -   **Record Membership Payment?**: by checking the box and completing the
 transaction fields displayed, you will record the money paid for the
@@ -162,12 +162,12 @@ cancel the auto-renewal.
 -   Navigate to **Memberships > New Membership**, then select the
     contact or create a new contact.
 
-![image](/img/memberships_add_membership_new_contact.png)
+![image](img/memberships_add_membership_new_contact.png)
 
 -   Fill out the New Member form with the appropriate membership and
     payment information as in *Via an existing contact record* above.
 
-![image](/img/memberships_add_membership_via_menu.png)
+![image](img/memberships_add_membership_via_menu.png)
 
 ## Gift Memberships
 
@@ -180,7 +180,7 @@ on the gift recipient's record. The receipt will be sent to the gifter.
 You will need to send a separate email or letter to tell the gift
 recipient about their membership.
 
-![image](/img/gift_membership.png)
+![image](img/gift_membership.png)
 
 ## Entering batches of membership payments
 
@@ -204,7 +204,7 @@ not currently included in these profiles, you will need to alter these
 profiles to reflect the fields you want to display.
 
 You can read more details about the [Batch Entry of Contributions or
-Membership Payments](/contributions/manual-entry-of-contributions.md#batch-entry-of-contribution-membership-or-pledge-payments.
+Membership Payments](contributions/manual-entry-of-contributions.md#batch-entry-of-contribution-membership-or-pledge-payments.
 
 
 ## Importing Memberships
@@ -215,7 +215,7 @@ This feature can also be used to update large numbers of existing
 memberships with new information.
 
 !!! tip "See also"
-    The [Importing Data](/common-workflows/importing-data-into-civicrm.md) page explains the import process generally, and also has a section specifically on [importing memberships](/common-workflows/importing-data-into-civicrm.md#import-memberships).
+    The [Importing Data](common-workflows/importing-data-into-civicrm.md) page explains the import process generally, and also has a section specifically on [importing memberships](common-workflows/importing-data-into-civicrm.md#import-memberships).
 
 -   Contact records must exist before you import membership data. If
     you want to import membership data for contacts that do not yet
