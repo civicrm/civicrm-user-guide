@@ -60,7 +60,7 @@ first.
     need to review the additional modules and components you have
     installed and enabled that are not usually included in the install
     package to ensure that you have the latest stable version as well as
-    using a ver[](javascript:void(0))sion of the module that works with
+    using a version of the module that works with
     your particular version of CiviCRM.
 -   Bugs in the version of CiviCRM you are using - after you have
     eliminated all the previous options, you can report your problem as
