@@ -5,6 +5,7 @@ site_description: 'A guide for CiviCRM users.'
 site_author: 'The CiviCRM community'
 theme: 
   name: material
+
 markdown_extensions:
   - attr_list
   - admonition
@@ -18,6 +19,10 @@ markdown_extensions:
   - pymdownx.tilde
   - pymdownx.betterem
   - pymdownx.mark
+
+plugins:
+  - search:
+      lang: en
 
 nav:
 - Home: 'index.md'
