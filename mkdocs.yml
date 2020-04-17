@@ -41,7 +41,6 @@ nav:
     - 'Mapping': 'initial-set-up/mapping.md'
     - 'Users contacts': 'initial-set-up/users-contacts.md'
     - 'Permissions and access control': 'initial-set-up/permissions-and-access-control.md'
-    - 'Resource urls': 'initial-set-up/resource-urls.md'
     - 'Logging': 'initial-set-up/change-logging.md'
     - 'Error handling': 'initial-set-up/error-handling.md'
     - 'Scheduled Jobs': 'initial-set-up/scheduled-jobs.md'
