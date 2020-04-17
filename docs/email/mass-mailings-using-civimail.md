@@ -259,6 +259,11 @@ two options described next.
         with long links containing the name of your site and a long code 
         looking like this http://example.com/sites/all/modules/civicrm/extern/url.php?u=529&qid=29011.
 
+    !!! note "Personalised Tokens"
+        If you include a checksum or any kind of personalised token in your URL
+        e.g. `http://example.org/civicrm/mailing/view?reset=1&id={mailing.key}&cid={contact.contact_id}&{contact.checksum}`
+        Such URLs will not be redirected so are not able to be tracked / counted.
+
 -   **Track Opens:** This option allows you to track how many people
     opened the email you received. However, there are limitations to the
     effectiveness of this method. If the recipient does not show images
