@@ -277,6 +277,12 @@ database), the visitor must have the permission **profile view** to see it.
 
 #### Using the "Profile listings and forms" permission
 
+!!! caution
+
+    The "Profile listings and forms" permission is equivalent to granting
+    `profile_view`, `profile_create`, `profile_edit` and `profile_listing`.
+    This is a lot of permission and should be assigned carefully!
+
 This access right should be assigned with care, and only to trusted
 roles. The permission grants access to:
 
