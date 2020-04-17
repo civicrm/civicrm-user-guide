@@ -106,8 +106,7 @@ are children of the National group will be included.
 
 CiviCRM assigns a unique numeric ID to each group. These group IDs can
 be used for a variety of operations. For example, the group ID can be
-used to define a URL for group sign-ups. You can find a group's ID by
-checking the ID column in the tabled list of groups at **Navigation Menu > Contacts > Manage Groups**.
+used to define a URL for group sign-ups.
 
 ## Tags
 
