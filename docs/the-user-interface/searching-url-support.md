@@ -35,6 +35,19 @@ The following parameters work in a standardised way for contribution searches:
 |participant_registration_date_relative|participant_registration__date_relative=this.year|Participant Registration Date on or after ths start of this year and the event end date on or before the end of the year|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15791)|
 |participant_status_id|participant_status_id=1,2|Participant Status in Registered and Pending Pay Later|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15791)|
 |participant_role_id|participant_role_id=1,2|Participant Role IN (Attendee, Host)|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15791)|
+|case_start_date_high|case_start_date_high=201901010000|Case Start Date on or before 1 January 2019|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15920)|
+|case_start_date_low|case_start_date_low=201901010000|Case Start Date on or after 1 January 2019|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15920)|
+|case_start_date_relative|case_start_date_relative=this.year|Case Start Date on or after the start of this year and on or before the end of the calendar year|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15920)|
+|case_end_date_high|case_end_date_high=201901010000|Case End Date on or before 1 January 2019|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15920)|
+|case_end_date_low|case_end_date_low=201901010000|Case End Date on or after 1 January 2019|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15920)|
+|case_end_date_relative|case_end_date_relative=this.year|Case End Date on or after the start of this year and on or before the end of the calendar year|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15920)|
+|case_type_id|case_type_id=1,2|Case Type is one of Housing Support or Adult Care Support|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15920)|
+|case_status_id|case_status_id=1|Case Status is Opened|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15920)|
+|case_subject|case_subject=test|Case subject like `%test%`|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15920)|
+|case_deleted|case_deleted=1|Case is deleted|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15920)|
+|case_id|case_id=1|Case id = 1|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15920)|
+|case_owner|case_owner=2|Only My Cases|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15920)|
+|case_tags|case_tags=1,2|Case Tags in (1,2)|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15920)|
 
 
 * Whether text fields search for LIKE `%dad%` or LIKE `dad%` depends on the site wide setting
