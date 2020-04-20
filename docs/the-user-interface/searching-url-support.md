@@ -9,6 +9,9 @@ To construct a parameterised url you need to
 1) ensure the URL contains 'reset=1&force=1' (after the question mark)
 2) add additional supported parameters.
 
+!!! note "Date/Time Parameters
+    Date/time parameters require that, either, the time component is omitted entirely `20200101` or specified with a full **six digit** time `20200101235959`
+
 So, for example, in 5.20 the following URL works on Drupal *(with Clean URL support)* to find contributions made by a person with a name like `Bob`, a contribution source like `dad` made on or before `01 Jan 2018`
 `civicrm/contribute/search?reset=1&reset=1&force=1&sort_name=bob&receive_date_high=20180101&contribution_source=dad`
 
@@ -27,19 +30,19 @@ The following parameters work in a standardised way for contribution searches:
 |contribution_cancel_date_high|contribution_cancel_date_high=20180101132323|Contribution cancelled on or before 01 Jan 2018, 1.23 pm|
 |contribution_cancel_date_low|contribution_cancel_date_low=20161001|Contribution cancelled on or after 01 Oct 2016|
 |contribution_cancel_date_relative|contribution_cancel_date_relative=this.year|Contribution cancelled this year|
-|event_high|event_high=201901010000|Event end date on or before 1 January 2019|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15791)|
-|event_low|event_low=201901010000|Event Start date on or after 1 January 2019|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15791)|
+|event_high|event_high=20190101000000|Event end date on or before 1 January 2019|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15791)|
+|event_low|event_low=20190101000000|Event Start date on or after 1 January 2019|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15791)|
 |event_relative|event_relative=this.year|Event Start Date on or after ths start of this year and the event end date on or before the end of the year|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15791)|
-|participant_registration_date_high|participant_registration_date_high=201901010000|Participant Registration Date on or before 1 January 2019|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15791)|
-|participant_registration_date_low|participant_registration_date_low=201901010000|Participant Registration date on or after 1 January 2019|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15791)|
+|participant_registration_date_high|participant_registration_date_high=20190101000000|Participant Registration Date on or before 1 January 2019|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15791)|
+|participant_registration_date_low|participant_registration_date_low=20190101000000|Participant Registration date on or after 1 January 2019|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15791)|
 |participant_registration_date_relative|participant_registration__date_relative=this.year|Participant Registration Date on or after ths start of this year and the event end date on or before the end of the year|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15791)|
 |participant_status_id|participant_status_id=1,2|Participant Status in Registered and Pending Pay Later|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15791)|
 |participant_role_id|participant_role_id=1,2|Participant Role IN (Attendee, Host)|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15791)|
-|case_start_date_high|case_start_date_high=201901010000|Case Start Date on or before 1 January 2019|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15920)|
-|case_start_date_low|case_start_date_low=201901010000|Case Start Date on or after 1 January 2019|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15920)|
+|case_start_date_high|case_start_date_high=20190101000000|Case Start Date on or before 1 January 2019|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15920)|
+|case_start_date_low|case_start_date_low=20190101000000|Case Start Date on or after 1 January 2019|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15920)|
 |case_start_date_relative|case_start_date_relative=this.year|Case Start Date on or after the start of this year and on or before the end of the calendar year|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15920)|
-|case_end_date_high|case_end_date_high=201901010000|Case End Date on or before 1 January 2019|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15920)|
-|case_end_date_low|case_end_date_low=201901010000|Case End Date on or after 1 January 2019|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15920)|
+|case_end_date_high|case_end_date_high=20190101000000|Case End Date on or before 1 January 2019|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15920)|
+|case_end_date_low|case_end_date_low=20190101000000|Case End Date on or after 1 January 2019|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15920)|
 |case_end_date_relative|case_end_date_relative=this.year|Case End Date on or after the start of this year and on or before the end of the calendar year|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15920)|
 |case_type_id|case_type_id=1,2|Case Type is one of Housing Support or Adult Care Support|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15920)|
 |case_status_id|case_status_id=1|Case Status is Opened|5.21 [PR](https://github.com/civicrm/civicrm-core/pull/15920)|
