@@ -10,12 +10,19 @@ markdown_extensions:
   - attr_list
   - admonition
   - def_list
-  - codehilite:
-      guess_lang: false
   - toc:
       permalink: true
-  - pymdownx.superfences
-  - pymdownx.inlinehilite
+  - pymdownx.highlight:
+      guess_lang: true
+      extend_pygments_lang:
+        - name: php
+          lang: php
+          options:
+            - startinline: true
+  - pymdownx.superfences:
+      css_class: codehilite
+  - pymdownx.inlinehilite:
+      css_class: codehilite
   - pymdownx.tilde
   - pymdownx.betterem
   - pymdownx.mark
