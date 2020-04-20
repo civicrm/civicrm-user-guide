@@ -10,7 +10,7 @@ To construct a parameterised url you need to
 2) add additional supported parameters.
 
 !!! note "Date/Time Parameters
-    Date/time parameters require that, either, the time component is omitted entirely `20200101` or specified with a full **six digit** time `20200101**235959**`
+    Date/time parameters require that, either, the time component is omitted entirely `20200101` or specified with a full **six digit** time `20200101235959`
 
 So, for example, in 5.20 the following URL works on Drupal *(with Clean URL support)* to find contributions made by a person with a name like `Bob`, a contribution source like `dad` made on or before `01 Jan 2018`
 `civicrm/contribute/search?reset=1&reset=1&force=1&sort_name=bob&receive_date_high=20180101&contribution_source=dad`
