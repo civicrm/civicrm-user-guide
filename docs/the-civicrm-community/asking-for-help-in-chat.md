@@ -6,6 +6,7 @@ You might have been linked here because you've asked a question on CiviCRM chat.
 ## Detail
 * Detailed questions are easier to answer than vague ones. People are more likely to reply if your question has enough information for them to know the answer. For example: "I can't install CiviCRM" is not a descriptive question; "When I try to install CiviCRM, I see _error XYZ_ on screen" is descriptive enough to be answered. Give details! Lots of details.
 * Let us know what version of CiviCRM you're running, what CMS and version you're using and other information on your configuration (are you using any caching systems (Memcache, Redis etc).
+* If you have already had a previous conversation on https://civicrm.stackexchange.com, include a link to that conversation. This will save you time in describing the issue and help responders to avoid repeating the same questions.
 
 ## Research
 * Search the web to see if others have asked your question, especially https://docs.civicrm.org and https://civicrm.stackexchange.com
