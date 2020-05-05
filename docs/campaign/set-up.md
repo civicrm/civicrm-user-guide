@@ -31,6 +31,7 @@ To add a new campaign type:
 2.  This will display a list of existing campaign types: 
      
     ![column headers are: label, value (unique number), description, order, reserved, enabled (yes or no)](../img/campaign_configuration_typeoptions_1.png)
+    
 3.  Click on **Add Campaign Type**, and give the new type a label and a
     description (optional).
 4.  Optionally, change the default weight: this affects the order in
