@@ -73,6 +73,9 @@ information.
 !!! caution
     For security purposes, checksum links only last for seven days, starting from the time the email is sent. To change this duration, go to **Administer > System Settings > Misc (Undelete, PDFs, Limits, Logging, Captcha, etc.)**.
 
+!!! note
+    Checksum URLs will not be tracked within CiviMail URL tracking as they are personalised to the recipient.
+
 Create a link in the CiviMail message that includes the checksum token `{contact.checksum}`. When people click on the special link, CiviCRM looks them up in the database and prefills any information on the contribution form or profile with any data that exists in their record.
 
 **Checksum for Contribution Pages**: To send people to a contribution page use this path where `IDNUMBER` is the ID of your contribution page:
