@@ -269,6 +269,8 @@ two options described next.
 Once you have defined all aspects of your mailing click on **Next >**
 (lower left) to advance to:
 
+Prior to CiviCRM version 5.27 Tracking options were turned on by default when creating a new mailing. From CiviCRM 5.27 onwards there is now a new setting at Administer -> CiviMail -> CiviMail Component Settings which will allow you to choose whether the Click Through or the Open tracking or both are turned on by default or not.
+
 **Step 2: Review and Schedule**
 
 ![CiviMail Review and Schedule screen](../img/civimail-review-and-scheduling.png)
