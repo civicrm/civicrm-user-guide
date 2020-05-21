@@ -187,20 +187,25 @@ You will encounter both these role types as you work with the access
 controls. Although they may be named differently on different CMSes, the
 basic principle is the same.
 
-The **anonymous** role (**public** in Joomla!) applies to all visitors
-to the website who have *not* logged in. This role will have the lowest
-level of permissions. The default CiviCRM permissions for this role
-are:
+The **anonymous** role (**public** in Joomla!) applies to all visitors to the website who have *not* logged in. This role will have the lowest level of permissions.
 
--   make online contributions/donations
--   view event information
--   register for events through online forms
--   view event participants
--   subscribe and unsubscribe from mailing lists
--   access all custom data (ie see/enter information in custom data
-    fields in forms)
--   access uploaded files (ie view/print content of uploaded files)
--   view, create and edit profiles (or profile listings and forms)
+The default CiviCRM permissions for this role
+are set out below. Please note that the actual permissions set may vary depending on your CMS and how you installed CiviCRM so please check that they are set up as you want them.
+
+Permission | Description
+-- | --
+CiviCRM: access all custom data | View all custom fields - i.e. see/enter information in custom data fields in forms
+CiviCRM: access uploaded files | View / download files including images and photos
+CiviCRM: profile create | Add data in a profile form
+CiviCRM: profile edit | Edit data in a profile form
+CiviCRM: profile view | View data in a profile
+CiviEvent: register for events | Register for events on your website
+CiviEvent: view event info | View event information pages
+CiviEvent: view event participants | View the participants that have signed up to an event
+CiviContribute: make online contributions | Make payments or donations through your website
+CiviMail: access CiviMail subscribe/unsubscribe pages | Subscribe/unsubscribe from mailing lists
+CiviMail: view public CiviMail content | View mailings on your website
+CiviCampaign: sign CiviCRM Petition | Sign petitions (if CiviCampaign is enabled)
 
 The **authenticated** role (**registered** in Joomla, **subscriber** in
 WordPress) is applied to all visitors to the site that have logged in.
