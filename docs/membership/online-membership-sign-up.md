@@ -27,7 +27,10 @@ contribution page for online sign up (see free memberships below for
 instructions on how to do this).
 
 Contribution pages are very powerful and have a lot of options that are
-grouped together into tabs; instructions for creating one are in the [online contributions](https://docs.civicrm.org/user/en/latest/contributions/online-contributions/)section of the contributions chapter. Once you have given your contribution page a
+grouped together into tabs.
+
+ Instructions for creating contribution pages are in the [online contributions](https://docs.civicrm.org/user/en/latest/contributions/online-contributions/) section of the contributions chapter. 
+Once you have given your contribution page a
 name, these tabs are displayed at the top of the page as you work
 through the rest of the set up process.
 
