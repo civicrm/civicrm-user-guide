@@ -127,7 +127,7 @@ To add a profile to a contribution form:
 1.  Navigate to Manage Contribution Pages then for the page you wish to
     configure, click on **Configure > Include Profiles**.
 2.  Select a CiviCRM profile from the dropdown menu to be included at
-    the top of the contribution page and/or at the bottom of the page.
+    the top of the contribution page and/or at the bottom of the page (there are drop down menus for each).
     You can then preview your selection(s), edit an existing profile,
     copy an existing profile or create a new profile.
     When you edit or create a new profile you will use the profile drag
@@ -150,11 +150,12 @@ To add a profile to a contribution form:
 
     If you include a profile with address fields at the top of the page, CiviCRM
     automatically generates a checkbox on the contribution form which allows the
-    user to indicate that their Billing Address is the same as the address
-    entered in the profile. (If the profile is included at the bottom of the
-    page, this checkbox will not be generated).
-
+    user to indicate that his/her Billing Address is the same as the address
+    entered in the profile. When set up correctly, the checkbox is checked by default and reveals billing name and address fields when unchecked. For a checkbox to be generated and hide/reveal the billing address fields, the profile 
+    1. Must be included at the top (not the bottom) of the page (there is a drop down menu for each option on the Include Profiles configuration page)
+    2. Must have the same fields (First Name, Last Name, Street Address, City, State, Postal Code and  Country) as the Billing Address profile and these fields *must be marked as required.* When the correct fields are included but not marked required the checkbox will still be visible but the javascript won’t work so the billing name and address always be visible.
     ![Include profile top of page listbox, and include profile bottom of page listbox.](../img/Profiles-HomeAddress.png)
+
 
 A number of the [Advanced
 Settings](../organising-your-data/profiles.md#advanced-settings) for profiles take
