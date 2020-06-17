@@ -126,8 +126,7 @@ To add a profile to a contribution form:
 
 1.  Navigate to Manage Contribution Pages then for the page you wish to
     configure, click on **Configure > Include Profiles**.
-2.  Select a CiviCRM profile from the dropdown menu to be included at
-    the top of the contribution page and/or at the bottom of the page (there are drop down menus for each).
+2.  Select a CiviCRM profile from the relevant drop down menu to be included at the top and/or bottom of the contribution page.
     You can then preview your selection(s), edit an existing profile,
     copy an existing profile or create a new profile.
     When you edit or create a new profile you will use the profile drag
@@ -150,25 +149,27 @@ To add a profile to a contribution form:
 
     If you include a profile with address fields at the top of the page, CiviCRM
     automatically generates a checkbox on the contribution form which allows the
-    user to indicate that his/her Billing Address is the same as the address
-    entered in the profile. When set up correctly, the checkbox is checked by default and reveals billing name and address fields when unchecked. For a checkbox to be generated and hide/reveal the billing address fields, the profile 
+    user to indicate that their Billing Address is the same as the address
+    entered in the profile. When set up correctly, the checkbox is checked by
+    default and reveals billing name and address fields when unchecked. 
+    For a checkbox to be generated and hide/reveal the billing address fields, the profile:
+    
     1. Must be included at the top (not the bottom) of the page (there is a drop down menu for each option on the Include Profiles configuration page)
     2. Must have the same fields (First Name, Last Name, Street Address, City, State, Postal Code and  Country) as the Billing Address profile and these fields *must be marked as required.* When the correct fields are included but not marked required the checkbox will still be visible but the javascript won’t work so the billing name and address always be visible.
+    
     ![Include profile top of page listbox, and include profile bottom of page listbox.](../img/Profiles-HomeAddress.png)
 
-
-A number of the [Advanced
-Settings](../organising-your-data/profiles.md#advanced-settings) for profiles take
-effect when a profile is included in a contribution page.  You cannot edit these
-from the editing interface within the contribution page settings; you must go to
+A number of the [Advanced Settings](../organising-your-data/profiles.md#advanced-settings)
+for profiles take effect when a profile is included in a contribution page.  
+You cannot edit these from the editing interface within the contribution page settings; you must go to
 the main profile settings form to make changes.
 
--   **Adding contacts to a group.**  Note that many donors do not wish to join a
+* **Adding contacts to a group.**  Note that many donors do not wish to join a
     mailing list merely because they have made a donation.
--   **CMS User account registration options.**  A donor can be presented with
+* **CMS User account registration options.**  A donor can be presented with
     the option or requirement to log in or create a user account while making a
     contribution.
--   **Including ReCAPTCHA.**  A CAPTCHA can be added to make it more difficult
+* **Including ReCAPTCHA.**  A CAPTCHA can be added to make it more difficult
     for bots and donors to submit the form.
 
 Other advanced settings, such as what to do upon duplicate match, are ignored on
