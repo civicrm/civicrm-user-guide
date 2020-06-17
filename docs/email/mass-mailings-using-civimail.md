@@ -271,6 +271,11 @@ two options described next.
     content"), their email will not be marked as opened even if they do
     open it. Blocking remote content is a very common practice.
 
+!!! note "Changes introduced in CiviCRM version 5.27"
+    Prior to CiviCRM version 5.27 Tracking options were turned on by default when creating a new mailing.
+    From CiviCRM 5.27 onwards there is now a new setting at **Administer -> CiviMail -> CiviMail Component Settings**
+    which will allow you to choose whether the Click Through or the Open Tracking or both are turned on by default or not.
+
 Once you have defined all aspects of your mailing click on **Next >**
 (lower left) to advance to:
 
