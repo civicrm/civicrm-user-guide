@@ -82,7 +82,7 @@ Create a link in the CiviMail message that includes the checksum token `{contact
 
 -   Drupal: `http://example.org/civicrm/contribute/transact?reset=1&id=IDNUMBER&{contact.checksum}&cid={contact.contact_id}`
 -   Joomla!: `http://example.org/index.php?option=com_civicrm&task=civicrm/contribute/transact&reset=1&id=IDNUMBER&{contact.checksum}&cid={contact.contact_id}`
--   WordPress: `http://wexample.org/?page=CiviCRM&q=civicrm/contribute/transact&reset=1&id=IDNUMBER&{contact.checksum}&cid={contact.contact_id}`
+-   WordPress: `http://example.org/?page=CiviCRM&q=civicrm/contribute/transact&reset=1&id=IDNUMBER&{contact.checksum}&cid={contact.contact_id}`
 
 **Checksum for standard Profiles** (edit mode): To send people to a profile use this path where `IDNUMBER` is the ID of the Profile you want to send them to:
 
