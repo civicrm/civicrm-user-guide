@@ -164,6 +164,7 @@ You now have a rented phone number that can send and receive SMS messages.
 following, replacing example.com with your CiviCRM installation.
 
 For Drupal, use `https://example.com/civicrm/sms/callback?provider=org.civicrm.sms.twilio`
+
 For WordPress, use `https://example.com/civicrm?civiwp=CiviCRM&q=civicrm%2Fsms%2Fcallback&provider=org.civicrm.sms.twilio`
 
 This will send any replies that your messages receive back to CiviCRM.
