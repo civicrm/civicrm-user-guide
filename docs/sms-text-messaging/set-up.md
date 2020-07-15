@@ -163,7 +163,8 @@ You now have a rented phone number that can send and receive SMS messages.
 4. Under the "Messaging" section, change the "A message comes in webhook" to the
 following, replacing example.com with your CiviCRM installation.
 
-`https://example.com/civicrm/sms/callback?provider=org.civicrm.sms.twilio`
+For Drupal, use `https://example.com/civicrm/sms/callback?provider=org.civicrm.sms.twilio`
+For WordPress, use `https://example.com/civicrm?civiwp=CiviCRM&q=civicrm%2Fsms%2Fcallback&provider=org.civicrm.sms.twilio`
 
 This will send any replies that your messages receive back to CiviCRM.
 
