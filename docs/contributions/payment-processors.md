@@ -80,7 +80,7 @@ PayPal and Authorize.net allow users to set up a recurring contribution, which i
 
 If you have iATS configured, you will manage the recurring contributions directly in CiviCRM. The payment is triggered from within CiviCRM, which sends a request to iATS, and returns a completed contribution record to CiviCRM if it's successful.
 
-You can manage a recurring contribution by going to the **Contributions** tab on a contact record. At the bottom of the page, there is a separate section for Recurring Contributions.
+You can manage a recurring contribution by going to the **Contributions** tab on a contact record. In a separate tab, there is a separate section for Recurring Contributions.
 
 ![screenshot](../img/RecurringContributions.png)
 
