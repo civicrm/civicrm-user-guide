@@ -2,7 +2,7 @@
 
 In this chapter, the steps required to set up an SMS gateway will be
 explored. Once configured, you will be able to send both single and mass text messages to
-individual contacts which have a **mobile phone number** defined, ie. Phone location type must be "Mobile".
+individual contacts which have a **mobile phone number** defined, ie. **Phone Type** must be "Mobile".
 
 **Note**: Contacts which do not have a mobile phone number defined **will not** receive a SMS text message.
 
