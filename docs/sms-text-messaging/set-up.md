@@ -1,8 +1,10 @@
 # Set-up
 
 In this chapter, the steps required to set up an SMS gateway will be
-explored. Once configured, you will be able to send text messages to
-individual contacts and mass mailing lists within CiviCRM.
+explored. Once configured, you will be able to send both single and mass text messages to
+individual contacts which have a **mobile phone number** defined, ie. **Phone Type** must be "Mobile".
+
+**Note**: Contacts which do not have a mobile phone number defined **will not** receive a SMS text message.
 
 ## Configuring a Clickatell SMS Gateway
 
@@ -34,7 +36,7 @@ Select "HTTP/S" as the connection type (New language: HTTP API)
 1.
 Four optional settings will appear, including:
     -   Description: change the name of the connection (e.g. "CiviCRM HTTP")
-    -   Replace leading zero: enable this option if phone numbers against
+    -   Replace leading zero: enable this option if mobile phone numbers against
         your contacts begin with "0". For delivery to be successful, all
         numbers must begin with the country code if this is not enabled.
         (This option no longer exists.)
@@ -91,14 +93,14 @@ text like the message below:
 Thanks for testing Clickatell's gateway coverage. You will be able to change the content of your message after your initial purchase of message credits.
 ```
 
-### After upgrading your ClickAatell account to a paid account
+### After upgrading your Clickatell account to a paid account
 
 Once you have upgraded your Clickatell account, you will need to change a
 few parameters to get things working again.
 In CiviCRM,  go to: **Administer** > **System Settings**>
 **SMS Providers** and click Edit on your "Clickatell" provider. In the API
 Parameters box, under the api_id line, add a from= and a mo=1 parameter.  The
-from= number is the phone number associated with the api_id in your Clickatell
+from= number is the mobile phone number associated with the api_id in your Clickatell
 account.
 
 Your API parameters should now look like:
@@ -109,7 +111,7 @@ mo=1
 ```
 
 Back in your ClickATell Developer's Central page, click on the America's 2 Way SMS
-tab, then click Manage next to the phone number you are working with.  For the
+tab, then click Manage next to the mobile phone number you are working with.  For the
 Primary Callback:  Reply Path, choose "HTTP Get" from the dropdown.  In the target
 address, enter the same address as used before:
 Drupal: http://www.example.com/civicrm/sms/callback?provider=org.civicrm.sms.clickatell
@@ -128,14 +130,14 @@ To sign up, visit:
 [https://www.twilio.com/try-twilio](https://www.twilio.com/try-twilio)
 
 Once you have registered for an account, you will be asked to verify
-your phone number via SMS or call. You will then be taken to the Console.
+your account phone number via SMS or call. You will then be taken to the Console.
 
-### Getting a phone number
+### Getting a mobile phone number
 
-Your trial account entitles you to a free rented Twilio phone number,
+Your trial account entitles you to a free rented Twilio mobile phone number,
 which you can use to send SMS. However, free accounts must verify
-a phone number before it can receive SMS. For the purposes of this
-guide, we will send a message to the same phone number you verified
+a mobile phone number before it can receive SMS. For the purposes of this
+guide, we will send a message to the same mobile phone number you verified
 in the registration step.
 
 1. From the [Console homepage](https://www.twilio.com/console), click the
@@ -145,14 +147,14 @@ in the registration step.
 
 2. Click the red **Get Started** button.
 
-3. Click the **Get a number** button, near the top of the page. A phone
+3. Click the **Get a number** button, near the top of the page. A mobile phone
 number will be suggested to you. If the country of the number is
 not accurate, use "Search for a different number". Otherwise, click
 **Choose this number**, and **Done**, after noting down the number.
 
-You now have a rented phone number that can send and receive SMS messages.
+You now have a rented mobile phone number that can send and receive SMS messages.
 
-### Setting up your new phone number in Twilio
+### Setting up your new mobile phone number in Twilio
 
 1. Click the **All Products & Services** icon, in the far left navigation bar.
 
@@ -183,7 +185,7 @@ You now have all of the information needed to configure SMS in CiviCRM.
 
 ### Setting up your new SMS Provider in CiviCRM
 
-Now that you have a Twilio account with a phone number, it needs to be set up in CiviCRM.
+Now that you have a Twilio account with a mobile phone number, it needs to be set up in CiviCRM.
 
 1. Go to CiviCRM and go to: **Administer** > **System
 Settings**> **SMS Providers**. Click **Add New Provider**.
@@ -198,7 +200,7 @@ Settings**> **SMS Providers**. Click **Add New Provider**.
     * Password: enter your "Auth Token" from the previous step
     * API type: leave as "http"
     * API URL: leave as "https://api.twilio.com/"
-    * API Parameters: enter "From=" followed by your Twilio phone number from the
+    * API Parameters: enter "From=" followed by your Twilio mobile phone number from the
     previous step, in international format with no spaces. On a second line, enter "mo=1".
     
     !!! note
@@ -215,8 +217,7 @@ Settings**> **SMS Providers**. Click **Add New Provider**.
 
 ### Testing CiviSMS
 
-You can now use CiviSMS to send an SMS message to your phone number
-(the one you verified in earlier steps).
+You can now use CiviSMS to send an SMS message to any mobile phone number you have access too.
 
 See [Everyday Tasks](everyday-tasks.md) for some ways you can send messages.
 
@@ -229,7 +230,7 @@ To properly use Twilio as an SMS gateway, you will need a paid account.
 You can upgrade your account to a full account by clicking "Upgrade" in
 the top right corner from the Twilio console.
 
-Once you have upgraded, your rented phone number will be available for full use,
+Once you have upgraded, your rented mobile phone number will be available for full use,
 and charged against your Twilio credit. 
 
-You will now be able to send SMS to any phone number.
+You will now be able to send SMS to any mobile phone number.
