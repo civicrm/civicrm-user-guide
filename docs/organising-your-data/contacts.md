@@ -29,7 +29,7 @@ can also add custom fields that extend particular contact types or sub
 types.
 
 Think of contacts as the centre of your CiviCRM universe. All of the
-other building blocks of CiviCRM, like relationships, actvities, groups
+other building blocks of CiviCRM, like relationships, activities, groups
 and contributions connect to contacts in some way.
 
 ## A quick look at contacts
