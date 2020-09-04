@@ -207,6 +207,23 @@ Thank-you and Receipt emails that are sent to contributors.
     recommended to enable the automatic Email Receipt.
 4.  Click **Save and Done**.
 
+#### Email alerts for contributions
+
+Add one or more staff emails to the **CC Receipt To** or
+**BCC Receipt To** fields if you want real-time updates on who
+has processed a contribution. Enter one or more email addresses
+separated by comma.
+
+!!! warning
+    Make sure that the email addresses entered into the **CC Receipt To**
+    and **BCC Receipt To** fields are **correct and do not bounce**
+    or return an error email. Any return emails received by CiviCRM will be
+    interpreted as a bounce for the CiviCRM Contact that the receipt
+    was sent too and not as a bounce for the CC/BCC email address.
+    This can have the adverse impact that the CiviCRM Contact's email
+    address is put **On Hold** and **cause future emails to not be sent**.
+    [For more details see this issue report](https://lab.civicrm.org/dev/core/-/issues/1999). 
+
 ## Publicizing your contribution page
 
 Now that you've created your contribution page, it's time to bring

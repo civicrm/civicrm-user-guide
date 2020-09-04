@@ -175,16 +175,30 @@ payment is processed between the Confirmation and Thank you pages.
 For most events you'll want to enable the Send Confirmation Email
 feature (see following screenshot). For paid events, the confirmation
 email also acts as a receipt. Make sure that the **Confirm From Email**
-address entered is a valid email account on your mail server. Add one or
-more staff emails (separating multiple email addresses with commas) to
-the **CC Confirmation To** field if you want real-time updates on who is
-registering for your event.
+address entered is a valid email account on your mail server.
 
 ![screenshot](../img/CiviCRM_update-CiviEvent-OnlineRegEmail-en.png "OnlineRegEmail")
 
 Please note that the contents of the **Text** field will be included in
 both TEXT and HTML versions of receipt emails so we do not recommend
 including HTML tags / formatting here.
+
+#### Email alerts for event registrations
+
+Add one or more staff emails to the **CC Confirmation To** or
+**BCC Confirmation To** fields if you want real-time updates on who
+is registering for your event. Enter one or more email addresses
+separated by comma.
+
+!!! warning
+    Make sure that the email addresses entered into the **CC Receipt To**
+    and **BCC Receipt To** fields are **correct and do not bounce**
+    or return an error email. Any return emails received by CiviCRM will be
+    interpreted as a bounce for the CiviCRM Contact that the receipt
+    was sent too and not as a bounce for the CC/BCC email address.
+    This can have the adverse impact that the CiviCRM Contact's email
+    address is put **On Hold** and **cause future emails to not be sent**.
+    [For more details see this issue report](https://lab.civicrm.org/dev/core/-/issues/1999). 
 
 ## Optional event registration features
 

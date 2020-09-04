@@ -158,16 +158,28 @@ that gets added to the membership receipt on this page, and the email
 address that the receipt will come from. If you want to further
 customise the receipt email template you can do so using the **Mailings > Message templates** screen.
 
-You may also want to CC or BCC every membership receipt to a staff
-member so they are alerted immediately every time someone becomes a
-member.
-
 ![image](../img/membership_page_receipt_1.png)
 
 ![image](../img/membership_page_receipt_2.png)
 
-### The Tell-A-Friend tab
+#### Email alerts for memberships
 
+Add one or more staff emails to the **CC Receipt To** or
+**BCC Receipt To** fields if you want real-time updates on who
+has processed a membership. Enter one or more email addresses
+separated by comma.
+
+!!! warning
+    Make sure that the email addresses entered into the **CC Receipt To**
+    and **BCC Receipt To** fields are **correct and do not bounce**
+    or return an error email. Any return emails received by CiviCRM will be
+    interpreted as a bounce for the CiviCRM Contact that the receipt
+    was sent too and not as a bounce for the CC/BCC email address.
+    This can have the adverse impact that the CiviCRM Contact's email
+    address is put **On Hold** and **cause future emails to not be sent**.
+    [For more details see this issue report](https://lab.civicrm.org/dev/core/-/issues/1999). 
+
+### The Tell-A-Friend tab
 
 CiviCRM allows you to add a tell-a-friend feature to the thank-you page.
 The page lets your members share details about your organization with
