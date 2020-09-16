@@ -113,6 +113,8 @@ being compared are flagged as suspected duplicates.
 
 ## Using rules and merging duplicate contacts manually
 
+!!! tip  an alternate UI is available in [the deduper extension](https://github.com/eileenmcnaughton/deduper/blob/master/Readme.md)
+
 1.  Go to **Contacts > Find and Merge Duplicate Contacts**.
 2.  Click the **Use Rule** link to scan for duplicate contacts using the
     selected rule.
@@ -199,6 +201,28 @@ page will not refresh automatically, just in case your database is very
 large, and searching for duplicates would cause a significant delay. You
 may then continue to assess and merge the remaining duplicates manually.
 
+If you wish to increase the number of pairs that can be resolved in batch
+merge the [deduper](https://github.com/eileenmcnaughton/deduper/blob/master/Readme.md)
+extension provides a range of resolutions, allowing you to do things like
+specify that conflicts on certain fields should be non-blocking or
+handling diacritic names.
+
+Batch merging can also be done from the command line - e.g
+
+```
+ echo '{"search_limit": 10000, "criteria":{"contact" : {"id" : {">" : 200}}}}'
+   | drush --in=json cvapi Job.process_batch_merge
+
+```
+
+Would find any contacts that match any of 
+
+"the first 10000 contacts found with an id greater than 200" 
+and attempt to automtically merge them using the defaults of 'safe' mode 
+(skip when there are conflicts) and the default rules for individuals.
+
+
+
 ![screenshot](../img/CiviCRM_dedupe_batchmerge.png)
 
 !!! warning
@@ -207,7 +231,7 @@ may then continue to assess and merge the remaining duplicates manually.
 
     *  This feature is intended for use with large data sets that have strictly managed field structures. If you have a small database with only a few duplicates, we recommend you merge them manually using your own judgement.
     *  Once merged, the links between the duplicate contact and records elsewhere in the system will be transferred to the original contact (e.g. event participant records, groups, tags, contributions, activities, cases and memberships). You will NOT be able to reverse this change.
-    *  Duplicate records, once merged, will be deleted and are not recoverable. We strongly recommend backing up your data before running a batch merge.
+    *  Duplicate records, once merged, will be deleted and are not recoverable, unless you have database logging enabled. We strongly recommend backing up your data before running a batch merge.
 
 ## A multi-stage deduping process
 
