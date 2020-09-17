@@ -177,7 +177,7 @@ If you need more control, you can use the following steps to set different permi
 1. Begin with CiviCRM installed within Drupal, Backdrop, or WordPress. (This feature is not yet available for Joomla.)
 1. Go to **Administer** > **CiviContribute** > **CiviContribute Component Settings**.
 1. Check the box to **Enable Access Control by Financial Type**.
-1. Edit your CMS permissions and see that CiviCRM has added a 'view', 'edit' and 'delete' permission for every financial type. Assign these permissions as needed.
+1. Edit your CMS permissions and see that CiviCRM has added a 'view', 'edit' and 'delete' permission for every financial type. Assign these permissions as needed. You must assign add and view for each financial types to the anonymous user role for visitors to access your contribution pages.
 
 For example, you may wish to use this feature to allow some users to manage event payments without being able to see any of the data about donations.
 
